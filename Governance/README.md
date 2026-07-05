@@ -1,7 +1,12 @@
 # Governance
 
-## What is Governance?
+This section contains practical guides, concepts, frameworks, and best practices related to Governance.
 
-Governance is the system of leadership, oversight, accountability, decision-making, and control that ensures an organization achieves its objectives while managing risk and complying with applicable laws, regulations, and standards.
+## Topics
 
-This section will include practical guides, frameworks, templates, and governance best practices.
+- What is Governance?
+- Corporate Governance
+- Cybersecurity Governance
+- IT Governance
+- Governance Models
+- Governance Frameworks

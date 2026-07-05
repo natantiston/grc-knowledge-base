@@ -1,50 +1,49 @@
-# GRC Knowledge Base
+# 📚 GRC Knowledge Base
 
-Welcome to the **GRC Knowledge Base**, an open repository dedicated to Governance, Risk & Compliance (GRC), cybersecurity governance, AI governance, and international standards.
+Welcome to the **GRC Knowledge Base**.
 
-## 🎯 Mission
-
-The goal of this repository is to provide practical, easy-to-understand resources for cybersecurity professionals, GRC practitioners, auditors, students, and organizations.
-
-## 📚 Topics Covered
-
-- Governance
-- Enterprise Risk Management
-- Information Security
-- ISO 27001
-- ISO 31000
-- ISO 22301
-- ISO 42001 (AI Management Systems)
-- NIST Cybersecurity Framework
-- PCI DSS
-- Third-Party Risk Management
-- Business Continuity
-- AI Governance
-- Security Awareness
-
-## 📁 Repository Structure
-
-```text
-Governance/
-Risk-Management/
-Compliance/
-ISO-27001/
-ISO-31000/
-ISO-22301/
-ISO-42001/
-NIST-CSF/
-PCI-DSS/
-Business-Continuity/
-AI-Governance/
-Templates/
-Diagrams/
-Whitepapers/
-```
-
-## 🚀 About
-
-This repository is part of my commitment to sharing practical cybersecurity and GRC knowledge with the community.
+This repository provides practical resources on Governance, Risk & Compliance (GRC), Cybersecurity, AI Governance, and ISO standards.
 
 ---
 
-**Author:** Natan Tiston
+# Contents
+
+## Governance
+
+- [What is Governance?](Governance/What-is-Governance.md)
+
+## Risk Management
+
+- [What is Risk Management?](Risk-Management/What-is-Risk-Management.md)
+
+## Compliance
+
+*(Coming Soon)*
+
+## ISO Standards
+
+- ISO 27001
+- ISO 31000
+- ISO 22301
+- ISO 42001
+
+## AI Governance
+
+*(Coming Soon)*
+
+## Templates
+
+*(Coming Soon)*
+
+## Diagrams
+
+*(Coming Soon)*
+
+## Whitepapers
+
+*(Coming Soon)*
+
+---
+
+Created by **Natan Tiston**
+LinkedIn: https://www.linkedin.com/in/natantiston/

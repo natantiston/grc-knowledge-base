@@ -644,4 +644,301 @@ Examples include:
 
 Process mapping is particularly useful for identifying operational inefficiencies, control gaps, bottlenecks, and dependencies that may not be visible through interviews or document reviews alone.
 
+# SWOT Analysis
+
+**SWOT Analysis** is a strategic planning technique that helps organizations identify risks and opportunities by evaluating internal and external factors.
+
+SWOT stands for:
+
+- **Strengths**
+- **Weaknesses**
+- **Opportunities**
+- **Threats**
+
+The first two elements focus on the organization's internal environment, while the last two examine external influences.
+
+For risk identification, SWOT helps organizations understand how internal weaknesses and external threats may affect strategic objectives, while also recognizing strengths and opportunities that can reduce or offset risks.
+
+### Example
+
+A company planning to expand into a new international market may identify:
+
+**Strengths**
+
+- Strong financial position
+- Experienced management
+- Established brand reputation
+
+**Weaknesses**
+
+- Limited international experience
+- Small cybersecurity team
+- Dependence on a single supplier
+
+**Opportunities**
+
+- Growing customer demand
+- Emerging technologies
+- Government incentives
+
+**Threats**
+
+- New competitors
+- Political instability
+- Changing regulations
+- Currency fluctuations
+
+SWOT provides a balanced view of both risks and opportunities during strategic planning.
+
+---
+
+# PESTLE Analysis
+
+PESTLE Analysis is another widely used technique for identifying external risks.
+
+It examines factors that may influence an organization but remain largely outside its direct control.
+
+PESTLE stands for:
+
+- **Political**
+- **Economic**
+- **Social**
+- **Technological**
+- **Legal**
+- **Environmental**
+
+Examples include:
+
+**Political**
+
+- Government policy changes
+- Trade restrictions
+- Political instability
+
+**Economic**
+
+- Inflation
+- Exchange rate fluctuations
+- Recession
+- Interest rate changes
+
+**Social**
+
+- Demographic changes
+- Workforce expectations
+- Consumer behavior
+
+**Technological**
+
+- Artificial Intelligence
+- Automation
+- Cloud computing
+- Emerging cyber threats
+
+**Legal**
+
+- Privacy regulations
+- Labor laws
+- Industry compliance requirements
+
+**Environmental**
+
+- Climate change
+- Natural disasters
+- Sustainability requirements
+
+PESTLE is particularly useful during strategic planning because it helps organizations anticipate external developments before they significantly affect operations.
+
+---
+
+# Scenario Analysis
+
+Scenario analysis evaluates how different future situations could affect the organization.
+
+Rather than predicting a single outcome, organizations develop several plausible scenarios and evaluate their potential consequences.
+
+Examples include:
+
+- Major ransomware attack.
+- Global supply chain disruption.
+- Extended power outage.
+- Pandemic resurgence.
+- Economic recession.
+- Data center failure.
+- Loss of a critical supplier.
+- Regulatory changes affecting business operations.
+
+For each scenario, organizations assess:
+
+- Possible causes.
+- Potential impacts.
+- Existing controls.
+- Response capabilities.
+- Recovery requirements.
+
+Scenario analysis strengthens preparedness and supports business continuity planning.
+
+---
+
+# Business Impact Analysis (BIA)
+
+A **Business Impact Analysis (BIA)** identifies critical business processes and evaluates the consequences of their disruption.
+
+Although commonly associated with Business Continuity Management (BCM), the BIA is also an effective risk identification technique.
+
+A BIA helps organizations determine:
+
+- Critical business functions.
+- Maximum acceptable downtime.
+- Recovery priorities.
+- Resource dependencies.
+- Financial consequences.
+- Operational impacts.
+- Customer impacts.
+- Regulatory implications.
+
+For example, a financial institution may determine that its online banking platform has a maximum acceptable outage of two hours, while less critical administrative systems may tolerate longer recovery times.
+
+The information gathered during a BIA helps identify risks that could interrupt critical operations and guides the development of recovery strategies.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Advanced Risk Identification Techniques
+
+**Diagram Description:**
+
+Create a central circle labeled:
+
+**Risk Identification**
+
+Surround it with five connected circles labeled:
+
+- SWOT Analysis
+- PESTLE Analysis
+- Scenario Analysis
+- Business Impact Analysis (BIA)
+- Threat Modeling
+
+Include arrows pointing toward the center to show that each technique contributes unique insights into organizational risks.
+
+---
+
+# Threat Modeling
+
+Threat modeling is a structured technique used primarily in cybersecurity to identify potential threats against systems, applications, networks, and data.
+
+Rather than waiting for vulnerabilities to be exploited, threat modeling helps organizations proactively identify attack paths and implement security controls during the design and development phases.
+
+Common questions include:
+
+- What assets require protection?
+- Who are the potential threat actors?
+- What attack methods could be used?
+- Which vulnerabilities could be exploited?
+- What controls should be implemented?
+
+Popular threat modeling methodologies include:
+
+- STRIDE
+- DREAD
+- Attack Trees
+- MITRE ATT&CK
+
+Threat modeling is widely used in secure software development, cloud security, network architecture, and system design.
+
+---
+
+# Best Practices for Risk Identification
+
+Effective risk identification requires more than selecting the right techniques.
+
+Organizations should adopt practices that ensure the process remains comprehensive, consistent, and responsive to change.
+
+Recommended best practices include:
+
+- Perform risk identification regularly rather than only during annual assessments.
+- Involve stakeholders from different business functions and organizational levels.
+- Combine multiple identification techniques instead of relying on a single method.
+- Consider both internal and external sources of risk.
+- Document identified risks in a centralized risk register.
+- Include emerging risks alongside known and historical risks.
+- Review incidents, audit findings, and lessons learned to identify recurring issues.
+- Update risk assessments whenever significant organizational or environmental changes occur.
+- Encourage employees to report concerns and emerging risks without fear of retaliation.
+- Continuously improve the risk identification process based on organizational experience and industry best practices.
+
+---
+
+# Summary
+
+Risk identification is the foundation of effective risk management because only identified risks can be analyzed, evaluated, treated, and monitored.
+
+Throughout this lesson, we explored the characteristics of effective risk identification, examined internal and external sources of risk, and reviewed common categories of organizational risk.
+
+We also studied practical risk identification techniques, including brainstorming, interviews, workshops, questionnaires, document reviews, checklists, process mapping, SWOT analysis, PESTLE analysis, scenario analysis, Business Impact Analysis (BIA), and threat modeling.
+
+Using multiple techniques and involving stakeholders from across the organization enables businesses to develop a comprehensive understanding of their risk landscape and supports more informed decision-making.
+
+---
+
+# Key Takeaways
+
+- Risk identification is the first operational step in managing organizational uncertainty.
+- Effective risk identification is systematic, comprehensive, inclusive, and continuous.
+- Risks originate from both internal and external sources.
+- Organizational risks can be categorized into strategic, operational, financial, compliance, cybersecurity, reputational, environmental, and third-party risks.
+- No single identification technique is sufficient for every organization.
+- Combining multiple techniques produces more comprehensive and reliable results.
+- SWOT and PESTLE support strategic risk identification, while BIA and threat modeling provide operational and cybersecurity perspectives.
+- Risk identification should be regularly updated to reflect changes in the organization's internal and external environment.
+
+---
+
+# Knowledge Check
+
+1. Why is risk identification considered the foundation of the risk management process?
+2. What are the characteristics of an effective risk identification process?
+3. What is the difference between internal and external sources of risk?
+4. How does SWOT analysis support risk identification?
+5. What external factors are examined using PESTLE analysis?
+6. Why is scenario analysis useful for organizational preparedness?
+7. What information is obtained through a Business Impact Analysis (BIA)?
+8. What is the purpose of threat modeling in cybersecurity?
+9. Why should organizations combine multiple risk identification techniques?
+10. What best practices improve the effectiveness of risk identification?
+
+---
+
+# Further Reading
+
+### International Standards
+
+- ISO 31000 — *Risk Management – Guidelines*
+- ISO/IEC 27005 — *Information Security Risk Management*
+- ISO 22301 — *Business Continuity Management Systems*
+
+### Related Frameworks
+
+- NIST Risk Management Framework (RMF)
+- NIST Cybersecurity Framework (CSF)
+- MITRE ATT&CK
+- COBIT 2019
+
+### Related Topics
+
+- Enterprise Risk Management
+- Business Continuity Management
+- Cybersecurity Risk Assessment
+- Threat Modeling
+- Governance, Risk, and Compliance (GRC)
+
+---
+
+# Next Lesson
+
+➡️ **Lesson 2.7 – Risk Analysis and Risk Assessment**
+
+In the next lesson, we will examine how organizations analyze identified risks, assess likelihood and impact, apply qualitative and quantitative assessment methods, use risk matrices and heat maps, and prioritize risks to support informed decision-making.
 

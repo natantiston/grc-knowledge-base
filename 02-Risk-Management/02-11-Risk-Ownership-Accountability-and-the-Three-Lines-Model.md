@@ -360,4 +360,347 @@ The Information Security Governance or GRC team (Second Line):
 
 This collaborative approach helps ensure that risks are managed consistently while maintaining effective governance and accountability throughout the organization.
 
+# Third Line – Internal Audit
+
+The **Third Line** of the Three Lines Model is **Internal Audit**.
+
+Internal Audit provides **independent and objective assurance** that the organization's governance, risk management, and internal control processes are functioning effectively.
+
+Unlike the First and Second Lines, Internal Audit does **not**:
+
+- Own risks.
+- Implement controls.
+- Operate business processes.
+- Make management decisions.
+
+Instead, Internal Audit evaluates whether the First and Second Lines are performing their responsibilities effectively.
+
+This independence allows Internal Audit to provide unbiased assessments to executive management and the Board of Directors.
+
+---
+
+# Responsibilities of Internal Audit
+
+Internal Audit performs a wide range of assurance activities, including:
+
+- Evaluating governance processes.
+- Reviewing Enterprise Risk Management (ERM) programs.
+- Assessing the effectiveness of internal controls.
+- Verifying compliance with policies and regulations.
+- Conducting operational and financial audits.
+- Reviewing cybersecurity governance.
+- Assessing business continuity and disaster recovery programs.
+- Reporting findings and recommendations to senior management and the Board.
+
+Internal Audit also follows up on previous audit findings to confirm that agreed corrective actions have been implemented.
+
+Its primary objective is to improve governance, strengthen internal controls, and enhance organizational performance.
+
+---
+
+# Independence of Internal Audit
+
+Independence is one of the defining characteristics of Internal Audit.
+
+To maintain objectivity, Internal Audit should:
+
+- Report functionally to the Board of Directors or Audit Committee.
+- Avoid operational responsibilities.
+- Remain independent from business decision-making.
+- Conduct audits based on risk priorities.
+- Provide evidence-based recommendations.
+
+If Internal Audit becomes responsible for implementing controls or managing risks, its independence is compromised, reducing the credibility of its assurance activities.
+
+For this reason, international standards emphasize that Internal Audit should remain separate from operational management.
+
+---
+
+# The Role of the Board of Directors
+
+The **Board of Directors** has ultimate responsibility for governance and enterprise risk oversight.
+
+Although the Board does not manage day-to-day risks, it ensures that appropriate governance structures and risk management processes are in place.
+
+Typical Board responsibilities include:
+
+- Approving risk appetite.
+- Reviewing enterprise risk reports.
+- Overseeing strategic risks.
+- Monitoring governance effectiveness.
+- Reviewing significant audit findings.
+- Ensuring accountability.
+- Supporting ethical organizational culture.
+- Monitoring regulatory compliance.
+
+The Board relies on information provided by management, the Second Line, and Internal Audit to make informed governance decisions.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Complete Three Lines Model
+
+**Diagram Description:**
+
+Create a four-layer vertical diagram.
+
+**Top Layer**
+
+**Board of Directors & Executive Management**
+
+*(Governance, oversight, and strategic direction.)*
+
+↓
+
+**First Line – Operational Management**
+
+- Owns risks
+- Implements controls
+- Manages operations
+
+↓
+
+**Second Line – Risk, Compliance & GRC**
+
+- Develops policies
+- Provides oversight
+- Monitors compliance
+- Advises management
+
+↓
+
+**Third Line – Internal Audit**
+
+- Independent assurance
+- Evaluates governance
+- Reviews controls
+- Reports to the Board
+
+At the bottom include:
+
+**External Stakeholders**
+*(Regulators, customers, shareholders, external auditors.)*
+
+Include the caption:
+
+*"The Three Lines Model separates risk ownership, oversight, and independent assurance while promoting collaboration and effective governance."*
+
+---
+
+# External Assurance
+
+In addition to Internal Audit, organizations often receive assurance from external parties.
+
+Examples include:
+
+- External auditors.
+- Regulatory authorities.
+- Certification bodies.
+- Independent assessors.
+- Customers conducting supplier audits.
+
+External assurance activities may include:
+
+- Financial audits.
+- ISO certification audits.
+- Regulatory inspections.
+- Cybersecurity assessments.
+- Third-party compliance reviews.
+
+While these external parties provide valuable assurance, they do not replace the organization's responsibility to maintain an effective governance and risk management framework.
+
+---
+
+# Practical Example of the Three Lines Model
+
+Consider an organization implementing a new cloud-based customer relationship management (CRM) system.
+
+- **First Line (IT and Business Operations):** Identifies implementation risks, configures security controls, manages user access, and operates the system on a daily basis.
+- **Second Line (Information Security and GRC):** Reviews the cloud security assessment, ensures compliance with organizational policies and regulatory requirements, and monitors key risks throughout the implementation.
+- **Third Line (Internal Audit):** Independently evaluates whether governance processes, risk assessments, and security controls were properly designed and implemented, then reports findings to executive management and the Audit Committee.
+
+Each line has a distinct role, but together they provide a comprehensive and coordinated approach to managing organizational risk while supporting effective governance.
+
+# Benefits of the Three Lines Model
+
+Organizations that implement the Three Lines Model effectively gain significant governance and risk management benefits.
+
+These include:
+
+- Clear accountability for risks.
+- Improved governance and oversight.
+- Stronger internal controls.
+- Better communication between business functions.
+- More consistent risk management practices.
+- Greater regulatory compliance.
+- Increased transparency.
+- Independent assurance for leadership.
+- Better strategic decision-making.
+- Enhanced organizational resilience.
+
+By clearly defining responsibilities, the model helps prevent gaps, duplication of effort, and confusion regarding who is responsible for managing specific risks.
+
+---
+
+# Common Challenges in Applying the Three Lines Model
+
+Although the Three Lines Model is widely adopted, organizations often encounter implementation challenges.
+
+Common challenges include:
+
+- Unclear ownership of risks.
+- Overlapping responsibilities between departments.
+- Limited executive support.
+- Insufficient communication.
+- Lack of qualified personnel.
+- Inadequate documentation.
+- Weak governance structures.
+- Failure to maintain Internal Audit independence.
+- Resistance to organizational change.
+- Inconsistent application across business units.
+
+Organizations can address these challenges by establishing clear governance frameworks, defining responsibilities, providing regular training, and fostering collaboration between all three lines.
+
+---
+
+# Best Practices for Risk Ownership and Accountability
+
+Organizations should adopt best practices that strengthen accountability and improve risk governance.
+
+Recommended practices include:
+
+- Assign a clearly identified owner for every significant risk.
+- Ensure risk owners have sufficient authority and resources.
+- Clearly distinguish ownership, responsibility, and accountability.
+- Maintain an up-to-date enterprise risk register with assigned owners.
+- Establish formal escalation procedures for significant risks.
+- Promote collaboration between operational management, oversight functions, and Internal Audit.
+- Preserve the independence and objectivity of Internal Audit.
+- Regularly review governance structures and reporting relationships.
+- Provide ongoing training on risk management roles and responsibilities.
+- Foster a culture where accountability and ethical decision-making are expected at every level.
+
+These practices help organizations build a governance structure that supports effective decision-making, transparency, and long-term organizational success.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Risk Ownership and Accountability Framework
+
+**Diagram Description:**
+
+Create a flow diagram showing the relationship between governance and accountability.
+
+At the top place:
+
+**Board of Directors**
+
+↓
+
+**Executive Management**
+
+↓
+
+**Risk Owners (Business Units)**
+
+↓
+
+**Control Owners / Process Owners**
+
+To the right of the business units, place:
+
+**Second Line**
+- GRC
+- Compliance
+- Risk Management
+- Information Security
+
+Point advisory arrows toward the Risk Owners.
+
+Below everything, place:
+
+**Internal Audit (Third Line)**
+
+Draw a separate arrow from Internal Audit directly to the Board of Directors labeled:
+
+**Independent Assurance**
+
+Include the caption:
+
+*"Effective governance depends on clear ownership, defined responsibilities, independent assurance, and strong accountability across all organizational levels."*
+
+---
+
+# Summary
+
+Effective risk management requires more than identifying and assessing risks—it requires clear ownership, accountability, and governance.
+
+Throughout this lesson, we explored the concepts of risk ownership, responsibility, accountability, and authority, and examined how these concepts support effective decision-making and organizational resilience.
+
+We also studied the Institute of Internal Auditors' Three Lines Model, including the distinct responsibilities of operational management (First Line), risk and compliance functions (Second Line), and Internal Audit (Third Line). Finally, we examined the role of the Board of Directors, external assurance providers, implementation challenges, and best practices for assigning and managing risk ownership.
+
+When roles are clearly defined and governance structures are well established, organizations are better positioned to manage uncertainty, improve compliance, strengthen internal controls, and achieve their strategic objectives.
+
+---
+
+# Key Takeaways
+
+- Every significant organizational risk should have a clearly assigned risk owner.
+- Risk ownership, responsibility, accountability, and authority are related but distinct concepts.
+- The First Line owns and manages operational risks as part of daily business activities.
+- The Second Line provides governance, oversight, guidance, and compliance monitoring.
+- The Third Line (Internal Audit) provides independent assurance on governance, risk management, and internal controls.
+- The Board of Directors is ultimately responsible for enterprise risk oversight and governance.
+- Internal Audit must remain independent to provide objective assurance.
+- Clear accountability, collaboration, and communication strengthen enterprise risk management and organizational resilience.
+
+---
+
+# Knowledge Check
+
+1. What is the role of a risk owner?
+2. How does accountability differ from responsibility?
+3. Why is authority important when assigning risk ownership?
+4. What are the responsibilities of the First Line in the Three Lines Model?
+5. How does the Second Line support effective risk management?
+6. Why must Internal Audit remain independent?
+7. What governance responsibilities belong to the Board of Directors?
+8. How do external assurance providers differ from Internal Audit?
+9. What challenges commonly affect the implementation of the Three Lines Model?
+10. What best practices improve risk ownership and accountability?
+
+---
+
+# Further Reading
+
+### International Standards
+
+- ISO 31000 — *Risk Management – Guidelines*
+- ISO/IEC 27001 — *Information Security Management Systems (ISMS)*
+- ISO/IEC 27005 — *Information Security Risk Management*
+
+### Frameworks and Guidance
+
+- Institute of Internal Auditors (IIA) — *The Three Lines Model*
+- COSO Enterprise Risk Management (ERM) Framework
+- COBIT 2019
+
+### Related Topics
+
+- Corporate Governance
+- Enterprise Risk Management (ERM)
+- Governance, Risk, and Compliance (GRC)
+- Internal Audit
+- Risk Culture
+
+---
+
+# Next Lesson
+
+➡️ **Lesson 2.12 – Risk Communication and Stakeholder Engagement**
+
+In the next lesson, we will explore how organizations communicate risk information to internal and external stakeholders, develop effective risk communication strategies, engage executives and business units in risk discussions, and build a culture of transparency that supports informed decision-making and effective governance.
+
 

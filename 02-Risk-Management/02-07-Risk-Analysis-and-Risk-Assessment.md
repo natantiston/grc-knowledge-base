@@ -615,4 +615,212 @@ Maintaining an accurate and up-to-date risk register enables organizations to mo
 
 Risk registers also improve communication by providing leadership with a consolidated view of organizational risks and the actions being taken to manage them.
 
+# Factors That Influence Risk Assessments
 
+Risk assessments should not rely solely on likelihood and impact scores.
+
+Several additional factors influence how organizations evaluate and prioritize risks.
+
+These include:
+
+## Existing Controls
+
+Organizations should consider the controls that are already in place.
+
+Effective preventive, detective, and corrective controls can significantly reduce the likelihood or impact of a risk.
+
+Examples include:
+
+- Security awareness training.
+- Firewalls.
+- Multi-factor authentication.
+- Segregation of duties.
+- Backup systems.
+- Business continuity plans.
+- Monitoring and alerting tools.
+
+The effectiveness of these controls should be evaluated rather than simply assuming they are working as intended.
+
+---
+
+## Organizational Risk Appetite
+
+Every organization has a different willingness to accept risk.
+
+A financial institution may have a very low tolerance for regulatory non-compliance, while a technology startup may accept greater innovation risks to achieve rapid growth.
+
+Risk assessments should always be aligned with the organization's approved risk appetite and risk tolerance.
+
+---
+
+## Business Context
+
+The significance of a risk depends on the business environment.
+
+For example, a one-hour system outage may have minimal impact on a small business but could result in substantial financial losses for an online banking platform or a healthcare provider.
+
+Assessments should therefore consider:
+
+- Business objectives.
+- Critical processes.
+- Customer expectations.
+- Regulatory obligations.
+- Industry requirements.
+
+Understanding the business context ensures that risks are evaluated according to their actual organizational impact.
+
+---
+
+## Emerging Risks
+
+Organizations should also consider risks that are developing or evolving.
+
+Examples include:
+
+- Artificial Intelligence (AI) adoption.
+- Quantum computing.
+- Geopolitical conflicts.
+- Climate-related events.
+- Supply chain disruptions.
+- New privacy regulations.
+- Advanced cyber threats.
+
+Emerging risks often involve significant uncertainty, making continuous monitoring and periodic reassessment essential.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Factors Influencing Risk Assessment
+
+**Diagram Description:**
+
+Create a central circle labeled:
+
+**Risk Assessment**
+
+Surround it with six connected circles labeled:
+
+- Likelihood
+- Impact
+- Existing Controls
+- Risk Appetite
+- Business Context
+- Emerging Risks
+
+Include connecting lines from each factor to the center, showing that multiple considerations contribute to an accurate and balanced risk assessment.
+
+---
+
+# Common Challenges in Risk Assessment
+
+Although organizations strive to perform objective risk assessments, several challenges can reduce their accuracy and effectiveness.
+
+Common challenges include:
+
+- Incomplete or inaccurate information.
+- Subjective judgments.
+- Inconsistent scoring between departments.
+- Rapidly changing business environments.
+- Emerging risks with limited historical data.
+- Overreliance on qualitative assessments.
+- Failure to consider interrelated risks.
+- Inadequate stakeholder involvement.
+- Outdated risk registers.
+- Insufficient monitoring of existing controls.
+
+Recognizing these challenges allows organizations to strengthen their assessment methodologies and improve decision-making.
+
+---
+
+# Best Practices for Effective Risk Assessment
+
+Organizations can improve the quality of their risk assessments by following recognized best practices.
+
+These include:
+
+- Establish standardized assessment criteria.
+- Use consistent likelihood and impact scales.
+- Clearly define risk scoring methodologies.
+- Involve stakeholders from different business functions.
+- Consider both inherent and residual risk.
+- Validate assessments using available evidence and data.
+- Review assessments regularly as business conditions change.
+- Maintain an up-to-date risk register.
+- Integrate risk assessments into strategic and operational decision-making.
+- Continuously improve assessment methods based on lessons learned and industry best practices.
+
+These practices improve consistency, transparency, and confidence in organizational risk decisions.
+
+---
+
+# Summary
+
+Risk analysis and risk assessment enable organizations to understand the significance of identified risks and prioritize them according to their potential effect on business objectives.
+
+Throughout this lesson, we distinguished between risk analysis and the broader risk assessment process, examined qualitative, quantitative, and semi-quantitative assessment methods, and explored how likelihood, impact, risk matrices, heat maps, and risk scoring support consistent evaluation.
+
+We also discussed the importance of risk registers, the factors that influence assessment outcomes, common challenges encountered during assessments, and best practices for improving accuracy and consistency.
+
+A structured and well-documented risk assessment process supports informed decision-making, strengthens governance, and helps organizations allocate resources to the risks that matter most.
+
+---
+
+# Key Takeaways
+
+- Risk assessment consists of risk identification, risk analysis, and risk evaluation.
+- Risk analysis estimates the likelihood and impact of identified risks.
+- Qualitative, quantitative, and semi-quantitative methods each provide different levels of precision and complexity.
+- Risk matrices and heat maps help visualize and prioritize organizational risks.
+- Risk registers provide a centralized record of risks, controls, treatment plans, and ownership.
+- Existing controls, business context, risk appetite, and emerging risks all influence assessment results.
+- Consistent methodologies improve the reliability and comparability of risk assessments.
+- Regular reviews and continual improvement ensure that risk assessments remain relevant as organizational and external conditions change.
+
+---
+
+# Knowledge Check
+
+1. What is the difference between risk analysis and risk assessment?
+2. How do qualitative, quantitative, and semi-quantitative assessments differ?
+3. What information does a risk matrix provide?
+4. How is a risk heat map different from a risk matrix?
+5. What information is typically recorded in a risk register?
+6. Why should organizations consider existing controls during risk analysis?
+7. How do business context and risk appetite influence risk assessments?
+8. What challenges commonly reduce the effectiveness of risk assessments?
+9. What best practices improve the consistency of risk assessments?
+10. Why should risk assessments be reviewed and updated regularly?
+
+---
+
+# Further Reading
+
+### International Standards
+
+- ISO 31000 — *Risk Management – Guidelines*
+- ISO Guide 73 — *Risk Management Vocabulary*
+- ISO/IEC 27005 — *Information Security Risk Management*
+
+### Frameworks and Guidance
+
+- COSO Enterprise Risk Management (ERM)
+- NIST Risk Management Framework (RMF)
+- NIST Cybersecurity Framework (CSF)
+- FAIR (Factor Analysis of Information Risk)
+
+### Related Topics
+
+- Enterprise Risk Management
+- Information Security Risk Assessment
+- Governance, Risk, and Compliance (GRC)
+- Internal Audit
+- Business Continuity Management
+
+---
+
+# Next Lesson
+
+➡️ **Lesson 2.8 – Risk Treatment and Risk Response Strategies**
+
+In the next lesson, we will explore how organizations select and implement risk treatment options, including risk avoidance, reduction, transfer, acceptance, and exploitation of opportunities, while developing practical risk treatment plans that align with business objectives and risk appetite.

@@ -408,4 +408,211 @@ Many organizations combine multiple methods depending on the significance and co
 
 Using the appropriate assessment technique improves consistency, supports informed decision-making, and helps ensure that resources are directed toward the risks that matter most.
 
+# Risk Matrix
+
+One of the most widely used tools in risk assessment is the **risk matrix**.
+
+A risk matrix combines the likelihood of a risk occurring with its potential impact to determine an overall risk rating.
+
+This provides a consistent and visual method for comparing risks across different business units, projects, or organizational processes.
+
+Risk matrices are commonly used because they are:
+
+- Easy to understand.
+- Simple to apply.
+- Effective for prioritizing risks.
+- Suitable for management reporting.
+- Widely recognized across industries.
+
+Most organizations customize their matrices based on their own risk appetite, industry requirements, and governance practices.
+
+---
+
+# How a Risk Matrix Works
+
+A typical risk matrix uses two dimensions:
+
+- **Likelihood** (Probability of occurrence)
+- **Impact** (Severity of consequences)
+
+Each dimension is assigned a rating, usually on a scale from 1 to 5.
+
+Example:
+
+| Likelihood | Score |
+|------------|------:|
+| Rare | 1 |
+| Unlikely | 2 |
+| Possible | 3 |
+| Likely | 4 |
+| Almost Certain | 5 |
+
+| Impact | Score |
+|---------|------:|
+| Insignificant | 1 |
+| Minor | 2 |
+| Moderate | 3 |
+| Major | 4 |
+| Catastrophic | 5 |
+
+The intersection of likelihood and impact determines the overall risk level.
+
+For example:
+
+- Likelihood = 4 (Likely)
+- Impact = 5 (Catastrophic)
+
+Overall Risk Score = **20**, which may be classified as **Critical Risk**.
+
+Organizations then prioritize risks according to these ratings.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Example 5×5 Risk Matrix
+
+**Diagram Description:**
+
+Create a standard 5×5 risk matrix.
+
+Rows (Likelihood):
+
+- Almost Certain
+- Likely
+- Possible
+- Unlikely
+- Rare
+
+Columns (Impact):
+
+- Insignificant
+- Minor
+- Moderate
+- Major
+- Catastrophic
+
+Use increasing shading from the bottom-left corner (Low Risk) to the top-right corner (Critical Risk).
+
+Label the zones:
+
+- Low
+- Medium
+- High
+- Critical
+
+Include the caption:
+
+*"Risk matrices provide a visual representation of risk priorities by combining likelihood and impact."*
+
+---
+
+# Risk Heat Maps
+
+A **risk heat map** is a visual representation of organizational risks based on their assessed likelihood and impact.
+
+While a risk matrix provides the evaluation criteria, a heat map displays the organization's actual risks within that matrix.
+
+Each identified risk is plotted according to its assessment score.
+
+For example:
+
+- Data Breach
+- Supplier Failure
+- Equipment Breakdown
+- Regulatory Non-Compliance
+- Flooding
+- Insider Threat
+
+Heat maps allow management to quickly identify:
+
+- High-priority risks.
+- Risk concentrations.
+- Areas requiring immediate attention.
+- Trends across business units.
+
+Executive leadership often uses heat maps during Board meetings and governance reviews because they provide an easy-to-understand overview of the organization's overall risk profile.
+
+---
+
+# Risk Scoring
+
+Many organizations assign numerical scores to risks to improve consistency and prioritization.
+
+One common approach is:
+
+**Risk Score = Likelihood × Impact**
+
+Example:
+
+| Risk | Likelihood | Impact | Score |
+|------|-----------:|-------:|------:|
+| Ransomware Attack | 5 | 5 | 25 |
+| Supplier Delay | 4 | 3 | 12 |
+| Employee Error | 3 | 2 | 6 |
+| Power Failure | 2 | 4 | 8 |
+
+Organizations define score ranges based on their own governance policies.
+
+For example:
+
+| Score | Risk Level |
+|--------|------------|
+| 1–5 | Low |
+| 6–10 | Medium |
+| 11–15 | High |
+| 16–25 | Critical |
+
+These ranges help ensure that similar risks are evaluated consistently throughout the organization.
+
+---
+
+# Risk Prioritization
+
+After calculating risk levels, organizations prioritize risks according to their potential effect on business objectives.
+
+Prioritization helps management allocate limited resources where they will have the greatest impact.
+
+Factors commonly considered include:
+
+- Overall risk score.
+- Alignment with strategic objectives.
+- Financial exposure.
+- Regulatory obligations.
+- Operational dependency.
+- Customer impact.
+- Reputational consequences.
+- Availability of treatment options.
+
+High-priority risks typically receive immediate management attention, while lower-priority risks may be monitored until conditions change.
+
+Prioritization also supports budgeting, project planning, and executive decision-making.
+
+---
+
+# Risk Registers
+
+A **risk register** is one of the most important documents used in risk management.
+
+It serves as the central repository for recording identified risks and tracking their status throughout the risk management lifecycle.
+
+A typical risk register includes:
+
+- Risk ID.
+- Risk description.
+- Risk category.
+- Risk owner.
+- Likelihood rating.
+- Impact rating.
+- Overall risk level.
+- Existing controls.
+- Planned treatment actions.
+- Residual risk.
+- Review date.
+- Current status.
+
+Maintaining an accurate and up-to-date risk register enables organizations to monitor changes in their risk profile and demonstrate effective governance during audits and regulatory reviews.
+
+Risk registers also improve communication by providing leadership with a consolidated view of organizational risks and the actions being taken to manage them.
+
 

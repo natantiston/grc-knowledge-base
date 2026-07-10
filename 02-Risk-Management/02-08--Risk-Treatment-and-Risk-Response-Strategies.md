@@ -202,3 +202,390 @@ Risk treatment plans should be reviewed regularly to ensure they remain effectiv
 Organizations should update controls, procedures, and treatment strategies whenever significant changes occur.
 
 A structured and well-governed risk treatment process enables organizations to reduce uncertainty while maintaining the flexibility needed to achieve their business goals.
+
+# The Four Primary Risk Response Strategies
+
+Most risk management frameworks recognize four primary strategies for responding to threats.
+
+These strategies help organizations determine the most appropriate way to manage individual risks based on their objectives, available resources, and risk appetite.
+
+The four primary response strategies are:
+
+- Risk Avoidance
+- Risk Reduction (Mitigation)
+- Risk Transfer (Sharing)
+- Risk Acceptance
+
+Organizations may also combine multiple strategies for a single risk when appropriate.
+
+---
+
+# Risk Avoidance
+
+**Risk avoidance** involves eliminating the activity that creates the risk.
+
+Instead of attempting to reduce the likelihood or impact, the organization chooses not to engage in the activity at all.
+
+Risk avoidance is appropriate when:
+
+- The risk exceeds the organization's risk appetite.
+- The potential consequences are unacceptable.
+- No practical controls can reduce the risk to an acceptable level.
+- The business benefit does not justify the exposure.
+
+Examples include:
+
+- Cancelling a high-risk project.
+- Withdrawing from a politically unstable market.
+- Discontinuing a vulnerable legacy application.
+- Refusing to process highly sensitive information without adequate protection.
+- Rejecting a vendor that does not meet minimum cybersecurity requirements.
+
+Although avoidance eliminates the specific risk, it may also eliminate potential business opportunities.
+
+Management should therefore carefully evaluate both the benefits and consequences before selecting this strategy.
+
+---
+
+# Risk Reduction (Mitigation)
+
+Risk reduction—also known as **risk mitigation**—is the most commonly used treatment strategy.
+
+Rather than eliminating the activity, organizations implement controls that reduce either:
+
+- The likelihood of the risk occurring.
+- The impact if the risk occurs.
+- Both likelihood and impact.
+
+Examples of mitigation controls include:
+
+### Administrative Controls
+
+- Security policies.
+- Procedures.
+- Employee awareness training.
+- Background checks.
+- Segregation of duties.
+
+### Technical Controls
+
+- Firewalls.
+- Multi-factor authentication.
+- Encryption.
+- Endpoint protection.
+- Vulnerability management.
+- Security monitoring.
+
+### Physical Controls
+
+- Security guards.
+- CCTV systems.
+- Biometric access controls.
+- Environmental monitoring.
+- Fire suppression systems.
+
+Organizations typically implement a combination of administrative, technical, and physical controls to achieve the desired level of risk reduction.
+
+---
+
+# Risk Transfer (Sharing)
+
+Risk transfer involves shifting part of the financial or operational consequences of a risk to another party.
+
+It is important to understand that accountability for managing the risk remains with the organization.
+
+Only certain consequences or responsibilities can be transferred.
+
+Common examples include:
+
+- Cyber insurance.
+- Property insurance.
+- Professional liability insurance.
+- Outsourcing IT services.
+- Managed Security Service Providers (MSSPs).
+- Cloud service providers.
+- Service contracts.
+- Vendor agreements.
+
+For example, a company may purchase cyber insurance to reduce financial losses associated with ransomware incidents.
+
+Although insurance may cover recovery costs, the organization remains responsible for protecting customer data and complying with legal obligations.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Primary Risk Response Strategies
+
+**Diagram Description:**
+
+Create a central box labeled:
+
+**Identified Risk**
+
+Draw four arrows pointing to four surrounding boxes:
+
+- Avoid
+- Reduce (Mitigate)
+- Transfer (Share)
+- Accept
+
+Under each box include a short description:
+
+**Avoid**
+- Eliminate the activity
+
+**Reduce**
+- Implement controls
+
+**Transfer**
+- Share financial or operational consequences
+
+**Accept**
+- Monitor without additional controls
+
+Include the caption:
+
+*"Organizations may apply one or more response strategies depending on the nature of the risk and business objectives."*
+
+---
+
+# Risk Acceptance
+
+Risk acceptance occurs when management decides that no additional action is required beyond existing controls.
+
+Acceptance does **not** mean that the organization ignores the risk.
+
+Instead, management acknowledges the remaining level of risk and determines that it falls within the organization's approved risk appetite and risk tolerance.
+
+Risk acceptance is appropriate when:
+
+- The risk is relatively low.
+- Existing controls are considered sufficient.
+- Additional controls are not cost-effective.
+- The likelihood of occurrence is minimal.
+- The business benefit outweighs the remaining exposure.
+
+Accepted risks should still be:
+
+- Documented.
+- Assigned to a risk owner.
+- Monitored regularly.
+- Reviewed periodically.
+- Reassessed when business conditions change.
+
+Formal approval from the appropriate level of management is often required before accepting significant risks.
+
+---
+
+# Combining Risk Response Strategies
+
+In practice, organizations rarely rely on a single response strategy.
+
+Many risks require a combination of approaches.
+
+For example, consider the risk of a ransomware attack.
+
+An organization may:
+
+- **Reduce** the likelihood by implementing multi-factor authentication, endpoint protection, and employee awareness training.
+- **Transfer** part of the financial impact through cyber insurance.
+- **Accept** a small amount of residual risk after all planned controls have been implemented.
+
+Similarly, an organization may avoid one aspect of a high-risk project while mitigating the remaining risks through additional security and operational controls.
+
+Selecting the right combination of response strategies allows organizations to balance risk reduction, operational efficiency, regulatory compliance, and business objectives more effectively.
+
+---
+
+# Factors That Influence Risk Response Decisions
+
+Selecting an appropriate response strategy requires more than evaluating likelihood and impact alone.
+
+Management should also consider:
+
+- Organizational risk appetite.
+- Cost of treatment.
+- Expected reduction in risk.
+- Business objectives.
+- Legal and regulatory obligations.
+- Customer expectations.
+- Available resources.
+- Time required for implementation.
+- Operational complexity.
+- Long-term sustainability.
+
+Evaluating these factors helps ensure that treatment decisions are practical, cost-effective, and aligned with the organization's governance framework and strategic goals.
+
+# Developing a Risk Treatment Plan
+
+Selecting a risk response strategy is only the beginning.
+
+Organizations should document how each selected treatment will be implemented through a **Risk Treatment Plan**.
+
+A risk treatment plan defines the actions, responsibilities, timelines, and resources required to reduce risks to acceptable levels.
+
+It also provides management with a structured method for monitoring progress and measuring the effectiveness of implemented controls.
+
+A well-developed treatment plan improves accountability and ensures that risk response activities are completed consistently.
+
+---
+
+# Components of a Risk Treatment Plan
+
+Although formats vary between organizations, a typical risk treatment plan includes:
+
+- Risk ID.
+- Risk description.
+- Risk owner.
+- Current risk rating.
+- Selected treatment strategy.
+- Planned controls.
+- Responsible personnel.
+- Target completion date.
+- Required resources.
+- Estimated implementation cost.
+- Expected residual risk.
+- Status of implementation.
+- Review schedule.
+
+Maintaining a documented treatment plan helps organizations demonstrate governance, regulatory compliance, and effective risk management during audits.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Example Risk Treatment Plan
+
+**Diagram Description:**
+
+Create a simple table with the following columns:
+
+| Risk | Treatment Strategy | Planned Controls | Risk Owner | Target Date | Status |
+|------|--------------------|------------------|------------|-------------|--------|
+| Ransomware | Reduce | MFA, EDR, Backups | IT Manager | Q2 | In Progress |
+| Supplier Failure | Transfer | Secondary Supplier | Procurement Manager | Q3 | Planned |
+| Flood Risk | Accept | Existing BCM Controls | Operations Manager | Annual Review | Accepted |
+
+Add the caption:
+
+*"A documented risk treatment plan ensures accountability, progress tracking, and effective implementation of risk responses."*
+
+---
+
+# Selecting Appropriate Controls
+
+When reducing risks, organizations must choose controls that effectively lower either the likelihood or the impact of a risk.
+
+Controls should be selected based on:
+
+- Effectiveness.
+- Cost.
+- Ease of implementation.
+- Operational impact.
+- Regulatory requirements.
+- Organizational objectives.
+- Technical feasibility.
+- Maintenance requirements.
+
+Controls should always be proportionate to the level of risk.
+
+Implementing excessive controls for low-level risks may waste resources, while insufficient controls for critical risks may expose the organization to unacceptable consequences.
+
+---
+
+# Types of Risk Controls
+
+Organizations generally classify controls into several categories.
+
+## Preventive Controls
+
+Preventive controls reduce the likelihood that an incident will occur.
+
+Examples include:
+
+- Multi-factor authentication.
+- Security awareness training.
+- Access control policies.
+- Firewalls.
+- Secure software development practices.
+- Vendor due diligence.
+
+---
+
+## Detective Controls
+
+Detective controls identify incidents after they occur or while they are occurring.
+
+Examples include:
+
+- Security Information and Event Management (SIEM) systems.
+- Intrusion Detection Systems (IDS).
+- Audit logs.
+- CCTV monitoring.
+- Continuous security monitoring.
+- Compliance audits.
+
+---
+
+## Corrective Controls
+
+Corrective controls reduce the impact of incidents and restore normal operations.
+
+Examples include:
+
+- Disaster recovery procedures.
+- Backup restoration.
+- Incident response plans.
+- Patch management.
+- System recovery processes.
+- Root cause analysis.
+
+Organizations typically implement preventive, detective, and corrective controls together to create multiple layers of protection.
+
+---
+
+# Cost-Benefit Analysis
+
+One of the most important considerations in risk treatment is determining whether the benefits of implementing a control justify its cost.
+
+Organizations should evaluate:
+
+- Implementation costs.
+- Ongoing maintenance expenses.
+- Reduction in likelihood.
+- Reduction in impact.
+- Regulatory requirements.
+- Business benefits.
+- Operational efficiency.
+
+For example:
+
+Installing a backup power generator for a critical data center may require a significant investment.
+
+However, if the generator prevents prolonged outages that could result in millions of dollars in losses, the investment may be fully justified.
+
+Cost-benefit analysis helps organizations prioritize investments that deliver the greatest reduction in organizational risk while supporting strategic objectives.
+
+---
+
+# Residual Risk After Treatment
+
+No control completely eliminates risk.
+
+Even after implementing multiple controls, some level of **residual risk** remains.
+
+Management must determine whether this remaining risk falls within the organization's approved risk appetite.
+
+If residual risk remains too high, the organization may:
+
+- Implement additional controls.
+- Select a different treatment strategy.
+- Reassess the business activity.
+- Escalate the decision to executive management.
+- Formally accept the remaining exposure with appropriate approval.
+
+Residual risk should be documented, monitored, and reviewed regularly because changing business conditions, technologies, or threats may alter the organization's overall risk profile.
+
+An effective risk treatment process does not aim to eliminate all uncertainty. Instead, it seeks to manage residual risk at a level that enables the organization to achieve its objectives while maintaining resilience and regulatory compliance.
+

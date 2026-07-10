@@ -199,4 +199,213 @@ Accurate assessments help leadership:
 
 Rather than relying on assumptions or intuition, organizations use structured risk assessments to make objective, evidence-based decisions that align with business objectives and risk appetite.
 
+# Qualitative Risk Assessment
+
+A **qualitative risk assessment** evaluates risks using descriptive categories rather than precise numerical values.
+
+This is the most commonly used assessment method because it is simple, flexible, and can be applied to organizations of any size.
+
+Instead of calculating exact financial losses or probabilities, qualitative assessments use predefined scales to estimate likelihood and impact.
+
+Typical likelihood ratings include:
+
+- Rare
+- Unlikely
+- Possible
+- Likely
+- Almost Certain
+
+Typical impact ratings include:
+
+- Insignificant
+- Minor
+- Moderate
+- Major
+- Catastrophic
+
+These ratings are combined to determine the overall level of risk.
+
+Qualitative assessments are widely used during:
+
+- Enterprise Risk Management (ERM).
+- ISO 31000 risk assessments.
+- ISO/IEC 27001 information security risk assessments.
+- Operational risk assessments.
+- Project risk management.
+
+Their simplicity allows organizations to evaluate a large number of risks efficiently.
+
+---
+
+# Advantages of Qualitative Assessments
+
+Qualitative methods provide several benefits.
+
+Advantages include:
+
+- Easy to understand.
+- Quick to perform.
+- Minimal data requirements.
+- Suitable for workshops and interviews.
+- Encourages stakeholder participation.
+- Effective for prioritizing large numbers of risks.
+
+These characteristics make qualitative assessments appropriate for organizations beginning their risk management journey.
+
+---
+
+# Limitations of Qualitative Assessments
+
+Despite their popularity, qualitative assessments have several limitations.
+
+These include:
+
+- Subjective judgments.
+- Different interpretations of rating scales.
+- Difficulty comparing risks across departments.
+- Limited financial precision.
+- Potential inconsistency between assessors.
+
+Organizations often reduce these limitations by establishing standardized assessment criteria and providing assessor training.
+
+---
+
+# Quantitative Risk Assessment
+
+A **quantitative risk assessment** estimates risk using measurable numerical values.
+
+Rather than assigning descriptive ratings, quantitative methods calculate the probability of occurrence and the expected financial or operational impact.
+
+Typical quantitative measures include:
+
+- Annualized Loss Expectancy (ALE).
+- Single Loss Expectancy (SLE).
+- Annual Rate of Occurrence (ARO).
+- Financial exposure.
+- Expected monetary loss.
+- Probability percentages.
+- Statistical models.
+- Simulation techniques.
+
+Quantitative assessments help organizations estimate the financial consequences of risks and compare investment options objectively.
+
+---
+
+# Advantages of Quantitative Assessments
+
+Quantitative assessments provide decision-makers with measurable information that supports strategic planning and investment decisions.
+
+Benefits include:
+
+- Financial justification for risk treatment.
+- More objective analysis.
+- Improved cost-benefit evaluation.
+- Better comparison of alternative controls.
+- Enhanced executive reporting.
+- Strong support for budgeting and investment planning.
+
+Organizations often use quantitative methods when evaluating major projects or high-value assets.
+
+---
+
+# Limitations of Quantitative Assessments
+
+Quantitative methods also present challenges.
+
+These include:
+
+- Significant data requirements.
+- Complex calculations.
+- Greater implementation costs.
+- Dependence on historical data.
+- Difficulty estimating rare events.
+- Specialized expertise may be required.
+
+For these reasons, quantitative assessments are often reserved for high-value or high-impact risks rather than routine operational assessments.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Qualitative vs Quantitative Risk Assessment
+
+**Diagram Description:**
+
+Create a comparison table with two columns.
+
+**Qualitative Assessment**
+
+- Descriptive ratings
+- Fast
+- Simple
+- Subjective
+- Low data requirements
+- Suitable for most organizations
+
+**Quantitative Assessment**
+
+- Numerical analysis
+- Financial estimates
+- Objective
+- Data intensive
+- Complex calculations
+- Supports investment decisions
+
+Include the caption:
+
+*"Organizations often use qualitative assessments for general risk management and quantitative assessments for high-value or strategic decisions."*
+
+---
+
+# Semi-Quantitative Risk Assessment
+
+A **semi-quantitative risk assessment** combines elements of both qualitative and quantitative approaches.
+
+Instead of using only descriptive terms, organizations assign numerical values to qualitative ratings.
+
+For example:
+
+| Likelihood | Score |
+|------------|------:|
+| Rare | 1 |
+| Unlikely | 2 |
+| Possible | 3 |
+| Likely | 4 |
+| Almost Certain | 5 |
+
+Similarly, impact ratings may be assigned numerical values.
+
+The likelihood score is then combined with the impact score to produce an overall risk score.
+
+Example:
+
+- Likelihood = 4
+- Impact = 5
+
+Overall Risk Score = **20**
+
+The score is then compared against predefined risk thresholds to determine whether the risk is considered Low, Medium, High, or Critical.
+
+Semi-quantitative assessments provide greater consistency than purely qualitative methods while remaining simpler than fully quantitative analysis.
+
+---
+
+# Choosing the Appropriate Assessment Method
+
+There is no single assessment method that is appropriate for every situation.
+
+Organizations should select the approach that best supports their objectives, available resources, and decision-making requirements.
+
+General guidance includes:
+
+| Assessment Method | Best Used For |
+|-------------------|---------------|
+| Qualitative | Enterprise risk assessments, compliance, operational risk, project risk |
+| Semi-Quantitative | Organizations seeking greater consistency and prioritization |
+| Quantitative | Financial analysis, major investments, cybersecurity loss estimation, insurance analysis |
+
+Many organizations combine multiple methods depending on the significance and complexity of the risks being evaluated.
+
+Using the appropriate assessment technique improves consistency, supports informed decision-making, and helps ensure that resources are directed toward the risks that matter most.
+
 

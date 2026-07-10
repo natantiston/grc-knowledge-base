@@ -425,4 +425,223 @@ Recognizing these interdependencies helps organizations understand the broader i
 
 Effective risk identification considers both individual risks and the relationships between them to support enterprise-wide decision-making.
 
+# Risk Identification Techniques
+
+After understanding the categories of organizational risk, the next step is selecting appropriate techniques to identify those risks.
+
+No single technique can identify every risk.
+
+Organizations typically combine multiple methods to gain a comprehensive understanding of potential threats and opportunities.
+
+The choice of technique depends on several factors, including:
+
+- Organizational size.
+- Industry sector.
+- Business objectives.
+- Regulatory requirements.
+- Complexity of operations.
+- Available expertise.
+- Time and resource constraints.
+
+Using multiple techniques improves the quality and completeness of the risk identification process.
+
+---
+
+# Brainstorming
+
+Brainstorming is one of the simplest and most widely used risk identification techniques.
+
+It brings together individuals from different departments to discuss events that could affect organizational objectives.
+
+Participants are encouraged to share ideas freely without immediate criticism or evaluation.
+
+Typical brainstorming participants include:
+
+- Executive leadership.
+- Business managers.
+- Risk managers.
+- Information Security teams.
+- Compliance officers.
+- Operations personnel.
+- Project managers.
+- Subject Matter Experts (SMEs).
+
+The diversity of perspectives often results in the identification of risks that might otherwise be overlooked.
+
+### Advantages
+
+- Easy to organize.
+- Encourages collaboration.
+- Generates diverse ideas.
+- Low implementation cost.
+- Suitable for most organizations.
+
+### Limitations
+
+- May be influenced by dominant personalities.
+- Results depend on participant experience.
+- Some risks may be overlooked without proper facilitation.
+
+---
+
+# Interviews
+
+Interviews involve structured discussions with individuals who possess specialized knowledge about a business process, project, or operational area.
+
+Interviewees may include:
+
+- Department managers.
+- System owners.
+- Technical specialists.
+- Executives.
+- External consultants.
+- Vendors.
+- Regulatory experts.
+
+Interviews often uncover risks that are not documented in formal procedures because experienced personnel understand day-to-day operational challenges.
+
+### Advantages
+
+- Provides detailed information.
+- Captures expert knowledge.
+- Identifies process-specific risks.
+- Allows clarification through follow-up questions.
+
+### Limitations
+
+- Time-consuming.
+- Results may vary depending on interviewee experience.
+- Requires skilled interviewers.
+
+---
+
+# Workshops
+
+Risk workshops combine brainstorming, facilitated discussions, and collaborative analysis in a structured environment.
+
+Unlike informal brainstorming sessions, workshops usually follow a defined agenda and specific objectives.
+
+Activities may include:
+
+- Identifying risks.
+- Categorizing risks.
+- Assessing potential impacts.
+- Reviewing existing controls.
+- Prioritizing key risks.
+
+Workshops encourage collaboration across departments and help establish a shared understanding of organizational risks.
+
+They are commonly used during:
+
+- Enterprise Risk Assessments.
+- ISO 31000 implementation.
+- ISO/IEC 27001 risk assessments.
+- Business Continuity planning.
+- Strategic planning sessions.
+
+---
+
+# Questionnaires and Surveys
+
+Questionnaires allow organizations to gather risk-related information from large groups of employees or stakeholders.
+
+Questions may address topics such as:
+
+- Operational concerns.
+- Compliance issues.
+- Cybersecurity practices.
+- Third-party risks.
+- Health and safety.
+- Business continuity.
+
+Surveys are particularly useful for geographically dispersed organizations because they enable broad participation at relatively low cost.
+
+However, organizations should validate survey responses through interviews or workshops when appropriate.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Common Risk Identification Techniques
+
+**Diagram Description:**
+
+Create a central box labeled:
+
+**Risk Identification**
+
+Surround it with six connected boxes:
+
+- Brainstorming
+- Interviews
+- Workshops
+- Questionnaires
+- Document Reviews
+- Process Mapping
+
+Use arrows pointing toward the center to illustrate that multiple techniques contribute to comprehensive risk identification.
+
+---
+
+# Document Reviews
+
+Organizations often identify risks by reviewing existing documentation.
+
+Historical records frequently reveal recurring issues, control weaknesses, and emerging trends.
+
+Documents commonly reviewed include:
+
+- Previous risk assessments.
+- Internal audit reports.
+- External audit findings.
+- Incident reports.
+- Compliance reports.
+- Business continuity plans.
+- Disaster recovery plans.
+- Policies and procedures.
+- Project documentation.
+- Vendor assessment reports.
+
+Document reviews help organizations avoid repeating past mistakes and identify areas requiring additional attention.
+
+---
+
+# Checklists
+
+Checklists provide predefined lists of common risks based on industry standards, regulatory requirements, or previous assessments.
+
+Examples include checklists derived from:
+
+- ISO 31000.
+- ISO/IEC 27001.
+- ISO/IEC 27005.
+- NIST Cybersecurity Framework (CSF).
+- NIST Risk Management Framework (RMF).
+- COBIT.
+- Industry regulations.
+- Internal governance requirements.
+
+Checklists help ensure consistency and reduce the likelihood of overlooking common risks.
+
+However, organizations should avoid relying solely on checklists, as they may not capture organization-specific or emerging risks.
+
+---
+
+# Process Mapping
+
+Process mapping involves documenting how work is performed within an organization.
+
+By analyzing workflows, inputs, outputs, responsibilities, and decision points, organizations can identify risks associated with each stage of a business process.
+
+Examples include:
+
+- Order-to-cash processes.
+- Procurement processes.
+- Software development lifecycles.
+- Incident response procedures.
+- Customer onboarding processes.
+- Manufacturing operations.
+
+Process mapping is particularly useful for identifying operational inefficiencies, control gaps, bottlenecks, and dependencies that may not be visible through interviews or document reviews alone.
+
 

@@ -159,3 +159,205 @@ When selecting a risk owner, management should consider:
 - Position within the organizational structure.
 
 Clearly documenting risk ownership in the risk register improves accountability, supports governance, and ensures that no significant risks are left unmanaged.
+
+# Responsibility, Accountability, and Authority
+
+Successful risk management depends on clearly defining three related concepts:
+
+- Responsibility
+- Accountability
+- Authority
+
+Although these concepts are closely connected, they serve different purposes.
+
+## Responsibility
+
+Responsibility refers to the specific tasks or activities assigned to an individual or team.
+
+Examples include:
+
+- Performing risk assessments.
+- Implementing security controls.
+- Conducting vulnerability scans.
+- Reviewing compliance requirements.
+- Updating the risk register.
+- Monitoring Key Risk Indicators (KRIs).
+
+Multiple individuals may share responsibility for managing a particular risk.
+
+---
+
+## Accountability
+
+Accountability refers to the ultimate ownership of the outcome.
+
+The accountable individual ensures that:
+
+- Required activities are completed.
+- Risks remain within acceptable limits.
+- Controls are effective.
+- Issues are escalated when necessary.
+- Business objectives are protected.
+
+Unlike responsibility, accountability cannot be delegated.
+
+While others may perform the work, the accountable person remains answerable for the final outcome.
+
+---
+
+## Authority
+
+Authority is the formal power to make decisions and allocate resources.
+
+Without sufficient authority, a risk owner may be unable to:
+
+- Approve treatment plans.
+- Implement controls.
+- Assign responsibilities.
+- Escalate significant risks.
+- Allocate budgets.
+
+For this reason, organizations should assign risk ownership only to individuals who have the appropriate level of authority.
+
+---
+
+# The Three Lines Model
+
+One of the most widely recognized governance models for risk management is the **Three Lines Model**, published by the Institute of Internal Auditors (IIA).
+
+Previously known as the **Three Lines of Defense**, the updated model emphasizes collaboration rather than defense.
+
+The Three Lines Model helps organizations clearly define responsibilities for:
+
+- Managing risks.
+- Overseeing risks.
+- Providing independent assurance.
+
+This model strengthens governance by ensuring that risks are managed consistently while maintaining appropriate independence between operational activities and assurance functions.
+
+---
+
+# First Line – Operational Management
+
+The **First Line** consists of operational management and business functions.
+
+These are the people who perform the organization's daily activities and own the risks associated with their operations.
+
+Typical first-line responsibilities include:
+
+- Identifying risks.
+- Assessing operational risks.
+- Implementing controls.
+- Following policies and procedures.
+- Managing day-to-day risks.
+- Reporting incidents.
+- Maintaining business continuity.
+
+Examples of first-line functions include:
+
+- Information Technology.
+- Finance.
+- Human Resources.
+- Operations.
+- Procurement.
+- Customer Service.
+- Manufacturing.
+- Sales.
+
+The First Line owns and manages risks as part of normal business operations.
+
+---
+
+# Second Line – Risk Oversight and Compliance
+
+The **Second Line** provides guidance, oversight, and monitoring.
+
+Unlike the First Line, the Second Line generally does not own operational risks.
+
+Instead, it develops governance frameworks, establishes policies, monitors compliance, and advises management on risk-related matters.
+
+Examples of second-line functions include:
+
+- Enterprise Risk Management (ERM).
+- Governance, Risk, and Compliance (GRC).
+- Information Security Governance.
+- Compliance.
+- Privacy.
+- Quality Management.
+- Health and Safety.
+- Legal and Regulatory Affairs.
+
+Typical responsibilities include:
+
+- Developing risk management frameworks.
+- Monitoring compliance.
+- Reviewing risk assessments.
+- Advising business units.
+- Monitoring Key Risk Indicators (KRIs).
+- Reporting enterprise risks to leadership.
+
+The Second Line supports and oversees the First Line while helping ensure that risk management practices are applied consistently across the organization.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** The First and Second Lines of the Three Lines Model
+
+**Diagram Description:**
+
+Create a layered diagram with three horizontal sections.
+
+Display the first two sections as follows:
+
+**Top Layer**
+
+**Board of Directors & Executive Management**
+
+*(Provides governance and strategic oversight.)*
+
+↓
+
+**First Line – Operational Management**
+
+- Owns risks
+- Implements controls
+- Manages day-to-day operations
+- Reports incidents
+
+↓
+
+**Second Line – Risk & Compliance Functions**
+
+- Develops policies
+- Monitors compliance
+- Provides oversight
+- Advises management
+
+Leave space below for the **Third Line – Internal Audit**, which will be introduced in the next section of the lesson.
+
+Include the caption:
+
+*"The Three Lines Model separates operational risk management from oversight responsibilities while promoting collaboration and accountability."*
+
+---
+
+# Collaboration Between the First and Second Lines
+
+Although the First and Second Lines have different responsibilities, they must work together closely.
+
+For example:
+
+The Information Technology department (First Line) identifies a cybersecurity risk involving outdated software.
+
+The Information Security Governance or GRC team (Second Line):
+
+- Reviews the risk assessment.
+- Confirms alignment with organizational policies.
+- Advises on appropriate treatment options.
+- Monitors remediation progress.
+- Reports significant risks to executive management if necessary.
+
+This collaborative approach helps ensure that risks are managed consistently while maintaining effective governance and accountability throughout the organization.
+
+

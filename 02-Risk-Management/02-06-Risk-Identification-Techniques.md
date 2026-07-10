@@ -205,4 +205,224 @@ Because external risks cannot usually be prevented, organizations focus on prepa
 
 Understanding both internal and external sources of risk enables organizations to build a comprehensive view of their overall risk landscape and supports more informed decision-making.
 
+# Categories of Organizational Risk
+
+Before selecting risk identification techniques, organizations should understand the different categories of risk that may affect their objectives.
+
+Categorizing risks helps ensure that assessments are comprehensive and that important areas are not overlooked.
+
+Although organizations may define categories differently, the following are among the most common.
+
+---
+
+# Strategic Risks
+
+Strategic risks affect the organization's ability to achieve its long-term objectives.
+
+These risks are often associated with executive decision-making, market conditions, and changes in the business environment.
+
+Examples include:
+
+- Failed business strategies.
+- Market disruption.
+- New competitors.
+- Poor investment decisions.
+- Mergers and acquisitions.
+- Changes in customer demand.
+- Technological disruption.
+- Reputational damage affecting business growth.
+
+Strategic risks are typically overseen by executive leadership and the Board of Directors because they have the potential to significantly influence the organization's future.
+
+---
+
+# Operational Risks
+
+Operational risks arise from failures in people, processes, systems, or day-to-day operations.
+
+These are among the most frequently encountered risks across organizations.
+
+Examples include:
+
+- Human error.
+- Process failures.
+- Equipment breakdown.
+- Supply chain disruptions.
+- Quality control issues.
+- Service interruptions.
+- Inadequate staffing.
+- Vendor performance failures.
+
+Strong operational controls, monitoring, and continuous improvement help reduce operational risk.
+
+---
+
+# Financial Risks
+
+Financial risks relate to the organization's financial stability and ability to meet its obligations.
+
+Examples include:
+
+- Cash flow shortages.
+- Currency fluctuations.
+- Credit risk.
+- Investment losses.
+- Fraud.
+- Inflation.
+- Interest rate changes.
+- Budget overruns.
+
+Financial risk management often involves close collaboration between finance, executive leadership, and risk management functions.
+
+---
+
+# Compliance and Legal Risks
+
+Organizations operate within legal and regulatory environments that continue to evolve.
+
+Failure to comply with applicable laws, regulations, standards, or contractual obligations may result in financial penalties, legal action, or reputational harm.
+
+Examples include:
+
+- Data privacy violations.
+- Regulatory non-compliance.
+- Contract disputes.
+- Employment law violations.
+- Licensing issues.
+- Industry-specific regulatory breaches.
+
+Organizations often establish dedicated compliance functions to monitor and manage these risks.
+
+---
+
+# Cybersecurity and Information Security Risks
+
+As organizations become increasingly dependent on technology, cybersecurity risks continue to grow in importance.
+
+These risks threaten the confidentiality, integrity, and availability of information and systems.
+
+Examples include:
+
+- Ransomware attacks.
+- Data breaches.
+- Insider threats.
+- Phishing attacks.
+- Malware infections.
+- Cloud security failures.
+- Weak access controls.
+- Third-party cyber risks.
+
+Cybersecurity risk management is typically integrated with enterprise risk management through frameworks such as ISO/IEC 27005, the NIST Cybersecurity Framework (CSF), and the NIST Risk Management Framework (RMF).
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Common Categories of Organizational Risk
+
+**Diagram Description:**
+
+Create a central circle labeled:
+
+**Enterprise Risks**
+
+Surround it with interconnected circles labeled:
+
+- Strategic Risk
+- Operational Risk
+- Financial Risk
+- Compliance & Legal Risk
+- Cybersecurity Risk
+- Reputational Risk
+- Environmental Risk
+- Third-Party Risk
+
+Use connecting lines to show that these categories collectively form the organization's overall risk profile.
+
+---
+
+# Reputational Risks
+
+An organization's reputation is one of its most valuable assets.
+
+Reputational risks arise when events damage stakeholder confidence or public trust.
+
+These risks may result from failures in other risk categories.
+
+Examples include:
+
+- Public data breaches.
+- Product recalls.
+- Ethical misconduct.
+- Regulatory investigations.
+- Poor customer service.
+- Negative media coverage.
+- Social media incidents.
+- Executive misconduct.
+
+Although reputation cannot always be measured financially, damage to public trust can significantly affect customer retention, investor confidence, and long-term business success.
+
+---
+
+# Environmental and Sustainability Risks
+
+Organizations increasingly recognize environmental and sustainability risks as important components of enterprise risk management.
+
+These risks include events that affect natural resources, climate resilience, and long-term sustainability objectives.
+
+Examples include:
+
+- Extreme weather events.
+- Climate change impacts.
+- Environmental pollution.
+- Resource shortages.
+- Energy supply disruptions.
+- Sustainability reporting requirements.
+- Carbon reduction obligations.
+
+Many organizations now integrate Environmental, Social, and Governance (ESG) considerations into their enterprise risk management programs.
+
+---
+
+# Third-Party Risks
+
+Modern organizations rely heavily on suppliers, vendors, contractors, cloud providers, and other business partners.
+
+Third-party risks arise when external organizations fail to meet contractual, operational, security, or regulatory expectations.
+
+Examples include:
+
+- Supplier insolvency.
+- Vendor cybersecurity incidents.
+- Cloud service outages.
+- Contractual non-compliance.
+- Data privacy failures.
+- Supply chain disruptions.
+- Service quality issues.
+
+Effective third-party risk management includes due diligence, vendor assessments, ongoing monitoring, and contractual safeguards.
+
+---
+
+# Risk Interdependencies
+
+Individual risks rarely exist in isolation.
+
+One event often triggers multiple related risks across different business functions.
+
+For example, a ransomware attack may lead to:
+
+- Operational disruption.
+- Financial losses.
+- Regulatory investigations.
+- Reputational damage.
+- Customer dissatisfaction.
+- Legal claims.
+
+Similarly, a natural disaster may affect facilities, employees, suppliers, technology infrastructure, and customer service simultaneously.
+
+Recognizing these interdependencies helps organizations understand the broader impact of risk events and develop more effective response strategies.
+
+Effective risk identification considers both individual risks and the relationships between them to support enterprise-wide decision-making.
+
 

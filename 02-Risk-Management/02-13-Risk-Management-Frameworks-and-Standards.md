@@ -195,4 +195,164 @@ Organizations that adopt internationally recognized risk management frameworks t
 
 These benefits help organizations manage uncertainty more effectively while improving operational performance and long-term sustainability.
 
+# ISO 31000 – Risk Management Guidelines
+
+One of the most widely recognized international risk management frameworks is **ISO 31000**.
+
+Published by the **International Organization for Standardization (ISO)**, ISO 31000 provides general guidance for establishing, implementing, maintaining, and continually improving risk management across any type of organization.
+
+Unlike ISO/IEC 27001, ISO 31000 is **not a certifiable standard**.
+
+Instead, it provides principles and guidance that organizations can adapt to their own business environment.
+
+ISO 31000 applies to:
+
+- Public organizations.
+- Private companies.
+- Non-profit organizations.
+- Government agencies.
+- Small businesses.
+- Large multinational enterprises.
+
+Its flexibility has made it one of the most widely adopted enterprise risk management frameworks in the world.
+
+---
+
+# Principles of ISO 31000
+
+ISO 31000 identifies several principles that support effective risk management.
+
+Risk management should be:
+
+- Integrated into organizational activities.
+- Structured and comprehensive.
+- Customized to the organization.
+- Inclusive of stakeholders.
+- Dynamic and responsive to change.
+- Based on the best available information.
+- Focused on human and cultural factors.
+- Continuously improved.
+
+These principles ensure that risk management becomes part of organizational governance rather than an isolated compliance function.
+
+---
+
+# ISO 31000 Risk Management Process
+
+The ISO 31000 framework describes a continuous risk management process consisting of several key activities.
+
+These include:
+
+- Establishing the context.
+- Risk identification.
+- Risk analysis.
+- Risk evaluation.
+- Risk treatment.
+- Monitoring and review.
+- Communication and consultation.
+- Recording and reporting.
+
+Rather than functioning as separate activities, these processes operate continuously and support informed decision-making throughout the organization.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** ISO 31000 Risk Management Process
+
+**Diagram Description:**
+
+Create a circular lifecycle with the following stages:
+
+- Establish Context
+- Identify Risks
+- Analyze Risks
+- Evaluate Risks
+- Treat Risks
+- Monitor & Review
+
+Surround the lifecycle with two outer arrows labeled:
+
+- Communication & Consultation
+- Recording & Reporting
+
+Include the caption:
+
+*"ISO 31000 promotes continual risk management through communication, monitoring, and continuous improvement."*
+
+---
+
+# COSO Enterprise Risk Management (ERM)
+
+Another globally recognized framework is the **COSO Enterprise Risk Management (ERM) Framework**.
+
+COSO was developed by the **Committee of Sponsoring Organizations of the Treadway Commission** to help organizations improve governance, internal controls, and enterprise-wide risk management.
+
+While ISO 31000 is broadly applicable across industries, COSO ERM has traditionally been widely adopted in:
+
+- Financial institutions.
+- Publicly listed companies.
+- Government organizations.
+- Large multinational corporations.
+
+COSO places a strong emphasis on integrating risk management with organizational strategy and business performance.
+
+---
+
+# COSO ERM Components
+
+The current COSO ERM framework is organized around five interrelated components:
+
+1. Governance and Culture
+2. Strategy and Objective-Setting
+3. Performance
+4. Review and Revision
+5. Information, Communication, and Reporting
+
+These components encourage organizations to integrate risk considerations into strategic planning, operational activities, and performance management.
+
+Rather than treating risk as a separate process, COSO emphasizes that managing uncertainty is part of achieving organizational objectives.
+
+---
+
+# ISO 31000 vs COSO ERM
+
+Although both frameworks support enterprise risk management, they have different areas of emphasis.
+
+| ISO 31000 | COSO ERM |
+|------------|----------|
+| International guideline | Enterprise governance framework |
+| Applicable to any organization | Widely used in corporate environments |
+| Focuses on risk management principles | Focuses on governance, strategy, and performance |
+| Flexible and adaptable | Strong integration with internal controls |
+| Non-certifiable guidance | Non-certifiable framework |
+
+Many organizations use elements of both ISO 31000 and COSO ERM to strengthen governance and improve enterprise risk management.
+
+Rather than competing frameworks, they are often complementary and can be integrated into a single governance program.
+
+---
+
+# When to Use ISO 31000 and COSO ERM
+
+Organizations choose frameworks based on their governance objectives and business environment.
+
+**ISO 31000** is often selected when an organization wants:
+
+- A flexible enterprise risk management approach.
+- Guidance applicable across different industries.
+- A framework that integrates easily with ISO management system standards.
+- Broad organizational adoption.
+
+**COSO ERM** is often selected when an organization wants:
+
+- Strong integration between governance and risk management.
+- Enterprise-wide strategic risk oversight.
+- Alignment with internal control frameworks.
+- Enhanced performance management.
+
+Many organizations implement **ISO 31000** as the foundation for enterprise risk management while using **COSO ERM** to strengthen governance, strategic planning, and executive decision-making.
+
+
+
 

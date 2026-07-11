@@ -315,4 +315,183 @@ Compliance should not be viewed as a separate business function. Instead, it sho
 
 Organizations that embed compliance into their culture are better positioned to manage regulatory change, reduce legal and operational risks, and maintain the trust of customers, regulators, and other stakeholders.
 
+# Compliance vs Governance vs Risk Management
+
+Governance, Risk Management, and Compliance are closely related disciplines, but each serves a distinct purpose within an organization.
+
+Understanding their differences is essential because organizations achieve the best results when these disciplines work together rather than independently.
+
+## Governance
+
+Governance establishes the direction of the organization.
+
+It defines:
+
+- Strategic objectives.
+- Organizational structure.
+- Roles and responsibilities.
+- Decision-making authority.
+- Policies.
+- Oversight mechanisms.
+- Accountability.
+
+Governance answers the question:
+
+**"How should the organization be directed and controlled?"**
+
+---
+
+## Risk Management
+
+Risk management helps organizations identify and manage uncertainty that may affect business objectives.
+
+It involves:
+
+- Identifying risks.
+- Assessing likelihood and impact.
+- Evaluating risks.
+- Implementing treatments.
+- Monitoring risk exposure.
+- Reporting significant risks.
+
+Risk management answers the question:
+
+**"What could prevent us from achieving our objectives, and how should we respond?"**
+
+---
+
+## Compliance
+
+Compliance ensures that the organization operates within applicable obligations.
+
+These obligations include:
+
+- Laws.
+- Regulations.
+- Industry standards.
+- Customer contracts.
+- Internal policies.
+- Ethical requirements.
+
+Compliance answers the question:
+
+**"Are we meeting all applicable obligations?"**
+
+---
+
+Although each discipline has a different purpose, they collectively support good governance, informed decision-making, and sustainable business operations.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Relationship Between Governance, Risk, and Compliance
+
+**Diagram Description:**
+
+Create a Venn diagram with three overlapping circles.
+
+**Governance**
+
+- Direction
+- Leadership
+- Accountability
+
+**Risk Management**
+
+- Identify Risks
+- Assess Risks
+- Treat Risks
+
+**Compliance**
+
+- Laws
+- Regulations
+- Policies
+- Standards
+
+At the center where all three circles overlap, place:
+
+**Organizational Objectives**
+
+Include the caption:
+
+*"Governance provides direction, Risk Management manages uncertainty, and Compliance ensures adherence to obligations—all working together to achieve organizational objectives."*
+
+---
+
+# Compliance vs Ethics
+
+Compliance and ethics are often discussed together, but they are not the same.
+
+**Compliance** focuses on following established rules and requirements.
+
+**Ethics** focuses on making decisions that are morally and professionally appropriate, even when no specific rule exists.
+
+For example:
+
+An employee may comply with company policies but still behave unethically by withholding important information from colleagues.
+
+Conversely, an employee may act ethically by reporting suspicious behavior, even when there is no formal requirement to do so.
+
+Organizations should promote both compliance and ethical behavior to build trust, integrity, and accountability.
+
+---
+
+# Compliance vs Audit
+
+Compliance and auditing also have different purposes.
+
+**Compliance Management** is responsible for ensuring that organizational activities meet applicable obligations on a continuous basis.
+
+**Auditing** provides independent assurance that compliance activities and internal controls are operating effectively.
+
+| Compliance Management | Audit |
+|-----------------------|-------|
+| Ongoing operational activity | Independent assessment |
+| Implements compliance requirements | Evaluates compliance effectiveness |
+| Managed by compliance teams and business units | Performed by internal or external auditors |
+| Focuses on preventing non-compliance | Focuses on verifying and reporting findings |
+
+Compliance teams maintain compliance, while auditors evaluate whether compliance programs are functioning as intended.
+
+---
+
+# Compliance vs Legal
+
+Although compliance and legal departments frequently collaborate, their responsibilities differ.
+
+The **Legal Department** primarily interprets laws, provides legal advice, manages litigation, and supports contractual matters.
+
+The **Compliance Function** translates legal and regulatory requirements into operational processes, policies, controls, and monitoring activities.
+
+For example:
+
+When a new privacy law is enacted:
+
+- The **Legal Department** interprets the legal requirements.
+- The **Compliance Team** updates policies, coordinates implementation, monitors adherence, and reports compliance status.
+
+This collaboration helps ensure that legal obligations are effectively integrated into daily business operations.
+
+---
+
+# The Compliance Lifecycle
+
+Compliance management is an ongoing cycle rather than a one-time project.
+
+A typical compliance lifecycle includes the following stages:
+
+1. Identify compliance obligations.
+2. Assess compliance risks.
+3. Develop policies and procedures.
+4. Implement compliance controls.
+5. Train employees and raise awareness.
+6. Monitor compliance activities.
+7. Conduct reviews and audits.
+8. Report findings and address non-compliance.
+9. Continually improve the compliance program.
+
+As laws, regulations, and business operations evolve, organizations repeat this lifecycle to ensure that their compliance programs remain effective, current, and aligned with organizational objectives.
+
 

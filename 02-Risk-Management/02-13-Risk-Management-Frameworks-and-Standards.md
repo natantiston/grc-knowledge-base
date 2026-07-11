@@ -514,4 +514,212 @@ Organizations often adopt the **NIST RMF** when they:
 
 In many cases, organizations successfully combine both approaches, using ISO/IEC 27005 for enterprise information security risk management while applying the NIST RMF to manage the security lifecycle of critical information systems.
 
+# NIST Cybersecurity Framework (CSF)
+
+The **NIST Cybersecurity Framework (CSF)** is another widely adopted cybersecurity framework developed by the **National Institute of Standards and Technology (NIST)**.
+
+Unlike the NIST Risk Management Framework (RMF), which focuses on managing risks for information systems throughout their lifecycle, the NIST CSF provides a high-level framework that helps organizations understand, manage, and improve their cybersecurity posture.
+
+The framework is designed for organizations of all sizes and industries, including:
+
+- Government agencies.
+- Critical infrastructure providers.
+- Financial institutions.
+- Healthcare organizations.
+- Manufacturing companies.
+- Telecommunications providers.
+- Technology companies.
+- Small and medium-sized businesses.
+
+Because it is flexible and outcome-focused, the NIST CSF has become one of the most widely adopted cybersecurity frameworks globally.
+
+---
+
+# The NIST CSF Functions
+
+The latest version of the NIST Cybersecurity Framework is organized around six core functions:
+
+1. Govern
+2. Identify
+3. Protect
+4. Detect
+5. Respond
+6. Recover
+
+Together, these functions provide a comprehensive approach to managing cybersecurity risk.
+
+### Govern
+
+Establishes cybersecurity governance by defining:
+
+- Organizational policies.
+- Roles and responsibilities.
+- Risk management strategy.
+- Oversight.
+- Supply chain governance.
+
+### Identify
+
+Focuses on understanding organizational assets, business context, and cybersecurity risks.
+
+### Protect
+
+Implements safeguards to reduce the likelihood and impact of cybersecurity incidents.
+
+### Detect
+
+Identifies cybersecurity events as quickly as possible.
+
+### Respond
+
+Coordinates actions during cybersecurity incidents.
+
+### Recover
+
+Restores business operations and incorporates lessons learned to improve future resilience.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** NIST Cybersecurity Framework (CSF) Core Functions
+
+**Diagram Description:**
+
+Create a circular diagram with six connected segments labeled:
+
+- Govern
+- Identify
+- Protect
+- Detect
+- Respond
+- Recover
+
+Use arrows to connect each function in a continuous cycle.
+
+Place **"Cybersecurity Risk Management"** in the center.
+
+Include the caption:
+
+*"The NIST Cybersecurity Framework provides a continuous approach for governing, managing, responding to, and recovering from cybersecurity risks."*
+
+---
+
+# Integrating Multiple Frameworks
+
+Organizations rarely rely on a single framework.
+
+Instead, they often integrate multiple standards and frameworks to address different business, regulatory, and operational requirements.
+
+For example:
+
+| Business Need | Common Frameworks |
+|---------------|-------------------|
+| Enterprise Risk Management | ISO 31000, COSO ERM |
+| Information Security Management | ISO/IEC 27001, ISO/IEC 27005 |
+| Cybersecurity Governance | NIST CSF |
+| System Security Lifecycle | NIST RMF |
+| Business Continuity | ISO 22301 |
+| IT Governance | COBIT 2019 |
+
+Rather than competing with one another, these frameworks complement each other and collectively support a mature Governance, Risk, and Compliance (GRC) program.
+
+---
+
+# Selecting the Right Combination
+
+Organizations should select frameworks based on factors such as:
+
+- Business objectives.
+- Industry requirements.
+- Regulatory obligations.
+- Customer expectations.
+- Organizational maturity.
+- Geographic operations.
+- Available resources.
+- Existing governance structures.
+
+For example, a multinational financial institution may implement:
+
+- **ISO 31000** for enterprise risk management.
+- **COSO ERM** for strategic governance.
+- **ISO/IEC 27001** for information security management.
+- **ISO/IEC 27005** for information security risk management.
+- **NIST CSF** for cybersecurity governance.
+- **COBIT 2019** for IT governance.
+- **ISO 22301** for business continuity.
+
+By integrating these frameworks, the organization creates a comprehensive governance structure that addresses enterprise, operational, cybersecurity, compliance, and resilience objectives.
+
+---
+
+# Summary
+
+Risk management frameworks and standards provide organizations with structured, internationally recognized approaches for identifying, assessing, treating, monitoring, and communicating risks.
+
+Throughout this lesson, we explored the differences between frameworks, standards, and methodologies and examined several of the most widely adopted risk management frameworks, including ISO 31000, COSO Enterprise Risk Management (ERM), ISO/IEC 27005, the NIST Risk Management Framework (RMF), and the NIST Cybersecurity Framework (CSF).
+
+We also discussed how organizations select and integrate multiple frameworks to address governance, enterprise risk, information security, cybersecurity, compliance, and operational resilience. By adopting appropriate frameworks and aligning them with business objectives, organizations can establish consistent governance, strengthen decision-making, improve regulatory compliance, and enhance long-term resilience.
+
+---
+
+# Key Takeaways
+
+- Risk management frameworks provide structured guidance for managing organizational risks.
+- Frameworks, standards, and methodologies serve different but complementary purposes.
+- ISO 31000 provides internationally recognized guidance for enterprise risk management.
+- COSO ERM integrates governance, strategy, performance, and enterprise risk management.
+- ISO/IEC 27005 supports information security risk management within an ISMS.
+- The NIST RMF manages cybersecurity risk throughout the information system lifecycle.
+- The NIST CSF provides a flexible framework for improving cybersecurity governance and resilience.
+- Organizations often combine multiple frameworks to create a comprehensive Governance, Risk, and Compliance (GRC) program.
+
+---
+
+# Knowledge Check
+
+1. What is the difference between a framework, a standard, and a methodology?
+2. Why is ISO 31000 considered a general risk management framework?
+3. How does COSO ERM differ from ISO 31000?
+4. What is the primary purpose of ISO/IEC 27005?
+5. What are the seven steps of the NIST Risk Management Framework (RMF)?
+6. What are the six core functions of the NIST Cybersecurity Framework (CSF)?
+7. Why do organizations integrate multiple frameworks rather than relying on just one?
+8. Which framework would you recommend for enterprise-wide governance and why?
+9. How do these frameworks support regulatory compliance and organizational resilience?
+10. What factors should organizations consider when selecting risk management frameworks?
+
+---
+
+# Further Reading
+
+### International Standards
+
+- ISO 31000 — *Risk Management – Guidelines*
+- ISO/IEC 27001 — *Information Security Management Systems (ISMS)*
+- ISO/IEC 27005 — *Information Security Risk Management*
+- ISO 22301 — *Business Continuity Management Systems*
+
+### Frameworks and Guidance
+
+- COSO Enterprise Risk Management (ERM)
+- NIST Risk Management Framework (RMF)
+- NIST Cybersecurity Framework (CSF)
+- COBIT 2019
+
+### Related Topics
+
+- Governance, Risk, and Compliance (GRC)
+- Enterprise Risk Management (ERM)
+- Information Security Risk Management
+- Cybersecurity Governance
+- Operational Resilience
+
+---
+
+# Next Lesson
+
+➡️ **Chapter 2 Review and Summary**
+
+In the next section, we will consolidate everything covered in the Risk Management chapter. We'll review the key concepts from Lessons 2.1 through 2.13, reinforce the relationships between governance and risk management, summarize the major frameworks and standards, and provide a comprehensive chapter review to prepare you for the knowledge assessment before moving to Chapter 3.
 

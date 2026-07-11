@@ -169,4 +169,199 @@ Understanding these concepts ensures that risk management is aligned with organi
 
 These foundational principles provide the basis for the more detailed risk assessment and treatment activities reviewed in the next section.
 
+# Review of Lesson 2.4 – Risk Analysis
+
+After identifying risks, organizations must understand their nature, causes, likelihood, and potential consequences.
+
+Risk analysis provides a structured approach for determining how significant a risk may be before deciding whether additional action is required.
+
+During Lesson 2.4, we explored how organizations evaluate:
+
+- The source of the risk.
+- Existing controls.
+- Likelihood of occurrence.
+- Potential business impact.
+- Interdependencies with other risks.
+- Overall level of exposure.
+
+We also examined qualitative, quantitative, and semi-quantitative analysis methods.
+
+For example:
+
+- **Qualitative analysis** uses descriptive ratings such as Low, Medium, and High.
+- **Quantitative analysis** uses numerical values such as financial loss, annualized loss expectancy, or probability.
+- **Semi-quantitative analysis** combines numerical scoring with predefined rating scales.
+
+The objective of risk analysis is to develop a clear understanding of each identified risk before determining how it should be managed.
+
+---
+
+# Review of Lesson 2.5 – Risk Evaluation
+
+Risk evaluation builds upon the results of risk analysis.
+
+Its purpose is to determine whether a risk is acceptable or requires further treatment.
+
+During this lesson, we learned that organizations compare analyzed risks against:
+
+- Risk appetite.
+- Risk tolerance.
+- Regulatory requirements.
+- Business objectives.
+- Organizational policies.
+
+Possible evaluation outcomes include:
+
+- Accept the risk.
+- Treat the risk.
+- Transfer the risk.
+- Avoid the risk.
+- Escalate the risk for management review.
+
+Risk evaluation ensures that management focuses resources on the risks that have the greatest potential impact on organizational objectives.
+
+---
+
+# Review of Lesson 2.6 – Risk Treatment
+
+Once risks have been evaluated, organizations determine the most appropriate treatment strategy.
+
+Risk treatment involves selecting and implementing measures that reduce risk to an acceptable level.
+
+We studied the four primary treatment options:
+
+### Avoid
+
+Eliminate the activity that creates the risk.
+
+Example:
+
+Cancelling a project that presents unacceptable legal or financial exposure.
+
+---
+
+### Reduce (Mitigate)
+
+Implement controls that reduce either the likelihood or impact of the risk.
+
+Examples include:
+
+- Multi-factor authentication (MFA).
+- Security awareness training.
+- Fire suppression systems.
+- Network segmentation.
+- Preventive maintenance.
+
+---
+
+### Transfer (Share)
+
+Shift part of the financial or operational consequences to another party.
+
+Examples include:
+
+- Cyber insurance.
+- Outsourcing.
+- Managed security services.
+- Contractual agreements.
+
+Although responsibility for certain activities may be transferred, accountability for managing the risk remains with the organization.
+
+---
+
+### Accept
+
+Retain the risk when it falls within the organization's approved risk appetite or when treatment is not cost-effective.
+
+Accepted risks should still be monitored to ensure that changes in the operating environment do not increase their significance.
+
+---
+
+# Review of Lesson 2.7 – Risk Acceptance
+
+Risk acceptance is often misunderstood as ignoring a risk.
+
+Instead, it is a deliberate management decision based on informed analysis and organizational governance.
+
+We learned that risks may be accepted because:
+
+- The residual risk is within the organization's risk appetite.
+- Treatment costs exceed the expected benefits.
+- Suitable controls are unavailable.
+- The likelihood of occurrence is very low.
+- The business benefit outweighs the remaining exposure.
+
+Risk acceptance should always be:
+
+- Documented.
+- Approved by the appropriate authority.
+- Regularly reviewed.
+- Monitored for changes.
+
+As business conditions evolve, accepted risks may require reassessment or additional treatment.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Risk Assessment and Treatment Process
+
+**Diagram Description:**
+
+Create a horizontal process flow with the following stages:
+
+**Risk Identification**
+
+↓
+
+**Risk Analysis**
+
+*(Likelihood + Impact + Existing Controls)*
+
+↓
+
+**Risk Evaluation**
+
+*(Compare Against Risk Appetite and Risk Tolerance)*
+
+↓
+
+**Risk Treatment**
+
+Display four branching options:
+
+- Avoid
+- Reduce
+- Transfer
+- Accept
+
+Add arrows from each treatment option back to a box labeled:
+
+**Monitor & Review**
+
+Include the caption:
+
+*"Risk assessment enables organizations to prioritize risks and select appropriate treatment strategies based on business objectives and risk appetite."*
+
+---
+
+# Connecting Lessons 2.4 Through 2.7
+
+These four lessons form the core of the risk assessment process.
+
+Together, they answer four essential questions:
+
+- **How serious is the risk?** (Risk Analysis)
+- **Is the risk acceptable?** (Risk Evaluation)
+- **What should we do about it?** (Risk Treatment)
+- **Can the remaining risk be accepted?** (Risk Acceptance)
+
+Rather than being independent activities, these processes operate as a continuous cycle.
+
+As risks change due to new technologies, business initiatives, regulatory updates, or emerging threats, organizations repeat these steps to ensure that risk decisions remain aligned with organizational objectives and governance requirements.
+
+By consistently applying these processes, organizations allocate resources more effectively, improve decision-making, and build a proactive approach to managing uncertainty.
+
+
+
 

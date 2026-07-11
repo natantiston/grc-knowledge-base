@@ -363,5 +363,159 @@ As risks change due to new technologies, business initiatives, regulatory update
 By consistently applying these processes, organizations allocate resources more effectively, improve decision-making, and build a proactive approach to managing uncertainty.
 
 
+# Review of Lesson 2.8 – Risk Monitoring and Reporting
+
+Risk management does not end once a treatment plan has been implemented.
+
+Organizations must continuously monitor risks to ensure that controls remain effective, risk levels remain within acceptable limits, and new risks are identified as the business environment changes.
+
+During Lesson 2.8, we explored the importance of ongoing monitoring and reporting as essential components of effective risk governance.
+
+Key monitoring activities include:
+
+- Reviewing risk indicators.
+- Monitoring control effectiveness.
+- Tracking risk treatment plans.
+- Identifying emerging risks.
+- Reporting significant changes.
+- Updating the enterprise risk register.
+- Conducting periodic risk reviews.
+
+Regular monitoring allows organizations to detect changes early and respond before risks become major issues.
+
+---
+
+# Review of Lesson 2.9 – Continuous Monitoring and Improvement
+
+Modern organizations operate in rapidly changing environments.
+
+New technologies, evolving regulations, changing business strategies, and emerging cyber threats require organizations to continually improve their risk management processes.
+
+In this lesson, we learned that continuous improvement involves:
+
+- Reviewing governance processes.
+- Updating risk assessments.
+- Evaluating control effectiveness.
+- Incorporating lessons learned.
+- Responding to audit findings.
+- Improving policies and procedures.
+- Adapting to organizational change.
+
+We also explored the **Plan-Do-Check-Act (PDCA)** cycle, which supports continual improvement by encouraging organizations to:
+
+- **Plan** improvements.
+- **Do** implement changes.
+- **Check** performance.
+- **Act** on lessons learned.
+
+Continual improvement ensures that risk management remains effective as organizational objectives and external conditions evolve.
+
+---
+
+# Review of Lesson 2.10 – Enterprise Risk Management (ERM) and Integrated Risk Management (IRM)
+
+One of the most significant concepts introduced in this chapter was the transition from managing individual risks to managing risks across the entire enterprise.
+
+We learned that **Enterprise Risk Management (ERM)** provides a structured approach for managing risks across all business functions, enabling leadership to make informed strategic decisions.
+
+We also introduced **Integrated Risk Management (IRM)**, which extends enterprise risk management by integrating governance, people, business processes, technology, and data into a unified risk management approach.
+
+Rather than operating in isolated departments, organizations implementing ERM and IRM promote collaboration across:
+
+- Executive Management.
+- Business Operations.
+- Finance.
+- Information Technology.
+- Cybersecurity.
+- Human Resources.
+- Legal and Compliance.
+- Internal Audit.
+
+This enterprise-wide approach provides leadership with a comprehensive view of organizational risk.
+
+---
+
+# Enterprise Risk Categories
+
+As part of our discussion on ERM, we reviewed the major categories of organizational risk.
+
+These include:
+
+- Strategic Risk.
+- Operational Risk.
+- Financial Risk.
+- Compliance Risk.
+- Technology and Cybersecurity Risk.
+
+Although these categories are often managed by different departments, they are interconnected.
+
+For example:
+
+A cybersecurity incident may lead to:
+
+- Operational disruption.
+- Financial losses.
+- Regulatory penalties.
+- Reputational damage.
+- Strategic consequences.
+
+Understanding these relationships enables organizations to evaluate risks from an enterprise perspective rather than treating each risk independently.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Enterprise Risk Management Overview
+
+**Diagram Description:**
+
+Create a central circle labeled:
+
+**Enterprise Risk Management (ERM)**
+
+Surround it with five connected circles labeled:
+
+- Strategic Risk
+- Operational Risk
+- Financial Risk
+- Compliance Risk
+- Technology & Cybersecurity Risk
+
+Above the diagram place:
+
+**Organizational Objectives**
+
+Below the diagram place:
+
+**Integrated Risk Management (IRM)**
+
+Connect IRM to the central ERM circle with arrows labeled:
+
+- Governance
+- People
+- Processes
+- Technology
+- Data
+
+Include the caption:
+
+*"Enterprise Risk Management provides a holistic view of organizational risks, while Integrated Risk Management connects governance, people, processes, and technology to support informed decision-making."*
+
+---
+
+# Connecting Lessons 2.8 Through 2.10
+
+These lessons emphasize that effective risk management is not a one-time exercise but an ongoing organizational capability.
+
+Together, they answer three important questions:
+
+- **How do we ensure risks remain under control?** (Risk Monitoring and Reporting)
+- **How do we improve our risk management processes over time?** (Continuous Monitoring and Improvement)
+- **How do we manage risks across the entire organization?** (Enterprise Risk Management and Integrated Risk Management)
+
+By combining continuous monitoring, continual improvement, and enterprise-wide governance, organizations create a dynamic risk management program that can adapt to changing business conditions, emerging threats, and evolving stakeholder expectations.
+
+These concepts form the bridge between operational risk management and the governance structures that ensure accountability, collaboration, and strategic oversight across the organization.
+
 
 

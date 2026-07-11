@@ -517,5 +517,296 @@ By combining continuous monitoring, continual improvement, and enterprise-wide g
 
 These concepts form the bridge between operational risk management and the governance structures that ensure accountability, collaboration, and strategic oversight across the organization.
 
+# Review of Lesson 2.11 – Risk Ownership, Accountability, and the Three Lines Model
+
+One of the key success factors in risk management is ensuring that every significant risk has a clearly defined owner.
+
+In Lesson 2.11, we explored how organizations establish accountability by assigning responsibility for managing risks and implementing controls.
+
+We distinguished between several important concepts:
+
+- **Risk Ownership** – Overall accountability for managing a risk.
+- **Responsibility** – Performing activities that support risk management.
+- **Accountability** – Being answerable for achieving the desired outcome.
+- **Authority** – Having the power to make decisions and allocate resources.
+
+We also examined the **Institute of Internal Auditors (IIA) Three Lines Model**, which defines clear governance responsibilities across the organization.
+
+The model consists of:
+
+### First Line – Operational Management
+
+- Owns and manages risks.
+- Implements controls.
+- Operates business processes.
+
+### Second Line – Risk, Compliance, and Governance Functions
+
+- Develops policies.
+- Provides oversight.
+- Monitors compliance.
+- Advises management.
+
+### Third Line – Internal Audit
+
+- Provides independent assurance.
+- Evaluates governance.
+- Reviews internal controls.
+- Reports findings to executive management and the Board.
+
+Together, these three lines create a governance structure that promotes accountability, transparency, and effective risk oversight.
+
+---
+
+# Review of Lesson 2.12 – Risk Communication and Stakeholder Engagement
+
+Effective risk management depends on communicating the right information to the right stakeholders at the right time.
+
+In this lesson, we explored how organizations communicate risk information throughout the entire risk management lifecycle.
+
+Key principles of effective communication include:
+
+- Accuracy.
+- Timeliness.
+- Relevance.
+- Clarity.
+- Consistency.
+
+We also examined the importance of engaging both internal and external stakeholders.
+
+Internal stakeholders include:
+
+- Board of Directors.
+- Executive Management.
+- Business Units.
+- Risk Owners.
+- GRC Teams.
+- Compliance.
+- Internal Audit.
+
+External stakeholders include:
+
+- Regulators.
+- Customers.
+- Suppliers.
+- Business Partners.
+- External Auditors.
+- Certification Bodies.
+
+Finally, we explored the importance of:
+
+- Risk escalation procedures.
+- Incident communication.
+- Communication technologies.
+- Building a risk-aware organizational culture.
+
+Strong communication enables better decision-making and strengthens organizational resilience.
+
+---
+
+# Review of Lesson 2.13 – Risk Management Frameworks and Standards
+
+The final lesson introduced the internationally recognized frameworks that organizations use to establish structured and consistent risk management programs.
+
+We examined several of the most widely adopted frameworks:
+
+### ISO 31000
+
+Provides internationally recognized guidance for enterprise risk management.
+
+---
+
+### COSO Enterprise Risk Management (ERM)
+
+Integrates governance, strategy, performance, and enterprise risk management.
+
+---
+
+### ISO/IEC 27005
+
+Provides guidance for information security risk management and supports ISO/IEC 27001 Information Security Management Systems (ISMS).
+
+---
+
+### NIST Risk Management Framework (RMF)
+
+Provides a structured lifecycle for managing cybersecurity and information system risks.
+
+---
+
+### NIST Cybersecurity Framework (CSF)
+
+Provides a flexible framework organized around six core functions:
+
+- Govern
+- Identify
+- Protect
+- Detect
+- Respond
+- Recover
+
+Rather than selecting a single framework, many organizations integrate multiple standards to support governance, cybersecurity, operational resilience, regulatory compliance, and enterprise-wide risk management.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Complete Risk Management Ecosystem
+
+**Diagram Description:**
+
+Create a comprehensive flow diagram illustrating the complete risk management lifecycle covered in Chapter 2.
+
+Display the following sequence from left to right:
+
+**Governance**
+
+↓
+
+**Risk Identification**
+
+↓
+
+**Risk Analysis**
+
+↓
+
+**Risk Evaluation**
+
+↓
+
+**Risk Treatment**
+
+↓
+
+**Risk Acceptance**
+
+↓
+
+**Risk Monitoring & Reporting**
+
+↓
+
+**Continuous Improvement**
+
+↓
+
+**Enterprise Risk Management (ERM)**
+
+Surround the entire lifecycle with supporting governance components:
+
+- Risk Ownership
+- Three Lines Model
+- Risk Communication
+- Stakeholder Engagement
+- International Frameworks & Standards (ISO 31000, COSO ERM, ISO/IEC 27005, NIST RMF, NIST CSF)
+
+Above the diagram place:
+
+**Organizational Objectives**
+
+Below the diagram place:
+
+**Improved Governance • Better Decisions • Organizational Resilience**
+
+Include the caption:
+
+*"Effective risk management is a continuous, organization-wide process that integrates governance, people, processes, communication, and internationally recognized frameworks to support strategic objectives."*
+
+---
+
+# Chapter 2 Summary
+
+Throughout this chapter, we explored the complete risk management lifecycle and its role in supporting effective Governance, Risk, and Compliance (GRC).
+
+We began by establishing the foundations of risk management, introducing key concepts such as risk, uncertainty, governance, and organizational objectives. We then examined how organizations identify, analyze, evaluate, treat, and accept risks before exploring the importance of continuous monitoring, reporting, and continual improvement.
+
+The chapter also introduced enterprise-wide concepts such as Enterprise Risk Management (ERM), Integrated Risk Management (IRM), risk ownership, accountability, stakeholder engagement, and internationally recognized frameworks including ISO 31000, COSO ERM, ISO/IEC 27005, the NIST Risk Management Framework (RMF), and the NIST Cybersecurity Framework (CSF).
+
+Collectively, these topics demonstrate that effective risk management is not simply a compliance activity—it is a strategic capability that enables organizations to anticipate uncertainty, make informed decisions, strengthen resilience, and achieve their business objectives.
+
+---
+
+# Chapter 2 Key Takeaways
+
+- Risk management is a continuous process that supports organizational objectives.
+- Governance establishes accountability, oversight, and decision-making structures.
+- Risk identification is the foundation of effective risk management.
+- Risk analysis and evaluation help organizations prioritize risks.
+- Risk treatment includes avoiding, reducing, transferring, or accepting risks.
+- Accepted risks must remain documented, monitored, and periodically reviewed.
+- Continuous monitoring and improvement keep risk management effective in changing environments.
+- Enterprise Risk Management (ERM) provides an organization-wide perspective on risk.
+- Integrated Risk Management (IRM) connects governance, people, processes, technology, and data.
+- Clear risk ownership and the Three Lines Model strengthen accountability and governance.
+- Effective communication and stakeholder engagement improve transparency and decision-making.
+- International frameworks provide structured guidance for building mature and consistent risk management programs.
+
+---
+
+# Chapter Review Questions
+
+1. What is the definition of risk according to ISO 31000?
+2. Why is governance essential to effective risk management?
+3. What is the difference between risk appetite and risk tolerance?
+4. What are common techniques used for risk identification?
+5. How does risk analysis differ from risk evaluation?
+6. What are the four primary risk treatment options?
+7. When is risk acceptance an appropriate decision?
+8. Why is continuous monitoring important?
+9. How does Enterprise Risk Management (ERM) differ from traditional risk management?
+10. What is Integrated Risk Management (IRM)?
+11. What are the responsibilities of the First, Second, and Third Lines in the Three Lines Model?
+12. Why is stakeholder engagement important in risk communication?
+13. What are the key principles of effective risk communication?
+14. How does ISO 31000 support enterprise risk management?
+15. What is the primary purpose of ISO/IEC 27005?
+16. What are the seven steps of the NIST Risk Management Framework (RMF)?
+17. What are the six core functions of the NIST Cybersecurity Framework (CSF)?
+18. Why do organizations integrate multiple risk management frameworks?
+19. How does effective risk management support organizational resilience?
+20. How does risk management contribute to achieving strategic business objectives?
+
+---
+
+# Practical Exercises
+
+To reinforce the concepts covered in this chapter, consider completing the following exercises:
+
+1. Identify five risks within a real or fictional organization and classify them into appropriate risk categories.
+2. Perform a simple qualitative risk assessment by assigning likelihood and impact ratings to each identified risk.
+3. Recommend a suitable risk treatment option for each risk and justify your decision.
+4. Create a basic risk register that includes risk owners, treatment plans, and review dates.
+5. Map the Three Lines Model to your own organization or a case study, identifying which departments belong to each line.
+6. Compare ISO 31000 and the NIST Cybersecurity Framework, highlighting situations where each framework would be most appropriate.
+7. Develop a sample risk communication plan for reporting a critical cybersecurity incident to executive management and other stakeholders.
+
+---
+
+# Recommended Reading
+
+### International Standards
+
+- ISO 31000 — *Risk Management – Guidelines*
+- ISO Guide 73 — *Risk Management — Vocabulary*
+- ISO/IEC 27001 — *Information Security Management Systems (ISMS)*
+- ISO/IEC 27005 — *Information Security Risk Management*
+- ISO 22301 — *Business Continuity Management Systems*
+
+### Frameworks and Guidance
+
+- COSO Enterprise Risk Management (ERM)
+- NIST Risk Management Framework (RMF)
+- NIST Cybersecurity Framework (CSF)
+- COBIT 2019
+
+---
+
+# Next Chapter
+
+➡️ **Chapter 3 – Compliance Management**
+
+In the next chapter, we will explore the principles of compliance management, including legal and regulatory obligations, compliance governance, ethics, corporate policies, regulatory frameworks, and how organizations build effective compliance programs that support governance, reduce regulatory risk, and maintain stakeholder trust.
+
 
 

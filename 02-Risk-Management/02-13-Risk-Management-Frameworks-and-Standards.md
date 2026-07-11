@@ -353,6 +353,165 @@ Organizations choose frameworks based on their governance objectives and busines
 
 Many organizations implement **ISO 31000** as the foundation for enterprise risk management while using **COSO ERM** to strengthen governance, strategic planning, and executive decision-making.
 
+# ISO/IEC 27005 – Information Security Risk Management
 
+While ISO 31000 provides guidance for managing enterprise risks, **ISO/IEC 27005** focuses specifically on **information security risk management**.
+
+ISO/IEC 27005 supports organizations in identifying, assessing, treating, monitoring, and communicating risks related to information assets.
+
+It complements **ISO/IEC 27001** by providing guidance on how to perform information security risk management within an Information Security Management System (ISMS).
+
+Unlike ISO/IEC 27001, ISO/IEC 27005 is **not certifiable**.
+
+Instead, it serves as a practical guide for implementing effective information security risk management processes.
+
+Organizations commonly use ISO/IEC 27005 in industries such as:
+
+- Banking and financial services.
+- Healthcare.
+- Telecommunications.
+- Government.
+- Cloud service providers.
+- Critical infrastructure.
+- Technology companies.
+
+---
+
+# ISO/IEC 27005 Risk Management Process
+
+ISO/IEC 27005 follows a structured process that aligns closely with ISO 31000 while focusing specifically on information security risks.
+
+The process includes:
+
+- Establishing the context.
+- Risk identification.
+- Risk analysis.
+- Risk evaluation.
+- Risk treatment.
+- Risk acceptance.
+- Risk communication.
+- Risk monitoring and review.
+
+These activities are performed continuously throughout the lifecycle of the Information Security Management System (ISMS).
+
+The objective is to ensure that information security risks remain within the organization's approved risk appetite.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** ISO/IEC 27005 Information Security Risk Management Process
+
+**Diagram Description:**
+
+Create a circular lifecycle with the following stages:
+
+- Establish Context
+- Identify Information Security Risks
+- Analyze Risks
+- Evaluate Risks
+- Treat Risks
+- Monitor & Review
+
+Surround the lifecycle with an outer ring labeled:
+
+- Communication
+- Consultation
+- Documentation
+
+Include the caption:
+
+*"ISO/IEC 27005 provides a structured approach for managing information security risks throughout the ISMS lifecycle."*
+
+---
+
+# NIST Risk Management Framework (RMF)
+
+The **NIST Risk Management Framework (RMF)** is a comprehensive framework developed by the **National Institute of Standards and Technology (NIST)**.
+
+It provides a structured process for integrating cybersecurity, privacy, and supply chain risk management into system development and organizational operations.
+
+The RMF is widely adopted by:
+
+- United States federal agencies.
+- Defense organizations.
+- Critical infrastructure operators.
+- Healthcare organizations.
+- Financial institutions.
+- Organizations using NIST cybersecurity guidance.
+
+Although originally developed for U.S. government systems, many private-sector organizations have also adopted the RMF because of its structured and risk-based approach.
+
+---
+
+# NIST RMF Steps
+
+The current NIST RMF consists of seven continuous steps:
+
+1. Prepare
+2. Categorize
+3. Select
+4. Implement
+5. Assess
+6. Authorize
+7. Monitor
+
+Each step contributes to managing cybersecurity and privacy risks throughout the system lifecycle.
+
+Rather than treating security as a one-time activity, the RMF promotes continuous monitoring and ongoing risk management.
+
+---
+
+# Purpose of the NIST RMF
+
+The NIST RMF helps organizations:
+
+- Integrate security into system development.
+- Select appropriate security controls.
+- Assess control effectiveness.
+- Support risk-based authorization decisions.
+- Continuously monitor system security.
+- Improve cybersecurity governance.
+- Strengthen operational resilience.
+
+Its lifecycle approach makes the RMF particularly valuable for organizations managing complex information systems and critical infrastructure.
+
+---
+
+# ISO/IEC 27005 vs NIST RMF
+
+Although both approaches focus on managing information security risks, they differ in scope and application.
+
+| ISO/IEC 27005 | NIST RMF |
+|---------------|----------|
+| Information security risk management guidance | Comprehensive cybersecurity risk management framework |
+| Supports ISO/IEC 27001 ISMS | Integrates with NIST SP 800-53 security controls |
+| Flexible and principles-based | Structured lifecycle with defined implementation steps |
+| Widely adopted internationally | Widely adopted by U.S. government and many private organizations |
+| Focuses primarily on risk management | Covers governance, control selection, authorization, and continuous monitoring |
+
+Many multinational organizations map ISO/IEC 27005 and the NIST RMF together to support both international standards and regional regulatory requirements.
+
+---
+
+# Choosing Between ISO/IEC 27005 and NIST RMF
+
+The choice depends largely on the organization's operating environment.
+
+Organizations often prefer **ISO/IEC 27005** when they:
+
+- Operate an ISO/IEC 27001-certified ISMS.
+- Require an internationally recognized approach.
+- Need flexible guidance for information security risk management.
+- Operate across multiple countries.
+
+Organizations often adopt the **NIST RMF** when they:
+
+- Work with U.S. federal agencies.
+- Follow NIST cybersecurity standards.
+- Require structured system authorization processes.
+- Need detailed guidance for security control implementation and continuous monitoring.
+
+In many cases, organizations successfully combine both approaches, using ISO/IEC 27005 for enterprise information security risk management while applying the NIST RMF to manage the security lifecycle of critical information systems.
 
 

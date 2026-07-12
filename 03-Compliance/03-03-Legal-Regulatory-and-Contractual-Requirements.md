@@ -349,4 +349,207 @@ Potential consequences include:
 
 Because the impact of non-compliance can affect every aspect of the organization, compliance management should be treated as a strategic business capability rather than simply an administrative requirement.
 
+# Identifying Applicable Compliance Requirements
+
+One of the most important responsibilities of a compliance function is determining which compliance obligations apply to the organization.
+
+Not every law, regulation, or industry standard is relevant to every business.
+
+For example:
+
+- A hospital must comply with healthcare regulations.
+- A financial institution must comply with banking regulations.
+- A cloud service provider may need to comply with ISO/IEC 27001, SOC 2, and customer security requirements.
+- A retailer that processes payment cards must comply with PCI DSS.
+- A company operating within the European Union must comply with applicable EU regulations such as the GDPR.
+
+Compliance professionals must therefore assess the organization's business activities, industry, products, services, geographic presence, and contractual commitments to determine which obligations are applicable.
+
+---
+
+# Factors That Determine Applicable Requirements
+
+Several factors influence the compliance requirements that apply to an organization.
+
+These include:
+
+### Industry
+
+Different industries are governed by different regulatory frameworks.
+
+Examples include:
+
+- Banking.
+- Healthcare.
+- Telecommunications.
+- Manufacturing.
+- Energy.
+- Government.
+- Critical Infrastructure.
+
+---
+
+### Geographic Location
+
+Organizations must comply with the laws and regulations of every country or region in which they operate.
+
+For multinational organizations, this often means complying with multiple legal frameworks simultaneously.
+
+Examples include:
+
+- European Union regulations.
+- United States federal and state laws.
+- National cybersecurity regulations.
+- Local labor legislation.
+
+---
+
+### Products and Services
+
+The organization's products and services determine many compliance obligations.
+
+For example:
+
+- Payment processing services require PCI DSS.
+- Healthcare services require healthcare privacy regulations.
+- Cloud services often require internationally recognized security certifications.
+- AI-enabled products may need to comply with emerging AI governance requirements.
+
+---
+
+### Customers
+
+Customers frequently impose contractual compliance requirements.
+
+Examples include:
+
+- ISO/IEC 27001 certification.
+- Security questionnaires.
+- Privacy requirements.
+- Supplier codes of conduct.
+- Service Level Agreements (SLAs).
+- Audit rights.
+
+Failure to meet customer requirements may result in loss of contracts or business opportunities.
+
+---
+
+### Business Partners and Suppliers
+
+Organizations may also inherit compliance obligations through their supply chain.
+
+For example:
+
+- A supplier handling personal data must comply with customer privacy requirements.
+- An outsourced service provider may be required to follow specific cybersecurity controls.
+- Cloud providers may be required to undergo independent security assessments.
+
+Supply chain compliance has become increasingly important as organizations rely more heavily on third-party providers.
+
+---
+
+# Compliance Obligations Register
+
+Once compliance obligations have been identified, organizations should document them in a **Compliance Obligations Register**.
+
+This register serves as a centralized repository of all compliance requirements that apply to the organization.
+
+A typical Compliance Obligations Register includes:
+
+- Requirement identifier.
+- Applicable law or regulation.
+- Regulatory authority.
+- Description of the obligation.
+- Business owner.
+- Responsible department.
+- Applicable business processes.
+- Required controls.
+- Review frequency.
+- Compliance status.
+- Evidence of compliance.
+
+Maintaining an up-to-date register helps ensure that compliance requirements are tracked, assigned, monitored, and reviewed consistently.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Compliance Obligations Identification Process
+
+**Diagram Description:**
+
+Create a left-to-right process flow.
+
+**Business Activities**
+
+↓
+
+**Identify Applicable Requirements**
+
+Consider:
+
+- Industry
+- Geography
+- Products & Services
+- Customers
+- Suppliers
+
+↓
+
+**Compliance Obligations Register**
+
+↓
+
+**Policies & Controls**
+
+↓
+
+**Monitoring & Review**
+
+Include the caption:
+
+*"Organizations must systematically identify and document applicable compliance obligations before implementing compliance controls."*
+
+---
+
+# Maintaining the Compliance Obligations Register
+
+A Compliance Obligations Register is not a one-time document.
+
+It should be reviewed and updated regularly to reflect changes in the organization's operating environment.
+
+Typical triggers for updating the register include:
+
+- New laws or regulations.
+- Regulatory guidance updates.
+- New customer contracts.
+- Expansion into new countries.
+- Introduction of new products or services.
+- Business acquisitions or mergers.
+- Changes in industry standards.
+- Internal policy changes.
+
+Regular reviews help ensure that the organization remains aware of new obligations and can respond proactively to regulatory and business changes.
+
+---
+
+# Regulatory Change Management
+
+Regulations and legal requirements are continually evolving.
+
+Organizations must establish a structured process to monitor, assess, and implement regulatory changes.
+
+A typical regulatory change management process includes:
+
+1. Monitor legal and regulatory updates.
+2. Assess the impact on the organization.
+3. Identify affected business processes.
+4. Update policies and procedures.
+5. Implement necessary controls.
+6. Train affected employees.
+7. Verify implementation.
+8. Monitor ongoing compliance.
+
+An effective regulatory change management process enables organizations to adapt quickly to changing requirements, reducing the risk of non-compliance and supporting continual improvement within the Compliance Management System.
+
 

@@ -163,3 +163,5 @@ These include:
 - Continual improvement.
 
 Rather than reacting to regulatory requirements individually, organizations can establish a comprehensive Compliance Management System that addresses multiple obligations through a unified governance approach.
+
+

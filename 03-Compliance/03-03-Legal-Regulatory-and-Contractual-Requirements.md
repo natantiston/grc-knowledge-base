@@ -552,4 +552,164 @@ A typical regulatory change management process includes:
 
 An effective regulatory change management process enables organizations to adapt quickly to changing requirements, reducing the risk of non-compliance and supporting continual improvement within the Compliance Management System.
 
+# Mapping Compliance Obligations to Organizational Controls
+
+Identifying compliance obligations is only the first step.
+
+Organizations must also ensure that each obligation is translated into practical business processes, policies, and controls that enable consistent compliance.
+
+This process is commonly referred to as **compliance mapping**.
+
+Compliance mapping links each requirement to:
+
+- Applicable business processes.
+- Organizational policies.
+- Standards and procedures.
+- Technical controls.
+- Administrative controls.
+- Responsible departments.
+- Evidence of compliance.
+
+By establishing these relationships, organizations can clearly demonstrate how each compliance obligation is being addressed.
+
+---
+
+# Example Compliance Mapping
+
+The following simplified example illustrates how compliance obligations can be mapped to organizational controls.
+
+| Compliance Requirement | Organizational Control |
+|------------------------|------------------------|
+| GDPR | Data Privacy Policy, Data Subject Rights Process, Encryption Controls |
+| ISO/IEC 27001 | Information Security Management System (ISMS), Risk Assessments, Security Policies |
+| PCI DSS | Network Segmentation, Multi-Factor Authentication (MFA), Access Control |
+| Customer Security Requirements | Supplier Security Program, Security Assessments, Incident Reporting |
+| Labor Regulations | Human Resources Policies, Employee Records Management |
+
+Maintaining these mappings simplifies audits, regulatory inspections, and internal reviews by demonstrating how compliance requirements are implemented throughout the organization.
+
+---
+
+# Demonstrating Compliance
+
+Organizations are often required to demonstrate that they comply with applicable obligations.
+
+Merely stating that controls exist is usually insufficient.
+
+Compliance should be supported by objective evidence.
+
+Examples of compliance evidence include:
+
+- Approved policies and procedures.
+- Risk assessments.
+- Training records.
+- Audit reports.
+- System configuration records.
+- Access control reviews.
+- Change management records.
+- Incident reports.
+- Meeting minutes.
+- Compliance dashboards.
+- Certification reports.
+
+Maintaining organized and up-to-date evidence enables organizations to respond efficiently to audits, customer assessments, and regulatory inspections.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Compliance Obligation Management Lifecycle
+
+**Diagram Description:**
+
+Create a circular lifecycle diagram consisting of the following stages:
+
+1. Identify Requirements
+2. Assess Applicability
+3. Record in Compliance Obligations Register
+4. Implement Policies and Controls
+5. Collect Compliance Evidence
+6. Monitor Compliance
+7. Review Regulatory Changes
+8. Update Compliance Obligations
+
+Place **Compliance Management System (CMS)** in the center.
+
+Include the caption:
+
+*"Compliance management is a continuous process of identifying obligations, implementing controls, demonstrating compliance, and adapting to changing legal and regulatory requirements."*
+
+---
+
+# Summary
+
+Legal, regulatory, contractual, industry, and internal requirements form the foundation of every Compliance Management System (CMS).
+
+Throughout this lesson, we explored the different categories and sources of compliance obligations, including laws, regulations, contracts, industry standards, and organizational policies. We also examined how organizations determine which requirements apply to their business, maintain a Compliance Obligations Register, manage regulatory change, map obligations to organizational controls, and collect objective evidence to demonstrate compliance.
+
+An effective compliance program depends on a thorough understanding of applicable obligations and a structured process for translating those requirements into policies, controls, monitoring activities, and continual improvement. By maintaining this discipline, organizations reduce compliance risk, strengthen governance, and build confidence with regulators, customers, and other stakeholders.
+
+---
+
+# Key Takeaways
+
+- Compliance obligations originate from legal, regulatory, contractual, industry, and internal sources.
+- Organizations must determine which obligations apply based on their industry, geographic presence, business activities, products, services, and contractual commitments.
+- A Compliance Obligations Register serves as the central repository for tracking applicable requirements.
+- Regulatory change management helps organizations adapt to evolving laws and regulations.
+- Compliance obligations should be mapped to organizational policies, procedures, and controls.
+- Objective evidence is essential for demonstrating compliance during audits and inspections.
+- Continuous monitoring and periodic reviews ensure that compliance obligations remain current and effectively managed.
+
+---
+
+# Knowledge Check
+
+1. What are the five primary categories of compliance obligations?
+2. How do legal requirements differ from regulatory requirements?
+3. Why can contractual requirements become compliance obligations?
+4. What factors determine which compliance requirements apply to an organization?
+5. What information should be included in a Compliance Obligations Register?
+6. Why is regulatory change management important?
+7. What is the purpose of compliance mapping?
+8. Give five examples of objective evidence used to demonstrate compliance.
+9. Why should organizations regularly review their Compliance Obligations Register?
+10. How do effective compliance obligation management processes support governance and risk management?
+
+---
+
+# Further Reading
+
+### International Standards
+
+- ISO 37301 — *Compliance Management Systems — Requirements with Guidance for Use*
+- ISO 37300 — *Compliance Management Systems — Vocabulary*
+- ISO 31000 — *Risk Management — Guidelines*
+- ISO/IEC 27001 — *Information Security Management Systems (ISMS)*
+- ISO/IEC 27002 — *Information Security Controls*
+
+### Related Frameworks
+
+- COBIT 2019
+- COSO Enterprise Risk Management (ERM)
+- NIST Cybersecurity Framework (CSF)
+- NIST Risk Management Framework (RMF)
+
+### Related Topics
+
+- Compliance Management Systems (CMS)
+- Regulatory Change Management
+- Governance, Risk, and Compliance (GRC)
+- Risk Assessment
+- Internal Controls
+- Audit and Assurance
+
+---
+
+# Next Lesson
+
+➡️ **Lesson 3.4 – Compliance Frameworks and Standards**
+
+In the next lesson, we will explore the internationally recognized compliance frameworks and standards that organizations use to establish effective Compliance Management Systems. These include ISO 37301, ISO 37300, ISO/IEC 27001, COBIT, COSO, NIST frameworks, PCI DSS, and other widely adopted standards that support governance, risk management, and regulatory compliance.
+
 

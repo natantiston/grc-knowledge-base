@@ -175,4 +175,173 @@ These policies provide the foundation upon which standards, procedures, and othe
 
 A mature Compliance Management System relies on well-defined policies to communicate management's expectations, establish accountability, and ensure consistent governance across the organization.
 
+# What Is a Standard?
+
+A **standard** is a mandatory document that defines the specific requirements, rules, or technical criteria needed to implement a policy consistently across the organization.
+
+If a policy explains **what** must be achieved, a standard defines **the minimum requirements that must be followed** to achieve it. Standards make policies measurable and enforceable by providing clear and consistent expectations. :contentReference[oaicite:0]{index=0}
+
+Standards are typically approved by the appropriate governance body or management responsible for the subject area.
+
+---
+
+# Characteristics of Effective Standards
+
+An effective standard should be:
+
+- Mandatory.
+- Specific and measurable.
+- Consistent across the organization.
+- Based on business or regulatory requirements.
+- Technically accurate.
+- Easy to verify during audits.
+- Reviewed periodically.
+
+Unlike policies, standards may require more frequent updates because technologies, regulations, and industry practices evolve over time.
+
+---
+
+# Examples of Organizational Standards
+
+Examples include:
+
+- Password Standard.
+- Encryption Standard.
+- Secure Configuration Standard.
+- Data Classification Standard.
+- Backup Standard.
+- Logging and Monitoring Standard.
+- Access Control Standard.
+- Endpoint Security Standard.
+- Network Security Standard.
+- Cloud Security Standard.
+
+These standards establish consistent requirements that all departments and systems must follow.
+
+---
+
+# Policy vs Standard
+
+Although policies and standards are closely related, they serve different purposes.
+
+| Policy | Standard |
+|---------|----------|
+| High-level management direction | Specific mandatory requirements |
+| Explains **what** and **why** | Defines **what minimum requirements must be met** |
+| Broad and strategic | Detailed and measurable |
+| Approved by senior management | Approved by the appropriate governance authority |
+| Changes infrequently | Updated as technology or business needs evolve |
+
+For example:
+
+**Policy Statement**
+
+*"Sensitive organizational information shall be protected from unauthorized access."*
+
+**Related Standard**
+
+- AES-256 encryption must be used for data at rest.
+- TLS 1.3 or higher must be used for data in transit.
+- Multi-Factor Authentication (MFA) must be enabled for privileged accounts.
+
+The policy establishes the objective, while the standard specifies the mandatory technical requirements used to achieve it. :contentReference[oaicite:1]{index=1}
+
+---
+
+# What Is a Procedure?
+
+A **procedure** is a documented sequence of steps that explains how a task or process is performed.
+
+Procedures convert policies and standards into repeatable operational activities.
+
+They answer the question:
+
+**"How do we perform this activity?"**
+
+Unlike policies and standards, procedures are operational documents used by employees who perform specific tasks.
+
+---
+
+# Characteristics of Effective Procedures
+
+Well-designed procedures are:
+
+- Detailed.
+- Sequential.
+- Repeatable.
+- Practical.
+- Easy to follow.
+- Assigned to specific roles.
+- Updated whenever operational processes change.
+
+Procedures should provide enough detail that trained personnel can perform a task consistently and correctly.
+
+---
+
+# Examples of Procedures
+
+Examples include:
+
+- User Account Creation Procedure.
+- Incident Response Procedure.
+- Change Management Procedure.
+- Vendor Assessment Procedure.
+- Backup and Restore Procedure.
+- Vulnerability Management Procedure.
+- Employee Onboarding Procedure.
+- Risk Assessment Procedure.
+- Access Review Procedure.
+- Business Continuity Activation Procedure.
+
+Each procedure provides clear instructions for completing a defined operational activity.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Relationship Between Policies, Standards, and Procedures
+
+**Diagram Description:**
+
+Create a vertical flow diagram.
+
+Top:
+
+**Policy**
+
+*"Sensitive information must be protected."*
+
+↓
+
+**Standard**
+
+*"AES-256 encryption and MFA are mandatory."*
+
+↓
+
+**Procedure**
+
+*"Steps for enabling encryption and configuring MFA."*
+
+At the bottom include the caption:
+
+*"Policies establish direction, standards define mandatory requirements, and procedures describe how those requirements are implemented consistently throughout the organization."*
+
+---
+
+# Why Procedures Are Important
+
+Procedures help organizations:
+
+- Ensure consistent execution of activities.
+- Reduce human error.
+- Improve operational efficiency.
+- Support employee training.
+- Simplify audits and inspections.
+- Demonstrate compliance.
+- Improve accountability.
+- Standardize business processes.
+
+Without documented procedures, employees may perform the same task differently, resulting in inconsistent outcomes, increased operational risk, and potential compliance failures.
+
 

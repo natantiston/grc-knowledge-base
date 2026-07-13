@@ -524,4 +524,222 @@ Management must determine whether the remaining residual risk is acceptable or w
 
 Understanding the difference between inherent and residual risk enables organizations to evaluate the effectiveness of their compliance controls and prioritize improvement efforts more effectively.
 
+# Risk Evaluation and Prioritization
 
+After analyzing compliance risks and evaluating existing controls, the organization determines which risks require treatment and which can be accepted.
+
+This stage is known as **risk evaluation**.
+
+Risk evaluation compares the assessed level of risk against the organization's **risk criteria** and **risk appetite**.
+
+Questions considered during this stage include:
+
+- Is the residual risk acceptable?
+- Does the risk exceed the organization's risk appetite?
+- Are additional controls required?
+- Should the activity continue as planned?
+- Does management need to approve the remaining risk?
+
+Organizations should establish documented risk criteria to ensure that compliance risks are evaluated consistently across all business units. ISO 37301 requires organizations to identify, analyze, evaluate, and periodically reassess compliance risks as part of an effective Compliance Management System (CMS). :contentReference[oaicite:0]{index=0}
+
+---
+
+# Compliance Risk Treatment
+
+Once risks have been prioritized, appropriate treatment strategies are selected.
+
+Common compliance risk treatment options include:
+
+### Risk Mitigation
+
+Implement additional controls to reduce the likelihood or impact of non-compliance.
+
+Examples:
+
+- Update policies and procedures.
+- Implement technical security controls.
+- Increase employee training.
+- Strengthen monitoring activities.
+- Improve documentation.
+- Conduct more frequent internal audits.
+
+---
+
+### Risk Avoidance
+
+Stop or avoid activities that create unacceptable compliance risks.
+
+Examples:
+
+- Discontinue a high-risk business process.
+- Exit a regulated market.
+- Decline contracts with unacceptable compliance obligations.
+
+---
+
+### Risk Transfer
+
+Transfer part of the risk to another party.
+
+Examples:
+
+- Cyber insurance.
+- Professional indemnity insurance.
+- Contractual agreements.
+- Outsourcing with clearly defined responsibilities.
+
+Although some financial consequences may be transferred, accountability for regulatory compliance usually remains with the organization.
+
+---
+
+### Risk Acceptance
+
+Accept the remaining residual risk when it falls within the organization's approved risk appetite.
+
+Risk acceptance should:
+
+- Be formally documented.
+- Be approved by the appropriate risk owner.
+- Be periodically reviewed.
+- Be reconsidered if circumstances change.
+
+---
+
+# Compliance Risk Register
+
+The results of a Compliance Risk Assessment are typically documented in a **Compliance Risk Register**.
+
+The register provides a centralized view of compliance risks and supports monitoring, reporting, and decision-making.
+
+A typical Compliance Risk Register includes:
+
+- Risk ID.
+- Compliance obligation.
+- Risk description.
+- Business process affected.
+- Risk owner.
+- Existing controls.
+- Inherent risk rating.
+- Residual risk rating.
+- Likelihood.
+- Impact.
+- Risk treatment plan.
+- Target completion date.
+- Current status.
+
+Maintaining an up-to-date risk register enables management to monitor compliance risks consistently and prioritize improvement efforts.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Compliance Risk Management Lifecycle
+
+**Diagram Description:**
+
+Create a continuous circular lifecycle with the following stages:
+
+1. Identify Compliance Obligations
+2. Identify Compliance Risks
+3. Analyze Risks
+4. Evaluate Risks
+5. Select Risk Treatment
+6. Implement Controls
+7. Monitor Compliance
+8. Review and Improve
+
+Place **Compliance Risk Management** in the center.
+
+Include the caption:
+
+*"Compliance risk management is a continuous cycle of identifying, assessing, treating, monitoring, and improving compliance risks to support effective governance and continual improvement."*
+
+---
+
+# Monitoring and Continuous Improvement
+
+Compliance risk management is not a one-time exercise.
+
+Organizations should continually monitor changes in their internal and external environments to ensure that compliance risks remain appropriately managed.
+
+Activities that support continual improvement include:
+
+- Periodic compliance risk assessments.
+- Internal audits.
+- Compliance monitoring.
+- Regulatory change reviews.
+- Control effectiveness testing.
+- Incident and breach analysis.
+- Corrective and preventive actions.
+- Management reviews.
+- Lessons learned from compliance events.
+
+These activities help organizations identify emerging risks, improve controls, and maintain an effective Compliance Management System over time.
+
+---
+
+# Summary
+
+Compliance Risk Assessment is a core component of an effective Compliance Management System (CMS). It enables organizations to identify compliance risks, evaluate their significance, prioritize resources, and implement appropriate controls before non-compliance results in legal, financial, operational, or reputational consequences.
+
+Throughout this lesson, we explored the concept of compliance risk, common sources of compliance risk, the compliance risk assessment process, inherent and residual risk, risk evaluation, treatment strategies, and the use of Compliance Risk Registers. We also examined the importance of continual monitoring and improvement in maintaining an effective compliance program. ISO 37301 emphasizes a risk-based approach in which compliance risks are regularly identified, assessed, treated, monitored, and reviewed as part of continual improvement. :contentReference[oaicite:1]{index=1}
+
+---
+
+# Key Takeaways
+
+- Compliance risk is the possibility of failing to meet legal, regulatory, contractual, or internal obligations.
+- Compliance Risk Assessments help organizations identify, analyze, evaluate, and prioritize compliance risks.
+- Common sources of compliance risk include regulatory changes, people, processes, technology, governance, and third parties.
+- Risk analysis considers both likelihood and impact.
+- Inherent risk exists before controls are applied, while residual risk remains after controls are implemented.
+- Risk treatment options include mitigation, avoidance, transfer, and acceptance.
+- A Compliance Risk Register provides centralized tracking of compliance risks and treatment plans.
+- Continuous monitoring, periodic reassessment, and continual improvement are essential for maintaining an effective Compliance Management System.
+
+---
+
+# Knowledge Check
+
+1. What is the purpose of a Compliance Risk Assessment?
+2. What is the difference between inherent risk and residual risk?
+3. What factors are typically used to analyze compliance risks?
+4. What are the four common compliance risk treatment options?
+5. What information is normally included in a Compliance Risk Register?
+6. Why is risk evaluation important before selecting treatment options?
+7. Why can't organizations transfer all compliance responsibility to a third party?
+8. How do internal audits support compliance risk management?
+9. Why should compliance risks be reassessed periodically?
+10. How does continual improvement strengthen a Compliance Management System?
+
+---
+
+# Further Reading
+
+### International Standards
+
+- ISO 37301 — *Compliance Management Systems*
+- ISO 31000 — *Risk Management — Guidelines*
+- ISO/IEC 27001 — *Information Security Management Systems*
+
+### Related Frameworks
+
+- COSO Enterprise Risk Management (ERM)
+- COBIT 2019
+- NIST Risk Management Framework (RMF)
+
+### Related Topics
+
+- Compliance Risk Management
+- Enterprise Risk Management (ERM)
+- Risk Registers
+- Internal Controls
+- Governance, Risk, and Compliance (GRC)
+
+---
+
+# Next Lesson
+
+➡️ **Lesson 3.7 – Compliance Monitoring and Reporting**
+
+In the next lesson, we will examine how organizations monitor compliance activities, measure performance, develop Key Performance Indicators (KPIs) and Key Risk Indicators (KRIs), perform compliance reporting, and provide management with meaningful information for informed decision-making and continual improvement.

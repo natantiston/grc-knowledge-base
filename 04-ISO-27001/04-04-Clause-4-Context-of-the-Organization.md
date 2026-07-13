@@ -727,4 +727,246 @@ By documenting these requirements and incorporating them into the ISMS, the orga
 
 Understanding interested parties also provides a direct input to the next step in Clause 4—**determining the scope of the Information Security Management System**, where the organization defines the boundaries and applicability of its ISMS based on its context and stakeholder requirements.
 
+# Clause 4.3 – Determining the Scope of the ISMS
 
+After identifying the organization's context and understanding the needs of interested parties, the next step is to define the **scope of the Information Security Management System (ISMS)**.
+
+The ISMS scope establishes the boundaries and applicability of the management system.
+
+In simple terms, it answers the question:
+
+> **"What parts of the organization are covered by the ISMS?"**
+
+A clearly defined scope ensures that everyone—including employees, customers, auditors, regulators, and certification bodies—understands exactly what is included within the ISMS and what falls outside its boundaries. ISO/IEC 27001 requires the scope to consider the organization's internal and external issues, interested-party requirements, and interfaces and dependencies with other organizations. The scope must also be maintained as documented information. :contentReference[oaicite:0]{index=0}
+
+---
+
+# Why the ISMS Scope Is Important
+
+The ISMS scope is one of the most important documents in an ISO/IEC 27001 implementation.
+
+It determines:
+
+- Which business units are covered.
+- Which locations are included.
+- Which products and services are protected.
+- Which information assets are managed.
+- Which business processes are included.
+- Which technologies fall within the ISMS.
+- Which third-party dependencies must be managed.
+
+A poorly defined scope can lead to:
+
+- Gaps in security coverage.
+- Confusion during audits.
+- Increased implementation costs.
+- Unclear responsibilities.
+- Certification issues.
+
+A well-defined scope helps organizations focus their security efforts on the areas that matter most to the business.
+
+---
+
+# Factors to Consider When Defining Scope
+
+Clause 4.3 requires organizations to consider several factors before defining the scope.
+
+### Organizational Context
+
+The scope should reflect the internal and external issues identified in Clause 4.1.
+
+Examples include:
+
+- Business objectives.
+- Technology environment.
+- Organizational structure.
+- Regulatory obligations.
+- Market conditions.
+
+---
+
+### Interested Parties
+
+Requirements identified in Clause 4.2 must also be considered.
+
+Examples include:
+
+- Customer security requirements.
+- Regulatory obligations.
+- Contractual commitments.
+- Supplier dependencies.
+- Business partner expectations.
+
+---
+
+### Interfaces and Dependencies
+
+Organizations rarely operate in isolation.
+
+The scope should consider:
+
+- Cloud service providers.
+- Outsourced IT services.
+- Shared infrastructure.
+- Parent companies.
+- Subsidiaries.
+- Third-party data centers.
+- Managed security providers.
+
+These dependencies may not be directly controlled by the organization, but they still influence the effectiveness of the ISMS.
+
+---
+
+# What Can Be Included in the Scope?
+
+The scope may be defined in several ways depending on the organization's size and objectives.
+
+Examples include:
+
+### Entire Organization
+
+Example:
+
+A small software company includes all business operations within the ISMS.
+
+---
+
+### Specific Business Units
+
+Example:
+
+Only the Software Development and IT Operations departments are included.
+
+---
+
+### Specific Products or Services
+
+Example:
+
+Only the cloud-based Software-as-a-Service (SaaS) platform is covered by the ISMS.
+
+---
+
+### Specific Locations
+
+Example:
+
+The headquarters and primary data center are included, while regional sales offices are excluded.
+
+---
+
+### Specific Legal Entities
+
+Example:
+
+Only the European subsidiary is certified under ISO/IEC 27001.
+
+The chosen scope should accurately reflect the organization's operations and be supported by a clear business justification.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Determining the Scope of the ISMS
+
+**Diagram Description:**
+
+Create a large rectangle labeled:
+
+**Organization**
+
+Inside the rectangle, include:
+
+- Headquarters
+- IT Operations
+- HR
+- Finance
+- Software Development
+- Customer Support
+- Data Center
+
+Draw a highlighted boundary around:
+
+- IT Operations
+- Software Development
+- Data Center
+
+Label the highlighted area:
+
+**ISMS Scope**
+
+Outside the boundary include:
+
+- Sales Office
+- Marketing
+- External Supplier
+
+Add dotted arrows from the external supplier to the ISMS boundary to show dependencies.
+
+Include the caption:
+
+*"The ISMS scope defines the organizational boundaries covered by ISO/IEC 27001 while recognizing interfaces and dependencies with activities outside the scope."*
+
+---
+
+# Clause 4.4 – Information Security Management System
+
+Once the scope has been defined, Clause 4.4 requires the organization to establish, implement, maintain, and continually improve the Information Security Management System.
+
+This means the ISMS must become an operational management system rather than simply a collection of policies or security controls.
+
+The organization should ensure that the ISMS:
+
+- Is integrated into business operations.
+- Supports organizational objectives.
+- Includes the necessary processes.
+- Defines responsibilities.
+- Operates consistently.
+- Is monitored and reviewed.
+- Is continually improved over time. :contentReference[oaicite:1]{index=1}
+
+---
+
+# ISMS as a Business Management System
+
+An effective ISMS is not owned solely by the IT department.
+
+It involves the entire organization.
+
+Typical ISMS processes include:
+
+- Information security governance.
+- Risk assessment.
+- Risk treatment.
+- Asset management.
+- Access control.
+- Incident management.
+- Internal audits.
+- Management reviews.
+- Corrective actions.
+- Continual improvement.
+
+These processes work together to ensure that information security supports the organization's strategic and operational objectives.
+
+---
+
+# Summary
+
+Clause 4 establishes the strategic foundation of the Information Security Management System.
+
+By understanding the organization's context, identifying interested parties, defining a clear ISMS scope, and establishing an integrated management system, organizations ensure that their information security program aligns with business objectives and stakeholder expectations.
+
+These activities provide the essential inputs for the next phase of ISO/IEC 27001—**Clause 5: Leadership**, where top management demonstrates commitment, establishes the Information Security Policy, assigns responsibilities, and provides the resources needed to operate an effective ISMS.
+
+---
+
+# Key Takeaways
+
+- Clause 4 consists of four interconnected requirements: **Context (4.1), Interested Parties (4.2), Scope (4.3), and the ISMS (4.4)**.
+- The ISMS scope defines the boundaries and applicability of the Information Security Management System.
+- Scope decisions should consider organizational context, stakeholder requirements, and third-party interfaces.
+- The scope must be documented and clearly communicated for certification and audit purposes.
+- Clause 4.4 requires organizations to establish, implement, maintain, and continually improve an ISMS that is integrated with business operations.
+- A well-defined Clause 4 provides the foundation for all subsequent ISO/IEC 27001 requirements, including leadership, planning, risk management, and continual improvement.
+
+- 

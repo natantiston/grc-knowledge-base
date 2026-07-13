@@ -761,3 +761,141 @@ As a **corrective action**, the organization integrates the HR and IAM systems, 
 Three months later, a follow-up audit confirms that user role changes are processed automatically and no similar issues have occurred.
 
 The organization documents the nonconformity, root cause analysis, corrective actions, and verification results, demonstrating full compliance with Clause 10.2 while strengthening the effectiveness of its Information Security Management System.
+
+# Chapter Summary – Clause 10: Improvement
+
+Clause 10 is the final clause of ISO/IEC 27001 and represents the **"Act"** phase of the **Plan-Do-Check-Act (PDCA)** cycle. It ensures that the Information Security Management System (ISMS) does not remain static after implementation or certification but continues to evolve in response to changes in technology, business operations, cyber threats, legal requirements, and organizational objectives.
+
+The clause is built around two complementary concepts:
+
+- **Continual Improvement (Clause 10.1)** – proactively enhancing the suitability, adequacy, and effectiveness of the ISMS.
+- **Nonconformity and Corrective Action (Clause 10.2)** – reactively addressing problems, identifying their root causes, and preventing recurrence.
+
+Together, these requirements create a culture of learning and continuous enhancement, ensuring that the ISMS becomes stronger over time rather than simply maintaining compliance. :contentReference[oaicite:0]{index=0}
+
+---
+
+# Key Takeaways
+
+After completing Clause 10, you should understand that:
+
+- An ISMS is a living management system that requires continual improvement.
+- Improvement opportunities can originate from audits, incidents, monitoring activities, management reviews, employee feedback, customer feedback, and risk assessments.
+- Continual improvement focuses on making the ISMS more suitable, adequate, and effective—not just fixing problems.
+- A nonconformity is any failure to meet a requirement from ISO/IEC 27001, organizational policies, legal obligations, or contractual commitments.
+- Corrective actions must eliminate the root cause of a problem, not merely correct its immediate effects.
+- Root cause analysis techniques such as the **5 Whys**, **Fishbone (Ishikawa) Diagram**, and **Fault Tree Analysis** help organizations identify why issues occur.
+- Organizations should verify that corrective actions are effective and retain documented evidence of the entire process.
+- Clause 10 completes the continual improvement cycle by transforming lessons learned into lasting improvements.
+
+---
+
+# Clause 10 in the PDCA Cycle
+
+The PDCA methodology is fully realized across Clauses 4 through 10.
+
+| PDCA Phase | ISO/IEC 27001 Clauses | Purpose |
+|------------|-----------------------|---------|
+| **Plan** | Clauses 4–7 | Establish the ISMS, assess risks, define objectives, and provide resources |
+| **Do** | Clause 8 | Operate the ISMS and implement risk treatment |
+| **Check** | Clause 9 | Monitor, measure, audit, and review ISMS performance |
+| **Act** | Clause 10 | Improve the ISMS through continual improvement and corrective action |
+
+This continuous cycle ensures that information security remains aligned with the organization's evolving business environment and risk landscape. :contentReference[oaicite:1]{index=1}
+
+---
+
+# Practical Checklist
+
+Organizations implementing Clause 10 should be able to demonstrate that they:
+
+- Identify improvement opportunities on an ongoing basis.
+- Record and investigate nonconformities.
+- Perform root cause analyses.
+- Implement appropriate corrective actions.
+- Verify that corrective actions are effective.
+- Update policies, procedures, and controls where necessary.
+- Track improvement initiatives to completion.
+- Maintain documented evidence of all improvement activities.
+
+These practices help ensure that the ISMS continually matures and remains effective over time.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** ISO/IEC 27001 Continual Improvement Framework
+
+**Diagram Description:**
+
+Create a circular PDCA diagram.
+
+**PLAN**
+
+- Clause 4 – Context
+- Clause 5 – Leadership
+- Clause 6 – Planning
+- Clause 7 – Support
+
+↓
+
+**DO**
+
+- Clause 8 – Operation
+
+↓
+
+**CHECK**
+
+- Clause 9 – Performance Evaluation
+
+↓
+
+**ACT**
+
+- Clause 10 – Improvement
+
+↓
+
+Arrow returning to **PLAN**.
+
+In the center of the circle, place:
+
+**Information Security Management System (ISMS)**
+
+Include the caption:
+
+*"ISO/IEC 27001 follows the Plan-Do-Check-Act (PDCA) methodology, where continual improvement ensures the Information Security Management System adapts to changing risks, technologies, and business needs throughout its lifecycle."*
+
+---
+
+# Real-World Scenario
+
+A technology company has maintained its ISO/IEC 27001 certification for three years.
+
+During this period, it has:
+
+- Conducted regular internal audits.
+- Performed quarterly management reviews.
+- Monitored security KPIs and KRIs.
+- Investigated security incidents.
+- Updated its Risk Register after significant business changes.
+- Implemented corrective actions following audit findings.
+- Introduced automation for access management and vulnerability reporting.
+- Enhanced employee awareness training based on phishing simulation results.
+
+Each improvement initiative was documented, measured, and reviewed to confirm its effectiveness.
+
+As a result, the organization reduced repeat audit findings, shortened incident response times, strengthened regulatory compliance, and improved overall information security maturity.
+
+This demonstrates the true intent of Clause 10: creating an organization that continuously learns, adapts, and improves its Information Security Management System, ensuring that information security remains an integral part of business success rather than a one-time compliance exercise. :contentReference[oaicite:2]{index=2}
+
+---
+
+# What's Next?
+
+Congratulations! You have now completed **Chapter 4 – ISO/IEC 27001 Fundamentals**.
+
+In the next chapter, you will move from understanding the ISO/IEC 27001 management system requirements to exploring the **93 Annex A security controls** introduced in ISO/IEC 27001:2022. You will learn how these controls are selected through risk assessment, documented in the **Statement of Applicability (SoA)**, and implemented to protect an organization's information assets.
+
+This next chapter bridges the gap between **ISMS governance** and the **practical implementation of security controls**, providing the foundation needed to design, implement, audit, and continually improve a modern Information Security Management System.

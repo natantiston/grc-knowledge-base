@@ -596,3 +596,234 @@ For this reason, successful ISMS implementations require collaboration between e
 
 An effective ISMS is therefore an organizational capability—not simply a technical solution—and serves as a cornerstone of modern Governance, Risk, and Compliance (GRC).
 
+# Key Principles of ISO/IEC 27001
+
+ISO/IEC 27001 is built on several fundamental principles that guide organizations in establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS).
+
+These principles ensure that information security is managed as a continuous business process rather than as a one-time technical project.
+
+Understanding these principles provides the foundation for every lesson that follows in this chapter.
+
+---
+
+# Principle 1 – Risk-Based Approach
+
+The most important principle of ISO/IEC 27001 is the **risk-based approach**.
+
+Organizations are not expected to implement every possible security control. Instead, they identify their information security risks, evaluate their significance, and select controls that appropriately reduce those risks.
+
+The risk management process typically includes:
+
+- Identifying information assets.
+- Identifying threats.
+- Identifying vulnerabilities.
+- Assessing likelihood.
+- Assessing business impact.
+- Evaluating risk levels.
+- Selecting risk treatment options.
+- Monitoring residual risks.
+
+This approach allows organizations to allocate resources where they provide the greatest protection while supporting business objectives. :contentReference[oaicite:0]{index=0}
+
+---
+
+# Principle 2 – Leadership and Governance
+
+Information security is a business responsibility, not solely an IT responsibility.
+
+ISO/IEC 27001 requires top management to actively support the Information Security Management System by:
+
+- Establishing the information security policy.
+- Defining security objectives.
+- Providing resources.
+- Assigning responsibilities.
+- Promoting a security culture.
+- Reviewing ISMS performance.
+
+Leadership involvement ensures that information security aligns with the organization's strategic direction and governance framework.
+
+---
+
+# Principle 3 – Continual Improvement
+
+An Information Security Management System should evolve as the organization, its technologies, and its threat landscape change.
+
+ISO/IEC 27001 requires organizations to continually improve the effectiveness of their ISMS through:
+
+- Performance measurement.
+- Internal audits.
+- Management reviews.
+- Corrective actions.
+- Lessons learned.
+- Risk reassessments.
+
+Rather than remaining static, the ISMS should continuously adapt to new risks, business requirements, and regulatory expectations. :contentReference[oaicite:1]{index=1}
+
+---
+
+# Principle 4 – Process Approach
+
+ISO/IEC 27001 treats information security as a collection of interconnected business processes.
+
+Examples include:
+
+- Risk assessment.
+- Access management.
+- Incident management.
+- Asset management.
+- Supplier management.
+- Business continuity.
+- Change management.
+
+Managing these activities as coordinated processes improves consistency, accountability, and operational effectiveness.
+
+---
+
+# The Plan-Do-Check-Act (PDCA) Cycle
+
+Although ISO/IEC 27001:2022 no longer explicitly requires organizations to use the **Plan-Do-Check-Act (PDCA)** model, the continual improvement philosophy of the standard remains closely aligned with it.
+
+The PDCA cycle consists of:
+
+### Plan
+
+- Understand organizational context.
+- Assess risks.
+- Define objectives.
+- Develop policies.
+- Select controls.
+
+---
+
+### Do
+
+- Implement the ISMS.
+- Deploy security controls.
+- Conduct awareness training.
+- Operate security processes.
+
+---
+
+### Check
+
+- Monitor performance.
+- Measure effectiveness.
+- Perform internal audits.
+- Conduct management reviews.
+
+---
+
+### Act
+
+- Correct nonconformities.
+- Improve controls.
+- Update policies.
+- Enhance the ISMS.
+
+The cycle repeats continuously, ensuring that information security remains effective as business and threat environments evolve. :contentReference[oaicite:2]{index=2}
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Continual Improvement Using the PDCA Cycle
+
+**Diagram Description:**
+
+Create a circular PDCA diagram.
+
+Top:
+
+**Plan**
+
+- Context
+- Risk Assessment
+- Objectives
+- Policies
+
+↓
+
+Right:
+
+**Do**
+
+- Implement ISMS
+- Apply Controls
+- Training
+- Operations
+
+↓
+
+Bottom:
+
+**Check**
+
+- Monitoring
+- Internal Audit
+- Performance Evaluation
+- Management Review
+
+↓
+
+Left:
+
+**Act**
+
+- Corrective Actions
+- Improvements
+- Risk Updates
+- ISMS Enhancement
+
+Connect the final stage back to **Plan**.
+
+Place the words:
+
+**Continual Improvement**
+
+around the outside of the circle.
+
+Include the caption:
+
+*"ISO/IEC 27001 promotes continual improvement by regularly planning, implementing, evaluating, and enhancing the Information Security Management System."*
+
+---
+
+# ISO/IEC 27001 and Organizational Success
+
+Implementing ISO/IEC 27001 delivers benefits that extend beyond information security.
+
+Organizations with a mature ISMS often achieve:
+
+- Better governance.
+- Improved cybersecurity resilience.
+- More effective risk management.
+- Greater operational consistency.
+- Stronger customer confidence.
+- Improved regulatory readiness.
+- Enhanced business continuity.
+- Better support for digital transformation.
+
+Because the ISMS integrates people, processes, technology, and governance, information security becomes embedded in everyday business operations rather than existing as an isolated technical function. :contentReference[oaicite:3]{index=3}
+
+---
+
+# Summary
+
+ISO/IEC 27001 provides organizations with a globally recognized framework for protecting information through a structured and continually improving Information Security Management System (ISMS).
+
+In this lesson, we introduced the purpose of ISO/IEC 27001, explored its history and evolution, examined the CIA Triad, discussed its business value, and reviewed the core principles that underpin the standard, including the risk-based approach, leadership commitment, process management, and continual improvement.
+
+These concepts establish the foundation for the remainder of this chapter. In the next lesson, we will explore the **fundamentals of information security**, including information assets, threats, vulnerabilities, risks, and the core principles that every information security professional should understand before implementing an ISMS.
+
+---
+
+# Key Takeaways
+
+- ISO/IEC 27001 is the international standard for Information Security Management Systems (ISMS).
+- An ISMS protects information through governance, risk management, policies, processes, people, and technology.
+- The CIA Triad—Confidentiality, Integrity, and Availability—is the foundation of information security.
+- ISO/IEC 27001 is based on a risk-based approach rather than implementing controls indiscriminately.
+- Leadership commitment and organizational governance are essential to ISMS success.
+- Continual improvement ensures that the ISMS remains effective against evolving business and cybersecurity risks.
+- ISO/IEC 27001 strengthens Governance, Risk, and Compliance (GRC) by integrating information security into organizational management.
+

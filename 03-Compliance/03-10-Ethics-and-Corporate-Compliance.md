@@ -163,4 +163,163 @@ When employees understand the organization's values, they are more likely to ide
 
 For Governance, Risk, and Compliance (GRC) professionals, ethics serves as the foundation upon which governance, risk management, and compliance activities are built. A compliance program is most effective when ethical behavior becomes part of the organization's daily operations rather than simply a response to legal requirements.
 
+# Building an Ethical Culture
+
+An ethical culture does not develop by chance. It is intentionally established through leadership, governance, policies, communication, training, and everyday business practices.
+
+Employees are far more likely to behave ethically when they understand the organization's values, observe ethical leadership, and feel comfortable raising concerns without fear of retaliation.
+
+A strong ethical culture encourages individuals to ask not only:
+
+> **"Is this legal?"**
+
+but also:
+
+> **"Is this the right thing to do?"**
+
+Organizations that embed ethics into daily decision-making reduce the likelihood of misconduct, fraud, corruption, and regulatory violations.
+
+---
+
+# Characteristics of an Ethical Organization
+
+Organizations with strong ethical cultures commonly demonstrate the following characteristics:
+
+- Leadership acts with integrity.
+- Decisions are transparent and fair.
+- Policies are consistently enforced.
+- Employees are treated respectfully.
+- Ethical concerns are encouraged and addressed.
+- Accountability exists at all organizational levels.
+- Compliance responsibilities are clearly defined.
+- Conflicts of interest are managed appropriately.
+- Misconduct is investigated objectively.
+- Ethical behavior is recognized and rewarded.
+
+These characteristics foster trust among employees, customers, regulators, investors, and business partners.
+
+---
+
+# Tone at the Top
+
+One of the most important factors influencing organizational ethics is **Tone at the Top**.
+
+Tone at the Top refers to the ethical values, behaviors, and expectations demonstrated by senior leadership, including:
+
+- Board of Directors.
+- Chief Executive Officer (CEO).
+- Executive Management.
+- Senior Business Leaders.
+
+Employees often model their behavior on the actions of leaders rather than the written policies of the organization.
+
+If leadership demonstrates honesty, accountability, and transparency, employees are more likely to follow those standards.
+
+Conversely, if leaders ignore policies, tolerate misconduct, or prioritize short-term results over ethical behavior, employees may perceive unethical conduct as acceptable.
+
+For this reason, leadership commitment is a critical success factor in every Compliance Management System.
+
+---
+
+# Leading by Example
+
+Ethical leadership is demonstrated through actions rather than words.
+
+Leaders should:
+
+- Follow organizational policies.
+- Declare conflicts of interest.
+- Comply with applicable laws and regulations.
+- Accept accountability for their decisions.
+- Encourage open communication.
+- Support ethical decision-making.
+- Address misconduct consistently.
+- Protect employees who report concerns.
+
+When leaders consistently demonstrate ethical behavior, they establish credibility and reinforce the organization's values throughout the workforce.
+
+---
+
+# Code of Ethics
+
+A **Code of Ethics** defines the organization's core values and ethical principles.
+
+It answers the question:
+
+> **"What values guide how we conduct business?"**
+
+A Code of Ethics typically includes principles such as:
+
+- Integrity.
+- Honesty.
+- Respect.
+- Accountability.
+- Fairness.
+- Professionalism.
+- Confidentiality.
+- Social responsibility.
+
+Unlike detailed procedures, a Code of Ethics provides broad guidance that applies across all business activities and decision-making situations.
+
+It serves as the ethical foundation for employees, contractors, executives, and business partners.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Building an Ethical Culture
+
+**Diagram Description:**
+
+Create a pyramid with five levels.
+
+From bottom to top:
+
+1. Organizational Values
+2. Code of Ethics
+3. Ethical Leadership
+4. Employee Behavior
+5. Ethical Culture
+
+On the right side, add supporting elements connected to all levels:
+
+- Training
+- Communication
+- Accountability
+- Monitoring
+- Continuous Improvement
+
+Include the caption:
+
+*"An ethical culture is built from strong organizational values, reinforced by leadership, supported through communication and training, and sustained by accountability and continual improvement."*
+
+---
+
+# Code of Conduct
+
+While the **Code of Ethics** explains the organization's values, the **Code of Conduct** explains the expected behaviors that support those values.
+
+It answers the question:
+
+> **"How are employees expected to behave?"**
+
+A typical Code of Conduct includes guidance on:
+
+- Workplace behavior.
+- Professional conduct.
+- Confidentiality.
+- Information security.
+- Use of company assets.
+- Conflicts of interest.
+- Gifts and hospitality.
+- Anti-bribery and anti-corruption.
+- Equal employment opportunity.
+- Harassment and discrimination.
+- Protection of organizational information.
+- Reporting ethical concerns.
+
+The Code of Conduct provides practical expectations that employees can apply in their daily work.
+
+Together, the Code of Ethics and Code of Conduct create a common framework that promotes ethical decision-making, supports regulatory compliance, and strengthens the organization's Governance, Risk, and Compliance (GRC) program.
+
 

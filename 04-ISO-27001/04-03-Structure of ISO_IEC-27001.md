@@ -585,4 +585,158 @@ Consider an online banking organization implementing ISO/IEC 27001.
 
 This cycle of implementation, evaluation, and improvement enables the bank to strengthen its security posture while maintaining alignment with business objectives and regulatory expectations.
 
+# Annex A and the Requirements Clauses
 
+One of the most common misunderstandings about ISO/IEC 27001 is the relationship between **Clauses 4–10** and **Annex A**.
+
+Many organizations begin implementing ISO/IEC 27001 by focusing immediately on technical controls such as firewalls, encryption, and Multi-Factor Authentication (MFA).
+
+However, ISO/IEC 27001 is first and foremost a **management system standard**.
+
+The mandatory requirements are found in **Clauses 4 through 10**, while **Annex A** provides a reference set of information security controls that organizations select based on the results of their risk assessment. ISO/IEC 27001:2022 includes **93 Annex A controls grouped into four themes**, and organizations justify which controls apply through the **Statement of Applicability (SoA)**. :contentReference[oaicite:0]{index=0}
+
+---
+
+# What Is Annex A?
+
+Annex A is a catalogue of information security controls that organizations can use to treat identified information security risks.
+
+It is **not** a checklist requiring every organization to implement every control.
+
+Instead, organizations should:
+
+1. Perform an information security risk assessment.
+2. Identify the risks that require treatment.
+3. Select appropriate Annex A controls.
+4. Justify any excluded controls.
+5. Document these decisions in the **Statement of Applicability (SoA).**
+
+This ensures that security controls are implemented based on business needs and risk rather than simply to satisfy a checklist.
+
+---
+
+# The Four Control Themes in Annex A
+
+ISO/IEC 27001:2022 organizes the 93 Annex A controls into four themes.
+
+| Control Theme | Number of Controls | Purpose |
+|----------------|------------------:|---------|
+| **Organizational Controls** | 37 | Governance, policies, supplier management, asset management, incident management and related organizational processes |
+| **People Controls** | 8 | Security awareness, responsibilities, background screening, disciplinary process and human-related security |
+| **Physical Controls** | 14 | Protection of buildings, facilities, equipment and physical environments |
+| **Technological Controls** | 34 | Access control, encryption, logging, network security, malware protection and other technical safeguards |
+
+These controls provide organizations with practical methods for reducing identified information security risks. :contentReference[oaicite:1]{index=1}
+
+---
+
+# Clauses vs Annex A
+
+Although they work together, the clauses and Annex A serve different purposes.
+
+| Clauses 4–10 | Annex A |
+|--------------|---------|
+| Define **what** the ISMS must achieve | Provides example controls to manage information security risks |
+| Mandatory for every certified organization | Controls are selected based on the organization's risk assessment |
+| Focus on management system requirements | Focuses on security safeguards |
+| Govern the ISMS | Support the implementation of the ISMS |
+
+Think of it this way:
+
+- **Clauses 4–10** build and manage the Information Security Management System.
+- **Annex A** provides a toolbox of security controls that help protect information.
+
+Both are essential for a successful ISMS.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Relationship Between Clauses and Annex A
+
+**Diagram Description:**
+
+Create two connected sections.
+
+Left side:
+
+**ISO/IEC 27001 Clauses 4–10**
+
+Include:
+
+- Context
+- Leadership
+- Planning
+- Support
+- Operation
+- Performance Evaluation
+- Improvement
+
+Arrow pointing to the right.
+
+Right side:
+
+**Annex A Controls**
+
+Four boxes beneath:
+
+- Organizational Controls
+- People Controls
+- Physical Controls
+- Technological Controls
+
+At the bottom place:
+
+**Information Security Management System (ISMS)**
+
+↓
+
+**Protected Information Assets**
+
+Include the caption:
+
+*"The management system defined in Clauses 4–10 governs the ISMS, while Annex A provides risk-based security controls that support its implementation."*
+
+---
+
+# How ISO/IEC 27001 Is Audited
+
+Certification bodies evaluate organizations against the mandatory requirements of ISO/IEC 27001.
+
+During an audit, auditors typically verify that the organization has:
+
+- Defined the scope of the ISMS.
+- Established leadership commitment.
+- Performed information security risk assessments.
+- Developed a Risk Treatment Plan.
+- Created a Statement of Applicability (SoA).
+- Implemented appropriate security controls.
+- Conducted internal audits.
+- Performed management reviews.
+- Addressed nonconformities.
+- Demonstrated continual improvement.
+
+Auditors also assess whether selected Annex A controls have been implemented effectively and whether any exclusions are properly justified through the organization's risk assessment and SoA. :contentReference[oaicite:2]{index=2}
+
+---
+
+# Summary
+
+In this lesson, we examined the structure of ISO/IEC 27001 and learned how its requirements are organized into **ten clauses**, with **Clauses 4 through 10** containing the mandatory requirements for certification.
+
+We also explored the relationship between these management system requirements and **Annex A**, which provides a risk-based catalogue of **93 information security controls** grouped into four themes.
+
+Understanding this structure is essential because every subsequent lesson in this chapter focuses on one or more of these clauses. Beginning with the next lesson, we will examine each mandatory clause in detail, starting with **Clause 4 – Context of the Organization**, where organizations define the scope, business context, and interested parties that form the foundation of an effective Information Security Management System.
+
+---
+
+# Key Takeaways
+
+- ISO/IEC 27001 is structured into ten clauses, but only **Clauses 4–10** contain mandatory certification requirements.
+- The standard follows the ISO High-Level Structure (HLS), making it easier to integrate with other ISO management system standards.
+- **Annex A** contains **93 information security controls** organized into Organizational, People, Physical, and Technological themes.
+- Annex A controls are selected using a **risk-based approach** and documented in the **Statement of Applicability (SoA)**.
+- Clauses 4–10 define how to establish and manage the ISMS, while Annex A provides practical controls that support risk treatment.
+- A successful ISO/IEC 27001 implementation requires both a well-governed management system and appropriately selected security controls.
+
+- 

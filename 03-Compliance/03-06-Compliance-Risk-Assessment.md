@@ -326,4 +326,202 @@ Understanding where risks originate allows organizations to:
 
 By analyzing compliance risks from multiple perspectives—people, processes, technology, governance, and third parties—organizations can build a more resilient Compliance Management System and support continual improvement.
 
+# The Compliance Risk Assessment Process
+
+A Compliance Risk Assessment should follow a structured and repeatable methodology to ensure that compliance risks are identified, evaluated, and managed consistently across the organization.
+
+Although organizations may use different methodologies, most compliance risk assessments follow a common lifecycle consisting of several key stages.
+
+The assessment should be performed:
+
+- Periodically (e.g., annually).
+- When significant regulations change.
+- Before launching new products or services.
+- Following mergers or acquisitions.
+- After significant compliance incidents.
+- During major organizational changes.
+
+A structured approach helps organizations proactively identify emerging compliance risks before they become regulatory violations.
+
+---
+
+# Step 1 – Identify Compliance Obligations
+
+The first step is to identify all applicable compliance obligations.
+
+These may include:
+
+- Laws.
+- Regulations.
+- Customer contracts.
+- Industry standards.
+- Internal policies.
+- Licensing requirements.
+- Regulatory guidance.
+
+Organizations often use a **Compliance Obligations Register** as the primary reference for identifying applicable requirements.
+
+Without understanding applicable obligations, it is impossible to assess compliance risk accurately.
+
+---
+
+# Step 2 – Identify Compliance Risks
+
+Once obligations have been identified, the organization determines what events or circumstances could result in non-compliance.
+
+Examples include:
+
+- Failure to comply with new regulations.
+- Inadequate employee training.
+- Weak access controls.
+- Incomplete documentation.
+- Delayed regulatory reporting.
+- Third-party compliance failures.
+- Policy violations.
+- Poor change management.
+
+Each identified risk should be clearly documented, including:
+
+- Risk description.
+- Source of the risk.
+- Potential causes.
+- Potential consequences.
+- Affected business units.
+
+Clearly defining risks improves communication and supports more accurate analysis.
+
+---
+
+# Step 3 – Analyze Risk
+
+After identifying risks, organizations evaluate their significance.
+
+Risk analysis normally considers two primary factors:
+
+### Likelihood
+
+How likely is the compliance event to occur?
+
+Example ratings:
+
+- Rare
+- Unlikely
+- Possible
+- Likely
+- Almost Certain
+
+---
+
+### Impact
+
+If the event occurs, what would be the consequence?
+
+Possible impacts include:
+
+- Regulatory fines.
+- Legal action.
+- Financial loss.
+- Operational disruption.
+- Reputation damage.
+- Loss of customer confidence.
+- Suspension of licenses.
+- Increased regulatory oversight.
+
+Many organizations use a **5 × 5 Risk Matrix** to evaluate likelihood and impact consistently across all compliance risks.
+
+---
+
+# Step 4 – Evaluate Existing Controls
+
+After analyzing the risks, organizations assess the effectiveness of existing controls.
+
+Questions commonly considered include:
+
+- Are policies available?
+- Are procedures documented?
+- Are employees trained?
+- Are technical controls implemented?
+- Are compliance activities monitored?
+- Are audits performed regularly?
+- Are corrective actions completed promptly?
+
+Strong controls reduce both the likelihood and the impact of compliance failures.
+
+Weak or missing controls indicate areas where additional mitigation measures may be required.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Compliance Risk Assessment Workflow
+
+**Diagram Description:**
+
+Create a left-to-right process flow with the following stages:
+
+1. Identify Compliance Obligations
+
+↓
+
+2. Identify Compliance Risks
+
+↓
+
+3. Analyze Likelihood and Impact
+
+↓
+
+4. Evaluate Existing Controls
+
+↓
+
+5. Determine Risk Level
+
+↓
+
+6. Select Risk Treatment
+
+↓
+
+7. Monitor and Review
+
+Include the caption:
+
+*"Compliance risk assessment is a continuous process that enables organizations to identify, evaluate, and manage compliance risks through structured analysis and ongoing monitoring."*
+
+---
+
+# Inherent Risk vs Residual Risk
+
+During a Compliance Risk Assessment, organizations often distinguish between **inherent risk** and **residual risk**.
+
+### Inherent Risk
+
+Inherent risk is the level of risk **before** any controls are implemented.
+
+It represents the natural exposure associated with a compliance obligation or business activity.
+
+For example:
+
+A financial institution handling sensitive customer data has a high inherent compliance risk due to strict regulatory requirements.
+
+---
+
+### Residual Risk
+
+Residual risk is the level of risk **remaining after** existing controls have been implemented.
+
+Examples of controls include:
+
+- Policies.
+- Employee training.
+- Technical safeguards.
+- Monitoring activities.
+- Internal audits.
+- Segregation of duties.
+
+Management must determine whether the remaining residual risk is acceptable or whether additional controls are required.
+
+Understanding the difference between inherent and residual risk enables organizations to evaluate the effectiveness of their compliance controls and prioritize improvement efforts more effectively.
+
 

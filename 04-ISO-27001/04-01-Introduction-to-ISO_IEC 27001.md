@@ -341,4 +341,258 @@ Its global recognition also makes it valuable for organizations that operate int
 
 As cyber threats continue to evolve, ISO/IEC 27001 remains one of the most widely recognized frameworks for managing information security in a structured, consistent, and continually improving manner. :contentReference[oaicite:3]{index=3}
 
+# Objectives of ISO/IEC 27001
+
+The primary objective of ISO/IEC 27001 is to help organizations protect their information assets through a systematic, risk-based Information Security Management System (ISMS).
+
+Rather than focusing only on preventing cyberattacks, ISO/IEC 27001 enables organizations to identify information security risks, implement appropriate controls, monitor their effectiveness, and continually improve their security posture.
+
+The standard recognizes that information exists in many forms—including digital data, paper documents, cloud services, emails, databases, mobile devices, and even verbal communication—and all forms require appropriate protection. :contentReference[oaicite:0]{index=0}
+
+---
+
+# The Three Fundamental Objectives of Information Security
+
+ISO/IEC 27001 is built around the **CIA Triad**, the three fundamental principles of information security.
+
+These principles guide every decision made within an Information Security Management System.
+
+## 1. Confidentiality
+
+Confidentiality ensures that information is accessible only to authorized individuals.
+
+The objective is to prevent unauthorized disclosure of sensitive information.
+
+Examples include:
+
+- Customer personal information.
+- Financial records.
+- Employee information.
+- Intellectual property.
+- Trade secrets.
+- Strategic business plans.
+
+Common controls that support confidentiality include:
+
+- Access control.
+- Multi-factor authentication (MFA).
+- Encryption.
+- Data classification.
+- Role-based access control (RBAC).
+- Non-disclosure agreements (NDAs).
+
+---
+
+## 2. Integrity
+
+Integrity ensures that information remains accurate, complete, and trustworthy throughout its lifecycle.
+
+Information should not be modified without authorization.
+
+Examples include:
+
+- Preventing unauthorized changes to financial records.
+- Protecting source code from unauthorized modification.
+- Ensuring medical records remain accurate.
+- Preventing accidental data corruption.
+
+Common controls include:
+
+- Hashing.
+- Digital signatures.
+- Version control.
+- Change management.
+- Backup verification.
+- Database integrity controls.
+
+---
+
+## 3. Availability
+
+Availability ensures that authorized users can access information whenever it is needed.
+
+Information that is unavailable may disrupt business operations even if it remains confidential and accurate.
+
+Examples include:
+
+- Business applications.
+- Cloud services.
+- Email systems.
+- Customer portals.
+- Manufacturing systems.
+- Healthcare information systems.
+
+Controls supporting availability include:
+
+- Backups.
+- Disaster recovery.
+- Business continuity planning.
+- Redundant infrastructure.
+- High availability architecture.
+- System monitoring.
+
+The CIA Triad remains the foundation of information security and is central to the objectives of an ISMS. :contentReference[oaicite:1]{index=1}
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** The CIA Triad
+
+**Diagram Description:**
+
+Create a triangle.
+
+Top:
+
+**Confidentiality**
+
+Bottom Left:
+
+**Integrity**
+
+Bottom Right:
+
+**Availability**
+
+In the center place:
+
+**Information Security**
+
+Around each corner include example controls.
+
+**Confidentiality**
+
+- Encryption
+- Access Control
+- MFA
+
+**Integrity**
+
+- Hashing
+- Change Management
+- Digital Signatures
+
+**Availability**
+
+- Backup
+- Disaster Recovery
+- High Availability
+
+Include the caption:
+
+*"ISO/IEC 27001 protects information by ensuring its confidentiality, integrity, and availability through a risk-based Information Security Management System."*
+
+---
+
+# Benefits of Implementing ISO/IEC 27001
+
+Organizations implement ISO/IEC 27001 for many strategic, operational, and regulatory reasons.
+
+Some of the most significant benefits include:
+
+### Improved Information Security
+
+Organizations establish structured processes to identify and reduce information security risks.
+
+---
+
+### Better Risk Management
+
+ISO/IEC 27001 integrates information security into enterprise risk management by requiring organizations to identify, assess, treat, and monitor risks continuously.
+
+---
+
+### Regulatory Compliance
+
+An ISMS helps organizations support compliance with:
+
+- Data protection laws.
+- Industry regulations.
+- Customer security requirements.
+- Contractual obligations.
+
+Although certification does not automatically guarantee legal compliance, it provides a structured framework that supports meeting applicable obligations.
+
+---
+
+### Increased Customer Confidence
+
+Certification demonstrates that an organization manages information security using internationally recognized best practices.
+
+This often strengthens customer trust and business relationships.
+
+---
+
+### Competitive Advantage
+
+Many organizations require suppliers to demonstrate mature information security practices.
+
+ISO/IEC 27001 certification can:
+
+- Improve competitiveness.
+- Support contract bids.
+- Open new business opportunities.
+- Strengthen supplier relationships.
+
+---
+
+### Operational Resilience
+
+A mature ISMS helps organizations:
+
+- Reduce security incidents.
+- Improve incident response.
+- Enhance business continuity.
+- Recover more effectively from disruptions.
+
+Organizations become better prepared for evolving cyber threats and operational challenges. :contentReference[oaicite:2]{index=2}
+
+---
+
+# Who Should Implement ISO/IEC 27001?
+
+One of the strengths of ISO/IEC 27001 is its flexibility.
+
+The standard can be implemented by organizations of any size or sector.
+
+Examples include:
+
+- Government agencies.
+- Financial institutions.
+- Healthcare organizations.
+- Telecommunications providers.
+- Cloud service providers.
+- Software companies.
+- Manufacturers.
+- Educational institutions.
+- Non-profit organizations.
+- Small and medium-sized enterprises (SMEs).
+
+Because the standard is risk-based rather than technology-specific, organizations can tailor the ISMS to their own business objectives, risk profile, regulatory environment, and available resources.
+
+---
+
+# ISO/IEC 27001 as a Business Management Standard
+
+Many people mistakenly believe that ISO/IEC 27001 is an IT or cybersecurity standard.
+
+In reality, it is a **management system standard**.
+
+Technology is only one component of an effective Information Security Management System.
+
+ISO/IEC 27001 also addresses:
+
+- Leadership and governance.
+- Organizational context.
+- Risk management.
+- Policies and procedures.
+- Employee competence and awareness.
+- Operational processes.
+- Performance evaluation.
+- Continual improvement.
+
+For this reason, successful ISMS implementations require collaboration between executive management, business units, information security, IT, legal, compliance, human resources, procurement, and internal audit.
+
+An effective ISMS is therefore an organizational capability—not simply a technical solution—and serves as a cornerstone of modern Governance, Risk, and Compliance (GRC).
 

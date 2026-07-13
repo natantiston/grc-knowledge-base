@@ -232,4 +232,246 @@ Security controls should be applied at every stage to maintain confidentiality, 
 
 Failure to protect information at any stage of its lifecycle can expose the organization to unnecessary risk.
 
+# Information Assets
+
+At the center of every Information Security Management System (ISMS) are **information assets**.
+
+An information asset is anything that has value to an organization because it stores, processes, transmits, or supports information.
+
+Information assets are not limited to databases or computer systems. They include people, business processes, software, hardware, documentation, cloud services, and even organizational knowledge.
+
+ISO/IEC 27001 requires organizations to identify and protect information assets according to their value, sensitivity, and importance to the business. Information security should protect information in all forms—digital, paper, cloud-based, and verbal—through a risk-based management system. :contentReference[oaicite:0]{index=0}
+
+---
+
+# Types of Information Assets
+
+Organizations manage many different categories of information assets.
+
+### Information Assets
+
+Examples include:
+
+- Customer records
+- Employee records
+- Financial statements
+- Contracts
+- Research data
+- Intellectual property
+- Source code
+- Emails
+- Databases
+- Business plans
+
+These assets often contain sensitive or confidential information that requires protection.
+
+---
+
+### Hardware Assets
+
+Examples include:
+
+- Servers
+- Desktop computers
+- Laptops
+- Mobile devices
+- Network equipment
+- Storage devices
+- Printers
+- IoT devices
+
+Although hardware has physical value, its greatest importance usually lies in the information it stores or processes.
+
+---
+
+### Software Assets
+
+Examples include:
+
+- Operating systems
+- Business applications
+- ERP systems
+- CRM platforms
+- Cloud applications
+- Security software
+- Databases
+- Web applications
+
+Software enables organizations to process, store, and transmit information efficiently.
+
+---
+
+### People
+
+Employees, contractors, consultants, vendors, and business partners are also considered valuable assets.
+
+People:
+
+- Create information.
+- Process information.
+- Make business decisions.
+- Operate systems.
+- Implement security controls.
+
+They can also unintentionally introduce security risks through human error or become targets of social engineering attacks.
+
+---
+
+### Business Processes
+
+Processes that support organizational operations are important information assets.
+
+Examples include:
+
+- Payroll processing.
+- Procurement.
+- Customer support.
+- Software development.
+- Manufacturing.
+- Financial reporting.
+- Incident management.
+
+Protecting these processes ensures the organization can continue operating effectively.
+
+---
+
+# Asset Ownership
+
+Every important information asset should have an assigned **asset owner**.
+
+An asset owner is responsible for ensuring that an asset receives appropriate protection throughout its lifecycle.
+
+Typical responsibilities include:
+
+- Classifying the asset.
+- Approving access.
+- Reviewing user permissions.
+- Defining protection requirements.
+- Supporting risk assessments.
+- Ensuring compliance with organizational policies.
+
+It is important to understand that **ownership does not necessarily mean physical possession**.
+
+For example:
+
+- The Human Resources department may own employee records.
+- The IT department manages the servers that store those records.
+- Information Security defines the required security controls.
+- Internal Audit evaluates whether those controls operate effectively.
+
+Clear ownership improves accountability and supports effective governance.
+
+---
+
+# Information Classification
+
+Not all information requires the same level of protection.
+
+Organizations classify information according to its sensitivity and business value.
+
+A common classification scheme includes:
+
+| Classification | Description | Example |
+|----------------|-------------|---------|
+| **Public** | Information approved for public release | Marketing brochures, press releases |
+| **Internal** | Information intended only for employees | Internal procedures, meeting minutes |
+| **Confidential** | Sensitive business information requiring restricted access | Financial reports, customer data |
+| **Highly Confidential** | Critical information requiring the highest level of protection | Trade secrets, encryption keys, acquisition plans |
+
+Classification helps determine:
+
+- Who may access information.
+- How information should be stored.
+- How information should be transmitted.
+- Retention requirements.
+- Secure disposal methods.
+
+Organizations may use different classification labels, but the objective remains the same: apply security controls that are appropriate to the sensitivity of the information.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Types of Information Assets
+
+**Diagram Description:**
+
+Create a central circle labeled:
+
+**Information Assets**
+
+Connect it to six surrounding boxes:
+
+- Information
+- People
+- Hardware
+- Software
+- Business Processes
+- Services (Cloud & Third Parties)
+
+Below the diagram add:
+
+**Asset Owner**
+
+↓
+
+**Information Classification**
+
+↓
+
+**Security Controls**
+
+Include the caption:
+
+*"Every information asset should have an identified owner, an appropriate classification, and security controls that reflect its business value and risk."*
+
+---
+
+# Asset Inventory
+
+One of the first activities when implementing an Information Security Management System is developing an **asset inventory**.
+
+An asset inventory provides a structured record of the organization's important information assets.
+
+Typical information recorded includes:
+
+- Asset name.
+- Asset description.
+- Asset owner.
+- Asset location.
+- Information classification.
+- Business function.
+- Supporting systems.
+- Associated risks.
+
+Maintaining an accurate asset inventory enables organizations to:
+
+- Understand what information they possess.
+- Identify critical assets.
+- Prioritize security efforts.
+- Support risk assessments.
+- Demonstrate compliance during audits.
+
+Without knowing what assets exist, organizations cannot effectively protect them or make informed risk management decisions.
+
+---
+
+# Why Asset Management Matters
+
+Effective asset management forms the foundation of information security.
+
+When organizations understand what information they own, where it resides, who is responsible for it, and how important it is to business operations, they can implement appropriate safeguards and allocate security resources more effectively.
+
+Asset management also supports many other ISO/IEC 27001 activities, including:
+
+- Risk assessment.
+- Access control.
+- Information classification.
+- Incident response.
+- Business continuity.
+- Regulatory compliance.
+- Internal audits.
+
+A well-maintained asset inventory is therefore one of the most valuable resources within an Information Security Management System and serves as the starting point for protecting the organization's most critical information assets.
+
 

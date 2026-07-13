@@ -463,3 +463,509 @@ Several weeks after deployment, the organization reviews the implementation resu
 
 By planning, implementing, controlling, and reviewing operational activities in this manner, the organization demonstrates compliance with Clause 8.1 while ensuring that information security remains integrated into everyday business operations rather than being treated as a one-time project.
 
+# Clause 8.2 – Information Security Risk Assessment
+
+Risk assessment is not an activity that is performed only once during the implementation of an Information Security Management System (ISMS).
+
+As business environments, technologies, threats, and regulations evolve, the organization's risk landscape also changes.
+
+For this reason, **Clause 8.2 – Information Security Risk Assessment** requires organizations to perform information security risk assessments **throughout the operational life of the ISMS**, not just during its initial implementation.
+
+While **Clause 6.1.2** establishes **how** the organization will assess risks (the methodology), **Clause 8.2** requires the organization to **actually perform** those risk assessments at defined intervals and whenever significant changes occur. :contentReference[oaicite:0]{index=0}
+
+---
+
+# Purpose of Clause 8.2
+
+The objective of Clause 8.2 is to ensure that the organization's understanding of information security risk remains current.
+
+Rather than relying on outdated assessments, organizations should continually identify, analyze, and evaluate risks so that security decisions reflect the current business and threat environment.
+
+This enables organizations to:
+
+- Detect emerging threats.
+- Identify new vulnerabilities.
+- Assess the impact of business changes.
+- Prioritize security investments.
+- Maintain compliance with regulatory requirements.
+- Support continual improvement of the ISMS.
+
+---
+
+# When Should Risk Assessments Be Performed?
+
+ISO/IEC 27001 requires organizations to perform information security risk assessments:
+
+- At planned intervals.
+- Whenever significant changes are proposed or occur.
+
+The frequency should be defined by the organization based on its Risk Assessment Methodology and business needs. :contentReference[oaicite:1]{index=1}
+
+---
+
+# Planned Risk Assessments
+
+Organizations commonly perform scheduled risk assessments:
+
+- Quarterly
+- Semi-annually
+- Annually
+
+The frequency depends on factors such as:
+
+- Organizational size.
+- Industry sector.
+- Regulatory requirements.
+- Risk appetite.
+- Rate of business change.
+
+High-risk industries such as banking, healthcare, and critical infrastructure often perform assessments more frequently than lower-risk organizations.
+
+---
+
+# Event-Driven Risk Assessments
+
+A new risk assessment should also be performed whenever significant changes occur.
+
+Examples include:
+
+### Technology Changes
+
+- Cloud migration.
+- New applications.
+- Infrastructure upgrades.
+- AI implementation.
+- Major software releases.
+
+---
+
+### Business Changes
+
+- Business acquisitions.
+- New offices.
+- Organizational restructuring.
+- Expansion into new markets.
+
+---
+
+### Regulatory Changes
+
+- New privacy laws.
+- Updated cybersecurity regulations.
+- Customer contractual requirements.
+
+---
+
+### Security Events
+
+- Major security incidents.
+- Data breaches.
+- Discovery of critical vulnerabilities.
+- Threat intelligence indicating new attack techniques.
+
+These events may introduce new risks or change the likelihood or impact of existing risks, making a reassessment necessary. :contentReference[oaicite:2]{index=2}
+
+---
+
+# Following the Risk Assessment Methodology
+
+Clause 8.2 does not require organizations to invent a new assessment method.
+
+Instead, every operational risk assessment should follow the methodology established in **Clause 6.1.2**.
+
+This means the organization should consistently:
+
+1. Identify assets.
+2. Identify threats.
+3. Identify vulnerabilities.
+4. Determine likelihood.
+5. Determine impact.
+6. Calculate risk level.
+7. Compare against risk acceptance criteria.
+8. Update the Risk Register.
+
+Using the same methodology ensures that results remain consistent and comparable over time.
+
+---
+
+# Updating the Risk Register
+
+One of the primary outputs of Clause 8.2 is an updated **Risk Register**.
+
+During each assessment, organizations may:
+
+- Add newly identified risks.
+- Remove obsolete risks.
+- Update existing risk scores.
+- Change risk owners.
+- Revise treatment priorities.
+- Record residual risks.
+
+The Risk Register should be viewed as a **living document** that reflects the organization's current information security risks rather than a document created only for certification purposes. :contentReference[oaicite:3]{index=3}
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Operational Information Security Risk Assessment
+
+**Diagram Description:**
+
+Create a circular lifecycle.
+
+**Business Changes**
+
+↓
+
+**Perform Risk Assessment**
+
+↓
+
+**Identify New & Existing Risks**
+
+↓
+
+**Analyze Likelihood & Impact**
+
+↓
+
+**Update Risk Register**
+
+↓
+
+**Determine Need for Risk Treatment**
+
+↓
+
+**Monitor Environment**
+
+↓
+
+Arrow returning to:
+
+**Business Changes**
+
+Include the caption:
+
+*"Clause 8.2 ensures that information security risks are continually reassessed throughout the operational life of the ISMS, allowing organizations to respond proactively to changing business conditions and emerging threats."*
+
+---
+
+# Retaining Documented Information
+
+ISO/IEC 27001 requires organizations to retain documented information showing the results of operational risk assessments.
+
+Examples include:
+
+- Updated Risk Register.
+- Risk Assessment Reports.
+- Meeting minutes.
+- Risk review records.
+- Supporting evidence for revised risk scores.
+- Records of newly identified threats or vulnerabilities.
+
+These records provide evidence that the organization is actively managing information security risks rather than relying on outdated assessments.
+
+---
+
+# Evidence Auditors Look For
+
+During an ISO/IEC 27001 certification audit, auditors typically verify that:
+
+- Risk assessments are performed at planned intervals.
+- Additional assessments are conducted when significant changes occur.
+- The approved Risk Assessment Methodology is consistently followed.
+- The Risk Register is regularly updated.
+- Risk owners review and approve significant risks where appropriate.
+- Documented evidence of completed risk assessments is retained.
+
+Auditors often compare recent business changes—such as cloud migrations or new systems—with the Risk Register to confirm that associated risks have been reassessed. :contentReference[oaicite:4]{index=4}
+
+---
+
+# Practical Example
+
+A retail company migrates its online shopping platform from an on-premises environment to a public cloud provider.
+
+Because this represents a significant operational change, the organization performs a new information security risk assessment before the migration.
+
+The assessment identifies several new risks, including:
+
+- Misconfigured cloud storage.
+- Excessive user permissions.
+- Data residency compliance issues.
+- Shared responsibility misunderstandings.
+- Increased exposure to internet-based attacks.
+
+Each risk is evaluated using the organization's approved risk assessment methodology, recorded in the Risk Register, assigned to a risk owner, and prioritized for treatment.
+
+The updated assessment results are documented and presented during the next management review meeting.
+
+By performing operational risk assessments whenever significant changes occur—and by retaining evidence of the results—the organization demonstrates compliance with Clause 8.2 while ensuring that its Information Security Management System continues to reflect the current risk environment rather than outdated assumptions.
+
+# Clause 8.3 – Information Security Risk Treatment
+
+Identifying and assessing information security risks is only valuable if organizations take action to reduce those risks.
+
+This is the purpose of **Clause 8.3 – Information Security Risk Treatment**.
+
+Clause 8.3 requires organizations to **implement the Information Security Risk Treatment Plan** developed during Clause 6.1.3 and **retain documented information** demonstrating the results of those treatment activities.
+
+In simple terms:
+
+- **Clause 6.1.3** answers:
+  > *"How are we planning to treat information security risks?"*
+
+- **Clause 8.3** answers:
+  > *"Have we actually implemented those treatments?"*
+
+Clause 8.3 closes the gap between planning and execution by ensuring that identified security controls are operational rather than remaining as documented intentions. :contentReference[oaicite:0]{index=0}
+
+---
+
+# Purpose of Clause 8.3
+
+The objective of Clause 8.3 is to ensure that:
+
+- Planned security controls are implemented.
+- Risk treatment activities are completed.
+- Residual risks are evaluated.
+- The effectiveness of implemented controls is monitored.
+- Evidence of implementation is retained.
+
+The clause ensures that organizations move beyond documentation and demonstrate that security controls are operating in practice.
+
+---
+
+# From Risk Treatment Plan to Implementation
+
+Earlier in Clause 6.1.3, the organization created a **Risk Treatment Plan**.
+
+A typical plan might include:
+
+| Risk | Planned Treatment | Owner | Target Date |
+|------|-------------------|-------|-------------|
+| Phishing attacks | Deploy Multi-Factor Authentication (MFA) | IT Manager | 30 Sept |
+| Ransomware | Deploy Endpoint Detection & Response (EDR) | Security Manager | 15 Aug |
+| Supplier compromise | Conduct supplier security assessments | Procurement Manager | Quarterly |
+
+Clause 8.3 requires these planned activities to become operational reality.
+
+The organization must implement the selected controls and monitor their status until completion.
+
+---
+
+# Implementing Security Controls
+
+Risk treatment implementation may include administrative, technical, physical, or organizational controls.
+
+Examples include:
+
+### Administrative Controls
+
+- Information Security Policies
+- Procedures
+- Security standards
+- Risk management processes
+- Supplier agreements
+
+---
+
+### Technical Controls
+
+- Multi-Factor Authentication (MFA)
+- Endpoint Detection and Response (EDR)
+- Security Information and Event Management (SIEM)
+- Encryption
+- Firewalls
+- Identity and Access Management (IAM)
+
+---
+
+### Physical Controls
+
+- Access card systems
+- CCTV monitoring
+- Visitor management
+- Locked server rooms
+- Environmental monitoring
+
+---
+
+### Organizational Controls
+
+- Security awareness programs
+- Internal audits
+- Segregation of duties
+- Incident response teams
+- Management reviews
+
+Each implemented control should directly address one or more identified risks.
+
+---
+
+# Monitoring Implementation Progress
+
+Risk treatment is rarely completed in a single step.
+
+Organizations should monitor implementation by tracking:
+
+- Planned actions.
+- Current implementation status.
+- Completion dates.
+- Assigned owners.
+- Remaining activities.
+- Residual risk levels.
+
+Many organizations use a **Risk Treatment Tracker** or project dashboard to monitor progress.
+
+Example:
+
+| Risk | Treatment | Status | Owner |
+|------|-----------|--------|-------|
+| Phishing | MFA Deployment | Completed | IT Manager |
+| Ransomware | EDR Deployment | In Progress | Security Manager |
+| Supplier Risk | Supplier Assessments | Planned | Procurement Manager |
+
+Regular monitoring helps management identify delays and allocate additional resources where needed.
+
+---
+
+# Evaluating Residual Risk
+
+After implementing security controls, organizations should reassess the remaining level of risk.
+
+This is known as **residual risk**.
+
+Example:
+
+Initial Risk:
+
+- Likelihood: **5**
+- Impact: **5**
+- Risk Score: **25**
+
+Implemented Controls:
+
+- Multi-Factor Authentication
+- Security Awareness Training
+- Email Filtering
+- Endpoint Detection & Response
+
+Residual Risk:
+
+- Likelihood: **2**
+- Impact: **4**
+- Risk Score: **8**
+
+Management should determine whether the residual risk falls within the organization's defined risk acceptance criteria.
+
+If it does not, additional treatment measures may be required. :contentReference[oaicite:1]{index=1}
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Information Security Risk Treatment Lifecycle
+
+**Diagram Description:**
+
+Create a horizontal workflow.
+
+**Risk Register**
+
+↓
+
+**Risk Treatment Plan**
+
+↓
+
+**Implement Security Controls**
+
+↓
+
+**Monitor Implementation**
+
+↓
+
+**Evaluate Residual Risk**
+
+↓
+
+**Update Risk Register & Statement of Applicability**
+
+↓
+
+**Continual Monitoring**
+
+Include the caption:
+
+*"Clause 8.3 ensures that planned risk treatment activities are implemented, monitored, documented, and evaluated so that information security risks remain within the organization's acceptable risk levels."*
+
+---
+
+# Retaining Documented Information
+
+Clause 8.3 requires organizations to retain evidence of the results of risk treatment.
+
+Typical documented information includes:
+
+- Updated Risk Treatment Plan.
+- Control implementation records.
+- Updated Risk Register.
+- Updated Statement of Applicability (SoA).
+- Security configuration records.
+- Test and validation reports.
+- Residual risk approvals.
+- Project completion reports.
+- Management review records.
+
+These documents demonstrate that planned controls have been implemented and are operating as intended. :contentReference[oaicite:2]{index=2}
+
+---
+
+# Evidence Auditors Look For
+
+During an ISO/IEC 27001 certification audit, auditors typically verify that:
+
+- The Risk Treatment Plan has been implemented.
+- Selected security controls are operational.
+- Treatment activities have assigned owners and completion dates.
+- Residual risks have been evaluated and accepted where appropriate.
+- The Statement of Applicability reflects the implementation status of controls.
+- Documented evidence of completed treatment activities is retained.
+
+Typical audit evidence includes:
+
+- Risk Treatment Plans.
+- Project implementation records.
+- Change management records.
+- Security configuration screenshots.
+- Test results.
+- Access control reports.
+- Security monitoring logs.
+- Residual risk approval records.
+
+Auditors frequently compare the Risk Register, Risk Treatment Plan, and Statement of Applicability to confirm they remain consistent and accurately reflect the organization's current security posture. :contentReference[oaicite:3]{index=3}
+
+---
+
+# Practical Example
+
+A healthcare provider identifies the risk of unauthorized access to electronic medical records during its operational risk assessment.
+
+The Risk Treatment Plan specifies the following actions:
+
+- Deploy Multi-Factor Authentication (MFA)for all clinical staff.
+- Implement role-based access control (RBAC).
+- Enable centralized security logging through a SIEM platform.
+- Conduct quarterly access reviews.
+- Deliver mandatory security awareness training for healthcare personnel.
+
+Over the next three months, the organization completes each activity, records implementation evidence, updates the Statement of Applicability, and reassesses the residual risk.
+
+The original risk score decreases from **20 (High)** to **7 (Low)** after the controls are implemented and verified.
+
+During the ISO/IEC 27001 certification audit, the organization provides the updated Risk Treatment Plan, implementation records, access review reports, SIEM configuration evidence, and management approval of the residual risk.
+
+This demonstrates full compliance with Clause 8.3 by showing that information security risks are not only identified and planned for, but are actively treated, monitored, documented, and continually managed as part of the organization's day-to-day Information Security Management System. :contentReference[oaicite:4]{index=4}

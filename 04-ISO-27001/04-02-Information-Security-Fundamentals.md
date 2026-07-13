@@ -474,4 +474,276 @@ Asset management also supports many other ISO/IEC 27001 activities, including:
 
 A well-maintained asset inventory is therefore one of the most valuable resources within an Information Security Management System and serves as the starting point for protecting the organization's most critical information assets.
 
+# Threats, Vulnerabilities, and Risks
+
+To protect information effectively, organizations must first understand **what they are protecting**, **what could harm it**, and **how likely that harm is to occur**.
+
+This is one of the fundamental concepts of ISO/IEC 27001 and serves as the basis for the Information Security Risk Assessment discussed later in this chapter.
+
+The relationship between these concepts can be summarized as:
+
+**Information Asset → Threat → Vulnerability → Risk → Security Control**
+
+Understanding this relationship enables organizations to identify appropriate security controls that reduce risk to an acceptable level.
+
+---
+
+# What Is a Threat?
+
+A **threat** is any event, circumstance, or actor with the potential to cause harm to an information asset.
+
+A threat does not necessarily result in damage. It becomes a problem when it exploits a vulnerability.
+
+Threats may originate from:
+
+- People.
+- Technology.
+- Natural events.
+- Business operations.
+- Third-party organizations.
+
+Examples include:
+
+- Cybercriminals.
+- Malware.
+- Insider misuse.
+- Human error.
+- Fire.
+- Flood.
+- Hardware failure.
+- Power outages.
+- Social engineering.
+- Supply chain attacks.
+
+Threats may be intentional or accidental, internal or external. :contentReference[oaicite:0]{index=0}
+
+---
+
+# Categories of Threats
+
+Threats are commonly grouped into four categories.
+
+### Human Threats
+
+Examples include:
+
+- Hackers.
+- Insider attacks.
+- Fraud.
+- Theft.
+- Social engineering.
+- Phishing.
+- Human error.
+- Accidental data deletion.
+
+---
+
+### Technical Threats
+
+Examples include:
+
+- Software vulnerabilities.
+- System failures.
+- Malware infections.
+- Ransomware.
+- Denial-of-Service (DoS) attacks.
+- Network failures.
+
+---
+
+### Physical Threats
+
+Examples include:
+
+- Theft of equipment.
+- Unauthorized physical access.
+- Vandalism.
+- Fire.
+- Water damage.
+
+---
+
+### Environmental Threats
+
+Examples include:
+
+- Earthquakes.
+- Floods.
+- Hurricanes.
+- Lightning strikes.
+- Extreme temperatures.
+- Utility failures.
+
+Each threat has the potential to affect the confidentiality, integrity, or availability of organizational information.
+
+---
+
+# What Is a Vulnerability?
+
+A **vulnerability** is a weakness that can be exploited by a threat.
+
+Weaknesses may exist in:
+
+- Technology.
+- Business processes.
+- Physical facilities.
+- People.
+- Organizational procedures.
+
+A vulnerability does not automatically result in an incident.
+
+However, when a threat successfully exploits a vulnerability, it may create an information security incident or business disruption. :contentReference[oaicite:1]{index=1}
+
+---
+
+# Examples of Vulnerabilities
+
+Common vulnerabilities include:
+
+### Technical Vulnerabilities
+
+- Unpatched operating systems.
+- Weak passwords.
+- Misconfigured firewalls.
+- Unsupported software.
+- Open network ports.
+- Insecure cloud configurations.
+
+---
+
+### Human Vulnerabilities
+
+- Lack of security awareness.
+- Poor password practices.
+- Falling victim to phishing emails.
+- Failure to follow procedures.
+- Excessive user privileges.
+
+---
+
+### Physical Vulnerabilities
+
+- Unlocked server rooms.
+- Missing CCTV coverage.
+- Poor visitor management.
+- Inadequate environmental controls.
+
+---
+
+### Organizational Vulnerabilities
+
+- Missing security policies.
+- Incomplete risk assessments.
+- Poor vendor management.
+- Lack of incident response procedures.
+- Inadequate change management.
+
+Organizations should continuously identify and address vulnerabilities before they can be exploited.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Relationship Between Assets, Threats, Vulnerabilities, Risks, and Controls
+
+**Diagram Description:**
+
+Create a left-to-right flow diagram.
+
+**Information Asset**
+
+↓
+
+**Threat**
+
+↓
+
+**Exploits**
+
+↓
+
+**Vulnerability**
+
+↓
+
+**Creates**
+
+↓
+
+**Risk**
+
+↓
+
+**Reduced By**
+
+↓
+
+**Security Controls**
+
+Below the diagram include examples.
+
+Asset:
+
+Customer Database
+
+Threat:
+
+Cybercriminal
+
+Vulnerability:
+
+Weak Password
+
+Risk:
+
+Unauthorized Access
+
+Control:
+
+Multi-Factor Authentication (MFA)
+
+Include the caption:
+
+*"Information security risk occurs when a threat exploits a vulnerability affecting an information asset. Security controls are implemented to reduce the likelihood or impact of that risk."*
+
+---
+
+# What Is Risk?
+
+A **risk** is the potential for a threat to exploit a vulnerability and cause harm to an information asset or the organization.
+
+Risk considers two primary factors:
+
+- **Likelihood** – How likely is the event to occur?
+- **Impact** – What would be the consequence if it occurred?
+
+Organizations evaluate both factors to determine the overall level of risk and decide whether additional controls are necessary.
+
+Examples include:
+
+| Asset | Threat | Vulnerability | Risk |
+|--------|---------|---------------|------|
+| Customer Database | Hacker | Weak password policy | Unauthorized access to customer data |
+| Payroll System | Insider | Excessive user privileges | Unauthorized payroll changes |
+| Email System | Phishing attacker | Low employee awareness | Credential theft |
+| Data Center | Fire | Lack of fire suppression | Loss of critical systems |
+
+Risk assessment enables organizations to prioritize resources and focus on the areas that present the greatest potential business impact. :contentReference[oaicite:2]{index=2}
+
+---
+
+# Understanding the Relationship
+
+These concepts work together in a logical sequence.
+
+- **Assets** are the items the organization wants to protect.
+- **Threats** are events or actors that could cause harm.
+- **Vulnerabilities** are weaknesses that make harm possible.
+- **Risks** arise when threats can exploit vulnerabilities.
+- **Security controls** reduce either the likelihood or the impact of those risks.
+
+This relationship is the foundation of ISO/IEC 27001's risk-based approach.
+
+Every Information Security Management System begins by understanding assets, identifying threats and vulnerabilities, assessing risks, and implementing appropriate controls to reduce those risks to a level the organization is willing to accept.****
+
 

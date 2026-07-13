@@ -746,4 +746,269 @@ This relationship is the foundation of ISO/IEC 27001's risk-based approach.
 
 Every Information Security Management System begins by understanding assets, identifying threats and vulnerabilities, assessing risks, and implementing appropriate controls to reduce those risks to a level the organization is willing to accept.****
 
+# Security Controls and Risk Treatment
+
+Once an organization has identified its information assets, threats, vulnerabilities, and risks, the next step is to determine **how those risks will be managed**.
+
+ISO/IEC 27001 does not require organizations to eliminate every risk. Instead, it requires them to implement **appropriate and proportionate security controls** that reduce risks to an acceptable level based on the organization's business objectives and risk appetite. :contentReference[oaicite:0]{index=0}
+
+This risk-based approach ensures that security investments are focused where they provide the greatest value.
+
+---
+
+# What Is a Security Control?
+
+A **security control** is a safeguard or countermeasure implemented to reduce the likelihood or impact of an information security risk.
+
+Controls may:
+
+- Prevent security incidents.
+- Detect malicious activities.
+- Correct security weaknesses.
+- Recover business operations after an incident.
+
+A single control may support one or more of these objectives.
+
+---
+
+# Categories of Security Controls
+
+Security controls are commonly grouped into several categories.
+
+## Administrative Controls
+
+Administrative controls establish governance and define how information security should be managed.
+
+Examples include:
+
+- Information Security Policy
+- Risk Assessment Methodology
+- Security awareness training
+- Employee background verification
+- Vendor management
+- Acceptable Use Policy
+- Change management procedures
+- Incident response procedures
+
+These controls define expectations and guide employee behavior.
+
+---
+
+## Technical Controls
+
+Technical controls are implemented using technology to protect information systems.
+
+Examples include:
+
+- Multi-Factor Authentication (MFA)
+- Firewalls
+- Encryption
+- Endpoint Detection and Response (EDR)
+- Anti-malware software
+- Intrusion Detection Systems (IDS)
+- Security Information and Event Management (SIEM)
+- Network segmentation
+
+Technical controls help defend systems against cyber threats and unauthorized access.
+
+---
+
+## Physical Controls
+
+Physical controls protect facilities, equipment, and people from unauthorized physical access or environmental threats.
+
+Examples include:
+
+- Security guards
+- CCTV cameras
+- Biometric access systems
+- Door locks
+- Visitor management
+- Fire suppression systems
+- Environmental monitoring
+- Equipment cages
+
+These controls help protect both physical assets and the information they contain.
+
+---
+
+# Preventive, Detective, Corrective, and Recovery Controls
+
+Controls can also be classified according to their purpose.
+
+| Control Type | Purpose | Examples |
+|--------------|---------|----------|
+| **Preventive** | Stop incidents before they occur | MFA, firewalls, security awareness training |
+| **Detective** | Identify or alert on incidents | Log monitoring, IDS, SIEM, CCTV |
+| **Corrective** | Reduce the impact after an incident | Malware removal, patching, password resets |
+| **Recovery** | Restore operations after disruption | Backups, disaster recovery, business continuity plans |
+
+A mature Information Security Management System combines all four types of controls to provide layered protection.
+
+---
+
+# Risk Treatment Options
+
+After completing a risk assessment, organizations decide how each identified risk will be treated.
+
+ISO/IEC 27001 generally recognizes four primary risk treatment options.
+
+### 1. Reduce (Mitigate)
+
+Implement security controls that lower the likelihood or impact of the risk.
+
+**Example:**
+
+Risk:
+
+Unauthorized access to customer records.
+
+Treatment:
+
+Implement Multi-Factor Authentication and Role-Based Access Control (RBAC).
+
+---
+
+### 2. Avoid
+
+Eliminate the activity that creates the risk.
+
+**Example:**
+
+An organization decides not to offer a high-risk online service because the associated risks exceed its acceptable level.
+
+---
+
+### 3. Transfer
+
+Shift part of the risk to another party.
+
+Examples include:
+
+- Cyber insurance.
+- Outsourced services.
+- Contractual agreements.
+- Cloud service providers with defined security responsibilities.
+
+Although some responsibility may be transferred, the organization remains accountable for managing the associated risks.
+
+---
+
+### 4. Accept
+
+Accept the remaining (residual) risk because it falls within the organization's approved risk appetite.
+
+Acceptance should be formally documented and approved by the appropriate management authority.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Information Security Risk Management Process
+
+**Diagram Description:**
+
+Create a left-to-right process flow.
+
+**Information Assets**
+
+↓
+
+**Identify Threats**
+
+↓
+
+**Identify Vulnerabilities**
+
+↓
+
+**Assess Risk**
+
+↓
+
+**Select Risk Treatment**
+
+↓
+
+Four branches:
+
+- Reduce
+- Avoid
+- Transfer
+- Accept
+
+↓
+
+**Implement Security Controls**
+
+↓
+
+**Monitor & Review**
+
+↓
+
+**Continual Improvement**
+
+Include the caption:
+
+*"ISO/IEC 27001 uses a risk-based approach where organizations identify risks, select appropriate treatment options, implement security controls, and continually monitor their effectiveness."*
+
+---
+
+# Defense in Depth
+
+One of the most important principles in information security is **Defense in Depth**.
+
+Rather than relying on a single security measure, organizations implement multiple layers of protection.
+
+For example, protecting a customer database may involve:
+
+- Security awareness training.
+- Access control policies.
+- Multi-Factor Authentication.
+- Database encryption.
+- Network firewalls.
+- Continuous monitoring.
+- Regular backups.
+- Security audits.
+
+If one control fails, additional layers help prevent or limit the impact of a security incident.
+
+This layered approach significantly improves organizational resilience against both cyber threats and operational failures.
+
+---
+
+# Information Security as a Continuous Process
+
+Information security is not achieved by implementing a few technical controls or completing a certification project.
+
+Threats evolve.
+
+Technology changes.
+
+Business processes expand.
+
+Regulations are updated.
+
+As a result, organizations must continuously:
+
+- Review information assets.
+- Identify emerging threats.
+- Assess new vulnerabilities.
+- Re-evaluate risks.
+- Improve security controls.
+- Monitor control effectiveness.
+- Learn from incidents.
+
+This cycle of continual improvement is a core principle of ISO/IEC 27001 and ensures that the Information Security Management System remains aligned with the organization's objectives and changing risk environment. :contentReference[oaicite:1]{index=1}
+
+---
+
+# Summary
+
+In this lesson, we explored the fundamental concepts that underpin information security and every Information Security Management System.
+
+We learned that organizations must first identify their information assets, understand the threats that could affect them, recognize vulnerabilities, assess risks, and implement appropriate security controls based on a risk-based approach.
+
+These concepts form the foundation for ISO/IEC 27001 and will be referenced throughout the remainder of this chapter. In the next lesson, we will examine the **structure of ISO/IEC 27001**, including its High-Level Structure (Annex SL), Clauses 4 through 10, and how these requirements work together to establish, implement, maintain, and continually improve an effective Information Security Management System (ISMS).
 

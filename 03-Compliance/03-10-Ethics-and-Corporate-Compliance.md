@@ -322,4 +322,222 @@ The Code of Conduct provides practical expectations that employees can apply in 
 
 Together, the Code of Ethics and Code of Conduct create a common framework that promotes ethical decision-making, supports regulatory compliance, and strengthens the organization's Governance, Risk, and Compliance (GRC) program.
 
+# Ethical Decision-Making
+
+Employees frequently encounter situations where there is no specific policy or regulation that clearly defines the correct course of action.
+
+In these situations, ethical decision-making provides a structured approach for evaluating options and selecting the most responsible course of action.
+
+Ethical decision-making encourages employees to consider not only legal requirements but also organizational values, stakeholder interests, and potential long-term consequences.
+
+Rather than asking only:
+
+> **"Can I do this?"**
+
+Employees should also ask:
+
+- **Should I do this?**
+- **Is this consistent with our values?**
+- **Would I be comfortable if this decision became public?**
+- **Could this decision harm customers, employees, or the organization?**
+
+These questions help promote integrity and responsible business conduct.
+
+---
+
+# Ethical Decision-Making Framework
+
+Many organizations encourage employees to follow a structured process when facing ethical dilemmas.
+
+A simple framework includes the following steps:
+
+### Step 1 – Identify the Issue
+
+Clearly define the situation and determine whether it involves:
+
+- Legal concerns.
+- Compliance obligations.
+- Ethical considerations.
+- Conflicts of interest.
+- Risks to stakeholders.
+
+---
+
+### Step 2 – Gather Information
+
+Collect relevant facts before making a decision.
+
+Consider:
+
+- Applicable policies.
+- Laws and regulations.
+- Organizational values.
+- Stakeholder expectations.
+- Potential consequences.
+
+---
+
+### Step 3 – Evaluate the Options
+
+Consider the possible alternatives and evaluate:
+
+- Legal implications.
+- Ethical implications.
+- Business impact.
+- Reputational impact.
+- Long-term consequences.
+
+---
+
+### Step 4 – Make the Decision
+
+Select the option that best aligns with:
+
+- Organizational values.
+- Compliance requirements.
+- Ethical principles.
+- Stakeholder interests.
+
+---
+
+### Step 5 – Review the Outcome
+
+After implementation, evaluate whether:
+
+- The intended outcome was achieved.
+- Additional improvements are required.
+- Lessons learned should be incorporated into future decisions.
+
+Structured decision-making promotes consistency, transparency, and accountability.
+
+---
+
+# Conflicts of Interest
+
+A **conflict of interest** occurs when an individual's personal interests interfere, or appear to interfere, with their professional responsibilities.
+
+Conflicts may not always involve misconduct, but failing to disclose or properly manage them can undermine trust and create significant compliance risks.
+
+Examples include:
+
+- Awarding contracts to family members.
+- Accepting inappropriate gifts from suppliers.
+- Personal financial interests in business decisions.
+- Outside employment that affects objectivity.
+- Using confidential information for personal gain.
+
+Organizations should require employees to disclose actual, potential, and perceived conflicts of interest so they can be evaluated and managed appropriately.
+
+---
+
+# Managing Conflicts of Interest
+
+Common controls include:
+
+- Conflict of interest declarations.
+- Annual employee disclosures.
+- Independent approval processes.
+- Procurement oversight.
+- Segregation of duties.
+- Ethics committee reviews.
+- Periodic monitoring.
+
+Managing conflicts transparently protects both employees and the organization from allegations of favoritism, fraud, or unethical conduct.
+
+---
+
+# Gifts, Hospitality, and Entertainment
+
+Providing or receiving gifts and hospitality can strengthen business relationships, but inappropriate gifts may influence—or appear to influence—business decisions.
+
+Organizations typically establish policies covering:
+
+- Acceptable gift values.
+- Approval requirements.
+- Prohibited gifts.
+- Entertainment expenses.
+- Travel sponsorship.
+- Vendor hospitality.
+- Government officials.
+
+Examples of acceptable practices:
+
+- Low-value promotional items.
+- Modest business meals.
+- Company-branded merchandise.
+
+Examples of unacceptable practices:
+
+- Cash or cash equivalents.
+- Luxury travel.
+- Expensive personal gifts.
+- Gifts intended to influence procurement or regulatory decisions.
+
+Clear policies help employees make appropriate decisions and reduce bribery and corruption risks.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Ethical Decision-Making Process
+
+**Diagram Description:**
+
+Create a circular flow diagram with the following steps:
+
+1. Identify the Issue
+
+↓
+
+2. Gather Information
+
+↓
+
+3. Evaluate Options
+
+↓
+
+4. Make the Decision
+
+↓
+
+5. Review the Outcome
+
+In the center place:
+
+**Ethics + Compliance + Organizational Values**
+
+Around the outside include four guiding questions:
+
+- Is it Legal?
+- Is it Ethical?
+- Is it Fair?
+- Does it Protect Stakeholders?
+
+Include the caption:
+
+*"Ethical decision-making combines legal compliance, organizational values, and stakeholder considerations to guide responsible business decisions."*
+
+---
+
+# Ethical Leadership Throughout the Organization
+
+Although senior leadership establishes the ethical direction of the organization, ethical responsibility belongs to everyone.
+
+Employees at every level should:
+
+- Follow the Code of Conduct.
+- Report unethical behavior.
+- Respect colleagues and customers.
+- Protect confidential information.
+- Avoid conflicts of interest.
+- Act honestly and transparently.
+- Support compliance initiatives.
+- Encourage ethical discussions within their teams.
+
+When ethical behavior becomes part of everyday decision-making, organizations build stronger relationships with customers, regulators, employees, and business partners while reinforcing a culture of integrity.
+
+For Governance, Risk, and Compliance (GRC) professionals, promoting ethical decision-making is essential to reducing organizational risk, strengthening compliance, and ensuring that business objectives are achieved responsibly.
+
+
 

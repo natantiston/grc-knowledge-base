@@ -335,4 +335,218 @@ Together, these audits provide a comprehensive view of compliance performance, s
 
 A mature Compliance Management System integrates these audit activities into a coordinated audit program, ensuring that audit results are used to improve controls, address nonconformities, and support continual improvement rather than simply meeting compliance obligations.
 
+# The Compliance Audit Process
+
+A compliance audit follows a structured and systematic process to ensure that audit activities are performed consistently, objectively, and in accordance with established audit principles.
+
+Although organizations may tailor their audit methodology, most compliance audits include the following stages:
+
+1. Audit Planning
+2. Audit Preparation
+3. Audit Execution
+4. Audit Reporting
+5. Corrective Actions
+6. Follow-up and Verification
+
+Following a standardized process improves audit quality, promotes consistency, and ensures that audit conclusions are supported by objective evidence.
+
+---
+
+# Step 1 – Audit Planning
+
+Effective audits begin with careful planning.
+
+The audit plan defines:
+
+- Audit objectives.
+- Audit scope.
+- Audit criteria.
+- Audit schedule.
+- Audit team.
+- Departments to be audited.
+- Resources required.
+
+During planning, auditors also consider:
+
+- Organizational risks.
+- Previous audit findings.
+- Regulatory requirements.
+- Changes to business operations.
+- Significant incidents.
+- Customer or certification requirements.
+
+Risk-based audit planning enables organizations to focus audit resources on areas with the highest compliance exposure.
+
+---
+
+# Step 2 – Audit Preparation
+
+Before conducting the audit, auditors gather background information and prepare the necessary documentation.
+
+Preparation activities may include reviewing:
+
+- Policies.
+- Standards.
+- Procedures.
+- Previous audit reports.
+- Risk assessments.
+- Compliance obligations.
+- Organizational charts.
+- Process documentation.
+- Applicable regulations.
+- Control documentation.
+
+Auditors may also prepare:
+
+- Audit checklists.
+- Interview questions.
+- Sampling plans.
+- Evidence collection templates.
+
+Good preparation increases audit efficiency and helps ensure that all relevant requirements are evaluated.
+
+---
+
+# Step 3 – Audit Execution
+
+The execution phase is where auditors collect objective evidence to determine whether compliance requirements have been met.
+
+Common audit techniques include:
+
+### Interviews
+
+Auditors interview employees, managers, and process owners to understand how activities are performed and verify awareness of compliance requirements.
+
+---
+
+### Document Review
+
+Auditors examine policies, procedures, records, contracts, logs, reports, and other documentation to confirm that required processes are documented and followed.
+
+---
+
+### Observation
+
+Auditors directly observe operational activities to verify that documented procedures are implemented consistently in practice.
+
+---
+
+### Sampling
+
+Rather than reviewing every record or transaction, auditors select representative samples to evaluate compliance efficiently while maintaining reasonable assurance.
+
+---
+
+### Technical Verification
+
+For technology-related compliance requirements, auditors may examine:
+
+- System configurations.
+- Access control settings.
+- Security logs.
+- Backup records.
+- Vulnerability scan reports.
+- Monitoring dashboards.
+
+Evidence collected during the audit must be sufficient, reliable, relevant, and objective to support audit conclusions.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Compliance Audit Process
+
+**Diagram Description:**
+
+Create a horizontal process flow with six connected stages:
+
+1. Audit Planning
+
+↓
+
+2. Audit Preparation
+
+↓
+
+3. Audit Execution
+
+↓
+
+4. Audit Reporting
+
+↓
+
+5. Corrective Actions
+
+↓
+
+6. Follow-up Verification
+
+Below the process, add icons representing common audit techniques:
+
+- Interviews
+- Document Review
+- Observation
+- Sampling
+- Technical Testing
+
+Include the caption:
+
+*"Compliance audits follow a structured process that combines planning, evidence collection, reporting, corrective actions, and follow-up to provide objective assurance and support continual improvement."*
+
+---
+
+# Audit Evidence
+
+Audit conclusions must always be supported by **objective evidence** rather than assumptions or opinions.
+
+Objective evidence is verifiable information that demonstrates whether compliance requirements have been met.
+
+Examples include:
+
+- Approved policies.
+- Procedures.
+- Training records.
+- Risk assessments.
+- Audit logs.
+- System configurations.
+- Access control reports.
+- Compliance reports.
+- Contracts.
+- Regulatory filings.
+- Meeting minutes.
+- Incident records.
+
+Evidence should be:
+
+- Relevant.
+- Reliable.
+- Accurate.
+- Sufficient.
+- Verifiable.
+
+The quality of an audit depends on the quality of the evidence collected.
+
+---
+
+# Audit Criteria
+
+Every audit is performed against defined **audit criteria**.
+
+Audit criteria are the requirements used as the basis for evaluating conformity.
+
+Examples include:
+
+- Applicable laws and regulations.
+- ISO standards.
+- Internal policies.
+- Organizational procedures.
+- Customer contracts.
+- Industry best practices.
+- Regulatory guidance.
+
+Without clearly defined audit criteria, auditors cannot objectively determine whether compliance requirements have been satisfied.
+
+Clearly documented criteria also ensure consistency across different audits and help organizations compare results over time.
+
 

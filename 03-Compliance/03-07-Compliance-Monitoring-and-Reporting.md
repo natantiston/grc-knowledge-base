@@ -339,4 +339,185 @@ Organizations that continuously monitor compliance gain several advantages:
 
 Continuous monitoring transforms compliance from a periodic activity into an ongoing management process, enabling organizations to respond more quickly to changing risks and regulatory expectations.
 
+# Key Performance Indicators (KPIs)
+
+Organizations need measurable information to determine whether their Compliance Management System (CMS) is achieving its objectives.
+
+One of the primary ways to measure performance is through **Key Performance Indicators (KPIs).**
+
+A **KPI** is a measurable value that evaluates how effectively an organization is achieving a specific compliance objective.
+
+KPIs answer questions such as:
+
+- Are compliance activities being completed on time?
+- Are employees completing mandatory training?
+- Are corrective actions being closed promptly?
+- Are compliance processes operating efficiently?
+- Is the Compliance Management System improving over time?
+
+KPIs help management measure performance, identify trends, and support informed decision-making.
+
+---
+
+# Examples of Compliance KPIs
+
+Organizations may establish KPIs such as:
+
+| KPI | Example Target |
+|------|----------------|
+| Compliance Training Completion | ≥ 98% |
+| Policies Reviewed on Schedule | 100% |
+| Corrective Actions Closed on Time | ≥ 95% |
+| Internal Audit Completion | 100% |
+| Third-Party Assessments Completed | ≥ 95% |
+| Regulatory Reports Submitted on Time | 100% |
+| Compliance Risk Assessments Completed | 100% |
+| Average Corrective Action Closure Time | ≤ 30 Days |
+
+KPIs should be:
+
+- Measurable.
+- Relevant.
+- Achievable.
+- Consistent.
+- Periodically reviewed.
+- Aligned with organizational objectives.
+
+Well-designed KPIs provide management with objective evidence of compliance program performance.
+
+---
+
+# Key Risk Indicators (KRIs)
+
+While KPIs measure performance, **Key Risk Indicators (KRIs)** measure changes in risk exposure.
+
+A **KRI** is a measurable indicator that provides early warning of increasing compliance risk.
+
+KRIs help organizations detect emerging issues before they become compliance incidents.
+
+Examples of questions answered by KRIs include:
+
+- Is compliance risk increasing?
+- Are control failures becoming more frequent?
+- Are policy violations increasing?
+- Are vendors becoming higher risk?
+- Are regulatory findings increasing?
+
+KRIs enable proactive risk management by identifying negative trends early.
+
+---
+
+# Examples of Compliance KRIs
+
+Examples include:
+
+| KRI | Example Threshold |
+|------|------------------|
+| Number of Policy Violations | < 5 per Month |
+| Overdue Compliance Training | < 2% Employees |
+| High-Risk Audit Findings | < 3 Open Findings |
+| Unresolved Regulatory Issues | 0 |
+| Vendor Compliance Failures | < 2% of Vendors |
+| Repeat Compliance Incidents | 0 |
+| Overdue Corrective Actions | < 5 |
+| Regulatory Fines | 0 |
+
+KRIs should be monitored regularly so management can take corrective action before risks exceed acceptable levels.
+
+---
+
+# KPI vs KRI
+
+Although both are performance measures, they have different objectives.
+
+| KPI | KRI |
+|-----|-----|
+| Measures organizational performance | Measures organizational risk |
+| Indicates success | Indicates increasing exposure |
+| Focuses on achieving objectives | Focuses on preventing failures |
+| Usually reports completed activities | Usually provides early warning signals |
+| Supports operational improvement | Supports proactive risk management |
+
+For example:
+
+**KPI**
+
+- 99% of employees completed compliance training.
+
+**KRI**
+
+- 8% increase in policy violations over the last quarter.
+
+Both indicators are valuable and should be reviewed together to obtain a complete picture of compliance performance.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** KPI and KRI Relationship
+
+**Diagram Description:**
+
+Create two parallel columns.
+
+Left Column:
+
+**KPIs**
+
+Examples:
+
+- Training Completion
+- Audit Completion
+- Policy Reviews
+- Corrective Action Closure
+
+Right Column:
+
+**KRIs**
+
+Examples:
+
+- Policy Violations
+- Audit Findings
+- Regulatory Issues
+- Compliance Incidents
+
+Both columns connect to a box labeled:
+
+**Management Dashboard**
+
+Below the dashboard connect to:
+
+- Decision Making
+- Corrective Actions
+- Continual Improvement
+
+Include the caption:
+
+*"KPIs measure compliance performance, while KRIs provide early warning of increasing compliance risk. Together they support informed management decisions."*
+
+---
+
+# Compliance Dashboards
+
+Many organizations present KPIs and KRIs using **compliance dashboards**.
+
+A compliance dashboard provides a visual summary of compliance performance and risk information for management.
+
+Typical dashboard information includes:
+
+- Compliance status.
+- Open compliance risks.
+- Outstanding corrective actions.
+- Audit findings.
+- Training completion.
+- Policy review status.
+- Vendor compliance.
+- Regulatory reporting status.
+- Compliance incidents.
+- Trend analysis.
+
+Dashboards allow executives and compliance managers to quickly understand the organization's compliance posture and focus attention on areas requiring action.
+
+An effective dashboard presents clear, accurate, and timely information, enabling proactive management of compliance risks and supporting continual improvement of the Compliance Management System.
 

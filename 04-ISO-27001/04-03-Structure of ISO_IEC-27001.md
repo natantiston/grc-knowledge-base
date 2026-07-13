@@ -217,4 +217,196 @@ Failure to meet these requirements may result in audit findings or nonconformiti
 
 These clauses collectively ensure that information security is managed systematically through governance, risk management, operational controls, performance evaluation, and continual improvement.
 
+# Overview of Clauses 4 to 10
+
+The heart of ISO/IEC 27001 lies in **Clauses 4 through 10**.
+
+These clauses define the mandatory requirements for establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS).
+
+Rather than functioning independently, the clauses work together as an integrated management system where each clause supports the others.
+
+Understanding the purpose of each clause provides the foundation for successfully implementing ISO/IEC 27001.
+
+---
+
+# Clause 4 – Context of the Organization
+
+The first mandatory requirement is understanding the organization itself.
+
+Before implementing security controls, an organization must understand:
+
+- Its business environment.
+- Internal and external issues.
+- Interested parties.
+- Legal and regulatory obligations.
+- Business objectives.
+- Scope of the ISMS.
+
+This ensures that the Information Security Management System is designed around the organization's unique needs rather than using a generic approach.
+
+Typical outputs include:
+
+- Organizational context.
+- ISMS scope.
+- Interested parties analysis.
+- Information security requirements.
+
+**Key Question:**
+
+*"What business are we protecting, and what influences our information security?"*
+
+---
+
+# Clause 5 – Leadership
+
+An effective ISMS requires active leadership from top management.
+
+Leadership is responsible for:
+
+- Establishing the Information Security Policy.
+- Defining security objectives.
+- Assigning roles and responsibilities.
+- Providing adequate resources.
+- Supporting continual improvement.
+- Promoting a culture of information security.
+
+Information security should be integrated into business decision-making rather than treated as solely an IT responsibility.
+
+Typical outputs include:
+
+- Information Security Policy.
+- Organizational roles.
+- Leadership commitment.
+- Security governance structure.
+
+**Key Question:**
+
+*"How does leadership demonstrate commitment to information security?"*
+
+---
+
+# Clause 6 – Planning
+
+Planning focuses on identifying information security risks and determining how they will be managed.
+
+Organizations must:
+
+- Establish a risk assessment methodology.
+- Identify information security risks.
+- Evaluate risks.
+- Select risk treatment options.
+- Define security objectives.
+- Develop plans to achieve those objectives.
+
+This clause introduces the risk-based approach that is central to ISO/IEC 27001.
+
+Typical outputs include:
+
+- Risk Assessment.
+- Risk Treatment Plan.
+- Information Security Objectives.
+- Statement of Applicability (SoA).
+
+**Key Question:**
+
+*"What risks must we address, and how will we manage them?"*
+
+---
+
+# Clause 7 – Support
+
+Even the best security plans cannot succeed without adequate support.
+
+This clause focuses on enabling the ISMS through:
+
+- Resources.
+- Competence.
+- Awareness.
+- Communication.
+- Documented information.
+
+Organizations must ensure that employees understand their information security responsibilities and have access to the resources necessary to perform them.
+
+Typical outputs include:
+
+- Training records.
+- Competency records.
+- Communication plans.
+- Controlled documentation.
+
+**Key Question:**
+
+*"Do we have the people, knowledge, resources, and documentation needed to operate the ISMS?"*
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** ISO/IEC 27001 Clauses 4–7
+
+**Diagram Description:**
+
+Create a horizontal process flow with four connected boxes.
+
+**Clause 4**
+Context of the Organization
+
+↓
+
+**Clause 5**
+Leadership
+
+↓
+
+**Clause 6**
+Planning
+
+↓
+
+**Clause 7**
+Support
+
+Below each box include a keyword:
+
+- Context → Understand
+- Leadership → Direct
+- Planning → Manage Risk
+- Support → Enable
+
+At the bottom add:
+
+**Foundation of the Information Security Management System (ISMS)**
+
+Include the caption:
+
+*"Clauses 4 through 7 establish the organizational foundation for an effective Information Security Management System by defining context, leadership, planning, and support requirements."*
+
+---
+
+# How These Clauses Work Together
+
+Clauses 4 through 7 build the foundation of the ISMS in a logical sequence.
+
+1. **Context** defines the environment in which the organization operates.
+2. **Leadership** establishes governance and accountability.
+3. **Planning** identifies risks and determines how they will be managed.
+4. **Support** provides the resources, competence, communication, and documented information needed to implement the ISMS.
+
+Without this foundation, operational security controls are unlikely to be effective or sustainable.
+
+These clauses ensure that information security is aligned with business objectives and supported throughout the organization.
+
+---
+
+# A Practical Example
+
+Consider a healthcare provider implementing ISO/IEC 27001.
+
+- **Clause 4:** The organization identifies patient records as critical information assets and recognizes healthcare regulations and patient expectations as key requirements.
+- **Clause 5:** Senior management approves the Information Security Policy, assigns an Information Security Manager, and allocates resources to the ISMS.
+- **Clause 6:** A risk assessment identifies ransomware as a significant threat, leading to a risk treatment plan that includes stronger backup and access control measures.
+- **Clause 7:** Employees receive security awareness training, procedures are documented, and communication channels are established to report security incidents.
+
+Together, these activities create a strong foundation before moving into the operational requirements covered in the next clauses.
+
 

@@ -492,3 +492,544 @@ To support this, management establishes **risk tolerance** limits such as mainta
 
 During a quarterly risk assessment, a proposed infrastructure change is expected to reduce availability below the established tolerance level. Because the projected risk exceeds the organization's predefined boundary, the proposal is escalated to executive management. Additional resilience measures are implemented before deployment, ensuring that the change remains aligned with the company's risk appetite and strategic objectives. :contentReference[oaicite:4]{index=4}
 
+# Developing and Applying Risk Appetite, Risk Tolerance, and Risk Criteria
+
+Defining risk appetite, risk tolerance, and risk criteria is only the beginning.
+
+To create value, organizations must incorporate these concepts into governance, strategic planning, project management, investment decisions, and day-to-day operations. When they are consistently applied, they provide a common basis for evaluating uncertainty and making informed decisions across the enterprise. Organizations that fail to operationalize these concepts often experience inconsistent decision-making and uneven risk management practices. :contentReference[oaicite:0]{index=0}
+
+---
+
+# Developing a Risk Appetite Statement
+
+A **Risk Appetite Statement (RAS)** is a formal document that communicates the organization's overall willingness to accept risk while pursuing its objectives.
+
+It provides guidance to:
+
+- Board of Directors
+- Executive Management
+- Business Unit Leaders
+- Project Managers
+- Risk Owners
+- Employees
+
+The statement should be approved by senior leadership and reviewed periodically to ensure it remains aligned with the organization's strategy.
+
+---
+
+# Characteristics of an Effective Risk Appetite Statement
+
+An effective statement should be:
+
+- Clear and easy to understand.
+- Aligned with strategic objectives.
+- Consistent across the organization.
+- Practical and measurable where possible.
+- Supported by risk tolerance limits.
+- Reviewed regularly.
+
+The statement should guide decision-making rather than simply satisfy governance documentation requirements.
+
+---
+
+# Sample Risk Appetite Statement
+
+**Example**
+
+> *"The organization has a moderate appetite for innovation and digital transformation initiatives that support long-term business growth. However, it has a very low appetite for regulatory non-compliance, cybersecurity incidents affecting customer information, health and safety risks, fraud, and unethical conduct."*
+
+This statement allows managers to pursue innovation while recognizing that certain categories of risk remain unacceptable.
+
+---
+
+# Developing Risk Tolerance Levels
+
+After defining the organization's overall appetite, management establishes measurable tolerance levels for individual objectives and risk categories.
+
+Examples include:
+
+| Risk Category | Example Risk Tolerance |
+|--------------|------------------------|
+| Cybersecurity | Critical vulnerabilities remediated within **7 days** |
+| Service Availability | Minimum **99.95% uptime** |
+| Project Management | Maximum **10% budget variance** |
+| Finance | Annual operational loss not exceeding **€750,000** |
+| Compliance | Zero unresolved critical regulatory findings |
+| Business Continuity | Recovery Time Objective (RTO) of **4 hours** |
+
+These measurable limits help determine when escalation or additional treatment is required.
+
+---
+
+# Establishing Risk Criteria
+
+Risk criteria provide the standards used to evaluate and compare risks consistently.
+
+Typical criteria include:
+
+### Likelihood Scale
+
+- Rare
+- Unlikely
+- Possible
+- Likely
+- Almost Certain
+
+---
+
+### Impact Scale
+
+Assess consequences such as:
+
+- Financial loss
+- Operational disruption
+- Regulatory penalties
+- Customer impact
+- Reputation
+- Health and safety
+- Environmental effects
+
+---
+
+### Additional Evaluation Factors
+
+Organizations may also consider:
+
+- Risk appetite.
+- Risk tolerance.
+- Legal obligations.
+- Contractual commitments.
+- Strategic priorities.
+- Stakeholder expectations.
+
+Using standardized criteria ensures that similar risks receive similar evaluations regardless of the department performing the assessment. :contentReference[oaicite:1]{index=1}
+
+---
+
+# Integrating These Concepts into Decision-Making
+
+Risk appetite, tolerance, and criteria should influence decisions across the organization.
+
+### Strategic Planning
+
+Evaluate whether proposed initiatives align with the organization's willingness to accept strategic risk.
+
+---
+
+### Investment Decisions
+
+Determine whether potential returns justify the associated risks.
+
+---
+
+### Project Management
+
+Assess whether project risks remain within approved tolerance levels.
+
+---
+
+### Cybersecurity
+
+Prioritize remediation based on the organization's tolerance for cyber risk and service disruption.
+
+---
+
+### Third-Party Risk Management
+
+Assess suppliers against predefined risk criteria before awarding contracts.
+
+Embedding these concepts into existing business processes promotes consistent governance and more informed decisions.
+
+---
+
+# Escalation Based on Risk Tolerance
+
+Organizations should establish clear escalation procedures when tolerance levels are exceeded.
+
+Example workflow:
+
+| Risk Status | Action |
+|-------------|--------|
+| Within tolerance | Monitor routinely |
+| Approaching tolerance | Increase management oversight |
+| Exceeds tolerance | Escalate to executive management |
+| Exceeds risk appetite | Immediate treatment or strategic decision required |
+
+This structured approach ensures that significant risks receive appropriate attention.
+
+---
+
+# Common Mistakes
+
+Organizations frequently encounter the following issues:
+
+### Vague Appetite Statements
+
+Statements such as *"We have a moderate appetite for risk"* provide little practical guidance.
+
+---
+
+### No Measurable Tolerances
+
+Without measurable limits, managers cannot determine when risks require escalation.
+
+---
+
+### Inconsistent Risk Criteria
+
+Different departments may use different likelihood or impact scales, making enterprise-wide comparisons difficult.
+
+---
+
+### Lack of Leadership Involvement
+
+Risk appetite should be approved and actively supported by executive leadership rather than managed solely by the risk function.
+
+---
+
+### Failure to Review
+
+Business objectives, regulations, and market conditions evolve over time.
+
+Risk appetite, tolerance, and criteria should therefore be reviewed periodically to remain relevant. :contentReference[oaicite:2]{index=2}
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** From Risk Appetite to Risk Decisions
+
+**Diagram Description:**
+
+Create a top-down flow diagram.
+
+**Board of Directors**
+
+↓
+
+**Risk Appetite Statement**
+
+↓
+
+**Risk Tolerance Limits**
+
+↓
+
+**Risk Criteria**
+
+- Likelihood
+- Impact
+- Business Objectives
+- Regulatory Requirements
+
+↓
+
+**Risk Assessment**
+
+↓
+
+Decision Outcomes:
+
+- Accept
+- Treat
+- Monitor
+- Escalate
+
+Include the caption:
+
+*"Risk appetite establishes strategic direction, risk tolerance defines measurable operational limits, and risk criteria provide the standards for evaluating risks. Together they enable consistent and informed risk-based decision-making across the organization."*
+
+---
+
+# Best Practices
+
+Organizations with mature Enterprise Risk Management (ERM) programmes typically:
+
+- Review risk appetite annually.
+- Define measurable tolerance levels for key risk categories.
+- Standardize risk criteria across the enterprise.
+- Link risk appetite to strategic planning and budgeting.
+- Monitor Key Risk Indicators (KRIs) against tolerance limits.
+- Escalate significant deviations promptly.
+- Communicate expectations throughout the organization.
+
+These practices improve governance, strengthen accountability, and ensure that risk management supports organizational objectives rather than operating as a standalone compliance activity.
+
+---
+
+# Practical Example
+
+A multinational telecommunications provider launches a nationwide 5G expansion programme.
+
+The Board approves a **high risk appetite** for innovation and digital transformation to accelerate market growth. However, it establishes a **very low risk appetite** for service outages, customer data breaches, and regulatory non-compliance.
+
+Management translates these strategic decisions into measurable **risk tolerances**, including maintaining **99.99% network availability**, resolving critical cybersecurity vulnerabilities within **72 hours**, and ensuring that no critical regulatory findings remain unresolved. Standardized **risk criteria**, including likelihood and impact matrices, financial thresholds, customer service metrics, and compliance requirements, are applied consistently across all business units.
+
+During implementation, one regional deployment identifies a supplier-related risk that could reduce network availability below the approved tolerance level. Because the projected impact exceeds the established boundary, the issue is escalated to executive management. Leadership approves additional resilience measures, including redundant network infrastructure and enhanced supplier oversight, before deployment proceeds.
+
+By aligning risk appetite, risk tolerance, and risk criteria with strategic objectives, the organization enables consistent decision-making, protects critical services, and supports successful business growth while maintaining effective governance. :contentReference[oaicite:3]{index=3}
+
+# Monitoring, Reviewing, and Improving Risk Appetite, Risk Tolerance, and Risk Criteria
+
+Risk appetite, risk tolerance, and risk criteria should never be considered permanent.
+
+Organizations operate in environments that continuously evolve due to changing business strategies, emerging technologies, new regulations, cybersecurity threats, economic conditions, and stakeholder expectations.
+
+As these conditions change, leadership must regularly review and update the organization's risk boundaries to ensure they remain aligned with business objectives and organizational capabilities. ISO 31000 emphasizes continual monitoring, review, and improvement as essential elements of effective risk management. :contentReference[oaicite:0]{index=0}
+
+---
+
+# Why Regular Reviews Are Necessary
+
+Risk decisions made several years ago may no longer reflect today's business environment.
+
+Examples include:
+
+- Expansion into new international markets.
+- Adoption of Artificial Intelligence (AI).
+- Migration to cloud computing.
+- New privacy or cybersecurity regulations.
+- Economic recession.
+- Mergers and acquisitions.
+- Changes in customer expectations.
+- Supply chain disruptions.
+
+Each of these changes may require adjustments to the organization's risk appetite, tolerance levels, or evaluation criteria.
+
+---
+
+# When Should Organizations Review Risk Appetite?
+
+Although many organizations perform an annual review, additional reviews should occur whenever significant changes take place.
+
+Common review triggers include:
+
+### Strategic Changes
+
+- New business strategy.
+- Market expansion.
+- Digital transformation.
+- Major investments.
+
+---
+
+### Organizational Changes
+
+- Organizational restructuring.
+- Leadership changes.
+- Mergers or acquisitions.
+- New business units.
+
+---
+
+### Regulatory Changes
+
+- New laws.
+- Industry regulations.
+- Updated standards.
+- Regulatory enforcement actions.
+
+---
+
+### Risk Events
+
+- Major cyber incidents.
+- Operational failures.
+- Financial losses.
+- Safety incidents.
+- Compliance breaches.
+
+---
+
+### External Environment
+
+- Economic uncertainty.
+- Geopolitical instability.
+- Emerging technologies.
+- Climate-related risks.
+
+Reviewing these factors helps ensure that the organization's approach to risk remains relevant and effective.
+
+---
+
+# Monitoring Risk Appetite
+
+Organizations should continuously monitor whether actual risk exposure remains within approved appetite.
+
+This is commonly achieved through:
+
+- Key Risk Indicators (KRIs).
+- Key Performance Indicators (KPIs).
+- Internal audits.
+- Compliance monitoring.
+- Security monitoring.
+- Incident reporting.
+- Management reviews.
+- Enterprise Risk Registers.
+
+Monitoring provides early warning when risks begin approaching or exceeding approved limits.
+
+---
+
+# Monitoring Risk Tolerance
+
+Risk tolerance is typically monitored using measurable thresholds.
+
+Examples include:
+
+| Risk Category | Example Tolerance | Monitoring Method |
+|--------------|-------------------|-------------------|
+| Cybersecurity | Critical vulnerabilities remediated within 7 days | Vulnerability management reports |
+| Service Availability | 99.95% uptime | Service monitoring dashboards |
+| Finance | Operational losses below €500,000 | Financial reporting |
+| Projects | Maximum 10% budget variance | Project performance reports |
+| Business Continuity | Recovery Time Objective (RTO) within 4 hours | Disaster recovery testing |
+| Compliance | Zero unresolved critical findings | Compliance dashboards |
+
+If monitoring shows that a tolerance threshold has been exceeded, management should determine whether additional treatment or escalation is required.
+
+---
+
+# Reviewing Risk Criteria
+
+Risk criteria should also be reviewed periodically.
+
+Questions to consider include:
+
+- Are likelihood scales still appropriate?
+- Do impact ratings reflect current business priorities?
+- Has the organization's risk appetite changed?
+- Are legal requirements different?
+- Are financial thresholds still relevant?
+- Are emerging risks adequately represented?
+
+Updating risk criteria helps maintain consistency across future risk assessments.
+
+---
+
+# Using Key Risk Indicators (KRIs)
+
+**Key Risk Indicators (KRIs)** are measurable metrics that provide early warning of increasing risk exposure.
+
+Examples include:
+
+| Risk Area | Example KRI |
+|-----------|-------------|
+| Cybersecurity | Number of critical vulnerabilities |
+| Third-Party Risk | Percentage of high-risk suppliers |
+| Business Continuity | System recovery test success rate |
+| Compliance | Number of overdue regulatory actions |
+| Operations | Unplanned production downtime |
+| Finance | Outstanding credit exposure |
+
+KRIs help leadership determine whether actual risk remains within approved appetite and tolerance.
+
+---
+
+# Continuous Improvement
+
+ISO 31000 promotes continual improvement rather than maintaining static risk management practices.
+
+Organizations should improve their risk approach by:
+
+- Analyzing lessons learned.
+- Reviewing audit findings.
+- Evaluating incident investigations.
+- Benchmarking against industry practices.
+- Updating policies and procedures.
+- Improving employee awareness.
+- Refining risk assessment methodologies.
+
+Continual improvement strengthens governance and enhances organizational resilience over time. :contentReference[oaicite:1]{index=1}
+
+---
+
+# Best Practices
+
+Organizations with mature Enterprise Risk Management (ERM) programmes commonly:
+
+- Review risk appetite annually or after significant business changes.
+- Define measurable risk tolerance levels.
+- Standardize enterprise-wide risk criteria.
+- Monitor KRIs using executive dashboards.
+- Escalate risks that exceed approved tolerance.
+- Communicate changes to all stakeholders.
+- Incorporate lessons learned into future assessments.
+- Align risk decisions with strategic objectives.
+
+These practices help ensure that risk management remains practical, consistent, and responsive to changing conditions.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Continual Improvement of Risk Appetite and Risk Criteria
+
+**Diagram Description:**
+
+Create a circular continuous improvement cycle.
+
+**Risk Appetite**
+
+↓
+
+**Risk Tolerance**
+
+↓
+
+**Risk Criteria**
+
+↓
+
+**Risk Assessment**
+
+↓
+
+**Monitoring (KRIs & KPIs)**
+
+↓
+
+**Management Review**
+
+↓
+
+**Continuous Improvement**
+
+↓
+
+Back to:
+
+**Updated Risk Appetite**
+
+Include the caption:
+
+*"Risk appetite, risk tolerance, and risk criteria are not static. Organizations should continuously monitor performance, review changing business conditions, and update their risk boundaries to support informed decision-making and continual improvement."*
+
+---
+
+# Key Takeaways
+
+Risk appetite, risk tolerance, and risk criteria form the foundation for consistent risk-based decision-making, but they must evolve alongside the organization.
+
+Effective organizations:
+
+- Establish clear strategic risk appetite statements.
+- Define measurable risk tolerance limits.
+- Apply standardized risk criteria.
+- Monitor risk exposure using KRIs and dashboards.
+- Review their risk boundaries regularly.
+- Update them in response to business, regulatory, or technological changes.
+- Promote continual improvement across the Enterprise Risk Management (ERM) programme.
+
+By regularly reviewing and refining these elements, organizations improve governance, strengthen resilience, and ensure that risk management continues to support the achievement of strategic objectives. :contentReference[oaicite:2]{index=2}
+
+---
+
+# Practical Example
+
+A multinational energy company has established a **low risk appetite** for environmental incidents and a **moderate risk appetite** for investment in renewable energy projects.
+
+The company continuously monitors Key Risk Indicators such as emissions levels, environmental compliance findings, equipment failures, and project cost variances. During a quarterly management review, executives observe that several renewable energy projects are consistently exceeding approved budget tolerance levels due to supply chain disruptions. At the same time, new environmental regulations introduce stricter reporting requirements.
+
+In response, the Board reviews and updates the organization's risk appetite statement, adjusts financial tolerance limits for strategic projects, and revises the enterprise risk criteria to reflect the new regulatory landscape. Updated guidance is communicated across all business units, and future risk assessments use the revised criteria. By continuously monitoring performance and adapting its risk boundaries, the organization maintains alignment between its strategic objectives, governance framework, and evolving business environment while strengthening its overall Enterprise Risk Management capability.
+

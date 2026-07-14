@@ -867,3 +867,307 @@ Throughout the implementation, executive dashboards monitor Key Risk Indicators 
 
 This example demonstrates how risk appetite, tolerance, and KRIs work together to support consistent governance and informed decision-making across the enterprise.
 
+# Monitoring, Reviewing, and Improving Risk Appetite
+
+Establishing a **Risk Appetite Statement** is not the final step in Enterprise Risk Management (ERM).
+
+Business conditions constantly change due to new technologies, evolving regulations, market competition, cybersecurity threats, economic conditions, and organizational growth. As a result, risk appetite, risk tolerance, and risk capacity must be reviewed regularly to ensure they remain aligned with the organization's objectives.
+
+ISO 31000 emphasizes that risk management is **dynamic**, integrated into decision-making, and subject to **continuous monitoring, review, and continual improvement**. Risk criteria—including those influenced by risk appetite—should be reviewed whenever significant changes occur in the organization's internal or external environment. :contentReference[oaicite:0]{index=0}
+
+---
+
+# Why Risk Appetite Must Be Reviewed
+
+Risk appetite is based on assumptions about the organization and its environment.
+
+Those assumptions may change because of:
+
+- New strategic objectives.
+- Business expansion.
+- Mergers or acquisitions.
+- Economic uncertainty.
+- Regulatory changes.
+- New technologies.
+- Artificial Intelligence (AI) adoption.
+- Cybersecurity incidents.
+- Supply chain disruptions.
+- Changes in stakeholder expectations.
+
+If risk appetite is not updated, business decisions may no longer reflect the organization's current priorities.
+
+---
+
+# Triggers for Reviewing Risk Appetite
+
+Organizations should review their Risk Appetite Framework whenever significant events occur.
+
+Typical triggers include:
+
+### Strategic Changes
+
+- New business models.
+- International expansion.
+- New products or services.
+- Major investments.
+
+---
+
+### Regulatory Changes
+
+- New laws.
+- Industry regulations.
+- Government directives.
+- Compliance obligations.
+
+---
+
+### Operational Changes
+
+- Cloud migration.
+- Digital transformation.
+- AI implementation.
+- Organizational restructuring.
+
+---
+
+### Significant Risk Events
+
+- Major cybersecurity incidents.
+- Business continuity disruptions.
+- Financial losses.
+- Compliance failures.
+
+Regular reviews ensure that the organization continues operating within acceptable levels of risk.
+
+---
+
+# Monitoring Risk Appetite
+
+Organizations should continuously monitor whether actual risk exposure remains within the approved appetite.
+
+Monitoring typically includes:
+
+- Enterprise Risk Register.
+- Key Risk Indicators (KRIs).
+- Key Performance Indicators (KPIs).
+- Internal audit findings.
+- Compliance reports.
+- Incident reports.
+- Executive dashboards.
+- Board risk reports.
+
+Monitoring enables leadership to identify trends before risks exceed approved tolerance levels.
+
+---
+
+# Using Key Risk Indicators (KRIs)
+
+KRIs are one of the most effective tools for monitoring adherence to risk appetite.
+
+Examples include:
+
+| Risk Category | Example KRI | Escalation Trigger |
+|--------------|-------------|-------------------|
+| Cybersecurity | Critical vulnerabilities | More than 10 unresolved for 30 days |
+| Operations | Service availability | Below 99.95% |
+| Projects | Budget variance | Greater than 5% |
+| Third-Party Risk | High-risk suppliers | More than 15 without assessment |
+| Compliance | Regulatory findings | Any critical finding |
+| Finance | Debt ratio | Above approved threshold |
+
+When KRIs exceed established tolerance levels, management should investigate the cause and determine appropriate actions.
+
+---
+
+# Escalation and Decision-Making
+
+A mature Risk Appetite Framework includes defined escalation procedures.
+
+```
+Monitor KRIs
+
+↓
+
+Within Tolerance?
+
+↓
+
+YES
+
+↓
+
+Continue Monitoring
+
+↓
+
+NO
+
+↓
+
+Management Review
+
+↓
+
+Additional Controls?
+
+↓
+
+Risk Accepted?
+
+↓
+
+Board Escalation (if required)
+
+↓
+
+Update Risk Register
+```
+
+This structured process ensures that significant risks receive appropriate management attention before they threaten organizational objectives.
+
+---
+
+# Management Review
+
+Executive management should periodically evaluate whether the approved risk appetite remains appropriate.
+
+Typical review questions include:
+
+- Does the current appetite support our strategy?
+- Have external conditions changed?
+- Are tolerance levels realistic?
+- Are KRIs consistently exceeding limits?
+- Has the organization's financial capacity changed?
+- Are additional controls required?
+- Do employees understand the approved risk appetite?
+
+Management reviews provide an opportunity to adjust the Risk Appetite Framework based on current business conditions.
+
+---
+
+# Board Oversight
+
+The Board of Directors plays a critical governance role by:
+
+- Reviewing enterprise risk reports.
+- Approving changes to the Risk Appetite Statement.
+- Evaluating strategic risks.
+- Monitoring organizational resilience.
+- Ensuring that management operates within approved risk boundaries.
+- Challenging executive assumptions where appropriate.
+
+Board oversight ensures that risk-taking remains aligned with the organization's long-term objectives.
+
+---
+
+# Continual Improvement
+
+Organizations should continually improve their Risk Appetite Framework by:
+
+- Learning from incidents.
+- Reviewing audit findings.
+- Updating KRIs.
+- Improving reporting dashboards.
+- Refining tolerance levels.
+- Strengthening governance.
+- Improving communication.
+- Enhancing employee awareness.
+
+A mature organization treats risk appetite as a living management tool rather than a static document. ISO 31000 promotes continual improvement and the integration of feedback into the risk management framework. :contentReference[oaicite:1]{index=1}
+
+---
+
+# Common Mistakes
+
+Organizations often reduce the effectiveness of their Risk Appetite Framework by:
+
+- Creating a Risk Appetite Statement but never reviewing it.
+- Using vague or subjective language.
+- Defining appetite without measurable tolerances.
+- Failing to monitor KRIs.
+- Not communicating appetite to business units.
+- Ignoring changing business conditions.
+- Treating risk appetite as a compliance document instead of a management tool.
+
+Avoiding these mistakes helps ensure that risk appetite supports better governance and decision-making.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Risk Appetite Monitoring and Continual Improvement Cycle
+
+**Diagram Description:**
+
+Create a circular PDCA-style cycle.
+
+**Plan**
+
+- Define Risk Appetite
+- Establish Risk Tolerances
+
+↓
+
+**Do**
+
+- Implement Business Activities
+- Operate Within Approved Limits
+
+↓
+
+**Check**
+
+- Monitor KRIs
+- Internal Audit
+- Executive Dashboards
+- Management Review
+
+↓
+
+**Act**
+
+- Update Risk Appetite
+- Adjust Tolerances
+- Improve Controls
+- Communicate Changes
+
+↓
+
+Return to **Plan**
+
+Caption:
+
+*"Risk appetite should be continuously monitored, reviewed, and improved as organizational objectives, business conditions, and external risks evolve. This ensures that risk-taking remains aligned with strategy and organizational resilience."*
+
+---
+
+# Key Takeaways
+
+Risk appetite is not a one-time decision—it is a dynamic element of Enterprise Risk Management that must evolve with the organization.
+
+Organizations should:
+
+- Define a clear Risk Appetite Statement.
+- Establish measurable risk tolerances.
+- Monitor Key Risk Indicators (KRIs).
+- Review appetite during management reviews.
+- Escalate risks that exceed approved tolerance levels.
+- Update appetite when business conditions change.
+- Strengthen governance through Board oversight.
+- Continually improve the Risk Appetite Framework.
+
+By regularly monitoring and refining risk appetite, organizations make more consistent decisions, improve resilience, strengthen governance, and better achieve their strategic objectives. :contentReference[oaicite:2]{index=2}
+
+---
+
+# Practical Example
+
+A multinational financial institution reviews its Risk Appetite Framework every six months as part of its Enterprise Risk Management (ERM) program.
+
+Executive management analyzes Key Risk Indicators (KRIs), cybersecurity incident trends, regulatory developments, credit exposure, operational losses, and internal audit findings. During one review, the organization observes a significant increase in sophisticated cyberattacks targeting financial institutions. Although existing controls remain effective, the Board determines that the organization's previous cybersecurity risk appetite no longer reflects the evolving threat landscape.
+
+The Board approves a revised Risk Appetite Statement with stricter cybersecurity tolerances, including reduced vulnerability remediation timelines, enhanced third-party security requirements, and additional investment in threat detection technologies. These changes are communicated to all business units, incorporated into executive dashboards, and monitored through updated KRIs.
+
+By regularly reviewing and improving its Risk Appetite Framework, the organization ensures that strategic decision-making remains aligned with changing risks, regulatory expectations, and long-term business objectives while maintaining operational resilience and customer trust.
+

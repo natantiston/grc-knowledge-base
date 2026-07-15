@@ -876,3 +876,281 @@ A multinational telecommunications company deploys Artificial Intelligence acros
 
 The organization also develops a RACI matrix that defines responsibilities for AI policy approval, risk assessments, model deployment, monitoring, incident management, and internal audits. During annual governance reviews, leadership evaluates whether assigned responsibilities remain appropriate as new AI technologies and business initiatives are introduced. This structured governance model improves accountability, supports cross-functional collaboration, and ensures that AI systems are managed consistently throughout their lifecycle.
 
+# Leadership in Practice, Management Commitment, and Continual Improvement
+
+Leadership within an Artificial Intelligence Management System (AIMS) is not limited to approving policies or assigning responsibilities. Effective leadership is demonstrated through continuous involvement in governance activities, strategic decision-making, performance monitoring, and the continual improvement of AI governance.
+
+ISO/IEC 42001 expects top management to remain actively engaged throughout the AI lifecycle. As Artificial Intelligence technologies, regulations, and business needs evolve, leadership must ensure that governance processes evolve as well.
+
+Strong leadership transforms AI governance from a compliance exercise into a strategic capability that supports innovation, resilience, and stakeholder trust.
+
+---
+
+# Demonstrating Leadership Commitment
+
+Organizations should be able to demonstrate leadership commitment through observable actions rather than written statements alone.
+
+Examples include:
+
+- Approving the Artificial Intelligence Policy.
+- Participating in AI governance meetings.
+- Reviewing AI risks.
+- Monitoring AI performance.
+- Providing governance resources.
+- Supporting awareness initiatives.
+- Reviewing audit results.
+- Approving improvement initiatives.
+
+Evidence of leadership commitment is often reviewed during internal and external audits.
+
+---
+
+# Leadership During the AI Lifecycle
+
+Leadership responsibilities extend across every phase of the AI lifecycle.
+
+| AI Lifecycle Stage | Leadership Responsibilities |
+|--------------------|-----------------------------|
+| Strategy | Approve AI vision and governance objectives |
+| Planning | Allocate resources and define priorities |
+| Development | Ensure governance controls are established |
+| Deployment | Approve high-risk AI implementations where appropriate |
+| Operation | Monitor performance and governance effectiveness |
+| Monitoring | Review KPIs, incidents, and risk reports |
+| Improvement | Support corrective actions and continual improvement |
+
+Executive involvement should remain consistent throughout the lifecycle rather than being limited to the initial implementation phase.
+
+---
+
+# Leadership and AI Risk Oversight
+
+Top management should receive regular reporting on AI governance.
+
+Typical reporting includes:
+
+- AI risk assessments.
+- High-risk AI systems.
+- AI incidents.
+- Security events.
+- Regulatory developments.
+- Internal audit findings.
+- Key Performance Indicators (KPIs).
+- Key Risk Indicators (KRIs).
+- Improvement initiatives.
+
+These reports enable informed decision-making and effective governance oversight.
+
+---
+
+# Leadership and Organizational Culture
+
+Leaders influence organizational behavior through the decisions they make and the priorities they communicate.
+
+Leadership should encourage a culture that values:
+
+- Responsible innovation.
+- Ethical decision-making.
+- Transparency.
+- Accountability.
+- Collaboration.
+- Risk awareness.
+- Learning from incidents.
+- Continuous improvement.
+
+Employees are more likely to follow governance processes when leadership consistently demonstrates these values through actions and decision-making.
+
+---
+
+# Resource Management
+
+Leadership must ensure that sufficient resources are available for the Artificial Intelligence Management System.
+
+Examples include:
+
+### Financial Resources
+
+- AI governance budget.
+- Compliance activities.
+- External assessments.
+- Governance tools.
+
+---
+
+### Human Resources
+
+- AI specialists.
+- Risk professionals.
+- Compliance personnel.
+- Internal auditors.
+- Information Security teams.
+
+---
+
+### Technical Resources
+
+- AI monitoring tools.
+- Model management platforms.
+- Risk assessment tools.
+- Documentation repositories.
+- Audit management systems.
+
+Without appropriate resources, governance activities may become ineffective or inconsistent.
+
+---
+
+# Leadership During AI Incidents
+
+Leadership plays a critical role when AI-related incidents occur.
+
+Examples include:
+
+- Significant model failures.
+- Harmful AI outputs.
+- Data privacy breaches.
+- AI security incidents.
+- Regulatory investigations.
+- Public trust concerns.
+
+During these situations, leadership should:
+
+- Coordinate decision-making.
+- Communicate with stakeholders.
+- Support incident response.
+- Approve corrective actions.
+- Review lessons learned.
+- Strengthen governance controls.
+
+Effective leadership during incidents helps reduce operational, legal, and reputational impacts.
+
+---
+
+# Continual Improvement
+
+ISO/IEC 42001 follows the Plan-Do-Check-Act (PDCA) model.
+
+Leadership should ensure continual improvement by:
+
+- Reviewing governance performance.
+- Monitoring audit findings.
+- Evaluating AI risks.
+- Assessing policy effectiveness.
+- Updating governance processes.
+- Supporting innovation.
+- Responding to regulatory changes.
+
+Continual improvement enables organizations to adapt their governance framework as AI technologies evolve.
+
+---
+
+# Measuring Leadership Effectiveness
+
+Organizations can evaluate leadership commitment using measurable indicators.
+
+Examples include:
+
+- AI governance meeting attendance.
+- Policy review frequency.
+- Management review completion.
+- AI risk review participation.
+- Budget allocation for AI governance.
+- Employee awareness levels.
+- Audit findings closed on time.
+- Improvement initiatives completed.
+
+These metrics provide evidence that leadership is actively supporting the Artificial Intelligence Management System.
+
+---
+
+# Preparing for Clause 6 – Planning
+
+With leadership responsibilities established, the next step is planning.
+
+Clause 6 focuses on:
+
+- AI risks and opportunities.
+- AI objectives.
+- AI planning.
+- AI impact assessments.
+- Risk treatment planning.
+- Governance improvement initiatives.
+
+The decisions made during leadership activities provide the strategic direction for effective planning.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Leadership and Continual Improvement in ISO/IEC 42001
+
+**Diagram Description:**
+
+Create a circular PDCA diagram.
+
+Center:
+
+**Executive Leadership**
+
+Around the center:
+
+**PLAN**
+
+- Strategy
+- AI Policy
+- Objectives
+
+↓
+
+**DO**
+
+- Governance
+- Operations
+- Resource Allocation
+
+↓
+
+**CHECK**
+
+- Monitoring
+- Internal Audit
+- Management Review
+
+↓
+
+**ACT**
+
+- Corrective Actions
+- Continual Improvement
+- Governance Updates
+
+Repeat the cycle with arrows to illustrate continuous improvement.
+
+Caption:
+
+*"Executive leadership drives continual improvement by providing strategic direction, monitoring governance performance, allocating resources, and adapting the Artificial Intelligence Management System to changing business, technology, and regulatory environments."*
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Demonstrate leadership commitment through active participation in governance activities, management reviews, and strategic decision-making rather than relying solely on documented policies.
+- Establish regular reporting mechanisms that provide executive leadership with meaningful information on AI risks, governance performance, incidents, compliance status, and improvement opportunities.
+- Allocate sufficient financial, human, and technical resources to support the long-term effectiveness of the Artificial Intelligence Management System.
+- Promote a governance culture that encourages responsible innovation, ethical decision-making, transparency, accountability, and continuous learning.
+- Ensure executive leadership is actively involved in responding to significant AI incidents, approving corrective actions, and reviewing lessons learned.
+- Measure leadership effectiveness using objective performance indicators such as governance participation, policy reviews, audit results, corrective action completion, and resource commitments.
+- Incorporate continual improvement into governance processes by regularly reviewing policies, governance structures, AI risks, and emerging regulatory requirements.
+- Treat AI governance as a strategic business capability that evolves alongside organizational objectives, technological advances, and stakeholder expectations.
+
+These practices enable leadership to maintain an effective Artificial Intelligence Management System that supports innovation while ensuring responsible, transparent, and accountable use of Artificial Intelligence.
+
+---
+
+# Practical Example
+
+A global manufacturing company has implemented ISO/IEC 42001 to govern Artificial Intelligence used in predictive maintenance, supply chain optimization, quality assurance, and customer support. Executive leadership receives quarterly AI governance reports summarizing high-risk AI systems, model performance metrics, regulatory developments, cybersecurity events, audit findings, and corrective action progress. During one reporting cycle, management identifies declining performance in an AI-powered quality inspection model due to changes in production data. Leadership authorizes additional resources for model retraining, strengthens monitoring requirements, and updates governance procedures to require periodic model validation after significant operational changes.
+
+Following the incident, the AI Governance Committee incorporates the lessons learned into the organization's continual improvement program. Updated governance controls are communicated through awareness sessions, and internal audit plans are revised to include additional reviews of AI model monitoring processes. By maintaining active leadership involvement throughout the AI lifecycle, the organization continuously improves its Artificial Intelligence Management System while supporting innovation, operational excellence, regulatory compliance, and stakeholder confidence.
+

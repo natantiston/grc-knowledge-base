@@ -943,3 +943,374 @@ These practices help organizations transform governance goals into measurable re
 A global e-commerce company introduces an Artificial Intelligence Management System to govern recommendation engines, fraud detection models, and customer service chatbots. Following its AI risk assessment, executive leadership establishes objectives to reduce high-risk AI incidents by 25 percent within one year, improve AI model explainability for customer-facing applications, and achieve 100 percent completion of AI governance training for employees involved in AI development and operations.
 
 To achieve these objectives, the organization develops detailed action plans that assign responsibilities to business owners, data scientists, information security teams, and compliance personnel. Risk treatment activities include implementing fairness testing, strengthening access controls, enhancing AI monitoring, and introducing mandatory human review for high-impact AI decisions. Progress is tracked through governance dashboards, internal audits, and quarterly management reviews, enabling leadership to evaluate performance, adjust priorities, and continually improve the Artificial Intelligence Management System.
+
+# Clause 6 Implementation, Planning Documentation, and Practical Guidance
+
+Planning is the bridge between leadership commitment and operational implementation. After leadership establishes governance direction, Clause 6 ensures that the organization develops structured plans to manage AI risks, achieve governance objectives, and continually improve the Artificial Intelligence Management System (AIMS).
+
+Successful organizations treat planning as a continuous management activity rather than a one-time implementation task. As AI technologies, business priorities, and regulatory requirements evolve, planning activities must also evolve to ensure that governance remains effective.
+
+---
+
+# Implementing Clause 6
+
+A practical implementation approach follows a logical sequence.
+
+```
+Understand Organizational Context
+
+↓
+
+Identify AI Risks
+
+↓
+
+Identify Opportunities
+
+↓
+
+Evaluate Risks
+
+↓
+
+Establish AI Objectives
+
+↓
+
+Develop Action Plans
+
+↓
+
+Allocate Resources
+
+↓
+
+Implement Risk Treatment
+
+↓
+
+Monitor Progress
+
+↓
+
+Continual Improvement
+```
+
+Each activity builds upon the previous one, creating a structured planning process that supports responsible AI governance.
+
+---
+
+# Typical Clause 6 Deliverables
+
+Organizations commonly produce several key documents during the planning phase.
+
+### AI Risk Assessment Report
+
+Documents:
+
+- AI systems assessed.
+- Risk identification.
+- Threat analysis.
+- Vulnerability analysis.
+- Risk evaluation.
+- Recommended treatments.
+
+---
+
+### AI Risk Register
+
+Contains:
+
+- Risk ID.
+- Risk description.
+- Likelihood.
+- Impact.
+- Risk rating.
+- Risk owner.
+- Treatment status.
+- Review date.
+
+---
+
+### AI Objectives Register
+
+Documents:
+
+- Governance objectives.
+- Performance indicators.
+- Responsible owners.
+- Target completion dates.
+- Progress status.
+
+---
+
+### Action Plans
+
+Describe:
+
+- Planned activities.
+- Required resources.
+- Timelines.
+- Responsibilities.
+- Success criteria.
+
+---
+
+### Risk Treatment Plan
+
+Documents:
+
+- Selected treatment option.
+- Planned controls.
+- Residual risk.
+- Approval.
+- Monitoring requirements.
+
+---
+
+### Resource Plan
+
+Defines:
+
+- Budget.
+- Personnel.
+- Technology.
+- Training.
+- External support.
+
+---
+
+# Example AI Objective Register
+
+| Objective | KPI | Owner | Target |
+|-----------|-----|-------|--------|
+| Reduce AI incidents | Number of critical incidents | AI Governance Manager | 25% reduction |
+| Improve fairness | Percentage of models passing fairness testing | Data Science Manager | 95% |
+| Increase transparency | AI systems with documented explanations | Business Owner | 100% |
+| Improve awareness | Employee training completion | HR | 100% |
+
+Objective registers provide measurable evidence that governance activities support organizational goals.
+
+---
+
+# Example Risk Treatment Register
+
+| Risk | Treatment | Owner | Status |
+|------|-----------|-------|--------|
+| Model bias | Fairness testing | Data Science | In Progress |
+| Unauthorized access | Multi-factor authentication | Information Security | Completed |
+| Poor documentation | Documentation standards | AI Governance Team | Planned |
+| Third-party AI risks | Vendor assessments | Procurement | Ongoing |
+
+Maintaining a risk treatment register enables organizations to monitor the implementation and effectiveness of planned controls.
+
+---
+
+# Monitoring Planning Effectiveness
+
+Planning activities should be reviewed regularly to determine whether they are achieving intended outcomes.
+
+Organizations commonly monitor:
+
+- AI objectives.
+- Risk treatment progress.
+- Governance KPIs.
+- AI incidents.
+- Audit findings.
+- Regulatory developments.
+- Management review actions.
+
+Monitoring supports informed decision-making and continual improvement.
+
+---
+
+# Common Planning Challenges
+
+Organizations frequently encounter several planning challenges.
+
+### Unrealistic Objectives
+
+Objectives may be overly ambitious or impossible to measure.
+
+**Solution:**
+
+- Use SMART objectives.
+- Align with available resources.
+- Review objectives periodically.
+
+---
+
+### Incomplete Risk Assessments
+
+Some AI risks may be overlooked.
+
+**Solution:**
+
+- Use multidisciplinary assessment teams.
+- Review the full AI lifecycle.
+- Include technical and non-technical risks.
+
+---
+
+### Limited Resources
+
+Governance initiatives may not receive sufficient funding or personnel.
+
+**Solution:**
+
+- Prioritize high-risk AI systems.
+- Integrate AI governance into existing management systems.
+- Obtain executive sponsorship.
+
+---
+
+### Changing Regulations
+
+New AI legislation may require updates to governance plans.
+
+**Solution:**
+
+- Monitor regulatory developments.
+- Review plans regularly.
+- Update objectives and controls as needed.
+
+---
+
+# Clause 6 Within the PDCA Model
+
+Planning supports the first stage of continual improvement.
+
+```
+PLAN
+
+Context
+
+↓
+
+Leadership
+
+↓
+
+Risk Assessment
+
+↓
+
+Objectives
+
+↓
+
+Action Plans
+
+↓
+
+DO
+
+Operational Controls
+
+↓
+
+CHECK
+
+Performance Evaluation
+
+↓
+
+ACT
+
+Improvement
+```
+
+A strong planning process provides a stable foundation for operational implementation.
+
+---
+
+# Preparing for Clause 7 – Support
+
+After planning has been completed, organizations must ensure that appropriate support mechanisms are available.
+
+Clause 7 focuses on:
+
+- Resources.
+- Competence.
+- Awareness.
+- Communication.
+- Documented information.
+
+These supporting activities enable the Artificial Intelligence Management System to operate effectively.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Clause 6 Planning Framework
+
+**Diagram Description:**
+
+Create a workflow diagram.
+
+Organizational Context
+
+↓
+
+Leadership
+
+↓
+
+AI Risk Assessment
+
+↓
+
+Objectives
+
+↓
+
+Action Plans
+
+↓
+
+Risk Treatment
+
+↓
+
+Resource Planning
+
+↓
+
+Implementation
+
+↓
+
+Monitoring
+
+↓
+
+Continual Improvement
+
+Caption:
+
+*"Clause 6 transforms organizational strategy into measurable governance objectives, structured action plans, and risk treatment activities that support responsible Artificial Intelligence."*
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Treat planning as a continuous governance process that evolves alongside business objectives, AI technologies, and regulatory requirements.
+- Maintain documented planning records, including AI risk assessments, risk registers, objectives, action plans, resource plans, and risk treatment plans.
+- Ensure AI objectives are measurable, regularly monitored, and linked to organizational strategy, governance priorities, and continual improvement.
+- Review planning outputs during management reviews and internal audits to confirm that governance activities remain effective and aligned with organizational needs.
+- Involve multidisciplinary stakeholders when developing objectives, evaluating risks, allocating resources, and approving treatment plans.
+- Prioritize governance efforts according to AI risk levels, ensuring that higher-risk AI systems receive greater oversight and stronger controls.
+- Integrate AI planning with existing enterprise risk management, information security, privacy, quality, and compliance programs to improve efficiency and consistency.
+- Update planning documentation whenever significant changes occur in AI systems, business operations, legal requirements, or stakeholder expectations.
+
+These practices ensure that planning remains a dynamic management activity that supports effective implementation, regulatory compliance, operational resilience, and continual improvement of the Artificial Intelligence Management System.
+
+---
+
+# Practical Example
+
+A multinational banking organization completes the planning phase of its ISO/IEC 42001 implementation after identifying AI systems used for fraud detection, credit scoring, customer support, and financial forecasting. The AI Governance Committee develops a comprehensive set of planning documents, including an AI Risk Register, AI Objectives Register, Resource Plan, Risk Treatment Plan, and implementation roadmap. High-priority objectives focus on improving model explainability, reducing algorithmic bias, strengthening cybersecurity controls, and ensuring compliance with emerging AI regulations.
+
+Throughout the year, progress is monitored through governance dashboards, internal audits, AI performance reports, and quarterly management reviews. When new regulatory guidance introduces additional transparency requirements for high-risk AI systems, executive leadership updates governance objectives, revises action plans, and allocates additional resources for model documentation and employee training. By treating planning as an ongoing governance activity rather than a one-time exercise, the organization maintains an adaptive Artificial Intelligence Management System capable of supporting innovation while effectively managing AI-related risks.

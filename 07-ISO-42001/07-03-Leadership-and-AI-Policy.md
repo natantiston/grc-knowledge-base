@@ -561,3 +561,318 @@ A multinational healthcare provider establishes an Artificial Intelligence Polic
 
 To ensure the policy is effective, the organization integrates it into employee onboarding, annual training, and governance workshops. Following the introduction of new healthcare AI regulations, executive leadership conducts a formal policy review, updates governance requirements for high-risk AI systems, and strengthens approval procedures for externally acquired AI services. This continual review process helps maintain alignment between the organization's AI governance framework, regulatory obligations, and strategic healthcare objectives.
 
+# Organizational Roles, Responsibilities, and Governance Structure
+
+Leadership establishes the direction of the Artificial Intelligence Management System (AIMS), but effective governance depends on clearly defined organizational roles and responsibilities. AI governance involves multiple business functions, each contributing specialized expertise to ensure AI systems are developed, deployed, operated, and monitored responsibly.
+
+ISO/IEC 42001 requires organizations to assign responsibilities and authorities for relevant AI governance activities. Clear accountability helps prevent governance gaps, improves coordination, and ensures that AI-related decisions are made by appropriately qualified personnel.
+
+---
+
+# Why Roles and Responsibilities Matter
+
+Artificial Intelligence affects many areas of an organization.
+
+Unlike traditional software, AI systems require ongoing oversight because they:
+
+- Learn from data.
+- Produce probabilistic outputs.
+- May change in performance over time.
+- Can influence important business decisions.
+- Introduce ethical, legal, operational, and cybersecurity risks.
+
+As a result, AI governance requires collaboration between business, technical, legal, compliance, privacy, and risk management teams.
+
+---
+
+# Governance Structure
+
+A typical AI governance structure includes multiple levels of responsibility.
+
+```
+Board of Directors
+
+↓
+
+Executive Leadership
+
+↓
+
+AI Governance Committee
+
+↓
+
+Business Owners
+
+↓
+
+AI Development Teams
+
+↓
+
+Operational Teams
+
+↓
+
+Monitoring and Audit Functions
+```
+
+Each level performs different governance activities while contributing to the overall effectiveness of the Artificial Intelligence Management System.
+
+---
+
+# Board of Directors
+
+The Board provides strategic oversight.
+
+Typical responsibilities include:
+
+- Approving AI governance strategy.
+- Reviewing enterprise AI risks.
+- Monitoring organizational performance.
+- Ensuring governance effectiveness.
+- Supporting responsible innovation.
+
+The Board normally does not manage day-to-day AI operations but ensures adequate governance exists.
+
+---
+
+# Executive Leadership
+
+Executive management is responsible for implementing the Board's strategic direction.
+
+Responsibilities include:
+
+- Approving AI policies.
+- Allocating resources.
+- Defining governance objectives.
+- Establishing governance committees.
+- Reviewing AI performance.
+- Supporting continual improvement.
+
+Leadership remains accountable for the effectiveness of the Artificial Intelligence Management System.
+
+---
+
+# AI Governance Committee
+
+Many organizations establish an AI Governance Committee to coordinate governance activities.
+
+Typical responsibilities include:
+
+- Reviewing AI initiatives.
+- Approving high-risk AI use cases.
+- Monitoring governance performance.
+- Reviewing AI risks.
+- Coordinating cross-functional activities.
+- Recommending governance improvements.
+
+Committee membership often includes representatives from:
+
+- Business units.
+- Information Technology.
+- Data Science.
+- Information Security.
+- Legal.
+- Compliance.
+- Risk Management.
+- Privacy.
+- Human Resources.
+
+---
+
+# Business Owners
+
+Every AI system should have an assigned Business Owner.
+
+Business Owners are responsible for:
+
+- Defining business objectives.
+- Approving AI use cases.
+- Monitoring business outcomes.
+- Supporting risk assessments.
+- Ensuring appropriate human oversight.
+
+They remain accountable for how AI supports business operations.
+
+---
+
+# Technical Owners
+
+Technical Owners manage the operational aspects of AI systems.
+
+Typical responsibilities include:
+
+- Model development.
+- System deployment.
+- Technical maintenance.
+- Performance monitoring.
+- Security implementation.
+- Incident response.
+
+Technical Owners work closely with Business Owners to ensure AI systems remain effective and reliable.
+
+---
+
+# Risk Management Function
+
+Risk Management supports AI governance by:
+
+- Conducting AI risk assessments.
+- Maintaining AI risk registers.
+- Evaluating risk treatment plans.
+- Reporting AI risks to leadership.
+- Supporting enterprise risk integration.
+
+AI risks should be managed consistently with other organizational risks.
+
+---
+
+# Compliance and Legal
+
+Compliance and Legal teams help ensure AI systems satisfy:
+
+- Regulatory obligations.
+- Contractual commitments.
+- Industry standards.
+- Internal governance requirements.
+
+They also monitor emerging AI legislation and advise leadership on regulatory impacts.
+
+---
+
+# Information Security
+
+Information Security teams protect AI systems against cyber threats.
+
+Responsibilities include:
+
+- Access management.
+- Secure AI infrastructure.
+- Data protection.
+- Vulnerability management.
+- Security monitoring.
+- Incident handling.
+
+Cybersecurity remains an essential component of AI governance.
+
+---
+
+# Internal Audit
+
+Internal Audit provides independent assurance regarding the effectiveness of the Artificial Intelligence Management System.
+
+Typical activities include:
+
+- Governance audits.
+- Policy compliance reviews.
+- AI lifecycle evaluations.
+- Control effectiveness assessments.
+- Audit reporting.
+- Improvement recommendations.
+
+Audit independence strengthens organizational confidence in AI governance.
+
+---
+
+# Human Resources
+
+Human Resources contributes by:
+
+- Recruiting AI talent.
+- Coordinating awareness training.
+- Supporting competency development.
+- Updating job descriptions.
+- Promoting responsible AI culture.
+
+People remain one of the most important elements of successful AI governance.
+
+---
+
+# Responsibility Assignment Matrix (RACI)
+
+Many organizations document governance responsibilities using a **RACI Matrix**.
+
+| Activity | Board | Executive Leadership | AI Governance Committee | Business Owner | Technical Owner | Risk | Compliance |
+|----------|-------|----------------------|-------------------------|----------------|-----------------|------|------------|
+| AI Policy Approval | A | R | C | I | I | C | C |
+| AI Risk Assessment | I | A | C | R | R | R | C |
+| AI Deployment | I | I | C | A | R | C | I |
+| Internal Audit | I | I | I | C | C | C | C |
+
+**R = Responsible**  
+**A = Accountable**  
+**C = Consulted**  
+**I = Informed**
+
+A RACI matrix helps eliminate ambiguity by clearly defining governance responsibilities.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** AI Governance Organizational Structure
+
+**Diagram Description:**
+
+Create a hierarchical governance diagram.
+
+Top Level:
+
+- Board of Directors
+
+↓
+
+- Executive Leadership
+
+↓
+
+- AI Governance Committee
+
+↓
+
+Supporting Functions:
+
+- Business Owners
+- Technical Owners
+- Risk Management
+- Compliance
+- Information Security
+- Privacy
+- Legal
+- Human Resources
+- Internal Audit
+
+↓
+
+Artificial Intelligence Systems
+
+Caption:
+
+*"Effective AI governance depends on clearly defined organizational roles, accountability, and collaboration across business, technical, and governance functions."*
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Establish a formal AI governance structure that clearly defines decision-making authority, accountability, and reporting relationships.
+- Assign both business and technical owners to every AI system to ensure balanced oversight of business objectives and technical operations.
+- Clearly distinguish between responsibility for performing governance activities and accountability for the overall effectiveness of the Artificial Intelligence Management System.
+- Use governance committees to coordinate AI oversight across business, legal, compliance, cybersecurity, privacy, and technology functions.
+- Document responsibilities using governance charters, role descriptions, and RACI matrices to eliminate ambiguity.
+- Ensure governance responsibilities extend to third-party AI services, outsourced development, and cloud-based AI platforms.
+- Review governance roles periodically to reflect organizational changes, new AI initiatives, regulatory developments, and lessons learned.
+- Promote collaboration and communication across all governance functions to support consistent and responsible AI decision-making.
+
+These practices strengthen accountability, improve coordination, and help organizations maintain an effective and auditable Artificial Intelligence Management System.
+
+---
+
+# Practical Example
+
+A multinational telecommunications company deploys Artificial Intelligence across customer service, network optimization, fraud detection, and software development. To support ISO/IEC 42001 implementation, executive leadership establishes an AI Governance Committee comprising representatives from business operations, information technology, cybersecurity, legal, compliance, privacy, risk management, and human resources. Each AI application is assigned both a Business Owner, responsible for operational outcomes, and a Technical Owner, responsible for system performance, security, and maintenance.
+
+The organization also develops a RACI matrix that defines responsibilities for AI policy approval, risk assessments, model deployment, monitoring, incident management, and internal audits. During annual governance reviews, leadership evaluates whether assigned responsibilities remain appropriate as new AI technologies and business initiatives are introduced. This structured governance model improves accountability, supports cross-functional collaboration, and ensures that AI systems are managed consistently throughout their lifecycle.
+

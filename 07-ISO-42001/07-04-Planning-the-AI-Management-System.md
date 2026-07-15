@@ -630,3 +630,316 @@ A financial institution plans to implement a machine learning model to automate 
 
 Using a standardized risk matrix, the organization rates algorithmic bias and unauthorized access as high-priority risks. To reduce these risks, the institution implements fairness testing, strengthens access controls, introduces human review for high-risk loan applications, and establishes continuous monitoring of model performance. All findings are recorded in the AI Risk Register and reviewed periodically as part of the organization's Artificial Intelligence Management System, ensuring that governance remains aligned with both business objectives and regulatory expectations.
 
+# AI Objectives, Planning Actions, and Risk Treatment
+
+After identifying and evaluating AI-related risks and opportunities, organizations must determine **what they want to achieve** and **how they will achieve it**. Clause 6 of ISO/IEC 42001 requires organizations to establish measurable Artificial Intelligence objectives and develop action plans that support responsible AI governance.
+
+Objectives provide direction for the Artificial Intelligence Management System (AIMS). They translate the organization's AI strategy and governance commitments into practical, measurable outcomes that can be monitored, reviewed, and continually improved.
+
+Without clearly defined objectives, it becomes difficult to evaluate whether AI governance is effective or whether the organization is achieving its intended outcomes.
+
+---
+
+# Purpose of AI Objectives
+
+AI objectives help organizations:
+
+- Support business strategy.
+- Improve AI governance.
+- Reduce AI-related risks.
+- Enhance operational performance.
+- Demonstrate regulatory compliance.
+- Promote responsible innovation.
+- Measure governance effectiveness.
+
+Objectives should contribute to continual improvement rather than simply satisfying compliance requirements.
+
+---
+
+# Characteristics of Effective AI Objectives
+
+AI objectives should be:
+
+- Specific.
+- Measurable.
+- Achievable.
+- Relevant.
+- Time-bound.
+
+This follows the widely accepted **SMART** approach.
+
+For example:
+
+> *Reduce high-risk AI incidents by 30% within the next 12 months through improved monitoring, employee training, and enhanced governance controls.*
+
+This objective clearly defines:
+
+- Desired outcome.
+- Measurement.
+- Timeframe.
+- Implementation approach.
+
+---
+
+# Examples of AI Governance Objectives
+
+Organizations may establish objectives such as:
+
+### Governance
+
+- Improve AI policy compliance.
+- Increase governance maturity.
+- Strengthen executive oversight.
+
+---
+
+### Risk Management
+
+- Reduce high-risk AI findings.
+- Improve AI risk assessment completion rates.
+- Strengthen third-party AI risk management.
+
+---
+
+### Ethics
+
+- Improve fairness assessments.
+- Reduce algorithmic bias.
+- Increase explainability for high-risk AI systems.
+
+---
+
+### Cybersecurity
+
+- Improve AI security monitoring.
+- Reduce AI-related vulnerabilities.
+- Strengthen access management.
+
+---
+
+### Privacy
+
+- Improve protection of personal information.
+- Reduce unauthorized data processing.
+- Increase compliance with privacy regulations.
+
+---
+
+### Operations
+
+- Improve AI system availability.
+- Increase model accuracy.
+- Reduce operational incidents.
+
+---
+
+# Planning Actions to Achieve Objectives
+
+Once objectives are established, organizations should develop implementation plans.
+
+Each plan should identify:
+
+- Actions to be performed.
+- Responsible owner.
+- Required resources.
+- Timeline.
+- Success criteria.
+- Monitoring methods.
+
+Planning ensures objectives are translated into practical governance activities.
+
+---
+
+# Example Action Plan
+
+| Objective | Action | Owner | Target Date |
+|-----------|--------|-------|-------------|
+| Improve AI transparency | Document model explanations | AI Governance Team | Q2 |
+| Reduce AI bias | Conduct fairness testing | Data Science Team | Q3 |
+| Improve AI security | Implement enhanced monitoring | Information Security | Q2 |
+| Strengthen compliance | Update AI governance procedures | Compliance Team | Q4 |
+
+Organizations should periodically review progress against these action plans.
+
+---
+
+# Risk Treatment Planning
+
+AI risk assessments identify risks, while risk treatment planning determines how those risks will be managed.
+
+Common treatment options include:
+
+### Reduce
+
+Implement controls that lower likelihood or impact.
+
+Examples:
+
+- Human oversight.
+- Additional testing.
+- Improved monitoring.
+- Stronger security controls.
+
+---
+
+### Avoid
+
+Do not implement an AI system if the associated risks exceed the organization's risk appetite.
+
+---
+
+### Transfer
+
+Shift certain risks through:
+
+- Insurance.
+- Contractual agreements.
+- Vendor responsibilities.
+
+Although some operational responsibilities may be transferred, accountability remains with the organization.
+
+---
+
+### Accept
+
+Accept residual risk when it falls within the organization's approved risk tolerance.
+
+Accepted risks should be formally documented and periodically reviewed.
+
+---
+
+# Risk Treatment Plan
+
+A documented Risk Treatment Plan often includes:
+
+- Risk description.
+- Selected treatment option.
+- Planned controls.
+- Responsible owner.
+- Implementation schedule.
+- Residual risk.
+- Approval status.
+
+This plan provides evidence that identified AI risks are being actively managed.
+
+---
+
+# Resource Planning
+
+Organizations should determine the resources required to achieve AI objectives.
+
+Examples include:
+
+### People
+
+- AI specialists.
+- Risk professionals.
+- Compliance officers.
+- Internal auditors.
+- Data scientists.
+
+---
+
+### Technology
+
+- AI monitoring platforms.
+- Governance software.
+- Documentation repositories.
+- Security tools.
+
+---
+
+### Financial Resources
+
+- Governance budget.
+- Training.
+- External assessments.
+- Certification activities.
+
+Adequate resource planning increases the likelihood of successful implementation.
+
+---
+
+# Monitoring Progress
+
+Organizations should regularly monitor progress toward AI objectives.
+
+Monitoring methods include:
+
+- Key Performance Indicators (KPIs).
+- Key Risk Indicators (KRIs).
+- Internal audits.
+- Management reviews.
+- AI performance reports.
+- Compliance assessments.
+
+Results should be communicated to leadership for review and decision-making.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** AI Objective Planning Cycle
+
+**Diagram Description:**
+
+Create a circular workflow.
+
+AI Strategy
+
+↓
+
+Objectives
+
+↓
+
+Action Plans
+
+↓
+
+Risk Treatment
+
+↓
+
+Implementation
+
+↓
+
+Monitoring
+
+↓
+
+Management Review
+
+↓
+
+Continual Improvement
+
+Caption:
+
+*"AI objectives provide measurable direction for governance activities, while planning and risk treatment ensure that responsible AI outcomes are achieved and continuously improved."*
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Establish AI objectives that directly support business strategy, governance commitments, regulatory obligations, and stakeholder expectations.
+- Define measurable objectives using clear performance indicators, target dates, responsible owners, and success criteria.
+- Develop documented action plans that specify the activities, resources, timelines, and monitoring methods needed to achieve each objective.
+- Select risk treatment options based on organizational risk appetite and document decisions, residual risks, and approval authorities.
+- Allocate sufficient human, technical, and financial resources to support implementation of governance initiatives and risk treatments.
+- Regularly monitor progress using KPIs, KRIs, audit findings, management reviews, and AI performance metrics.
+- Update objectives and action plans whenever business priorities, AI technologies, regulations, or risk conditions change.
+- Integrate AI objectives into broader enterprise planning, risk management, and continual improvement processes to ensure long-term governance effectiveness.
+
+These practices help organizations transform governance goals into measurable results while ensuring that AI risks are managed proactively and responsibly.
+
+---
+
+# Practical Example
+
+A global e-commerce company introduces an Artificial Intelligence Management System to govern recommendation engines, fraud detection models, and customer service chatbots. Following its AI risk assessment, executive leadership establishes objectives to reduce high-risk AI incidents by 25 percent within one year, improve AI model explainability for customer-facing applications, and achieve 100 percent completion of AI governance training for employees involved in AI development and operations.
+
+To achieve these objectives, the organization develops detailed action plans that assign responsibilities to business owners, data scientists, information security teams, and compliance personnel. Risk treatment activities include implementing fairness testing, strengthening access controls, enhancing AI monitoring, and introducing mandatory human review for high-impact AI decisions. Progress is tracked through governance dashboards, internal audits, and quarterly management reviews, enabling leadership to evaluate performance, adjust priorities, and continually improve the Artificial Intelligence Management System.

@@ -1137,3 +1137,418 @@ A multinational pharmaceutical company manages research laboratories, manufactur
 
 To maintain an accurate understanding of its cybersecurity environment, the organization continuously updates its asset inventory whenever new cloud services, laboratory equipment, AI models, or third-party suppliers are introduced. Quarterly governance reviews evaluate KPIs related to asset inventory accuracy, risk assessment completion, and asset ownership coverage, while lessons learned from penetration tests and security incidents are incorporated into updated risk assessment methodologies. By treating identification as a continuous improvement process, the organization strengthens cybersecurity governance, improves operational resilience, and ensures that cybersecurity investments remain aligned with evolving business objectives and enterprise risk.
 
+# Applying the Identify Function in Real Organizations
+
+Understanding the concepts behind the **Identify (ID)** Function is essential, but organizations achieve real value only when these concepts are applied consistently across business operations. The Identify Function is not simply about maintaining an asset inventory—it establishes the foundation for every cybersecurity decision by providing visibility into business processes, information assets, technology, dependencies, and organizational risk.
+
+Organizations that successfully implement the Identify Function are better equipped to allocate cybersecurity resources, support executive decision-making, comply with regulatory requirements, and improve resilience against evolving cyber threats.
+
+---
+
+# The Identify Function Lifecycle
+
+A practical implementation of the Identify Function typically follows a structured lifecycle.
+
+```
+Understand Business Objectives
+
+↓
+
+Identify Business Services
+
+↓
+
+Identify Assets
+
+↓
+
+Classify Assets
+
+↓
+
+Assign Asset Owners
+
+↓
+
+Identify Dependencies
+
+↓
+
+Perform Risk Assessment
+
+↓
+
+Prioritize Risks
+
+↓
+
+Maintain Asset Inventory
+
+↓
+
+Continual Improvement
+```
+
+Each step builds upon the previous one, creating an accurate and continuously updated understanding of the organization's cybersecurity environment.
+
+---
+
+# Step 1 – Understand Business Objectives
+
+Cybersecurity should support organizational goals rather than operate independently.
+
+Leadership should understand:
+
+- Business strategy.
+- Mission objectives.
+- Revenue-generating services.
+- Customer expectations.
+- Regulatory obligations.
+- Operational priorities.
+- Digital transformation initiatives.
+
+This understanding helps ensure that cybersecurity efforts protect what matters most to the organization.
+
+---
+
+# Step 2 – Identify Business Services
+
+Organizations should determine which services are essential for business operations.
+
+Examples include:
+
+- Online banking.
+- Payment processing.
+- Healthcare delivery.
+- Manufacturing operations.
+- Telecommunications services.
+- Cloud hosting.
+- Customer support.
+- AI-powered business applications.
+
+Critical services should receive the highest cybersecurity attention.
+
+---
+
+# Step 3 – Identify Organizational Assets
+
+Asset inventories should include all resources that support business services.
+
+Examples include:
+
+### Technology Assets
+
+- Servers.
+- Workstations.
+- Firewalls.
+- Cloud infrastructure.
+- Virtual machines.
+- Containers.
+- Mobile devices.
+
+### Information Assets
+
+- Customer data.
+- Financial records.
+- Intellectual property.
+- Source code.
+- Healthcare records.
+- Contracts.
+- AI training datasets.
+
+### Operational Assets
+
+- Manufacturing equipment.
+- Industrial Control Systems (ICS).
+- Internet of Things (IoT) devices.
+- Telecommunications infrastructure.
+
+A complete inventory improves organizational visibility and supports effective cybersecurity management.
+
+---
+
+# Step 4 – Classify Assets
+
+Organizations should classify assets according to:
+
+- Business value.
+- Confidentiality.
+- Integrity.
+- Availability.
+- Regulatory requirements.
+- Recovery priorities.
+
+Example classification:
+
+| Asset | Business Criticality | Classification |
+|---------|----------------------|---------------|
+| Customer Database | Critical | Restricted |
+| ERP System | High | Confidential |
+| HR Portal | Medium | Internal |
+| Public Website | Medium | Public |
+
+Classification ensures that security controls are proportional to business risk.
+
+---
+
+# Step 5 – Assign Ownership
+
+Every critical asset should have a clearly defined owner.
+
+Typical responsibilities include:
+
+- Maintaining asset information.
+- Supporting risk assessments.
+- Approving changes.
+- Reviewing access permissions.
+- Coordinating vulnerability remediation.
+- Supporting compliance activities.
+
+Ownership establishes accountability across the organization.
+
+---
+
+# Step 6 – Identify Dependencies
+
+Organizations should document dependencies such as:
+
+Internal:
+
+- Networks.
+- Applications.
+- Identity services.
+- Databases.
+- Data centers.
+
+External:
+
+- Cloud providers.
+- Software vendors.
+- Managed service providers.
+- Internet connectivity.
+- Payment processors.
+- AI platform providers.
+
+Understanding dependencies improves both cybersecurity and business continuity planning.
+
+---
+
+# Step 7 – Perform Risk Assessment
+
+Using asset information, organizations evaluate:
+
+- Threats.
+- Vulnerabilities.
+- Existing controls.
+- Likelihood.
+- Business impact.
+- Overall risk.
+
+Assessment results are documented within the organization's risk register and reviewed by leadership.
+
+---
+
+# Step 8 – Prioritize Risks
+
+Leadership determines which risks require:
+
+- Immediate remediation.
+- Additional monitoring.
+- Acceptance.
+- Transfer.
+- Long-term improvement.
+
+Prioritization ensures that cybersecurity resources are allocated efficiently.
+
+---
+
+# Step 9 – Maintain Visibility
+
+Technology environments evolve continuously.
+
+Organizations should update inventories whenever:
+
+- New systems are deployed.
+- Applications are retired.
+- Cloud services are added.
+- Suppliers change.
+- AI systems are introduced.
+- Business acquisitions occur.
+
+Maintaining visibility prevents unmanaged assets from introducing unnecessary cybersecurity risk.
+
+---
+
+# Integrating the Identify Function with Other Business Processes
+
+The Identify Function should not operate in isolation.
+
+It should integrate with:
+
+- Enterprise Risk Management (ERM).
+- Business Continuity Management (ISO 22301).
+- Information Security Management (ISO/IEC 27001).
+- AI Governance (ISO/IEC 42001).
+- Privacy Management.
+- Change Management.
+- Configuration Management.
+- Procurement and Supplier Management.
+
+Integration reduces duplication and improves governance across the organization.
+
+---
+
+# Common Implementation Challenges
+
+Organizations often encounter challenges such as:
+
+- Incomplete asset inventories.
+- Shadow IT.
+- Rapid cloud adoption.
+- Legacy technologies.
+- Poor ownership assignments.
+- Limited executive visibility.
+- Inconsistent classification methods.
+- Third-party complexity.
+
+Addressing these challenges requires collaboration between business leaders, IT, cybersecurity teams, and executive management.
+
+---
+
+# Indicators of a Mature Identify Function
+
+Organizations with mature identification capabilities typically demonstrate:
+
+- Accurate enterprise asset inventories.
+- Clearly assigned ownership.
+- Standardized asset classification.
+- Continuous asset discovery.
+- Integrated risk assessments.
+- Business-aligned prioritization.
+- Executive reporting.
+- Regular inventory reviews.
+- Continuous improvement.
+
+These characteristics improve organizational resilience and support informed governance.
+
+---
+
+# Relationship with the Remaining CSF Functions
+
+The Identify Function provides the information required for all other CSF Functions.
+
+```
+Govern
+
+↓
+
+Identify
+
+↓
+
+Protect
+
+↓
+
+Detect
+
+↓
+
+Respond
+
+↓
+
+Recover
+
+↓
+
+Continual Improvement
+```
+
+Accurate identification ensures that protection, detection, response, and recovery efforts focus on the organization's most critical assets and services.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Practical Implementation of the Identify Function
+
+**Diagram Description:**
+
+Create a flowchart.
+
+Business Objectives
+
+↓
+
+Business Services
+
+↓
+
+Asset Inventory
+
+↓
+
+Asset Classification
+
+↓
+
+Asset Ownership
+
+↓
+
+Dependencies
+
+↓
+
+Risk Assessment
+
+↓
+
+Risk Prioritization
+
+↓
+
+Asset Monitoring
+
+↓
+
+Continual Improvement
+
+On the side, connect the process to:
+
+- ISO/IEC 27001
+- ISO 22301
+- ISO/IEC 42001
+- Enterprise Risk Management
+- Change Management
+- Supplier Management
+
+Caption:
+
+*"The Identify Function creates a continuously updated understanding of organizational assets, business priorities, and cybersecurity risks, enabling effective governance and supporting every subsequent cybersecurity activity."*
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Establish asset identification as a continuous organizational process rather than a one-time inventory exercise.
+- Ensure that asset inventories include on-premises infrastructure, cloud services, operational technology, AI systems, software, data, and third-party dependencies.
+- Assign accountable owners for all critical assets and clearly define responsibilities for maintaining asset information, supporting risk assessments, and approving changes.
+- Use standardized asset classification criteria based on business value, confidentiality, integrity, availability, and regulatory obligations to ensure consistent protection priorities.
+- Integrate the Identify Function with enterprise risk management, business continuity, information security, AI governance, procurement, and change management processes.
+- Regularly review asset inventories and dependency mappings to identify shadow IT, obsolete technologies, new cloud services, mergers, acquisitions, and emerging business risks.
+- Measure the effectiveness of identification activities through governance metrics such as inventory completeness, ownership coverage, asset classification accuracy, and assessment frequency.
+- Promote collaboration among executive leadership, business units, IT operations, cybersecurity teams, and compliance functions to maintain accurate visibility across the organization.
+
+These practices enable organizations to build a mature Identify Function that supports informed decision-making, effective risk management, regulatory compliance, and resilient cybersecurity operations.
+
+---
+
+# Practical Example
+
+A multinational airline operates reservation platforms, airport operational systems, baggage handling systems, aircraft maintenance applications, customer mobile applications, cloud infrastructure, and AI-powered scheduling tools. To implement the Identify Function of the NIST Cybersecurity Framework 2.0, the organization establishes a centralized enterprise asset management program that inventories technology assets, operational technology, cloud services, business data, and critical third-party providers. Every critical asset is classified according to business importance, regulatory obligations, confidentiality, integrity, availability, and recovery requirements, with ownership assigned to accountable business and technical leaders.
+
+The asset inventory is integrated with vulnerability management, change management, business continuity planning, supplier governance, and enterprise risk management. Automated discovery tools continuously identify new cloud resources, connected devices, and software deployments, while quarterly governance reviews evaluate asset inventory accuracy, ownership coverage, and cybersecurity risk trends. By maintaining a comprehensive and continuously updated understanding of its operational environment, the airline ensures that cybersecurity investments are directed toward protecting the systems and services that are most essential to safe, reliable, and resilient air transportation.

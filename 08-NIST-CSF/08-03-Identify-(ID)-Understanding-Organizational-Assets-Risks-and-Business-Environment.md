@@ -710,3 +710,430 @@ A multinational healthcare organization operates hospitals, cloud-based electron
 
 The results are documented in an enterprise risk register and presented to executive leadership. High-priority risks, including unsupported medical equipment and third-party cloud service dependencies, receive immediate attention through remediation projects and enhanced monitoring. Lower-priority risks are scheduled for future treatment based on available resources and organizational risk appetite. By maintaining a structured and continuously updated cybersecurity risk assessment process, the organization strengthens governance, improves resilience, and ensures that cybersecurity investments are focused on the areas of greatest business importance.
 
+# Risk Prioritization, Asset Criticality, and Continuous Improvement (ID.IM)
+
+Identifying cybersecurity risks is only valuable if organizations can determine **which risks require immediate attention and which can be managed over time**. Since resources such as budget, personnel, and technology are always limited, organizations must prioritize cybersecurity activities according to business impact and organizational risk appetite.
+
+The **Improvement (ID.IM)** category within the Identify Function encourages organizations to continually refine asset identification, risk assessments, and cybersecurity decision-making based on changing business conditions, emerging threats, operational experience, and lessons learned.
+
+Rather than treating identification as a one-time project, organizations should view it as an ongoing process that evolves alongside the business.
+
+---
+
+# Why Risk Prioritization Matters
+
+Most organizations identify hundreds or even thousands of cybersecurity risks.
+
+Examples include:
+
+- Unpatched servers.
+- Cloud misconfigurations.
+- Weak passwords.
+- Legacy systems.
+- Third-party supplier risks.
+- AI governance concerns.
+- Insider threats.
+- Vulnerability findings.
+
+Attempting to resolve every issue simultaneously is unrealistic.
+
+Risk prioritization enables leadership to focus resources where they will produce the greatest reduction in organizational risk.
+
+---
+
+# Factors Used in Risk Prioritization
+
+Organizations typically evaluate multiple factors when determining priorities.
+
+### Business Impact
+
+Questions include:
+
+- Would operations stop?
+- Would customers be affected?
+- Would revenue be lost?
+- Would safety be impacted?
+- Would legal obligations be violated?
+
+Higher business impact generally results in higher priority.
+
+---
+
+### Asset Criticality
+
+Critical assets require greater protection.
+
+Examples:
+
+| Asset | Criticality |
+|---------|-------------|
+| Customer Payment System | Critical |
+| ERP System | High |
+| Human Resources Portal | Medium |
+| Internal Wiki | Low |
+
+Asset criticality should be defined using consistent organizational criteria.
+
+---
+
+### Threat Exposure
+
+Organizations should consider:
+
+- Current threat intelligence.
+- Industry attack trends.
+- Known exploitation.
+- Active ransomware campaigns.
+- Nation-state activity.
+
+Frequently targeted assets may require accelerated remediation.
+
+---
+
+### Vulnerability Severity
+
+Organizations often use vulnerability scoring systems such as:
+
+- Critical
+- High
+- Medium
+- Low
+
+Severity should be evaluated together with business context rather than as an isolated technical measure.
+
+---
+
+### Regulatory Requirements
+
+Certain assets may require immediate protection because of legal obligations.
+
+Examples include:
+
+- Personal data.
+- Payment card information.
+- Healthcare records.
+- Critical infrastructure systems.
+
+Compliance considerations frequently influence prioritization.
+
+---
+
+# Asset Classification
+
+Asset classification supports consistent decision-making.
+
+Organizations commonly classify assets according to:
+
+### Confidentiality
+
+How sensitive is the information?
+
+Examples:
+
+- Public
+- Internal
+- Confidential
+- Restricted
+
+---
+
+### Integrity
+
+How important is data accuracy?
+
+Financial records and healthcare information generally require high integrity.
+
+---
+
+### Availability
+
+How important is continuous operation?
+
+Examples:
+
+- Emergency communication systems.
+- Manufacturing production lines.
+- Hospital systems.
+
+Availability requirements influence protection priorities.
+
+---
+
+# The CIA Triad
+
+Many organizations classify assets using the CIA model.
+
+```
+Confidentiality
+
+↓
+
+Integrity
+
+↓
+
+Availability
+
+↓
+
+Overall Asset Criticality
+```
+
+Assets with high confidentiality, integrity, and availability requirements receive the highest cybersecurity priority.
+
+---
+
+# Business Impact Analysis (BIA)
+
+Business Impact Analysis helps identify:
+
+- Critical business services.
+- Recovery priorities.
+- Operational dependencies.
+- Maximum acceptable downtime.
+- Financial consequences.
+- Customer impacts.
+
+BIA results should be incorporated into cybersecurity risk prioritization.
+
+For example, if a payment platform has a Recovery Time Objective (RTO) of one hour, it will typically receive a higher cybersecurity priority than an internal collaboration tool with an RTO of twenty-four hours.
+
+---
+
+# Continuous Asset Identification
+
+Technology environments change constantly.
+
+Examples include:
+
+- New cloud services.
+- New applications.
+- AI deployments.
+- Remote employees.
+- New suppliers.
+- Mergers and acquisitions.
+- Infrastructure upgrades.
+
+Organizations should continuously update:
+
+- Asset inventories.
+- Ownership records.
+- Classifications.
+- Business dependencies.
+
+Continuous visibility reduces the likelihood of unmanaged assets.
+
+---
+
+# Continuous Improvement (ID.IM)
+
+The Improvement category emphasizes learning and adaptation.
+
+Organizations should continuously improve:
+
+- Asset inventories.
+- Risk assessment methodologies.
+- Governance processes.
+- Identification procedures.
+- Threat intelligence integration.
+- Risk reporting.
+- Decision-making processes.
+
+Improvement ensures cybersecurity remains aligned with changing business and threat environments.
+
+---
+
+# Sources of Improvement
+
+Organizations can improve identification processes using information from:
+
+- Internal audits.
+- External audits.
+- Security incidents.
+- Penetration tests.
+- Vulnerability assessments.
+- Threat intelligence.
+- Red team exercises.
+- Management reviews.
+- Regulatory findings.
+- Lessons learned.
+
+Each activity provides valuable insights that strengthen cybersecurity governance.
+
+---
+
+# Cybersecurity Metrics
+
+Organizations should measure identification effectiveness.
+
+Examples include:
+
+| KPI | Purpose |
+|------|----------|
+| Asset inventory accuracy | Measures inventory completeness |
+| Asset ownership coverage | Measures accountability |
+| Risk assessment completion | Measures assessment maturity |
+| Critical asset classification rate | Measures governance effectiveness |
+| Risk register review frequency | Measures continuous monitoring |
+
+Metrics enable leadership to evaluate progress objectively.
+
+---
+
+# Integration with Other CSF Functions
+
+The Identify Function supports every subsequent CSF Function.
+
+```
+Identify Assets
+
+↓
+
+Understand Risks
+
+↓
+
+Protect Critical Assets
+
+↓
+
+Detect Security Events
+
+↓
+
+Respond to Incidents
+
+↓
+
+Recover Business Operations
+
+↓
+
+Improve Governance
+```
+
+If the Identify Function is incomplete or inaccurate, every downstream cybersecurity activity becomes less effective.
+
+---
+
+# The Continuous Improvement Cycle
+
+```
+Asset Identification
+
+↓
+
+Risk Assessment
+
+↓
+
+Risk Prioritization
+
+↓
+
+Implementation
+
+↓
+
+Monitoring
+
+↓
+
+Lessons Learned
+
+↓
+
+Asset Inventory Updates
+
+↓
+
+Improved Risk Assessment
+
+↓
+
+Continual Improvement
+```
+
+This cycle enables organizations to adapt to changing technologies, threats, and business objectives.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Continuous Improvement within the Identify Function
+
+**Diagram Description:**
+
+Create a circular lifecycle.
+
+Asset Inventory
+
+↓
+
+Asset Classification
+
+↓
+
+Risk Assessment
+
+↓
+
+Risk Prioritization
+
+↓
+
+Implementation
+
+↓
+
+Monitoring
+
+↓
+
+Audits & Lessons Learned
+
+↓
+
+Inventory Updates
+
+↓
+
+Return to Asset Inventory
+
+Surround the lifecycle with:
+
+- Business Objectives
+- Threat Intelligence
+- Regulatory Changes
+- Technology Changes
+- Governance
+
+Caption:
+
+*"The Identify Function is a continuous process that improves organizational visibility, prioritizes cybersecurity risks, and supports informed governance decisions throughout the cybersecurity lifecycle."*
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Prioritize cybersecurity risks according to business impact, asset criticality, threat exposure, regulatory obligations, and organizational risk appetite rather than technical severity alone.
+- Establish consistent asset classification criteria based on confidentiality, integrity, availability, business value, and operational importance to support effective risk management.
+- Integrate Business Impact Analysis (BIA) results into cybersecurity planning to ensure that the most critical business services receive appropriate protection and recovery capabilities.
+- Continuously update asset inventories, ownership records, and dependency mappings to reflect changes in technology, cloud adoption, artificial intelligence, mergers, acquisitions, and supplier relationships.
+- Measure the effectiveness of identification activities using meaningful KPIs such as asset inventory accuracy, ownership coverage, and risk assessment completion rates.
+- Incorporate lessons learned from incidents, audits, vulnerability assessments, penetration tests, and threat intelligence into ongoing improvements of asset management and risk assessment processes.
+- Encourage collaboration between business units, cybersecurity teams, IT operations, compliance, and executive leadership to maintain a complete understanding of organizational assets and risks.
+- Treat the Identify Function as a continuous governance capability that evolves alongside business strategy, emerging technologies, and the changing cyber threat landscape.
+
+These practices help organizations maintain accurate visibility of their operational environment, improve cybersecurity decision-making, and establish a strong foundation for protecting critical business services.
+
+---
+
+# Practical Example
+
+A multinational pharmaceutical company manages research laboratories, manufacturing facilities, cloud collaboration platforms, AI-assisted drug discovery systems, and global distribution networks. Following a comprehensive asset inventory and cybersecurity risk assessment, the organization classifies its assets according to confidentiality, integrity, availability, and business criticality. Intellectual property repositories, manufacturing control systems, and clinical trial databases are identified as the highest-priority assets because their compromise could significantly affect patient safety, regulatory compliance, product availability, and competitive advantage. Lower-risk administrative systems are scheduled for remediation according to available resources and business priorities.
+
+To maintain an accurate understanding of its cybersecurity environment, the organization continuously updates its asset inventory whenever new cloud services, laboratory equipment, AI models, or third-party suppliers are introduced. Quarterly governance reviews evaluate KPIs related to asset inventory accuracy, risk assessment completion, and asset ownership coverage, while lessons learned from penetration tests and security incidents are incorporated into updated risk assessment methodologies. By treating identification as a continuous improvement process, the organization strengthens cybersecurity governance, improves operational resilience, and ensures that cybersecurity investments remain aligned with evolving business objectives and enterprise risk.
+

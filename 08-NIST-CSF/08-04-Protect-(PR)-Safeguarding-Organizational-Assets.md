@@ -806,4 +806,405 @@ A multinational insurance company manages customer policy information, financial
 
 At the same time, the company launches a comprehensive security awareness program featuring phishing simulations, role-based training, and executive cyber risk workshops. Customer information is classified as restricted, encrypted both at rest and in transit, monitored by Data Loss Prevention (DLP) solutions, and protected through immutable backups that are tested regularly. Together, these safeguards significantly reduce unauthorized access, improve employee security awareness, strengthen regulatory compliance, and enhance the organization's ability to protect sensitive customer information against evolving cyber threats.
 
+# Platform Security and Technology Infrastructure Resilience (PR.PS & PR.IR)
+
+Protecting identities and sensitive information is only one aspect of cybersecurity. Organizations must also secure the technology platforms that process information and ensure that critical infrastructure remains available even during cyber incidents.
+
+Within the **Protect (PR)** Function of the NIST Cybersecurity Framework (CSF) 2.0, the categories **Platform Security (PR.PS)** and **Technology Infrastructure Resilience (PR.IR)** focus on protecting systems, applications, cloud environments, operational technology, and network infrastructure while maintaining resilient business operations.
+
+These categories help organizations reduce vulnerabilities, improve system reliability, and strengthen cyber resilience against both accidental failures and malicious attacks.
+
+---
+
+# PR.PS – Platform Security
+
+A platform is any technology environment that stores, processes, or transmits organizational information.
+
+Examples include:
+
+- Servers
+- Workstations
+- Laptops
+- Mobile devices
+- Cloud infrastructure
+- Virtual machines
+- Containers
+- Databases
+- Enterprise applications
+- Operational Technology (OT)
+- Internet of Things (IoT) devices
+- Artificial Intelligence platforms
+
+Every platform should be securely configured, continuously monitored, and regularly maintained.
+
+---
+
+# Secure Configuration
+
+New systems should never be deployed using default settings.
+
+Organizations should establish secure configuration baselines for:
+
+- Operating systems
+- Databases
+- Network devices
+- Cloud services
+- Virtual machines
+- Containers
+- Applications
+
+Examples include:
+
+- Removing default accounts.
+- Disabling unnecessary services.
+- Closing unused network ports.
+- Enforcing strong authentication.
+- Enabling logging.
+- Applying encryption.
+- Configuring firewalls.
+
+Standardized secure configurations reduce the attack surface and improve operational consistency.
+
+---
+
+# Configuration Management
+
+Configuration management ensures systems remain aligned with approved security baselines.
+
+Typical activities include:
+
+- Version control.
+- Change approval.
+- Configuration reviews.
+- Compliance verification.
+- Automated configuration monitoring.
+
+Unauthorized configuration changes can introduce significant cybersecurity risk.
+
+---
+
+# Vulnerability Management
+
+Technology platforms should be assessed regularly for vulnerabilities.
+
+A typical vulnerability management lifecycle includes:
+
+```
+Discover Assets
+
+↓
+
+Scan for Vulnerabilities
+
+↓
+
+Validate Findings
+
+↓
+
+Prioritize Risks
+
+↓
+
+Remediate
+
+↓
+
+Verify Fixes
+
+↓
+
+Continuous Monitoring
+```
+
+Continuous vulnerability management helps organizations reduce exploitable weaknesses before attackers can take advantage of them.
+
+---
+
+# Patch Management
+
+Software vendors regularly release security updates.
+
+Organizations should establish formal processes to:
+
+- Identify available patches.
+- Test updates.
+- Approve deployment.
+- Schedule maintenance windows.
+- Verify successful installation.
+- Document implementation.
+
+Critical vulnerabilities should be addressed according to defined service-level objectives based on business risk.
+
+---
+
+# Endpoint Protection
+
+Every endpoint represents a potential attack vector.
+
+Common endpoint protection technologies include:
+
+- Anti-malware.
+- Endpoint Detection and Response (EDR).
+- Host firewalls.
+- Disk encryption.
+- Device control.
+- Application allowlisting.
+- Mobile Device Management (MDM).
+
+Endpoint security is particularly important in hybrid and remote working environments.
+
+---
+
+# Cloud Platform Security
+
+Organizations increasingly operate workloads in cloud environments.
+
+Cloud security should address:
+
+- Identity and Access Management (IAM).
+- Secure storage.
+- Encryption.
+- Network segmentation.
+- Logging and monitoring.
+- Configuration management.
+- Shared responsibility.
+- Continuous compliance monitoring.
+
+Cloud security governance should align with organizational risk management objectives.
+
+---
+
+# Container and Kubernetes Security
+
+Modern applications frequently use containerized architectures.
+
+Protective measures include:
+
+- Image scanning.
+- Secure container registries.
+- Runtime monitoring.
+- Least privilege.
+- Secrets management.
+- Network policies.
+- Admission controls.
+
+Securing the software supply chain is essential for cloud-native environments.
+
+---
+
+# Operational Technology (OT) Security
+
+Industrial environments require specialized security approaches.
+
+Examples include:
+
+- Manufacturing systems.
+- Energy facilities.
+- Water treatment plants.
+- Transportation systems.
+- Healthcare equipment.
+
+Protective measures include:
+
+- Network segmentation.
+- Secure remote access.
+- Asset inventories.
+- Patch testing.
+- Monitoring industrial protocols.
+- Physical security.
+
+OT environments often prioritize safety and availability alongside cybersecurity.
+
+---
+
+# PR.IR – Technology Infrastructure Resilience
+
+Protection also requires resilient technology infrastructure.
+
+Infrastructure resilience enables organizations to continue delivering business services despite failures or cyber incidents.
+
+---
+
+# High Availability
+
+Critical systems should minimize single points of failure.
+
+Examples include:
+
+- Redundant servers.
+- Load balancing.
+- Clustered databases.
+- Multiple internet connections.
+- Geographic redundancy.
+
+High availability reduces operational disruption.
+
+---
+
+# Network Resilience
+
+Organizations should design resilient networks using:
+
+- Network segmentation.
+- Redundant firewalls.
+- Multiple communication paths.
+- Resilient DNS services.
+- Secure VPN infrastructure.
+
+These measures reduce the impact of network failures and cyberattacks.
+
+---
+
+# Backup and Recovery Infrastructure
+
+Technology resilience depends upon reliable recovery capabilities.
+
+Organizations should implement:
+
+- Automated backups.
+- Offline backup copies.
+- Immutable storage.
+- Recovery testing.
+- Backup monitoring.
+- Secure restoration procedures.
+
+Backups should support defined Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs).
+
+---
+
+# Secure Architecture
+
+Infrastructure should be designed with security built into its architecture.
+
+Examples include:
+
+- Zero Trust principles.
+- Defense in depth.
+- Network segmentation.
+- Secure cloud architecture.
+- Secure API design.
+- Redundant security controls.
+
+Security architecture should support both resilience and scalability.
+
+---
+
+# Resilience During Cyber Incidents
+
+Even when preventive controls fail, resilient infrastructure helps organizations:
+
+- Maintain critical services.
+- Reduce downtime.
+- Support incident response.
+- Enable rapid recovery.
+- Minimize financial losses.
+- Protect customer confidence.
+
+Resilience complements prevention by ensuring business continuity under adverse conditions.
+
+---
+
+# Integration with Other CSF Functions
+
+The Protect Function works closely with other NIST CSF Functions.
+
+```
+Govern
+
+↓
+
+Identify
+
+↓
+
+Protect
+
+↓
+
+Detect
+
+↓
+
+Respond
+
+↓
+
+Recover
+
+↓
+
+Continual Improvement
+```
+
+Secure platforms and resilient infrastructure improve detection capabilities, support faster incident response, and enable more effective recovery.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Platform Security and Infrastructure Resilience
+
+**Diagram Description:**
+
+Create two connected sections.
+
+**Platform Security**
+
+- Secure Configuration
+- Vulnerability Management
+- Patch Management
+- Endpoint Protection
+- Cloud Security
+- Container Security
+- OT Security
+
+↓
+
+**Technology Infrastructure Resilience**
+
+- High Availability
+- Network Resilience
+- Backup & Recovery
+- Secure Architecture
+- Redundancy
+- Disaster Recovery
+
+↓
+
+**Operational Resilience**
+
+↓
+
+**Business Continuity**
+
+Caption:
+
+*"Secure technology platforms and resilient infrastructure reduce vulnerabilities, strengthen cyber resilience, and ensure that critical business services remain available during cyber incidents."*
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Establish secure configuration baselines for operating systems, applications, databases, cloud services, containers, and network devices, and regularly verify compliance with those baselines.
+- Implement continuous vulnerability management and risk-based patch management processes to identify, prioritize, remediate, and validate security weaknesses across the technology environment.
+- Protect endpoints using layered controls such as Endpoint Detection and Response (EDR), anti-malware, host firewalls, encryption, device management, and application control.
+- Apply cloud security best practices by securing identities, monitoring configurations, encrypting sensitive data, enforcing least privilege, and understanding shared responsibility models.
+- Incorporate security into containerized and cloud-native environments through image scanning, runtime protection, secrets management, and secure software supply chain practices.
+- Design operational technology (OT) environments with security controls that balance cybersecurity, operational reliability, and safety requirements.
+- Build resilient infrastructure using redundancy, high availability, secure architecture, network segmentation, reliable backup solutions, and regularly tested recovery capabilities.
+- Align platform security and infrastructure resilience initiatives with business continuity planning, disaster recovery strategies, enterprise risk management, and organizational resilience objectives.
+
+These practices help organizations establish secure and resilient technology environments that reduce cybersecurity risk while supporting reliable business operations and long-term digital transformation.
+
+---
+
+# Practical Example
+
+A multinational manufacturing company operates enterprise resource planning (ERP) systems, industrial control systems (ICS), cloud-based production monitoring platforms, Internet of Things (IoT) sensors, and AI-powered predictive maintenance applications across multiple factories. To strengthen the Protect Function of the NIST Cybersecurity Framework 2.0, the organization establishes secure configuration standards for servers, cloud workloads, and network devices, implements automated vulnerability scanning and risk-based patch management, and deploys Endpoint Detection and Response (EDR) across employee workstations and engineering systems. Operational technology networks are segmented from corporate networks, while secure remote access and continuous monitoring protect critical manufacturing environments.
+
+To improve infrastructure resilience, the company deploys redundant network connections, clustered production databases, geographically separated backup facilities, immutable backup storage, and disaster recovery capabilities aligned with defined Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs). Regular recovery exercises confirm that production systems can be restored following ransomware attacks or infrastructure failures. By combining secure technology platforms with resilient infrastructure, the organization reduces operational risk, strengthens cyber resilience, and ensures that essential manufacturing services remain available despite evolving cybersecurity threats.
+
 

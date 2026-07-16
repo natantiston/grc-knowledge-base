@@ -332,3 +332,381 @@ A multinational energy company operates power generation facilities, transmissio
 
 Using this information, leadership develops a prioritized view of the organization's cybersecurity landscape. Critical assets supporting electricity generation and distribution receive enhanced protection, while previously undocumented legacy systems and unmanaged cloud resources are incorporated into governance processes. The resulting asset inventory becomes the foundation for vulnerability management, cybersecurity risk assessments, incident response planning, and business continuity activities. By establishing a complete understanding of its operational environment, the organization significantly improves its ability to manage cybersecurity risk and protect essential services.
 
+# Risk Assessment (ID.RA): Identifying and Evaluating Cybersecurity Risks
+
+Once an organization understands its assets, business environment, and dependencies, the next step is to determine **what could go wrong**. The **Risk Assessment (ID.RA)** category within the Identify Function enables organizations to recognize cybersecurity threats, evaluate vulnerabilities, estimate potential business impacts, and prioritize risks for treatment.
+
+Risk assessment transforms asset information into actionable intelligence for leadership. Instead of treating every asset or threat equally, organizations evaluate which risks could have the greatest impact on business objectives and allocate resources accordingly.
+
+---
+
+# What is Cybersecurity Risk?
+
+Cybersecurity risk is the possibility that a threat will exploit a vulnerability, resulting in harm to the organization.
+
+Risk is commonly represented as:
+
+```
+Threat
+
++
+
+Vulnerability
+
++
+
+Asset
+
+↓
+
+Potential Business Impact
+
+=
+
+Cybersecurity Risk
+```
+
+The objective of risk assessment is not to eliminate every risk but to understand and manage risk to an acceptable level.
+
+---
+
+# Purpose of Risk Assessment
+
+Risk assessments help organizations:
+
+- Identify cybersecurity threats.
+- Discover vulnerabilities.
+- Evaluate potential business impacts.
+- Prioritize cybersecurity investments.
+- Support executive decision-making.
+- Meet regulatory and contractual requirements.
+- Improve operational resilience.
+
+Risk assessment is one of the most important activities within an effective cybersecurity governance program.
+
+---
+
+# Components of Risk Assessment
+
+A comprehensive assessment considers several key elements.
+
+### Assets
+
+Determine what requires protection.
+
+Examples:
+
+- Customer databases.
+- Cloud infrastructure.
+- AI systems.
+- Industrial Control Systems (ICS).
+- Financial applications.
+- Business-critical services.
+
+---
+
+### Threats
+
+Threats are events or actors capable of causing harm.
+
+Examples include:
+
+- Ransomware.
+- Phishing attacks.
+- Insider threats.
+- Nation-state attacks.
+- Supply chain compromises.
+- Distributed Denial-of-Service (DDoS).
+- Credential theft.
+- AI-enabled attacks.
+
+Threat intelligence should be reviewed regularly to understand the evolving cyber landscape.
+
+---
+
+### Vulnerabilities
+
+Vulnerabilities are weaknesses that may be exploited.
+
+Examples include:
+
+- Unpatched software.
+- Weak passwords.
+- Misconfigured cloud services.
+- Unsupported operating systems.
+- Inadequate network segmentation.
+- Poor identity management.
+- Insecure APIs.
+
+Reducing vulnerabilities decreases the likelihood of successful attacks.
+
+---
+
+### Existing Controls
+
+Organizations should evaluate current safeguards such as:
+
+- Multi-factor authentication (MFA).
+- Firewalls.
+- Endpoint protection.
+- Security monitoring.
+- Encryption.
+- Security awareness training.
+- Backup solutions.
+
+Existing controls influence the overall level of risk.
+
+---
+
+### Business Impact
+
+Risk assessment evaluates how cybersecurity incidents could affect:
+
+- Financial performance.
+- Business operations.
+- Customer trust.
+- Regulatory compliance.
+- Reputation.
+- Health and safety.
+- Strategic objectives.
+
+Business impact determines the importance of each identified risk.
+
+---
+
+# Risk Assessment Process
+
+A structured process typically follows these steps:
+
+```
+Identify Assets
+
+↓
+
+Identify Threats
+
+↓
+
+Identify Vulnerabilities
+
+↓
+
+Evaluate Existing Controls
+
+↓
+
+Estimate Likelihood
+
+↓
+
+Estimate Business Impact
+
+↓
+
+Determine Risk Level
+
+↓
+
+Prioritize Risks
+```
+
+This process provides leadership with a consistent approach to evaluating cyber risk.
+
+---
+
+# Likelihood Assessment
+
+Likelihood estimates how probable a cybersecurity event is.
+
+Typical ratings include:
+
+| Likelihood | Description |
+|------------|-------------|
+| Very Low | Rare occurrence |
+| Low | Unlikely |
+| Medium | Possible |
+| High | Likely |
+| Very High | Expected to occur frequently |
+
+Likelihood may be influenced by threat activity, vulnerability exposure, and control effectiveness.
+
+---
+
+# Impact Assessment
+
+Impact measures the consequences if a risk materializes.
+
+Common impact areas include:
+
+- Financial loss.
+- Service disruption.
+- Data breach.
+- Regulatory penalties.
+- Customer dissatisfaction.
+- Operational downtime.
+- Damage to reputation.
+
+Organizations often use a five-level impact scale similar to likelihood.
+
+---
+
+# Risk Matrix
+
+A risk matrix combines likelihood and impact to determine overall risk.
+
+| Impact ↓ / Likelihood → | Low | Medium | High |
+|-------------------------|-----|--------|------|
+| High Impact | Medium | High | Critical |
+| Medium Impact | Low | Medium | High |
+| Low Impact | Low | Low | Medium |
+
+The matrix helps organizations prioritize resources toward the highest risks.
+
+---
+
+# Qualitative vs Quantitative Risk Assessment
+
+Organizations may use different assessment methods.
+
+### Qualitative
+
+Uses descriptive ratings such as:
+
+- Low
+- Medium
+- High
+
+Advantages:
+
+- Easy to perform.
+- Simple to communicate.
+- Suitable for most organizations.
+
+---
+
+### Quantitative
+
+Uses numerical values such as:
+
+- Estimated financial loss.
+- Annualized Loss Expectancy (ALE).
+- Probability calculations.
+- Cost-benefit analysis.
+
+Advantages:
+
+- Supports financial decision-making.
+- Enables more detailed investment analysis.
+
+Many organizations use a hybrid approach that combines both methods.
+
+---
+
+# Risk Register
+
+Assessment results should be documented in a risk register.
+
+Example:
+
+| Risk ID | Asset | Threat | Likelihood | Impact | Risk Level | Owner |
+|----------|-------|---------|------------|--------|------------|-------|
+| R-001 | Customer Portal | Credential Theft | High | High | Critical | CISO |
+| R-002 | ERP System | Ransomware | Medium | High | High | IT Director |
+| R-003 | Cloud Storage | Misconfiguration | Medium | Medium | Medium | Cloud Manager |
+
+The risk register becomes a central governance document for monitoring and managing cybersecurity risks.
+
+---
+
+# Continuous Risk Assessment
+
+Cybersecurity risk changes continuously due to:
+
+- Emerging threats.
+- New vulnerabilities.
+- Technology upgrades.
+- Cloud adoption.
+- Artificial Intelligence.
+- Regulatory changes.
+- Business expansion.
+- Supplier changes.
+
+Organizations should update risk assessments regularly rather than treating them as annual exercises.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Cybersecurity Risk Assessment Process
+
+**Diagram Description:**
+
+Create a sequential flow diagram.
+
+Assets
+
+↓
+
+Threats
+
+↓
+
+Vulnerabilities
+
+↓
+
+Existing Controls
+
+↓
+
+Likelihood Assessment
+
+↓
+
+Impact Assessment
+
+↓
+
+Risk Rating
+
+↓
+
+Risk Register
+
+↓
+
+Risk Prioritization
+
+↓
+
+Risk Treatment
+
+Caption:
+
+*"Cybersecurity risk assessment enables organizations to evaluate threats, vulnerabilities, business impacts, and existing controls in order to prioritize risk management activities and support informed decision-making."*
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Conduct cybersecurity risk assessments using a documented and repeatable methodology that is aligned with enterprise risk management practices.
+- Evaluate risks by considering assets, threats, vulnerabilities, existing controls, likelihood, and potential business impact rather than focusing on technical vulnerabilities alone.
+- Use risk registers to document identified risks, assigned owners, treatment decisions, review dates, and ongoing monitoring activities.
+- Incorporate threat intelligence, vulnerability assessments, penetration testing results, audit findings, and lessons learned into the risk assessment process.
+- Review cybersecurity risks whenever significant business, technology, supplier, regulatory, or threat landscape changes occur, in addition to scheduled periodic assessments.
+- Apply consistent likelihood and impact criteria to improve the accuracy, comparability, and transparency of risk evaluations across the organization.
+- Prioritize cybersecurity initiatives according to business risk, regulatory obligations, and organizational objectives rather than attempting to address every risk simultaneously.
+- Present risk assessment results in a business-focused format that enables executives to understand organizational exposure and make informed risk-based decisions.
+
+These practices ensure that cybersecurity risk assessments provide meaningful information for governance, operational planning, investment prioritization, and continual improvement.
+
+---
+
+# Practical Example
+
+A multinational healthcare organization operates hospitals, cloud-based electronic health record (EHR) systems, medical devices, AI-assisted diagnostic platforms, and patient portals. As part of its implementation of the NIST Cybersecurity Framework 2.0, the cybersecurity team performs a comprehensive risk assessment by identifying critical assets, evaluating ransomware threats targeting healthcare providers, assessing vulnerabilities in legacy medical devices, and reviewing existing security controls such as multi-factor authentication, endpoint protection, and network segmentation. Each identified risk is evaluated using standardized likelihood and impact criteria, with potential effects measured in terms of patient safety, regulatory compliance, operational disruption, financial loss, and reputational damage.
+
+The results are documented in an enterprise risk register and presented to executive leadership. High-priority risks, including unsupported medical equipment and third-party cloud service dependencies, receive immediate attention through remediation projects and enhanced monitoring. Lower-priority risks are scheduled for future treatment based on available resources and organizational risk appetite. By maintaining a structured and continuously updated cybersecurity risk assessment process, the organization strengthens governance, improves resilience, and ensures that cybersecurity investments are focused on the areas of greatest business importance.
+

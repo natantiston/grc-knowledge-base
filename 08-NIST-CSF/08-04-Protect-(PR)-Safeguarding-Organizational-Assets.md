@@ -335,3 +335,475 @@ These practices help organizations establish a comprehensive protection strategy
 A multinational financial services company operates online banking platforms, cloud-hosted applications, mobile banking services, AI-powered fraud detection systems, and international payment processing infrastructure. Following the completion of its asset inventory and cybersecurity risk assessment, the organization implements the Protect Function of the NIST Cybersecurity Framework 2.0 by introducing multi-factor authentication for all employees, privileged access management for administrative accounts, encryption of customer data both in transit and at rest, and role-based access controls across business applications. Endpoint Detection and Response (EDR), secure configuration standards, automated patch management, and continuous vulnerability scanning are deployed to strengthen platform security, while regular phishing simulations and cybersecurity awareness training improve employee resilience against social engineering attacks.
 
 To support operational resilience, the organization implements network segmentation, geographically redundant data centers, secure cloud architectures, and tested backup and disaster recovery procedures. Executive leadership monitors cybersecurity KPIs related to patch compliance, privileged access reviews, security awareness participation, and vulnerability remediation. By applying layered protective safeguards across people, processes, technology, and data, the organization significantly reduces cybersecurity risk while enabling secure digital banking services, regulatory compliance, and resilient business operations.
+
+# Identity Management, Awareness, and Data Security (PR.AA, PR.AT & PR.DS)
+
+One of the primary objectives of the **Protect (PR)** Function is to ensure that only authorized individuals can access organizational resources, employees understand their cybersecurity responsibilities, and sensitive information remains protected throughout its lifecycle.
+
+Three key categories within the Protect Function work together to achieve these objectives:
+
+- **PR.AA – Identity Management, Authentication, and Access Control**
+- **PR.AT – Awareness and Training**
+- **PR.DS – Data Security**
+
+Together, these categories address the human and information-centric aspects of cybersecurity by reducing unauthorized access, minimizing human error, and protecting valuable organizational data.
+
+---
+
+# PR.AA – Identity Management, Authentication, and Access Control
+
+Identity is the foundation of modern cybersecurity.
+
+Organizations must know:
+
+- Who is accessing resources.
+- What resources they can access.
+- When access is permitted.
+- Why access is required.
+- How access is authenticated.
+
+Effective identity management ensures that only authorized users can perform authorized activities.
+
+---
+
+# Identity Management
+
+Identity management involves creating, maintaining, and removing digital identities throughout the user lifecycle.
+
+Examples include:
+
+- Employees.
+- Contractors.
+- Vendors.
+- Customers.
+- Service accounts.
+- Applications.
+- APIs.
+- Machine identities.
+
+Each identity should have a unique identifier and clearly defined access permissions.
+
+---
+
+# Identity Lifecycle
+
+A typical identity lifecycle includes:
+
+```
+User Onboarding
+
+↓
+
+Identity Creation
+
+↓
+
+Access Assignment
+
+↓
+
+Authentication
+
+↓
+
+Access Review
+
+↓
+
+Role Change
+
+↓
+
+Privilege Adjustment
+
+↓
+
+Account Deactivation
+
+↓
+
+Identity Removal
+```
+
+Managing identities throughout their lifecycle reduces unauthorized access and orphaned accounts.
+
+---
+
+# Authentication
+
+Authentication verifies that users are who they claim to be.
+
+Common authentication methods include:
+
+### Something You Know
+
+- Passwords.
+- PINs.
+- Security questions.
+
+---
+
+### Something You Have
+
+- Mobile authenticator applications.
+- Hardware security keys.
+- Smart cards.
+- One-time passwords (OTP).
+
+---
+
+### Something You Are
+
+- Fingerprints.
+- Facial recognition.
+- Iris scanning.
+- Voice recognition.
+
+Organizations increasingly combine multiple methods through **Multi-Factor Authentication (MFA)**.
+
+---
+
+# Authorization
+
+Authentication confirms identity.
+
+Authorization determines what users are permitted to access.
+
+Examples include:
+
+- Applications.
+- Databases.
+- Cloud resources.
+- Administrative functions.
+- Sensitive files.
+- APIs.
+
+Authorization should always follow the **principle of least privilege**.
+
+---
+
+# Least Privilege
+
+Users should receive only the minimum access necessary to perform their responsibilities.
+
+Benefits include:
+
+- Reduced attack surface.
+- Lower insider risk.
+- Improved compliance.
+- Easier auditing.
+- Limited damage if credentials are compromised.
+
+Least privilege is a fundamental cybersecurity principle.
+
+---
+
+# Role-Based Access Control (RBAC)
+
+RBAC assigns permissions according to job responsibilities rather than individual users.
+
+Example:
+
+| Role | Access |
+|------|--------|
+| HR Manager | Employee Records |
+| Finance Manager | Financial Systems |
+| Network Administrator | Network Infrastructure |
+| Customer Support | CRM Platform |
+
+RBAC simplifies administration while improving security consistency.
+
+---
+
+# Privileged Access Management (PAM)
+
+Privileged accounts possess elevated permissions and therefore require stronger controls.
+
+Examples include:
+
+- Domain administrators.
+- Database administrators.
+- Cloud administrators.
+- Root accounts.
+- Service administrators.
+
+Common PAM controls include:
+
+- MFA.
+- Session monitoring.
+- Just-In-Time (JIT) access.
+- Password vaulting.
+- Approval workflows.
+- Privileged session recording.
+
+---
+
+# PR.AT – Awareness and Training
+
+Technology alone cannot prevent cyber incidents.
+
+Employees remain one of the most important security controls.
+
+Cybersecurity awareness programs should educate personnel about:
+
+- Phishing attacks.
+- Social engineering.
+- Password security.
+- Secure remote work.
+- AI risks.
+- Data handling.
+- Incident reporting.
+- Physical security.
+
+Awareness helps transform employees into active participants in cybersecurity.
+
+---
+
+# Role-Based Training
+
+Different roles require different levels of cybersecurity knowledge.
+
+Examples:
+
+| Role | Training Focus |
+|------|----------------|
+| Executives | Governance and cyber risk |
+| Developers | Secure software development |
+| HR | Privacy and employee data |
+| Finance | Business email compromise |
+| IT Administrators | Secure system administration |
+| General Employees | Phishing and safe computing |
+
+Tailored training is generally more effective than generic awareness sessions.
+
+---
+
+# Building a Security Culture
+
+Organizations should promote:
+
+- Leadership support.
+- Continuous learning.
+- Open communication.
+- Incident reporting.
+- Accountability.
+- Shared responsibility.
+
+A strong cybersecurity culture reduces human-related security risks.
+
+---
+
+# PR.DS – Data Security
+
+Data is one of an organization's most valuable assets.
+
+Protecting information requires controls throughout the entire data lifecycle.
+
+---
+
+# Data Classification
+
+Organizations commonly classify information as:
+
+| Classification | Example |
+|----------------|----------|
+| Public | Marketing materials |
+| Internal | Internal procedures |
+| Confidential | Financial reports |
+| Restricted | Customer personal data |
+
+Classification determines the level of protection required.
+
+---
+
+# Data Lifecycle
+
+Information should be protected from creation through destruction.
+
+```
+Create
+
+↓
+
+Store
+
+↓
+
+Use
+
+↓
+
+Share
+
+↓
+
+Archive
+
+↓
+
+Dispose Securely
+```
+
+Each stage requires appropriate security controls.
+
+---
+
+# Encryption
+
+Encryption protects information from unauthorized disclosure.
+
+Organizations should encrypt:
+
+### Data at Rest
+
+Examples:
+
+- Databases.
+- File systems.
+- Backup media.
+- Cloud storage.
+
+---
+
+### Data in Transit
+
+Examples:
+
+- HTTPS.
+- VPN connections.
+- TLS-secured email.
+- Secure APIs.
+
+Encryption significantly reduces confidentiality risks if data is intercepted or stolen.
+
+---
+
+# Data Loss Prevention (DLP)
+
+DLP solutions help prevent unauthorized disclosure of sensitive information.
+
+Examples include:
+
+- Blocking confidential file transfers.
+- Monitoring email attachments.
+- Detecting sensitive information in cloud storage.
+- Preventing unauthorized USB device usage.
+
+DLP supports both security and regulatory compliance.
+
+---
+
+# Backup Protection
+
+Organizations should secure backups through:
+
+- Encryption.
+- Offline storage.
+- Immutable backups.
+- Access controls.
+- Regular testing.
+
+Reliable backups are essential for recovering from ransomware and other disruptive incidents.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Identity, Awareness, and Data Security
+
+**Diagram Description:**
+
+Create three interconnected sections.
+
+**Identity Management**
+
+↓
+
+Authentication
+
+↓
+
+Authorization
+
+↓
+
+Least Privilege
+
+↓
+
+Access Control
+
+---
+
+**Awareness & Training**
+
+↓
+
+Employee Education
+
+↓
+
+Security Culture
+
+↓
+
+Incident Reporting
+
+---
+
+**Data Security**
+
+↓
+
+Classification
+
+↓
+
+Encryption
+
+↓
+
+Data Loss Prevention
+
+↓
+
+Backup Protection
+
+↓
+
+Secure Disposal
+
+All three connect to:
+
+**Reduced Cybersecurity Risk**
+
+Caption:
+
+*"Identity management, employee awareness, and data security work together to prevent unauthorized access, reduce human error, and protect organizational information throughout its lifecycle."*
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Implement centralized identity and access management processes that govern the complete lifecycle of user, service, and machine identities from onboarding through secure deprovisioning.
+- Enforce strong authentication using multi-factor authentication (MFA), role-based access control (RBAC), least privilege, and privileged access management (PAM) to minimize unauthorized access.
+- Perform regular access reviews to verify that permissions remain appropriate and promptly remove unnecessary or inactive accounts.
+- Deliver continuous cybersecurity awareness and role-based training tailored to the responsibilities and risk exposure of different employee groups, contractors, and executives.
+- Foster a security-conscious organizational culture by encouraging employees to report suspicious activities, participate in awareness programs, and understand their role in protecting information assets.
+- Protect sensitive data throughout its lifecycle using classification, encryption, secure storage, controlled sharing, data loss prevention (DLP), secure backup, and secure disposal processes.
+- Apply encryption for both data at rest and data in transit while ensuring encryption keys are managed securely and access to sensitive information is appropriately restricted.
+- Regularly test backup and recovery processes to verify that critical business information can be restored effectively following cyber incidents such as ransomware attacks or accidental data loss.
+
+These practices strengthen identity security, reduce human-related cybersecurity risks, and ensure that sensitive organizational information remains protected throughout its entire lifecycle.
+
+---
+
+# Practical Example
+
+A multinational insurance company manages customer policy information, financial records, cloud-based claims systems, AI-assisted fraud detection platforms, and remote employees across multiple regions. To strengthen the Protect Function of the NIST Cybersecurity Framework 2.0, the organization implements a centralized Identity and Access Management (IAM) platform that automates user provisioning and deprovisioning, enforces multi-factor authentication for all employees, applies role-based access control, and uses privileged access management for administrative accounts. Quarterly access reviews verify that permissions remain appropriate as employees change roles or leave the organization.
+
+At the same time, the company launches a comprehensive security awareness program featuring phishing simulations, role-based training, and executive cyber risk workshops. Customer information is classified as restricted, encrypted both at rest and in transit, monitored by Data Loss Prevention (DLP) solutions, and protected through immutable backups that are tested regularly. Together, these safeguards significantly reduce unauthorized access, improve employee security awareness, strengthen regulatory compliance, and enhance the organization's ability to protect sensitive customer information against evolving cyber threats.
+
+

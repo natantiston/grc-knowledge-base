@@ -1,15 +1,9 @@
 # Lesson 9.3 – Requirement 1: Install and Maintain Network Security Controls
 
 > **Chapter:** 09 – Payment Card Industry Data Security Standard (PCI DSS) 4.0
->
 > **Lesson:** 9.3
->
-> **Part:** 1 of 4
->
 > **Difficulty:** Intermediate
->
 > **Estimated Reading Time:** 10–15 minutes
->
 > **Prerequisites:** Lesson 9.2 – PCI DSS Security Goals and the 12 Requirements
 
 ---

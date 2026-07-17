@@ -251,3 +251,309 @@ A national retail organization is deploying new payment application servers to s
 
 To maintain consistency, the organization uses automated configuration management tools to deploy identical hardened configurations across all payment servers. Compliance teams periodically compare production systems against the approved baseline and investigate any unauthorized deviations. By implementing standardized secure configurations before systems become operational, the organization significantly reduces configuration-related vulnerabilities while simplifying PCI DSS compliance and ongoing system administration.
 
+# Secure Configuration Standards
+
+Establishing secure configuration baselines is only the first step toward meeting PCI DSS Requirement 2. Organizations must also implement standardized security settings across all system components and ensure that these configurations remain consistent throughout the system lifecycle.
+
+Configuration standards should be documented, approved, regularly reviewed, and applied consistently across physical, virtual, cloud, and containerized environments. Standardization minimizes security weaknesses, simplifies administration, and supports continuous compliance.
+
+---
+
+# Secure Configuration Lifecycle
+
+Secure configuration management should follow a structured lifecycle.
+
+```text
+System Deployment
+
+↓
+
+Apply Secure Baseline
+
+↓
+
+Security Validation
+
+↓
+
+Production Deployment
+
+↓
+
+Continuous Monitoring
+
+↓
+
+Periodic Configuration Review
+
+↓
+
+Configuration Updates
+
+↓
+
+Retirement
+```
+
+Each stage helps ensure that systems remain securely configured throughout their operational life.
+
+---
+
+# Configuration Standards
+
+Organizations should develop configuration standards for every major technology platform.
+
+Examples include:
+
+### Operating Systems
+
+- Windows Server
+- Linux
+- Unix
+
+Configuration standards should address:
+
+- Password policies
+- Audit logging
+- File permissions
+- Service configuration
+- Security policies
+- Local administrator settings
+
+---
+
+### Network Devices
+
+Configuration standards for:
+
+- Firewalls
+- Routers
+- Switches
+- Wireless controllers
+- VPN gateways
+
+Typical settings include:
+
+- Secure administrative access
+- Encrypted management protocols
+- Access Control Lists (ACLs)
+- Logging configuration
+- Time synchronization
+- Interface security
+
+---
+
+### Databases
+
+Database hardening should include:
+
+- Strong authentication
+- Encryption
+- Secure user permissions
+- Removal of test databases
+- Audit logging
+- Secure backup configuration
+
+Databases storing payment information require additional protection because they contain sensitive account data.
+
+---
+
+### Applications
+
+Application configuration standards should include:
+
+- Secure authentication
+- Session management
+- Secure API configuration
+- Error handling
+- Logging
+- Encryption settings
+- Access control
+
+Application security complements infrastructure security.
+
+---
+
+# Removing Unnecessary Functionality
+
+Every unnecessary component increases the attack surface.
+
+Organizations should remove or disable:
+
+- Unused applications
+- Legacy services
+- Sample applications
+- Guest accounts
+- Test accounts
+- Unused drivers
+- Legacy protocols
+- Unused network ports
+
+Systems should perform only the functions required for business operations.
+
+---
+
+# Secure Administrative Access
+
+Administrative accounts present elevated risk.
+
+Organizations should secure administrator access by implementing:
+
+- Multi-Factor Authentication (MFA)
+- Individual administrator accounts
+- Role-Based Access Control (RBAC)
+- Privileged Access Management (PAM)
+- Secure remote administration
+- Session timeouts
+- Administrative logging
+
+Shared administrator accounts should be avoided whenever possible.
+
+---
+
+# Secure Management Protocols
+
+Insecure management protocols should be replaced with encrypted alternatives.
+
+| Insecure Protocol | Secure Alternative |
+|-------------------|--------------------|
+| Telnet | SSH |
+| HTTP | HTTPS |
+| FTP | SFTP or FTPS |
+| SNMP v1/v2 | SNMP v3 |
+
+Encrypted management protocols protect administrative credentials and system configurations during transmission.
+
+---
+
+# Configuration Validation
+
+Secure configurations should be verified regularly.
+
+Validation methods include:
+
+- Configuration reviews
+- Compliance scanning
+- Vulnerability scanning
+- Security audits
+- Baseline comparison
+- Automated compliance monitoring
+
+Organizations should investigate and remediate any unauthorized configuration changes promptly.
+
+---
+
+# Configuration Drift
+
+Over time, systems may gradually deviate from their approved secure baselines.
+
+Common causes include:
+
+- Emergency changes
+- Software updates
+- Manual administrator changes
+- New application deployments
+- Infrastructure upgrades
+
+This phenomenon is known as **configuration drift**.
+
+Unchecked configuration drift can introduce vulnerabilities and lead to non-compliance.
+
+Continuous monitoring helps detect configuration drift early.
+
+---
+
+# Automation
+
+Many organizations automate secure configuration management.
+
+Common technologies include:
+
+- Microsoft Group Policy
+- Microsoft Intune
+- Microsoft Desired State Configuration (DSC)
+- Ansible
+- Puppet
+- Chef
+- Terraform
+- Kubernetes Policies
+
+Automation provides:
+
+- Consistent deployments
+- Reduced human error
+- Faster provisioning
+- Easier compliance reporting
+- Continuous baseline enforcement
+
+Automation is particularly valuable in cloud and DevSecOps environments.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Secure Configuration Management Lifecycle
+
+**Diagram Description:**
+
+```text
+Secure Baseline
+
+↓
+
+Automated Deployment
+
+↓
+
+Configuration Validation
+
+↓
+
+Production
+
+↓
+
+Continuous Monitoring
+
+↓
+
+Configuration Drift Detection
+
+↓
+
+Remediation
+
+↓
+
+Updated Secure Baseline
+```
+
+**Caption:**
+
+*"Secure configuration management is a continuous lifecycle that maintains consistent security settings and detects unauthorized changes before they create significant risk."*
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Develop documented secure configuration standards for all operating systems, applications, databases, network devices, cloud resources, and containers.
+- Remove unnecessary services, software, protocols, and user accounts before systems are placed into production.
+- Replace insecure management protocols with encrypted alternatives such as SSH, HTTPS, SFTP, and SNMPv3.
+- Secure privileged administrative access using multi-factor authentication, role-based access control, and privileged access management solutions.
+- Continuously monitor systems for configuration drift and unauthorized changes.
+- Use automated configuration management tools to deploy and maintain secure baselines consistently.
+- Review configuration standards regularly to address new technologies, vulnerabilities, and business requirements.
+- Integrate configuration management with change management, vulnerability management, and asset management processes.
+
+These practices help organizations maintain secure and standardized environments while reducing operational complexity and supporting ongoing PCI DSS compliance.
+
+---
+
+# Practical Example
+
+A multinational payment processing company manages hundreds of Windows servers, Linux servers, databases, firewalls, and cloud workloads across multiple regions. To ensure consistent compliance with PCI DSS Requirement 2, the organization develops standardized secure configuration baselines for every technology platform. Automated deployment tools apply these baselines whenever new systems are provisioned, while Group Policy, Ansible, and cloud-native configuration management services continuously enforce approved security settings. All administrative access is protected using multi-factor authentication and privileged access management, while insecure protocols such as Telnet and FTP are disabled across the environment.
+
+Configuration compliance is monitored daily through automated scanning tools that compare production systems against the organization's approved baselines. Any detected configuration drift automatically generates alerts for the infrastructure and security teams, who investigate and remediate deviations through the formal change management process. This automated approach ensures that systems remain consistently hardened, significantly reduces manual administration, and strengthens both the organization's security posture and its ongoing PCI DSS compliance.
+

@@ -155,6 +155,4 @@ Before studying this chapter, it is recommended that you understand:
 
 ---
 
-## Recommended Next Chapter
 
-Continue with **Chapter 10 – NIST Cybersecurity Framework (CSF) 2.0**, where you will learn how to build and manage a risk-based cybersecurity program using the six NIST CSF functions—**Govern, Identify, Protect, Detect, Respond, and Recover**—and how to align them with ISO/IEC 27001, PCI DSS, and enterprise GRC practices.

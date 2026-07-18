@@ -536,4 +536,241 @@ A multinational energy company plans to deploy an AI platform to optimize electr
 
 Following the assessment, the organization assigns risk owners, defines mitigation actions, and establishes monitoring activities for high-risk areas. Governance dashboards track key risk indicators such as model performance, cybersecurity events, and operational disruptions, while quarterly management reviews reassess risks based on changing business conditions and emerging technologies. This structured risk identification and assessment process enables the organization to proactively manage AI-related risks, strengthen governance, and maintain alignment with ISO/IEC 42001.
 
+# AI Risk Treatment and Control Implementation
+
+Once AI risks have been identified and assessed, organizations must determine how those risks will be managed. Risk treatment is the process of selecting and implementing appropriate measures to reduce risks to an acceptable level based on the organization's risk appetite and business objectives. Effective treatment does not eliminate all risks but ensures that AI systems operate within acceptable levels of security, reliability, fairness, privacy, and regulatory compliance.
+
+ISO/IEC 42001 promotes a risk-based approach in which organizations implement governance controls that are appropriate for the level of risk associated with each AI system. Risk treatment should consider technical controls, organizational policies, operational procedures, human oversight, and continual monitoring. The effectiveness of implemented controls should be reviewed regularly to ensure they continue to protect the organization as AI technologies, threats, and regulations evolve.
+
+---
+
+# Risk Treatment Options
+
+Organizations generally have four primary options for treating AI risks.
+
+| Risk Treatment Option | Description |
+|-----------------------|-------------|
+| Risk Avoidance | Do not implement or discontinue the AI activity that creates the risk |
+| Risk Reduction | Implement controls to reduce the likelihood or impact of the risk |
+| Risk Transfer | Share the risk through contracts, insurance, or third-party agreements |
+| Risk Acceptance | Accept the remaining risk after evaluating it against the organization's risk appetite |
+
+The selected treatment should be documented and approved through established governance processes.
+
+---
+
+# Selecting Appropriate Controls
+
+Controls should be selected based on the nature of the identified risks.
+
+Examples include:
+
+- Access control mechanisms
+- Encryption of AI data
+- Multi-factor authentication (MFA)
+- Secure software development practices
+- Model validation procedures
+- Bias testing
+- Human approval workflows
+- Continuous monitoring
+
+The chosen controls should be proportionate to the level of risk.
+
+---
+
+# Categories of AI Controls
+
+Organizations typically implement a combination of technical and organizational controls.
+
+| Control Category | Examples |
+|------------------|----------|
+| Governance Controls | AI policies, governance committees, approval processes |
+| Technical Controls | Encryption, authentication, logging, monitoring |
+| Operational Controls | Standard operating procedures, change management, incident response |
+| Security Controls | Network security, endpoint protection, vulnerability management |
+| Privacy Controls | Data minimization, anonymization, consent management |
+| Ethical Controls | Bias testing, fairness reviews, explainability assessments |
+| Compliance Controls | Regulatory reviews, documentation, internal audits |
+
+Layered controls provide stronger protection than relying on a single safeguard.
+
+---
+
+# Human Oversight as a Risk Control
+
+Human oversight is one of the most important controls for high-risk AI systems.
+
+Organizations should establish:
+
+- Human review of critical AI decisions
+- Escalation procedures
+- Manual override capabilities
+- Exception handling processes
+- Governance approvals
+- Decision review boards
+- Independent validation
+- Executive oversight for high-risk AI initiatives
+
+Human oversight helps prevent harmful automated decisions and strengthens accountability.
+
+---
+
+# Risk Treatment Plan
+
+Organizations should document how identified risks will be managed.
+
+A typical treatment plan includes:
+
+- Risk description
+- Selected treatment option
+- Planned controls
+- Responsible owner
+- Implementation timeline
+- Required resources
+- Expected residual risk
+- Review schedule
+
+A documented treatment plan supports accountability and governance.
+
+---
+
+# Residual Risk
+
+Residual risk is the level of risk that remains after controls have been implemented.
+
+Organizations should evaluate whether the remaining risk:
+
+- Falls within the organization's risk appetite
+- Meets regulatory requirements
+- Is acceptable to management
+- Requires additional controls
+- Should be formally accepted
+- Needs ongoing monitoring
+
+Residual risks should be reviewed during management meetings and governance reviews.
+
+---
+
+# Monitoring Control Effectiveness
+
+Risk treatment is effective only if implemented controls continue to operate as intended.
+
+Organizations should monitor:
+
+- Security events
+- AI performance
+- Bias indicators
+- Privacy incidents
+- Compliance findings
+- Audit results
+- Model drift
+- Control failures
+
+Continuous monitoring enables timely corrective actions when controls become ineffective.
+
+---
+
+# Documentation Requirements
+
+Organizations should maintain records supporting AI risk treatment activities.
+
+Documentation typically includes:
+
+- AI Risk Register
+- Risk treatment plans
+- Control implementation records
+- Validation reports
+- Security assessments
+- Bias testing results
+- Management approvals
+- Monitoring reports
+
+Comprehensive documentation supports audits, regulatory inspections, and continual improvement.
+
+---
+
+# Continual Improvement
+
+Risk treatment should evolve as AI systems and business environments change.
+
+Organizations should review treatment plans when:
+
+- AI models are updated
+- New threats emerge
+- Regulations change
+- Business objectives evolve
+- Security incidents occur
+- New technologies are introduced
+- Audit findings identify weaknesses
+- Residual risks exceed acceptable levels
+
+Continual improvement ensures that AI governance remains effective over time.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** AI Risk Treatment Lifecycle
+
+**Diagram Description:**
+
+```text
+Identify Risk
+
+↓
+
+Assess Risk
+
+↓
+
+Select Treatment Option
+
+↓
+
+Implement Controls
+
+↓
+
+Validate Controls
+
+↓
+
+Monitor Effectiveness
+
+↓
+
+Review Residual Risk
+
+↓
+
+Continual Improvement
+```
+
+**Caption:**
+
+*"AI risk treatment transforms identified risks into managed risks through the implementation of governance, technical, operational, security, privacy, and ethical controls, supporting responsible AI governance under ISO/IEC 42001."*
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Select risk treatment options based on business objectives and organizational risk appetite.
+- Implement layered governance, technical, operational, privacy, and security controls.
+- Ensure meaningful human oversight for high-risk AI systems.
+- Maintain documented AI Risk Registers and risk treatment plans.
+- Evaluate residual risks before approving AI systems for production.
+- Continuously monitor the effectiveness of implemented controls.
+- Update risk treatment strategies in response to changing technologies, threats, and regulations.
+- Integrate AI risk treatment with enterprise Governance, Risk, and Compliance (GRC), Enterprise Risk Management (ERM), and Information Security Management Systems.
+
+---
+
+# Practical Example
+
+A multinational airline deploys an AI platform to optimize flight scheduling, aircraft maintenance planning, and passenger demand forecasting. During the AI risk assessment, the organization identifies several high-priority risks, including inaccurate maintenance predictions, unauthorized access to operational data, adversarial attacks against machine learning models, and potential bias affecting scheduling decisions. The AI Governance Committee approves a comprehensive risk treatment plan that includes encryption of operational data, role-based access controls, independent model validation, fairness testing, continuous monitoring, and mandatory human review of maintenance recommendations that could affect flight safety.
+
+Following implementation, governance teams monitor security events, AI performance, maintenance accuracy, bias indicators, and operational incidents through centralized dashboards. Quarterly management reviews evaluate residual risks and determine whether additional controls are required as regulations, technologies, and business requirements evolve. Internal Audit independently verifies the effectiveness of implemented controls and confirms that treatment plans remain aligned with organizational risk appetite and ISO/IEC 42001 governance requirements. This structured approach enables the airline to deploy AI responsibly while maintaining safety, regulatory compliance, and stakeholder confidence.
+
 

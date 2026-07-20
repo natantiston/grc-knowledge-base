@@ -873,4 +873,291 @@ During the audit, the assessment team reviews access management procedures, encr
 - Risk-based audit planning ensures assessment resources focus on the most critical vendors.
 - Effective compliance verification strengthens Third-Party Risk Management by improving accountability, transparency, and long-term vendor assurance.
 
+- # Contract Renewal, Termination & Exit Strategy
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Understand the importance of contract renewal, termination, and exit planning in Third-Party Risk Management (TPRM).
+- Explain how organizations evaluate vendors before renewing contracts.
+- Identify key security considerations when terminating vendor relationships.
+- Understand why a formal exit strategy reduces operational, cybersecurity, and compliance risks.
+- Recognize the relationship between vendor offboarding, data protection, and business continuity.
+- Apply best practices for secure contract closure and vendor transition.
+
+---
+
+# Introduction
+
+Every third-party relationship eventually reaches an important decision point. An organization may choose to renew the contract, renegotiate its terms, transition services to another vendor, or terminate the relationship entirely. Regardless of the outcome, organizations must manage the process carefully to avoid introducing operational disruptions or cybersecurity risks.
+
+Contract renewal should not be treated as an administrative task. It is an opportunity to reassess vendor performance, review security controls, verify compliance, and determine whether the vendor continues to meet business objectives. Likewise, contract termination requires a structured approach to protect organizational assets, recover information, revoke system access, and ensure business continuity.
+
+A well-planned exit strategy ensures that vendor relationships conclude securely, efficiently, and in accordance with contractual and regulatory obligations.
+
+---
+
+# Why Contract Renewal Matters
+
+Before renewing a vendor agreement, organizations should determine whether the vendor continues to provide value while meeting security, operational, and compliance expectations.
+
+Contract renewal reviews help organizations:
+
+- Reassess vendor risks.
+- Evaluate service performance.
+- Review contractual obligations.
+- Verify regulatory compliance.
+- Confirm security maturity.
+- Identify improvement opportunities.
+- Renegotiate contract terms.
+- Support strategic sourcing decisions.
+
+Renewal decisions should be based on objective evidence rather than historical relationships alone.
+
+---
+
+# Contract Renewal Evaluation
+
+Organizations should consider multiple factors before extending a vendor relationship.
+
+| Evaluation Area | Example Review |
+|------|------|
+| Security Performance | Review incidents, vulnerabilities, certifications, and audit results |
+| Service Performance | Evaluate SLA compliance and KPI trends |
+| Risk Assessment | Update inherent and residual risk ratings |
+| Regulatory Compliance | Verify compliance with applicable laws and standards |
+| Financial Stability | Assess the vendor's financial condition |
+| Business Needs | Confirm that services continue to support organizational objectives |
+| Contract Terms | Review pricing, obligations, and service scope |
+| Customer Satisfaction | Evaluate stakeholder feedback and operational experience |
+
+These reviews support informed renewal decisions.
+
+---
+
+# When Contracts Should Be Terminated
+
+Organizations may terminate vendor agreements for several reasons.
+
+Examples include:
+
+- Repeated security incidents.
+- Persistent SLA failures.
+- Regulatory non-compliance.
+- Financial instability.
+- Contract breaches.
+- Organizational restructuring.
+- Business strategy changes.
+- Vendor acquisition or closure.
+
+Termination decisions should follow documented governance procedures and contractual obligations.
+
+---
+
+# Secure Vendor Offboarding
+
+Vendor offboarding should follow a structured process to reduce cybersecurity and operational risks.
+
+Typical activities include:
+
+- Revoke user and privileged access.
+- Disable remote connections.
+- Recover organizational assets.
+- Return or securely destroy organizational data.
+- Remove system integrations.
+- Terminate shared credentials.
+- Update asset inventories.
+- Document completion of offboarding activities.
+
+A secure offboarding process reduces the risk of unauthorized access after the relationship ends.
+
+---
+
+# Data Return and Secure Disposal
+
+Many vendors process sensitive organizational information during the contract period.
+
+Organizations should ensure:
+
+- Customer data is returned where required.
+- Remaining data is securely deleted.
+- Backup copies are handled appropriately.
+- Data destruction is verified.
+- Retention requirements are satisfied.
+- Legal obligations are fulfilled.
+- Certificates of destruction are obtained where appropriate.
+- Data ownership requirements are maintained.
+
+Proper data handling protects confidentiality and supports regulatory compliance.
+
+---
+
+# Business Continuity During Vendor Exit
+
+Vendor transitions should minimize disruption to business operations.
+
+Organizations should plan for:
+
+- Service transition activities.
+- Knowledge transfer.
+- Migration of systems and data.
+- Testing of replacement services.
+- Communication with stakeholders.
+- Continuity of critical operations.
+- Risk monitoring during transition.
+- Formal transition acceptance.
+
+Business continuity planning helps ensure a smooth and secure transition.
+
+---
+
+# Exit Strategy Planning
+
+Organizations should establish exit strategies before vendor services begin.
+
+An exit strategy typically includes:
+
+- Defined exit criteria.
+- Roles and responsibilities.
+- Transition timelines.
+- Data migration procedures.
+- Security requirements.
+- Communication plans.
+- Validation activities.
+- Final approval procedures.
+
+Planning early reduces uncertainty if the relationship ends unexpectedly.
+
+---
+
+# Vendor Exit Process
+
+Organizations should establish a standardized vendor exit process.
+
+```text
+Review Contract
+
+↓
+
+Approve Termination
+
+↓
+
+Develop Exit Plan
+
+↓
+
+Revoke Access
+
+↓
+
+Return or Destroy Data
+
+↓
+
+Complete Service Transition
+
+↓
+
+Verify Offboarding
+
+↓
+
+Close Vendor Record
+```
+
+A structured process helps ensure all security, operational, and compliance activities are completed.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Vendor Contract Closure & Exit Process
+
+**Diagram Description:**
+
+```text
+Contract Review
+
+↓
+
+Termination Decision
+
+↓
+
+Secure Offboarding
+
+↓
+
+Data Return
+
+↓
+
+Service Transition
+
+↓
+
+Vendor Closure
+```
+
+**Caption:**
+
+*"A structured vendor exit strategy protects organizational assets, ensures secure offboarding, and supports business continuity when third-party relationships end."*
+
+---
+
+# Common Challenges
+
+Organizations may encounter several challenges during contract renewal or termination.
+
+| Challenge | Description |
+|------|------|
+| Incomplete Offboarding | User accounts or system access remain active |
+| Data Retention Issues | Sensitive information is not securely deleted |
+| Poor Transition Planning | Business operations are disrupted during migration |
+| Contractual Disputes | Responsibilities during termination are unclear |
+| Missing Documentation | Offboarding activities are not properly recorded |
+| Vendor Dependency | Critical knowledge or services are difficult to replace |
+
+Effective planning and governance help minimize these risks.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Perform a formal vendor reassessment before contract renewal.
+- Base renewal decisions on performance, security, and risk data.
+- Include exit requirements within the original contract.
+- Develop documented vendor exit procedures.
+- Revoke all vendor access immediately after contract termination.
+- Verify secure return or destruction of organizational data.
+- Document completion of all offboarding activities.
+- Conduct post-transition reviews to identify lessons learned.
+- Maintain records for audit and regulatory purposes.
+- Continuously improve exit planning based on previous vendor transitions.
+
+---
+
+# Practical Example
+
+A global manufacturing company decides to replace its managed Security Operations Center (SOC) provider after selecting a new vendor that offers enhanced threat detection capabilities. Before terminating the existing contract, the organization performs a structured exit process.
+
+The security team revokes all privileged accounts, removes secure network connections, recovers company-owned equipment, confirms the secure deletion of retained log data, and receives a certificate of data destruction from the outgoing provider. At the same time, operational knowledge is transferred to the new SOC provider, and service continuity is validated before the transition is completed. By following a documented exit strategy, the organization minimizes operational disruption while protecting sensitive information throughout the vendor transition.
+
+---
+
+# Key Takeaways
+
+- Contract renewal should include a comprehensive review of vendor security, performance, compliance, and business value.
+- Vendor termination requires structured governance to reduce operational and cybersecurity risks.
+- Secure offboarding includes revoking access, recovering assets, and ensuring the secure return or destruction of data.
+- Exit strategies should be planned before vendor services begin and tested when appropriate.
+- Business continuity and knowledge transfer are essential for successful vendor transitions.
+- Effective contract closure and exit planning strengthen Third-Party Risk Management by protecting organizational assets, maintaining compliance, and ensuring a secure transition between vendors.
+
 - 

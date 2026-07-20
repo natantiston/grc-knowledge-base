@@ -612,4 +612,293 @@ By performing a structured security assessment, the organization gains confidenc
 - Aligning assessments with recognized cybersecurity standards improves consistency and regulatory compliance.
 - Effective security assessments reduce supply chain risks and support informed vendor selection decisions.
 
+- # Financial & Compliance Reviews
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Understand the importance of financial and compliance reviews during third-party due diligence.
+- Explain how financial health influences third-party risk.
+- Identify the key areas evaluated during financial assessments.
+- Understand how compliance reviews support regulatory and contractual obligations.
+- Recognize common financial and compliance risks associated with third parties.
+- Apply best practices for performing financial and compliance reviews.
+
+---
+
+# Introduction
+
+While cybersecurity is often the primary focus of Third-Party Risk Management (TPRM), organizations must also evaluate a vendor's financial stability and regulatory compliance. A vendor with strong security controls may still introduce significant business risk if it is financially unstable or unable to comply with applicable laws and regulations.
+
+Financial failures can lead to service interruptions, contract termination, delayed projects, or even business closure. Likewise, regulatory non-compliance can expose organizations to legal penalties, reputational damage, and operational disruption, particularly when vendors process sensitive information or operate in highly regulated industries.
+
+Financial and compliance reviews provide organizations with confidence that a vendor is financially sustainable, operates responsibly, and can meet both contractual and regulatory obligations throughout the business relationship.
+
+---
+
+# Purpose of Financial Reviews
+
+Financial reviews evaluate whether a vendor has the financial strength to deliver services over the duration of the contract.
+
+The objectives include:
+
+- Assessing financial stability.
+- Identifying financial risks.
+- Evaluating long-term business viability.
+- Reducing the risk of supplier failure.
+- Supporting procurement decisions.
+- Protecting business continuity.
+- Reducing operational disruption.
+- Supporting strategic planning.
+
+Financial assessments help organizations avoid dependence on financially unstable vendors.
+
+---
+
+# Financial Information Reviewed
+
+Organizations may review various financial documents during due diligence.
+
+Common examples include:
+
+- Audited financial statements.
+- Annual reports.
+- Balance sheets.
+- Income statements.
+- Cash flow statements.
+- Credit ratings.
+- Insurance coverage.
+- Bankruptcy history.
+- Public financial disclosures.
+- Financial risk reports.
+
+The depth of the review depends on the vendor's business criticality.
+
+---
+
+# Financial Risk Indicators
+
+Several indicators may suggest increased financial risk.
+
+Examples include:
+
+- Declining revenue.
+- Negative cash flow.
+- High debt levels.
+- Frequent ownership changes.
+- Legal disputes.
+- Credit downgrades.
+- Delayed supplier payments.
+- Business restructuring.
+
+Organizations should investigate these indicators before entering into long-term agreements.
+
+---
+
+# Compliance Reviews
+
+Compliance reviews evaluate whether a vendor meets applicable legal, regulatory, and contractual requirements.
+
+Assessment objectives include:
+
+- Verifying regulatory compliance.
+- Confirming industry certifications.
+- Evaluating governance practices.
+- Reviewing legal obligations.
+- Assessing contractual compliance.
+- Identifying regulatory risks.
+- Protecting organizational reputation.
+- Supporting audit readiness.
+
+Compliance reviews help organizations reduce exposure to regulatory enforcement actions.
+
+---
+
+# Areas of Compliance Assessment
+
+Compliance reviews often include multiple governance domains.
+
+Examples include:
+
+- Information security.
+- Privacy and data protection.
+- Industry regulations.
+- Anti-bribery and corruption.
+- Export controls.
+- Labor and employment regulations.
+- Environmental regulations.
+- Ethical business practices.
+
+Organizations should tailor assessments to the services provided by the vendor.
+
+---
+
+# Regulatory Requirements
+
+Depending on the industry, vendors may be expected to comply with various laws and regulations.
+
+Examples include:
+
+| Regulation or Standard | Assessment Focus |
+|------|------|
+| GDPR | Protection of personal data |
+| HIPAA | Healthcare information protection |
+| PCI DSS | Payment card security |
+| SOX | Financial reporting controls |
+| NIS2 Directive | Supply chain cybersecurity governance |
+| DORA | ICT third-party risk management |
+| ISO/IEC 27001 | Information security management |
+| ISO 22301 | Business continuity management |
+
+Organizations should verify that vendors comply with all relevant regulatory requirements.
+
+---
+
+# Evidence Supporting Compliance
+
+Compliance assessments should rely on objective evidence rather than vendor claims.
+
+Examples include:
+
+- Regulatory certifications.
+- Compliance reports.
+- Independent audit reports.
+- ISO certificates.
+- SOC reports.
+- Policy documents.
+- Internal audit findings.
+- Regulatory inspection reports.
+
+Evidence-based assessments provide greater assurance regarding vendor compliance.
+
+---
+
+# Financial and Compliance Review Process
+
+Organizations should follow a structured review process.
+
+```text
+Identify Vendor
+
+↓
+
+Determine Review Scope
+
+↓
+
+Collect Financial Information
+
+↓
+
+Collect Compliance Evidence
+
+↓
+
+Evaluate Findings
+
+↓
+
+Assign Risk Rating
+
+↓
+
+Approve or Escalate
+
+↓
+
+Document Results
+```
+
+Consistent processes improve governance and transparency.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Financial and Compliance Review Process
+
+**Diagram Description:**
+
+```text
+Financial Review
+
++
+
+Compliance Review
+
+↓
+
+Risk Evaluation
+
+↓
+
+Decision
+
+↓
+
+Vendor Approval
+```
+
+**Caption:**
+
+*"Financial and compliance reviews help organizations verify that third parties are financially sustainable, legally compliant, and capable of supporting long-term business objectives."*
+
+---
+
+# Common Challenges
+
+Organizations may encounter several challenges during financial and compliance reviews.
+
+| Challenge | Description |
+|------|------|
+| Limited Financial Information | Private companies may disclose limited financial data |
+| Complex Regulations | Vendors may operate across multiple regulatory jurisdictions |
+| Changing Compliance Requirements | Regulations evolve over time |
+| Global Supply Chains | Different countries have different legal obligations |
+| Inconsistent Documentation | Vendors may provide incomplete evidence |
+| Emerging Risks | Financial or regulatory conditions may change after onboarding |
+
+Continuous monitoring helps organizations respond to these evolving risks.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Perform financial and compliance reviews before vendor onboarding.
+- Apply a risk-based assessment approach.
+- Review independent financial and compliance evidence.
+- Verify applicable certifications and regulatory obligations.
+- Monitor vendor financial health throughout the relationship.
+- Reassess compliance following significant regulatory changes.
+- Escalate significant financial or regulatory concerns.
+- Document all assessment results and decisions.
+- Coordinate reviews across procurement, legal, compliance, finance, and risk management teams.
+- Continuously improve review methodologies based on lessons learned.
+
+---
+
+# Practical Example
+
+A manufacturing company plans to outsource its logistics operations to an international transportation provider. Because the vendor will support critical supply chain activities, the organization performs both financial and compliance reviews before signing the contract.
+
+The Finance team reviews the vendor's audited financial statements, cash flow reports, insurance coverage, and credit rating to confirm long-term financial stability. At the same time, the Compliance and Legal teams verify adherence to international trade regulations, labor laws, environmental requirements, and information security standards. During the assessment, the organization identifies that one regional subsidiary has unresolved regulatory findings. Before approving the engagement, the vendor provides evidence of corrective actions and enhanced compliance monitoring.
+
+By combining financial and compliance reviews with cybersecurity assessments, the organization gains greater confidence that the vendor can support business operations while meeting legal, regulatory, and contractual obligations.
+
+---
+
+# Key Takeaways
+
+- Financial and compliance reviews are essential components of third-party due diligence.
+- Financial assessments evaluate a vendor's stability, sustainability, and ability to meet contractual obligations.
+- Compliance reviews verify adherence to applicable laws, regulations, standards, and contractual requirements.
+- Objective evidence such as audited financial statements, certifications, and audit reports strengthens assessment reliability.
+- Continuous monitoring is necessary because financial conditions and regulatory requirements can change over time.
+- Comprehensive financial and compliance reviews improve governance, reduce enterprise risk, and support informed vendor selection decisions.
+
 - 

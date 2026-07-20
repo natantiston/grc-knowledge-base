@@ -584,4 +584,291 @@ The contract requires encryption of payment data, multi-factor authentication fo
 - Contract management should continue throughout the vendor lifecycle, including renewals and amendments.
 - Well-designed contractual controls strengthen Third-Party Risk Management and reduce organizational risk.
 
+- # Service Level Agreements (SLAs)
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Understand the purpose of Service Level Agreements (SLAs) within Third-Party Risk Management (TPRM).
+- Explain the key components of an effective SLA.
+- Identify common service level metrics used to measure vendor performance.
+- Understand how SLAs support operational resilience, accountability, and governance.
+- Recognize the relationship between SLAs, vendor performance management, and contract management.
+- Apply best practices for developing and monitoring Service Level Agreements.
+
+---
+
+# Introduction
+
+Selecting the right vendor is only the beginning of a successful third-party relationship. Organizations must also ensure that vendors consistently deliver services that meet agreed business expectations. Without clearly defined performance standards, it becomes difficult to measure service quality, enforce contractual obligations, or determine whether a vendor is meeting business requirements.
+
+A Service Level Agreement (SLA) is a formal agreement that defines the expected level of service a vendor must provide. It establishes measurable performance targets, reporting requirements, responsibilities, and remedies when agreed service levels are not achieved.
+
+Effective SLAs improve accountability, strengthen vendor relationships, and help organizations manage operational, financial, and reputational risks throughout the vendor lifecycle.
+
+---
+
+# What is a Service Level Agreement?
+
+A Service Level Agreement (SLA) is a documented agreement that specifies measurable service performance expectations between an organization and a vendor.
+
+An SLA typically defines:
+
+- Services provided.
+- Performance targets.
+- Availability requirements.
+- Response and resolution times.
+- Reporting requirements.
+- Escalation procedures.
+- Performance measurement methods.
+- Service credits or contractual remedies.
+
+SLAs provide objective criteria for evaluating vendor performance.
+
+---
+
+# Purpose of an SLA
+
+The objectives of an SLA include:
+
+- Defining performance expectations.
+- Establishing measurable service standards.
+- Improving accountability.
+- Supporting operational resilience.
+- Protecting business operations.
+- Reducing service disruptions.
+- Supporting vendor performance reviews.
+- Strengthening contractual governance.
+
+An effective SLA aligns vendor performance with business objectives.
+
+---
+
+# Key Components of an SLA
+
+A comprehensive SLA generally includes the following elements.
+
+| Component | Purpose |
+|------|------|
+| Service Description | Defines the products or services provided |
+| Service Availability | Specifies uptime or availability targets |
+| Performance Metrics | Establishes measurable service indicators |
+| Response Time | Defines how quickly the vendor responds to issues |
+| Resolution Time | Specifies expected issue resolution timelines |
+| Escalation Process | Defines how unresolved issues are escalated |
+| Reporting | Establishes performance reporting requirements |
+| Service Credits | Defines remedies if service targets are not achieved |
+
+Each component contributes to effective vendor governance.
+
+---
+
+# Common SLA Metrics
+
+Organizations commonly measure vendor performance using predefined metrics.
+
+Examples include:
+
+| Metric | Example Target |
+|------|------|
+| System Availability | 99.9% uptime |
+| Incident Response Time | Within 30 minutes |
+| Incident Resolution Time | Within 4 hours |
+| Service Request Fulfillment | Within 2 business days |
+| Backup Success Rate | 100% successful completion |
+| Change Success Rate | Greater than 95% |
+| Customer Satisfaction | Above 90% |
+| Critical Incident Availability | 24×7 support |
+
+Metrics should be realistic, measurable, and aligned with business requirements.
+
+---
+
+# Relationship Between SLAs and Risk Management
+
+SLAs play an important role in reducing third-party risk.
+
+Effective SLAs help organizations:
+
+- Monitor critical vendor services.
+- Detect declining performance.
+- Support business continuity.
+- Reduce operational disruptions.
+- Improve customer service.
+- Strengthen contractual accountability.
+- Support regulatory compliance.
+- Improve executive reporting.
+
+Monitoring SLA performance enables organizations to identify risks before they significantly affect business operations.
+
+---
+
+# SLA Monitoring
+
+Organizations should continuously monitor vendor performance against agreed service levels.
+
+Monitoring activities may include:
+
+- Monthly performance reports.
+- KPI dashboards.
+- Service review meetings.
+- Incident trend analysis.
+- Customer feedback.
+- Availability monitoring.
+- Root cause analysis.
+- Corrective action tracking.
+
+Continuous monitoring helps ensure vendors consistently meet contractual obligations.
+
+---
+
+# Escalation and Remediation
+
+When vendors fail to meet agreed service levels, organizations should follow documented escalation procedures.
+
+Possible actions include:
+
+- Vendor notification.
+- Service review meetings.
+- Corrective action plans.
+- Performance improvement initiatives.
+- Executive escalation.
+- Service credits.
+- Contract amendments.
+- Contract termination if necessary.
+
+Prompt escalation minimizes operational and business impact.
+
+---
+
+# SLA Management Process
+
+Organizations should establish a structured SLA management process.
+
+```text
+Define Business Requirements
+
+↓
+
+Develop SLA
+
+↓
+
+Include SLA in Contract
+
+↓
+
+Monitor Performance
+
+↓
+
+Review Results
+
+↓
+
+Address Performance Issues
+
+↓
+
+Implement Improvements
+
+↓
+
+Renew or Update SLA
+```
+
+An effective SLA management process supports continual improvement throughout the vendor relationship.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Service Level Agreement Management Lifecycle
+
+**Diagram Description:**
+
+```text
+Business Requirements
+
+↓
+
+SLA Definition
+
+↓
+
+Performance Monitoring
+
+↓
+
+Performance Review
+
+↓
+
+Corrective Actions
+
+↓
+
+Continual Improvement
+```
+
+**Caption:**
+
+*"Service Level Agreements establish measurable performance expectations and enable organizations to monitor, evaluate, and improve vendor service delivery throughout the contract lifecycle."*
+
+---
+
+# Common Challenges
+
+Organizations may encounter several challenges when managing SLAs.
+
+| Challenge | Description |
+|------|------|
+| Unrealistic Targets | Service levels cannot be consistently achieved |
+| Poorly Defined Metrics | Performance cannot be measured objectively |
+| Inadequate Monitoring | SLA violations remain undetected |
+| Weak Escalation Processes | Performance issues are not addressed promptly |
+| Business Changes | Existing SLA targets no longer meet business needs |
+| Inconsistent Reporting | Different vendors report performance differently |
+
+Regular SLA reviews help ensure agreements remain relevant and effective.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Define measurable and realistic service level targets.
+- Align SLA metrics with business objectives.
+- Monitor performance continuously.
+- Automate SLA reporting where possible.
+- Conduct regular vendor performance reviews.
+- Define clear escalation procedures.
+- Document SLA exceptions and corrective actions.
+- Periodically review and update SLA requirements.
+- Integrate SLA performance into vendor scorecards.
+- Use SLA results to support continual improvement.
+
+---
+
+# Practical Example
+
+A global software company contracts a managed security service provider (MSSP) to provide 24×7 security monitoring and incident response. The SLA requires 99.95% platform availability, acknowledgement of critical security alerts within 15 minutes, and containment of high-severity incidents within one hour.
+
+Each month, the vendor provides detailed performance reports showing compliance with the agreed service metrics. During one reporting period, incident response times exceed the contractual target because of staffing shortages. The organization initiates the escalation process, requests a corrective action plan, and schedules additional service review meetings. Over the following months, performance improves and the vendor consistently meets the agreed SLA targets, strengthening operational resilience and customer confidence.
+
+---
+
+# Key Takeaways
+
+- Service Level Agreements define measurable expectations for vendor performance.
+- Effective SLAs improve accountability, operational resilience, and contractual governance.
+- Performance metrics should be specific, measurable, realistic, and aligned with business objectives.
+- Continuous monitoring enables organizations to detect and address service issues early.
+- Escalation procedures and corrective actions help maintain service quality.
+- Well-managed SLAs are an essential component of effective Third-Party Risk Management.
+
 - 

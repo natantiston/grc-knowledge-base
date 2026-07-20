@@ -272,4 +272,282 @@ The assessment reviews the vendor's ISO/IEC 27001 certification, SOC 2 report, v
 - High-risk vendors require more comprehensive security reviews and ongoing reassessments.
 - A structured security due diligence process strengthens Third-Party Risk Management and helps protect organizational assets from third-party cyber risks.
 
+- # Security Questionnaires
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Understand the purpose of security questionnaires in Third-Party Risk Management (TPRM).
+- Explain how security questionnaires support vendor security assessments.
+- Identify the common sections included in a vendor security questionnaire.
+- Understand the strengths and limitations of questionnaire-based assessments.
+- Recognize how questionnaire responses should be validated using objective evidence.
+- Apply best practices for designing and managing vendor security questionnaires.
+
+---
+
+# Introduction
+
+Security questionnaires are one of the most widely used tools for evaluating the cybersecurity posture of third-party vendors. They provide organizations with a structured way to collect information about a vendor's security governance, technical controls, compliance programs, and operational practices before granting access to systems or sensitive information.
+
+While questionnaires cannot guarantee that a vendor's security controls are effective, they provide an efficient method for identifying potential risks, determining assessment scope, and supporting vendor risk decisions. They are particularly valuable during vendor onboarding, contract renewals, periodic reassessments, and procurement activities.
+
+To maximize their effectiveness, questionnaire responses should be supported by objective evidence such as certifications, audit reports, security policies, and technical documentation.
+
+---
+
+# What is a Security Questionnaire?
+
+A security questionnaire is a standardized set of questions used to evaluate a vendor's cybersecurity capabilities and security management practices.
+
+The questionnaire helps organizations:
+
+- Gather security information.
+- Identify potential risks.
+- Compare vendors consistently.
+- Support vendor risk assessments.
+- Determine additional assessment requirements.
+- Validate security maturity.
+- Support procurement decisions.
+- Meet regulatory expectations.
+
+Security questionnaires are often the first step in a comprehensive third-party security assessment.
+
+---
+
+# Purpose of Security Questionnaires
+
+Organizations use security questionnaires to:
+
+- Evaluate vendor security controls.
+- Identify cybersecurity weaknesses.
+- Support vendor selection.
+- Prioritize security reviews.
+- Reduce supply chain risks.
+- Support compliance requirements.
+- Improve governance consistency.
+- Document assessment activities.
+
+Questionnaires enable organizations to perform structured and repeatable assessments across multiple vendors.
+
+---
+
+# Common Questionnaire Sections
+
+A comprehensive security questionnaire typically includes multiple security domains.
+
+| Assessment Area | Example Questions |
+|------|------|
+| Security Governance | Does the organization maintain an information security program? |
+| Identity and Access Management | Is multi-factor authentication implemented for privileged users? |
+| Data Protection | Is sensitive data encrypted during storage and transmission? |
+| Vulnerability Management | Are regular vulnerability scans and patch management activities performed? |
+| Incident Response | Is there a documented incident response plan? |
+| Business Continuity | Are disaster recovery plans tested regularly? |
+| Compliance | Does the organization maintain certifications such as ISO/IEC 27001 or SOC 2? |
+| Third-Party Management | Does the vendor assess its own suppliers and subcontractors? |
+
+Questions should be tailored to the vendor's services and risk profile.
+
+---
+
+# Supporting Evidence
+
+Questionnaire responses should be supported by objective evidence whenever possible.
+
+Examples include:
+
+- ISO/IEC 27001 certificates.
+- SOC 2 reports.
+- Security policies.
+- Penetration testing summaries.
+- Vulnerability assessment reports.
+- Business continuity plans.
+- Incident response procedures.
+- Compliance reports.
+
+Evidence improves confidence in the accuracy of questionnaire responses.
+
+---
+
+# Evaluating Questionnaire Responses
+
+Organizations should review questionnaire responses for completeness, consistency, and accuracy.
+
+Review activities include:
+
+- Identifying incomplete responses.
+- Clarifying ambiguous answers.
+- Validating supporting documentation.
+- Comparing responses against organizational requirements.
+- Identifying control gaps.
+- Assessing overall security maturity.
+- Determining residual risk.
+- Recommending remediation where necessary.
+
+The evaluation should be documented as part of the vendor assessment record.
+
+---
+
+# Benefits and Limitations
+
+Security questionnaires provide many advantages but also have limitations.
+
+| Benefits | Limitations |
+|------|------|
+| Standardized assessments | Responses may be self-rereported |
+| Efficient information gathering | Limited technical validation |
+| Supports large vendor populations | Quality depends on vendor accuracy |
+| Easy to compare vendors | May become outdated quickly |
+| Supports compliance activities | Cannot replace technical testing |
+
+Organizations should combine questionnaires with additional assessment methods for higher-risk vendors.
+
+---
+
+# Relationship with Security Assessments
+
+Security questionnaires are one component of a broader third-party security assessment process.
+
+They may be supplemented by:
+
+- Security interviews.
+- Technical assessments.
+- Penetration testing reviews.
+- Independent audit reports.
+- Compliance certifications.
+- On-site assessments.
+- Continuous security monitoring.
+- Executive risk reviews.
+
+Using multiple assessment methods provides a more comprehensive understanding of vendor risk.
+
+---
+
+# Security Questionnaire Process
+
+Organizations should establish a repeatable questionnaire process.
+
+```text
+Identify Vendor
+
+↓
+
+Select Appropriate Questionnaire
+
+↓
+
+Distribute Questionnaire
+
+↓
+
+Receive Responses
+
+↓
+
+Validate Supporting Evidence
+
+↓
+
+Evaluate Security Controls
+
+↓
+
+Determine Risk Rating
+
+↓
+
+Document Assessment Results
+```
+
+A structured process improves consistency, efficiency, and governance.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Vendor Security Questionnaire Process
+
+**Diagram Description:**
+
+```text
+Questionnaire Issued
+
+↓
+
+Vendor Responses
+
+↓
+
+Evidence Review
+
+↓
+
+Security Evaluation
+
+↓
+
+Risk Decision
+```
+
+**Caption:**
+
+*"Security questionnaires provide a structured method for collecting and evaluating vendor cybersecurity information as part of the third-party assessment process."*
+
+---
+
+# Common Challenges
+
+Organizations may experience several challenges when using security questionnaires.
+
+| Challenge | Description |
+|------|------|
+| Incomplete Responses | Vendors fail to answer all questions |
+| Generic Answers | Responses lack sufficient detail |
+| Outdated Information | Security practices may have changed since submission |
+| Inconsistent Reviews | Different assessors interpret responses differently |
+| Questionnaire Fatigue | Vendors receive multiple questionnaires from different customers |
+| Lack of Evidence | Claims cannot be validated through documentation |
+
+Standardized templates and evidence-based reviews help improve assessment quality.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Use standardized security questionnaires.
+- Tailor questions according to vendor risk levels.
+- Request objective evidence for critical controls.
+- Keep questionnaires current with evolving threats and regulations.
+- Review responses consistently using documented criteria.
+- Combine questionnaires with additional assessment techniques for high-risk vendors.
+- Document findings and identified risks.
+- Track remediation activities for identified weaknesses.
+- Periodically reassess vendors using updated questionnaires.
+- Integrate questionnaire results into enterprise GRC platforms.
+
+---
+
+# Practical Example
+
+A healthcare organization evaluates a cloud-based software provider that will process patient information. As part of the vendor assessment, the provider completes a comprehensive security questionnaire covering governance, identity management, encryption, vulnerability management, incident response, business continuity, and regulatory compliance.
+
+The vendor indicates that multi-factor authentication is implemented for administrative accounts and provides an ISO/IEC 27001 certificate along with recent penetration testing summaries as supporting evidence. During the review, the assessment team identifies that disaster recovery testing has not been performed within the past year. The organization requests remediation before approving the vendor. By combining questionnaire responses with objective evidence, the organization makes a well-informed onboarding decision while reducing third-party cybersecurity risk.
+
+---
+
+# Key Takeaways
+
+- Security questionnaires provide a standardized method for evaluating vendor cybersecurity practices.
+- Questionnaires support vendor selection, security assessments, and regulatory compliance.
+- Objective evidence should always be used to validate important questionnaire responses.
+- High-risk vendors may require additional technical assessments beyond questionnaires.
+- Standardized questionnaires improve consistency, efficiency, and governance across vendor assessments.
+- Effective questionnaire management strengthens Third-Party Risk Management and supports informed risk-based decision-making.
+
 - 

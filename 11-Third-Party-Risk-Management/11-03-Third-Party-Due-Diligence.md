@@ -6,8 +6,6 @@
 >
 > **Topic:** Third-Party Due Diligence
 >
-> **Part 1:** Due Diligence Fundamentals
->
 > **Difficulty:** Intermediate
 >
 > **Estimated Reading Time:** 10–15 minutes

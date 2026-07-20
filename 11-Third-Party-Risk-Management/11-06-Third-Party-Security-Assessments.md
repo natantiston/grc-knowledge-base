@@ -550,4 +550,285 @@ The vendor indicates that multi-factor authentication is implemented for adminis
 - Standardized questionnaires improve consistency, efficiency, and governance across vendor assessments.
 - Effective questionnaire management strengthens Third-Party Risk Management and supports informed risk-based decision-making.
 
+- # Security Certifications & Attestations
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Understand the role of security certifications and attestations in Third-Party Risk Management (TPRM).
+- Differentiate between certifications, attestations, and compliance reports.
+- Identify commonly accepted security certifications used during vendor assessments.
+- Understand the strengths and limitations of relying on certifications.
+- Recognize how certifications support security due diligence and vendor risk assessments.
+- Apply best practices for evaluating vendor certifications and attestations.
+
+---
+
+# Introduction
+
+One of the challenges in Third-Party Risk Management is determining whether a vendor has implemented effective cybersecurity controls. Reviewing every security process in detail is often impractical, especially when organizations manage hundreds or thousands of vendors.
+
+To simplify assessments, organizations frequently rely on independent security certifications, attestations, and audit reports. These provide objective evidence that a vendor has implemented security controls and has undergone evaluation by qualified third parties.
+
+Although certifications provide valuable assurance, they should not be treated as a guarantee of security. They represent one component of a broader vendor security assessment and should be evaluated together with questionnaires, technical assessments, contracts, and ongoing monitoring.
+
+---
+
+# What are Security Certifications?
+
+A security certification is formal recognition that an organization's security management system or specific controls have been independently assessed against an established standard.
+
+Security certifications help organizations:
+
+- Demonstrate security maturity.
+- Validate security controls.
+- Support regulatory compliance.
+- Improve customer confidence.
+- Reduce assessment effort.
+- Support vendor selection.
+- Strengthen governance.
+- Facilitate international business relationships.
+
+Independent certification increases confidence in a vendor's cybersecurity program.
+
+---
+
+# What are Security Attestations?
+
+A security attestation is an independent report or statement that evaluates specific security controls or operational practices.
+
+Unlike certifications, attestations often focus on the effectiveness of defined controls rather than compliance with an entire management system standard.
+
+Examples include:
+
+- SOC reports.
+- Independent audit reports.
+- Penetration testing reports.
+- Vulnerability assessment summaries.
+- Compliance assessment reports.
+- Security assessment letters.
+
+Attestations provide additional assurance regarding a vendor's security posture.
+
+---
+
+# Common Security Certifications
+
+Organizations commonly request recognized certifications during vendor assessments.
+
+| Certification | Primary Focus |
+|------|------|
+| ISO/IEC 27001 | Information Security Management System (ISMS) |
+| ISO/IEC 27701 | Privacy Information Management |
+| ISO/IEC 22301 | Business Continuity Management |
+| ISO/IEC 42001 | Artificial Intelligence Management System |
+| PCI DSS | Payment card data security |
+| CSA STAR | Cloud security assurance |
+| HITRUST | Healthcare information security |
+| Cyber Essentials | Basic cybersecurity controls |
+
+The relevance of each certification depends on the vendor's services and industry.
+
+---
+
+# Common Security Attestations
+
+Organizations may also request independent assurance reports.
+
+| Attestation | Purpose |
+|------|------|
+| SOC 1 Report | Controls affecting financial reporting |
+| SOC 2 Report | Security, availability, confidentiality, processing integrity, and privacy controls |
+| SOC 3 Report | Public summary of SOC 2 controls |
+| Penetration Test Report | Validation of security weaknesses |
+| Vulnerability Assessment | Identification of security vulnerabilities |
+| Independent Audit Report | External assessment of security controls |
+
+These reports provide valuable evidence when evaluating vendor security.
+
+---
+
+# Evaluating Certifications
+
+Organizations should review certifications carefully rather than simply confirming that one exists.
+
+Assessment considerations include:
+
+- Certification validity period.
+- Certification scope.
+- Accredited certification body.
+- Covered business units.
+- Covered services.
+- Identified findings.
+- Corrective actions.
+- Renewal status.
+
+A certification should align with the specific services being provided by the vendor.
+
+---
+
+# Limitations of Certifications
+
+While certifications provide assurance, they also have limitations.
+
+Examples include:
+
+- Certifications represent a point-in-time assessment.
+- Scope may not include all vendor services.
+- New risks may emerge after certification.
+- Technical vulnerabilities may still exist.
+- Human error remains possible.
+- Business processes may change between audits.
+- Certifications do not eliminate cybersecurity risk.
+- Additional due diligence may still be required.
+
+Organizations should avoid relying solely on certifications when assessing vendor risk.
+
+---
+
+# Relationship with Security Due Diligence
+
+Security certifications support—but do not replace—security due diligence.
+
+Organizations should combine certifications with:
+
+- Security questionnaires.
+- Risk assessments.
+- Technical reviews.
+- Contract evaluations.
+- Incident history reviews.
+- Continuous monitoring.
+- Compliance assessments.
+- Business continuity evaluations.
+
+Using multiple assessment methods provides a more complete understanding of vendor risk.
+
+---
+
+# Certification Review Process
+
+Organizations should establish a structured process for evaluating certifications.
+
+```text
+Request Certification
+
+↓
+
+Verify Validity
+
+↓
+
+Review Scope
+
+↓
+
+Assess Findings
+
+↓
+
+Validate Supporting Evidence
+
+↓
+
+Determine Assurance Level
+
+↓
+
+Document Assessment
+
+↓
+
+Monitor Renewal Status
+```
+
+A structured review process improves consistency and governance.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Security Certification Review Process
+
+**Diagram Description:**
+
+```text
+Certification Received
+
+↓
+
+Scope Validation
+
+↓
+
+Evidence Review
+
+↓
+
+Risk Assessment
+
+↓
+
+Vendor Approval
+```
+
+**Caption:**
+
+*"Independent certifications and attestations provide valuable assurance, but they should be evaluated alongside other security assessment activities to support informed vendor risk decisions."*
+
+---
+
+# Common Challenges
+
+Organizations may encounter several challenges when evaluating certifications.
+
+| Challenge | Description |
+|------|------|
+| Expired Certifications | Certifications are no longer valid |
+| Limited Scope | Certified services do not match contracted services |
+| Unrecognized Standards | Certifications are not widely accepted |
+| Missing Evidence | Supporting reports are unavailable |
+| Overreliance | Organizations assume certification eliminates all risk |
+| Delayed Renewals | Vendors fail to maintain certification status |
+
+Regular reviews help ensure certifications continue to provide meaningful assurance.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Verify certification validity before onboarding.
+- Review the scope of certification carefully.
+- Confirm certifications are issued by accredited bodies.
+- Request supporting reports where appropriate.
+- Review audit findings and corrective actions.
+- Track certification renewal dates.
+- Combine certifications with technical assessments and questionnaires.
+- Document certification reviews within vendor assessment records.
+- Reassess critical vendors periodically.
+- Continuously improve assessment criteria as standards evolve.
+
+---
+
+# Practical Example
+
+A multinational insurance company evaluates a cloud hosting provider that will support critical customer-facing applications. During the security assessment, the vendor provides an ISO/IEC 27001 certificate, a recent SOC 2 Type II report, and a summary of its latest independent penetration test.
+
+The assessment team verifies that the ISO/IEC 27001 certification covers the specific cloud services being procured and confirms that the certification is current. The SOC 2 report identifies only minor observations that have already been addressed through corrective actions. Based on this evidence, the organization gains confidence in the vendor's security governance while still requiring annual reassessments and continuous monitoring because of the vendor's critical business role.
+
+---
+
+# Key Takeaways
+
+- Security certifications and attestations provide independent evidence of a vendor's cybersecurity capabilities.
+- Certifications support vendor due diligence but should not replace comprehensive security assessments.
+- Organizations should verify certification validity, scope, accreditation, and renewal status.
+- Independent reports such as SOC 2 and penetration testing summaries provide additional assurance.
+- Certifications should be combined with questionnaires, technical reviews, and ongoing monitoring.
+- A structured certification review process strengthens Third-Party Risk Management and supports informed, risk-based vendor decisions.
+
 - 

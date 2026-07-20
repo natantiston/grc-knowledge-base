@@ -831,4 +831,289 @@ The assessment team verifies that the ISO/IEC 27001 certification covers the spe
 - Certifications should be combined with questionnaires, technical reviews, and ongoing monitoring.
 - A structured certification review process strengthens Third-Party Risk Management and supports informed, risk-based vendor decisions.
 
+- # On-Site Assessments & Technical Validation
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Understand the purpose of on-site security assessments within Third-Party Risk Management (TPRM).
+- Explain when organizations should perform on-site assessments instead of relying solely on questionnaires or certifications.
+- Identify the activities typically performed during a vendor security assessment.
+- Understand how technical validation improves confidence in vendor security controls.
+- Recognize the relationship between on-site assessments, continuous monitoring, and vendor assurance.
+- Apply best practices for conducting effective on-site vendor security assessments.
+
+---
+
+# Introduction
+
+Security questionnaires, certifications, and independent audit reports provide valuable information about a vendor's cybersecurity posture. However, for vendors that support critical business operations or process highly sensitive information, organizations often require additional assurance through direct assessment.
+
+An on-site security assessment allows organizations to validate that documented security controls are operating effectively in practice. Rather than relying solely on written responses or certifications, assessors observe security processes, interview key personnel, inspect facilities, and review technical evidence to determine whether security controls are functioning as intended.
+
+Technical validation provides greater confidence in vendor security while helping organizations identify weaknesses that may not be visible through documentation alone.
+
+---
+
+# What is an On-Site Assessment?
+
+An on-site assessment is a formal review conducted at a vendor's location to evaluate cybersecurity, operational, and governance controls.
+
+The assessment may include:
+
+- Interviews with management.
+- Security documentation reviews.
+- Facility inspections.
+- Technical control validation.
+- System demonstrations.
+- Operational observations.
+- Compliance verification.
+- Evidence collection.
+
+The objective is to confirm that security practices are implemented consistently and effectively.
+
+---
+
+# Purpose of On-Site Assessments
+
+Organizations perform on-site assessments to:
+
+- Validate vendor security controls.
+- Verify questionnaire responses.
+- Confirm compliance with contractual requirements.
+- Identify operational weaknesses.
+- Evaluate security culture.
+- Reduce third-party cyber risk.
+- Strengthen governance decisions.
+- Improve confidence in vendor assurance.
+
+On-site assessments provide direct evidence of how security is managed in day-to-day operations.
+
+---
+
+# When Should On-Site Assessments Be Performed?
+
+Not every vendor requires an on-site review.
+
+Organizations commonly perform on-site assessments for:
+
+- Critical service providers.
+- Cloud service providers.
+- Vendors processing sensitive information.
+- High-risk vendors.
+- Vendors supporting essential business operations.
+- Vendors with previous security incidents.
+- Vendors operating in highly regulated industries.
+- Vendors with elevated residual risk.
+
+Risk-based prioritization ensures assessment resources are used effectively.
+
+---
+
+# Areas Commonly Reviewed
+
+On-site assessments typically evaluate multiple security domains.
+
+| Assessment Area | Example Activities |
+|------|------|
+| Information Security Governance | Review policies, governance structure, and responsibilities |
+| Physical Security | Inspect facilities, visitor controls, and secure areas |
+| Identity and Access Management | Validate user provisioning and privileged access management |
+| Network Security | Review firewalls, segmentation, and secure connectivity |
+| Data Protection | Verify encryption, backup, and data handling controls |
+| Incident Response | Review incident handling procedures and response records |
+| Business Continuity | Validate disaster recovery plans and testing results |
+| Security Operations | Observe monitoring, logging, and security event management |
+
+These reviews provide a comprehensive understanding of the vendor's operational security.
+
+---
+
+# Technical Validation Activities
+
+Organizations may perform technical validation to confirm that security controls operate effectively.
+
+Examples include:
+
+- Reviewing system configurations.
+- Validating access controls.
+- Examining audit logs.
+- Reviewing vulnerability management processes.
+- Verifying patch management records.
+- Observing backup and recovery procedures.
+- Confirming encryption implementation.
+- Reviewing security monitoring dashboards.
+
+Technical validation complements documentation-based assessments.
+
+---
+
+# Interviews and Evidence Collection
+
+Interviews provide valuable insight into how security responsibilities are performed.
+
+Assessors may interview:
+
+- Information Security Managers.
+- IT Administrators.
+- Compliance Officers.
+- Risk Managers.
+- Privacy Officers.
+- Security Operations personnel.
+- Business Continuity coordinators.
+- Executive management.
+
+Supporting evidence collected during interviews helps validate documented processes.
+
+---
+
+# Assessment Reporting
+
+Following the assessment, organizations should prepare a formal report.
+
+Typical report contents include:
+
+- Assessment scope.
+- Assessment methodology.
+- Observations.
+- Strengths.
+- Identified weaknesses.
+- Risk ratings.
+- Recommendations.
+- Required corrective actions.
+
+The report becomes part of the vendor's ongoing risk management record.
+
+---
+
+# On-Site Assessment Process
+
+Organizations should follow a structured assessment methodology.
+
+```text
+Identify High-Risk Vendor
+
+↓
+
+Define Assessment Scope
+
+↓
+
+Conduct On-Site Review
+
+↓
+
+Validate Security Controls
+
+↓
+
+Document Findings
+
+↓
+
+Assign Risk Ratings
+
+↓
+
+Track Corrective Actions
+
+↓
+
+Perform Follow-Up Review
+```
+
+A consistent methodology improves assessment quality and governance.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** On-Site Vendor Security Assessment Process
+
+**Diagram Description:**
+
+```text
+Assessment Planning
+
+↓
+
+On-Site Review
+
+↓
+
+Technical Validation
+
+↓
+
+Assessment Report
+
+↓
+
+Corrective Actions
+
+↓
+
+Continuous Monitoring
+```
+
+**Caption:**
+
+*"On-site assessments provide direct validation of vendor security controls, enabling organizations to make informed decisions about third-party cybersecurity risks."*
+
+---
+
+# Common Challenges
+
+Organizations may encounter several challenges when conducting on-site assessments.
+
+| Challenge | Description |
+|------|------|
+| Limited Vendor Availability | Scheduling assessments can be difficult |
+| Resource Constraints | Assessments require skilled personnel and time |
+| Geographic Distance | International vendors increase travel costs and complexity |
+| Restricted Access | Vendors may limit access to sensitive facilities or systems |
+| Inconsistent Assessment Methods | Different assessors may evaluate controls differently |
+| Rapid Technology Changes | Security environments evolve between assessment cycles |
+
+Standardized assessment procedures help improve consistency and effectiveness.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Prioritize on-site assessments using a risk-based approach.
+- Define a clear assessment scope before visiting the vendor.
+- Use standardized assessment checklists.
+- Validate documentation through direct observation.
+- Interview personnel responsible for key security processes.
+- Collect objective evidence to support findings.
+- Document observations consistently.
+- Track corrective actions until closure.
+- Reassess critical vendors periodically.
+- Integrate assessment results into the organization's enterprise GRC platform.
+
+---
+
+# Practical Example
+
+A financial institution plans to outsource its core payment processing platform to a cloud service provider. Because the vendor will support critical financial transactions, the organization conducts an on-site security assessment before approving the engagement.
+
+During the assessment, the review team inspects physical security controls at the data center, validates privileged access management, reviews incident response procedures, examines security monitoring dashboards, and interviews information security personnel. The assessment identifies minor weaknesses in backup testing documentation, and the vendor agrees to implement corrective actions before production services begin. The on-site review provides the organization with additional assurance that the vendor's documented security controls are operating effectively in practice.
+
+---
+
+# Key Takeaways
+
+- On-site assessments provide direct validation of vendor cybersecurity and operational controls.
+- Technical validation complements questionnaires, certifications, and independent audit reports.
+- High-risk and business-critical vendors should receive more comprehensive assessments.
+- Evidence collected through observation and interviews strengthens vendor assurance.
+- Assessment findings should be documented, risk-rated, and tracked until corrective actions are completed.
+- On-site assessments are a valuable component of an effective Third-Party Risk Management program and support informed, risk-based vendor decisions.
+
 - 

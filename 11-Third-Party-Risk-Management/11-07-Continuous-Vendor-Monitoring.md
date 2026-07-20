@@ -6,8 +6,6 @@
 >
 > **Topic:** Continuous Vendor Monitoring
 >
-> **Part 1:** Continuous Monitoring Fundamentals
->
 > **Difficulty:** Intermediate
 >
 > **Estimated Reading Time:** 10–15 minutes

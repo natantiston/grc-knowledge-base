@@ -899,4 +899,289 @@ By combining financial and compliance reviews with cybersecurity assessments, th
 - Continuous monitoring is necessary because financial conditions and regulatory requirements can change over time.
 - Comprehensive financial and compliance reviews improve governance, reduce enterprise risk, and support informed vendor selection decisions.
 
+- # Risk Acceptance
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Understand the purpose of risk acceptance within Third-Party Risk Management (TPRM).
+- Explain when organizations should accept third-party risks.
+- Identify the factors considered before accepting vendor-related risks.
+- Understand the approval and governance process for risk acceptance.
+- Recognize the relationship between risk acceptance, risk appetite, and residual risk.
+- Apply best practices for documenting and monitoring accepted risks.
+
+---
+
+# Introduction
+
+Not every third-party risk can be eliminated. Even after completing due diligence, implementing security controls, negotiating contractual safeguards, and requiring remediation activities, some level of residual risk may remain. Organizations must decide whether the remaining risk is acceptable or whether additional treatment is required before engaging or continuing to work with the vendor.
+
+Risk acceptance is the formal decision to acknowledge and tolerate a known level of risk because it falls within the organization's approved risk appetite or because the business benefits outweigh the remaining exposure. This decision should never be informal or undocumented. Instead, it must follow an established governance process with appropriate approvals, supporting evidence, and ongoing monitoring.
+
+A structured risk acceptance process enables organizations to balance business objectives with effective risk management while maintaining accountability and regulatory compliance.
+
+---
+
+# What is Risk Acceptance?
+
+Risk acceptance is the decision to retain a risk after evaluating its likelihood, impact, existing controls, and residual exposure.
+
+The organization acknowledges that:
+
+- The risk has been identified.
+- Appropriate assessments have been completed.
+- Existing controls have been evaluated.
+- Additional treatment may not be practical or cost-effective.
+- The remaining risk falls within approved risk tolerance.
+- Authorized management has approved the decision.
+
+Risk acceptance is one of the standard risk treatment options within enterprise risk management.
+
+---
+
+# When is Risk Acceptance Appropriate?
+
+Organizations may choose to accept a third-party risk when:
+
+- The residual risk is low.
+- The business value outweighs the remaining risk.
+- Additional controls provide limited benefit.
+- The cost of remediation exceeds the potential impact.
+- The vendor has a realistic remediation plan.
+- Temporary acceptance is needed while improvements are implemented.
+- No suitable alternative vendor exists.
+- Executive management approves the decision.
+
+Risk acceptance should always be supported by documented analysis.
+
+---
+
+# Factors Considered Before Accepting Risk
+
+Decision-makers should evaluate several factors before approving risk acceptance.
+
+These include:
+
+- Vendor criticality.
+- Business impact.
+- Data sensitivity.
+- Regulatory obligations.
+- Existing security controls.
+- Residual risk rating.
+- Financial implications.
+- Contractual protections.
+- Availability of alternative suppliers.
+- Organizational risk appetite.
+
+A comprehensive evaluation supports informed and defensible decisions.
+
+---
+
+# Risk Acceptance Approval
+
+Risk acceptance should follow a formal governance process.
+
+Depending on the level of risk, approval may be required from:
+
+- Business Owner.
+- Vendor Owner.
+- Third-Party Risk Manager.
+- Information Security Manager.
+- Chief Information Security Officer (CISO).
+- Chief Risk Officer (CRO).
+- Risk Committee.
+- Executive Management.
+
+Higher-risk decisions require greater levels of management oversight.
+
+---
+
+# Risk Acceptance Documentation
+
+Every accepted risk should be formally documented.
+
+Typical documentation includes:
+
+- Description of the identified risk.
+- Vendor name.
+- Risk assessment results.
+- Existing controls.
+- Residual risk rating.
+- Business justification.
+- Approval authority.
+- Acceptance date.
+- Review date.
+- Planned monitoring activities.
+
+Proper documentation supports transparency, accountability, and audit readiness.
+
+---
+
+# Relationship with Risk Appetite
+
+Risk acceptance decisions should align with the organization's approved risk appetite.
+
+For example:
+
+| Risk Level | Typical Decision |
+|------|------|
+| Low | Accept and monitor |
+| Medium | Accept with management approval or implement additional controls |
+| High | Treat, transfer, or escalate before acceptance |
+| Critical | Normally not accepted without executive approval and exceptional justification |
+
+Risk appetite provides consistent guidance for decision-making across the organization.
+
+---
+
+# Monitoring Accepted Risks
+
+Accepting a risk does not eliminate the need for oversight.
+
+Organizations should:
+
+- Monitor vendor performance.
+- Review remediation progress.
+- Track changes in risk exposure.
+- Reassess risks periodically.
+- Monitor regulatory changes.
+- Review contract compliance.
+- Update risk registers.
+- Escalate significant changes.
+
+Accepted risks should remain under continuous review throughout the vendor lifecycle.
+
+---
+
+# Risk Acceptance Process
+
+Organizations should establish a standardized risk acceptance workflow.
+
+```text
+Identify Vendor Risk
+
+↓
+
+Perform Risk Assessment
+
+↓
+
+Determine Residual Risk
+
+↓
+
+Evaluate Business Justification
+
+↓
+
+Obtain Management Approval
+
+↓
+
+Document Risk Acceptance
+
+↓
+
+Monitor Accepted Risk
+
+↓
+
+Periodic Review
+```
+
+A formal process ensures consistency, governance, and accountability.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Third-Party Risk Acceptance Process
+
+**Diagram Description:**
+
+```text
+Risk Assessment
+
+↓
+
+Residual Risk
+
+↓
+
+Management Review
+
+↓
+
+Risk Acceptance Decision
+
+↓
+
+Documentation
+
+↓
+
+Continuous Monitoring
+```
+
+**Caption:**
+
+*"Risk acceptance is a formal governance decision that acknowledges residual third-party risk while ensuring appropriate approvals, documentation, and ongoing monitoring."*
+
+---
+
+# Common Challenges
+
+Organizations may encounter several challenges when managing accepted risks.
+
+| Challenge | Description |
+|------|------|
+| Informal Approvals | Risks accepted without documented authorization |
+| Undefined Risk Appetite | Inconsistent decision-making across business units |
+| Poor Documentation | Limited evidence supporting acceptance decisions |
+| Lack of Monitoring | Accepted risks are not periodically reviewed |
+| Business Pressure | Operational needs override proper governance |
+| Regulatory Changes | Previously accepted risks become unacceptable due to new requirements |
+
+Strong governance helps organizations address these challenges effectively.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Establish formal risk acceptance procedures.
+- Define approval authorities based on risk level.
+- Align decisions with enterprise risk appetite.
+- Require documented business justification.
+- Record all accepted risks in the risk register.
+- Assign ownership for monitoring accepted risks.
+- Review accepted risks periodically.
+- Reassess risks after significant business or regulatory changes.
+- Integrate risk acceptance into enterprise GRC processes.
+- Maintain complete evidence for audits and management reviews.
+
+---
+
+# Practical Example
+
+A financial services company plans to use a cloud-based analytics platform that will process non-sensitive operational data. During the security assessment, the organization identifies that the vendor does not yet support one preferred security feature required by internal standards. The vendor demonstrates that alternative compensating controls are in place, provides a roadmap for implementing the feature within six months, and maintains ISO/IEC 27001 certification.
+
+After reviewing the assessment results, the Information Security team determines that the residual risk is low and recommends temporary risk acceptance. The Chief Information Security Officer approves the decision, documents the business justification, records the accepted risk in the enterprise risk register, and requires quarterly reviews until the vendor completes the planned enhancement. This structured approach allows the organization to proceed with the business relationship while maintaining appropriate governance and oversight.
+
+---
+
+# Key Takeaways
+
+- Risk acceptance is a formal decision to acknowledge and retain an identified third-party risk.
+- Acceptance should only occur after a comprehensive risk assessment and evaluation of residual risk.
+- Decisions must align with the organization's risk appetite and governance framework.
+- Accepted risks require appropriate approvals, complete documentation, and ongoing monitoring.
+- Periodic reviews ensure that accepted risks remain within acceptable levels as business conditions and regulations change.
+- A structured risk acceptance process enables organizations to balance business objectives with effective Third-Party Risk Management.
+
 - 

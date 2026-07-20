@@ -865,4 +865,285 @@ After three consecutive months of declining network availability and increasing 
 - Performance monitoring supports informed contract renewal, vendor management, and risk management decisions.
 - A mature vendor performance monitoring program strengthens Third-Party Risk Management by promoting continual improvement and operational resilience.
 
+- # Periodic Reassessments & Vendor Reviews
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Understand the purpose of periodic vendor reassessments within Third-Party Risk Management (TPRM).
+- Explain why vendors should be reassessed throughout the vendor lifecycle.
+- Identify the activities commonly performed during vendor reassessments.
+- Understand how reassessments support risk management, regulatory compliance, and continual improvement.
+- Recognize the relationship between continuous monitoring and periodic reviews.
+- Apply best practices for planning and conducting vendor reassessments.
+
+---
+
+# Introduction
+
+Vendor risk is dynamic. A vendor that presented a low level of risk during onboarding may become a higher-risk supplier because of business growth, technology changes, regulatory developments, cybersecurity incidents, financial difficulties, or organizational restructuring.
+
+Continuous monitoring provides ongoing visibility into vendor activities, but organizations should also perform formal periodic reassessments to validate that vendors continue to meet business, security, contractual, and regulatory requirements. These structured reviews help confirm that earlier risk assessments remain accurate and that governance controls continue to operate effectively.
+
+Periodic reassessments are an essential element of a mature Third-Party Risk Management (TPRM) program and support informed decision-making throughout the vendor lifecycle.
+
+---
+
+# What is a Vendor Reassessment?
+
+A vendor reassessment is a formal review of a vendor's overall risk profile, performance, security posture, and compliance status after onboarding.
+
+A reassessment may include:
+
+- Updated risk assessments.
+- Security reviews.
+- Performance evaluations.
+- Compliance verification.
+- Contract reviews.
+- Financial assessments.
+- Business continuity reviews.
+- Executive approval where required.
+
+The objective is to determine whether the vendor continues to meet organizational requirements.
+
+---
+
+# Purpose of Periodic Reassessments
+
+Organizations conduct vendor reassessments to:
+
+- Validate existing risk ratings.
+- Identify emerging risks.
+- Verify ongoing compliance.
+- Evaluate vendor performance.
+- Review contractual obligations.
+- Support renewal decisions.
+- Strengthen governance.
+- Promote continual improvement.
+
+Regular reassessments ensure vendor oversight remains current and effective.
+
+---
+
+# What Should Be Reviewed?
+
+Vendor reassessments should evaluate multiple areas.
+
+| Review Area | Example Activities |
+|------|------|
+| Cybersecurity | Review security incidents, vulnerabilities, certifications, and security controls |
+| Performance | Evaluate KPIs, KRIs, and SLA compliance |
+| Compliance | Verify compliance with regulations, standards, and contractual obligations |
+| Financial Stability | Review financial health and business viability |
+| Business Continuity | Assess disaster recovery testing and resilience capabilities |
+| Privacy | Review personal data protection controls |
+| Contract Management | Confirm contracts remain current and appropriate |
+| Risk Rating | Recalculate inherent and residual risk levels |
+
+The review scope should be based on vendor criticality and organizational risk appetite.
+
+---
+
+# Risk-Based Reassessment Frequency
+
+Organizations typically determine reassessment frequency using a risk-based approach.
+
+| Vendor Risk Level | Typical Reassessment Frequency |
+|------|------|
+| Critical | Every 6–12 months |
+| High | Annually |
+| Medium | Every 18–24 months |
+| Low | Every 2–3 years or as needed |
+
+Additional reassessments should be performed whenever significant risk events occur.
+
+---
+
+# Trigger-Based Reassessments
+
+Some situations require immediate reassessment regardless of the scheduled review cycle.
+
+Examples include:
+
+- Major cybersecurity incidents.
+- Significant service disruptions.
+- Regulatory enforcement actions.
+- Financial instability.
+- Business mergers or acquisitions.
+- Major technology changes.
+- Contract amendments.
+- Discovery of significant control weaknesses.
+
+Trigger-based reassessments enable organizations to respond quickly to changing risks.
+
+---
+
+# Reassessment Outcomes
+
+After completing a reassessment, organizations may decide to:
+
+- Maintain the current risk rating.
+- Increase the vendor's risk classification.
+- Reduce the vendor's risk rating.
+- Request corrective actions.
+- Require additional security controls.
+- Increase monitoring frequency.
+- Renew the contract.
+- Terminate the vendor relationship if risks become unacceptable.
+
+All decisions should be documented and supported by objective evidence.
+
+---
+
+# Relationship with Continuous Monitoring
+
+Continuous monitoring and periodic reassessments work together.
+
+Continuous monitoring:
+
+- Detects changes as they occur.
+- Provides real-time visibility.
+- Identifies trigger events.
+
+Periodic reassessments:
+
+- Perform comprehensive reviews.
+- Validate overall risk.
+- Confirm governance effectiveness.
+- Support strategic vendor decisions.
+
+Together, these activities create a comprehensive vendor oversight program.
+
+---
+
+# Vendor Reassessment Process
+
+Organizations should establish a repeatable reassessment process.
+
+```text
+Schedule Reassessment
+
+↓
+
+Collect Updated Information
+
+↓
+
+Review Security and Compliance
+
+↓
+
+Evaluate Performance
+
+↓
+
+Update Risk Assessment
+
+↓
+
+Determine Required Actions
+
+↓
+
+Obtain Management Approval
+
+↓
+
+Continue Monitoring
+```
+
+A structured process ensures reassessments remain consistent across all vendors.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Vendor Reassessment Lifecycle
+
+**Diagram Description:**
+
+```text
+Continuous Monitoring
+
+↓
+
+Periodic Review
+
+↓
+
+Risk Reassessment
+
+↓
+
+Corrective Actions
+
+↓
+
+Management Decision
+
+↓
+
+Ongoing Oversight
+```
+
+**Caption:**
+
+*"Periodic vendor reassessments validate that third parties continue to meet organizational, contractual, security, and regulatory requirements throughout the vendor lifecycle."*
+
+---
+
+# Common Challenges
+
+Organizations may encounter several challenges when conducting vendor reassessments.
+
+| Challenge | Description |
+|------|------|
+| Large Vendor Population | Many vendors require periodic review |
+| Outdated Documentation | Vendors fail to provide updated evidence |
+| Resource Constraints | Limited personnel delay reassessments |
+| Changing Regulations | New compliance requirements increase review complexity |
+| Inconsistent Assessment Criteria | Different teams apply different standards |
+| Delayed Corrective Actions | Previously identified issues remain unresolved |
+
+Standardized assessment methodologies help improve consistency and efficiency.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Establish formal reassessment schedules based on vendor risk.
+- Combine continuous monitoring with periodic reviews.
+- Review cybersecurity, operational, financial, and compliance risks together.
+- Update vendor risk ratings using current evidence.
+- Verify completion of previous corrective actions.
+- Document reassessment findings and management decisions.
+- Escalate significant risks to appropriate stakeholders.
+- Maintain complete reassessment records for audit purposes.
+- Automate reassessment workflows where practical.
+- Continuously improve reassessment processes based on lessons learned and evolving threats.
+
+---
+
+# Practical Example
+
+A multinational healthcare organization conducts annual reassessments for all vendors that process patient information. During one review, the assessment team discovers that a cloud service provider has expanded its operations into additional countries and introduced new subcontractors to support customer services.
+
+The organization performs an updated security assessment, reviews revised data processing agreements, evaluates the provider's latest ISO/IEC 27001 certification and SOC 2 report, and confirms that regulatory requirements continue to be met. Because the vendor's operational environment has become more complex, the organization increases its monitoring frequency and requires quarterly security review meetings. The reassessment ensures that vendor governance remains aligned with the organization's evolving risk profile and regulatory obligations.
+
+---
+
+# Key Takeaways
+
+- Periodic reassessments provide structured reviews of vendor risk throughout the vendor lifecycle.
+- Vendor risks evolve over time and should be reassessed using current evidence.
+- Reassessments evaluate cybersecurity, compliance, operational performance, financial health, and contractual obligations.
+- Continuous monitoring and periodic reassessments complement each other to provide comprehensive vendor oversight.
+- Risk-based reassessment schedules help organizations focus resources on their most critical vendors.
+- Regular reassessments strengthen Third-Party Risk Management by supporting informed decisions, continual improvement, and long-term organizational resilience.
+
 - 

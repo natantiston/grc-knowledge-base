@@ -871,4 +871,270 @@ Each month, the vendor provides detailed performance reports showing compliance 
 - Escalation procedures and corrective actions help maintain service quality.
 - Well-managed SLAs are an essential component of effective Third-Party Risk Management.
 
+- # Exit Strategy & Offboarding
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Understand the importance of vendor exit strategies within Third-Party Risk Management (TPRM).
+- Explain the objectives of vendor offboarding and contract termination.
+- Identify the key activities involved in securely ending a third-party relationship.
+- Understand how offboarding protects organizational assets, data, and business operations.
+- Recognize the relationship between exit planning, business continuity, and operational resilience.
+- Apply best practices for developing vendor exit and offboarding procedures.
+
+---
+
+# Introduction
+
+Every vendor relationship eventually comes to an end. Contracts expire, services are replaced, vendors are acquired, business requirements change, or organizations decide to bring services back in-house. Regardless of the reason, ending a third-party relationship should be managed as carefully as onboarding.
+
+Without a structured exit strategy, organizations may leave active user accounts, fail to recover sensitive data, lose critical business knowledge, violate contractual obligations, or experience unnecessary operational disruptions. These issues can introduce cybersecurity, compliance, financial, and operational risks long after the vendor relationship has ended.
+
+A formal vendor exit strategy ensures that services are transitioned in a controlled manner, organizational assets are protected, and business operations continue with minimal disruption.
+
+---
+
+# What is Vendor Offboarding?
+
+Vendor offboarding is the controlled process of terminating a third-party relationship while ensuring that all security, operational, legal, and contractual obligations are completed.
+
+Vendor offboarding typically includes:
+
+- Contract termination.
+- Service transition.
+- Access removal.
+- Data return or destruction.
+- Asset recovery.
+- Final compliance verification.
+- Documentation updates.
+- Relationship closure.
+
+A structured offboarding process reduces residual risks after the vendor engagement ends.
+
+---
+
+# Purpose of an Exit Strategy
+
+An effective exit strategy helps organizations:
+
+- Protect sensitive information.
+- Ensure business continuity.
+- Prevent unauthorized access.
+- Meet contractual obligations.
+- Maintain regulatory compliance.
+- Reduce operational disruption.
+- Preserve organizational knowledge.
+- Support smooth service transitions.
+
+Exit planning should begin during vendor selection and contract negotiation, not only at contract termination.
+
+---
+
+# Key Offboarding Activities
+
+Organizations should establish a standardized offboarding process.
+
+| Activity | Purpose |
+|------|------|
+| Contract Closure | Confirm contractual obligations have been fulfilled |
+| Access Revocation | Remove vendor access to systems and facilities |
+| Data Return or Destruction | Ensure organizational data is securely handled |
+| Asset Recovery | Recover equipment, credentials, and documentation |
+| Knowledge Transfer | Transfer operational knowledge to internal teams or replacement vendors |
+| Final Security Review | Verify no remaining security exposures |
+| Documentation Update | Update vendor inventories and records |
+| Relationship Closure | Officially close the vendor engagement |
+
+Each activity helps minimize risks associated with vendor termination.
+
+---
+
+# Data Protection During Offboarding
+
+Data protection is one of the most critical aspects of vendor offboarding.
+
+Organizations should ensure:
+
+- Organizational data is returned where required.
+- Unnecessary copies are securely deleted.
+- Data destruction is verified.
+- Backup retention requirements are addressed.
+- Encryption keys are managed appropriately.
+- Personal data obligations are fulfilled.
+- Regulatory retention requirements are satisfied.
+- Evidence of data disposal is documented.
+
+Proper data handling reduces privacy and compliance risks.
+
+---
+
+# Access and Asset Management
+
+Organizations should immediately revoke vendor access once services are no longer required.
+
+Common activities include:
+
+- Disable user accounts.
+- Remove privileged access.
+- Revoke VPN access.
+- Remove API credentials.
+- Recover physical access cards.
+- Retrieve company-owned devices.
+- Disable shared accounts.
+- Update identity management systems.
+
+Prompt access removal reduces the risk of unauthorized activity.
+
+---
+
+# Business Continuity Considerations
+
+Vendor exits should not interrupt critical business operations.
+
+Organizations should prepare for:
+
+- Replacement vendor onboarding.
+- Internal resource readiness.
+- Service migration.
+- Data migration.
+- System testing.
+- Operational validation.
+- Customer communication where necessary.
+- Post-transition monitoring.
+
+Business continuity planning ensures services remain available during the transition.
+
+---
+
+# Vendor Offboarding Process
+
+Organizations should establish a structured exit process.
+
+```text
+Decision to Terminate
+
+↓
+
+Develop Exit Plan
+
+↓
+
+Notify Vendor
+
+↓
+
+Transfer Services
+
+↓
+
+Return or Destroy Data
+
+↓
+
+Remove Access
+
+↓
+
+Recover Assets
+
+↓
+
+Close Vendor Relationship
+```
+
+A documented process ensures that offboarding activities are completed consistently and securely.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Vendor Exit and Offboarding Process
+
+**Diagram Description:**
+
+```text
+Termination Decision
+
+↓
+
+Exit Planning
+
+↓
+
+Service Transition
+
+↓
+
+Access Removal
+
+↓
+
+Data Protection
+
+↓
+
+Relationship Closure
+```
+
+**Caption:**
+
+*"A structured vendor exit strategy protects organizational assets, supports business continuity, and reduces security and compliance risks during the termination of third-party relationships."*
+
+---
+
+# Common Challenges
+
+Organizations may encounter several challenges during vendor offboarding.
+
+| Challenge | Description |
+|------|------|
+| Incomplete Access Removal | Former vendors retain unnecessary system access |
+| Data Retention Issues | Organizational data is not securely returned or destroyed |
+| Poor Knowledge Transfer | Critical operational knowledge is lost |
+| Service Disruption | Transition planning is inadequate |
+| Contractual Disputes | Exit responsibilities are unclear |
+| Weak Documentation | Offboarding evidence is incomplete or missing |
+
+Proper planning and governance help minimize these risks.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Develop an exit strategy during vendor onboarding.
+- Include exit requirements within vendor contracts.
+- Maintain documented offboarding procedures.
+- Revoke all logical and physical access promptly.
+- Verify secure return or destruction of organizational data.
+- Conduct final security and compliance reviews.
+- Update vendor inventories and asset registers.
+- Document all offboarding activities.
+- Perform lessons learned reviews after major vendor transitions.
+- Periodically test exit plans for critical vendors.
+
+---
+
+# Practical Example
+
+A healthcare organization decides to replace its cloud-based electronic health records provider with a new platform. Because the vendor stores sensitive patient information, the organization activates its formal vendor exit plan before the contract expires.
+
+The transition team coordinates data migration to the new provider, validates data integrity, revokes all administrative accounts, disables API connections, recovers encryption keys, and obtains written confirmation that all remaining patient data has been securely deleted from the former vendor's environment. A final security review confirms that no active connections remain, and the vendor record is updated to reflect the completed offboarding process. The structured exit strategy enables a seamless transition while protecting patient information and maintaining regulatory compliance.
+
+---
+
+# Key Takeaways
+
+- Vendor exit strategies are an essential component of the Third-Party Risk Management lifecycle.
+- Secure offboarding protects organizational data, systems, and business operations after a vendor relationship ends.
+- Exit planning should begin during vendor selection and contract negotiation.
+- Data protection, access removal, asset recovery, and service transition are critical offboarding activities.
+- Business continuity planning helps minimize operational disruption during vendor transitions.
+- Well-managed offboarding strengthens governance, supports regulatory compliance, and reduces long-term third-party risk.
+
 - 

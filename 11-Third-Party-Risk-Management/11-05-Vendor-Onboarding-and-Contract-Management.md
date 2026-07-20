@@ -299,4 +299,289 @@ The Information Security team configures multi-factor authentication, role-based
 - Comprehensive documentation supports audit readiness and ongoing vendor management.
 - A secure onboarding process establishes a strong foundation for successful Third-Party Risk Management throughout the vendor lifecycle.
 
+- # Contract Risk Clauses
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Understand the importance of risk clauses in third-party contracts.
+- Identify common cybersecurity, privacy, and compliance clauses included in vendor agreements.
+- Explain how contractual provisions reduce organizational risk.
+- Understand the relationship between contract management and Third-Party Risk Management (TPRM).
+- Recognize the responsibilities of both organizations and vendors under contractual agreements.
+- Apply best practices for developing risk-based vendor contracts.
+
+---
+
+# Introduction
+
+A contract is more than a legal agreement for purchasing products or services. In Third-Party Risk Management (TPRM), contracts are one of the most important governance mechanisms for managing risk. They establish the rights, responsibilities, and obligations of both the organization and the vendor while defining how risks will be managed throughout the business relationship.
+
+Even if a vendor demonstrates strong cybersecurity and operational capabilities during due diligence, risks can still arise if contractual responsibilities are unclear or incomplete. Well-defined risk clauses ensure that vendors understand security expectations, regulatory obligations, incident reporting requirements, audit rights, and service commitments before work begins.
+
+Risk-based contracts provide organizations with legal protection and operational assurance while supporting compliance with international standards such as ISO/IEC 27001, NIST CSF 2.0, NIS2, DORA, GDPR, and other applicable regulations.
+
+---
+
+# What are Contract Risk Clauses?
+
+Contract risk clauses are contractual provisions that define how specific risks will be managed during the vendor relationship.
+
+These clauses establish expectations regarding:
+
+- Information security.
+- Privacy protection.
+- Regulatory compliance.
+- Operational resilience.
+- Incident management.
+- Service performance.
+- Audit rights.
+- Contract termination.
+
+Together, these provisions strengthen governance and reduce uncertainty.
+
+---
+
+# Purpose of Risk Clauses
+
+Risk clauses help organizations:
+
+- Protect confidential information.
+- Reduce legal exposure.
+- Clarify responsibilities.
+- Establish security requirements.
+- Support regulatory compliance.
+- Define service expectations.
+- Enable effective oversight.
+- Strengthen business resilience.
+
+A comprehensive contract provides a shared understanding of how risks will be managed.
+
+---
+
+# Common Contract Risk Clauses
+
+Organizations typically include multiple governance and security provisions in vendor contracts.
+
+| Clause | Purpose |
+|------|------|
+| Confidentiality | Protect sensitive business information |
+| Information Security | Define minimum security requirements |
+| Data Protection | Establish privacy and personal data obligations |
+| Service Level Agreement (SLA) | Define expected service performance |
+| Incident Notification | Specify reporting timelines for security incidents |
+| Business Continuity | Ensure continuity and disaster recovery capabilities |
+| Audit Rights | Allow assessment of vendor compliance |
+| Termination | Define conditions for ending the relationship |
+
+The specific clauses should reflect the vendor's level of risk and criticality.
+
+---
+
+# Cybersecurity Requirements
+
+Contracts should clearly define cybersecurity expectations.
+
+Common requirements include:
+
+- Multi-factor authentication (MFA).
+- Encryption of sensitive data.
+- Access control management.
+- Vulnerability management.
+- Security awareness training.
+- Security monitoring.
+- Incident response capabilities.
+- Regular security assessments.
+
+These requirements establish a baseline level of cybersecurity throughout the engagement.
+
+---
+
+# Privacy and Regulatory Clauses
+
+If vendors process personal or regulated information, contracts should address legal and regulatory obligations.
+
+Typical provisions include:
+
+- GDPR compliance.
+- Data processing agreements.
+- Cross-border data transfer requirements.
+- Data retention periods.
+- Data deletion procedures.
+- Privacy impact assessments.
+- Regulatory notification obligations.
+- Cooperation during investigations.
+
+Clear privacy obligations reduce regulatory and legal risks.
+
+---
+
+# Operational and Business Continuity Clauses
+
+Operational resilience should also be addressed in vendor contracts.
+
+Organizations often require:
+
+- Business continuity plans.
+- Disaster recovery capabilities.
+- Recovery Time Objectives (RTOs).
+- Recovery Point Objectives (RPOs).
+- Service availability commitments.
+- Backup procedures.
+- Resilience testing.
+- Supply chain continuity planning.
+
+These clauses help maintain business operations during disruptions.
+
+---
+
+# Audit and Assurance Clauses
+
+Organizations should reserve the right to evaluate vendor compliance.
+
+Audit provisions may include:
+
+- Internal audit rights.
+- Independent third-party audits.
+- ISO certification reviews.
+- SOC report reviews.
+- Security evidence requests.
+- Compliance assessments.
+- On-site inspections.
+- Corrective action follow-up.
+
+Audit rights improve transparency and accountability.
+
+---
+
+# Contract Management Process
+
+Risk clauses should be reviewed throughout the contract lifecycle.
+
+```text
+Identify Business Requirements
+
+↓
+
+Draft Contract
+
+↓
+
+Review Risk Clauses
+
+↓
+
+Legal and Security Review
+
+↓
+
+Contract Approval
+
+↓
+
+Contract Execution
+
+↓
+
+Ongoing Monitoring
+
+↓
+
+Renewal or Termination
+```
+
+Contract management is a continuous governance activity rather than a one-time event.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Contract Risk Management Lifecycle
+
+**Diagram Description:**
+
+```text
+Business Requirements
+
+↓
+
+Contract Drafting
+
+↓
+
+Risk Clause Review
+
+↓
+
+Approval
+
+↓
+
+Vendor Management
+
+↓
+
+Renewal
+```
+
+**Caption:**
+
+*"Risk-based contract clauses establish clear security, compliance, operational, and legal responsibilities throughout the vendor relationship."*
+
+---
+
+# Common Challenges
+
+Organizations may encounter several challenges when developing vendor contracts.
+
+| Challenge | Description |
+|------|------|
+| Generic Contracts | Security and compliance risks are not adequately addressed |
+| Missing Security Clauses | Cybersecurity responsibilities are unclear |
+| Weak Audit Rights | Organizations cannot effectively verify vendor compliance |
+| Regulatory Changes | Contracts become outdated due to evolving regulations |
+| Inconsistent Language | Different contracts define obligations differently |
+| Limited Negotiation | Vendors may resist certain contractual requirements |
+
+Regular contract reviews help ensure that agreements remain effective and aligned with business needs.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Develop standardized contract templates.
+- Tailor risk clauses based on vendor criticality.
+- Include cybersecurity and privacy obligations.
+- Define clear incident notification requirements.
+- Establish measurable service level agreements.
+- Reserve audit and assessment rights.
+- Review contracts periodically.
+- Coordinate legal, procurement, security, and compliance teams.
+- Align contracts with applicable regulations and standards.
+- Maintain a centralized contract repository.
+
+---
+
+# Practical Example
+
+A retail company signs a contract with a cloud-based payment processing provider. Because the vendor will process customer payment information, the organization includes enhanced cybersecurity and compliance clauses within the agreement.
+
+The contract requires encryption of payment data, multi-factor authentication for administrative access, annual penetration testing, PCI DSS compliance, incident notification within 24 hours, business continuity testing, and the right for the organization to review independent audit reports. These contractual provisions clearly define vendor responsibilities, reduce operational uncertainty, and provide legal mechanisms to address security or compliance issues if they arise.
+
+---
+
+# Key Takeaways
+
+- Contract risk clauses define how security, privacy, operational, and regulatory risks will be managed throughout the vendor relationship.
+- Effective contracts establish clear responsibilities for both organizations and vendors.
+- Cybersecurity, privacy, audit rights, business continuity, and incident notification are common contractual provisions.
+- Risk-based contracts support compliance with international standards and regulatory requirements.
+- Contract management should continue throughout the vendor lifecycle, including renewals and amendments.
+- Well-designed contractual controls strengthen Third-Party Risk Management and reduce organizational risk.
+
 - 

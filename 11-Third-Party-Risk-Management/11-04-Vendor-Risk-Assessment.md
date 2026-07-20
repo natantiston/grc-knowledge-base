@@ -6,8 +6,6 @@
 >
 > **Topic:** Vendor Risk Assessment
 >
-> **Part 1:** Risk Assessment Methodology
->
 > **Difficulty:** Intermediate
 >
 > **Estimated Reading Time:** 10–15 minutes

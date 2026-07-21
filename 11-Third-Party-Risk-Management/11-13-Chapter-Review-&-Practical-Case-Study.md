@@ -708,4 +708,282 @@ This illustrates an important principle of Third-Party Risk Management: organiza
 - Lessons learned and corrective actions strengthen the overall maturity of the TPRM program and improve future resilience.
 
 > 
-> 
+> # Executive Review, Program Evaluation & Chapter Summary
+
+---
+
+# Learning Objectives
+
+By the end of this section, you will be able to:
+
+- Evaluate the effectiveness of a Third-Party Risk Management (TPRM) program.
+- Understand how executive reporting supports governance and strategic decision-making.
+- Review the complete third-party vendor lifecycle from planning to contract termination.
+- Identify opportunities for continuous improvement within a TPRM program.
+- Summarize the key concepts learned throughout Chapter 11.
+- Apply TPRM best practices within an enterprise Governance, Risk, and Compliance (GRC) program.
+
+---
+
+# Introduction
+
+One year after onboarding the cloud service provider, GlobalBank conducts its annual Third-Party Risk Management program review. The objective is to evaluate the effectiveness of the vendor relationship, assess overall program performance, and identify opportunities for improvement.
+
+The review is presented to executive management and the Board Risk Committee, providing assurance that vendor risks are being managed effectively while supporting the organization's strategic objectives.
+
+Rather than focusing solely on security incidents, the review considers operational performance, regulatory compliance, contractual obligations, financial stability, and overall business value delivered by the vendor.
+
+---
+
+# Phase 18 — Executive Performance Review
+
+The Vendor Relationship Manager prepares an annual executive report summarizing the vendor's overall performance.
+
+The report includes:
+
+- Overall vendor risk rating.
+- Security assessment results.
+- SLA performance.
+- Regulatory compliance status.
+- Security incidents.
+- Business continuity testing results.
+- Financial stability assessment.
+- Audit findings.
+- Corrective action status.
+- Residual risk rating.
+
+The executive report enables senior management to understand the current risk posture and determine whether the vendor relationship should continue.
+
+---
+
+# Executive Dashboard
+
+GlobalBank uses executive dashboards to provide a clear view of vendor performance and risk.
+
+| Executive Metric | Status |
+|------------------|--------|
+| Overall Vendor Risk | Medium |
+| Critical Findings | 0 |
+| High Findings | 2 (Resolved) |
+| SLA Compliance | 99.6% |
+| Security Incidents | 1 (Resolved) |
+| Regulatory Violations | None |
+| Business Continuity Tests | Successful |
+| Annual Risk Assessment | Completed |
+| Contract Compliance | Fully Compliant |
+| Executive Approval Status | Continued |
+
+The dashboard allows executives to quickly evaluate the effectiveness of vendor governance without reviewing detailed technical reports.
+
+---
+
+# Phase 19 — Vendor Lifecycle Review
+
+The TPRM Steering Committee reviews the complete lifecycle of the vendor relationship.
+
+```text
+Business Need
+
+↓
+
+Vendor Identification
+
+↓
+
+Risk Classification
+
+↓
+
+Due Diligence
+
+↓
+
+Security Assessment
+
+↓
+
+Contract Negotiation
+
+↓
+
+Executive Approval
+
+↓
+
+Vendor Onboarding
+
+↓
+
+Continuous Monitoring
+
+↓
+
+Incident Response
+
+↓
+
+Risk Reassessment
+
+↓
+
+Annual Review
+
+↓
+
+Contract Renewal or Exit
+```
+
+The lifecycle demonstrates that Third-Party Risk Management is a continuous process rather than a one-time assessment performed during procurement.
+
+---
+
+# Program Evaluation
+
+GlobalBank evaluates the effectiveness of its Third-Party Risk Management program using several maturity indicators.
+
+| Evaluation Area | Assessment |
+|-----------------|------------|
+| Governance | Mature |
+| Vendor Inventory | Mature |
+| Risk Assessments | Mature |
+| Due Diligence | Mature |
+| Security Assessments | Mature |
+| Continuous Monitoring | Mature |
+| Incident Management | Effective |
+| Executive Reporting | Effective |
+| Regulatory Compliance | Effective |
+| Continuous Improvement | Ongoing |
+
+The assessment concludes that the TPRM program effectively supports the organization's cybersecurity, operational resilience, and regulatory compliance objectives.
+
+---
+
+# Opportunities for Continuous Improvement
+
+Although the program demonstrates a high level of maturity, GlobalBank identifies several opportunities for enhancement.
+
+These include:
+
+- Expanding automation within the TPRM platform.
+- Increasing the use of security rating services.
+- Enhancing continuous threat intelligence integration.
+- Improving fourth-party visibility.
+- Strengthening AI-assisted risk analytics.
+- Conducting more frequent vendor resilience exercises.
+- Increasing collaboration with critical suppliers.
+- Enhancing executive dashboard analytics.
+
+Continuous improvement ensures that the program evolves alongside changing technologies, business priorities, and emerging cyber threats.
+
+---
+
+# Practical Lessons from the Case Study
+
+The GlobalBank case study demonstrates several important principles of effective Third-Party Risk Management.
+
+Successful organizations:
+
+- Establish strong governance before vendor onboarding.
+- Apply risk-based due diligence.
+- Perform comprehensive security assessments.
+- Negotiate contracts that clearly define security responsibilities.
+- Continuously monitor vendor performance and cybersecurity risks.
+- Respond rapidly to incidents using coordinated processes.
+- Periodically reassess vendor risks.
+- Continuously improve their TPRM program through lessons learned.
+
+These practices help organizations reduce operational, cybersecurity, legal, financial, and reputational risks associated with third-party relationships.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** End-to-End Third-Party Risk Management Lifecycle
+
+**Diagram Description:**
+
+```text
+Governance
+
+↓
+
+Vendor Identification
+
+↓
+
+Risk Assessment
+
+↓
+
+Due Diligence
+
+↓
+
+Security Validation
+
+↓
+
+Contract Management
+
+↓
+
+Vendor Onboarding
+
+↓
+
+Continuous Monitoring
+
+↓
+
+Incident Response
+
+↓
+
+Risk Reassessment
+
+↓
+
+Executive Reporting
+
+↓
+
+Continuous Improvement
+```
+
+**Caption:**
+
+*"Third-Party Risk Management is a continuous lifecycle that integrates governance, security, compliance, monitoring, and continual improvement to protect the organization from vendor-related risks."*
+
+---
+
+# Chapter 11 Summary
+
+Throughout this chapter, you explored the complete lifecycle of Third-Party Risk Management, beginning with governance and vendor identification, progressing through risk assessment, due diligence, security validation, contract management, privacy and regulatory compliance, continuous monitoring, incident management, and concluding with a practical enterprise case study.
+
+You learned that effective Third-Party Risk Management is not limited to vendor onboarding. Instead, it requires continuous oversight, collaboration between business and technical teams, executive governance, and regular reassessment to ensure that third-party relationships continue to support organizational objectives while maintaining acceptable levels of risk.
+
+As organizations increasingly depend on cloud providers, software vendors, outsourcing partners, and managed service providers, Third-Party Risk Management has become a critical component of enterprise Governance, Risk, and Compliance (GRC). A mature TPRM program strengthens cybersecurity, improves regulatory compliance, enhances operational resilience, and builds confidence among customers, regulators, and business stakeholders.
+
+---
+
+# Key Takeaways
+
+- Third-Party Risk Management is a continuous lifecycle rather than a one-time assessment.
+- Effective governance ensures accountability throughout the vendor relationship.
+- Risk-based due diligence and security assessments help organizations make informed onboarding decisions.
+- Contracts establish clear security, privacy, and compliance responsibilities for vendors.
+- Continuous monitoring and incident response reduce the impact of evolving third-party risks.
+- Executive reporting supports informed governance and strategic decision-making.
+- Continuous improvement enables TPRM programs to adapt to changing business, technology, and regulatory environments.
+- A mature TPRM program is essential for protecting organizational assets, maintaining regulatory compliance, and ensuring long-term business resilience.
+
+---
+
+## Congratulations!
+
+You have successfully completed **Chapter 11 – Third-Party Risk Management (TPRM).**
+
+In this chapter, you gained a comprehensive understanding of how organizations identify, assess, onboard, monitor, govern, and continuously manage third-party risks throughout the vendor lifecycle. The concepts covered in this chapter align with leading practices from **ISO/IEC 27001**, **ISO/IEC 27036**, **ISO 31000**, **NIST Cybersecurity Framework (CSF) 2.0**, **NIST SP 800-161**, and modern enterprise GRC programs.
+
+The knowledge gained from this chapter provides a strong foundation for designing, implementing, assessing, and improving Third-Party Risk Management programs within organizations of all sizes and across all industries.
+

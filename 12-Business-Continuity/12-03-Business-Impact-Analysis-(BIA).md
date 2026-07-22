@@ -694,4 +694,231 @@ Based on these findings, management classifies the order processing system as a 
 - Impact Assessment provides the information needed to establish recovery priorities and continuity strategies.
 - A well-executed Impact Assessment enables organizations to make informed decisions that strengthen resilience and support effective Business Continuity Management.
 
+- # Recovery Objectives (RTO, RPO, MAO & MTPD)
+
+---
+
+# Learning Objectives
+
+By the end of this section, you will be able to:
+
+- Define the key recovery objectives used in Business Continuity Management.
+- Understand the difference between Recovery Time Objective (RTO), Recovery Point Objective (RPO), Maximum Acceptable Outage (MAO), and Maximum Tolerable Period of Disruption (MTPD).
+- Explain how recovery objectives are established during a Business Impact Analysis (BIA).
+- Recognize how recovery objectives influence Business Continuity and Disaster Recovery planning.
+- Understand the relationship between business requirements and technology recovery.
+- Apply recovery objectives to practical business continuity scenarios.
+
+---
+
+# Introduction
+
+One of the most important outcomes of a Business Impact Analysis (BIA) is the establishment of recovery objectives. These objectives define how quickly critical business processes and supporting technology must be restored after a disruption.
+
+Without clearly defined recovery objectives, organizations may struggle to prioritize recovery efforts, allocate resources effectively, or meet customer and regulatory expectations during an incident.
+
+Recovery objectives provide measurable targets that guide Business Continuity Planning (BCP), Disaster Recovery (DR), incident response, and technology investments. They help ensure that recovery activities are aligned with business priorities rather than technical preferences.
+
+---
+
+# What are Recovery Objectives?
+
+Recovery objectives are predefined targets that specify the acceptable level of disruption an organization can tolerate before significant business impacts occur.
+
+These objectives help organizations answer critical questions such as:
+
+- How quickly must this business process be restored?
+- How much data loss is acceptable?
+- How long can the organization tolerate an interruption?
+- Which systems should be recovered first?
+- What level of recovery capability is required?
+
+The answers to these questions form the foundation of continuity and recovery planning.
+
+---
+
+# Recovery Time Objective (RTO)
+
+The **Recovery Time Objective (RTO)** is the maximum amount of time a business process, application, or service can remain unavailable after a disruption before unacceptable consequences occur.
+
+For example:
+
+- Online banking system: **RTO = 1 hour**
+- Payroll system: **RTO = 24 hours**
+- Human Resources portal: **RTO = 48 hours**
+
+A shorter RTO generally requires greater investment in resilient infrastructure, high availability, and recovery capabilities.
+
+---
+
+# Recovery Point Objective (RPO)
+
+The **Recovery Point Objective (RPO)** defines the maximum amount of data loss that an organization is willing to accept following a disruption.
+
+RPO is measured in time and indicates how current recovered data must be.
+
+Examples include:
+
+- Financial transactions: **RPO = 5 minutes**
+- Customer database: **RPO = 15 minutes**
+- Document management system: **RPO = 4 hours**
+
+A lower RPO requires more frequent backups, real-time replication, or continuous data protection technologies.
+
+---
+
+# Maximum Acceptable Outage (MAO)
+
+The **Maximum Acceptable Outage (MAO)**, sometimes referred to as the **Maximum Acceptable Downtime**, represents the longest period that a business process can remain unavailable before the organization's viability is seriously threatened.
+
+Unlike the RTO, which is the target recovery time, the MAO represents the absolute limit beyond which business impacts become unacceptable.
+
+For example:
+
+- Payment processing service: **MAO = 4 hours**
+- Manufacturing production line: **MAO = 12 hours**
+- Employee training portal: **MAO = 5 days**
+
+Recovery activities should always aim to restore services well before reaching the MAO.
+
+---
+
+# Maximum Tolerable Period of Disruption (MTPD)
+
+The **Maximum Tolerable Period of Disruption (MTPD)** is the maximum time after which the organization's ability to achieve its business objectives would be severely compromised if a critical activity is not resumed.
+
+Although often used interchangeably with MAO, ISO 22301 primarily uses the term **MTPD** to describe the maximum duration that a disruption can be tolerated before irreversible consequences occur.
+
+The MTPD helps organizations determine the latest acceptable point for restoring critical business activities and serves as an important reference when defining Recovery Time Objectives.
+
+---
+
+# Relationship Between Recovery Objectives
+
+The recovery objectives are closely related.
+
+```text
+Disruption Occurs
+
+↓
+
+Recovery Activities Begin
+
+↓
+
+Recovery Time Objective (RTO)
+
+↓
+
+Business Process Restored
+
+↓
+
+Maximum Acceptable Outage (MAO)
+or
+Maximum Tolerable Period of Disruption (MTPD)
+
+↓
+
+Unacceptable Business Impact
+```
+
+Similarly, the Recovery Point Objective determines how much data loss can be tolerated during the recovery process.
+
+Together, these objectives establish clear recovery targets for both business operations and supporting technology.
+
+---
+
+# Recovery Objectives Comparison
+
+| Objective | Purpose | Measured By |
+|-----------|---------|-------------|
+| Recovery Time Objective (RTO) | Maximum acceptable time to restore a service | Time |
+| Recovery Point Objective (RPO) | Maximum acceptable amount of data loss | Time |
+| Maximum Acceptable Outage (MAO) | Longest acceptable interruption before severe business impact | Time |
+| Maximum Tolerable Period of Disruption (MTPD) | Maximum disruption before organizational viability is threatened | Time |
+
+Each objective supports different aspects of Business Continuity and Disaster Recovery planning.
+
+---
+
+# Establishing Recovery Objectives
+
+Recovery objectives are determined during the Business Impact Analysis by evaluating:
+
+- Business criticality.
+- Financial impact.
+- Customer expectations.
+- Regulatory requirements.
+- Contractual obligations.
+- Operational dependencies.
+- Technology capabilities.
+- Recovery costs.
+- Organizational risk tolerance.
+
+Recovery objectives should be approved by business owners rather than determined solely by IT teams.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Relationship Between RTO, RPO, MAO, and MTPD
+
+**Diagram Description:**
+
+```text
+Business Disruption
+
+↓
+
+Recovery Begins
+
+↓
+
+RPO
+(Maximum Data Loss)
+
+↓
+
+RTO
+(Target Recovery Time)
+
+↓
+
+Business Service Restored
+
+↓
+
+MAO / MTPD
+(Maximum Tolerable Downtime)
+
+↓
+
+Critical Business Failure
+```
+
+**Caption:**
+
+*"Recovery objectives define acceptable downtime and data loss, enabling organizations to prioritize recovery activities and maintain critical business operations during disruptive events."*
+
+---
+
+# Practical Example
+
+A multinational insurance company performs a Business Impact Analysis for its online claims processing system.
+
+The analysis determines that customers expect continuous availability, and prolonged outages would significantly affect customer satisfaction and regulatory obligations. The business owners establish an RTO of two hours to restore the application before service commitments are impacted. Because claim information is continuously updated throughout the day, an RPO of fifteen minutes is selected to minimize potential data loss. The analysis also identifies an MTPD of eight hours, beyond which the organization's ability to process insurance claims and meet contractual obligations would be severely affected.
+
+Using these recovery objectives, the IT department implements redundant cloud infrastructure, automated failover capabilities, and continuous data replication to ensure that recovery targets can be achieved during a disruption.
+
+---
+
+# Key Takeaways
+
+- Recovery objectives define the acceptable levels of downtime and data loss for critical business processes.
+- Recovery Time Objective (RTO) specifies how quickly a service must be restored after a disruption.
+- Recovery Point Objective (RPO) defines the maximum amount of data loss that can be tolerated.
+- Maximum Acceptable Outage (MAO) and Maximum Tolerable Period of Disruption (MTPD) establish the maximum duration that a business process can remain unavailable before severe consequences occur.
+- Recovery objectives are established during the Business Impact Analysis and guide Business Continuity and Disaster Recovery planning.
+- Clearly defined recovery objectives enable organizations to prioritize recovery efforts, allocate resources effectively, and strengthen operational resilience.
 - 

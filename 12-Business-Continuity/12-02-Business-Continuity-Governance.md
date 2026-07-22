@@ -718,4 +718,218 @@ During a regulatory audit, the approved policy demonstrates executive commitment
 - Regular reviews and executive approval ensure that the policy remains effective and aligned with organizational objectives.
 - A strong Business Continuity Policy is a fundamental requirement for building an effective, resilient, and well-governed BCMS.
 
-- 
+- # Leadership Commitment & Governance Oversight
+
+---
+
+# Learning Objectives
+
+By the end of this section, you will be able to:
+
+- Understand why leadership commitment is essential for Business Continuity Management (BCM).
+- Explain the role of executive management and the Board of Directors in BCM governance.
+- Identify governance oversight activities within a Business Continuity Management System (BCMS).
+- Recognize how management reviews support continual improvement.
+- Understand how leadership promotes a culture of resilience.
+- Explain how governance oversight aligns BCM with organizational strategy.
+
+---
+
+# Introduction
+
+An effective Business Continuity Management System (BCMS) requires more than documented plans and recovery procedures—it requires visible and sustained commitment from senior leadership.
+
+Leadership commitment ensures that Business Continuity Management receives appropriate attention, resources, and strategic direction. Without executive support, BCM initiatives often become isolated projects with limited organizational impact. Senior management plays a vital role in integrating business continuity into corporate governance, risk management, and strategic planning.
+
+Governance oversight provides the mechanisms through which leadership monitors the effectiveness of the BCMS, reviews performance, addresses emerging risks, and ensures continual improvement.
+
+---
+
+# Why Leadership Commitment Matters
+
+Business Continuity Management affects every part of an organization, including people, processes, technology, facilities, suppliers, and customers. Because of its enterprise-wide impact, executive leadership must actively support and champion BCM initiatives.
+
+Leadership commitment helps organizations to:
+
+- Establish Business Continuity as a strategic priority.
+- Provide adequate funding and resources.
+- Define organizational resilience objectives.
+- Promote accountability across departments.
+- Encourage collaboration between business units.
+- Support continual improvement.
+- Strengthen stakeholder confidence.
+
+Organizations with strong executive sponsorship are generally more resilient and better prepared to respond to disruptive events.
+
+---
+
+# Responsibilities of Executive Management
+
+Executive Management is responsible for ensuring that the Business Continuity Management System is effectively implemented and maintained.
+
+Typical responsibilities include:
+
+- Approving the Business Continuity Policy.
+- Defining Business Continuity objectives.
+- Allocating financial and human resources.
+- Appointing a Business Continuity Manager.
+- Reviewing BCM performance.
+- Supporting Business Impact Analyses (BIAs).
+- Approving continuity strategies.
+- Participating in crisis management during major incidents.
+- Promoting continual improvement.
+
+Executive leadership sets the tone for the organization's resilience culture.
+
+---
+
+# Role of the Board of Directors
+
+The Board of Directors provides strategic oversight rather than operational management of the BCMS.
+
+Its responsibilities typically include:
+
+- Approving the organization's resilience strategy.
+- Monitoring significant business continuity risks.
+- Reviewing BCM performance reports.
+- Ensuring effective governance.
+- Confirming that adequate resources are available.
+- Holding executive management accountable for BCM effectiveness.
+
+The Board focuses on whether the organization can continue delivering critical services during major disruptions while protecting stakeholders and organizational value.
+
+---
+
+# Governance Oversight Activities
+
+Governance oversight ensures that the BCMS remains effective and aligned with organizational objectives.
+
+Typical oversight activities include:
+
+- Reviewing Business Continuity policies.
+- Monitoring BCM objectives.
+- Evaluating risk assessment results.
+- Reviewing Business Impact Analysis findings.
+- Assessing testing and exercise outcomes.
+- Monitoring corrective actions.
+- Reviewing audit findings.
+- Evaluating regulatory compliance.
+- Approving program improvements.
+
+These activities help leadership maintain visibility into the organization's resilience capabilities.
+
+---
+
+# Management Review
+
+Management Review is a formal process through which executive leadership evaluates the effectiveness of the Business Continuity Management System.
+
+Topics commonly reviewed include:
+
+- BCM objectives and performance.
+- Results of Business Continuity exercises.
+- Internal and external audit findings.
+- Business Impact Analysis updates.
+- Risk assessment results.
+- Incident reports.
+- Corrective actions.
+- Resource requirements.
+- Opportunities for improvement.
+
+Management Reviews should be conducted regularly to ensure that the BCMS continues to support organizational needs.
+
+---
+
+# Leadership and Organizational Culture
+
+Leadership plays a critical role in creating a culture of resilience.
+
+A positive resilience culture is demonstrated when leaders:
+
+- Communicate the importance of Business Continuity.
+- Encourage employee participation.
+- Support training and awareness.
+- Invest in preparedness initiatives.
+- Promote collaboration across departments.
+- Recognize the importance of continuous improvement.
+
+When employees observe visible leadership commitment, they are more likely to understand their responsibilities and actively contribute to Business Continuity efforts.
+
+---
+
+# Alignment with ISO 22301
+
+ISO 22301 places significant emphasis on leadership and governance.
+
+Top management is expected to:
+
+- Demonstrate leadership and commitment.
+- Establish the Business Continuity Policy.
+- Ensure Business Continuity objectives are established.
+- Integrate the BCMS into business processes.
+- Allocate adequate resources.
+- Promote continual improvement.
+- Support the effectiveness of the BCMS.
+
+These requirements reinforce the principle that Business Continuity is a leadership responsibility rather than solely an operational function.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Leadership and Governance Oversight in Business Continuity Management
+
+**Diagram Description:**
+
+```text
+Board of Directors
+
+↓
+
+Executive Management
+
+↓
+
+Business Continuity Governance
+
+↓
+
+Business Continuity Management System
+
+↓
+
+Management Reviews
+
+↓
+
+Continuous Improvement
+
+↓
+
+Organizational Resilience
+```
+
+**Caption:**
+
+*"Leadership commitment and governance oversight provide the strategic direction, accountability, and continual improvement necessary for an effective Business Continuity Management System."*
+
+---
+
+# Practical Example
+
+A multinational healthcare organization conducts quarterly Business Continuity Governance meetings chaired by the Chief Executive Officer (CEO). Executive leaders review Business Continuity objectives, recent exercise results, risk assessments, regulatory developments, and the status of corrective actions from previous audits.
+
+During one review, executives identify an increased dependency on cloud-based clinical applications. In response, additional funding is approved to enhance cloud resilience, improve disaster recovery capabilities, and conduct more frequent continuity exercises. The Board of Directors receives regular updates on these initiatives, ensuring that Business Continuity remains aligned with the organization's strategic priorities and regulatory obligations.
+
+This proactive governance approach strengthens organizational resilience and demonstrates leadership's commitment to protecting critical healthcare services.
+
+---
+
+# Key Takeaways
+
+- Leadership commitment is fundamental to the success of a Business Continuity Management System.
+- Executive Management provides direction, resources, and accountability for BCM implementation.
+- The Board of Directors provides strategic oversight and ensures Business Continuity aligns with organizational objectives.
+- Governance oversight includes management reviews, performance monitoring, audit reviews, and continual improvement.
+- A strong leadership culture promotes resilience, preparedness, and cross-functional collaboration.
+- Effective governance ensures that Business Continuity Management remains an integral part of enterprise governance, risk management, and long-term organizational success.

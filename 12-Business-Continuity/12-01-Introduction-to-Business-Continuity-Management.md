@@ -680,4 +680,319 @@ This example illustrates how Business Continuity Management transforms potential
 - Business Continuity Management supports regulatory compliance and aligns with enterprise governance and risk management.
 - Organizations that invest in BCM are better positioned to achieve long-term resilience and sustainable business success.
 
+# Business Continuity Management Lifecycle
 
+---
+
+# Learning Objectives
+
+By the end of this section, you will be able to:
+
+- Explain the Business Continuity Management (BCM) lifecycle.
+- Understand how a Business Continuity Management System (BCMS) is developed and maintained.
+- Identify the key phases of the BCM lifecycle.
+- Understand the importance of continual improvement in Business Continuity Management.
+- Recognize how the BCM lifecycle aligns with international standards such as ISO 22301.
+- Apply the lifecycle as a framework for establishing a resilient organization.
+
+---
+
+# Introduction
+
+Business Continuity Management is not a one-time project or a collection of documents created to satisfy compliance requirements. Instead, it is a continuous management process that evolves alongside the organization.
+
+As business operations, technologies, regulations, and risks change, Business Continuity plans must also be reviewed, tested, and updated. An outdated continuity plan may fail when it is needed most, making continuous improvement an essential part of an effective Business Continuity Management System (BCMS).
+
+To achieve this, organizations follow a structured lifecycle that guides the development, implementation, maintenance, and continual enhancement of their BCM program.
+
+---
+
+# The Business Continuity Management Lifecycle
+
+A mature BCM program follows a logical sequence of activities that continuously improve the organization's ability to prepare for, respond to, and recover from disruptive events.
+
+The lifecycle consists of the following phases:
+
+1. Governance and Leadership
+2. Risk Assessment
+3. Business Impact Analysis (BIA)
+4. Continuity Strategy Development
+5. Business Continuity Plan Development
+6. Training and Awareness
+7. Testing and Exercising
+8. Incident Response and Recovery
+9. Review and Continuous Improvement
+
+Each phase contributes to building and maintaining organizational resilience.
+
+---
+
+# Phase 1 – Governance and Leadership
+
+Every successful BCM program begins with leadership commitment.
+
+Senior management establishes:
+
+- Business Continuity Policy.
+- BCM objectives.
+- Governance structure.
+- Roles and responsibilities.
+- Resource allocation.
+- Program ownership.
+
+Strong governance ensures that Business Continuity Management aligns with organizational strategy and receives the necessary support from executive leadership.
+
+---
+
+# Phase 2 – Risk Assessment
+
+The next step is identifying threats and vulnerabilities that could disrupt business operations.
+
+Risk assessments evaluate events such as:
+
+- Cyberattacks.
+- Natural disasters.
+- Power failures.
+- Supply chain disruptions.
+- Equipment failures.
+- Human error.
+- Pandemic events.
+- Civil unrest.
+
+Understanding these risks helps organizations prioritize continuity planning efforts.
+
+---
+
+# Phase 3 – Business Impact Analysis (BIA)
+
+A Business Impact Analysis identifies the organization's critical business processes and evaluates the consequences of disruptions.
+
+The BIA helps determine:
+
+- Critical business services.
+- Maximum Acceptable Outage (MAO).
+- Recovery Time Objectives (RTO).
+- Recovery Point Objectives (RPO).
+- Resource dependencies.
+- Operational priorities.
+
+This information forms the foundation for continuity strategies and recovery planning.
+
+---
+
+# Phase 4 – Continuity Strategy Development
+
+Once risks and business impacts have been identified, organizations develop strategies to maintain critical operations during disruptions.
+
+Examples include:
+
+- Alternate work locations.
+- Remote working capabilities.
+- Cloud infrastructure.
+- Backup power systems.
+- Redundant network connectivity.
+- Secondary suppliers.
+- Cross-trained personnel.
+
+These strategies reduce the likelihood of prolonged business interruptions.
+
+---
+
+# Phase 5 – Business Continuity Planning
+
+Business Continuity Plans (BCPs) document the procedures required to respond to and recover from disruptive events.
+
+Typical plan components include:
+
+- Emergency response procedures.
+- Crisis communication.
+- Business recovery procedures.
+- Recovery priorities.
+- Team responsibilities.
+- Escalation procedures.
+- Contact information.
+- Recovery checklists.
+
+The plans provide clear guidance during actual emergencies.
+
+---
+
+# Phase 6 – Training and Awareness
+
+Even the best continuity plans are ineffective if employees do not understand their responsibilities.
+
+Organizations therefore provide:
+
+- BCM awareness training.
+- Role-specific training.
+- Executive briefings.
+- Crisis management workshops.
+- Communication exercises.
+- Employee awareness campaigns.
+
+Regular training ensures personnel are prepared to respond confidently during disruptions.
+
+---
+
+# Phase 7 – Testing and Exercising
+
+Business Continuity Plans should be regularly validated through testing and exercises.
+
+Common testing methods include:
+
+- Document reviews.
+- Tabletop exercises.
+- Walkthroughs.
+- Functional exercises.
+- Disaster Recovery testing.
+- Full-scale simulations.
+
+Testing verifies that continuity plans remain practical, effective, and aligned with current business operations.
+
+---
+
+# Phase 8 – Incident Response and Recovery
+
+When a disruptive event occurs, the organization activates its Business Continuity Plans.
+
+Activities may include:
+
+- Incident assessment.
+- Emergency response.
+- Crisis management.
+- Business continuity activation.
+- Disaster Recovery.
+- Service restoration.
+- Return to normal operations.
+
+The objective is to minimize disruption while restoring critical business functions as quickly and safely as possible.
+
+---
+
+# Phase 9 – Review and Continuous Improvement
+
+Business Continuity Management is an ongoing cycle of learning and improvement.
+
+Following exercises or real incidents, organizations conduct formal reviews to evaluate:
+
+- Response effectiveness.
+- Recovery performance.
+- Achievement of recovery objectives.
+- Lessons learned.
+- Corrective actions.
+- Opportunities for improvement.
+
+Plans, procedures, and strategies are updated to reflect changing business needs, technologies, and emerging risks.
+
+This continual improvement process ensures that the BCM program remains effective and relevant over time.
+
+---
+
+# Alignment with ISO 22301
+
+The Business Continuity Management lifecycle closely aligns with the Plan-Do-Check-Act (PDCA) model used in ISO 22301.
+
+```text
+Plan
+• Governance
+• Risk Assessment
+• Business Impact Analysis
+• Continuity Strategy
+
+↓
+
+Do
+• Business Continuity Planning
+• Training
+• Implementation
+
+↓
+
+Check
+• Testing
+• Monitoring
+• Internal Audits
+• Management Review
+
+↓
+
+Act
+• Corrective Actions
+• Lessons Learned
+• Continuous Improvement
+```
+
+The PDCA cycle promotes continual improvement and helps organizations maintain an effective Business Continuity Management System.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Business Continuity Management Lifecycle
+
+**Diagram Description:**
+
+```text
+Governance
+
+↓
+
+Risk Assessment
+
+↓
+
+Business Impact Analysis
+
+↓
+
+Continuity Strategy
+
+↓
+
+Business Continuity Planning
+
+↓
+
+Training & Awareness
+
+↓
+
+Testing & Exercises
+
+↓
+
+Incident Response & Recovery
+
+↓
+
+Review & Continuous Improvement
+
+↺ Repeat Cycle
+```
+
+**Caption:**
+
+*"Business Continuity Management is a continuous lifecycle that enables organizations to prepare for disruptions, maintain critical operations, recover effectively, and strengthen resilience through ongoing improvement."*
+
+---
+
+# Practical Example
+
+A multinational manufacturing company reviews its Business Continuity Management program every year. Following each exercise and real-world incident, the organization updates its risk assessments, revises recovery strategies, enhances continuity plans, and delivers additional employee training based on lessons learned.
+
+When a major regional flood disrupts one of its production facilities, the company successfully activates its Business Continuity Plan, shifts production to an alternate site, maintains customer deliveries, and restores normal operations within the established Recovery Time Objective (RTO).
+
+Because the BCM lifecycle had been consistently maintained, the organization responds efficiently, minimizes operational disruption, and continues serving its customers with limited impact.
+
+---
+
+# Key Takeaways
+
+- Business Continuity Management is a continuous lifecycle rather than a one-time project.
+- Effective BCM requires governance, planning, implementation, testing, and continual improvement.
+- Risk Assessments and Business Impact Analyses provide the foundation for continuity planning.
+- Regular testing and employee training ensure that continuity plans remain effective and actionable.
+- Reviewing incidents and exercises helps organizations improve their resilience over time.
+- The BCM lifecycle aligns with ISO 22301 and supports a structured, repeatable approach to organizational resilience.
+
+- 

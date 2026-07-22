@@ -215,4 +215,288 @@ This governance approach ensures that Business Continuity decisions are aligned 
 - Effective governance promotes regulatory compliance, operational resilience, and continual improvement.
 - A mature governance framework transforms Business Continuity Management into a strategic business capability that supports long-term organizational success.
 
+- # Roles & Responsibilities
+
+---
+
+# Learning Objectives
+
+By the end of this section, you will be able to:
+
+- Understand the importance of clearly defined roles and responsibilities in Business Continuity Management (BCM).
+- Identify the key stakeholders involved in a Business Continuity Management System (BCMS).
+- Explain the responsibilities of executive management, business units, and support functions.
+- Recognize the importance of accountability in maintaining business continuity.
+- Understand how collaboration across departments strengthens organizational resilience.
+- Apply the principle of shared responsibility within a BCM program.
+
+---
+
+# Introduction
+
+A Business Continuity Management System is only effective when everyone understands their roles before, during, and after a disruptive event. Even the most comprehensive Business Continuity Plan (BCP) can fail if responsibilities are unclear or if key personnel are uncertain about the actions they must take.
+
+Clearly defined roles and responsibilities establish accountability, improve coordination, accelerate decision-making, and reduce confusion during incidents. Every employee has a role in maintaining business continuity, although responsibilities vary depending on job function and organizational level.
+
+Business Continuity Management is therefore a shared organizational responsibility that requires collaboration across executive leadership, business units, technology teams, support services, and external partners.
+
+---
+
+# Governance Responsibility Structure
+
+Business Continuity responsibilities are distributed across multiple levels of the organization.
+
+```text
+Board of Directors
+
+↓
+
+Executive Management
+
+↓
+
+Business Continuity Steering Committee
+
+↓
+
+Business Continuity Manager
+
+↓
+
+Business Unit Managers
+
+↓
+
+Department Coordinators
+
+↓
+
+All Employees
+```
+
+Each level contributes to the successful implementation and operation of the Business Continuity Management System.
+
+---
+
+# Board of Directors
+
+The Board of Directors provides strategic oversight for Business Continuity Management.
+
+Typical responsibilities include:
+
+- Approving Business Continuity policies.
+- Ensuring adequate governance.
+- Establishing organizational resilience objectives.
+- Reviewing significant continuity risks.
+- Providing strategic oversight.
+- Monitoring BCM program performance.
+
+Although the Board is not involved in day-to-day continuity activities, it remains accountable for ensuring that appropriate governance exists.
+
+---
+
+# Executive Management
+
+Executive Management provides leadership and organizational support for the BCM program.
+
+Responsibilities include:
+
+- Approving BCM strategies.
+- Allocating financial and human resources.
+- Establishing business continuity objectives.
+- Supporting organization-wide implementation.
+- Reviewing management reports.
+- Promoting a culture of resilience.
+- Making strategic decisions during major disruptions.
+
+Executive commitment is one of the most important success factors for an effective BCM program.
+
+---
+
+# Business Continuity Steering Committee
+
+Many organizations establish a Business Continuity Steering Committee to oversee the implementation of the BCMS.
+
+The committee typically consists of representatives from:
+
+- Operations.
+- Information Technology.
+- Information Security.
+- Human Resources.
+- Facilities Management.
+- Risk Management.
+- Compliance.
+- Legal.
+- Procurement.
+- Business Units.
+
+The committee meets regularly to review continuity initiatives, monitor progress, approve improvements, and coordinate organization-wide resilience activities.
+
+---
+
+# Business Continuity Manager
+
+The Business Continuity Manager is responsible for coordinating the overall BCM program.
+
+Typical responsibilities include:
+
+- Developing BCM policies and procedures.
+- Coordinating Business Impact Analyses (BIAs).
+- Maintaining Business Continuity Plans.
+- Organizing testing and exercises.
+- Delivering awareness training.
+- Monitoring program effectiveness.
+- Reporting to executive management.
+- Supporting continual improvement.
+
+The Business Continuity Manager serves as the central coordinator for all BCM activities.
+
+---
+
+# Business Unit Managers
+
+Business Unit Managers ensure continuity planning is implemented within their respective departments.
+
+Their responsibilities include:
+
+- Identifying critical business processes.
+- Participating in Business Impact Analyses.
+- Maintaining departmental continuity plans.
+- Assigning recovery personnel.
+- Supporting continuity exercises.
+- Reviewing recovery priorities.
+- Updating continuity documentation.
+
+Because they understand daily operations, Business Unit Managers play a critical role in developing practical continuity strategies.
+
+---
+
+# Employees
+
+Business Continuity is everyone's responsibility.
+
+Employees contribute by:
+
+- Understanding emergency procedures.
+- Participating in continuity training.
+- Following incident response instructions.
+- Reporting incidents promptly.
+- Protecting organizational assets.
+- Supporting recovery activities.
+- Maintaining awareness of continuity procedures.
+
+Well-informed employees strengthen the organization's ability to respond effectively during disruptions.
+
+---
+
+# Support Functions
+
+Several support departments contribute specialized expertise to the BCM program.
+
+| Department | Primary Responsibilities |
+|------------|--------------------------|
+| Information Technology | Disaster Recovery, infrastructure recovery, system restoration |
+| Information Security | Cybersecurity, incident response, security monitoring |
+| Human Resources | Employee communication, welfare, staffing support |
+| Facilities Management | Building safety, alternate sites, physical security |
+| Procurement | Supplier continuity and alternate vendors |
+| Legal | Regulatory compliance and contractual obligations |
+| Compliance | Regulatory oversight and policy compliance |
+| Corporate Communications | Internal and external communications |
+
+These departments work together to ensure that business continuity activities are coordinated across the organization.
+
+---
+
+# Shared Responsibility Model
+
+An effective BCM program depends on collaboration.
+
+```text
+Leadership
+
+↓
+
+Governance
+
+↓
+
+Business Units
+
+↓
+
+Support Functions
+
+↓
+
+Employees
+
+↓
+
+Business Resilience
+```
+
+Rather than assigning responsibility to a single department, Business Continuity Management requires every part of the organization to contribute according to its expertise and responsibilities.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Roles and Responsibilities within Business Continuity Management
+
+**Diagram Description:**
+
+```text
+Board of Directors
+
+↓
+
+Executive Management
+
+↓
+
+Business Continuity Steering Committee
+
+↓
+
+Business Continuity Manager
+
+↓
+
+Business Unit Managers
+
+↓
+
+Support Functions
+
+↓
+
+Employees
+```
+
+**Caption:**
+
+*"Business Continuity Management is a shared organizational responsibility, requiring collaboration between leadership, business units, support functions, and employees to ensure operational resilience."*
+
+---
+
+# Practical Example
+
+A global pharmaceutical company conducts an annual Business Continuity exercise involving executive leadership, manufacturing teams, IT, cybersecurity, logistics, Human Resources, and corporate communications.
+
+During the exercise, a simulated cyberattack disrupts production systems. Executive management makes strategic decisions, the Business Continuity Manager coordinates recovery activities, IT restores affected systems, Human Resources communicates with employees, Procurement activates alternate suppliers, and Corporate Communications prepares stakeholder updates.
+
+Because each participant understands their responsibilities, the organization restores critical operations efficiently while minimizing disruption to customers and regulatory obligations.
+
+---
+
+# Key Takeaways
+
+- Clearly defined roles and responsibilities are essential for an effective Business Continuity Management System.
+- Business Continuity Management is a shared responsibility across the entire organization.
+- Executive leadership provides governance, strategic direction, and resource allocation.
+- Business Continuity Managers coordinate the implementation and continual improvement of the BCM program.
+- Business Unit Managers and support functions ensure continuity plans are practical, maintained, and executable.
+- Employee awareness and participation are fundamental to successful business continuity and organizational resilience.
+
 - 

@@ -211,4 +211,242 @@ As a result, patient care continues with minimal disruption, demonstrating how e
 - Business Continuity Management supports Governance, Risk, and Compliance (GRC) by strengthening organizational resilience.
 - Organizations with mature BCM programs recover more quickly from disruptions and maintain greater confidence among customers, regulators, employees, and stakeholders.
 
-> **Next:** In **Part 2**, you will learn the differences and relationships between **Business Continuity Management (BCM)** and **Disaster Recovery (DR)**, including how they complement one another in maintaining organizational resilience.
+# Business Continuity Management vs Disaster Recovery
+
+---
+
+# Learning Objectives
+
+By the end of this section, you will be able to:
+
+- Differentiate between Business Continuity Management (BCM) and Disaster Recovery (DR).
+- Understand the objectives and scope of BCM and DR.
+- Explain how BCM and DR complement one another.
+- Recognize why both disciplines are necessary for organizational resilience.
+- Identify the key components of a Disaster Recovery program.
+- Understand the relationship between BCM, Disaster Recovery, Incident Response, and Crisis Management.
+
+---
+
+# Introduction
+
+Business Continuity Management (BCM) and Disaster Recovery (DR) are often used interchangeably, but they serve different purposes within an organization's resilience strategy.
+
+Business Continuity Management focuses on ensuring that critical business operations continue during and after a disruption. Disaster Recovery, on the other hand, focuses specifically on restoring information technology (IT) systems, infrastructure, applications, and data following an incident.
+
+A mature organization requires both BCM and DR. While BCM ensures that business functions remain operational, DR restores the technology that enables those functions. Together, they help organizations minimize disruption, recover efficiently, and continue delivering products and services to customers.
+
+---
+
+# What is Disaster Recovery?
+
+Disaster Recovery (DR) is the collection of policies, procedures, technologies, and resources used to recover IT systems, applications, networks, and data following a disruptive event.
+
+The objective of Disaster Recovery is to restore technology services within predefined recovery objectives, minimizing downtime and data loss.
+
+Disaster Recovery typically addresses events such as:
+
+- Cyberattacks
+- Ransomware incidents
+- Hardware failures
+- Data center outages
+- Power failures
+- Network disruptions
+- Natural disasters
+- Human error
+
+Unlike Business Continuity Management, Disaster Recovery primarily focuses on technology recovery rather than maintaining overall business operations.
+
+---
+
+# Business Continuity vs Disaster Recovery
+
+Although closely related, BCM and DR differ in their primary focus.
+
+| Business Continuity Management | Disaster Recovery |
+|-------------------------------|-------------------|
+| Focuses on business operations | Focuses on IT systems |
+| Covers the entire organization | Covers technology environments |
+| Ensures continuity of critical business processes | Restores systems, applications, and data |
+| Includes people, facilities, suppliers, and technology | Primarily involves IT infrastructure |
+| Strategic and organizational | Technical and operational |
+| Business-led | IT-led |
+
+Business Continuity provides the overall strategy, while Disaster Recovery delivers the technical capabilities required to restore supporting technology.
+
+---
+
+# How BCM and DR Work Together
+
+Business Continuity and Disaster Recovery are complementary disciplines.
+
+During a disruptive event:
+
+1. The incident is detected.
+2. Emergency response activities begin.
+3. Business Continuity plans are activated to maintain critical operations.
+4. Disaster Recovery teams restore affected IT systems.
+5. Business functions gradually return to normal operations.
+6. Recovery activities are reviewed, and improvements are implemented.
+
+Together, BCM and DR ensure that both business operations and supporting technology recover efficiently.
+
+---
+
+# Scope of Business Continuity
+
+Business Continuity Management addresses a broad range of organizational capabilities.
+
+Examples include:
+
+- Employee safety.
+- Business process continuity.
+- Alternate work locations.
+- Supply chain resilience.
+- Crisis management.
+- Emergency communications.
+- Customer service continuity.
+- Regulatory compliance.
+- Executive decision-making.
+- Organizational recovery.
+
+Business Continuity considers the entire organization rather than individual technology systems.
+
+---
+
+# Scope of Disaster Recovery
+
+Disaster Recovery focuses specifically on restoring technology resources.
+
+Typical DR activities include:
+
+- Recovering servers.
+- Restoring databases.
+- Recovering virtual machines.
+- Restoring cloud services.
+- Recovering network connectivity.
+- Restoring business applications.
+- Recovering backup data.
+- Validating system integrity.
+- Returning IT services to production.
+
+These activities enable business operations to resume after a disruption.
+
+---
+
+# Relationship with Incident Response
+
+Business Continuity and Disaster Recovery also interact closely with Incident Response.
+
+```text
+Security Incident
+
+↓
+
+Incident Response
+
+↓
+
+Business Continuity Activation
+
+↓
+
+Disaster Recovery
+
+↓
+
+Business Recovery
+
+↓
+
+Return to Normal Operations
+```
+
+Incident Response focuses on containing and investigating the incident.
+
+Business Continuity ensures that essential services continue.
+
+Disaster Recovery restores technology.
+
+Together, they form an integrated organizational resilience capability.
+
+---
+
+# Real-World Example
+
+A global retail company experiences a ransomware attack that encrypts its primary data center.
+
+The Incident Response team immediately isolates affected systems to prevent further spread of the malware.
+
+The Business Continuity team activates manual sales procedures, redirects customer support operations to alternate locations, and communicates with suppliers and customers to minimize operational disruption.
+
+Meanwhile, the Disaster Recovery team restores critical systems from clean backups, rebuilds compromised servers, validates system integrity, and safely returns applications to production.
+
+Because the organization had established both Business Continuity and Disaster Recovery plans, retail operations continue with only limited disruption, and critical IT services are restored within the organization's recovery objectives.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Relationship Between BCM, Incident Response, and Disaster Recovery
+
+**Diagram Description:**
+
+```text
+Disruptive Event
+
+↓
+
+Incident Response
+
+↓
+
+Business Continuity Plan
+
+↓
+
+Disaster Recovery Plan
+
+↓
+
+Business Recovery
+
+↓
+
+Normal Operations
+```
+
+**Caption:**
+
+*"Business Continuity maintains critical business operations while Disaster Recovery restores the technology needed to support those operations."*
+
+---
+
+# Why Organizations Need Both
+
+Organizations cannot rely solely on Disaster Recovery because recovering technology does not automatically restore business operations.
+
+Likewise, Business Continuity cannot succeed without the timely recovery of the technology that supports critical business processes.
+
+An integrated BCM and DR program enables organizations to:
+
+- Reduce operational downtime.
+- Minimize financial losses.
+- Protect customers and employees.
+- Meet regulatory requirements.
+- Improve organizational resilience.
+- Recover from disruptions more efficiently.
+
+Together, they provide a comprehensive approach to organizational preparedness and recovery.
+
+---
+
+# Key Takeaways
+
+- Business Continuity Management (BCM) and Disaster Recovery (DR) are complementary but distinct disciplines.
+- BCM focuses on maintaining critical business operations, while DR focuses on restoring IT systems and data.
+- Incident Response, BCM, and DR work together to support effective organizational resilience.
+- BCM addresses people, processes, facilities, suppliers, and technology, whereas DR primarily addresses technology recovery.
+- Organizations require both BCM and DR to minimize disruption, protect stakeholders, and recover efficiently from unexpected events.
+
+

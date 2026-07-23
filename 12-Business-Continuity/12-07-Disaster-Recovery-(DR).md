@@ -234,3 +234,270 @@ Within the organization's established Recovery Time Objective, the online shoppi
 - Disaster Recovery planning requires collaboration among IT, cybersecurity, business units, and executive management.
 - A structured Disaster Recovery lifecycle supports consistent planning, testing, implementation, and continual improvement.
 - Effective Disaster Recovery capabilities enable organizations to restore critical technology services quickly, minimizing operational disruption and supporting long-term organizational resilience.
+
+- # Disaster Recovery Strategies
+
+---
+
+# Learning Objectives
+
+By the end of this section, you will be able to:
+
+- Understand the purpose of Disaster Recovery (DR) strategies.
+- Identify the different Disaster Recovery strategies used by organizations.
+- Explain how Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs) influence strategy selection.
+- Compare common recovery site options.
+- Understand the benefits and limitations of cloud-based Disaster Recovery.
+- Apply Disaster Recovery strategies to different business scenarios.
+
+---
+
+# Introduction
+
+Once an organization has identified its critical IT systems and established recovery objectives, the next step is selecting the most appropriate Disaster Recovery strategy.
+
+A Disaster Recovery strategy defines **how** technology services, applications, and data will be restored after a disruption. The selected strategy depends on several factors, including business criticality, acceptable downtime, acceptable data loss, regulatory requirements, available resources, and budget.
+
+Not every system requires the same level of protection. Mission-critical systems that support customer-facing services or financial transactions often require highly resilient recovery solutions, while less critical systems may use simpler and more cost-effective approaches.
+
+Selecting the right strategy enables organizations to balance operational resilience with financial and technical considerations.
+
+---
+
+# What is a Disaster Recovery Strategy?
+
+A Disaster Recovery strategy is a documented approach that defines the technologies, facilities, resources, and procedures used to recover IT services following a disruptive event.
+
+The strategy should ensure that technology recovery aligns with business recovery priorities and supports the organization's Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs).
+
+An effective Disaster Recovery strategy addresses not only system recovery but also data protection, infrastructure availability, cybersecurity, and operational continuity.
+
+---
+
+# Factors Influencing Strategy Selection
+
+Organizations evaluate several factors before selecting a Disaster Recovery strategy.
+
+These include:
+
+- Business criticality.
+- Recovery Time Objective (RTO).
+- Recovery Point Objective (RPO).
+- Risk assessment results.
+- Regulatory requirements.
+- Technology architecture.
+- Data sensitivity.
+- Budget constraints.
+- Available personnel and technical expertise.
+
+These considerations help ensure that recovery capabilities are appropriate for the organization's operational needs.
+
+---
+
+# Common Disaster Recovery Strategies
+
+Organizations typically implement one or more of the following Disaster Recovery strategies.
+
+| Strategy | Description |
+|----------|-------------|
+| Backup and Restore | Restore systems and data from backups after an incident |
+| High Availability (HA) | Maintain continuous service using redundant systems |
+| Site Replication | Replicate systems and data to an alternate recovery site |
+| Cloud Disaster Recovery | Recover workloads using cloud infrastructure |
+| Virtualized Recovery | Restore virtual machines rapidly using virtualization platforms |
+| Disaster Recovery as a Service (DRaaS) | Outsource Disaster Recovery capabilities to a specialized service provider |
+
+Each strategy provides different levels of recovery speed, complexity, and cost.
+
+---
+
+# Recovery Site Options
+
+Organizations often maintain alternate locations to support Disaster Recovery.
+
+### Cold Site
+
+A cold site provides physical space with basic infrastructure but contains little or no operational IT equipment.
+
+**Advantages:**
+
+- Lowest implementation cost.
+- Suitable for non-critical systems.
+
+**Limitations:**
+
+- Long recovery time.
+- Significant effort required before operations can resume.
+
+---
+
+### Warm Site
+
+A warm site includes partially configured infrastructure that can be activated relatively quickly.
+
+**Advantages:**
+
+- Moderate recovery time.
+- Lower cost than a fully operational site.
+
+**Limitations:**
+
+- Some system installation and data restoration are still required.
+
+---
+
+### Hot Site
+
+A hot site is a fully operational recovery facility that closely mirrors the production environment.
+
+**Advantages:**
+
+- Very rapid recovery.
+- Minimal operational interruption.
+- Supports mission-critical systems.
+
+**Limitations:**
+
+- Highest implementation and operational cost.
+
+Organizations choose the appropriate recovery site based on business requirements and acceptable recovery times.
+
+---
+
+# Cloud-Based Disaster Recovery
+
+Cloud computing has significantly changed Disaster Recovery capabilities.
+
+Cloud-based strategies provide:
+
+- Geographic redundancy.
+- Rapid infrastructure provisioning.
+- Automated failover.
+- Elastic resource scaling.
+- Reduced capital investment.
+- Improved recovery flexibility.
+
+Many organizations now use cloud platforms to supplement or replace traditional secondary data centers.
+
+---
+
+# Matching Strategies to Recovery Objectives
+
+Different recovery objectives require different strategies.
+
+| Business Requirement | Typical Strategy |
+|----------------------|------------------|
+| Minimal downtime | High Availability with automatic failover |
+| Very low data loss | Continuous data replication |
+| Moderate recovery requirements | Warm site with scheduled backups |
+| Cost-sensitive recovery | Backup and Restore |
+| Highly distributed workforce | Cloud Disaster Recovery |
+
+Selecting the appropriate strategy helps organizations achieve recovery objectives while managing costs effectively.
+
+---
+
+# Disaster Recovery Strategy Selection Process
+
+Organizations typically follow a structured decision-making process.
+
+```text
+Business Impact Analysis
+
+↓
+
+Define RTO & RPO
+
+↓
+
+Assess Technology Risks
+
+↓
+
+Identify Recovery Options
+
+↓
+
+Evaluate Cost and Feasibility
+
+↓
+
+Select Disaster Recovery Strategy
+
+↓
+
+Implement Recovery Solution
+
+↓
+
+Test and Validate
+```
+
+This structured approach ensures that Disaster Recovery capabilities align with business priorities.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Disaster Recovery Strategy Selection
+
+**Diagram Description:**
+
+```text
+Business Requirements
+
+↓
+
+Recovery Objectives
+
+↓
+
+Risk Assessment
+
+↓
+
+Evaluate Recovery Options
+
+↓
+
+Select Strategy
+
+↓
+
+Implement Solution
+
+↓
+
+Testing
+
+↓
+
+Operational Readiness
+```
+
+**Caption:**
+
+*"Disaster Recovery strategies are selected based on business requirements, recovery objectives, and organizational risk, ensuring that technology services can be restored effectively during disruptive events."*
+
+---
+
+# Practical Example
+
+A global financial services company classifies its online banking platform as a mission-critical application with an RTO of one hour and an RPO of fifteen minutes.
+
+To meet these requirements, the organization deploys the application across two geographically separated cloud regions with continuous database replication and automated failover. Less critical internal applications are protected using nightly backups and a warm recovery site.
+
+When a regional data center experiences a major outage, customer-facing banking services automatically transition to the secondary cloud environment with minimal disruption, while non-critical internal systems are restored later from backup. By matching recovery strategies to business priorities, the organization maintains essential services while managing operational costs effectively.
+
+---
+
+# Key Takeaways
+
+- Disaster Recovery strategies define how technology services will be restored following a disruptive event.
+- Strategy selection should be based on business criticality, RTOs, RPOs, risk assessments, and regulatory requirements.
+- Common strategies include backup and restore, high availability, site replication, cloud Disaster Recovery, virtualization, and DRaaS.
+- Cold, warm, and hot sites provide different levels of recovery capability, cost, and recovery speed.
+- Cloud-based Disaster Recovery offers scalable, resilient, and flexible recovery capabilities for modern organizations.
+- Selecting the appropriate Disaster Recovery strategy strengthens technology resilience and supports the successful recovery of critical business operations.
+
+- 

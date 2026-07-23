@@ -225,4 +225,263 @@ While Disaster Recovery teams work to restore affected systems and Business Cont
 - A structured Crisis Management lifecycle improves organizational coordination and response effectiveness.
 - Strong Crisis Management capabilities enhance organizational resilience and support successful recovery from complex and high-impact incidents.
 
+- # Crisis Management Team (CMT) Structure and Responsibilities
+
+---
+
+# Learning Objectives
+
+By the end of this section, you will be able to:
+
+- Understand the purpose of a Crisis Management Team (CMT).
+- Identify the key roles and responsibilities within a Crisis Management Team.
+- Explain how the Crisis Management Team coordinates organizational response during a crisis.
+- Understand the decision-making process during crisis situations.
+- Recognize the importance of cross-functional collaboration.
+- Apply Crisis Management Team principles to real-world scenarios.
+
+---
+
+# Introduction
+
+A crisis requires rapid decision-making, coordinated communication, and effective leadership. During major incidents, routine management structures are often insufficient because multiple business functions must work together simultaneously while dealing with uncertainty and time pressure.
+
+To address this challenge, organizations establish a **Crisis Management Team (CMT)**. The CMT is responsible for providing strategic leadership, coordinating organizational resources, and ensuring that critical decisions are made quickly and consistently throughout the crisis.
+
+Unlike operational teams that focus on executing recovery activities, the Crisis Management Team concentrates on the overall management of the crisis, ensuring that the organization responds in a coordinated, controlled, and effective manner.
+
+---
+
+# What is a Crisis Management Team?
+
+A Crisis Management Team (CMT) is a cross-functional group of senior leaders and subject matter experts responsible for directing the organization's response during significant disruptive events.
+
+The team coordinates strategic decision-making, resource allocation, communications, and stakeholder engagement while overseeing Business Continuity and Disaster Recovery activities.
+
+The composition of the team varies depending on the organization's size, industry, and risk profile.
+
+---
+
+# Objectives of the Crisis Management Team
+
+The Crisis Management Team aims to:
+
+- Protect employees, customers, and the public.
+- Provide strategic leadership.
+- Coordinate organizational response efforts.
+- Support informed decision-making.
+- Allocate resources effectively.
+- Ensure consistent internal and external communication.
+- Meet legal and regulatory obligations.
+- Protect organizational reputation.
+- Support business recovery.
+
+These objectives help maintain organizational control during rapidly evolving situations.
+
+---
+
+# Typical Crisis Management Team Structure
+
+A mature Crisis Management Team includes representatives from key business functions.
+
+| Role | Primary Responsibility |
+|------|------------------------|
+| Executive Sponsor / CEO | Overall strategic leadership and executive decisions |
+| Crisis Manager | Coordinates the overall crisis response |
+| Business Continuity Manager | Oversees business recovery activities |
+| Disaster Recovery Manager | Coordinates technology recovery |
+| Chief Information Security Officer (CISO) | Manages cybersecurity-related decisions |
+| Operations Manager | Maintains operational continuity |
+| Human Resources | Employee welfare and workforce communications |
+| Legal Counsel | Legal advice and regulatory compliance |
+| Communications/Public Relations | Internal and external communications |
+| Finance Representative | Financial impact assessment and resource management |
+| Procurement/Supply Chain | Supplier coordination and logistics |
+
+Not every crisis requires every team member, but the organization should identify all potential participants before an incident occurs.
+
+---
+
+# Responsibilities During a Crisis
+
+Once activated, the Crisis Management Team performs several key activities.
+
+These include:
+
+- Assessing the severity of the incident.
+- Declaring a crisis when necessary.
+- Activating Business Continuity and Disaster Recovery Plans.
+- Prioritizing organizational objectives.
+- Coordinating cross-functional teams.
+- Monitoring operational impacts.
+- Managing stakeholder communications.
+- Approving major recovery decisions.
+- Coordinating with regulators and external agencies.
+- Monitoring recovery progress until normal operations resume.
+
+The team should maintain a clear operational picture throughout the incident.
+
+---
+
+# Decision-Making During a Crisis
+
+Crisis decisions often need to be made quickly with incomplete information.
+
+Effective decision-making should be:
+
+- Risk-based.
+- Timely.
+- Evidence-driven.
+- Clearly documented.
+- Consistent with organizational policies.
+- Aligned with legal and regulatory obligations.
+- Focused on protecting people and critical services.
+
+Major decisions should be recorded to support accountability and post-incident reviews.
+
+---
+
+# Communication and Coordination
+
+One of the CMT's most important responsibilities is ensuring effective communication.
+
+The team coordinates communication with:
+
+- Employees.
+- Executive leadership.
+- Customers.
+- Suppliers.
+- Business partners.
+- Regulatory authorities.
+- Emergency services.
+- Media representatives, when appropriate.
+
+Accurate and timely communication reduces uncertainty and helps maintain stakeholder confidence.
+
+---
+
+# Crisis Management Team Workflow
+
+The CMT typically follows a structured workflow throughout the incident.
+
+```text
+Incident Detected
+
+↓
+
+Initial Assessment
+
+↓
+
+Activate Crisis Management Team
+
+↓
+
+Assess Business Impact
+
+↓
+
+Assign Responsibilities
+
+↓
+
+Coordinate Response Activities
+
+↓
+
+Monitor Situation
+
+↓
+
+Support Recovery
+
+↓
+
+Return to Normal Operations
+```
+
+This structured workflow enables coordinated leadership and efficient management of crisis situations.
+
+---
+
+# Characteristics of an Effective Crisis Management Team
+
+Successful Crisis Management Teams typically demonstrate:
+
+- Strong executive leadership.
+- Clearly defined responsibilities.
+- Rapid decision-making.
+- Effective communication.
+- Cross-functional collaboration.
+- Situational awareness.
+- Regular training and exercises.
+- Continuous improvement following incidents.
+
+These characteristics improve the organization's ability to respond effectively to high-impact events.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Crisis Management Team Structure
+
+**Diagram Description:**
+
+```text
+Executive Sponsor
+
+↓
+
+Crisis Manager
+
+↓
+
+Business Continuity
+
+IT / Disaster Recovery
+
+Information Security
+
+Operations
+
+Human Resources
+
+Legal
+
+Communications
+
+Finance
+
+Procurement
+
+↓
+
+Coordinated Organizational Response
+```
+
+**Caption:**
+
+*"The Crisis Management Team brings together executive leadership and functional experts to coordinate strategic decisions, communications, and recovery activities throughout a crisis."*
+
+---
+
+# Practical Example
+
+A multinational manufacturing company experiences a fire that severely damages one of its primary production facilities.
+
+The Crisis Management Team is immediately activated. The Chief Executive Officer provides strategic leadership while the Crisis Manager coordinates response activities across all departments. Operations leaders arrange temporary production at alternate facilities, the Business Continuity Manager oversees continuity procedures, Human Resources ensures employee safety and welfare, Legal Counsel coordinates with regulatory authorities, and the Communications team issues timely updates to customers, suppliers, and the media.
+
+Through coordinated leadership and clearly defined responsibilities, the organization minimizes operational disruption, maintains customer confidence, and safely restores production over the following weeks.
+
+---
+
+# Key Takeaways
+
+- The Crisis Management Team provides strategic leadership during major organizational crises.
+- Cross-functional representation ensures that operational, legal, financial, technological, and communication issues are managed together.
+- Clearly defined roles and responsibilities improve coordination and decision-making.
+- Effective communication is essential for maintaining stakeholder confidence throughout the crisis.
+- Structured workflows enable the Crisis Management Team to coordinate response and recovery activities efficiently.
+- Regular training, exercises, and post-incident reviews strengthen Crisis Management capabilities and improve organizational resilience.
+
 - 

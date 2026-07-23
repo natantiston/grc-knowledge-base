@@ -229,4 +229,462 @@ When a major cloud service provider experiences an outage, automated failover me
 - Continuous monitoring, testing, and continual improvement strengthen the organization's ability to withstand and adapt to disruptions.
 - A mature operational resilience program enhances customer confidence, supports regulatory compliance, and enables organizations to operate effectively in an increasingly complex risk environment.
 
+- # Critical Services Mapping
+
+---
+
+# Learning Objectives
+
+By the end of this section, you will be able to:
+
+- Understand the purpose of critical services mapping in Operational Resilience.
+- Identify what constitutes an important business service.
+- Explain the components required to map critical services.
+- Recognize the dependencies that support business service delivery.
+- Understand how service mapping supports operational resilience and regulatory compliance.
+- Apply a structured approach to mapping critical business services.
+
+---
+
+# Introduction
+
+One of the fundamental principles of Operational Resilience is understanding what the organization must continue to deliver during a disruption. Rather than focusing solely on departments or technologies, organizations identify and map their **important business services**—the services whose disruption would have a significant impact on customers, financial stability, regulatory obligations, or the organization's reputation.
+
+Critical services mapping provides visibility into how these services are delivered by documenting the people, processes, technology, facilities, data, and third parties that support them. This comprehensive understanding enables organizations to identify vulnerabilities, prioritize investments, and strengthen resilience where it matters most.
+
+Regulatory frameworks such as **DORA**, guidance from financial regulators, and international standards increasingly expect organizations to identify and understand their critical service dependencies as part of their operational resilience programs.
+
+---
+
+# What are Critical Business Services?
+
+Critical business services are the products or services that an organization must continue to deliver, even during major disruptions.
+
+Examples include:
+
+- Online banking services.
+- Payment processing.
+- Emergency healthcare services.
+- Electricity distribution.
+- Telecommunications services.
+- Air traffic management.
+- Customer identity verification.
+- Cloud hosting services.
+- Financial trading platforms.
+- Emergency response communications.
+
+The focus is not on individual systems but on the end-to-end service provided to customers and stakeholders.
+
+---
+
+# Why Critical Services Mapping is Important
+
+Service mapping helps organizations understand how critical services operate and where potential vulnerabilities exist.
+
+Benefits include:
+
+- Identifying single points of failure.
+- Understanding operational dependencies.
+- Supporting Business Impact Analysis (BIA).
+- Improving recovery planning.
+- Enhancing third-party risk management.
+- Supporting operational resilience assessments.
+- Demonstrating regulatory compliance.
+- Improving decision-making during incidents.
+
+A well-developed service map allows organizations to respond more effectively when disruptions occur.
+
+---
+
+# Components of Critical Service Mapping
+
+An effective service map identifies all resources required to deliver an important business service.
+
+| Component | Examples |
+|-----------|----------|
+| People | Business owners, operational teams, technical support personnel |
+| Processes | Business workflows, operational procedures, approval processes |
+| Technology | Applications, servers, databases, networks, cloud platforms |
+| Information | Customer records, financial data, operational information |
+| Facilities | Offices, data centers, operational sites, recovery locations |
+| Third Parties | Cloud providers, suppliers, managed service providers |
+| Communications | Internet connectivity, telecommunications, notification systems |
+| Dependencies | Internal systems, external services, utilities, infrastructure |
+
+Each component contributes to the successful delivery of critical business services.
+
+---
+
+# Mapping Service Dependencies
+
+Organizations should identify both internal and external dependencies that support each critical service.
+
+Typical dependencies include:
+
+- Business processes.
+- IT infrastructure.
+- Network connectivity.
+- Data storage.
+- Identity and access management.
+- Cloud services.
+- Vendor support.
+- Power and utilities.
+- Physical facilities.
+- Key personnel.
+
+Understanding these dependencies enables organizations to anticipate how failures in one area may affect the delivery of critical services.
+
+---
+
+# Critical Services Mapping Process
+
+A structured mapping process helps ensure consistency and completeness.
+
+```text
+Identify Critical Business Service
+
+↓
+
+Define Service Owner
+
+↓
+
+Identify Supporting Processes
+
+↓
+
+Identify Supporting Technology
+
+↓
+
+Identify Data Dependencies
+
+↓
+
+Identify Third-Party Dependencies
+
+↓
+
+Document Internal and External Relationships
+
+↓
+
+Validate and Maintain Service Map
+```
+
+This process should be reviewed regularly to reflect organizational changes, new technologies, and evolving business requirements.
+
+---
+
+# Maintaining Service Maps
+
+Critical service maps should remain accurate throughout the lifecycle of the Business Continuity and Operational Resilience programs.
+
+Organizations should update service maps whenever there are:
+
+- Organizational restructures.
+- New business services.
+- Technology upgrades.
+- Cloud migrations.
+- Supplier changes.
+- Regulatory changes.
+- Mergers or acquisitions.
+- Significant incidents or lessons learned.
+
+Maintaining current documentation ensures that resilience planning remains aligned with the organization's operating environment.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Critical Business Service Mapping
+
+**Diagram Description:**
+
+```text
+Critical Business Service
+
+↓
+
+Business Processes
+
+↓
+
+People
+
+↓
+
+Technology
+
+↓
+
+Applications & Data
+
+↓
+
+Third Parties
+
+↓
+
+Facilities & Infrastructure
+
+↓
+
+Supporting Dependencies
+```
+
+**Caption:**
+
+*"Critical services mapping provides end-to-end visibility of the people, processes, technology, data, facilities, and third-party dependencies required to deliver important business services, enabling organizations to strengthen operational resilience."*
+
+---
+
+# Practical Example
+
+A multinational retail bank identifies **digital payment processing** as one of its critical business services. The Operational Resilience team develops a service map that documents every dependency supporting this service.
+
+The mapping exercise identifies payment applications, customer databases, network infrastructure, cloud hosting platforms, identity management systems, payment gateway providers, telecommunications services, and specialized support teams. It also reveals a reliance on a single external network provider for connectivity between regional data centers.
+
+Using this information, the bank implements redundant communication links, strengthens supplier oversight, and updates its Business Continuity Plans to address the identified dependency. As a result, the organization significantly reduces the risk of service disruption and improves its ability to maintain uninterrupted payment services during operational incidents.
+
+---
+
+# Key Takeaways
+
+- Critical services mapping identifies the resources and dependencies required to deliver important business services.
+- Operational resilience focuses on protecting critical services rather than individual systems or departments.
+- Service mapping includes people, processes, technology, data, facilities, third parties, and supporting infrastructure.
+- Identifying dependencies helps organizations detect vulnerabilities and prioritize resilience improvements.
+- Regularly updating service maps ensures they remain accurate as the organization evolves.
+- Comprehensive service mapping strengthens Business Continuity, supports regulatory compliance, and enables organizations to maintain critical services during disruptive events.
+
+- # Resilience by Design
+
+---
+
+# Learning Objectives
+
+By the end of this section, you will be able to:
+
+- Define the concept of Resilience by Design.
+- Understand the principles used to build resilient business services.
+- Identify architectural and operational practices that improve resilience.
+- Explain how resilience should be integrated throughout the system lifecycle.
+- Recognize the relationship between Resilience by Design, Business Continuity, and Operational Resilience.
+- Apply resilience principles when designing business processes and technology solutions.
+
+---
+
+# Introduction
+
+Historically, organizations often designed business processes and technology systems with a primary focus on functionality, performance, and cost. Resilience considerations were frequently introduced later through Business Continuity Plans, Disaster Recovery Plans, or compensating controls.
+
+Modern organizations are increasingly adopting a **Resilience by Design** approach. Instead of treating resilience as an afterthought, resilience requirements are incorporated into the design, development, implementation, and operation of business services from the very beginning.
+
+Resilience by Design ensures that critical business services are capable of withstanding disruptions, minimizing operational impacts, and recovering efficiently without requiring extensive emergency interventions.
+
+---
+
+# What is Resilience by Design?
+
+Resilience by Design is the practice of embedding resilience principles into business processes, technology, infrastructure, and operational practices throughout their entire lifecycle.
+
+Rather than designing systems that simply recover after failure, organizations build systems that:
+
+- Continue operating during disruptions.
+- Detect failures quickly.
+- Isolate affected components.
+- Recover automatically where possible.
+- Adapt to changing conditions.
+- Minimize service interruption.
+
+The objective is to reduce the likelihood that a disruption will significantly impact critical business services.
+
+---
+
+# Principles of Resilience by Design
+
+Organizations should apply several key principles when designing resilient services.
+
+These principles include:
+
+- Eliminate single points of failure.
+- Build redundancy into critical components.
+- Design for high availability.
+- Automate recovery where practical.
+- Monitor systems continuously.
+- Plan for graceful degradation.
+- Separate critical workloads.
+- Test resilience regularly.
+- Design with security in mind.
+- Continuously improve resilience capabilities.
+
+Together, these principles increase the organization's ability to maintain operations during disruptive events.
+
+---
+
+# Designing Resilient Business Services
+
+Business resilience extends beyond technology and includes operational processes.
+
+A resilient business service should include:
+
+| Component | Resilience Consideration |
+|-----------|--------------------------|
+| Business Processes | Alternative procedures and manual workarounds |
+| People | Cross-training and succession planning |
+| Technology | High availability and fault tolerance |
+| Applications | Redundant application environments |
+| Data | Backup, replication, and integrity protection |
+| Facilities | Alternate work locations and recovery sites |
+| Third Parties | Multiple suppliers and contingency arrangements |
+| Communications | Diverse communication channels |
+
+Each component contributes to the continuity of important business services.
+
+---
+
+# Technology Design Considerations
+
+Technology plays a central role in Operational Resilience.
+
+Common resilience design practices include:
+
+- Geographic redundancy.
+- Multiple data centers.
+- Cloud failover capabilities.
+- Load balancing.
+- Automated backups.
+- Data replication.
+- Fault-tolerant infrastructure.
+- Network redundancy.
+- Zero Trust security architecture.
+- Continuous health monitoring.
+
+These capabilities reduce downtime and improve service availability during disruptions.
+
+---
+
+# Embedding Resilience Throughout the Lifecycle
+
+Resilience should be considered throughout the entire lifecycle of a business service.
+
+```text
+Business Requirements
+
+↓
+
+Solution Design
+
+↓
+
+Risk Assessment
+
+↓
+
+Secure Development
+
+↓
+
+Implementation
+
+↓
+
+Operational Monitoring
+
+↓
+
+Testing and Validation
+
+↓
+
+Continual Improvement
+```
+
+Integrating resilience at every stage reduces future operational risks and lowers the cost of implementing resilience enhancements later.
+
+---
+
+# Benefits of Resilience by Design
+
+Organizations that adopt Resilience by Design gain several advantages.
+
+These include:
+
+- Increased service availability.
+- Reduced operational downtime.
+- Faster incident recovery.
+- Improved customer confidence.
+- Greater regulatory compliance.
+- Lower operational risk.
+- Reduced financial losses.
+- Improved adaptability to future threats.
+
+Resilience becomes an inherent characteristic of business operations rather than a reactive capability.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Resilience by Design Framework
+
+**Diagram Description:**
+
+```text
+Business Requirements
+
+↓
+
+Resilient Design
+
+↓
+
+Secure Implementation
+
+↓
+
+Continuous Monitoring
+
+↓
+
+Operational Resilience
+
+↓
+
+Incident Response
+
+↓
+
+Service Continuity
+
+↓
+
+Continual Improvement
+```
+
+**Caption:**
+
+*"Resilience by Design integrates resilience principles into every stage of the business service lifecycle, enabling organizations to maintain critical operations and adapt effectively to disruptive events."*
+
+---
+
+# Practical Example
+
+A global e-commerce company is developing a new online ordering platform that will support millions of customer transactions each day. Instead of adding resilience controls after deployment, the project team incorporates resilience requirements during the design phase.
+
+The platform is deployed across multiple cloud regions, uses load balancers to distribute customer traffic, automatically replicates transaction data between geographically separated databases, and continuously monitors system health. Critical application components are designed to fail over automatically if a regional outage occurs, while security controls such as Zero Trust access and continuous vulnerability monitoring reduce the likelihood of cyber-related disruptions.
+
+When a major infrastructure failure affects one cloud region, customer traffic is automatically redirected to an alternate region with minimal interruption. Customers continue placing orders without noticing the disruption, demonstrating how Resilience by Design protects critical business services through proactive planning and engineering.
+
+---
+
+# Key Takeaways
+
+- Resilience by Design integrates resilience principles into business services from the earliest stages of planning and development.
+- The objective is to maintain critical business services during disruptions rather than relying solely on recovery activities.
+- Resilient design incorporates redundancy, high availability, automation, monitoring, fault tolerance, and secure architecture.
+- Operational resilience depends on resilient people, processes, technology, facilities, and third-party arrangements.
+- Embedding resilience throughout the service lifecycle reduces operational risk and improves long-term business sustainability.
+- Organizations that adopt Resilience by Design are better prepared to withstand disruptions, protect customers, and deliver reliable services in an increasingly complex operating environment.
+
 - 

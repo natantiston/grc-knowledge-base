@@ -751,4 +751,235 @@ Following the exercise, recovery procedures are updated, staff receive additiona
 - Lessons learned should be incorporated into updated Disaster Recovery Plans and future exercises.
 - Regular Disaster Recovery testing strengthens organizational resilience and increases confidence that critical technology services can be restored during real disasters.
 
+- # Integrating Disaster Recovery with Business Continuity
+
+---
+
+# Learning Objectives
+
+By the end of this section, you will be able to:
+
+- Understand how Disaster Recovery (DR) integrates with Business Continuity Management (BCM).
+- Explain the relationship between Disaster Recovery Plans (DRPs) and Business Continuity Plans (BCPs).
+- Identify the activities required to coordinate technology recovery with business recovery.
+- Recognize the importance of governance, communication, and continual improvement.
+- Understand how Disaster Recovery supports organizational resilience.
+- Apply an integrated approach to recovering both technology and business operations.
+
+---
+
+# Introduction
+
+Disaster Recovery and Business Continuity are often discussed together because they share the common goal of helping organizations continue operating during disruptive events. However, while Disaster Recovery focuses primarily on restoring information technology, Business Continuity encompasses the entire organization, including people, business processes, facilities, suppliers, communications, and technology.
+
+Technology alone cannot restore an organization's operations. Likewise, business recovery cannot be successful if the supporting IT systems remain unavailable. Effective resilience is achieved when Disaster Recovery and Business Continuity operate as coordinated and integrated programs.
+
+Organizations that align their Disaster Recovery and Business Continuity efforts recover more quickly, minimize operational disruption, and improve their ability to deliver critical products and services under adverse conditions.
+
+---
+
+# Relationship Between DR and BCM
+
+Disaster Recovery is one component of the broader Business Continuity Management System (BCMS).
+
+The relationship can be illustrated as follows:
+
+```text
+Business Continuity Management
+
+├── Governance
+
+├── Business Impact Analysis
+
+├── Risk Assessment
+
+├── Business Continuity Strategies
+
+├── Business Continuity Plans
+
+└── Disaster Recovery Plans
+        │
+        ▼
+Technology Recovery
+```
+
+Business Continuity establishes the overall recovery framework, while Disaster Recovery provides the technical capability needed to restore IT services.
+
+---
+
+# Coordinating Business and Technology Recovery
+
+Successful recovery requires close coordination between business and technical teams.
+
+Examples of coordinated activities include:
+
+- Prioritizing system recovery based on critical business processes.
+- Synchronizing application recovery with business unit requirements.
+- Coordinating employee relocation with technology availability.
+- Communicating recovery progress to stakeholders.
+- Validating that recovered systems support operational requirements.
+- Transitioning from temporary recovery arrangements back to normal operations.
+
+This coordination ensures that technology recovery directly supports business recovery objectives.
+
+---
+
+# Governance and Communication
+
+Strong governance is essential for integrating Disaster Recovery with Business Continuity.
+
+Organizations should establish:
+
+- Clearly defined recovery roles.
+- Executive oversight.
+- Incident escalation procedures.
+- Crisis communication processes.
+- Recovery decision authorities.
+- Coordination between business and IT teams.
+- Reporting mechanisms for senior management.
+
+Regular communication throughout the recovery process enables informed decision-making and improves coordination among stakeholders.
+
+---
+
+# Benefits of an Integrated Approach
+
+Integrating Disaster Recovery with Business Continuity provides several organizational benefits.
+
+These include:
+
+- Faster restoration of critical services.
+- Better coordination between business and IT.
+- Reduced operational downtime.
+- Improved customer confidence.
+- Greater regulatory compliance.
+- More efficient use of recovery resources.
+- Enhanced organizational resilience.
+- Improved preparedness for future disruptions.
+
+Rather than treating Disaster Recovery and Business Continuity as separate initiatives, organizations achieve greater resilience by managing them as complementary disciplines.
+
+---
+
+# Continuous Improvement
+
+Integration should be supported through continual improvement.
+
+Organizations should regularly:
+
+- Review Business Continuity and Disaster Recovery Plans.
+- Conduct joint exercises involving business and IT teams.
+- Analyze lessons learned from incidents.
+- Update recovery procedures.
+- Improve communication processes.
+- Validate recovery objectives.
+- Monitor emerging technology and business risks.
+
+Continuous improvement ensures that recovery capabilities remain aligned with evolving business needs.
+
+---
+
+# Integrated Recovery Lifecycle
+
+A coordinated recovery process typically follows these stages.
+
+```text
+Disruptive Incident
+
+↓
+
+Business Continuity Plan Activated
+
+↓
+
+Disaster Recovery Plan Activated
+
+↓
+
+Technology Recovery
+
+↓
+
+Business Process Recovery
+
+↓
+
+Operational Validation
+
+↓
+
+Return to Normal Operations
+
+↓
+
+Lessons Learned and Improvement
+```
+
+This lifecycle illustrates how technology recovery and business recovery work together to restore normal operations.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Integrating Disaster Recovery with Business Continuity
+
+**Diagram Description:**
+
+```text
+Disruptive Event
+
+↓
+
+Business Continuity Management
+
+↓
+
+Business Continuity Plan
+
++
+
+Disaster Recovery Plan
+
+↓
+
+Technology Recovery
+
++
+
+Business Recovery
+
+↓
+
+Critical Services Restored
+
+↓
+
+Organizational Resilience
+```
+
+**Caption:**
+
+*"Business Continuity and Disaster Recovery work together to restore technology, business processes, and critical services, enabling organizations to recover efficiently from disruptive events."*
+
+---
+
+# Practical Example
+
+A global airline experiences a major cyberattack that disrupts its reservation system, online booking platform, and airport check-in services.
+
+The organization activates both its Business Continuity Plan and Disaster Recovery Plan. While the Disaster Recovery team restores applications and databases in a secondary cloud environment, airport staff implement manual passenger check-in procedures, customer service teams communicate with travelers regarding flight delays, and executive management coordinates operational decisions across regional offices.
+
+As technology services are restored, business operations gradually transition back to normal. Following the incident, the airline conducts a joint review involving business leaders, IT, cybersecurity, and operations teams to identify lessons learned and improve both Business Continuity and Disaster Recovery capabilities.
+
+---
+
+# Key Takeaways
+
+- Disaster Recovery focuses on restoring technology, while Business Continuity focuses on maintaining and recovering overall business operations.
+- Disaster Recovery is a critical component of the broader Business Continuity Management System.
+- Coordinated planning ensures that technology recovery supports business recovery priorities.
+- Governance, communication, and clearly defined responsibilities are essential for successful recovery.
+- Joint testing and continual improvement strengthen both Business Continuity and Disaster Recovery capabilities.
+- Integrating Business Continuity and Disaster Recovery enables organizations to recover more efficiently, minimize disruption, and improve long-term operational resilience.
+
 - 

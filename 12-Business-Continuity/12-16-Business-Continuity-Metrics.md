@@ -242,3 +242,237 @@ By consistently measuring performance through KPIs, the organization strengthens
 - Common BCM KPIs include plan reviews, exercise completion, RTO achievement, RPO achievement, training completion, and corrective action closure.
 - Regular monitoring and reporting enable organizations to identify performance trends and implement timely improvements.
 - A well-designed KPI framework helps organizations maintain a mature, measurable, and continuously improving Business Continuity Management System.
+
+- # Key Risk Indicators (KRIs)
+
+---
+
+# Learning Objectives
+
+By the end of this section, you will be able to:
+
+- Understand the purpose of Key Risk Indicators (KRIs) in Business Continuity Management.
+- Differentiate between Key Risk Indicators (KRIs) and Key Performance Indicators (KPIs).
+- Identify common KRIs used to monitor Business Continuity risks.
+- Explain how KRIs support proactive risk management and decision-making.
+- Recognize how KRIs provide early warning of emerging threats to business operations.
+- Apply KRIs to strengthen the organization's Business Continuity Management System (BCMS).
+
+---
+
+# Introduction
+
+While Key Performance Indicators (KPIs) measure how effectively Business Continuity processes are performing, organizations also need indicators that warn them of increasing risk before a disruption occurs. Waiting until an incident happens may be too late to prevent operational, financial, or reputational damage.
+
+Key Risk Indicators (KRIs) are measurable metrics that provide early warning signals about conditions that could threaten critical business services. By monitoring KRIs, organizations can identify increasing levels of risk, take corrective actions before business disruption occurs, and strengthen overall organizational resilience.
+
+A mature Business Continuity Management System integrates KRIs into enterprise risk management, operational resilience, cybersecurity, and third-party risk management to provide continuous visibility into the organization's risk environment.
+
+---
+
+# What are Key Risk Indicators?
+
+Key Risk Indicators (KRIs) are measurable values that indicate changes in risk exposure and provide advance warning of potential events that could negatively affect business operations.
+
+KRIs help organizations answer questions such as:
+
+- Are operational risks increasing?
+- Are critical suppliers becoming less reliable?
+- Are cyber threats becoming more frequent?
+- Are recovery capabilities deteriorating?
+- Are critical systems becoming less available?
+- Are new risks emerging that require management attention?
+
+Unlike KPIs, which measure past or current performance, KRIs focus on future risk exposure and help organizations act before disruptions occur.
+
+---
+
+# KPIs vs KRIs
+
+Although closely related, KPIs and KRIs serve different purposes.
+
+| Key Performance Indicators (KPIs) | Key Risk Indicators (KRIs) |
+|-----------------------------------|-----------------------------|
+| Measure performance | Measure risk exposure |
+| Evaluate achievement of objectives | Provide early warning of potential problems |
+| Focus on operational effectiveness | Focus on emerging risks |
+| Often historical or current | Often predictive |
+| Support performance improvement | Support proactive risk mitigation |
+
+Together, KPIs and KRIs provide management with a balanced view of organizational performance and risk.
+
+---
+
+# Why KRIs are Important
+
+Effective KRIs help organizations:
+
+- Detect emerging risks early.
+- Improve risk-based decision-making.
+- Prevent business disruptions.
+- Support proactive risk management.
+- Strengthen operational resilience.
+- Improve regulatory compliance.
+- Enhance executive visibility.
+- Support continual improvement.
+
+By identifying risk trends before incidents occur, organizations can reduce the likelihood and impact of disruptions.
+
+---
+
+# Common Business Continuity KRIs
+
+Organizations should monitor KRIs that reflect their operational environment and risk appetite.
+
+| KRI | Risk Being Monitored |
+|-----|----------------------|
+| Increase in Critical System Failures | Technology reliability risk |
+| Supplier Performance Decline | Third-party operational risk |
+| Growth in Unresolved Security Vulnerabilities | Cybersecurity risk |
+| Backup Failure Rate | Data recovery risk |
+| Increase in Critical Incidents | Operational disruption risk |
+| Delayed Business Continuity Plan Reviews | Governance risk |
+| High Staff Turnover in Critical Roles | Resource and knowledge risk |
+| Repeated Recovery Test Failures | Recovery capability risk |
+| Increase in Regulatory Findings | Compliance risk |
+| Cloud Service Availability Issues | Cloud operational risk |
+
+These indicators allow organizations to identify areas requiring immediate management attention.
+
+---
+
+# Establishing KRI Thresholds
+
+Each KRI should have predefined thresholds that trigger appropriate actions.
+
+Example thresholds include:
+
+| KRI | Green | Amber | Red |
+|-----|--------|--------|------|
+| Critical System Availability | Above 99.9% | 99.5%–99.9% | Below 99.5% |
+| Backup Success Rate | Above 99% | 95%–99% | Below 95% |
+| Supplier SLA Compliance | Above 98% | 95%–98% | Below 95% |
+| Open Critical Vulnerabilities | 0–5 | 6–10 | More than 10 |
+| Overdue Corrective Actions | Less than 5 | 5–10 | More than 10 |
+
+Traffic light thresholds help management quickly identify areas requiring escalation or intervention.
+
+---
+
+# Monitoring and Reporting KRIs
+
+KRIs should be monitored continuously or at regular intervals depending on the nature of the risk.
+
+Monitoring activities include:
+
+- Collecting risk data.
+- Validating indicator accuracy.
+- Comparing results against thresholds.
+- Identifying trends.
+- Escalating significant risks.
+- Reporting to management.
+- Initiating mitigation activities.
+- Reviewing indicator effectiveness.
+
+Timely reporting enables management to respond before risks develop into major incidents.
+
+---
+
+# KRI Management Lifecycle
+
+```text
+Identify Business Risks
+
+↓
+
+Define KRIs
+
+↓
+
+Establish Risk Thresholds
+
+↓
+
+Collect Risk Data
+
+↓
+
+Monitor Trends
+
+↓
+
+Report to Management
+
+↓
+
+Implement Risk Mitigation
+
+↓
+
+Review and Improve KRIs
+```
+
+This lifecycle enables organizations to continuously monitor evolving risks and strengthen Business Continuity preparedness.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Business Continuity KRI Lifecycle
+
+**Diagram Description:**
+
+```text
+Business Risks
+
+↓
+
+Define KRIs
+
+↓
+
+Monitor Risk Levels
+
+↓
+
+Threshold Exceeded
+
+↓
+
+Management Review
+
+↓
+
+Risk Mitigation
+
+↓
+
+Continuous Monitoring
+```
+
+**Caption:**
+
+*"Key Risk Indicators provide early warning of emerging threats, enabling organizations to implement proactive risk mitigation measures before disruptions impact critical business services."*
+
+---
+
+# Practical Example
+
+A multinational logistics company relies on several cloud providers, transportation partners, and warehouse management systems to support global operations. To strengthen Business Continuity, the organization establishes Key Risk Indicators that monitor supplier performance, cloud service availability, backup success rates, critical cybersecurity vulnerabilities, and overdue corrective actions.
+
+The BCM team reviews these indicators weekly through an executive dashboard. During one review, the dashboard shows a sustained decline in the primary logistics provider's on-time delivery performance and an increase in unresolved infrastructure vulnerabilities. Although no disruption has yet occurred, both indicators exceed the organization's predefined risk thresholds. Management initiates a supplier review, increases monitoring, accelerates vulnerability remediation, and prepares contingency plans with alternative logistics providers.
+
+By acting on these early warning indicators, the organization reduces operational risk, prevents potential service disruptions, and improves the resilience of its global supply chain.
+
+---
+
+# Key Takeaways
+
+- Key Risk Indicators (KRIs) provide early warning of conditions that may threaten critical business services.
+- KRIs complement KPIs by measuring risk exposure rather than operational performance.
+- Effective KRIs enable organizations to proactively identify, monitor, and mitigate emerging Business Continuity risks.
+- Thresholds and escalation criteria help management respond quickly when risk levels increase.
+- Continuous monitoring and executive reporting improve governance, operational resilience, and risk-informed decision-making.
+- A mature KRI framework strengthens the Business Continuity Management System by helping organizations anticipate disruptions before they occur and implement timely corrective actions.
+
+- 

@@ -242,4 +242,234 @@ After successfully implementing the BCMS and completing an external certificatio
 - ISO 22301 integrates effectively with other management system standards, including ISO/IEC 27001 and ISO 31000.
 - Implementing ISO 22301 strengthens organizational resilience, improves recovery capabilities, supports regulatory compliance, and enhances stakeholder confidence.
 
+- # ISO 27031 ICT Readiness
+
+---
+
+# Learning Objectives
+
+By the end of this section, you will be able to:
+
+- Understand the purpose of ISO/IEC 27031.
+- Explain the role of Information and Communication Technology (ICT) Readiness in Business Continuity.
+- Identify the key components of ISO/IEC 27031.
+- Understand how ISO 27031 complements ISO 22301 and ISO/IEC 27001.
+- Recognize best practices for improving ICT resilience and recovery capabilities.
+- Apply ISO 27031 principles to strengthen organizational Business Continuity.
+
+---
+
+# Introduction
+
+Modern organizations rely heavily on Information and Communication Technology (ICT) to deliver products, services, and critical business operations. Business applications, cloud services, communication systems, networks, databases, and digital infrastructure support nearly every business process. Consequently, disruptions affecting ICT can quickly lead to operational downtime, financial losses, regulatory consequences, and reputational damage.
+
+While **ISO 22301** establishes the overall framework for a Business Continuity Management System (BCMS), organizations also require guidance on ensuring that their technology infrastructure can support business recovery objectives. **ISO/IEC 27031 – Information Technology – Security Techniques – Guidelines for Information and Communication Technology Readiness for Business Continuity (ICT Readiness for Business Continuity)** provides this guidance.
+
+ISO 27031 helps organizations prepare ICT systems to support Business Continuity by improving resilience, recovery capabilities, disaster recovery planning, and operational readiness for disruptive events.
+
+---
+
+# What is ISO/IEC 27031?
+
+ISO/IEC 27031 is an international standard that provides guidance for establishing ICT Readiness for Business Continuity (IRBC).
+
+Its primary objective is to ensure that information and communication technologies can support the continuity and recovery of critical business services during and after disruptive incidents.
+
+The standard helps organizations:
+
+- Improve ICT resilience.
+- Protect critical information systems.
+- Develop Disaster Recovery capabilities.
+- Reduce technology downtime.
+- Support Business Continuity objectives.
+- Strengthen cyber resilience.
+- Improve operational readiness.
+- Enhance recovery planning.
+
+Rather than replacing ISO 22301, ISO 27031 complements it by focusing specifically on ICT preparedness.
+
+---
+
+# Relationship Between ISO 22301 and ISO/IEC 27031
+
+Although closely related, the two standards have different areas of focus.
+
+| ISO 22301 | ISO/IEC 27031 |
+|------------|---------------|
+| Business Continuity Management System (BCMS) | ICT Readiness for Business Continuity |
+| Business processes and organizational resilience | Technology infrastructure and ICT resilience |
+| Business continuity planning | ICT recovery planning |
+| Organizational recovery | Technology recovery |
+| Overall Business Continuity governance | ICT operational readiness |
+
+Together, these standards provide a comprehensive framework for ensuring both business and technology resilience.
+
+---
+
+# Key Components of ISO/IEC 27031
+
+ISO 27031 emphasizes several important ICT readiness capabilities.
+
+These include:
+
+- ICT governance.
+- ICT risk assessment.
+- Critical system identification.
+- Disaster Recovery planning.
+- Backup and restoration.
+- ICT infrastructure resilience.
+- Incident detection and response.
+- Recovery testing.
+- Continuous monitoring.
+- Continual improvement.
+
+These components ensure that technology services can support business recovery during disruptive events.
+
+---
+
+# ICT Readiness Process
+
+Organizations should establish a structured ICT readiness process aligned with Business Continuity objectives.
+
+```text
+Identify Critical ICT Services
+
+↓
+
+Assess ICT Risks
+
+↓
+
+Define Recovery Requirements
+
+↓
+
+Implement ICT Resilience Controls
+
+↓
+
+Develop Disaster Recovery Plans
+
+↓
+
+Test ICT Recovery
+
+↓
+
+Monitor ICT Readiness
+
+↓
+
+Continual Improvement
+```
+
+This lifecycle supports the organization's ability to recover technology services quickly while maintaining critical business operations.
+
+---
+
+# Best Practices for ICT Readiness
+
+Organizations can strengthen ICT readiness by implementing recognized best practices.
+
+Recommended practices include:
+
+- Identify critical ICT assets and dependencies.
+- Align ICT recovery with Business Impact Analysis (BIA) results.
+- Define Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs).
+- Maintain secure and tested backups.
+- Implement infrastructure redundancy.
+- Conduct regular Disaster Recovery exercises.
+- Monitor ICT performance continuously.
+- Document recovery procedures.
+- Train technical recovery teams.
+- Review and improve recovery capabilities regularly.
+
+Following these practices helps ensure that ICT systems remain available and recoverable during disruptive events.
+
+---
+
+# Integrating ISO/IEC 27031 with BCM
+
+ICT Readiness should be fully integrated into the organization's Business Continuity Management System.
+
+Integration activities include:
+
+- Business Impact Analysis (BIA).
+- Enterprise Risk Management.
+- Cybersecurity programs.
+- Disaster Recovery planning.
+- Incident Response.
+- Operational Resilience.
+- Cloud continuity planning.
+- Third-Party Risk Management.
+- Business Continuity exercises.
+- Management reviews.
+
+This integration enables organizations to coordinate business recovery with technology recovery, ensuring that critical services can be restored efficiently.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** ISO/IEC 27031 ICT Readiness Framework
+
+**Diagram Description:**
+
+```text
+Business Requirements
+
+↓
+
+Critical ICT Services
+
+↓
+
+ICT Risk Assessment
+
+↓
+
+ICT Resilience Controls
+
+↓
+
+Disaster Recovery
+
+↓
+
+Recovery Testing
+
+↓
+
+Business Recovery
+
+↓
+
+Continual Improvement
+```
+
+**Caption:**
+
+*"ISO/IEC 27031 provides guidance for preparing ICT systems to support Business Continuity by strengthening technology resilience, recovery capabilities, and operational readiness."*
+
+---
+
+# Practical Example
+
+A multinational healthcare provider operates electronic medical record systems, telemedicine platforms, and cloud-based diagnostic applications that are essential to patient care. To strengthen Business Continuity, the organization adopts the guidance provided by ISO/IEC 27031 and aligns its ICT recovery program with its ISO 22301-certified Business Continuity Management System.
+
+Critical ICT services are identified through the Business Impact Analysis, recovery objectives are established, and Disaster Recovery procedures are developed for data centers, cloud infrastructure, and network services. The organization conducts regular recovery exercises, validates backup integrity, and continuously monitors ICT readiness through performance dashboards.
+
+When a major data center experiences a power failure, critical healthcare applications are successfully restored using cloud-based recovery infrastructure within the defined Recovery Time Objectives (RTOs). Patient services continue with minimal disruption, demonstrating how ICT readiness directly supports Business Continuity and organizational resilience.
+
+---
+
+# Key Takeaways
+
+- ISO/IEC 27031 provides guidance for establishing ICT Readiness for Business Continuity.
+- The standard complements ISO 22301 by focusing specifically on technology resilience and ICT recovery.
+- ICT readiness includes governance, risk assessment, Disaster Recovery, backup management, recovery testing, and continual improvement.
+- Recovery objectives, including RTOs and RPOs, should align with Business Impact Analysis results and business priorities.
+- Regular testing, monitoring, and integration with Business Continuity planning strengthen technology resilience.
+- A mature ICT Readiness program enables organizations to recover critical technology services efficiently, ensuring that Business Continuity objectives can be achieved during disruptive events.
+
 - 

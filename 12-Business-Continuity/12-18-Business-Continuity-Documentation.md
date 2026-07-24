@@ -690,4 +690,234 @@ Following the audit, the organization updates its evidence management procedures
 - Centralized repositories, version control, retention schedules, and regular reviews improve evidence management and audit readiness.
 - A mature evidence management process strengthens governance, demonstrates Business Continuity effectiveness, and supports the continual improvement of the Business Continuity Management System.
 
+- # Document Control & Review
+
+---
+
+# Learning Objectives
+
+By the end of this section, you will be able to:
+
+- Understand the purpose of document control within a Business Continuity Management System (BCMS).
+- Explain the importance of reviewing and maintaining Business Continuity documentation.
+- Identify the essential components of an effective document control process.
+- Recognize the roles and responsibilities associated with document ownership and approval.
+- Understand how document control supports compliance, governance, and continual improvement.
+- Apply best practices for managing Business Continuity documentation throughout its lifecycle.
+
+---
+
+# Introduction
+
+Business Continuity documentation is only valuable if it remains accurate, current, and readily available when needed. As organizations evolve, business processes, technologies, personnel, suppliers, regulations, and operational risks continuously change. Without effective document control, Business Continuity Plans (BCPs), Disaster Recovery procedures, contact lists, and recovery documentation can quickly become outdated, increasing the risk of confusion and ineffective response during a disruption.
+
+Document Control is the systematic process of creating, reviewing, approving, distributing, maintaining, and retiring Business Continuity documentation. It ensures that employees always have access to the latest approved version of critical documents while preserving historical records for audit and compliance purposes.
+
+Standards such as **ISO 22301** require organizations to control documented information to ensure its suitability, adequacy, availability, confidentiality, integrity, and protection throughout its lifecycle.
+
+---
+
+# What is Document Control?
+
+Document Control is the process of managing Business Continuity documentation throughout its entire lifecycle to ensure that information remains accurate, authorized, accessible, and protected.
+
+Document control includes:
+
+- Document creation.
+- Review and approval.
+- Version management.
+- Publication and distribution.
+- Access management.
+- Periodic review.
+- Document revision.
+- Archiving.
+- Secure disposal of obsolete documents.
+
+An effective document control process ensures consistency and reliability across the Business Continuity Management System.
+
+---
+
+# Why Document Control is Important
+
+Proper document control helps organizations:
+
+- Maintain accurate Business Continuity documentation.
+- Ensure employees use approved procedures.
+- Prevent the use of obsolete documents.
+- Support regulatory compliance.
+- Improve audit readiness.
+- Protect confidential information.
+- Strengthen governance.
+- Support continual improvement.
+
+Without effective document control, organizations risk using outdated procedures that could delay recovery and increase operational disruption.
+
+---
+
+# Key Components of Document Control
+
+A mature document control process includes several essential components.
+
+| Component | Purpose |
+|-----------|---------|
+| Document Owner | Responsible for maintaining document accuracy |
+| Version Control | Tracks document revisions and updates |
+| Review Schedule | Ensures periodic review of documentation |
+| Approval Process | Confirms management authorization before publication |
+| Document Repository | Central location for storing approved documents |
+| Access Control | Restricts access based on business need |
+| Change History | Records modifications made to documents |
+| Archive Management | Preserves previous document versions |
+| Retention Policy | Defines how long documents are retained |
+| Secure Disposal | Ensures obsolete documents are removed appropriately |
+
+Together, these controls maintain the integrity and reliability of Business Continuity documentation.
+
+---
+
+# Document Review Process
+
+Business Continuity documentation should be reviewed regularly to ensure it reflects current business operations.
+
+Reviews should occur after:
+
+- Scheduled annual reviews.
+- Business Continuity exercises.
+- Disaster Recovery tests.
+- Cybersecurity incidents.
+- Organizational restructuring.
+- Technology changes.
+- Cloud migrations.
+- Regulatory updates.
+- Supplier changes.
+- Lessons learned from real incidents.
+
+Regular reviews help ensure recovery documentation remains accurate and operationally effective.
+
+---
+
+# Document Control Lifecycle
+
+Organizations should manage documentation through a formal lifecycle.
+
+```text
+Create Document
+
+↓
+
+Review
+
+↓
+
+Approve
+
+↓
+
+Publish
+
+↓
+
+Use & Maintain
+
+↓
+
+Periodic Review
+
+↓
+
+Update & Version Control
+
+↓
+
+Archive or Dispose
+```
+
+This lifecycle ensures that documentation remains accurate, controlled, and aligned with organizational requirements.
+
+---
+
+# Best Practices for Document Control
+
+Organizations should establish standardized document management practices.
+
+Recommended practices include:
+
+- Assign document owners for every Business Continuity document.
+- Maintain a centralized document repository.
+- Apply version numbering and revision histories.
+- Use formal approval workflows.
+- Restrict editing privileges to authorized personnel.
+- Protect sensitive documentation through access controls.
+- Conduct periodic document reviews.
+- Archive superseded versions for audit purposes.
+- Remove obsolete documents promptly.
+- Automate document review reminders where possible.
+
+These practices improve governance, consistency, and audit readiness.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Business Continuity Document Control Lifecycle
+
+**Diagram Description:**
+
+```text
+Document Creation
+
+↓
+
+Review
+
+↓
+
+Approval
+
+↓
+
+Publication
+
+↓
+
+Operational Use
+
+↓
+
+Periodic Review
+
+↓
+
+Revision & Version Control
+
+↓
+
+Archive / Secure Disposal
+```
+
+**Caption:**
+
+*"Document control ensures that Business Continuity documentation remains accurate, approved, protected, and continuously updated throughout its lifecycle, supporting effective governance and operational resilience."*
+
+---
+
+# Practical Example
+
+A multinational energy company maintains hundreds of Business Continuity documents covering operational sites, corporate functions, Disaster Recovery procedures, crisis management plans, and supplier continuity arrangements. Each document is assigned an owner responsible for reviewing its content at least annually or whenever significant operational changes occur.
+
+The organization uses a centralized document management system with automated review reminders, version control, approval workflows, and role-based access controls. Following a major cloud migration project, the BCM team reviews all affected Business Continuity Plans, updates recovery procedures, revises infrastructure diagrams, and archives superseded versions. Employees are notified of the updated documents and trained on any procedural changes before the new versions become effective.
+
+During an external ISO 22301 surveillance audit, auditors confirm that all Business Continuity documentation is current, properly approved, and supported by complete revision histories. The mature document control process demonstrates strong governance, improves audit readiness, and ensures recovery teams always have access to the latest approved guidance during disruptive events.
+
+---
+
+# Key Takeaways
+
+- Document control ensures that Business Continuity documentation remains accurate, approved, accessible, and protected throughout its lifecycle.
+- Effective document control includes document ownership, version management, approval workflows, periodic reviews, access controls, and archive management.
+- Regular document reviews following organizational, technological, regulatory, or operational changes help maintain recovery readiness.
+- Centralized repositories and standardized document management practices improve governance, consistency, and audit efficiency.
+- Controlled documentation supports compliance with ISO 22301 and strengthens the effectiveness of the Business Continuity Management System.
+- A mature document control and review process enables organizations to maintain reliable recovery documentation, support continual improvement, and enhance overall operational resilience.
+
 - 

@@ -708,4 +708,245 @@ The results demonstrate that regular testing, secure backup practices, and docum
 - Restoration procedures should be documented, prioritized, and regularly tested to ensure reliable recovery.
 - Regular backup validation and recovery testing strengthen organizational resilience and improve the ability to restore critical business services following disruptive events.
 
+- # Cyber Incident Recovery
+
+---
+
+# Learning Objectives
+
+By the end of this section, you will be able to:
+
+- Understand the objectives of Cyber Incident Recovery.
+- Explain the relationship between Incident Response, Disaster Recovery, and Business Continuity.
+- Identify the phases of recovering from a cyber incident.
+- Understand the roles and responsibilities of recovery teams.
+- Recognize best practices for restoring business operations after cyber incidents.
+- Apply a structured Cyber Incident Recovery process to strengthen organizational resilience.
+
+---
+
+# Introduction
+
+Despite implementing robust cybersecurity controls, organizations must accept that cyber incidents cannot always be prevented. Malware infections, ransomware attacks, data breaches, insider threats, distributed denial-of-service (DDoS) attacks, and software supply chain compromises can all disrupt critical business operations.
+
+While Incident Response focuses on detecting, containing, and eradicating cyber threats, Cyber Incident Recovery focuses on restoring affected business services, applications, infrastructure, and data to normal operations. The ultimate objective is not simply to recover technology, but to safely resume critical business services while minimizing operational, financial, legal, and reputational impacts.
+
+Cyber Incident Recovery is therefore a vital component of Business Continuity Management (BCM), Disaster Recovery (DR), and Operational Resilience.
+
+---
+
+# What is Cyber Incident Recovery?
+
+Cyber Incident Recovery is the coordinated process of restoring systems, data, business processes, and critical services following a cybersecurity incident.
+
+Recovery activities include:
+
+- Restoring affected systems.
+- Recovering business applications.
+- Recovering business data.
+- Validating system integrity.
+- Resuming business operations.
+- Monitoring for recurring threats.
+- Supporting business stakeholders.
+- Capturing lessons learned.
+
+Recovery continues until the organization has safely returned to an acceptable operational state.
+
+---
+
+# Relationship Between Incident Response, Disaster Recovery, and Business Continuity
+
+Although closely connected, each discipline has a distinct responsibility.
+
+| Discipline | Primary Objective |
+|------------|-------------------|
+| Incident Response | Detect, contain, investigate, and eradicate cyber threats |
+| Disaster Recovery | Restore IT infrastructure, applications, and data |
+| Business Continuity Management | Maintain and recover critical business services |
+| Crisis Management | Coordinate executive decisions, communications, and strategic response |
+| Operational Resilience | Ensure critical services remain available and continuously improve resilience |
+
+Together, these functions provide an integrated approach to managing cyber disruptions.
+
+---
+
+# Cyber Incident Recovery Process
+
+Organizations should follow a structured recovery process after containing the cyber incident.
+
+```text
+Incident Containment
+
+↓
+
+Damage Assessment
+
+↓
+
+Recovery Planning
+
+↓
+
+System Restoration
+
+↓
+
+Data Validation
+
+↓
+
+Business Service Recovery
+
+↓
+
+Enhanced Monitoring
+
+↓
+
+Post-Incident Review
+```
+
+Each phase should follow documented procedures and involve coordination between technical teams and business stakeholders.
+
+---
+
+# Recovery Priorities
+
+Recovery should be guided by the organization's Business Impact Analysis (BIA) and recovery objectives.
+
+Typical priorities include:
+
+1. Restore life-safety and critical services.
+2. Recover essential infrastructure.
+3. Restore identity and access management systems.
+4. Recover customer-facing applications.
+5. Restore business support systems.
+6. Recover non-critical applications.
+7. Resume normal business operations.
+
+Prioritization ensures that resources are focused on restoring the services that have the greatest impact on customers and business operations.
+
+---
+
+# Roles and Responsibilities
+
+Cyber Incident Recovery requires collaboration across multiple organizational functions.
+
+| Team | Responsibility |
+|------|----------------|
+| Incident Response Team | Confirm threat containment and eradication |
+| Cybersecurity Team | Validate security posture before recovery |
+| IT Operations | Restore infrastructure and technology services |
+| Disaster Recovery Team | Recover systems, applications, and data |
+| Business Continuity Team | Coordinate recovery of critical business services |
+| Crisis Management Team | Oversee executive decisions and communications |
+| Business Units | Validate business process functionality |
+| Legal & Compliance | Manage regulatory reporting and legal obligations |
+
+Clearly defined responsibilities improve coordination and accelerate recovery.
+
+---
+
+# Validating Recovery Success
+
+Before declaring recovery complete, organizations should verify that systems and business services are fully operational.
+
+Validation activities include:
+
+- Confirming malware removal.
+- Verifying data integrity.
+- Testing application functionality.
+- Validating user access.
+- Confirming business process performance.
+- Reviewing security controls.
+- Monitoring for suspicious activity.
+- Obtaining business owner approval before returning systems to production.
+
+Validation reduces the likelihood of recurring incidents and ensures that recovered services meet operational requirements.
+
+---
+
+# Post-Incident Improvement
+
+Every cyber incident provides valuable opportunities to improve organizational resilience.
+
+Organizations should:
+
+- Conduct a post-incident review.
+- Perform root cause analysis.
+- Document lessons learned.
+- Update Incident Response Plans.
+- Revise Business Continuity Plans.
+- Improve Disaster Recovery procedures.
+- Strengthen cybersecurity controls.
+- Deliver additional awareness training.
+- Track corrective actions to completion.
+
+These improvements enhance preparedness for future cyber incidents.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Cyber Incident Recovery Lifecycle
+
+**Diagram Description:**
+
+```text
+Cyber Incident
+
+↓
+
+Containment
+
+↓
+
+Recovery Planning
+
+↓
+
+System & Data Restoration
+
+↓
+
+Business Service Recovery
+
+↓
+
+Validation
+
+↓
+
+Lessons Learned
+
+↓
+
+Continual Improvement
+```
+
+**Caption:**
+
+*"Cyber Incident Recovery integrates Incident Response, Disaster Recovery, and Business Continuity to restore critical business services safely, validate recovery success, and strengthen organizational resilience through continual improvement."*
+
+---
+
+# Practical Example
+
+A multinational insurance company experiences a cyberattack that compromises several customer-facing applications and internal authentication systems. After the Incident Response Team successfully contains the attack and removes the malicious software, the Disaster Recovery Team begins restoring affected infrastructure from trusted backups.
+
+At the same time, the Business Continuity Team activates recovery procedures to maintain essential customer services through alternate channels while technical recovery is underway. Business representatives validate restored applications, cybersecurity specialists verify that vulnerabilities have been remediated, and continuous monitoring is implemented to detect any signs of recurring malicious activity.
+
+Following the successful restoration of all critical services, the organization conducts a comprehensive post-incident review. The review identifies opportunities to improve privileged access management, accelerate system restoration procedures, and strengthen security monitoring capabilities. These improvements are incorporated into future Business Continuity, Disaster Recovery, and Cyber Resilience planning, increasing the organization's preparedness for future cyber incidents.
+
+---
+
+# Key Takeaways
+
+- Cyber Incident Recovery focuses on restoring critical business services after a cybersecurity incident while ensuring systems are secure and fully operational.
+- Incident Response, Disaster Recovery, Business Continuity, Crisis Management, and Operational Resilience work together to support effective recovery.
+- Recovery activities should follow a structured process that prioritizes critical services based on the Business Impact Analysis (BIA).
+- Recovery validation confirms that systems, applications, data, and business processes are functioning correctly before returning to normal operations.
+- Post-incident reviews and corrective actions drive continual improvement and strengthen future recovery capabilities.
+- A mature Cyber Incident Recovery capability enables organizations to recover safely, reduce operational disruption, maintain stakeholder confidence, and improve resilience against future cyber threats.
+
 - 

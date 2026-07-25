@@ -849,4 +849,494 @@ When an employee leaves the organization, the IT department disables the user's 
 - SSO improves user experience, reduces password-related risks, simplifies identity management, and supports centralized governance.
 - From a Governance, Risk, and Compliance (GRC) perspective, SSO enhances accountability, reduces identity-related risks, simplifies audits, and helps organizations meet regulatory requirements.
 
+- # Conditional Access Policies
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Understand the concept of Conditional Access.
+- Explain how Conditional Access strengthens cloud security.
+- Identify the components of a Conditional Access policy.
+- Understand common conditions and access controls used in cloud identity platforms.
+- Recognize how Conditional Access supports Zero Trust Architecture.
+- Understand the role of Conditional Access in Governance, Risk, and Compliance (GRC).
+
+---
+
+# Introduction
+
+Traditional access control models made decisions based primarily on a user's identity and password. Once authenticated, users often received unrestricted access regardless of where they were connecting from, which device they used, or whether the login attempt appeared suspicious.
+
+Modern cloud environments require a far more intelligent approach.
+
+**Conditional Access** is a policy-based security mechanism that evaluates multiple signals before granting access to cloud resources. Instead of trusting every successful login, Conditional Access continuously considers factors such as user identity, device security, geographic location, application sensitivity, user behavior, and real-time risk.
+
+Because access decisions are based on context rather than trust alone, Conditional Access has become one of the core security controls supporting Zero Trust Architecture.
+
+---
+
+# What is Conditional Access?
+
+Conditional Access is a policy engine that determines whether access to a cloud resource should be granted, restricted, or denied based on predefined conditions.
+
+Rather than relying solely on usernames and passwords, Conditional Access evaluates multiple factors before making an authorization decision.
+
+Typical actions include:
+
+- Grant access.
+- Require Multi-Factor Authentication (MFA).
+- Require a compliant device.
+- Limit application functionality.
+- Require password reset.
+- Block access completely.
+
+Access decisions are dynamic and may change as risk conditions change.
+
+---
+
+# Why Conditional Access is Important
+
+Cloud users connect from many different environments.
+
+Examples include:
+
+- Corporate offices.
+- Home networks.
+- Public Wi-Fi.
+- Mobile devices.
+- Personal laptops.
+- Third-party partner locations.
+- Foreign countries.
+
+These changing conditions introduce varying levels of security risk.
+
+Conditional Access enables organizations to make intelligent access decisions based on current risk rather than assuming every login is trustworthy.
+
+---
+
+# How Conditional Access Works
+
+The policy evaluation process generally follows these steps.
+
+```text
+User Login Request
+
+↓
+
+Identity Verification
+
+↓
+
+Evaluate Conditions
+
+↓
+
+Evaluate Organizational Policies
+
+↓
+
+Grant or Restrict Access
+
+↓
+
+Continuous Monitoring
+```
+
+Access is determined by both identity and contextual risk.
+
+---
+
+# Core Components of Conditional Access
+
+A Conditional Access policy typically consists of three major components.
+
+## 1. Signals (Conditions)
+
+Signals provide contextual information about the access request.
+
+Common signals include:
+
+- User identity.
+- Group membership.
+- Device compliance.
+- Device operating system.
+- Geographic location.
+- IP address.
+- User risk.
+- Sign-in risk.
+- Application being accessed.
+- Time of access.
+- Authentication strength.
+
+These signals help determine the overall level of risk.
+
+---
+
+## 2. Policy Evaluation
+
+Policies define how the organization responds to different conditions.
+
+Examples include:
+
+- Require MFA.
+- Require compliant devices.
+- Require approved applications.
+- Restrict browser sessions.
+- Allow read-only access.
+- Block high-risk logins.
+- Require password reset.
+- Allow trusted locations only.
+
+Multiple policies may apply simultaneously to a single authentication request.
+
+---
+
+## 3. Access Controls
+
+After policy evaluation, the identity platform applies the appropriate controls.
+
+Possible outcomes include:
+
+- Access granted.
+- Access denied.
+- Additional authentication required.
+- Session restrictions applied.
+- Limited application functionality.
+- Temporary access.
+- Continuous monitoring.
+
+These controls enforce organizational security requirements while minimizing disruption to legitimate users.
+
+---
+
+# Common Conditional Access Conditions
+
+Organizations typically evaluate several contextual conditions.
+
+## User Identity
+
+Policies may apply differently to:
+
+- Executives.
+- Administrators.
+- Employees.
+- Contractors.
+- Guests.
+- Service accounts.
+
+Privileged users often receive stricter security requirements.
+
+---
+
+## Device Compliance
+
+Organizations may require devices to meet security standards.
+
+Examples include:
+
+- Device encryption enabled.
+- Operating system up to date.
+- Endpoint protection installed.
+- Screen lock configured.
+- Device managed by Mobile Device Management (MDM).
+- Jailbreak/root detection passed.
+
+Non-compliant devices may be blocked or receive limited access.
+
+---
+
+## Geographic Location
+
+Organizations may:
+
+- Allow access from approved countries.
+- Block sanctioned regions.
+- Restrict high-risk locations.
+- Detect impossible travel scenarios.
+
+Location-based controls reduce the risk of unauthorized access from unexpected regions.
+
+---
+
+## Application Sensitivity
+
+Different applications may require different security controls.
+
+Examples:
+
+- Email → Standard MFA.
+- HR System → MFA + Compliant Device.
+- Financial Systems → MFA + Approved Device + Trusted Location.
+- Cloud Administration Portal → MFA + Privileged Access Management (PAM).
+
+Highly sensitive applications typically require stronger authentication.
+
+---
+
+## Sign-In Risk
+
+Modern identity platforms evaluate login risk using machine learning.
+
+Examples of high-risk indicators:
+
+- Anonymous IP addresses.
+- Known malicious IP addresses.
+- Impossible travel.
+- Unusual login patterns.
+- Credential leak detection.
+- Malware-infected devices.
+
+High-risk sign-ins may trigger stronger authentication or be blocked.
+
+---
+
+# Conditional Access in Zero Trust
+
+Conditional Access is one of the primary enforcement mechanisms for Zero Trust.
+
+Zero Trust principles include:
+
+- Never trust.
+- Always verify.
+- Assume breach.
+- Verify continuously.
+- Apply least privilege.
+- Evaluate context continuously.
+
+Conditional Access translates these principles into enforceable access decisions.
+
+---
+
+# Examples of Conditional Access Policies
+
+### Policy 1
+
+**If:**
+
+- User is an administrator
+
+**Then:**
+
+- Require Multi-Factor Authentication.
+- Require compliant device.
+- Require phishing-resistant authentication.
+
+---
+
+### Policy 2
+
+**If:**
+
+- User connects from an unknown country
+
+**Then:**
+
+- Block access.
+
+---
+
+### Policy 3
+
+**If:**
+
+- User signs in from an unmanaged device
+
+**Then:**
+
+- Allow browser-only access.
+- Block file downloads.
+
+---
+
+### Policy 4
+
+**If:**
+
+- Sign-in risk is high
+
+**Then:**
+
+- Force password reset.
+- Require MFA.
+- Notify Security Operations Center (SOC).
+
+---
+
+# Conditional Access Across Cloud Platforms
+
+Most major cloud identity providers offer Conditional Access capabilities.
+
+### Microsoft Entra ID
+
+Provides:
+
+- Conditional Access.
+- Continuous Access Evaluation.
+- Identity Protection.
+- Risk-based authentication.
+- Device compliance integration.
+
+---
+
+### Google Cloud
+
+Supports:
+
+- Context-Aware Access.
+- Device trust.
+- Location-based policies.
+- User risk evaluation.
+
+---
+
+### AWS
+
+Provides:
+
+- IAM policy conditions.
+- AWS Verified Access.
+- Session controls.
+- Attribute-based access conditions.
+
+Although implementations differ, the objective remains the same: making intelligent, context-aware access decisions.
+
+---
+
+# Conditional Access within GRC
+
+Conditional Access strengthens Governance, Risk, and Compliance.
+
+### Governance
+
+Supports:
+
+- Policy enforcement.
+- Identity governance.
+- Executive oversight.
+- Standardized access rules.
+
+---
+
+### Risk Management
+
+Reduces risks associated with:
+
+- Stolen credentials.
+- Insider threats.
+- Unmanaged devices.
+- Suspicious login attempts.
+- Privileged account abuse.
+
+---
+
+### Compliance
+
+Supports requirements in:
+
+- ISO/IEC 27001.
+- ISO/IEC 27002.
+- NIST Cybersecurity Framework (CSF).
+- NIST SP 800-53.
+- PCI DSS.
+- HIPAA.
+- GDPR.
+- SOC 2.
+
+Dynamic access controls help demonstrate that organizations protect sensitive information appropriately.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Require MFA for all privileged users.
+- Block legacy authentication protocols.
+- Require compliant devices for sensitive systems.
+- Restrict administrative access to trusted locations.
+- Continuously monitor sign-in risk.
+- Review Conditional Access policies regularly.
+- Test policy changes before production deployment.
+- Apply least privilege consistently.
+- Integrate Conditional Access with Identity Governance.
+- Continuously evaluate user and device risk.
+
+These practices improve both security and operational efficiency.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Conditional Access Decision Process
+
+**Diagram Description:**
+
+```text
+              User Login
+
+                   │
+
+                   ▼
+
+          Identity Verification
+
+                   │
+
+                   ▼
+
+      Evaluate Conditions
+ ┌─────────┬──────────┬──────────┐
+ │         │          │          │
+ ▼         ▼          ▼          ▼
+User    Device     Location    Risk
+
+                   │
+
+                   ▼
+
+      Conditional Access Policy
+
+                   │
+
+      ┌────────────┴────────────┐
+      │                         │
+      ▼                         ▼
+
+Grant Access             Require Controls
+                          (MFA, Compliant
+                           Device, etc.)
+
+                   │
+
+                   ▼
+
+        Continuous Monitoring
+```
+
+**Caption:**
+
+*"Conditional Access evaluates user identity, device health, location, application sensitivity, and real-time risk before granting or restricting access to cloud resources. This dynamic approach is a key component of Zero Trust security."*
+
+---
+
+# Practical Example
+
+A multinational pharmaceutical company protects its Microsoft 365 environment using Microsoft Entra Conditional Access. Employees signing in from corporate-managed laptops within approved countries are granted seamless access after completing Multi-Factor Authentication (MFA). However, if an employee attempts to access sensitive research data from an unmanaged personal device or from an unfamiliar country, additional security controls are enforced.
+
+For high-risk sign-ins detected by Microsoft Entra Identity Protection—such as impossible travel or logins from known malicious IP addresses—the organization automatically blocks access, alerts the Security Operations Center (SOC), and requires the user to reset their password before attempting to sign in again. These automated policies reduce the likelihood of account compromise while allowing legitimate users to work securely from different locations.
+
+---
+
+# Key Takeaways
+
+- Conditional Access makes access decisions based on contextual factors such as identity, device compliance, geographic location, application sensitivity, and sign-in risk.
+- Policies can grant, restrict, or block access and may require additional controls such as Multi-Factor Authentication (MFA), compliant devices, or password resets.
+- Conditional Access is a core enforcement mechanism for Zero Trust Architecture because it continuously verifies trust before and during access.
+- Modern cloud identity platforms, including Microsoft Entra ID, Google Cloud, and AWS, provide powerful Conditional Access capabilities.
+- Conditional Access reduces identity-related risks by protecting against compromised credentials, unmanaged devices, suspicious locations, and high-risk authentication attempts.
+- From a Governance, Risk, and Compliance (GRC) perspective, Conditional Access strengthens policy enforcement, supports regulatory compliance, and provides adaptive security aligned with organizational risk.
+
 - 

@@ -1256,4 +1256,447 @@ Quarterly access reviews identify users who have accumulated unnecessary permiss
 - Major cloud providers, including Microsoft Azure, AWS, and Google Cloud Platform, implement RBAC as a core Identity and Access Management (IAM) capability.
 - Well-designed RBAC strengthens Governance, Risk, and Compliance (GRC) by improving accountability, reducing excessive permissions, supporting regulatory compliance, and simplifying audits.
 
-- 
+- # Privileged Access Management (PAM)
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Understand the purpose of Privileged Access Management (PAM).
+- Identify privileged accounts and the risks associated with them.
+- Explain how PAM strengthens cloud security and Zero Trust.
+- Understand the core components of a PAM solution.
+- Recognize the role of PAM in Governance, Risk, and Compliance (GRC).
+- Apply PAM best practices in cloud environments.
+
+---
+
+# Introduction
+
+Not all user accounts present the same level of risk. While standard user accounts typically have limited permissions, **privileged accounts** possess elevated access that allows them to modify systems, manage users, change security settings, and access highly sensitive information.
+
+Because of their extensive permissions, privileged accounts are prime targets for cybercriminals. Compromising a single administrator account can allow attackers to disable security controls, steal confidential data, deploy ransomware, or take complete control of cloud environments.
+
+To reduce these risks, organizations implement **Privileged Access Management (PAM)**. PAM combines policies, processes, and technologies to control, monitor, and secure privileged accounts throughout their lifecycle.
+
+In modern cloud environments, PAM is considered a foundational security capability and a key component of Zero Trust Architecture.
+
+---
+
+# What is Privileged Access Management?
+
+Privileged Access Management (PAM) is a security discipline that manages, controls, monitors, and protects accounts with elevated permissions.
+
+A PAM solution helps organizations:
+
+- Secure privileged identities.
+- Control administrative access.
+- Enforce least privilege.
+- Monitor privileged sessions.
+- Protect administrative credentials.
+- Record privileged activities.
+- Detect misuse.
+- Support regulatory compliance.
+
+PAM reduces the likelihood that privileged accounts will be abused by insiders or external attackers.
+
+---
+
+# What Are Privileged Accounts?
+
+Privileged accounts have elevated permissions beyond those of standard users.
+
+Examples include:
+
+### Human Privileged Accounts
+
+- Cloud Administrators.
+- Global Administrators.
+- Database Administrators.
+- Network Administrators.
+- Security Administrators.
+- System Engineers.
+- DevOps Engineers.
+
+---
+
+### Non-Human Privileged Accounts
+
+- Service accounts.
+- Automation accounts.
+- Application identities.
+- API accounts.
+- Container service accounts.
+- Robotic Process Automation (RPA) accounts.
+
+Modern organizations often manage thousands of privileged identities, many of which are non-human.
+
+---
+
+# Why Privileged Accounts Are High-Value Targets
+
+Attackers frequently seek privileged accounts because they provide broad access to systems and data.
+
+If compromised, attackers may be able to:
+
+- Disable security controls.
+- Create new administrator accounts.
+- Steal confidential information.
+- Modify configurations.
+- Deploy ransomware.
+- Delete backups.
+- Move laterally across networks.
+- Hide malicious activity.
+- Disrupt business operations.
+
+Protecting privileged accounts is therefore one of the highest priorities in cybersecurity.
+
+---
+
+# Core Components of PAM
+
+A mature PAM program includes several integrated capabilities.
+
+## 1. Privileged Account Discovery
+
+Organizations should identify all privileged accounts across their environments.
+
+This includes:
+
+- Administrator accounts.
+- Shared accounts.
+- Service accounts.
+- Emergency accounts.
+- Cloud identities.
+- API credentials.
+
+You cannot protect privileged accounts that you do not know exist.
+
+---
+
+## 2. Credential Vaulting
+
+PAM solutions store privileged credentials in encrypted, centralized vaults.
+
+Benefits include:
+
+- Strong encryption.
+- Secure storage.
+- Password rotation.
+- Credential checkout.
+- Centralized management.
+- Reduced password sharing.
+
+Users retrieve credentials only when authorized.
+
+---
+
+## 3. Just-In-Time (JIT) Access
+
+Instead of permanent administrator privileges, users receive elevated access only when required.
+
+Typical workflow:
+
+```text
+Access Request
+
+↓
+
+Approval
+
+↓
+
+Temporary Privileges
+
+↓
+
+Task Completion
+
+↓
+
+Automatic Privilege Removal
+```
+
+JIT access significantly reduces standing privileges and limits opportunities for abuse.
+
+---
+
+## 4. Session Management
+
+PAM solutions monitor privileged sessions in real time.
+
+Capabilities include:
+
+- Session recording.
+- Live monitoring.
+- Command logging.
+- Activity playback.
+- Session termination.
+- Behavioral analytics.
+
+Recorded sessions provide valuable evidence during investigations and audits.
+
+---
+
+## 5. Password Rotation
+
+Administrative passwords should be changed automatically and regularly.
+
+Automated password rotation:
+
+- Eliminates shared passwords.
+- Reduces credential theft.
+- Prevents password reuse.
+- Supports compliance requirements.
+- Improves operational security.
+
+Many PAM platforms rotate passwords immediately after privileged sessions end.
+
+---
+
+## 6. Approval Workflows
+
+Organizations often require management approval before granting privileged access.
+
+Approval workflows may include:
+
+- Manager approval.
+- Security approval.
+- Change ticket validation.
+- Business justification.
+- Time limitations.
+- Emergency access procedures.
+
+These controls ensure privileged access is granted only when justified.
+
+---
+
+# PAM and the Principle of Least Privilege
+
+PAM is closely aligned with the **Principle of Least Privilege (PoLP)**.
+
+Organizations should ensure that privileged users receive:
+
+- Only the permissions required.
+- Only for approved tasks.
+- Only for a limited period.
+- Only after proper authorization.
+
+Reducing standing administrative privileges significantly lowers cyber risk.
+
+---
+
+# PAM in Cloud Environments
+
+Cloud platforms provide built-in capabilities that support privileged access management.
+
+Examples include:
+
+### Microsoft Azure
+
+- Microsoft Entra Privileged Identity Management (PIM).
+- Just-In-Time role activation.
+- Role approval workflows.
+- Access reviews.
+- Conditional Access integration.
+
+---
+
+### Amazon Web Services (AWS)
+
+- AWS IAM Roles.
+- AWS IAM Identity Center.
+- Temporary security credentials.
+- AWS Security Token Service (STS).
+
+---
+
+### Google Cloud Platform (GCP)
+
+- Cloud IAM.
+- Temporary role assignments.
+- Identity-aware access.
+- Access Transparency logs.
+
+Organizations often combine these native features with enterprise PAM solutions.
+
+---
+
+# PAM and Zero Trust
+
+Zero Trust assumes that no identity should receive unrestricted trust.
+
+PAM supports Zero Trust by:
+
+- Eliminating permanent administrator privileges.
+- Continuously validating identity.
+- Monitoring privileged activity.
+- Recording administrative sessions.
+- Limiting access duration.
+- Reducing attack surfaces.
+
+Privileged users are subject to the same verification requirements as all other users—often with even stricter controls.
+
+---
+
+# PAM within GRC
+
+Privileged Access Management is a critical control within Governance, Risk, and Compliance.
+
+### Governance
+
+PAM supports governance by:
+
+- Defining administrative roles.
+- Enforcing access policies.
+- Establishing accountability.
+- Providing executive oversight.
+
+---
+
+### Risk Management
+
+PAM reduces organizational risk by:
+
+- Limiting privileged access.
+- Preventing privilege abuse.
+- Protecting critical systems.
+- Supporting continuous monitoring.
+- Detecting suspicious administrator activity.
+
+---
+
+### Compliance
+
+Many standards require organizations to control privileged access.
+
+Examples include:
+
+- ISO/IEC 27001.
+- ISO/IEC 27002.
+- NIST SP 800-53.
+- PCI DSS 4.0.
+- HIPAA Security Rule.
+- SOC 2.
+- CIS Controls.
+
+PAM provides strong evidence during audits that privileged access is appropriately controlled and monitored.
+
+---
+
+# Common PAM Challenges
+
+Organizations frequently encounter challenges such as:
+
+- Shared administrator accounts.
+- Excessive standing privileges.
+- Unmanaged service accounts.
+- Legacy systems.
+- Poor password management.
+- Incomplete account inventories.
+- User resistance.
+- Integration complexity.
+
+Addressing these challenges requires both technology and governance.
+
+---
+
+# PAM Best Practices
+
+Organizations should:
+
+- Discover all privileged accounts.
+- Eliminate shared administrator accounts where possible.
+- Enforce Multi-Factor Authentication (MFA) for privileged users.
+- Implement Just-In-Time (JIT) access.
+- Use credential vaults.
+- Rotate privileged passwords automatically.
+- Record privileged sessions.
+- Conduct periodic access reviews.
+- Remove unnecessary administrator rights.
+- Continuously monitor privileged activities.
+- Integrate PAM with Security Information and Event Management (SIEM) platforms.
+
+These practices significantly reduce the likelihood and impact of privileged account compromise.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Privileged Access Management (PAM) Workflow
+
+**Diagram Description:**
+
+```text
+Administrator
+
+      │
+
+      ▼
+
+Access Request
+
+      │
+
+      ▼
+
+Approval Workflow
+
+      │
+
+      ▼
+
+Temporary Privileged Access
+(Just-In-Time)
+
+      │
+
+      ▼
+
+Privileged Session
+
+      │
+
+      ▼
+
+Session Monitoring & Recording
+
+      │
+
+      ▼
+
+Automatic Privilege Removal
+
+      │
+
+      ▼
+
+Audit Logs & Reporting
+```
+
+**Caption:**
+
+*"Privileged Access Management (PAM) protects administrator accounts by requiring approval, granting temporary elevated privileges, monitoring privileged sessions, automatically revoking access, and maintaining detailed audit records."*
+
+---
+
+# Practical Example
+
+A multinational financial institution manages its cloud infrastructure in Microsoft Azure. Rather than assigning permanent **Global Administrator** privileges to its IT staff, the organization implements Microsoft Entra Privileged Identity Management (PIM). When a cloud engineer needs to perform administrative tasks, they submit an access request with a business justification. The request requires manager approval and successful Multi-Factor Authentication (MFA) before a temporary administrator role is activated for two hours.
+
+During the maintenance window, all administrative actions are logged and monitored. Once the approved time expires, elevated privileges are automatically revoked, and the engineer returns to standard user permissions. Quarterly access reviews ensure that only authorized personnel remain eligible for privileged roles, while audit logs provide evidence for ISO/IEC 27001 and PCI DSS assessments.
+
+This approach minimizes standing privileges, reduces the attack surface, and strengthens governance over privileged identities.
+
+---
+
+# Key Takeaways
+
+- Privileged Access Management (PAM) secures accounts with elevated permissions through centralized control, monitoring, and governance.
+- Privileged accounts are high-value targets because they can modify systems, manage identities, access sensitive data, and change security configurations.
+- Core PAM capabilities include privileged account discovery, credential vaulting, Just-In-Time (JIT) access, session monitoring, password rotation, and approval workflows.
+- PAM supports the Principle of Least Privilege by granting elevated permissions only when required and only for approved tasks.
+- Modern cloud platforms provide native PAM capabilities that can be integrated with enterprise identity governance and security monitoring solutions.
+- Implementing PAM strengthens Governance, Risk, and Compliance (GRC), reduces cyber risk, supports Zero Trust Architecture, and helps organizations meet regulatory and audit requirements.

@@ -392,4 +392,461 @@ By centralizing identity management, the company improves security, simplifies a
 - Effective cloud identity management strengthens Governance, Risk, and Compliance (GRC) by improving accountability, reducing identity-related risks, and supporting regulatory requirements.
 - Modern organizations rely on Cloud Identity Services to securely manage access across hybrid environments, multiple cloud providers, and thousands of cloud applications.
 
+- # Single Sign-On (SSO)
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Understand the concept of Single Sign-On (SSO).
+- Explain how SSO works in cloud environments.
+- Identify the components of an SSO architecture.
+- Understand common SSO protocols and standards.
+- Recognize the security benefits and challenges of SSO.
+- Understand how SSO supports Governance, Risk, and Compliance (GRC).
+
+---
+
+# Introduction
+
+Modern organizations use dozens or even hundreds of cloud applications. Employees may need access to email, collaboration tools, customer relationship management (CRM) systems, enterprise resource planning (ERP) platforms, development tools, human resource systems, and many other Software as a Service (SaaS) applications.
+
+Without a centralized authentication solution, users must maintain separate usernames and passwords for every application. This increases administrative overhead, weakens security, and often leads to password reuse, forgotten credentials, and excessive help desk requests.
+
+**Single Sign-On (SSO)** addresses these challenges by allowing users to authenticate once with a trusted identity provider and then securely access multiple applications without signing in again.
+
+SSO improves user productivity while strengthening identity security through centralized authentication and access management.
+
+---
+
+# What is Single Sign-On?
+
+Single Sign-On (SSO) is an authentication mechanism that allows users to log in once and gain access to multiple applications or services without having to authenticate separately for each one.
+
+Instead of each application managing its own authentication process, applications rely on a centralized Identity Provider (IdP) to verify user identities.
+
+Once authentication is successful, users can move between authorized applications without repeated logins during the active session.
+
+---
+
+# Why Organizations Use SSO
+
+Organizations implement SSO to improve both security and operational efficiency.
+
+Benefits include:
+
+- Simplified user authentication.
+- Fewer passwords to remember.
+- Reduced password reuse.
+- Improved user productivity.
+- Faster application access.
+- Centralized authentication.
+- Lower help desk costs.
+- Improved access governance.
+- Better user experience.
+- Stronger security controls.
+
+SSO enables organizations to balance convenience with security.
+
+---
+
+# How Single Sign-On Works
+
+The SSO process typically follows these steps.
+
+```text
+User
+
+↓
+
+Login Request
+
+↓
+
+Identity Provider (IdP)
+
+↓
+
+Authentication
+
+↓
+
+Security Token Issued
+
+↓
+
+Cloud Applications
+
+↓
+
+Access Granted
+```
+
+The Identity Provider authenticates the user only once and issues a trusted security token that participating applications accept.
+
+---
+
+# Core Components of SSO
+
+Several components work together to provide Single Sign-On functionality.
+
+## 1. User
+
+The individual requesting access to applications or cloud resources.
+
+Examples include:
+
+- Employees.
+- Contractors.
+- Customers.
+- Partners.
+
+---
+
+## 2. Identity Provider (IdP)
+
+The Identity Provider performs authentication and issues security tokens.
+
+Common Identity Providers include:
+
+- Microsoft Entra ID.
+- Okta.
+- Google Identity.
+- Ping Identity.
+- OneLogin.
+
+The IdP becomes the central authority for user authentication.
+
+---
+
+## 3. Service Provider (SP)
+
+A Service Provider is the application or cloud service that users want to access.
+
+Examples include:
+
+- Microsoft 365.
+- Salesforce.
+- ServiceNow.
+- Workday.
+- Zoom.
+- GitHub.
+- AWS Management Console.
+
+Instead of authenticating users directly, the Service Provider trusts the Identity Provider.
+
+---
+
+## 4. Security Token
+
+After successful authentication, the Identity Provider issues a security token.
+
+The token contains information such as:
+
+- User identity.
+- Authentication status.
+- User roles.
+- Group memberships.
+- Token expiration.
+- Access permissions.
+
+Applications validate the token before granting access.
+
+---
+
+# Common SSO Protocols
+
+Several standardized protocols support Single Sign-On.
+
+## Security Assertion Markup Language (SAML)
+
+SAML is one of the most widely used enterprise authentication protocols.
+
+Characteristics include:
+
+- XML-based.
+- Browser-based authentication.
+- Strong enterprise adoption.
+- Common for SaaS applications.
+
+Many enterprise cloud applications support SAML integration.
+
+---
+
+## OpenID Connect (OIDC)
+
+OpenID Connect is a modern authentication protocol built on OAuth 2.0.
+
+Features include:
+
+- Lightweight.
+- REST-based.
+- JSON Web Tokens (JWT).
+- Mobile application support.
+- Cloud-native architecture.
+
+OIDC is increasingly replacing SAML for modern web and mobile applications.
+
+---
+
+## OAuth 2.0
+
+OAuth 2.0 is an authorization framework rather than an authentication protocol.
+
+It allows applications to:
+
+- Access APIs.
+- Delegate permissions.
+- Grant limited access.
+- Support third-party integrations.
+
+OAuth is commonly used together with OpenID Connect.
+
+---
+
+## Kerberos
+
+Kerberos is commonly used within on-premises Active Directory environments.
+
+Although less common in cloud-native applications, it remains important in hybrid enterprise environments.
+
+---
+
+# SSO in Cloud Environments
+
+Cloud Identity Services integrate SSO across numerous applications.
+
+Examples include:
+
+- Microsoft 365.
+- Salesforce.
+- ServiceNow.
+- AWS Console.
+- Google Workspace.
+- Slack.
+- Zoom.
+- Atlassian Cloud.
+- Dropbox.
+- Adobe Creative Cloud.
+
+Users authenticate once through the organization's Identity Provider and seamlessly access these services.
+
+---
+
+# SSO and Multi-Factor Authentication
+
+SSO becomes significantly more secure when combined with Multi-Factor Authentication (MFA).
+
+Authentication process:
+
+```text
+User Login
+
+↓
+
+Username & Password
+
+↓
+
+MFA Verification
+
+↓
+
+Identity Provider
+
+↓
+
+Security Token
+
+↓
+
+Multiple Applications
+```
+
+Instead of entering MFA for every application, users complete strong authentication once through the trusted Identity Provider.
+
+---
+
+# Security Benefits of SSO
+
+SSO provides numerous cybersecurity advantages.
+
+Benefits include:
+
+- Centralized authentication.
+- Reduced password fatigue.
+- Lower password reuse.
+- Simplified account management.
+- Improved monitoring.
+- Faster account revocation.
+- Better audit logging.
+- Easier compliance reporting.
+- Stronger integration with Conditional Access.
+- Improved user productivity.
+
+SSO strengthens security while simplifying access management.
+
+---
+
+# Potential Risks of SSO
+
+Although SSO offers many advantages, organizations should understand its risks.
+
+Potential risks include:
+
+- Single point of authentication.
+- Compromise of Identity Provider accounts.
+- Misconfigured trust relationships.
+- Token theft.
+- Session hijacking.
+- Weak authentication policies.
+
+These risks can be mitigated through strong security controls.
+
+---
+
+# Mitigating SSO Risks
+
+Organizations should implement:
+
+- Multi-Factor Authentication (MFA).
+- Conditional Access.
+- Passwordless authentication.
+- Session timeout policies.
+- Identity monitoring.
+- Privileged Access Management (PAM).
+- Risk-based authentication.
+- Continuous access evaluation.
+- Security logging.
+- Regular security reviews.
+
+Strong identity governance greatly reduces SSO-related risks.
+
+---
+
+# SSO within GRC
+
+Single Sign-On supports Governance, Risk, and Compliance in several ways.
+
+### Governance
+
+SSO provides:
+
+- Centralized identity control.
+- Standardized authentication policies.
+- Improved accountability.
+- Consistent access enforcement.
+
+---
+
+### Risk Management
+
+SSO helps reduce:
+
+- Password-related attacks.
+- Credential reuse.
+- Identity sprawl.
+- Orphaned accounts.
+- Administrative complexity.
+
+---
+
+### Compliance
+
+SSO supports compliance with standards such as:
+
+- ISO/IEC 27001.
+- ISO/IEC 27002.
+- NIST Cybersecurity Framework (CSF).
+- NIST SP 800-53.
+- PCI DSS.
+- HIPAA.
+- GDPR.
+- SOC 2.
+
+Centralized authentication simplifies audits and demonstrates consistent access control.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Integrate all supported cloud applications with SSO.
+- Protect SSO with Multi-Factor Authentication.
+- Use Conditional Access policies.
+- Monitor authentication logs continuously.
+- Implement passwordless authentication where appropriate.
+- Limit privileged accounts.
+- Regularly review application trust relationships.
+- Conduct periodic access reviews.
+- Remove inactive user accounts promptly.
+- Test SSO integrations regularly.
+
+Following these practices maximizes both security and usability.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Single Sign-On (SSO) Architecture
+
+**Diagram Description:**
+
+```text
+                 User
+
+                   │
+
+                   ▼
+
+        Identity Provider (IdP)
+
+                   │
+        Authentication + MFA
+
+                   │
+
+          Security Token Issued
+
+      ┌────────┬────────┬────────┐
+      │        │        │        │
+      ▼        ▼        ▼        ▼
+
+ Microsoft   Salesforce ServiceNow GitHub
+
+      │        │        │        │
+
+      ▼        ▼        ▼        ▼
+
+   Access   Access   Access   Access
+```
+
+**Caption:**
+
+*"Single Sign-On (SSO) allows users to authenticate once through a trusted Identity Provider. After successful authentication, a security token enables seamless access to multiple cloud applications without repeated logins."*
+
+---
+
+# Practical Example
+
+A global consulting firm uses Microsoft Entra ID as its centralized Identity Provider. Employees require access to Microsoft 365, Salesforce, ServiceNow, GitHub Enterprise, and several internally developed cloud applications.
+
+Instead of maintaining separate credentials for each application, users authenticate once through Microsoft Entra ID using Multi-Factor Authentication (MFA). After successful authentication, the Identity Provider issues a security token that trusted applications validate automatically. Employees can move between applications throughout the workday without signing in repeatedly.
+
+When an employee leaves the organization, the IT department disables the user's identity in Microsoft Entra ID. Access to every connected application is immediately revoked, eliminating the need to disable accounts individually across multiple systems. This centralized approach improves operational efficiency, strengthens security, and simplifies compliance with ISO/IEC 27001 access control requirements.
+
+---
+
+# Key Takeaways
+
+- Single Sign-On (SSO) enables users to authenticate once and securely access multiple cloud applications without repeated logins.
+- SSO relies on a trusted Identity Provider (IdP), Service Providers (SPs), and security tokens to authenticate and authorize users.
+- Common SSO standards include SAML, OpenID Connect (OIDC), OAuth 2.0, and Kerberos for hybrid environments.
+- Combining SSO with Multi-Factor Authentication (MFA), Conditional Access, and continuous monitoring significantly strengthens identity security.
+- SSO improves user experience, reduces password-related risks, simplifies identity management, and supports centralized governance.
+- From a Governance, Risk, and Compliance (GRC) perspective, SSO enhances accountability, reduces identity-related risks, simplifies audits, and helps organizations meet regulatory requirements.
+
 - 

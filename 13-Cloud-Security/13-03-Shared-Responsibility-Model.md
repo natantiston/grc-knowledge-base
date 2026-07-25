@@ -982,4 +982,337 @@ However, during a later security review, the company discovers that an administr
 - Responsibilities such as identity management, application security, customer data protection, and governance remain with the customer.
 - Understanding cloud provider responsibilities enables organizations to implement effective governance, reduce security gaps, and maximize the benefits of the Shared Responsibility Model.
 
+- # Shared Responsibility Across IaaS, PaaS, and SaaS
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Understand how the Shared Responsibility Model differs across IaaS, PaaS, and SaaS.
+- Identify which security responsibilities belong to the cloud provider and which remain with the customer for each cloud service model.
+- Compare customer responsibilities across Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).
+- Recognize how governance and compliance obligations remain with customers regardless of the service model.
+- Apply the Shared Responsibility Model when selecting cloud services.
+- Understand how service models influence cloud risk management and GRC activities.
+
+---
+
+# Introduction
+
+The Shared Responsibility Model is not static. As organizations move from Infrastructure as a Service (IaaS) to Platform as a Service (PaaS) and finally to Software as a Service (SaaS), the division of security responsibilities changes significantly.
+
+Generally, the more services a cloud provider manages, the fewer technical responsibilities remain with the customer. However, regardless of the service model, organizations always retain responsibility for their business data, identities, governance, and regulatory compliance.
+
+Understanding these differences is essential when designing cloud architectures, conducting risk assessments, implementing security controls, and defining governance responsibilities.
+
+---
+
+# Evolution of Responsibility
+
+Cloud service models exist on a spectrum.
+
+```text
+Customer Responsibility
+
+Highest
+   │
+   ▼
+
+IaaS
+
+↓
+
+PaaS
+
+↓
+
+SaaS
+
+   ▲
+   │
+
+Lowest
+```
+
+As organizations consume more managed services, the provider assumes responsibility for a larger portion of the technology stack.
+
+---
+
+# Infrastructure as a Service (IaaS)
+
+In IaaS, the cloud provider supplies the infrastructure while the customer manages most of the software environment.
+
+## Provider Responsibilities
+
+The provider manages:
+
+- Physical facilities.
+- Servers.
+- Storage hardware.
+- Networking infrastructure.
+- Virtualization platform.
+- Hypervisor.
+- Physical security.
+- Infrastructure availability.
+
+## Customer Responsibilities
+
+The customer manages:
+
+- Operating systems.
+- Virtual machines.
+- Applications.
+- Middleware.
+- Runtime.
+- Identity and Access Management (IAM).
+- Data protection.
+- Encryption.
+- Network configuration.
+- Firewalls.
+- Security monitoring.
+- Regulatory compliance.
+
+IaaS provides the greatest flexibility but also requires the highest level of customer security management.
+
+---
+
+# Platform as a Service (PaaS)
+
+In PaaS, the provider manages both the infrastructure and the application platform.
+
+## Provider Responsibilities
+
+The provider manages:
+
+- Physical infrastructure.
+- Networking.
+- Virtualization.
+- Operating systems.
+- Runtime environments.
+- Middleware.
+- Platform services.
+- Infrastructure maintenance.
+
+## Customer Responsibilities
+
+The customer manages:
+
+- Applications.
+- Application code.
+- Business data.
+- User identities.
+- Access permissions.
+- API security.
+- Encryption configuration.
+- Compliance.
+- Security monitoring.
+
+PaaS reduces administrative effort while allowing developers to focus on building applications.
+
+---
+
+# Software as a Service (SaaS)
+
+In SaaS, the provider manages nearly the entire technology stack.
+
+## Provider Responsibilities
+
+The provider manages:
+
+- Infrastructure.
+- Operating systems.
+- Applications.
+- Databases.
+- Platform services.
+- Maintenance.
+- Updates.
+- Availability.
+- Infrastructure security.
+
+## Customer Responsibilities
+
+The customer manages:
+
+- User accounts.
+- Identity management.
+- Authentication.
+- Multi-Factor Authentication (MFA).
+- Data ownership.
+- Data classification.
+- Information sharing.
+- Business configurations.
+- Compliance.
+- Governance.
+
+Although SaaS significantly reduces technical management, organizations remain responsible for securing how the application is used.
+
+---
+
+# Comparison of Responsibilities
+
+| Security Component | IaaS | PaaS | SaaS |
+|--------------------|:----:|:----:|:----:|
+| Physical Security | Provider | Provider | Provider |
+| Networking Infrastructure | Provider | Provider | Provider |
+| Storage Infrastructure | Provider | Provider | Provider |
+| Virtualization | Provider | Provider | Provider |
+| Operating System | Customer | Provider | Provider |
+| Middleware | Customer | Provider | Provider |
+| Runtime Environment | Customer | Provider | Provider |
+| Applications | Customer | Customer | Provider |
+| Identity & Access Management | Customer | Customer | Customer |
+| Business Data | Customer | Customer | Customer |
+| Compliance | Customer | Customer | Customer |
+| Governance | Customer | Customer | Customer |
+| Security Monitoring | Shared | Shared | Shared |
+
+This comparison demonstrates how responsibilities shift toward the provider as cloud services become more managed.
+
+---
+
+# Responsibilities That Always Remain with the Customer
+
+Regardless of the service model, customers always retain ownership of several critical responsibilities.
+
+These include:
+
+- Business data.
+- Data classification.
+- Identity governance.
+- Access control.
+- User lifecycle management.
+- Regulatory compliance.
+- Business continuity planning.
+- Risk management.
+- Security awareness training.
+- Governance oversight.
+- Information ownership.
+- Acceptable use of cloud services.
+
+These responsibilities cannot be delegated entirely to the cloud provider.
+
+---
+
+# Governance Considerations
+
+Organizations should evaluate governance requirements before selecting a cloud service model.
+
+Questions to consider include:
+
+- Which security controls will we manage?
+- Which controls are provided by the CSP?
+- Do we have the necessary operational expertise?
+- Which regulatory requirements apply?
+- How will we monitor compliance?
+- How will security incidents be investigated?
+- What evidence is available for audits?
+- How will cloud risks be assessed?
+
+These governance questions help organizations choose an appropriate cloud deployment strategy.
+
+---
+
+# Common Mistakes
+
+Organizations often misunderstand how responsibilities change across cloud models.
+
+Common mistakes include:
+
+- Assuming SaaS eliminates security responsibilities.
+- Neglecting identity governance.
+- Ignoring provider documentation.
+- Failing to secure APIs.
+- Assuming provider compliance equals customer compliance.
+- Not enabling available security features.
+- Misconfiguring cloud resources.
+- Failing to monitor cloud activity.
+- Overlooking backup and recovery planning.
+
+Awareness of these pitfalls helps organizations reduce cloud security risks.
+
+---
+
+# Best Practices
+
+To effectively manage responsibilities across all cloud service models, organizations should:
+
+- Understand the provider's Shared Responsibility Model.
+- Document customer-owned responsibilities.
+- Assign clear ownership for security controls.
+- Implement strong Identity and Access Management (IAM).
+- Enable Multi-Factor Authentication (MFA).
+- Encrypt sensitive information.
+- Continuously monitor cloud environments.
+- Conduct regular cloud risk assessments.
+- Review provider compliance reports.
+- Periodically reassess responsibilities as cloud services evolve.
+
+These practices ensure that responsibilities are fulfilled regardless of the service model.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Shared Responsibility Across Cloud Service Models
+
+**Diagram Description:**
+
+```text
+Security Responsibility
+
+            IaaS         PaaS         SaaS
+
+Applications
+──────────── Customer    Customer     Provider
+
+Runtime
+──────────── Customer    Provider     Provider
+
+Middleware
+──────────── Customer    Provider     Provider
+
+Operating System
+──────────── Customer    Provider     Provider
+
+Virtualization
+──────────── Provider    Provider     Provider
+
+Infrastructure
+──────────── Provider    Provider     Provider
+
+Identity
+──────────── Customer    Customer     Customer
+
+Data
+──────────── Customer    Customer     Customer
+
+Compliance
+──────────── Customer    Customer     Customer
+```
+
+**Caption:**
+
+*"As organizations move from IaaS to PaaS and SaaS, cloud providers assume greater responsibility for managing the technology stack. However, customers always remain responsible for protecting identities, business data, governance, and regulatory compliance."*
+
+---
+
+# Practical Example
+
+A technology company uses all three cloud service models to support different business needs. For its customer-facing web application, it deploys virtual machines on Microsoft Azure using Infrastructure as a Service (IaaS), where the IT team manages operating systems, network security, and application patching. For internal software development, the company uses Azure App Service as a Platform as a Service (PaaS), allowing developers to focus on application code while Microsoft manages the operating system and runtime environment. Finally, the company adopts Microsoft 365 as a Software as a Service (SaaS) solution for email and collaboration, where Microsoft manages the application platform while the organization remains responsible for user accounts, Multi-Factor Authentication (MFA), data governance, and regulatory compliance.
+
+By understanding the Shared Responsibility Model for each service model, the company clearly assigns ownership of security controls, reduces configuration errors, strengthens governance, and ensures compliance with ISO/IEC 27001 and other regulatory requirements.
+
+---
+
+# Key Takeaways
+
+- The Shared Responsibility Model changes depending on whether an organization uses IaaS, PaaS, or SaaS.
+- In IaaS, customers manage operating systems, applications, and most security controls, while providers manage the underlying infrastructure.
+- In PaaS, providers manage the infrastructure and platform, allowing customers to focus on applications, data, and identities.
+- In SaaS, providers manage almost the entire technology stack, but customers remain responsible for user management, business data, governance, and compliance.
+- Regardless of the service model, organizations always retain responsibility for data ownership, identity governance, risk management, business continuity, and regulatory compliance.
+- Understanding how responsibilities shift across cloud service models enables organizations to implement effective governance, strengthen security, and make informed cloud adoption decisions.
+
 - 

@@ -302,4 +302,335 @@ During a routine security assessment, auditors discover that an administrator ac
 - Cloud adoption does not transfer legal, regulatory, or risk management responsibilities to the cloud provider.
 - A clear understanding of shared responsibilities is fundamental for implementing secure, compliant, and resilient cloud environments.
 
+- # Customer Responsibilities
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Understand the security responsibilities that remain with cloud customers.
+- Identify the key areas customers must manage in cloud environments.
+- Explain why customer responsibilities vary across cloud service models.
+- Recognize how customer responsibilities support Governance, Risk, and Compliance (GRC).
+- Apply best practices to fulfill customer security obligations.
+- Understand the consequences of failing to meet customer responsibilities.
+
+---
+
+# Introduction
+
+One of the most common misconceptions about cloud computing is that the cloud provider assumes responsibility for all aspects of security. In reality, customers retain significant responsibility regardless of the cloud service model they choose.
+
+Whether an organization uses Infrastructure as a Service (IaaS), Platform as a Service (PaaS), or Software as a Service (SaaS), it remains accountable for protecting its business data, managing user access, complying with regulations, and implementing appropriate governance controls.
+
+Many cloud security incidents—including exposed storage accounts, compromised administrator credentials, ransomware infections, and data breaches—occur because organizations fail to fulfill their own responsibilities rather than because of failures within the cloud provider's infrastructure.
+
+Understanding customer responsibilities is therefore essential for maintaining a secure and compliant cloud environment.
+
+---
+
+# Why Customer Responsibilities Matter
+
+Cloud providers deliver secure platforms, but they cannot make business decisions on behalf of their customers.
+
+Customers determine:
+
+- Who can access cloud resources.
+- What data is stored.
+- How applications are configured.
+- Which security controls are enabled.
+- What compliance requirements apply.
+- How business risks are managed.
+
+Since organizations retain ownership of their data and business processes, they must also retain ownership of their security and compliance obligations.
+
+---
+
+# Core Customer Responsibilities
+
+Customers are responsible for multiple aspects of cloud security.
+
+## 1. Identity and Access Management (IAM)
+
+Identity security is one of the customer's most critical responsibilities.
+
+Organizations should:
+
+- Create and manage user accounts.
+- Enforce Multi-Factor Authentication (MFA).
+- Apply Role-Based Access Control (RBAC).
+- Follow the Principle of Least Privilege.
+- Remove inactive accounts.
+- Protect privileged identities.
+- Periodically review access permissions.
+
+Compromised identities remain one of the leading causes of cloud security incidents.
+
+---
+
+## 2. Data Protection
+
+Customers own their business data and must ensure it remains protected throughout its lifecycle.
+
+Responsibilities include:
+
+- Data classification.
+- Data ownership.
+- Encryption configuration.
+- Backup management.
+- Data retention.
+- Secure deletion.
+- Privacy protection.
+- Data residency compliance.
+
+Protecting data remains the customer's responsibility even when it is stored in a public cloud.
+
+---
+
+## 3. Application Security
+
+Organizations are responsible for securing the applications they deploy.
+
+This includes:
+
+- Secure software development.
+- Vulnerability management.
+- Patch management.
+- API security.
+- Secure coding practices.
+- Application testing.
+- Dependency management.
+- Configuration management.
+
+Poorly secured applications can compromise otherwise secure cloud environments.
+
+---
+
+## 4. Operating System Security (IaaS)
+
+In Infrastructure as a Service (IaaS), customers manage the operating systems running on virtual machines.
+
+Responsibilities include:
+
+- Operating system installation.
+- Security updates.
+- Patch management.
+- Malware protection.
+- Host firewalls.
+- System hardening.
+- User account management.
+- Log management.
+
+These responsibilities generally shift to the provider in PaaS and SaaS environments.
+
+---
+
+## 5. Network Configuration
+
+Although cloud providers secure the physical network, customers configure their logical cloud networks.
+
+Responsibilities include:
+
+- Virtual network design.
+- Firewall configuration.
+- Security groups.
+- Network segmentation.
+- Private connectivity.
+- VPN configuration.
+- Load balancer security.
+- DNS security.
+
+Improper network configurations frequently lead to unauthorized access.
+
+---
+
+## 6. Security Monitoring
+
+Customers are responsible for monitoring their cloud workloads and detecting suspicious activities.
+
+Typical monitoring activities include:
+
+- Reviewing audit logs.
+- Monitoring privileged activities.
+- Detecting unauthorized access.
+- Monitoring configuration changes.
+- Identifying anomalous behavior.
+- Responding to alerts.
+- Integrating logs with SIEM platforms.
+
+Continuous monitoring helps identify threats before they escalate.
+
+---
+
+## 7. Regulatory Compliance
+
+Cloud providers may support compliance through certifications and built-in controls, but customers remain responsible for meeting applicable regulatory obligations.
+
+Responsibilities include:
+
+- GDPR compliance.
+- HIPAA compliance.
+- PCI DSS compliance.
+- Financial regulations.
+- Internal governance requirements.
+- Evidence collection.
+- Audit preparation.
+- Policy enforcement.
+
+Compliance accountability cannot be outsourced to the cloud provider.
+
+---
+
+## 8. Business Continuity and Disaster Recovery
+
+Organizations remain responsible for ensuring that critical business services can recover from disruptions.
+
+Customer responsibilities include:
+
+- Business Impact Analysis (BIA).
+- Recovery planning.
+- Backup validation.
+- Disaster Recovery testing.
+- Recovery procedures.
+- Crisis management.
+- Business continuity exercises.
+
+Cloud availability does not automatically guarantee business continuity.
+
+---
+
+# Responsibilities Across Service Models
+
+Customer responsibilities vary depending on the cloud service model.
+
+| Responsibility | IaaS | PaaS | SaaS |
+|---------------|:----:|:----:|:----:|
+| Data Protection | ✔ | ✔ | ✔ |
+| Identity Management | ✔ | ✔ | ✔ |
+| User Access Control | ✔ | ✔ | ✔ |
+| Application Security | ✔ | ✔ | Limited* |
+| Operating System Security | ✔ | Provider | Provider |
+| Middleware Security | ✔ | Provider | Provider |
+| Network Configuration | ✔ | Partial | Limited |
+| Compliance | ✔ | ✔ | ✔ |
+
+*In SaaS, customers are primarily responsible for configuring security settings, managing users, and protecting business data within the application.
+
+---
+
+# Customer Responsibilities within GRC
+
+From a Governance, Risk, and Compliance perspective, customers should establish processes to ensure responsibilities are consistently fulfilled.
+
+These include:
+
+- Cloud governance policies.
+- Cloud risk assessments.
+- Security awareness training.
+- Asset inventories.
+- Third-party risk management.
+- Compliance monitoring.
+- Internal audits.
+- Continuous improvement.
+- Executive reporting.
+- Security metrics.
+
+Strong governance ensures customer responsibilities are clearly assigned and regularly reviewed.
+
+---
+
+# Consequences of Neglecting Customer Responsibilities
+
+Failing to fulfill customer responsibilities can lead to significant business impacts.
+
+Potential consequences include:
+
+- Data breaches.
+- Regulatory penalties.
+- Financial losses.
+- Service disruptions.
+- Ransomware attacks.
+- Loss of customer trust.
+- Legal liability.
+- Audit findings.
+- Reputational damage.
+- Increased cyber risk.
+
+Most cloud security incidents can be traced to customer-controlled areas such as identity management, access permissions, or configuration errors.
+
+---
+
+# Best Practices
+
+Organizations should adopt the following practices to meet their cloud security responsibilities:
+
+- Enforce Multi-Factor Authentication (MFA) for all users.
+- Implement least-privilege access controls.
+- Encrypt sensitive data at rest and in transit.
+- Regularly review user permissions.
+- Continuously monitor cloud activity.
+- Conduct routine vulnerability assessments.
+- Patch systems promptly.
+- Test backup and recovery procedures.
+- Maintain accurate asset inventories.
+- Align governance with recognized security frameworks.
+- Perform regular compliance reviews.
+- Provide ongoing cloud security training.
+
+These practices significantly reduce organizational risk.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Customer Responsibilities in the Shared Responsibility Model
+
+**Diagram Description:**
+
+```text
+                Customer
+
+                    │
+
+ ┌──────────┬──────────┬──────────┐
+ │          │          │          │
+ ▼          ▼          ▼          ▼
+Identity   Data     Applications  Compliance
+
+ │          │          │          │
+ ▼          ▼          ▼          ▼
+Monitoring  Backup   Configuration Governance
+
+                    │
+
+          Business Continuity
+```
+
+**Caption:**
+
+*"Regardless of the cloud service model, customers remain responsible for protecting their identities, data, applications, configurations, governance processes, and regulatory compliance. These responsibilities are fundamental to maintaining a secure cloud environment."*
+
+---
+
+# Practical Example
+
+A global insurance company migrates several business applications to Microsoft Azure using an Infrastructure as a Service (IaaS) model. While Microsoft manages the physical data centers, networking infrastructure, and virtualization platform, the company remains responsible for configuring virtual machines, managing administrator accounts, securing customer databases, and monitoring security events.
+
+During a routine security assessment, the cybersecurity team discovers that several virtual machines have not received critical operating system patches and that two administrator accounts lack Multi-Factor Authentication (MFA). Although the cloud infrastructure itself remains secure, these customer-controlled weaknesses significantly increase the organization's risk of compromise.
+
+The company immediately deploys missing security updates, enables MFA for all privileged accounts, automates patch management, and introduces monthly access reviews. This reinforces that maintaining cloud security depends not only on the provider's infrastructure but also on the customer's ongoing governance, operational discipline, and security practices.
+
+---
+
+# Key Takeaways
+
+- Cloud customers retain significant security responsibilities regardless of the cloud service model they use.
+- Core customer responsibilities include identity management, data protection, application security, regulatory compliance, monitoring, and business continuity.
+- In IaaS environments, customers also manage operating systems, network configurations, and virtual machine security.
+- Customer responsibilities support Governance, Risk, and Compliance (GRC) by ensuring accountability, regulatory adherence, and effective risk management.
+- Most cloud security incidents result from customer-controlled issues such as weak identities, excessive permissions, misconfigurations, or inadequate governance.
+- Clearly understanding and fulfilling customer responsibilities is essential for building secure, resilient, and compliant cloud environments.
+
 - 

@@ -895,4 +895,404 @@ One evening, Sentinel detects a sequence of failed login attempts from multiple 
 - Protecting log integrity through encryption, access controls, and appropriate retention policies ensures logs remain reliable for investigations and audits.
 - From a Governance, Risk, and Compliance (GRC) perspective, centralized logging and SIEM strengthen security governance, improve risk detection, and provide the evidence required to demonstrate compliance with international standards and regulatory frameworks.
 
+- # Threat Detection and Security Analytics
+
+Collecting logs is only the first step in protecting cloud environments. The real value comes from analyzing those logs to identify suspicious behavior, detect cyberattacks, and respond before attackers can cause significant damage. This process is known as **threat detection**.
+
+Modern cloud security platforms use **security analytics** to process massive amounts of data from multiple sources, helping organizations identify malicious activities that would be difficult or impossible to detect manually. By combining real-time monitoring, threat intelligence, behavioral analysis, and automation, organizations can significantly improve their ability to defend against cyber threats.
+
+---
+
+# What is Threat Detection?
+
+Threat detection is the process of identifying activities that may indicate malicious behavior, security policy violations, or unauthorized access within a cloud environment.
+
+Threat detection helps organizations identify:
+
+- Cyberattacks.
+- Unauthorized logins.
+- Insider threats.
+- Malware infections.
+- Data exfiltration.
+- Privilege escalation.
+- Account compromise.
+- Cloud misconfigurations.
+
+The earlier threats are detected, the faster security teams can respond and reduce business impact.
+
+---
+
+# What is Security Analytics?
+
+Security analytics is the practice of collecting, analyzing, and interpreting security-related data to identify threats and unusual behavior.
+
+Security analytics combines information from:
+
+- Authentication logs.
+- Network traffic.
+- Endpoint security.
+- Cloud workloads.
+- Identity services.
+- Applications.
+- APIs.
+- Threat intelligence feeds.
+
+Advanced analytics enables organizations to detect attacks that traditional signature-based security controls may miss.
+
+---
+
+# Threat Detection Process
+
+Threat detection follows a continuous cycle.
+
+```text
+Collect Security Data
+
+          │
+
+          ▼
+
+Normalize Data
+
+          │
+
+          ▼
+
+Analyze Events
+
+          │
+
+          ▼
+
+Detect Suspicious Activity
+
+          │
+
+          ▼
+
+Generate Alerts
+
+          │
+
+          ▼
+
+Incident Response
+```
+
+This cycle operates continuously to identify potential threats as quickly as possible.
+
+---
+
+# Indicators of Compromise (IoCs)
+
+An **Indicator of Compromise (IoC)** is evidence suggesting that a system or account may have been compromised.
+
+Common IoCs include:
+
+- Multiple failed login attempts.
+- Login from unusual locations.
+- Unexpected privilege changes.
+- Unauthorized account creation.
+- Malware detections.
+- Communication with known malicious IP addresses.
+- Unexpected file modifications.
+- Suspicious PowerShell or command-line activity.
+
+Security teams investigate IoCs to determine whether a security incident has occurred.
+
+---
+
+# Indicators of Attack (IoAs)
+
+Unlike IoCs, which indicate that a compromise may have already occurred, **Indicators of Attack (IoAs)** focus on attacker behavior during an attack.
+
+Examples include:
+
+- Credential harvesting.
+- Lateral movement.
+- Privilege escalation.
+- Command execution.
+- Persistence mechanisms.
+- Data staging.
+- Data exfiltration attempts.
+
+IoAs help organizations detect attacks earlier in the attack lifecycle.
+
+---
+
+# Behavioral Analytics
+
+Traditional security tools rely on predefined rules. Behavioral analytics focuses on identifying deviations from normal activity.
+
+Examples include:
+
+- A user downloading unusually large amounts of data.
+- Administrative activity outside business hours.
+- Login attempts from multiple countries within a short period.
+- An application accessing resources it has never used before.
+- Unexpected changes to cloud security policies.
+
+Behavioral analysis helps identify insider threats and compromised accounts that may bypass traditional detection methods.
+
+---
+
+# User and Entity Behavior Analytics (UEBA)
+
+**User and Entity Behavior Analytics (UEBA)** applies machine learning to establish normal behavior for users and systems.
+
+UEBA continuously evaluates:
+
+- Login patterns.
+- Device usage.
+- Geographic locations.
+- Application access.
+- Administrative actions.
+- Resource consumption.
+
+When activity deviates significantly from established baselines, the system generates alerts for further investigation.
+
+---
+
+# Threat Intelligence
+
+Threat intelligence provides information about known cyber threats, attackers, and malicious infrastructure.
+
+Threat intelligence sources include:
+
+- Malicious IP addresses.
+- Known phishing domains.
+- Malware signatures.
+- Vulnerability databases.
+- Attack techniques.
+- Security advisories.
+- Industry threat feeds.
+
+Cloud security platforms compare observed events against threat intelligence to identify known threats more quickly.
+
+---
+
+# Detection Rules
+
+Organizations configure detection rules to identify predefined security events.
+
+Examples include:
+
+- More than 10 failed login attempts within five minutes.
+- Creation of a new Global Administrator account.
+- Disabled Multi-Factor Authentication (MFA).
+- Deletion of audit logs.
+- Public exposure of cloud storage.
+- Deployment of unauthorized virtual machines.
+
+Detection rules automate the identification of common attack scenarios.
+
+---
+
+# Machine Learning for Threat Detection
+
+Modern cloud security platforms increasingly use machine learning to identify threats.
+
+Machine learning can detect:
+
+- Unusual login behavior.
+- Abnormal network traffic.
+- Rare administrative actions.
+- Anomalous API usage.
+- Suspicious resource deployments.
+- Unexpected application behavior.
+
+Machine learning improves detection of previously unknown attack techniques while reducing reliance on static rules.
+
+---
+
+# Threat Detection in Major Cloud Platforms
+
+### Microsoft Azure
+
+Microsoft provides:
+
+- Microsoft Defender for Cloud.
+- Microsoft Defender XDR.
+- Microsoft Sentinel.
+- Microsoft Entra ID Protection.
+
+---
+
+### Amazon Web Services (AWS)
+
+AWS provides:
+
+- Amazon GuardDuty.
+- Amazon Inspector.
+- AWS Security Hub.
+- Amazon Detective.
+
+---
+
+### Google Cloud Platform (GCP)
+
+Google Cloud provides:
+
+- Security Command Center.
+- Google Security Operations.
+- Event Threat Detection.
+- Cloud IDS.
+
+These services combine security analytics, threat intelligence, and automation to protect cloud environments.
+
+---
+
+# Threat Detection within the Security Operations Center (SOC)
+
+Security analysts rely on threat detection platforms to:
+
+- Monitor security alerts.
+- Validate suspicious activities.
+- Investigate incidents.
+- Correlate attack indicators.
+- Perform threat hunting.
+- Escalate confirmed incidents.
+- Support digital forensics.
+
+Effective threat detection enables SOC teams to reduce the time required to identify and contain cyber incidents.
+
+---
+
+# Threat Detection within GRC
+
+Threat detection supports Governance, Risk, and Compliance by providing continuous visibility into organizational security risks.
+
+### Governance
+
+Organizations establish:
+
+- Threat monitoring policies.
+- Detection standards.
+- Alert classification procedures.
+- Investigation workflows.
+- Reporting requirements.
+
+---
+
+### Risk Management
+
+Threat detection reduces risks associated with:
+
+- Unauthorized access.
+- Insider threats.
+- Malware infections.
+- Data breaches.
+- Cloud misconfigurations.
+- Advanced persistent threats (APTs).
+
+Early detection minimizes the likelihood and impact of security incidents.
+
+---
+
+### Compliance
+
+Threat detection supports compliance with:
+
+- ISO/IEC 27001.
+- ISO/IEC 27002.
+- NIST Cybersecurity Framework (CSF).
+- NIST SP 800-53.
+- PCI DSS.
+- HIPAA.
+- GDPR.
+- SOC 2.
+
+Continuous monitoring and documented investigations provide valuable evidence during internal and external audits.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Continuously monitor all cloud environments.
+- Centralize security analytics.
+- Use threat intelligence feeds.
+- Implement User and Entity Behavior Analytics (UEBA).
+- Regularly update detection rules.
+- Monitor privileged accounts closely.
+- Validate alerts before escalation.
+- Conduct proactive threat hunting.
+- Review detection performance regularly.
+- Train security teams on emerging attack techniques.
+
+Applying these practices improves the organization's ability to detect, investigate, and respond to evolving cyber threats.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Cloud Threat Detection and Security Analytics Workflow
+
+**Diagram Description:**
+
+```text
+     Cloud Resources
+
+            │
+
+            ▼
+
+    Security Logs & Events
+
+            │
+
+            ▼
+
+   Security Analytics Engine
+
+            │
+
+ ┌──────────┼──────────┐
+ ▼          ▼          ▼
+
+Rules     UEBA     Threat Intelligence
+
+            │
+
+            ▼
+
+   Threat Correlation
+
+            │
+
+            ▼
+
+   Alerts & Investigation
+
+            │
+
+            ▼
+
+    Incident Response
+```
+
+**Caption:**
+
+*"Cloud security analytics combines log data, behavioral analysis, detection rules, and threat intelligence to identify suspicious activity and support rapid incident response before attacks can significantly impact the organization."*
+
+---
+
+# Practical Example
+
+A multinational healthcare organization hosts patient management systems across Microsoft Azure and Google Cloud. Security telemetry from Microsoft Defender for Cloud, Microsoft Sentinel, Google Security Operations, and endpoint protection platforms is continuously analyzed using behavioral analytics and threat intelligence.
+
+One morning, the analytics platform detects a successful login from a trusted employee account, followed minutes later by access attempts from an unfamiliar country, privilege escalation, and an unusually large download of patient records. User and Entity Behavior Analytics (UEBA) identifies the activity as highly abnormal and generates a high-severity alert. The Security Operations Center (SOC) immediately disables the account, blocks active sessions, and begins an investigation. Rapid detection prevents further data exposure and helps the organization satisfy its incident response obligations under ISO/IEC 27001 and HIPAA.
+
+---
+
+# Key Takeaways
+
+- Threat detection identifies malicious activities, policy violations, and unauthorized access within cloud environments before significant damage occurs.
+- Security analytics combines log data, behavioral analysis, threat intelligence, and machine learning to detect both known and emerging cyber threats.
+- Indicators of Compromise (IoCs), Indicators of Attack (IoAs), and User and Entity Behavior Analytics (UEBA) provide complementary methods for identifying suspicious activity.
+- Major cloud providers offer integrated threat detection services that automate monitoring, analytics, and alert generation across cloud workloads.
+- Continuous monitoring, well-maintained detection rules, and proactive threat hunting improve the effectiveness of Security Operations Centers (SOCs).
+- From a Governance, Risk, and Compliance (GRC) perspective, threat detection strengthens organizational resilience, reduces cyber risk, and provides evidence that continuous security monitoring controls are operating effectively.
+
 - 

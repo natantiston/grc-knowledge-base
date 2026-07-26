@@ -1335,4 +1335,789 @@ If a login attempt originates from an unfamiliar country or an unmanaged device,
 - Major cloud providers offer integrated authentication services that support centralized identity management and strong access protection.
 - From a Governance, Risk, and Compliance (GRC) perspective, robust authentication controls reduce identity-related risks, strengthen organizational security, and support compliance with international standards and regulatory requirements.
 
+- # Authorization and Role-Based Access Control (RBAC)
+
+After an identity has been successfully authenticated, the next step is determining what that identity is allowed to do. This process is known as **authorization**. While authentication verifies identity, authorization enforces security policies by granting only the permissions necessary to perform approved tasks.
+
+Modern cloud platforms rely heavily on **Role-Based Access Control (RBAC)** to simplify permission management, reduce administrative complexity, and minimize the risk of excessive privileges. Proper authorization is a critical component of cloud security because many cloud breaches result from users or applications having more permissions than required.
+
+---
+
+# Understanding Authorization
+
+Authorization is the process of determining whether an authenticated identity has permission to perform a requested action.
+
+Authorization answers the question:
+
+> **"What are you allowed to do?"**
+
+Every request to access a cloud resource is evaluated against predefined access policies before permission is granted.
+
+A simplified authorization process is shown below.
+
+```text
+Authenticated User
+
+        │
+
+        ▼
+
+Access Request
+
+        │
+
+        ▼
+
+Evaluate Roles & Policies
+
+        │
+
+        ▼
+
+Permission Granted or Denied
+```
+
+Only identities with the appropriate permissions can perform the requested operation.
+
+---
+
+# Permissions
+
+Permissions define the specific actions that an identity is allowed to perform.
+
+Examples include:
+
+- Read files.
+- Create virtual machines.
+- Delete storage accounts.
+- Start or stop servers.
+- Modify firewall rules.
+- Access databases.
+- View audit logs.
+- Manage user accounts.
+
+Each permission represents a specific capability within the cloud environment.
+
+---
+
+# What is a Role?
+
+A role is a predefined collection of permissions assigned to a user, group, application, or service.
+
+Instead of assigning permissions individually, administrators assign roles that contain the necessary permissions for a particular job function.
+
+Examples of common roles include:
+
+- Security Administrator.
+- Network Administrator.
+- Database Administrator.
+- Backup Operator.
+- Read-Only Auditor.
+- Billing Administrator.
+- Application Developer.
+
+Using roles simplifies administration and reduces configuration errors.
+
+---
+
+# Role-Based Access Control (RBAC)
+
+Role-Based Access Control (RBAC) is an authorization model in which permissions are assigned to roles, and roles are assigned to identities.
+
+The relationship can be illustrated as follows.
+
+```text
+User
+
+   │
+
+Assigned Role
+
+   │
+
+Permissions
+
+   │
+
+Cloud Resources
+```
+
+This approach allows administrators to manage access consistently across large cloud environments.
+
+---
+
+# Benefits of RBAC
+
+Implementing RBAC provides several advantages:
+
+- Simplifies permission management.
+- Reduces administrative overhead.
+- Supports least privilege.
+- Improves consistency.
+- Reduces configuration errors.
+- Enhances scalability.
+- Simplifies audits.
+- Improves regulatory compliance.
+
+RBAC is considered the standard authorization model for enterprise cloud environments.
+
+---
+
+# Principle of Least Privilege
+
+The **Principle of Least Privilege (PoLP)** states that users, applications, and services should receive only the permissions required to perform their assigned responsibilities.
+
+For example:
+
+| Role | Required Permissions |
+|------|----------------------|
+| Help Desk | Reset passwords |
+| Database Administrator | Manage databases only |
+| Network Administrator | Configure networking services |
+| Auditor | Read-only access to logs |
+| Developer | Deploy applications without managing IAM |
+
+Applying least privilege reduces the organization's attack surface and limits the potential impact of compromised accounts.
+
+---
+
+# Privileged Accounts
+
+Some identities require elevated permissions to manage cloud infrastructure.
+
+Examples include:
+
+- Global Administrators.
+- Subscription Owners.
+- Security Administrators.
+- IAM Administrators.
+- Cloud Architects.
+- Platform Engineers.
+
+Because privileged accounts have extensive access, they represent high-value targets for attackers.
+
+Organizations should apply additional protections such as:
+
+- Multi-Factor Authentication (MFA).
+- Privileged Identity Management (PIM).
+- Just-In-Time (JIT) access.
+- Continuous monitoring.
+- Session logging.
+
+---
+
+# Segregation of Duties (SoD)
+
+Segregation of Duties prevents a single individual from controlling every stage of a sensitive business process.
+
+Examples include separating responsibilities for:
+
+- System administration and auditing.
+- Software development and production deployment.
+- Financial approval and payment processing.
+- User creation and permission approval.
+- Security monitoring and incident response.
+
+Segregating responsibilities reduces fraud, errors, and insider threats.
+
+---
+
+# Role Assignment Scope
+
+Cloud platforms allow roles to be assigned at different levels.
+
+Examples include:
+
+- Organization.
+- Management Group.
+- Subscription.
+- Resource Group.
+- Individual Resource.
+
+Permissions assigned at higher levels are often inherited by lower-level resources unless restricted.
+
+Properly selecting the assignment scope helps ensure users receive only the access they require.
+
+---
+
+# Built-in and Custom Roles
+
+Cloud providers typically offer two types of roles.
+
+## Built-in Roles
+
+Built-in roles are predefined by the cloud provider.
+
+Examples include:
+
+- Owner.
+- Contributor.
+- Reader.
+- Security Administrator.
+- Network Contributor.
+
+These roles cover common administrative responsibilities.
+
+---
+
+## Custom Roles
+
+Organizations may create custom roles when built-in roles provide too many or too few permissions.
+
+Custom roles allow administrators to:
+
+- Limit excessive permissions.
+- Support unique business functions.
+- Meet regulatory requirements.
+- Enforce organizational security policies.
+
+Custom roles should be carefully reviewed and documented.
+
+---
+
+# Authorization in Major Cloud Platforms
+
+### Microsoft Azure
+
+Azure uses **Azure Role-Based Access Control (Azure RBAC)** to assign permissions to users, groups, managed identities, and service principals.
+
+Examples of built-in roles include:
+
+- Owner.
+- Contributor.
+- Reader.
+- User Access Administrator.
+- Security Administrator.
+
+---
+
+### Amazon Web Services (AWS)
+
+AWS IAM uses policies attached to:
+
+- Users.
+- Groups.
+- Roles.
+
+Policies specify which actions are allowed or denied for AWS resources.
+
+---
+
+### Google Cloud Platform (GCP)
+
+Google Cloud IAM assigns permissions through:
+
+- Primitive Roles.
+- Predefined Roles.
+- Custom Roles.
+
+Access can be granted at the organization, folder, project, or resource level.
+
+Although terminology differs, the underlying authorization concepts are similar across providers.
+
+---
+
+# Authorization within GRC
+
+Authorization plays a central role in Governance, Risk, and Compliance programs.
+
+### Governance
+
+Organizations establish:
+
+- Access control policies.
+- Role definitions.
+- Approval workflows.
+- Segregation of Duties requirements.
+- Access review procedures.
+
+---
+
+### Risk Management
+
+Proper authorization reduces risks associated with:
+
+- Excessive privileges.
+- Insider threats.
+- Privilege escalation.
+- Unauthorized access.
+- Misconfigured permissions.
+- Regulatory violations.
+
+Regular access reviews help identify and remove unnecessary permissions before they become security risks.
+
+---
+
+### Compliance
+
+Authorization controls support compliance with:
+
+- ISO/IEC 27001.
+- ISO/IEC 27002.
+- NIST Cybersecurity Framework (CSF).
+- NIST SP 800-53.
+- PCI DSS.
+- HIPAA.
+- GDPR.
+- SOC 2.
+
+Auditors commonly review role assignments, privileged accounts, approval records, and periodic access certifications.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Implement Role-Based Access Control (RBAC) across all cloud environments.
+- Apply the Principle of Least Privilege.
+- Protect privileged accounts with Multi-Factor Authentication (MFA).
+- Use Privileged Identity Management (PIM) where available.
+- Implement Just-In-Time (JIT) administrative access.
+- Perform regular access reviews.
+- Remove unused roles and permissions.
+- Separate administrative responsibilities through Segregation of Duties.
+- Monitor privileged activities continuously.
+- Document all authorization policies and role definitions.
+
+Following these practices helps reduce identity-related risks while improving operational efficiency and compliance.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Role-Based Access Control (RBAC) Model
+
+**Diagram Description:**
+
+```text
+             User
+
+              │
+
+      Assigned Role
+
+              │
+
+        Permissions
+
+              │
+
+      Cloud Resources
+
+              │
+
+      Access Granted
+      or Access Denied
+```
+
+**Caption:**
+
+*"Role-Based Access Control (RBAC) simplifies authorization by assigning permissions to roles rather than directly to users. This approach supports consistent access management, least privilege, and scalable cloud security."*
+
+---
+
+# Practical Example
+
+A multinational engineering company hosts its cloud infrastructure in Microsoft Azure. Network engineers are assigned the **Network Contributor** role, allowing them to manage virtual networks and security groups without granting access to databases or billing information. Database administrators receive permissions limited to Azure SQL resources, while auditors are assigned a read-only role that allows them to review security logs and compliance reports without making configuration changes.
+
+Highly privileged roles such as **Owner** and **User Access Administrator** are protected through Privileged Identity Management (PIM), requiring approval and Multi-Factor Authentication (MFA) before administrative privileges are activated. Quarterly access reviews ensure that employees retain only the permissions necessary for their current responsibilities, reducing security risks and supporting ISO/IEC 27001 compliance.
+
+---
+
+# Key Takeaways
+
+- Authorization determines what authenticated users, applications, and services are permitted to do within a cloud environment.
+- Role-Based Access Control (RBAC) simplifies permission management by assigning permissions to roles rather than directly to individual users.
+- Applying the Principle of Least Privilege minimizes the attack surface by granting only the permissions required to perform authorized tasks.
+- Privileged accounts require additional safeguards such as Multi-Factor Authentication (MFA), Privileged Identity Management (PIM), and continuous monitoring.
+- Segregation of Duties (SoD) reduces fraud, insider threats, and operational errors by separating critical administrative responsibilities.
+- From a Governance, Risk, and Compliance (GRC) perspective, strong authorization controls improve governance, reduce identity-related risks, and demonstrate compliance with internationally recognized security standards.
+
+- # Identity Governance and Privileged Access Management
+
+Managing identities extends beyond creating user accounts and assigning permissions. As organizations grow, they must establish governance processes that ensure identities are created, maintained, reviewed, and removed in a secure and consistent manner throughout their lifecycle.
+
+Identity Governance and Administration (IGA) and Privileged Access Management (PAM) are two essential components of modern cloud security. Together, they help organizations control who has access to cloud resources, how privileged access is managed, and how access decisions support business, security, and compliance objectives.
+
+---
+
+# What is Identity Governance?
+
+Identity Governance is the framework of policies, processes, and technologies used to manage identities and their access rights throughout their lifecycle.
+
+Identity governance helps organizations answer questions such as:
+
+- Who currently has access?
+- Why was access granted?
+- Who approved the access?
+- Is the access still required?
+- When should access be removed?
+
+By answering these questions, organizations improve visibility, accountability, and security.
+
+---
+
+# Identity Lifecycle Management
+
+Every identity follows a lifecycle from creation to removal.
+
+A typical identity lifecycle includes:
+
+```text
+Create Identity
+
+        │
+
+        ▼
+
+Assign Roles
+
+        │
+
+        ▼
+
+Modify Access
+
+        │
+
+        ▼
+
+Periodic Review
+
+        │
+
+        ▼
+
+Suspend Access
+
+        │
+
+        ▼
+
+Delete Identity
+```
+
+Managing identities throughout their lifecycle reduces the risk of orphaned accounts and unauthorized access.
+
+---
+
+# Joiner, Mover, and Leaver (JML) Process
+
+One of the most important identity governance processes is the **Joiner, Mover, and Leaver (JML)** model.
+
+### Joiner
+
+When a new employee joins the organization:
+
+- Create a user account.
+- Assign appropriate roles.
+- Enable Multi-Factor Authentication (MFA).
+- Grant access based on job responsibilities.
+
+---
+
+### Mover
+
+When an employee changes roles:
+
+- Review current permissions.
+- Remove unnecessary access.
+- Assign new roles.
+- Update approval records.
+
+---
+
+### Leaver
+
+When an employee leaves the organization:
+
+- Disable accounts immediately.
+- Revoke privileged access.
+- Remove authentication tokens.
+- Archive audit records.
+- Delete accounts according to organizational policy.
+
+Prompt deprovisioning helps prevent unauthorized access by former employees.
+
+---
+
+# Access Reviews and Certification
+
+User access should not remain permanent without validation.
+
+Organizations perform periodic access reviews to verify that users still require their assigned permissions.
+
+Access reviews typically evaluate:
+
+- User accounts.
+- Assigned roles.
+- Privileged accounts.
+- Service accounts.
+- Shared resources.
+- Third-party access.
+
+Managers and resource owners should regularly certify that access remains appropriate.
+
+---
+
+# Privileged Access Management (PAM)
+
+Privileged Access Management (PAM) focuses on protecting accounts with elevated permissions.
+
+Examples of privileged accounts include:
+
+- Global Administrators.
+- Cloud Subscription Owners.
+- Security Administrators.
+- Database Administrators.
+- Domain Administrators.
+- Root accounts.
+
+Because these accounts can make significant changes to cloud environments, they require stronger security controls than standard user accounts.
+
+---
+
+# Risks Associated with Privileged Accounts
+
+Compromised privileged accounts can lead to serious consequences, including:
+
+- Unauthorized system changes.
+- Data breaches.
+- Service disruption.
+- Malware deployment.
+- Privilege escalation.
+- Complete cloud environment compromise.
+
+For this reason, privileged identities should receive the highest level of protection.
+
+---
+
+# Just-In-Time (JIT) Access
+
+Rather than granting permanent administrative privileges, organizations increasingly adopt **Just-In-Time (JIT)** access.
+
+With JIT:
+
+- Administrative access is requested only when needed.
+- Access requires approval.
+- Privileges are granted for a limited time.
+- Permissions are automatically revoked after the approved period expires.
+
+JIT significantly reduces the attack surface by minimizing standing privileges.
+
+---
+
+# Privileged Identity Management (PIM)
+
+Many cloud providers offer Privileged Identity Management (PIM) services.
+
+PIM enables organizations to:
+
+- Grant temporary administrative access.
+- Require approval before activating privileges.
+- Enforce Multi-Factor Authentication (MFA).
+- Record privileged activities.
+- Review privileged assignments regularly.
+- Automatically expire elevated permissions.
+
+PIM supports the Principle of Least Privilege while maintaining operational flexibility.
+
+---
+
+# Monitoring Privileged Activities
+
+Organizations should continuously monitor privileged operations.
+
+Examples include:
+
+- Role assignments.
+- Permission changes.
+- Administrative logins.
+- Policy modifications.
+- User creation.
+- Account deletion.
+- Security configuration changes.
+
+Security Information and Event Management (SIEM) platforms can correlate these events to identify suspicious administrative activity.
+
+---
+
+# Identity Governance in Major Cloud Platforms
+
+### Microsoft Azure
+
+Microsoft provides identity governance capabilities through:
+
+- Microsoft Entra ID Governance.
+- Privileged Identity Management (PIM).
+- Access Reviews.
+- Entitlement Management.
+- Lifecycle Workflows.
+
+---
+
+### Amazon Web Services (AWS)
+
+AWS supports identity governance through:
+
+- AWS IAM.
+- IAM Identity Center.
+- AWS Organizations.
+- AWS CloudTrail.
+- AWS Identity Federation.
+
+---
+
+### Google Cloud Platform (GCP)
+
+Google Cloud offers:
+
+- Cloud Identity.
+- IAM Recommender.
+- IAM Conditions.
+- Organization Policies.
+- Cloud Audit Logs.
+
+These services help organizations manage identities, review access, and monitor privileged activities across cloud environments.
+
+---
+
+# Identity Governance within GRC
+
+Identity governance directly supports Governance, Risk, and Compliance objectives.
+
+### Governance
+
+Organizations establish:
+
+- Identity lifecycle policies.
+- Access approval workflows.
+- Role ownership.
+- Access review schedules.
+- Privileged access procedures.
+
+---
+
+### Risk Management
+
+Identity governance reduces risks associated with:
+
+- Excessive permissions.
+- Orphaned accounts.
+- Privilege misuse.
+- Insider threats.
+- Unauthorized administrative access.
+- Regulatory non-compliance.
+
+Regular governance activities improve visibility and reduce identity-related risks.
+
+---
+
+### Compliance
+
+Identity governance supports compliance with:
+
+- ISO/IEC 27001.
+- ISO/IEC 27002.
+- NIST Cybersecurity Framework (CSF).
+- NIST SP 800-53.
+- PCI DSS.
+- HIPAA.
+- GDPR.
+- SOC 2.
+
+Auditors commonly review access certifications, privileged account management, user lifecycle records, and administrative activity logs.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Establish a formal identity governance program.
+- Implement Joiner, Mover, and Leaver (JML) procedures.
+- Perform regular user access reviews.
+- Protect privileged accounts using Privileged Identity Management (PIM).
+- Implement Just-In-Time (JIT) administrative access.
+- Enable Multi-Factor Authentication (MFA) for privileged identities.
+- Monitor privileged activities continuously.
+- Remove inactive and orphaned accounts promptly.
+- Automate identity lifecycle management where possible.
+- Document governance policies and review them regularly.
+
+Implementing these practices strengthens cloud security, improves operational efficiency, and supports long-term compliance.
+
+---
+
+📊 **Diagram Placeholder**
+
+**Title:** Identity Governance and Privileged Access Lifecycle
+
+**Diagram Description:**
+
+```text
+        Employee Lifecycle
+
+               │
+
+               ▼
+
+     Create Identity (Joiner)
+
+               │
+
+               ▼
+
+      Assign Roles & Access
+
+               │
+
+               ▼
+
+     Periodic Access Review
+
+               │
+
+               ▼
+
+    Temporary Privileged Access
+      (JIT / PIM Activation)
+
+               │
+
+               ▼
+
+      Remove Access (Leaver)
+
+               │
+
+               ▼
+
+        Audit & Compliance
+```
+
+**Caption:**
+
+*"Identity governance manages user access throughout the entire identity lifecycle, while Privileged Access Management ensures that elevated permissions are granted only when necessary, monitored continuously, and removed promptly to reduce security risk."*
+
+---
+
+# Practical Example
+
+A multinational energy company uses **Microsoft Entra ID Governance** to automate identity lifecycle management. When new employees join the organization, user accounts are automatically created, assigned to department-specific groups, and protected with Multi-Factor Authentication (MFA). If an employee transfers to another department, previous permissions are automatically removed before new role assignments are applied.
+
+Administrative roles such as **Global Administrator** are managed through **Privileged Identity Management (PIM)**. Administrators must request temporary access, obtain managerial approval, complete MFA verification, and activate privileges only for the duration of the approved maintenance task. Quarterly access reviews identify inactive accounts and excessive permissions, ensuring compliance with ISO/IEC 27001 and reducing the organization's exposure to identity-related threats.
+
+---
+
+# Key Takeaways
+
+- Identity Governance ensures that identities and access rights are managed securely throughout the entire user lifecycle.
+- The Joiner, Mover, and Leaver (JML) process helps organizations provision, modify, and remove access consistently and securely.
+- Privileged Access Management (PAM) protects high-risk administrative accounts through stronger controls such as Just-In-Time (JIT) access and Privileged Identity Management (PIM).
+- Regular access reviews, automated lifecycle management, and continuous monitoring reduce excessive permissions and improve accountability.
+- Major cloud providers offer identity governance services that automate access management and strengthen privileged access security.
+- From a Governance, Risk, and Compliance (GRC) perspective, identity governance and privileged access management improve operational control, reduce cyber risk, and provide strong evidence of compliance during internal and external audits.
+
 - 

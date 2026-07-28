@@ -1166,4 +1166,388 @@ All evidence is stored in a centralized repository with role-based access contro
 - Well-managed evidence enables organizations to demonstrate ongoing compliance and continuously improve their cloud security programs.
 - From a Governance, Risk, and Compliance (GRC) perspective, Evidence Management strengthens governance through transparency, supports risk management by validating control effectiveness, and provides the documented proof required to satisfy regulatory, contractual, and industry compliance requirements.
 
+- # Lesson 13.18: Cloud Security Documentation
+
+## Part 4: Documentation Review & Version Control
+
+### Introduction
+
+Cloud security documentation is not static. As cloud technologies evolve, business requirements change, security threats emerge, and regulatory obligations are updated, organizations must ensure that their documentation remains accurate, relevant, and effective. Outdated or inconsistent documentation can result in security gaps, operational errors, failed audits, and non-compliance. To maintain documentation quality, organizations establish formal **Documentation Review** and **Version Control** processes.
+
+Documentation Review is the systematic evaluation of security documents to verify their accuracy, completeness, and alignment with current business, technical, and regulatory requirements. Version Control is the process of managing document revisions by tracking changes, maintaining revision history, controlling document distribution, and ensuring personnel use only the latest approved versions.
+
+Together, documentation review and version control ensure that cloud security documentation remains trustworthy, consistent, and audit-ready throughout its lifecycle.
+
+### Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Define Documentation Review and Version Control.
+- Understand why documentation maintenance is important.
+- Identify the stages of the documentation review process.
+- Explain version control principles.
+- Understand document approval and change management.
+- Explain how Documentation Review and Version Control support Governance, Risk, and Compliance (GRC).
+
+---
+
+## Why Documentation Review is Important
+
+Cloud environments change continuously through new deployments, configuration updates, regulatory changes, and evolving cyber threats.
+
+Regular documentation reviews help organizations:
+
+- Maintain document accuracy.
+- Reflect current security controls.
+- Support regulatory compliance.
+- Improve operational consistency.
+- Eliminate outdated information.
+- Reduce security risks.
+- Prepare for audits.
+- Support continuous improvement.
+
+Without regular reviews, documentation may no longer represent the organization's actual cloud environment.
+
+---
+
+## What Should be Reviewed?
+
+Organizations should periodically review all cloud security documentation.
+
+Common documents include:
+
+- Cloud security policies.
+- Security standards.
+- Security procedures.
+- Risk assessments.
+- Asset inventories.
+- Incident response plans.
+- Disaster recovery plans.
+- Compliance documentation.
+
+Each document should remain aligned with current technologies, business objectives, and regulatory requirements.
+
+---
+
+## Documentation Review Process
+
+A structured review process improves consistency and accountability.
+
+Typical review activities include:
+
+1. Identify documents due for review.
+2. Assign document owners.
+3. Verify technical accuracy.
+4. Review regulatory requirements.
+5. Update content where necessary.
+6. Obtain stakeholder feedback.
+7. Secure management approval.
+8. Publish the updated document.
+
+This process ensures documentation remains relevant and reliable.
+
+---
+
+## Review Frequency
+
+Review schedules depend on business needs, regulatory requirements, and organizational risk.
+
+Common review intervals include:
+
+- Annually.
+- Semi-annually.
+- Quarterly for critical procedures.
+- After major cloud migrations.
+- Following significant security incidents.
+- After regulatory changes.
+- After major technology upgrades.
+- Following internal or external audit findings.
+
+Organizations should also perform ad hoc reviews whenever significant operational changes occur.
+
+---
+
+## What is Version Control?
+
+Version Control is the systematic management of document revisions throughout the documentation lifecycle.
+
+Version control ensures that:
+
+- Changes are tracked.
+- Previous versions are preserved.
+- Current versions are clearly identified.
+- Unauthorized modifications are prevented.
+- Users access approved documents.
+- Document history is maintained.
+- Reviews are documented.
+- Audit requirements are supported.
+
+Effective version control minimizes confusion and maintains document integrity.
+
+---
+
+## Version Numbering
+
+Organizations should establish a consistent version numbering convention.
+
+Examples include:
+
+- Version 1.0 – Initial release.
+- Version 1.1 – Minor update.
+- Version 1.2 – Editorial revision.
+- Version 2.0 – Major revision.
+- Version 2.1 – Minor enhancement.
+- Version 3.0 – Significant restructuring.
+
+A standardized numbering scheme makes document history easier to understand.
+
+---
+
+## Document Metadata
+
+Every controlled document should include key metadata.
+
+Typical metadata includes:
+
+- Document title.
+- Document owner.
+- Version number.
+- Publication date.
+- Review date.
+- Approval authority.
+- Classification level.
+- Document status.
+
+Metadata simplifies document management and supports audit readiness.
+
+---
+
+## Change History
+
+Maintaining a revision log provides transparency regarding document updates.
+
+A typical change history records:
+
+- Version number.
+- Revision date.
+- Description of changes.
+- Author.
+- Reviewer.
+- Approver.
+- Change reason.
+- Approval date.
+
+Revision history enables organizations to understand how documentation has evolved over time.
+
+---
+
+## Document Approval Process
+
+Security documentation should undergo formal approval before publication.
+
+The approval process typically involves:
+
+- Technical review.
+- Risk review.
+- Compliance review.
+- Legal review (when applicable).
+- Management approval.
+- Final publication.
+- Controlled distribution.
+- Staff notification.
+
+Formal approval ensures documents accurately reflect organizational requirements and receive appropriate executive endorsement.
+
+---
+
+## Document Distribution
+
+Organizations should control how documentation is distributed.
+
+Recommended practices include:
+
+- Centralized document repositories.
+- Role-based access controls.
+- Read-only access for published documents.
+- Secure collaboration during drafting.
+- Notification of new versions.
+- Removal of obsolete documents.
+- Controlled external sharing.
+- Archived historical versions.
+
+Controlled distribution helps prevent the use of outdated or unauthorized documentation.
+
+---
+
+## Common Documentation Management Tools
+
+Organizations often use specialized tools to manage cloud security documentation.
+
+Examples include:
+
+- Document Management Systems (DMS).
+- Governance, Risk, and Compliance (GRC) platforms.
+- Enterprise content management systems.
+- Version control repositories.
+- Collaboration platforms.
+- Knowledge management portals.
+- Cloud storage platforms with access controls.
+- Workflow automation tools.
+
+These solutions improve document governance, collaboration, and traceability.
+
+---
+
+## Documentation Review & Version Control within GRC
+
+Documentation management is an essential component of Governance, Risk, and Compliance.
+
+### Governance
+
+Documentation review supports governance by:
+
+- Maintaining accurate policies.
+- Strengthening accountability.
+- Supporting executive oversight.
+- Standardizing security practices.
+- Improving transparency.
+- Enabling continuous improvement.
+
+---
+
+### Risk Management
+
+Review and version control reduce organizational risk by:
+
+- Eliminating outdated guidance.
+- Supporting secure change management.
+- Improving operational consistency.
+- Maintaining current risk documentation.
+- Reducing implementation errors.
+- Ensuring security controls remain aligned with organizational objectives.
+
+---
+
+### Compliance
+
+Documentation Review and Version Control support compliance with:
+
+- ISO/IEC 27001.
+- ISO/IEC 27002.
+- ISO/IEC 27017.
+- ISO/IEC 27018.
+- ISO/IEC 27005.
+- NIST Cybersecurity Framework (CSF).
+- NIST SP 800-53.
+- CIS Controls.
+- PCI DSS.
+- HIPAA.
+- GDPR.
+- SOC 2.
+
+Most security frameworks require organizations to maintain documented information, control document revisions, and periodically review documentation to ensure its continued suitability and effectiveness.
+
+---
+
+## Best Practices
+
+Organizations should:
+
+- Assign ownership for every controlled document.
+- Establish formal review schedules.
+- Review documentation after significant organizational or technological changes.
+- Use standardized version numbering.
+- Maintain complete revision histories.
+- Archive superseded documents securely.
+- Restrict editing to authorized personnel.
+- Automate document review reminders where possible.
+- Integrate documentation reviews into audit and compliance activities.
+- Continuously improve documentation based on lessons learned, audits, and security incidents.
+
+These practices help ensure that cloud security documentation remains accurate, current, and aligned with organizational and regulatory requirements.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Documentation Review and Version Control Lifecycle
+
+**Diagram Description:**
+
+```text
+Create Document
+
+        │
+
+        ▼
+
+Technical Review
+
+        │
+
+        ▼
+
+Management Approval
+
+        │
+
+        ▼
+
+Publish Current Version
+
+        │
+
+        ▼
+
+Use & Maintain
+
+        │
+
+        ▼
+
+Periodic Review
+
+        │
+
+        ▼
+
+Update Document
+
+        │
+
+        ▼
+
+Assign New Version
+
+        │
+
+        └───────────────┐
+                        │
+                        ▼
+              Archive Previous Version
+```
+
+**Caption:**
+
+*"Documentation Review and Version Control ensure that cloud security documentation remains accurate, approved, traceable, and aligned with evolving business, security, and regulatory requirements."*
+
+---
+
+## Practical Example
+
+A multinational retail company maintains cloud workloads in Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP). Its Cloud Security Policy, Incident Response Plan, and Secure Configuration Standard are reviewed annually by the Information Security, Risk Management, and Compliance teams. Following the adoption of new cloud-native identity services and updated regulatory requirements, several documents require revision.
+
+The security documentation owner updates the affected documents, records all modifications in the revision history, assigns new version numbers, and submits the changes for technical and executive approval. Once approved, the latest versions are published in the organization's centralized document management system, while previous versions are archived for audit purposes. Automated notifications inform employees of the updated documents, ensuring that all teams follow the current security requirements and preventing the use of obsolete guidance.
+
+---
+
+## Key Takeaways
+
+- Documentation Review ensures that cloud security documents remain accurate, complete, and aligned with current business, technical, and regulatory requirements.
+- Version Control provides a structured method for tracking document revisions, maintaining revision history, controlling distribution, and preserving document integrity.
+- Formal review schedules, document ownership, approval workflows, and metadata improve documentation quality and accountability.
+- Controlled distribution and secure archiving prevent the use of outdated documentation while maintaining historical records for audit and legal purposes.
+- Continuous review and improvement ensure that documentation evolves alongside cloud technologies, security threats, and regulatory obligations.
+- From a Governance, Risk, and Compliance (GRC) perspective, Documentation Review and Version Control strengthen governance through effective document management, reduce operational and compliance risks by maintaining accurate documentation, and provide auditable evidence that supports regulatory and industry framework requirements.
+
 - 

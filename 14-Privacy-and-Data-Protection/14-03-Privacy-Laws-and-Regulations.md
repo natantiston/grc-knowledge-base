@@ -296,4 +296,271 @@ By integrating GDPR requirements into its governance framework, the organization
 - Organizations must identify a lawful basis for processing personal data and clearly understand the responsibilities of Data Controllers and Data Processors.
 - From a Governance, Risk, and Compliance (GRC) perspective, GDPR provides a structured framework for managing privacy risks, demonstrating accountability, and maintaining regulatory compliance while supporting responsible business operations.
 
+- # Data Subject Rights Under GDPR
+
+One of the most significant features of the General Data Protection Regulation (GDPR) is the protection it provides to individuals through a comprehensive set of **data subject rights**. These rights give individuals greater control over how their personal information is collected, processed, stored, and shared.
+
+Organizations that process personal data must establish policies, procedures, and technical capabilities to ensure that individuals can exercise these rights efficiently and within the timeframes specified by the regulation.
+
+Respecting data subject rights is not only a legal requirement but also an important component of transparency, accountability, and customer trust.
+
+---
+
+# Who is a Data Subject?
+
+A **data subject** is any identified or identifiable natural person whose personal data is processed by an organization.
+
+Examples include:
+
+- Customers.
+- Employees.
+- Job applicants.
+- Patients.
+- Students.
+- Website visitors.
+- Business partners.
+- Contractors.
+
+Every individual whose personal information is processed under GDPR is entitled to exercise the rights granted by the regulation.
+
+---
+
+# Right to Be Informed
+
+Individuals have the right to know how their personal information is collected and processed.
+
+Organizations should provide clear and transparent information regarding:
+
+- The purpose of data collection.
+- The lawful basis for processing.
+- Categories of personal data collected.
+- Data retention periods.
+- Third parties that may receive the information.
+- International data transfers.
+- Available privacy rights.
+- Contact information for the organization and, where applicable, the Data Protection Officer (DPO).
+
+This information is typically communicated through a privacy notice or privacy policy.
+
+---
+
+# Right of Access
+
+Individuals have the right to obtain confirmation that an organization is processing their personal data.
+
+Upon request, organizations should provide:
+
+- A copy of the personal data being processed.
+- The purpose of processing.
+- Categories of personal data.
+- Recipients of the information.
+- Retention periods.
+- Information about automated decision-making, where applicable.
+
+Organizations generally must respond to access requests within one month unless an extension is permitted under GDPR.
+
+---
+
+# Right to Rectification
+
+Individuals have the right to request correction of inaccurate or incomplete personal information.
+
+Organizations should establish procedures to:
+
+- Verify the identity of the requester.
+- Review the requested correction.
+- Update inaccurate records.
+- Notify relevant third parties when appropriate.
+- Maintain records of the request.
+
+Accurate information supports both regulatory compliance and effective business operations.
+
+---
+
+# Right to Erasure ("Right to Be Forgotten")
+
+Individuals may request the deletion of their personal data under certain circumstances.
+
+Examples include:
+
+- The information is no longer necessary.
+- Consent has been withdrawn.
+- Processing is unlawful.
+- The individual successfully objects to processing.
+- Legal obligations require deletion.
+
+This right is not absolute. Organizations may retain information when required by law or for legitimate legal purposes.
+
+---
+
+# Right to Restrict Processing
+
+Individuals may request that an organization temporarily limit the processing of their personal information.
+
+Processing may be restricted when:
+
+- The accuracy of the information is disputed.
+- Processing is unlawful but deletion is not requested.
+- The organization no longer requires the information, but the individual needs it for legal claims.
+- An objection to processing is under review.
+
+During the restriction period, organizations should generally store the data but avoid further processing unless legally permitted.
+
+---
+
+# Right to Data Portability
+
+Individuals have the right to receive their personal information in a structured, commonly used, and machine-readable format.
+
+Where technically feasible, individuals may also request that the information be transferred directly to another organization.
+
+Data portability promotes competition and gives individuals greater control over their personal information.
+
+---
+
+# Right to Object
+
+Individuals may object to certain types of data processing.
+
+Common examples include:
+
+- Direct marketing.
+- Processing based on legitimate interests.
+- Scientific or historical research in certain situations.
+- Statistical processing under specific conditions.
+
+Organizations must carefully evaluate objections and cease processing unless compelling legitimate grounds exist.
+
+---
+
+# Rights Related to Automated Decision-Making
+
+Individuals have rights concerning decisions made solely through automated processing, including profiling.
+
+Organizations should ensure that individuals can:
+
+- Obtain meaningful information about automated decisions.
+- Request human intervention where appropriate.
+- Express their point of view.
+- Challenge automated decisions that significantly affect them.
+
+These protections help ensure fairness and transparency when automated technologies are used.
+
+---
+
+# Responding to Data Subject Requests
+
+Organizations should establish formal procedures for handling data subject requests.
+
+An effective process typically includes:
+
+1. Receiving the request.
+2. Verifying the individual's identity.
+3. Recording the request.
+4. Determining the applicable right.
+5. Reviewing legal requirements.
+6. Coordinating with relevant business units.
+7. Responding within the required timeframe.
+8. Documenting the outcome.
+
+A well-defined process improves efficiency and demonstrates accountability during audits.
+
+---
+
+# Challenges in Managing Data Subject Rights
+
+Organizations commonly encounter several challenges.
+
+These include:
+
+- Verifying requester identity.
+- Locating personal information across multiple systems.
+- Managing requests involving third-party processors.
+- Meeting regulatory deadlines.
+- Handling large volumes of requests.
+- Balancing privacy rights with legal obligations.
+- Managing legacy systems.
+- Maintaining accurate records of requests.
+
+Addressing these challenges requires effective governance, well-defined procedures, and appropriate technology.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Maintain accurate records of processing activities.
+- Publish clear privacy notices.
+- Implement request management procedures.
+- Train employees on privacy rights.
+- Verify identities before disclosing information.
+- Monitor response deadlines.
+- Document all requests and responses.
+- Regularly test request-handling procedures.
+
+These practices improve compliance and enhance customer confidence.
+
+---
+
+# GRC Perspective
+
+Supporting data subject rights is a key responsibility within Governance, Risk, and Compliance.
+
+### Governance
+
+Governance activities include:
+
+- Establishing policies for handling privacy requests.
+- Assigning roles and responsibilities.
+- Monitoring performance.
+- Reporting privacy metrics to management.
+- Ensuring accountability.
+- Promoting transparency.
+
+---
+
+### Risk Management
+
+Risk management activities include:
+
+- Identifying risks associated with privacy requests.
+- Evaluating legal and operational impacts.
+- Monitoring response performance.
+- Reviewing privacy incidents.
+- Assessing third-party processing risks.
+- Continuously improving request management processes.
+
+---
+
+### Compliance
+
+Organizations should manage data subject rights in accordance with:
+
+- General Data Protection Regulation (GDPR)
+- ISO/IEC 27701 Privacy Information Management System (PIMS)
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- NIST Privacy Framework
+- Other applicable privacy regulations
+
+Proper management of data subject rights demonstrates accountability and supports regulatory compliance.
+
+---
+
+# Practical Example
+
+A customer contacts an online retailer requesting a copy of all personal information the company holds about them and asks that an outdated home address be corrected. The retailer verifies the customer's identity, retrieves information from its customer relationship management (CRM) system, order database, and marketing platform, updates the address, and provides the requested data within the GDPR response timeframe. All actions are documented, and the request is retained as evidence for future compliance audits.
+
+By implementing a structured process for handling data subject rights, the retailer complies with GDPR, strengthens customer trust, and demonstrates accountability.
+
+---
+
+## Key Takeaways
+
+- GDPR grants individuals a comprehensive set of rights that provide greater control over their personal information.
+- Organizations must establish procedures to support rights such as access, rectification, erasure, restriction, portability, objection, and protection from certain automated decisions.
+- Effective handling of data subject requests requires clear governance, defined responsibilities, documented procedures, and appropriate technical capabilities.
+- Maintaining records of requests and responding within regulatory deadlines are essential components of GDPR compliance.
+- From a Governance, Risk, and Compliance (GRC) perspective, protecting data subject rights promotes transparency, strengthens accountability, reduces regulatory risk, and reinforces trust between organizations and the individuals whose data they process.
+
 - 

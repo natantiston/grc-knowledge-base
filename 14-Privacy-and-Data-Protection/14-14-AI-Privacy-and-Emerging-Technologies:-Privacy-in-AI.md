@@ -320,4 +320,277 @@ By embedding privacy throughout the AI lifecycle, the healthcare organization im
 - Privacy governance should be integrated into every stage of the AI lifecycle, from data collection and model training to deployment, monitoring, and retirement.
 - From a Governance, Risk, and Compliance (GRC) perspective, strong AI privacy practices reduce organizational risk, strengthen regulatory compliance, enhance public trust, and support the responsible adoption of artificial intelligence.
 
+- # Privacy in Machine Learning
+
+Machine Learning (ML) is a specialized branch of Artificial Intelligence (AI) that enables computer systems to identify patterns, learn from data, and make predictions or decisions without being explicitly programmed for every scenario. Organizations use machine learning to improve customer experiences, detect fraud, optimize operations, personalize services, predict business outcomes, and automate complex processes. However, because machine learning models often rely on large volumes of personal information, they introduce significant privacy challenges throughout the data lifecycle.
+
+Machine learning systems frequently process sensitive information such as customer profiles, financial records, healthcare data, employee information, biometric identifiers, behavioral patterns, location history, and online activity. If these datasets are not properly protected, they may expose individuals to unauthorized disclosure, profiling, discrimination, identity theft, or other privacy harms. Furthermore, sophisticated attacks may extract information directly from trained machine learning models, even when the original datasets are no longer accessible.
+
+Protecting privacy in machine learning requires more than traditional cybersecurity controls. Organizations must implement privacy-preserving data collection practices, secure model development processes, robust access controls, Privacy-Enhancing Technologies (PETs), continuous monitoring, and effective governance throughout the machine learning lifecycle.
+
+International standards and regulatory frameworks—including the General Data Protection Regulation (GDPR), ISO/IEC 27701, ISO/IEC 42001, and the NIST Privacy Framework—encourage organizations to incorporate privacy into every stage of machine learning development, deployment, monitoring, and retirement.
+
+This lesson explains the privacy challenges associated with machine learning, common threats, mitigation strategies, best practices, and the role of Governance, Risk, and Compliance (GRC) in protecting personal information within machine learning systems.
+
+---
+
+# What is Privacy in Machine Learning?
+
+**Privacy in Machine Learning** refers to the policies, technical controls, governance processes, and organizational practices that protect personal information throughout the machine learning lifecycle.
+
+The objectives include:
+
+- Protecting personal information.
+- Supporting responsible AI.
+- Reducing privacy risks.
+- Preventing unauthorized disclosure.
+- Enabling secure model development.
+- Supporting regulatory compliance.
+- Building public trust.
+- Promoting accountability.
+
+Privacy must be considered from data collection through model retirement.
+
+---
+
+# Why Machine Learning Creates Privacy Risks
+
+Machine learning differs from traditional software because it often requires:
+
+- Large training datasets.
+- Continuous model improvement.
+- Automated learning.
+- Behavioral analysis.
+- Historical data processing.
+- Pattern recognition.
+- Feature engineering.
+- Predictive analytics.
+
+These characteristics increase both the volume of personal information processed and the potential privacy risks.
+
+---
+
+# Common Privacy Risks
+
+Machine learning systems may introduce several privacy risks.
+
+Examples include:
+
+- Excessive data collection.
+- Unauthorized profiling.
+- Re-identification of anonymized data.
+- Membership inference attacks.
+- Model inversion attacks.
+- Data leakage.
+- Unauthorized secondary use of data.
+- Inadequate data retention practices.
+
+Organizations should identify and assess these risks before deploying machine learning solutions.
+
+---
+
+# Privacy Throughout the Machine Learning Lifecycle
+
+Privacy should be integrated into every phase of model development.
+
+### Data Collection
+
+Organizations should:
+
+- Collect only necessary personal information.
+- Establish a lawful basis for processing.
+- Obtain consent where required.
+- Inform individuals about data use.
+- Minimize sensitive data collection.
+
+---
+
+### Data Preparation
+
+Privacy activities include:
+
+- Data minimization.
+- Pseudonymization.
+- Anonymization where appropriate.
+- Data quality validation.
+- Secure storage.
+- Access restrictions.
+
+Preparing datasets responsibly reduces downstream privacy risks.
+
+---
+
+### Model Training
+
+During training, organizations should:
+
+- Protect training datasets.
+- Restrict model access.
+- Monitor data usage.
+- Prevent unauthorized copying.
+- Secure training infrastructure.
+- Validate privacy controls.
+
+---
+
+### Model Deployment
+
+Privacy controls should include:
+
+- Authentication.
+- Authorization.
+- Encryption.
+- Logging.
+- Monitoring.
+- Secure APIs.
+
+Operational controls reduce the risk of unauthorized access to production models.
+
+---
+
+### Continuous Monitoring
+
+Organizations should monitor for:
+
+- Privacy incidents.
+- Data leakage.
+- Model drift.
+- Unauthorized access.
+- Unexpected outputs.
+- Regulatory changes.
+
+Continuous monitoring supports ongoing privacy protection.
+
+---
+
+# Privacy-Preserving Machine Learning Techniques
+
+Organizations increasingly use Privacy-Enhancing Technologies (PETs) to strengthen machine learning privacy.
+
+Examples include:
+
+- Differential Privacy.
+- Federated Learning.
+- Homomorphic Encryption.
+- Secure Multi-Party Computation (SMPC).
+- Confidential Computing.
+- Synthetic Data.
+
+These technologies reduce privacy risks while enabling valuable data analysis.
+
+---
+
+# Model Security
+
+Protecting machine learning models is equally important.
+
+Organizations should secure:
+
+- Training datasets.
+- Model parameters.
+- Feature engineering pipelines.
+- Inference APIs.
+- Prediction results.
+- Model repositories.
+
+Compromised models may expose sensitive information even if the original data remains protected.
+
+---
+
+# Common Challenges
+
+Organizations frequently encounter challenges such as:
+
+- Large volumes of personal data.
+- Complex AI architectures.
+- Limited explainability.
+- Rapid model updates.
+- Third-party AI services.
+- Cross-border data transfers.
+- Regulatory uncertainty.
+- Balancing privacy with model accuracy.
+
+Effective governance helps organizations manage these challenges.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Apply Privacy by Design.
+- Conduct Data Protection Impact Assessments (DPIAs).
+- Minimize personal data collection.
+- Protect training datasets.
+- Implement Privacy-Enhancing Technologies.
+- Continuously monitor deployed models.
+- Maintain comprehensive documentation.
+- Regularly review privacy risks.
+
+These practices strengthen both machine learning security and regulatory compliance.
+
+---
+
+# GRC Perspective
+
+Privacy in machine learning is an essential component of Governance, Risk, and Compliance.
+
+### Governance
+
+Governance responsibilities include:
+
+- Establishing AI and ML governance policies.
+- Defining privacy requirements.
+- Assigning accountability.
+- Monitoring AI performance.
+- Supporting ethical AI.
+- Promoting transparency.
+
+---
+
+### Risk Management
+
+Risk management activities include:
+
+- Assessing machine learning privacy risks.
+- Monitoring model behavior.
+- Managing third-party AI risks.
+- Evaluating control effectiveness.
+- Supporting continual improvement.
+- Reducing residual risks.
+
+---
+
+### Compliance
+
+Privacy in machine learning supports compliance with:
+
+- General Data Protection Regulation (GDPR)
+- ISO/IEC 27701 Privacy Information Management System (PIMS)
+- ISO/IEC 42001 Artificial Intelligence Management System (AIMS)
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- NIST Privacy Framework
+- EU AI Act (where applicable)
+- Other applicable privacy and AI regulations
+
+Integrating privacy controls throughout the machine learning lifecycle helps organizations demonstrate responsible AI governance and compliance with international standards.
+
+---
+
+# Practical Example
+
+A global retail company develops a machine learning model to recommend products based on customer purchasing behavior. Before training the model, the organization performs a Data Protection Impact Assessment (DPIA) to evaluate privacy risks. Customer identifiers are pseudonymized, unnecessary personal information is removed, and access to the training dataset is restricted to authorized data scientists. Differential privacy is applied when generating analytical reports, and the deployed model is continuously monitored for data leakage, unusual outputs, and potential inference attacks. Regular privacy reviews ensure that the model remains compliant with GDPR, ISO/IEC 27701, and the organization's internal AI governance policies.
+
+By integrating privacy controls throughout the machine learning lifecycle, the company improves customer trust, reduces regulatory risk, protects sensitive information, and enables the responsible use of machine learning technologies.
+
+---
+
+## Key Takeaways
+
+- Privacy in Machine Learning focuses on protecting personal information throughout the collection, preparation, training, deployment, monitoring, and retirement of machine learning models.
+- Machine learning introduces unique privacy risks, including membership inference attacks, model inversion attacks, excessive data collection, and unauthorized profiling.
+- Organizations should implement Privacy-Enhancing Technologies (PETs), strong access controls, secure model management, and continuous monitoring to reduce privacy risks.
+- Privacy should be integrated into every stage of the machine learning lifecycle through Privacy by Design, Data Protection Impact Assessments (DPIAs), and effective governance.
+- From a Governance, Risk, and Compliance (GRC) perspective, privacy in machine learning strengthens organizational accountability, reduces privacy risks, supports international regulatory compliance, and enables the responsible adoption of AI-driven technologies.
+
 - 

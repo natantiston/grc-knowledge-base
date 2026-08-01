@@ -308,4 +308,300 @@ This example demonstrates that cybersecurity incidents often result from multipl
 - Corrective and preventive actions should address both technical and organizational weaknesses to strengthen long-term security.
 - From a Governance, Risk, and Compliance (GRC) perspective, Root Cause Analysis supports continual improvement, enhances governance, reduces enterprise risk, and demonstrates due diligence through documented lessons learned and remediation activities.
 
+- # Evidence Collection
+
+Evidence collection is one of the most critical activities performed during a cybersecurity incident investigation. The quality, integrity, and completeness of the evidence collected directly influence an organization's ability to determine what occurred, identify the attackers, assess the scope of the incident, support recovery efforts, and meet legal or regulatory obligations. Poor evidence collection can result in incomplete investigations, inaccurate conclusions, or evidence becoming inadmissible in legal proceedings.
+
+Digital evidence differs from physical evidence because it is highly volatile and can easily be modified, deleted, or overwritten. System memory, active network connections, running processes, temporary files, and cloud-based resources may disappear within minutes if not preserved correctly. For this reason, incident responders must follow structured procedures that prioritize evidence preservation while minimizing disruption to business operations. The goal is to collect sufficient evidence without altering its integrity.
+
+Evidence collection should begin as soon as an incident has been confirmed and continue throughout the incident response lifecycle. Responders gather information from multiple sources, including endpoints, servers, cloud platforms, network devices, applications, security monitoring tools, identity systems, and physical devices. Throughout the process, investigators must carefully document every action performed, maintain the integrity of the evidence, and preserve a complete record of who handled the evidence and when. These practices support both technical investigations and potential legal proceedings.
+
+International standards such as **ISO/IEC 27035**, **ISO/IEC 27037 (Guidelines for Identification, Collection, Acquisition and Preservation of Digital Evidence)**, **ISO/IEC 27001**, **NIST SP 800-61 Revision 2**, and the **NIST Cybersecurity Framework (CSF)** recommend structured evidence collection procedures. Within Governance, Risk, and Compliance (GRC), proper evidence collection supports regulatory compliance, internal investigations, audits, legal proceedings, insurance claims, and continual improvement.
+
+---
+
+# Purpose of Evidence Collection
+
+Evidence collection enables organizations to understand cybersecurity incidents and support informed decision-making.
+
+The objectives include:
+
+- Determining what happened.
+- Identifying affected systems.
+- Confirming attacker activities.
+- Preserving investigation data.
+- Supporting forensic analysis.
+- Meeting legal requirements.
+- Supporting regulatory reporting.
+- Enabling lessons learned.
+
+Evidence should always be collected in a manner that preserves its integrity and authenticity.
+
+---
+
+# Characteristics of Digital Evidence
+
+Digital evidence has unique characteristics that distinguish it from physical evidence.
+
+It may be:
+
+- Volatile.
+- Easily altered.
+- Easily duplicated.
+- Distributed across multiple systems.
+- Stored on cloud platforms.
+- Encrypted.
+- Time-sensitive.
+- Recoverable even after deletion.
+
+Because digital evidence is fragile, responders must use approved collection procedures.
+
+---
+
+# Common Sources of Digital Evidence
+
+Evidence may be collected from many technology platforms.
+
+Common sources include:
+
+- Endpoints and workstations.
+- Servers.
+- Mobile devices.
+- Firewalls.
+- Security Information and Event Management (SIEM) platforms.
+- Endpoint Detection and Response (EDR) platforms.
+- Cloud services.
+- Identity and Access Management (IAM) systems.
+- Email systems.
+- Network devices.
+- Databases.
+- Application logs.
+
+Collecting evidence from multiple sources provides a more complete understanding of the incident.
+
+---
+
+# Volatile vs. Non-Volatile Evidence
+
+Incident responders should understand the difference between volatile and non-volatile evidence.
+
+| Volatile Evidence | Non-Volatile Evidence |
+|-------------------|-----------------------|
+| RAM contents | Hard drive data |
+| Running processes | System logs |
+| Active network connections | Configuration files |
+| Logged-in users | Backup media |
+| Temporary files | Archived email |
+| Open applications | Database records |
+
+Volatile evidence should generally be collected before shutting down or restarting affected systems.
+
+---
+
+# Evidence Collection Process
+
+A structured evidence collection process typically includes:
+
+1. Identify potential evidence sources.
+2. Preserve affected systems.
+3. Collect volatile evidence.
+4. Acquire non-volatile evidence.
+5. Verify evidence integrity.
+6. Document collection activities.
+7. Securely store evidence.
+8. Transfer evidence for forensic analysis.
+
+Following a standardized process improves consistency and reduces the risk of evidence contamination.
+
+---
+
+# Preserving Evidence Integrity
+
+Evidence integrity ensures that collected evidence remains unchanged throughout the investigation.
+
+Organizations should:
+
+- Minimize system changes.
+- Use approved forensic tools.
+- Record timestamps.
+- Generate cryptographic hash values.
+- Restrict evidence access.
+- Store evidence securely.
+- Maintain detailed documentation.
+
+Integrity is essential if evidence may be used in legal or regulatory proceedings.
+
+---
+
+# Chain of Custody
+
+A **Chain of Custody** records every individual who handles digital evidence.
+
+Typical records include:
+
+- Evidence identifier.
+- Description.
+- Date and time collected.
+- Collector's name.
+- Storage location.
+- Transfer history.
+- Purpose of access.
+- Final disposition.
+
+Maintaining a complete Chain of Custody demonstrates that evidence has not been altered or mishandled.
+
+---
+
+# Documentation Requirements
+
+Every evidence collection activity should be documented.
+
+Documentation should include:
+
+- Incident reference number.
+- Evidence description.
+- Collection method.
+- Collection date and time.
+- System location.
+- Investigator details.
+- Hash values.
+- Observations.
+
+Comprehensive documentation supports forensic analysis, audits, and legal review.
+
+---
+
+# Common Challenges
+
+Evidence collection may be complicated by:
+
+- Encrypted devices.
+- Cloud environments.
+- Remote users.
+- Large data volumes.
+- Volatile memory.
+- Distributed systems.
+- Limited access permissions.
+- Business continuity requirements.
+
+Preparation and documented procedures help overcome these challenges.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Collect evidence as early as possible.
+- Prioritize volatile evidence.
+- Use approved forensic tools.
+- Maintain Chain of Custody.
+- Verify evidence integrity using hash values.
+- Restrict evidence access.
+- Secure evidence storage.
+- Train incident responders regularly.
+
+Evidence should always be handled in a manner that preserves its reliability and admissibility.
+
+---
+
+# GRC Perspective
+
+Evidence collection supports Governance, Risk, and Compliance by ensuring that investigations are conducted consistently, transparently, and in accordance with legal and regulatory requirements.
+
+### Governance
+
+Governance responsibilities include:
+
+- Approving evidence handling procedures.
+- Defining investigation responsibilities.
+- Monitoring investigation quality.
+- Providing executive oversight.
+- Supporting continual improvement.
+- Allocating appropriate resources.
+
+### Risk Management
+
+Risk management activities include:
+
+- Supporting incident investigations.
+- Identifying control failures.
+- Protecting critical evidence.
+- Reducing legal risk.
+- Improving future response capabilities.
+- Strengthening organizational resilience.
+
+### Compliance
+
+Evidence collection supports compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- ISO/IEC 27037 Guidelines for Identification, Collection, Acquisition and Preservation of Digital Evidence
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST Cybersecurity Framework (CSF)
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- Industry-specific cybersecurity and privacy regulations
+
+Proper evidence collection demonstrates due diligence, supports legal proceedings, facilitates regulatory investigations, and improves organizational accountability.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Digital Evidence Collection Process
+
+**Diagram Description:**
+
+```text
+      Confirmed Incident
+              │
+              ▼
+    Identify Evidence Sources
+              │
+              ▼
+  Preserve Affected Systems
+              │
+              ▼
+ Collect Volatile Evidence
+              │
+              ▼
+Collect Non-Volatile Evidence
+              │
+              ▼
+ Verify Integrity (Hashing)
+              │
+              ▼
+ Document & Chain of Custody
+              │
+              ▼
+ Secure Evidence Storage
+              │
+              ▼
+     Forensic Investigation
+```
+
+**Caption:**
+
+*"Evidence collection follows a structured process that preserves the integrity, authenticity, and admissibility of digital evidence throughout the incident investigation."*
+
+---
+
+# Practical Example
+
+A healthcare organization detects unauthorized access to a patient records database. The Computer Security Incident Response Team (CSIRT) immediately isolates the affected server while ensuring it remains powered on to preserve volatile memory. Investigators collect RAM contents, active network connections, running processes, firewall logs, database audit logs, endpoint telemetry, and cloud access records. Each evidence item is assigned a unique identifier, cryptographic hash values are generated to verify integrity, and every transfer is recorded in the Chain of Custody log. The collected evidence is later analyzed by digital forensic specialists, revealing that the attacker exploited compromised administrator credentials obtained through a phishing campaign. The preserved evidence supports regulatory reporting, legal review, and improvements to the organization's access control and monitoring processes.
+
+This example demonstrates how systematic evidence collection preserves critical information, supports forensic investigations, and enables organizations to respond effectively while maintaining compliance with legal and regulatory requirements.
+
+---
+
+## Key Takeaways
+
+- Evidence collection preserves the information required to investigate cybersecurity incidents, determine root causes, and support legal and regulatory obligations.
+- Digital evidence is fragile and should be collected using structured procedures that prioritize volatile evidence and preserve integrity.
+- Common evidence sources include endpoints, servers, cloud services, security tools, network devices, applications, and identity systems.
+- Maintaining evidence integrity through hashing, secure storage, comprehensive documentation, and a complete Chain of Custody is essential for successful investigations.
+- From a Governance, Risk, and Compliance (GRC) perspective, effective evidence collection strengthens governance, supports enterprise risk management, demonstrates regulatory compliance, and ensures that investigations are reliable, defensible, and repeatable.
+
 - 

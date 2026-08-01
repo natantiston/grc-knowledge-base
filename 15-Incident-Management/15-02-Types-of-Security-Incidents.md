@@ -705,4 +705,307 @@ This example demonstrates how effective security awareness, well-defined busines
 - Organizations reduce phishing risk through layered security controls, employee awareness training, phishing simulations, multi-factor authentication, and robust email security.
 - From a Governance, Risk, and Compliance (GRC) perspective, phishing prevention requires coordinated governance, risk management, compliance, technology, and organizational awareness to strengthen overall cyber resilience.
 
+- # Insider Threats
+
+Not all cybersecurity incidents originate from external attackers. Some of the most damaging security incidents are caused by individuals who already have authorized access to an organization's systems, facilities, applications, or sensitive information. These individuals may intentionally abuse their privileges for personal gain or unintentionally expose the organization to cyber risks through negligence or human error. Such incidents are collectively known as **insider threats**.
+
+Insider threats are particularly challenging because insiders already possess legitimate credentials, understand business processes, and often have knowledge of critical systems and valuable information assets. Traditional security controls such as firewalls and intrusion prevention systems are primarily designed to defend against external attacks and may be less effective at detecting malicious or accidental activities performed by authorized users. As a result, organizations must implement additional governance, monitoring, access control, and behavioral analytics to identify and manage insider risks.
+
+Insider threats can involve employees, contractors, consultants, temporary workers, vendors, business partners, or any individual granted authorized access to organizational resources. While some insider incidents are driven by malicious intent, many occur because of mistakes, poor security awareness, inadequate training, or failure to follow established policies and procedures.
+
+International standards such as **ISO/IEC 27001**, **ISO/IEC 27035**, **NIST SP 800-61 Revision 2**, and the **NIST Cybersecurity Framework (CSF)** emphasize the importance of identity and access management, user monitoring, segregation of duties, least privilege, security awareness, and incident response to reduce insider-related risks. Within Governance, Risk, and Compliance (GRC), insider threats represent an important category of operational and cyber risk that requires coordinated governance, risk management, and compliance activities.
+
+This lesson examines the different types of insider threats, their causes, common indicators, business impacts, and the controls organizations use to detect, prevent, and respond to insider-related security incidents.
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Define insider threats.
+- Differentiate between malicious and unintentional insiders.
+- Identify common insider threat scenarios.
+- Understand the business impact of insider incidents.
+- Recognize indicators of insider threats.
+- Apply best practices for preventing and responding to insider-related incidents.
+
+---
+
+# What is an Insider Threat?
+
+An **insider threat** is a security risk originating from an individual who has authorized access to an organization's systems, networks, facilities, or information and uses that access—intentionally or unintentionally—in a manner that compromises security.
+
+Insiders may include:
+
+- Employees.
+- Contractors.
+- Consultants.
+- Temporary workers.
+- Vendors.
+- Third-party service providers.
+- Business partners.
+
+Because insiders possess legitimate access, their activities may initially appear normal, making detection more difficult than many external attacks.
+
+---
+
+# Types of Insider Threats
+
+Organizations generally categorize insider threats into three primary types.
+
+## Malicious Insider
+
+A malicious insider intentionally causes harm to the organization.
+
+Motivations may include:
+
+- Financial gain.
+- Revenge.
+- Espionage.
+- Personal grievances.
+- Ideological beliefs.
+- Competitive advantage.
+
+Examples include stealing confidential information, sabotaging systems, or selling sensitive data.
+
+---
+
+## Negligent Insider
+
+A negligent insider unintentionally creates security risks through carelessness or failure to follow security procedures.
+
+Examples include:
+
+- Clicking phishing links.
+- Sharing passwords.
+- Misconfiguring systems.
+- Sending sensitive data to the wrong recipient.
+- Losing company devices.
+- Ignoring security policies.
+
+Negligence is one of the most common causes of insider-related incidents.
+
+---
+
+## Compromised Insider
+
+A compromised insider is an authorized user whose account or device has been taken over by an external attacker.
+
+Attackers may obtain access through:
+
+- Credential theft.
+- Phishing.
+- Malware.
+- Password reuse.
+- Social engineering.
+
+Although the user has no malicious intent, the compromised account can be used to perform unauthorized activities.
+
+---
+
+# Common Insider Threat Scenarios
+
+Examples include:
+
+- Unauthorized copying of confidential files.
+- Theft of intellectual property.
+- Unauthorized database queries.
+- Privilege abuse by administrators.
+- Financial fraud.
+- Unauthorized cloud storage usage.
+- Sharing confidential information with competitors.
+- Intentional deletion of business data.
+
+Each scenario may require a different incident response strategy.
+
+---
+
+# Warning Signs
+
+Potential indicators of insider threats include:
+
+- Unusual login times.
+- Excessive file downloads.
+- Access to unrelated business systems.
+- Repeated access denials.
+- Sudden privilege escalation.
+- Unauthorized use of removable media.
+- Attempts to disable security controls.
+- Significant changes in user behavior.
+
+While these indicators do not always indicate malicious activity, they warrant further investigation.
+
+---
+
+# Business Impact
+
+Insider incidents may result in:
+
+- Data breaches.
+- Intellectual property theft.
+- Financial losses.
+- Regulatory penalties.
+- Operational disruption.
+- Loss of customer trust.
+- Legal action.
+- Reputational damage.
+
+Because insiders often have privileged access, the impact can be substantial.
+
+---
+
+# Preventive Controls
+
+Organizations should implement layered controls, including:
+
+- Least privilege.
+- Role-Based Access Control (RBAC).
+- Segregation of duties.
+- Multi-factor authentication (MFA).
+- User activity monitoring.
+- Data Loss Prevention (DLP).
+- Security awareness training.
+- Background checks where appropriate and legally permitted.
+
+These controls reduce both intentional and accidental insider risks.
+
+---
+
+# Detecting Insider Threats
+
+Organizations use multiple technologies and processes to identify suspicious insider activity.
+
+Common detection methods include:
+
+- Security Information and Event Management (SIEM).
+- User and Entity Behavior Analytics (UEBA).
+- Endpoint Detection and Response (EDR).
+- Privileged Access Management (PAM).
+- File integrity monitoring.
+- Audit log analysis.
+- Data Loss Prevention (DLP).
+- Threat intelligence.
+
+Combining technical monitoring with human oversight improves detection accuracy.
+
+---
+
+# Responding to Insider Threat Incidents
+
+When an insider incident is suspected, organizations should:
+
+1. Preserve relevant evidence.
+2. Limit further unauthorized access.
+3. Investigate user activity.
+4. Coordinate with Human Resources and Legal where appropriate.
+5. Assess business impact.
+6. Contain the incident.
+7. Recover affected systems or data.
+8. Conduct a lessons learned review.
+
+Investigations should follow established policies while respecting applicable employment laws and privacy requirements.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Implement the principle of least privilege.
+- Review user access regularly.
+- Monitor privileged accounts.
+- Conduct security awareness training.
+- Enforce segregation of duties.
+- Maintain detailed audit logs.
+- Develop insider threat response procedures.
+- Encourage employees to report suspicious activities.
+
+A combination of governance, technology, and organizational culture is essential for managing insider risks.
+
+---
+
+# GRC Perspective
+
+Insider threats affect every component of Governance, Risk, and Compliance.
+
+### Governance
+
+Governance responsibilities include:
+
+- Establishing acceptable use policies.
+- Defining access management policies.
+- Approving insider threat programs.
+- Assigning accountability.
+- Supporting executive oversight.
+- Promoting ethical organizational culture.
+
+### Risk Management
+
+Risk management activities include:
+
+- Identifying insider-related risks.
+- Assessing privileged access risks.
+- Monitoring user behavior.
+- Updating enterprise risk registers.
+- Prioritizing mitigation activities.
+- Improving organizational resilience.
+
+### Compliance
+
+Managing insider threats supports compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST Cybersecurity Framework (CSF)
+- General Data Protection Regulation (GDPR), where personal data is involved
+- NIS2 Directive
+- Industry-specific cybersecurity and privacy regulations
+
+An effective insider threat program combines governance, technical controls, monitoring, awareness, and clearly defined response procedures to protect organizational assets and maintain regulatory compliance.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Insider Threat Categories
+
+**Diagram Description:**
+
+```text
+                 Insider Threat
+                       │
+      ┌────────────────┼────────────────┐
+      ▼                ▼                ▼
+ Malicious        Negligent       Compromised
+   Insider          Insider          Insider
+      │                │                │
+Intentional      Human Error      External Attack
+Misuse           or Carelessness  Uses Legitimate
+of Access                         Credentials
+```
+
+**Caption:**
+
+*"Insider threats may be intentional, accidental, or the result of compromised accounts, requiring different preventive and response strategies."*
+
+---
+
+# Practical Example
+
+A systems administrator with privileged access is preparing to leave the organization for a competitor. During the final week of employment, monitoring tools detect an unusually large download of confidential engineering documents outside normal working hours. User and Entity Behavior Analytics (UEBA) flags the activity as anomalous, prompting the Security Operations Center (SOC) to initiate an investigation. Working with Human Resources and Legal, the incident response team confirms that proprietary information was copied to an unauthorized personal storage device. The employee's access is immediately revoked, forensic evidence is preserved, and legal action is initiated where appropriate. Following the incident, the organization strengthens privileged access reviews, enhances Data Loss Prevention (DLP) policies, and improves offboarding procedures.
+
+This example illustrates how monitoring, governance, and coordinated incident response can help detect and mitigate insider threats before they cause greater organizational harm.
+
+---
+
+## Key Takeaways
+
+- Insider threats originate from individuals with authorized access to organizational systems, data, or facilities and may be malicious, negligent, or compromised.
+- Because insiders possess legitimate access, insider incidents can be more difficult to detect than external attacks and often require behavioral monitoring and strong access controls.
+- Effective prevention combines least privilege, role-based access control, user monitoring, security awareness, Data Loss Prevention (DLP), and regular access reviews.
+- Responding to insider incidents requires coordinated action involving security, Human Resources, Legal, Compliance, and business leadership while preserving evidence and respecting applicable laws.
+- From a Governance, Risk, and Compliance (GRC) perspective, insider threat management strengthens governance, reduces operational risk, supports regulatory compliance, and improves overall organizational resilience.
+
 - 

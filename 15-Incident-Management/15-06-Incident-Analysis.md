@@ -905,4 +905,298 @@ This example illustrates how digital forensics provides factual, evidence-based 
 - Digital forensics supports incident response by identifying attack methods, determining the scope of compromise, and providing reliable evidence for technical and legal decision-making.
 - From a Governance, Risk, and Compliance (GRC) perspective, digital forensics strengthens governance, supports enterprise risk management, enables regulatory compliance, and drives continual improvement through evidence-based investigations.
 
+- # Malware Analysis Overview
+
+Malware is one of the most common causes of cybersecurity incidents and remains a primary tool used by cybercriminals, nation-state actors, hacktivists, and insider threats. Modern malware can steal sensitive information, encrypt business-critical data, establish persistent access, disable security controls, exfiltrate confidential information, or provide attackers with remote control of compromised systems. Understanding how malware operates is essential for effective incident response, threat containment, and long-term security improvement. **Malware analysis** provides security teams with the knowledge required to identify malicious software, understand its behavior, determine its impact, and develop appropriate remediation strategies.
+
+Malware analysis is the process of examining malicious software to determine its purpose, capabilities, methods of operation, and potential impact on an organization. The analysis may focus on identifying how the malware entered the environment, how it spreads, what systems it affects, what data it targets, whether it communicates with external command-and-control (C2) servers, and how it can be safely removed. The findings support incident response, digital forensics, threat intelligence, vulnerability management, and future detection capabilities.
+
+Not every incident response team performs deep reverse engineering of malware. In many organizations, incident responders conduct **basic malware analysis** to understand the immediate threat, while specialized malware analysts or external forensic laboratories perform advanced reverse engineering when required. Even without detailed code analysis, responders can gather valuable information from file behavior, system logs, endpoint telemetry, network traffic, and threat intelligence sources to make informed response decisions.
+
+International standards such as **ISO/IEC 27035**, **ISO/IEC 27001**, **NIST SP 800-61 Revision 2**, the **NIST Cybersecurity Framework (CSF)**, and industry threat intelligence frameworks such as **MITRE ATT&CK** support structured malware investigation and response. Within Governance, Risk, and Compliance (GRC), malware analysis contributes to continual improvement, threat intelligence, regulatory compliance, enterprise risk management, and stronger organizational resilience.
+
+---
+
+# Purpose of Malware Analysis
+
+Malware analysis helps organizations understand malicious software and respond effectively.
+
+Its objectives include:
+
+- Identify malware type.
+- Understand malware behavior.
+- Determine attack methods.
+- Assess business impact.
+- Support containment.
+- Guide eradication activities.
+- Improve detection capabilities.
+- Prevent future infections.
+
+Malware analysis transforms unknown threats into actionable intelligence.
+
+---
+
+# Common Types of Malware
+
+Organizations may encounter many forms of malicious software.
+
+Common malware types include:
+
+- Ransomware.
+- Trojan horses.
+- Computer worms.
+- Computer viruses.
+- Spyware.
+- Adware.
+- Rootkits.
+- Keyloggers.
+- Remote Access Trojans (RATs).
+- Botnet malware.
+- Cryptominers.
+- Fileless malware.
+
+Each malware family uses different techniques to compromise systems and achieve attacker objectives.
+
+---
+
+# Static Analysis
+
+**Static analysis** examines malware without executing it.
+
+Typical activities include:
+
+- Reviewing file properties.
+- Calculating hash values.
+- Identifying file signatures.
+- Examining embedded strings.
+- Identifying imported libraries.
+- Comparing indicators with threat intelligence databases.
+
+Static analysis is generally the first step because it minimizes the risk of executing malicious code.
+
+---
+
+# Dynamic Analysis
+
+**Dynamic analysis** examines malware while it is executing in a controlled environment.
+
+Analysts observe:
+
+- File creation.
+- Registry modifications.
+- Network communications.
+- Process execution.
+- Persistence mechanisms.
+- Command-and-control (C2) activity.
+- System changes.
+
+Dynamic analysis reveals behaviors that cannot always be identified through static analysis alone.
+
+---
+
+# Indicators of Compromise (IOCs)
+
+Malware investigations frequently identify **Indicators of Compromise (IOCs)**.
+
+Common IOCs include:
+
+- File hashes.
+- Malicious IP addresses.
+- Suspicious domains.
+- Registry changes.
+- File names.
+- Process names.
+- Network connections.
+- Email addresses.
+
+IOCs enable security teams to detect similar attacks across the enterprise.
+
+---
+
+# Malware Behavior
+
+During analysis, investigators attempt to understand how malware behaves.
+
+Typical behaviors include:
+
+- Credential theft.
+- Data encryption.
+- Data exfiltration.
+- Privilege escalation.
+- Lateral movement.
+- Persistence after reboot.
+- Security control evasion.
+- Remote command execution.
+
+Understanding malware behavior supports both containment and eradication efforts.
+
+---
+
+# Sandboxing
+
+A **sandbox** is an isolated environment used to safely execute suspicious files.
+
+Benefits include:
+
+- Safe execution.
+- Behavioral observation.
+- Network monitoring.
+- File activity analysis.
+- Reduced operational risk.
+- Repeatable testing.
+
+Sandboxing minimizes the risk of infecting production systems during malware investigations.
+
+---
+
+# Malware Analysis Outputs
+
+Malware analysis typically produces valuable intelligence.
+
+Outputs may include:
+
+- Malware family identification.
+- Indicators of Compromise (IOCs).
+- Tactics, Techniques, and Procedures (TTPs).
+- Attack timeline.
+- Affected systems.
+- Recommended containment actions.
+- Detection rule updates.
+- Threat intelligence reports.
+
+These outputs improve future detection and response capabilities.
+
+---
+
+# Common Challenges
+
+Malware investigations may be complicated by:
+
+- Obfuscated code.
+- Encryption.
+- Polymorphic malware.
+- Fileless attacks.
+- Anti-analysis techniques.
+- Virtual machine detection.
+- Rapid malware evolution.
+- Cloud-native malware.
+
+Organizations should continuously update tools and analyst skills to address evolving threats.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Analyze malware in isolated environments.
+- Preserve original evidence.
+- Integrate malware analysis with threat intelligence.
+- Share Indicators of Compromise (IOCs) internally.
+- Update detection rules after analysis.
+- Coordinate with digital forensics teams.
+- Document all findings.
+- Continuously improve malware detection capabilities.
+
+Malware analysis should support both immediate response and long-term security improvement.
+
+---
+
+# GRC Perspective
+
+Malware analysis strengthens Governance, Risk, and Compliance by providing intelligence that improves decision-making, strengthens security controls, and reduces organizational risk.
+
+### Governance
+
+Governance responsibilities include:
+
+- Approving malware analysis procedures.
+- Defining investigation responsibilities.
+- Supporting threat intelligence programs.
+- Monitoring recurring malware trends.
+- Allocating appropriate resources.
+- Driving continual improvement.
+
+### Risk Management
+
+Risk management activities include:
+
+- Identifying emerging threats.
+- Understanding attacker techniques.
+- Improving preventive controls.
+- Updating enterprise risk registers.
+- Supporting Root Cause Analysis.
+- Strengthening cyber resilience.
+
+### Compliance
+
+Malware analysis supports compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST Cybersecurity Framework (CSF)
+- MITRE ATT&CK Framework
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- Industry-specific cybersecurity and privacy regulations
+
+Documented malware analysis demonstrates due diligence, supports effective incident response, and contributes to continual improvement of the organization's cybersecurity program.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Malware Analysis Workflow
+
+**Diagram Description:**
+
+```text
+      Suspicious File Detected
+                │
+                ▼
+      Preserve Digital Evidence
+                │
+                ▼
+          Static Analysis
+                │
+                ▼
+         Dynamic Analysis
+         (Sandbox Environment)
+                │
+                ▼
+    Identify Malware Behavior
+                │
+                ▼
+ Generate IOCs and TTPs
+                │
+                ▼
+Support Containment & Eradication
+                │
+                ▼
+ Update Detection & Intelligence
+```
+
+**Caption:**
+
+*"Malware analysis combines static and dynamic techniques to understand malicious software, generate threat intelligence, and improve incident response capabilities."*
+
+---
+
+# Practical Example
+
+A global engineering company detects suspicious activity on several employee workstations after users report encrypted files and ransom notes. The incident response team isolates the affected devices and submits a sample of the suspicious executable to a secure malware analysis sandbox. Static analysis identifies the file hash and embedded strings, while dynamic analysis reveals that the malware creates persistence through scheduled tasks, disables endpoint security services, encrypts local and network files, and communicates with an external command-and-control (C2) server. Investigators identify multiple Indicators of Compromise (IOCs), including malicious IP addresses, registry modifications, and file names. These indicators are immediately distributed to the Security Operations Center (SOC), where detection rules are updated across the Security Information and Event Management (SIEM) platform and Endpoint Detection and Response (EDR) solution. The findings also support threat hunting activities to identify additional compromised systems and improve future ransomware detection.
+
+This example demonstrates how malware analysis provides actionable intelligence that supports containment, eradication, threat hunting, and continual improvement of an organization's cybersecurity defenses.
+
+---
+
+## Key Takeaways
+
+- Malware analysis examines malicious software to understand its behavior, capabilities, attack methods, and potential business impact.
+- Static analysis evaluates malware without execution, while dynamic analysis observes its behavior within a controlled sandbox environment.
+- Malware investigations generate valuable Indicators of Compromise (IOCs) and identify attacker Tactics, Techniques, and Procedures (TTPs) that strengthen detection and response.
+- Integrating malware analysis with threat intelligence, digital forensics, and incident response improves organizational preparedness against future attacks.
+- From a Governance, Risk, and Compliance (GRC) perspective, malware analysis supports governance, enhances enterprise risk management, strengthens regulatory compliance, and contributes to a more resilient cybersecurity program through evidence-based continual improvement.
+
 - 

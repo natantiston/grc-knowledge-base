@@ -357,4 +357,352 @@ This case demonstrates how rapid detection, structured incident response, and re
 - Effective prevention requires layered security controls, including endpoint protection, vulnerability management, security awareness, network segmentation, and secure backups.
 - From a Governance, Risk, and Compliance (GRC) perspective, malware and ransomware incidents highlight the importance of governance, risk management, regulatory compliance, and continual improvement in strengthening organizational cyber resilience.
 
+- # Phishing and Social Engineering
+
+While malware exploits technical vulnerabilities, **phishing** and **social engineering** primarily exploit human behavior. Cybercriminals understand that employees, contractors, and business partners are often the easiest path into an organization's environment. Rather than attacking firewalls or encryption directly, attackers manipulate individuals into revealing confidential information, transferring funds, installing malicious software, or granting unauthorized access. As a result, phishing and social engineering remain among the leading causes of cybersecurity incidents worldwide.
+
+Social engineering attacks are particularly dangerous because they rely on deception rather than technical sophistication. An attacker may impersonate a trusted colleague, senior executive, customer, supplier, government official, or IT support technician to convince a victim to perform an action that compromises security. Even organizations with mature technical defenses can become victims if employees are not adequately trained to recognize manipulation techniques.
+
+**Phishing** is the most common form of social engineering. It typically involves fraudulent emails, messages, or websites designed to trick users into disclosing credentials, downloading malware, approving fraudulent transactions, or sharing sensitive information. Modern phishing campaigns frequently leverage artificial intelligence, publicly available information, and compromised accounts to create highly convincing attacks that are difficult to distinguish from legitimate communications.
+
+International standards such as **ISO/IEC 27001**, **ISO/IEC 27035**, **NIST SP 800-61 Revision 2**, and the **NIST Cybersecurity Framework (CSF)** emphasize the importance of user awareness, secure communication practices, incident reporting, and layered security controls to reduce the likelihood and impact of phishing and social engineering attacks.
+
+Within Governance, Risk, and Compliance (GRC), phishing incidents provide valuable insight into employee awareness, organizational culture, identity and access management, communication processes, and the effectiveness of preventive security controls.
+
+---
+
+# What is Social Engineering?
+
+**Social engineering** is the psychological manipulation of individuals to persuade them to perform actions or reveal confidential information that benefits an attacker.
+
+Instead of exploiting technology, attackers exploit:
+
+- Trust.
+- Curiosity.
+- Fear.
+- Urgency.
+- Authority.
+- Greed.
+- Helpfulness.
+
+Social engineering is often the first stage of a larger cyberattack.
+
+---
+
+# What is Phishing?
+
+**Phishing** is a social engineering technique that uses fraudulent communications to trick individuals into revealing sensitive information or performing actions that compromise security.
+
+Common phishing objectives include:
+
+- Stealing usernames and passwords.
+- Delivering malware.
+- Collecting financial information.
+- Bypassing multi-factor authentication.
+- Gaining unauthorized system access.
+- Conducting financial fraud.
+
+Phishing attacks are typically delivered through email but increasingly use other communication channels.
+
+---
+
+# Types of Phishing
+
+Organizations may encounter several forms of phishing.
+
+### Email Phishing
+
+Mass-distributed fraudulent emails sent to many recipients.
+
+Common characteristics include:
+
+- Fake login pages.
+- Malicious attachments.
+- Fraudulent hyperlinks.
+- Requests for sensitive information.
+
+---
+
+### Spear Phishing
+
+Highly targeted phishing attacks directed at specific individuals or departments.
+
+Attackers often research:
+
+- Job roles.
+- Organizational structure.
+- Business relationships.
+- Publicly available information.
+
+Because messages appear personalized, spear phishing is generally more effective than mass phishing.
+
+---
+
+### Whaling
+
+Whaling targets senior executives and high-value individuals.
+
+Typical targets include:
+
+- Chief Executive Officer (CEO).
+- Chief Financial Officer (CFO).
+- Chief Information Officer (CIO).
+- Board members.
+- Senior managers.
+
+Successful whaling attacks can result in significant financial or reputational damage.
+
+---
+
+### Smishing
+
+**Smishing** uses SMS or text messages to deceive victims.
+
+Examples include:
+
+- Fake delivery notifications.
+- Banking alerts.
+- Account verification requests.
+- Prize notifications.
+
+---
+
+### Vishing
+
+**Vishing** (voice phishing) uses telephone calls or voice messages.
+
+Attackers may impersonate:
+
+- IT support.
+- Banks.
+- Government agencies.
+- Business partners.
+- Law enforcement.
+
+Victims may be persuaded to reveal confidential information or authorize fraudulent transactions.
+
+---
+
+# Common Social Engineering Techniques
+
+Attackers use numerous psychological tactics, including:
+
+### Pretexting
+
+Creating a believable fictional scenario to obtain information.
+
+Example:
+
+An attacker pretends to be an external auditor requesting employee records.
+
+---
+
+### Baiting
+
+Offering something attractive to encourage unsafe behavior.
+
+Examples include:
+
+- Free software downloads.
+- Infected USB devices.
+- Fake promotional offers.
+
+---
+
+### Tailgating (Piggybacking)
+
+An attacker gains physical access by following an authorized employee into a secure area without proper authentication.
+
+---
+
+### Quid Pro Quo
+
+The attacker offers a service or benefit in exchange for sensitive information.
+
+Example:
+
+A fake IT technician offers technical support while requesting login credentials.
+
+---
+
+# Indicators of Phishing Attempts
+
+Employees should watch for:
+
+- Unexpected emails.
+- Urgent requests.
+- Poor grammar or spelling.
+- Suspicious hyperlinks.
+- Unknown attachments.
+- Requests for passwords.
+- Requests for financial transfers.
+- Unusual sender addresses.
+
+Recognizing these warning signs significantly reduces organizational risk.
+
+---
+
+# Business Impact
+
+Successful phishing attacks may result in:
+
+- Credential theft.
+- Malware infections.
+- Ransomware deployment.
+- Financial fraud.
+- Data breaches.
+- Identity theft.
+- Business Email Compromise (BEC).
+- Regulatory violations.
+
+Even a single compromised account can enable attackers to move laterally across an organization's network.
+
+---
+
+# Preventive Controls
+
+Organizations should implement layered defenses, including:
+
+- Security awareness training.
+- Multi-factor authentication (MFA).
+- Email filtering.
+- Anti-phishing technologies.
+- DNS filtering.
+- Secure web gateways.
+- Domain protection technologies (SPF, DKIM, and DMARC).
+- Regular phishing simulations.
+
+Technology alone cannot eliminate phishing risk; informed users remain a critical defense.
+
+---
+
+# Responding to Phishing Incidents
+
+When a phishing attempt is identified, organizations should:
+
+1. Report the suspicious message immediately.
+2. Isolate affected systems if compromise is suspected.
+3. Reset compromised credentials.
+4. Block malicious domains and email addresses.
+5. Scan systems for malware.
+6. Investigate the scope of the attack.
+7. Notify affected stakeholders if necessary.
+8. Conduct a post-incident review.
+
+Prompt reporting helps prevent additional users from becoming victims.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Conduct regular phishing awareness campaigns.
+- Perform simulated phishing exercises.
+- Verify financial requests through secondary channels.
+- Require MFA for critical systems.
+- Limit administrative privileges.
+- Encourage employees to report suspicious communications.
+- Continuously monitor authentication activity.
+- Review and update awareness training regularly.
+
+Building a strong security culture significantly reduces phishing success rates.
+
+---
+
+# GRC Perspective
+
+Phishing and social engineering incidents affect every component of Governance, Risk, and Compliance.
+
+### Governance
+
+Governance responsibilities include:
+
+- Establishing security awareness policies.
+- Defining acceptable use policies.
+- Approving awareness programs.
+- Supporting executive communication.
+- Promoting security culture.
+- Monitoring program effectiveness.
+
+### Risk Management
+
+Risk management activities include:
+
+- Identifying human-related risks.
+- Assessing phishing exposure.
+- Monitoring employee susceptibility.
+- Updating enterprise risk registers.
+- Implementing mitigating controls.
+- Improving organizational resilience.
+
+### Compliance
+
+Managing phishing risks supports compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST Cybersecurity Framework (CSF)
+- General Data Protection Regulation (GDPR), where personal data is involved
+- NIS2 Directive
+- Industry-specific cybersecurity regulations
+
+An effective anti-phishing program combines governance, technology, training, and continuous monitoring to reduce organizational risk.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Typical Phishing Attack Flow
+
+**Diagram Description:**
+
+```text
+Attacker Creates
+Fraudulent Message
+        │
+        ▼
+Victim Receives Email,
+SMS, or Phone Call
+        │
+        ▼
+Victim Clicks Link,
+Downloads Attachment,
+or Shares Information
+        │
+        ▼
+Credential Theft,
+Malware Installation,
+or Unauthorized Access
+        │
+        ▼
+Incident Detection
+and Response
+```
+
+**Caption:**
+
+*"Phishing attacks rely on deception rather than technical exploits, making user awareness and timely incident response essential components of organizational cybersecurity."*
+
+---
+
+# Practical Example
+
+An employee in the finance department receives an email that appears to come from the Chief Financial Officer (CFO), requesting an urgent wire transfer to a new supplier account. The email uses the company's branding and contains language that creates a sense of urgency. Before processing the payment, the employee follows the organization's verification procedure by contacting the CFO through a separate communication channel. The CFO confirms that no such request was made, revealing the email to be a **Business Email Compromise (BEC)** attempt.
+
+The employee reports the email to the Security Operations Center (SOC), which blocks the sender, identifies similar messages delivered to other employees, and updates email filtering rules. The incident response team investigates the attack, while the security awareness team uses the event as a training example to reinforce procedures for verifying financial requests.
+
+This example demonstrates how effective security awareness, well-defined business processes, and prompt reporting can prevent phishing attempts from escalating into significant security incidents.
+
+---
+
+## Key Takeaways
+
+- Social engineering exploits human psychology to gain unauthorized access or sensitive information rather than exploiting technical vulnerabilities.
+- Phishing is the most common form of social engineering and includes email phishing, spear phishing, whaling, smishing, and vishing.
+- Successful phishing attacks can lead to credential theft, malware infections, ransomware deployment, financial fraud, and data breaches.
+- Organizations reduce phishing risk through layered security controls, employee awareness training, phishing simulations, multi-factor authentication, and robust email security.
+- From a Governance, Risk, and Compliance (GRC) perspective, phishing prevention requires coordinated governance, risk management, compliance, technology, and organizational awareness to strengthen overall cyber resilience.
+
 - 

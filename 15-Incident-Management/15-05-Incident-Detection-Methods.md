@@ -902,4 +902,303 @@ This example demonstrates how structured classification and risk-based prioritiz
 - Well-defined severity levels and response targets help organizations allocate resources effectively and respond proportionately to different incident types.
 - From a Governance, Risk, and Compliance (GRC) perspective, incident classification and prioritization improve governance, strengthen enterprise risk management, support regulatory compliance, and enhance executive oversight of cybersecurity incidents.
 
+- # Incident Escalation Procedures
+
+After a cybersecurity incident has been detected, analyzed, classified, and prioritized, the organization must ensure that the appropriate individuals and teams are informed without unnecessary delay. **Incident escalation** is the formal process of notifying decision-makers, technical specialists, business stakeholders, and external parties based on the severity, impact, and nature of the incident. Effective escalation ensures that incidents receive the appropriate level of attention, resources, and authority needed to minimize business disruption and organizational risk.
+
+Escalation is more than simply informing management that an incident has occurred. It involves following predefined procedures that specify **who should be notified, when they should be notified, how notifications should occur, and what information should be communicated**. Well-defined escalation procedures reduce confusion during high-pressure situations, improve coordination across departments, and ensure that critical decisions are made by personnel with the appropriate authority.
+
+Incident escalation may occur at several levels. Operational escalation involves notifying technical teams such as the Security Operations Center (SOC), Computer Security Incident Response Team (CSIRT), and IT Operations. Management escalation involves informing executive leadership and business owners about incidents that may significantly affect business operations. Regulatory escalation may require notifying legal counsel, privacy officers, regulators, customers, business partners, or law enforcement when required by contractual obligations or applicable laws.
+
+International standards such as **ISO/IEC 27035**, **ISO/IEC 27001**, **NIST SP 800-61 Revision 2**, and the **NIST Cybersecurity Framework (CSF)** recommend establishing documented escalation procedures as part of the organization's incident response capability. Within Governance, Risk, and Compliance (GRC), effective escalation supports timely decision-making, regulatory compliance, executive oversight, and enterprise risk management.
+
+---
+
+# Purpose of Incident Escalation
+
+Incident escalation ensures that cybersecurity incidents receive appropriate attention based on their severity and business impact.
+
+Effective escalation helps organizations to:
+
+- Accelerate decision-making.
+- Coordinate response activities.
+- Allocate appropriate resources.
+- Meet regulatory obligations.
+- Protect critical business services.
+- Improve executive visibility.
+- Reduce organizational risk.
+- Support business continuity.
+
+Timely escalation enables organizations to respond proportionately to evolving incidents.
+
+---
+
+# Types of Escalation
+
+Organizations commonly use several forms of escalation.
+
+### Functional Escalation
+
+Functional escalation transfers responsibility to personnel with specialized expertise.
+
+Examples include:
+
+- Digital forensics specialists.
+- Malware analysts.
+- Cloud security experts.
+- Network engineers.
+- Threat intelligence analysts.
+
+This type of escalation ensures that incidents are investigated by qualified personnel.
+
+---
+
+### Hierarchical Escalation
+
+Hierarchical escalation informs higher levels of management when incidents exceed predefined thresholds.
+
+Typical recipients include:
+
+- Security Manager.
+- Chief Information Security Officer (CISO).
+- Chief Information Officer (CIO).
+- Executive Management.
+- Crisis Management Team.
+- Board of Directors (for major incidents).
+
+Management escalation supports strategic decision-making and resource allocation.
+
+---
+
+### Regulatory Escalation
+
+Some incidents require notification of external parties.
+
+Examples include:
+
+- Data protection authorities.
+- Industry regulators.
+- Law enforcement agencies.
+- Cybersecurity authorities.
+- Customers.
+- Business partners.
+- Cyber insurance providers.
+
+Regulatory escalation should follow documented legal and contractual requirements.
+
+---
+
+# Escalation Criteria
+
+Organizations should establish clear criteria for escalating incidents.
+
+Examples include:
+
+- Critical business disruption.
+- Large-scale malware infection.
+- Confirmed ransomware attack.
+- Personal data breach.
+- Compromise of privileged accounts.
+- Critical infrastructure impact.
+- Financial fraud.
+- Regulatory reporting requirements.
+
+Clearly defined criteria reduce uncertainty during incident response.
+
+---
+
+# Escalation Matrix
+
+Many organizations maintain an escalation matrix that identifies who should be notified for each severity level.
+
+| Incident Severity | Escalation Level | Typical Stakeholders |
+|-------------------|------------------|----------------------|
+| Low | Operational | SOC Analyst, IT Support |
+| Medium | Technical Management | CSIRT, Security Manager, System Owner |
+| High | Senior Management | CISO, CIO, Business Owner, Legal |
+| Critical | Executive/Crisis Management | CEO, Executive Management, Crisis Management Team, Board (where appropriate), Legal, Privacy |
+
+An escalation matrix provides consistency and ensures that the right stakeholders are engaged at the right time.
+
+---
+
+# Information to Communicate
+
+Escalation notifications should include sufficient information to support informed decision-making.
+
+Typical information includes:
+
+- Incident identifier.
+- Date and time of detection.
+- Incident category.
+- Severity level.
+- Affected systems.
+- Business impact.
+- Current response actions.
+- Immediate risks.
+- Recommended next steps.
+
+Notifications should be concise, accurate, and based on verified information.
+
+---
+
+# Communication Channels
+
+Organizations should establish secure communication methods for incident escalation.
+
+Examples include:
+
+- Secure messaging platforms.
+- Telephone.
+- Email (where appropriate).
+- Incident management systems.
+- Emergency notification systems.
+- Crisis collaboration platforms.
+
+Alternative communication methods should be available if primary systems are unavailable during a major incident.
+
+---
+
+# Regulatory Notification Considerations
+
+Certain incidents require timely notification to regulators or affected individuals.
+
+Organizations should determine:
+
+- Whether notification is legally required.
+- Applicable reporting deadlines.
+- Required notification content.
+- Responsible notification authority.
+- Documentation requirements.
+- Communication approval process.
+
+Legal and Privacy teams should participate in these decisions whenever regulatory obligations exist.
+
+---
+
+# Documentation
+
+Every escalation activity should be recorded.
+
+Documentation should include:
+
+- Date and time of escalation.
+- Person initiating escalation.
+- Recipients.
+- Communication method.
+- Information provided.
+- Decisions made.
+- Follow-up actions.
+- Approval records.
+
+Comprehensive documentation supports audits, investigations, and post-incident reviews.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Develop documented escalation procedures.
+- Maintain an up-to-date escalation matrix.
+- Define severity-based notification requirements.
+- Regularly test communication channels.
+- Train employees on reporting procedures.
+- Review escalation performance after incidents.
+- Update procedures based on lessons learned.
+- Align escalation with business continuity and crisis management plans.
+
+Effective escalation procedures reduce delays and improve organizational coordination.
+
+---
+
+# GRC Perspective
+
+Incident escalation procedures strengthen Governance, Risk, and Compliance by ensuring that appropriate stakeholders are engaged promptly and that response decisions align with organizational risk and regulatory obligations.
+
+### Governance
+
+Governance responsibilities include:
+
+- Approving escalation procedures.
+- Defining notification authority.
+- Establishing executive reporting requirements.
+- Monitoring incident reporting effectiveness.
+- Providing strategic oversight.
+- Supporting continual improvement.
+
+### Risk Management
+
+Risk management activities include:
+
+- Escalating high-risk incidents rapidly.
+- Supporting enterprise risk management.
+- Protecting critical business services.
+- Reducing operational impact.
+- Monitoring incident trends.
+- Strengthening organizational resilience.
+
+### Compliance
+
+Incident escalation supports compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST Cybersecurity Framework (CSF)
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- Industry-specific cybersecurity and privacy regulations
+
+Documented escalation procedures demonstrate due diligence, support timely regulatory reporting, and strengthen organizational governance during cybersecurity incidents.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Incident Escalation Workflow
+
+**Diagram Description:**
+
+```text
+        Confirmed Security Incident
+                  │
+                  ▼
+      Severity Assessment
+                  │
+      ┌───────────┼───────────┐
+      ▼           ▼           ▼
+ Operational  Management  Regulatory
+ Escalation   Escalation  Escalation
+      │           │           │
+      └───────────┼───────────┘
+                  ▼
+     Coordinated Incident Response
+                  │
+                  ▼
+      Recovery & Post-Incident Review
+```
+
+**Caption:**
+
+*"Incident escalation ensures that technical teams, management, and external stakeholders are engaged appropriately based on incident severity and business impact."*
+
+---
+
+# Practical Example
+
+A multinational pharmaceutical company detects ransomware activity affecting manufacturing systems used to produce critical medicines. The Security Operations Center (SOC) validates the incident and immediately classifies it as **Critical Severity** due to operational disruption and the potential impact on patient safety. Following the organization's escalation matrix, the incident is escalated simultaneously to the Computer Security Incident Response Team (CSIRT), Chief Information Security Officer (CISO), Chief Information Officer (CIO), Executive Management, Legal, Privacy Office, and the Crisis Management Team. Because personal data may also be affected, the Legal and Privacy teams evaluate regulatory notification obligations under applicable data protection laws. Secure communication channels are used to coordinate containment activities, executive briefings, and stakeholder updates until business operations are restored.
+
+This example demonstrates how structured escalation procedures ensure that the appropriate technical experts, business leaders, and regulatory stakeholders are engaged quickly, enabling coordinated decision-making during a high-impact cybersecurity incident.
+
+---
+
+## Key Takeaways
+
+- Incident escalation is the structured process of notifying technical teams, management, and external stakeholders based on the severity and impact of a cybersecurity incident.
+- Organizations should establish documented escalation procedures, severity-based notification criteria, and escalation matrices to ensure consistent and timely communication.
+- Escalation may include functional, hierarchical, and regulatory pathways depending on the nature of the incident and applicable legal obligations.
+- Accurate documentation and secure communication are essential to support investigations, executive oversight, regulatory compliance, and post-incident reviews.
+- From a Governance, Risk, and Compliance (GRC) perspective, effective escalation strengthens governance, improves risk management, supports legal and regulatory obligations, and enhances organizational resilience through coordinated incident response.
+
 - 

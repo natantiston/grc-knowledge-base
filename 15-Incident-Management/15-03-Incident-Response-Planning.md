@@ -1010,4 +1010,341 @@ This example demonstrates how an Incident Response Plan provides the operational
 - Specialized incident playbooks complement the Incident Response Plan by providing detailed procedures for specific incident types.
 - From a Governance, Risk, and Compliance (GRC) perspective, the Incident Response Plan operationalizes governance, supports enterprise risk management, demonstrates regulatory readiness, and strengthens organizational resilience.
 
+- # Roles and Responsibilities
+
+Effective incident management depends not only on technology and documented procedures but also on clearly defined **roles and responsibilities**. During a cybersecurity incident, multiple teams must work together under significant time pressure to detect, analyze, contain, eradicate, recover from, and learn from the event. Without clearly assigned responsibilities, organizations may experience confusion, duplicated efforts, delayed decision-making, communication failures, and increased business impact.
+
+Incident response is a multidisciplinary effort involving technical, operational, legal, compliance, privacy, communications, human resources, and executive leadership functions. While the **Computer Security Incident Response Team (CSIRT)** or **Cybersecurity Incident Response Team (CIRT)** typically leads the technical response, many other stakeholders play essential roles depending on the nature and severity of the incident. For example, legal counsel may provide advice on regulatory reporting obligations, the Privacy Office may assess personal data breaches, Human Resources may support investigations involving employees, and Executive Management may make strategic decisions affecting business operations and stakeholder communications.
+
+Clearly defining roles before an incident occurs improves coordination, accelerates decision-making, and ensures accountability throughout the incident response lifecycle. Responsibilities should be documented within the Incident Response Plan, supported by organizational policies, communicated to all stakeholders, and regularly validated through training and incident response exercises.
+
+International standards such as **ISO/IEC 27035**, **ISO/IEC 27001**, **NIST SP 800-61 Revision 2**, and the **NIST Cybersecurity Framework (CSF)** emphasize that successful incident management requires clearly assigned responsibilities, executive sponsorship, and cross-functional collaboration. Within Governance, Risk, and Compliance (GRC), defined roles strengthen governance, improve accountability, support regulatory compliance, and enable effective enterprise risk management.
+
+---
+
+# Why Roles and Responsibilities Matter
+
+Clearly defined responsibilities enable organizations to:
+
+- Respond consistently during incidents.
+- Reduce confusion.
+- Improve coordination.
+- Accelerate decision-making.
+- Support regulatory compliance.
+- Enhance accountability.
+- Improve communication.
+- Strengthen organizational resilience.
+
+Every participant should understand their responsibilities before an incident occurs.
+
+---
+
+# Executive Management
+
+Executive Management provides strategic leadership throughout the incident response process.
+
+Primary responsibilities include:
+
+- Approving major response decisions.
+- Allocating emergency resources.
+- Assessing business impact.
+- Supporting crisis management.
+- Communicating with the Board of Directors.
+- Approving external communications.
+- Reviewing post-incident recommendations.
+
+Executives focus on protecting organizational objectives while balancing operational, financial, legal, and reputational risks.
+
+---
+
+# Computer Security Incident Response Team (CSIRT)
+
+The **Computer Security Incident Response Team (CSIRT)** coordinates the organization's technical response to cybersecurity incidents.
+
+Typical responsibilities include:
+
+- Receiving incident reports.
+- Validating incidents.
+- Coordinating investigations.
+- Managing containment activities.
+- Supporting eradication efforts.
+- Coordinating recovery.
+- Preserving forensic evidence.
+- Conducting post-incident reviews.
+
+The CSIRT serves as the central coordinator for incident response activities.
+
+---
+
+# Security Operations Center (SOC)
+
+The Security Operations Center provides continuous monitoring and early detection capabilities.
+
+SOC responsibilities include:
+
+- Monitoring security alerts.
+- Investigating suspicious activity.
+- Performing initial triage.
+- Escalating confirmed incidents.
+- Collecting security logs.
+- Supporting forensic investigations.
+- Monitoring recovery activities.
+
+The SOC is often the first team to identify cybersecurity incidents.
+
+---
+
+# Information Technology (IT) Operations
+
+IT Operations supports technical containment and system recovery.
+
+Responsibilities include:
+
+- Isolating affected systems.
+- Restoring backups.
+- Rebuilding servers.
+- Applying security patches.
+- Recovering business services.
+- Supporting infrastructure recovery.
+
+Close coordination between IT Operations and the CSIRT is essential throughout the response process.
+
+---
+
+# Legal Department
+
+Legal professionals provide guidance on legal obligations and risk exposure.
+
+Responsibilities include:
+
+- Interpreting regulatory requirements.
+- Advising on notification obligations.
+- Preserving legal privilege where applicable.
+- Supporting law enforcement engagement.
+- Reviewing contractual obligations.
+- Assisting with litigation matters.
+
+Legal involvement helps ensure that incident response activities remain legally defensible.
+
+---
+
+# Privacy Office
+
+Where personal information is involved, the Privacy Office plays a critical role.
+
+Responsibilities include:
+
+- Assessing privacy impacts.
+- Determining whether personal data has been affected.
+- Supporting Data Protection Impact Assessments (DPIAs), where appropriate.
+- Coordinating privacy-related notifications.
+- Advising on privacy regulations.
+- Supporting communication with affected individuals.
+
+The Privacy Office works closely with Legal and Compliance during privacy incidents.
+
+---
+
+# Compliance Function
+
+The Compliance team ensures that organizational and regulatory obligations are satisfied.
+
+Responsibilities include:
+
+- Monitoring regulatory requirements.
+- Supporting compliance reporting.
+- Maintaining incident documentation.
+- Assisting with audits.
+- Coordinating regulatory evidence.
+- Monitoring corrective actions.
+
+Compliance activities demonstrate organizational accountability.
+
+---
+
+# Human Resources (HR)
+
+Human Resources supports incidents involving employees or workplace conduct.
+
+Responsibilities include:
+
+- Supporting insider threat investigations.
+- Managing disciplinary actions.
+- Coordinating employee communications.
+- Assisting with interviews.
+- Supporting employee awareness initiatives.
+
+HR involvement is particularly important during insider threat investigations.
+
+---
+
+# Communications Team
+
+The Communications or Public Relations team manages internal and external messaging.
+
+Responsibilities include:
+
+- Preparing media statements.
+- Coordinating customer notifications.
+- Managing public communications.
+- Supporting executive messaging.
+- Protecting organizational reputation.
+
+All public communications should be coordinated to ensure accuracy and consistency.
+
+---
+
+# Business Units
+
+Business units contribute operational expertise during incident response.
+
+Responsibilities include:
+
+- Reporting suspicious activities.
+- Identifying business impacts.
+- Supporting service recovery.
+- Validating restored business processes.
+- Coordinating with customers where appropriate.
+
+Business representatives ensure that operational priorities are considered during recovery.
+
+---
+
+# Third-Party Service Providers
+
+External service providers may support:
+
+- Cloud infrastructure recovery.
+- Digital forensics.
+- Managed Security Services (MSSPs).
+- Threat intelligence.
+- Software vendor support.
+- Specialized incident response expertise.
+
+Third-party responsibilities should be clearly defined in contracts and service agreements.
+
+---
+
+# Responsibility Matrix (Example)
+
+| Role | Primary Responsibilities |
+|------|---------------------------|
+| Executive Management | Strategic decisions, governance, resource allocation |
+| CSIRT | Coordinate incident response and investigations |
+| SOC | Detect, monitor, and escalate incidents |
+| IT Operations | System containment and recovery |
+| Legal | Regulatory guidance and legal support |
+| Privacy Office | Privacy assessment and breach notification |
+| Compliance | Regulatory compliance and documentation |
+| Human Resources | Employee-related investigations |
+| Communications | Internal and external communications |
+| Business Units | Operational support and business recovery |
+| Third Parties | Specialized technical and operational assistance |
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Clearly document responsibilities.
+- Maintain updated contact lists.
+- Establish escalation procedures.
+- Train all incident response participants.
+- Conduct regular tabletop exercises.
+- Review responsibilities after major incidents.
+- Update documentation following organizational changes.
+- Ensure executive sponsorship of the incident response program.
+
+Clearly assigned responsibilities significantly improve incident response effectiveness.
+
+---
+
+# GRC Perspective
+
+Clearly defined roles strengthen Governance, Risk, and Compliance by ensuring accountability across the organization.
+
+### Governance
+
+Governance responsibilities include:
+
+- Defining organizational accountability.
+- Approving governance structures.
+- Assigning executive oversight.
+- Monitoring program effectiveness.
+- Supporting continual improvement.
+- Allocating appropriate resources.
+
+### Risk Management
+
+Risk management activities include:
+
+- Identifying role-related risks.
+- Defining decision authority.
+- Prioritizing response actions.
+- Monitoring residual risk.
+- Improving operational resilience.
+- Supporting enterprise risk management.
+
+### Compliance
+
+Clearly assigned responsibilities support compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST Cybersecurity Framework (CSF)
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- Industry-specific legal, regulatory, and contractual requirements
+
+Clearly documented responsibilities improve accountability, strengthen governance, and demonstrate due diligence during regulatory reviews and incident investigations.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Incident Response Organizational Structure
+
+**Diagram Description:**
+
+```text
+            Executive Management
+                    │
+                    ▼
+                 CSIRT Lead
+                    │
+ ┌───────────┬───────────┬───────────┐
+ ▼           ▼           ▼           ▼
+SOC      IT Operations  Legal    Compliance
+ │           │           │           │
+ ▼           ▼           ▼           ▼
+Privacy   HR        Communications Business Units
+                    │
+                    ▼
+          Third-Party Providers
+```
+
+**Caption:**
+
+*"Effective incident response depends on coordinated responsibilities across executive leadership, technical teams, business functions, and external partners."*
+
+---
+
+# Practical Example
+
+A multinational retail company experiences a large-scale credential compromise affecting its e-commerce platform. The Security Operations Center (SOC) detects suspicious authentication activity and escalates the incident to the Computer Security Incident Response Team (CSIRT). The CSIRT coordinates containment by disabling compromised accounts and working with IT Operations to secure affected systems. The Legal and Privacy teams assess regulatory notification obligations because customer personal information may have been exposed, while the Compliance team documents response activities for future audits. Corporate Communications prepares customer notifications and media statements approved by Executive Management. Human Resources assists in the investigation after determining that an employee account was compromised through a phishing attack. Following recovery, all stakeholders participate in a lessons learned session to improve response procedures and strengthen preventive controls.
+
+This example demonstrates how clearly defined responsibilities enable technical teams, business functions, and executive leadership to work together efficiently during a cybersecurity incident.
+
+---
+
+## Key Takeaways
+
+- Clearly defined roles and responsibilities are essential for effective incident management and help reduce confusion, delays, and communication failures during security incidents.
+- Incident response requires collaboration among Executive Management, CSIRT, SOC, IT Operations, Legal, Privacy, Compliance, Human Resources, Communications, Business Units, and third-party providers.
+- Responsibilities should be documented in the Incident Response Plan, communicated to stakeholders, and regularly validated through training and exercises.
+- Cross-functional coordination ensures that technical, legal, operational, and regulatory activities are performed consistently throughout the incident response lifecycle.
+- From a Governance, Risk, and Compliance (GRC) perspective, well-defined responsibilities strengthen governance, improve accountability, support regulatory compliance, and enhance organizational resilience.
+
 - 

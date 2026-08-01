@@ -604,4 +604,305 @@ This example demonstrates how systematic evidence collection preserves critical 
 - Maintaining evidence integrity through hashing, secure storage, comprehensive documentation, and a complete Chain of Custody is essential for successful investigations.
 - From a Governance, Risk, and Compliance (GRC) perspective, effective evidence collection strengthens governance, supports enterprise risk management, demonstrates regulatory compliance, and ensures that investigations are reliable, defensible, and repeatable.
 
+- # Digital Forensics Fundamentals
+
+Digital forensics is the scientific process of identifying, preserving, collecting, examining, analyzing, and presenting digital evidence following a cybersecurity incident. While incident response focuses on containing and recovering from attacks, **digital forensics** seeks to understand exactly what happened, how it happened, who was involved, what systems were affected, and what evidence supports those conclusions. Digital forensics plays a critical role in incident investigations, legal proceedings, regulatory compliance, insurance claims, and organizational learning.
+
+Modern cyberattacks often leave traces across multiple systems, including endpoints, servers, cloud platforms, mobile devices, applications, network infrastructure, and identity services. Digital forensic investigators analyze these traces to reconstruct attacker activities, determine the scope of compromise, identify the initial point of entry, establish timelines, recover deleted information, and verify whether sensitive data has been accessed or exfiltrated. This structured approach enables organizations to make evidence-based decisions during incident response and recovery.
+
+Digital forensics must be performed using accepted methodologies that preserve evidence integrity and maintain the **Chain of Custody**. Investigators should avoid modifying original evidence whenever possible and instead perform analysis on verified forensic copies. Every action taken during the investigation must be documented to ensure transparency, repeatability, and legal defensibility. These principles are essential when evidence may later be presented during regulatory investigations or judicial proceedings.
+
+International standards such as **ISO/IEC 27037**, **ISO/IEC 27041**, **ISO/IEC 27042**, **ISO/IEC 27043**, **ISO/IEC 27035**, **ISO/IEC 27001**, **NIST SP 800-61 Revision 2**, and the **NIST Cybersecurity Framework (CSF)** provide guidance for digital evidence handling and forensic investigations. Within Governance, Risk, and Compliance (GRC), digital forensics supports regulatory compliance, risk reduction, incident investigation, audit readiness, and continual improvement.
+
+---
+
+# Purpose of Digital Forensics
+
+Digital forensics helps organizations understand cybersecurity incidents through systematic examination of digital evidence.
+
+Its objectives include:
+
+- Determining what happened.
+- Identifying attacker activities.
+- Establishing attack timelines.
+- Identifying affected systems.
+- Recovering deleted evidence.
+- Supporting legal proceedings.
+- Supporting regulatory investigations.
+- Preventing future incidents.
+
+Digital forensics provides objective evidence rather than assumptions.
+
+---
+
+# Digital Forensics Process
+
+Although methodologies vary, digital forensic investigations generally follow a structured process.
+
+Typical phases include:
+
+1. Identification.
+2. Preservation.
+3. Collection.
+4. Examination.
+5. Analysis.
+6. Documentation.
+7. Reporting.
+8. Presentation of findings.
+
+Following a standardized process ensures consistency and preserves evidence integrity.
+
+---
+
+# Types of Digital Forensics
+
+Organizations may perform different types of forensic investigations depending on the incident.
+
+Common types include:
+
+- Computer forensics.
+- Network forensics.
+- Memory (RAM) forensics.
+- Mobile device forensics.
+- Cloud forensics.
+- Email forensics.
+- Database forensics.
+- Malware forensics.
+
+Each discipline focuses on specific sources of digital evidence.
+
+---
+
+# Digital Evidence
+
+Digital forensic investigators examine many forms of evidence.
+
+Examples include:
+
+- System logs.
+- Security logs.
+- Event logs.
+- Memory captures.
+- Disk images.
+- Browser history.
+- Email messages.
+- Network traffic.
+- Authentication records.
+- Cloud audit logs.
+- File metadata.
+- Registry entries.
+
+Combining multiple evidence sources enables investigators to reconstruct attack activities.
+
+---
+
+# Forensic Imaging
+
+Forensic imaging creates an exact bit-for-bit copy of digital storage media.
+
+A forensic image:
+
+- Preserves original evidence.
+- Supports repeatable analysis.
+- Protects evidence integrity.
+- Enables multiple investigations.
+- Prevents accidental modification.
+
+Original media should be preserved while analysis is performed on forensic copies.
+
+---
+
+# Hash Values
+
+Cryptographic hash functions verify that digital evidence has not been altered.
+
+Common hash algorithms include:
+
+- SHA-256.
+- SHA-512.
+- SHA-3.
+
+Hash values should be generated:
+
+- Before analysis.
+- After acquisition.
+- Before evidence transfer.
+- During evidence verification.
+
+Matching hash values demonstrate evidence integrity.
+
+---
+
+# Timeline Analysis
+
+Timeline analysis reconstructs the sequence of events during an incident.
+
+Investigators analyze:
+
+- Login activity.
+- File modifications.
+- Process execution.
+- Network connections.
+- Privilege escalation.
+- Malware execution.
+- User activity.
+- System events.
+
+A timeline helps determine how an attack progressed through the environment.
+
+---
+
+# Memory Forensics
+
+Memory forensics focuses on analyzing volatile memory (RAM).
+
+It may reveal:
+
+- Running processes.
+- Active malware.
+- Encryption keys.
+- Network connections.
+- Logged-in users.
+- Command history.
+- Injected code.
+
+Memory evidence should be collected before shutting down affected systems whenever possible.
+
+---
+
+# Challenges in Digital Forensics
+
+Digital forensic investigations may be complicated by:
+
+- Encrypted devices.
+- Cloud computing.
+- Remote work environments.
+- Large data volumes.
+- Anti-forensic techniques.
+- Distributed systems.
+- Internet of Things (IoT) devices.
+- Artificial Intelligence (AI)-generated attacks.
+
+Investigators must adapt forensic techniques to evolving technologies and threats.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Preserve original evidence.
+- Analyze forensic copies.
+- Maintain Chain of Custody.
+- Use validated forensic tools.
+- Document all investigative activities.
+- Verify evidence integrity with hash values.
+- Coordinate with legal and compliance teams.
+- Regularly train forensic investigators.
+
+Adhering to best practices improves investigation quality and legal defensibility.
+
+---
+
+# GRC Perspective
+
+Digital forensics supports Governance, Risk, and Compliance by providing reliable evidence that enables informed decision-making, regulatory reporting, and continual improvement.
+
+### Governance
+
+Governance responsibilities include:
+
+- Approving forensic investigation procedures.
+- Defining investigation authority.
+- Allocating forensic resources.
+- Monitoring investigation quality.
+- Supporting executive oversight.
+- Driving continual improvement.
+
+### Risk Management
+
+Risk management activities include:
+
+- Identifying attack methods.
+- Evaluating control failures.
+- Supporting Root Cause Analysis.
+- Updating enterprise risk registers.
+- Reducing recurring threats.
+- Improving cyber resilience.
+
+### Compliance
+
+Digital forensics supports compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- ISO/IEC 27037 Guidelines for Identification, Collection, Acquisition and Preservation of Digital Evidence
+- ISO/IEC 27041 Guidance on Assuring Suitability and Adequacy of Incident Investigative Methods
+- ISO/IEC 27042 Guidelines for Analysis and Interpretation of Digital Evidence
+- ISO/IEC 27043 Incident Investigation Principles and Processes
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST Cybersecurity Framework (CSF)
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+
+Structured digital forensic investigations demonstrate due diligence, strengthen regulatory compliance, and improve the organization's ability to investigate and recover from cybersecurity incidents.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Digital Forensics Investigation Process
+
+**Diagram Description:**
+
+```text
+      Cybersecurity Incident
+               │
+               ▼
+          Identification
+               │
+               ▼
+          Preservation
+               │
+               ▼
+           Collection
+               │
+               ▼
+          Examination
+               │
+               ▼
+            Analysis
+               │
+               ▼
+         Documentation
+               │
+               ▼
+      Investigation Report
+               │
+               ▼
+    Lessons Learned & Improvement
+```
+
+**Caption:**
+
+*"Digital forensics follows a structured investigative process that preserves evidence, reconstructs attacker activities, and supports technical, legal, and regulatory decision-making."*
+
+---
+
+# Practical Example
+
+A financial services organization detects suspicious outbound network traffic from a critical database server. After isolating the server, the digital forensics team creates a forensic image of the hard drive and captures the system's volatile memory before powering it down. Investigators examine authentication logs, file system metadata, browser history, firewall records, and cloud audit logs while verifying evidence integrity using SHA-256 hash values. Timeline analysis reveals that an attacker exploited a vulnerable web application, escalated privileges, and exfiltrated sensitive customer data over several days before detection. All investigative activities are documented, and the evidence is preserved under a formal Chain of Custody. The forensic findings support regulatory reporting, legal review, and improvements to vulnerability management, access controls, and security monitoring.
+
+This example illustrates how digital forensics provides factual, evidence-based insight into cybersecurity incidents, enabling organizations to understand attacker behavior, strengthen security controls, and support legal and regulatory obligations.
+
+---
+
+## Key Takeaways
+
+- Digital forensics is the disciplined process of identifying, preserving, collecting, examining, analyzing, and presenting digital evidence following a cybersecurity incident.
+- Investigations should follow standardized methodologies that preserve evidence integrity, maintain Chain of Custody, and ensure legal defensibility.
+- Common forensic activities include forensic imaging, timeline analysis, memory forensics, log analysis, and verification of evidence using cryptographic hash values.
+- Digital forensics supports incident response by identifying attack methods, determining the scope of compromise, and providing reliable evidence for technical and legal decision-making.
+- From a Governance, Risk, and Compliance (GRC) perspective, digital forensics strengthens governance, supports enterprise risk management, enables regulatory compliance, and drives continual improvement through evidence-based investigations.
+
 - 

@@ -573,4 +573,299 @@ This example demonstrates that effective incident management is not limited to t
 - Achieving these objectives requires coordinated people, processes, technology, governance, and regular testing of incident response capabilities.
 - From a Governance, Risk, and Compliance (GRC) perspective, incident management strengthens governance, reduces organizational risk, supports regulatory compliance, and improves overall cyber resilience.
 
+- # Incident Management Frameworks
+
+Organizations cannot effectively respond to cybersecurity incidents using ad hoc or unstructured approaches. As cyber threats become increasingly sophisticated and regulatory expectations continue to grow, organizations require standardized processes that enable consistent, repeatable, and coordinated incident response. Incident management frameworks provide this structure by defining best practices, roles and responsibilities, response phases, documentation requirements, communication processes, and continual improvement activities.
+
+Over the past two decades, several internationally recognized frameworks have emerged to guide organizations in developing and operating effective incident management programs. While each framework has a unique focus, they share a common objective: enabling organizations to prepare for incidents, detect malicious activity, respond efficiently, recover business operations, and learn from every incident to improve future resilience.
+
+Among the most widely adopted frameworks are **NIST Special Publication (SP) 800-61 Revision 2**, **ISO/IEC 27035**, the **SANS Incident Response Process**, and the **MITRE ATT&CK Framework**. Together, these frameworks complement one another by addressing different aspects of incident management. NIST and ISO provide comprehensive incident response methodologies, SANS offers a practical operational model for incident handlers, and MITRE ATT&CK helps defenders understand attacker behavior and improve detection and response capabilities.
+
+Organizations often combine these frameworks rather than relying on a single methodology. For example, an organization may use ISO/IEC 27035 to establish governance and policies, NIST SP 800-61 to structure incident handling procedures, SANS to develop operational playbooks, and MITRE ATT&CK to improve threat detection and threat hunting capabilities.
+
+Within Governance, Risk, and Compliance (GRC), these frameworks help organizations establish consistent governance, improve risk management, demonstrate regulatory compliance, and continuously enhance cybersecurity resilience.
+
+---
+
+# Why Incident Management Frameworks Matter
+
+Incident management frameworks provide organizations with:
+
+- Standardized response procedures.
+- Clearly defined roles and responsibilities.
+- Consistent incident classification.
+- Effective communication processes.
+- Structured documentation.
+- Regulatory alignment.
+- Continuous improvement practices.
+- Improved organizational resilience.
+
+Without a structured framework, incident response often becomes inconsistent, delayed, and ineffective.
+
+---
+
+# NIST SP 800-61 Revision 2
+
+**NIST SP 800-61 Revision 2**, *Computer Security Incident Handling Guide*, is one of the most widely adopted incident response frameworks worldwide.
+
+It defines four major phases of incident handling:
+
+### 1. Preparation
+
+Organizations prepare by:
+
+- Developing incident response policies.
+- Establishing response teams.
+- Deploying monitoring tools.
+- Training personnel.
+- Creating communication procedures.
+
+### 2. Detection and Analysis
+
+Organizations:
+
+- Monitor security events.
+- Validate incidents.
+- Determine incident scope.
+- Assess business impact.
+- Prioritize response activities.
+
+### 3. Containment, Eradication, and Recovery
+
+Response teams:
+
+- Contain the incident.
+- Remove malicious components.
+- Restore systems.
+- Validate recovery.
+- Resume normal operations.
+
+### 4. Post-Incident Activity
+
+Organizations:
+
+- Conduct lessons learned sessions.
+- Update policies.
+- Improve controls.
+- Revise playbooks.
+- Enhance future preparedness.
+
+NIST emphasizes that incident handling is a continuous process rather than a one-time activity.
+
+---
+
+# ISO/IEC 27035
+
+**ISO/IEC 27035** is the international standard dedicated to **Information Security Incident Management**.
+
+It provides guidance for establishing, implementing, maintaining, and continually improving an incident management capability.
+
+Key elements include:
+
+- Incident management policy.
+- Roles and responsibilities.
+- Incident reporting.
+- Incident assessment.
+- Incident response coordination.
+- Evidence management.
+- Communication management.
+- Lessons learned.
+
+ISO/IEC 27035 integrates closely with **ISO/IEC 27001**, supporting organizations that operate an Information Security Management System (ISMS).
+
+---
+
+# SANS Incident Response Process
+
+The **SANS Institute** developed a practical six-step incident response process widely used by operational security teams.
+
+The six phases are:
+
+1. Preparation
+2. Identification
+3. Containment
+4. Eradication
+5. Recovery
+6. Lessons Learned
+
+The SANS methodology is particularly valuable for organizations developing operational incident response playbooks and training security teams.
+
+---
+
+# MITRE ATT&CK Framework
+
+Unlike traditional incident response frameworks, the **MITRE ATT&CK Framework** focuses on understanding adversary behavior.
+
+ATT&CK documents:
+
+- Attack tactics.
+- Attack techniques.
+- Attack procedures.
+- Threat actor behaviors.
+- Detection opportunities.
+- Mitigation techniques.
+
+Security teams use ATT&CK to:
+
+- Improve threat detection.
+- Develop threat hunting activities.
+- Build detection rules.
+- Enhance incident investigations.
+- Evaluate security control effectiveness.
+
+Rather than replacing incident response frameworks, ATT&CK strengthens detection and analysis capabilities.
+
+---
+
+# Comparing the Frameworks
+
+| Framework | Primary Focus | Best Used For |
+|------------|---------------|---------------|
+| **NIST SP 800-61** | Incident handling lifecycle | Overall incident response process |
+| **ISO/IEC 27035** | Governance and management | Enterprise incident management programs |
+| **SANS Incident Response** | Operational response | Incident response playbooks and team procedures |
+| **MITRE ATT&CK** | Adversary behavior | Threat detection, threat hunting, and investigation |
+
+Many organizations combine these frameworks to create a comprehensive incident management capability.
+
+---
+
+# Selecting the Right Framework
+
+Organizations should consider:
+
+- Regulatory requirements.
+- Organizational size.
+- Industry sector.
+- Existing governance frameworks.
+- Security maturity.
+- Available resources.
+- Technical capabilities.
+- Business objectives.
+
+There is no single framework that fits every organization.
+
+---
+
+# Benefits of Using Established Frameworks
+
+Organizations adopting recognized frameworks achieve:
+
+- Faster incident response.
+- Improved consistency.
+- Better communication.
+- Stronger governance.
+- Enhanced regulatory compliance.
+- More effective investigations.
+- Better documentation.
+- Greater organizational resilience.
+
+Frameworks reduce uncertainty during high-pressure incidents.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Align incident response with recognized standards.
+- Integrate multiple frameworks where appropriate.
+- Develop documented playbooks.
+- Conduct regular incident response exercises.
+- Continuously update response procedures.
+- Train personnel on framework implementation.
+- Review framework effectiveness regularly.
+- Incorporate lessons learned into future improvements.
+
+These practices help organizations build a mature and adaptable incident management capability.
+
+---
+
+# GRC Perspective
+
+Incident management frameworks strengthen every component of Governance, Risk, and Compliance.
+
+### Governance
+
+Governance responsibilities include:
+
+- Establishing incident management policies.
+- Defining organizational responsibilities.
+- Providing executive oversight.
+- Approving response procedures.
+- Supporting continual improvement.
+- Monitoring program effectiveness.
+
+### Risk Management
+
+Risk management activities include:
+
+- Identifying cyber threats.
+- Assessing incident risks.
+- Prioritizing response activities.
+- Monitoring residual risks.
+- Improving organizational resilience.
+- Supporting enterprise risk management.
+
+### Compliance
+
+Incident management frameworks support compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST Cybersecurity Framework (CSF)
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- Other applicable legal, regulatory, and contractual requirements
+
+Implementing recognized frameworks enables organizations to establish consistent incident response processes, demonstrate accountability, and improve cybersecurity maturity.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Relationship Between Major Incident Management Frameworks
+
+**Diagram Description:**
+
+```text
+               Incident Management
+                       │
+    ┌──────────────────┼──────────────────┐
+    │                  │                  │
+    ▼                  ▼                  ▼
+NIST SP 800-61   ISO/IEC 27035      SANS Process
+Incident         Governance &       Operational
+Lifecycle        Management         Response
+    │                  │                  │
+    └──────────────┬───┴──────────────────┘
+                   ▼
+          MITRE ATT&CK
+     Threat Detection &
+     Adversary Analysis
+```
+
+**Caption:**
+
+*"Organizations often combine multiple frameworks to establish comprehensive incident management capabilities that address governance, operational response, and threat detection."*
+
+---
+
+# Practical Example
+
+A multinational financial institution designs its enterprise incident management program by integrating several industry-recognized frameworks. The organization adopts **ISO/IEC 27035** to establish governance, define incident management policies, and assign organizational responsibilities. Operational incident response procedures are based on **NIST SP 800-61**, providing a structured lifecycle for preparation, detection, containment, eradication, recovery, and post-incident activities. Security analysts use the **SANS Incident Response Process** to create detailed response playbooks for ransomware, phishing, and insider threat scenarios. Meanwhile, the Security Operations Center (SOC) maps attacker techniques to the **MITRE ATT&CK Framework** to improve detection rules, threat hunting, and incident investigations.
+
+By combining these complementary frameworks, the organization develops a mature incident management capability that enhances governance, strengthens cybersecurity operations, supports regulatory compliance, and improves overall organizational resilience.
+
+---
+
+## Key Takeaways
+
+- Incident management frameworks provide structured guidance for preparing, detecting, responding to, recovering from, and learning from cybersecurity incidents.
+- NIST SP 800-61, ISO/IEC 27035, the SANS Incident Response Process, and the MITRE ATT&CK Framework each address different aspects of incident management and are often used together.
+- Recognized frameworks improve consistency, governance, communication, documentation, regulatory compliance, and organizational resilience.
+- Organizations should select and integrate frameworks based on their regulatory obligations, business objectives, security maturity, and operational requirements.
+- From a Governance, Risk, and Compliance (GRC) perspective, incident management frameworks establish standardized processes that strengthen governance, improve risk management, support compliance, and enhance enterprise cybersecurity maturity.
+
 - 

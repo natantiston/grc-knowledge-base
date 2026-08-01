@@ -319,4 +319,301 @@ This example demonstrates how combining automated monitoring, behavioral analyti
 - Continuous monitoring, alert tuning, and threat intelligence integration help reduce false positives and improve detection accuracy.
 - From a Governance, Risk, and Compliance (GRC) perspective, effective detection strengthens governance, supports enterprise risk management, enables regulatory compliance, and improves organizational resilience by allowing threats to be identified before they escalate into major incidents.
 
+- # Security Event Analysis
+
+Detecting a potential cybersecurity incident is only the beginning of the incident response process. Not every security alert represents an actual incident, and not every suspicious event requires the same level of response. Organizations receive thousands—or even millions—of security events every day from firewalls, endpoint protection platforms, cloud services, identity systems, applications, and network devices. The purpose of **Security Event Analysis** is to examine these events, determine whether they represent legitimate security threats, assess their potential impact, and decide whether they should be escalated into formal security incidents.
+
+Security event analysis transforms raw security data into actionable intelligence. Security analysts evaluate alerts by reviewing logs, correlating information from multiple sources, validating indicators of compromise (IOCs), analyzing user and system behavior, and considering threat intelligence. This analytical process helps distinguish false positives from genuine attacks while ensuring that incident response resources are focused on the most significant risks.
+
+Effective event analysis requires a combination of skilled personnel, documented procedures, and supporting technologies such as **Security Information and Event Management (SIEM)** platforms, **Endpoint Detection and Response (EDR)** solutions, **User and Entity Behavior Analytics (UEBA)**, and **Threat Intelligence Platforms (TIPs)**. These technologies provide visibility into security events and enable analysts to correlate data from across the enterprise. However, technology alone cannot replace human judgment. Analysts must understand business context, evaluate risk, and make informed decisions based on available evidence.
+
+International standards including **ISO/IEC 27035**, **ISO/IEC 27001**, **NIST SP 800-61 Revision 2**, and the **NIST Cybersecurity Framework (CSF)** emphasize the importance of structured event analysis before declaring an incident. Within Governance, Risk, and Compliance (GRC), security event analysis supports informed decision-making, reduces operational risk, improves regulatory compliance, and enables efficient allocation of incident response resources.
+
+---
+
+# Purpose of Security Event Analysis
+
+Security event analysis helps organizations determine whether detected events represent legitimate cybersecurity incidents.
+
+The analysis process enables organizations to:
+
+- Validate security alerts.
+- Identify false positives.
+- Confirm malicious activity.
+- Assess business impact.
+- Prioritize investigations.
+- Support evidence collection.
+- Improve response decisions.
+- Reduce unnecessary escalations.
+
+Accurate analysis ensures that incident response efforts focus on genuine threats.
+
+---
+
+# Security Event vs. Security Incident
+
+Not every security event becomes a security incident.
+
+| Security Event | Security Incident |
+|----------------|-------------------|
+| Observable activity within systems or networks | Event that threatens confidentiality, integrity, or availability |
+| May be normal or suspicious | Requires formal incident response |
+| Often generated automatically | Confirmed through investigation |
+| Large volume occurs daily | Smaller number requiring coordinated action |
+
+Event analysis bridges the gap between detection and formal incident response.
+
+---
+
+# Sources of Security Events
+
+Security events originate from multiple sources across the enterprise.
+
+Common sources include:
+
+- Firewalls.
+- Endpoint Detection and Response (EDR).
+- Security Information and Event Management (SIEM).
+- Identity and Access Management (IAM) systems.
+- Cloud platforms.
+- Web application firewalls.
+- Email security gateways.
+- Network Intrusion Detection Systems (IDS).
+- Vulnerability management platforms.
+- Security Operations Center (SOC) monitoring.
+
+Combining multiple data sources improves visibility and analysis accuracy.
+
+---
+
+# Event Correlation
+
+Individual events rarely provide enough context to determine whether an attack is occurring.
+
+Event correlation combines information from multiple sources to identify patterns such as:
+
+- Multiple failed logins followed by successful authentication.
+- Malware detection followed by unusual network traffic.
+- Privileged account creation after credential compromise.
+- Simultaneous alerts across multiple endpoints.
+- Suspicious cloud activity combined with impossible travel events.
+
+Correlation enables analysts to identify complex attacks that individual alerts may not reveal.
+
+---
+
+# Validating Alerts
+
+Security analysts validate alerts by determining whether they represent real threats.
+
+Validation activities include:
+
+- Reviewing security logs.
+- Confirming affected assets.
+- Verifying user activity.
+- Checking system configurations.
+- Comparing with threat intelligence.
+- Reviewing historical activity.
+
+Validated alerts become candidates for formal incident investigation.
+
+---
+
+# Identifying False Positives
+
+A **false positive** occurs when a security tool incorrectly identifies normal activity as malicious.
+
+Common causes include:
+
+- Misconfigured detection rules.
+- Software updates.
+- Administrative activities.
+- Legitimate business processes.
+- Newly deployed applications.
+- Authorized security testing.
+
+Reducing false positives improves analyst efficiency and minimizes alert fatigue.
+
+---
+
+# Threat Intelligence Integration
+
+Threat intelligence enhances analysis by providing external context.
+
+Examples include:
+
+- Known malicious IP addresses.
+- Malware signatures.
+- Indicators of Compromise (IOCs).
+- Threat actor techniques.
+- Vulnerability exploitation trends.
+- Industry threat reports.
+
+Threat intelligence improves confidence when evaluating suspicious events.
+
+---
+
+# Behavioral Analysis
+
+Behavioral analysis identifies activities that differ from established patterns.
+
+Examples include:
+
+- Unusual login locations.
+- Abnormal working hours.
+- Excessive file downloads.
+- Unexpected privilege escalation.
+- High-volume network traffic.
+- Suspicious administrative actions.
+
+Behavioral anomalies may indicate compromised accounts or insider threats.
+
+---
+
+# Risk-Based Prioritization
+
+Not every confirmed event requires the same response priority.
+
+Analysts should consider:
+
+- Business criticality.
+- Asset sensitivity.
+- Data classification.
+- Operational impact.
+- Threat likelihood.
+- Regulatory implications.
+
+Risk-based prioritization ensures that the most significant incidents receive immediate attention.
+
+---
+
+# Documentation
+
+Every analysis activity should be documented.
+
+Documentation should include:
+
+- Alert details.
+- Systems affected.
+- Investigation findings.
+- Evidence collected.
+- Analyst observations.
+- Escalation decisions.
+- Risk assessment.
+- Recommended actions.
+
+Comprehensive documentation supports investigations, audits, and lessons learned.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Correlate events from multiple sources.
+- Validate alerts before escalation.
+- Continuously tune detection rules.
+- Integrate threat intelligence.
+- Maintain skilled analysts.
+- Prioritize based on business risk.
+- Document all investigations.
+- Review analysis effectiveness regularly.
+
+Consistent analysis improves both detection quality and operational efficiency.
+
+---
+
+# GRC Perspective
+
+Security event analysis strengthens Governance, Risk, and Compliance by ensuring that incident response decisions are based on accurate information and business context.
+
+### Governance
+
+Governance responsibilities include:
+
+- Defining event analysis procedures.
+- Assigning investigation responsibilities.
+- Approving escalation criteria.
+- Monitoring analysis effectiveness.
+- Supporting continual improvement.
+- Providing executive oversight.
+
+### Risk Management
+
+Risk management activities include:
+
+- Evaluating business impact.
+- Prioritizing investigations.
+- Reducing false positives.
+- Monitoring threat trends.
+- Updating enterprise risk registers.
+- Strengthening cyber resilience.
+
+### Compliance
+
+Security event analysis supports compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST Cybersecurity Framework (CSF)
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- Industry-specific cybersecurity and privacy regulations
+
+Well-documented analysis demonstrates due diligence, supports regulatory investigations, and improves the effectiveness of incident response activities.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Security Event Analysis Process
+
+**Diagram Description:**
+
+```text
+        Security Events
+              │
+              ▼
+      Event Collection
+              │
+              ▼
+      Event Correlation
+              │
+              ▼
+       Alert Validation
+              │
+      ┌───────┴────────┐
+      ▼                ▼
+ False Positive   Confirmed Threat
+      │                │
+      ▼                ▼
+ Close Alert     Risk Assessment
+                       │
+                       ▼
+            Escalate to Incident
+```
+
+**Caption:**
+
+*"Security event analysis filters raw security events through validation, correlation, and risk assessment to determine whether formal incident response is required."*
+
+---
+
+# Practical Example
+
+A multinational retail company receives an alert from its SIEM indicating multiple failed login attempts against an administrator account. Shortly afterward, the Endpoint Detection and Response (EDR) platform detects the execution of PowerShell commands on the same administrator's workstation. Security analysts review authentication logs, endpoint telemetry, firewall records, and threat intelligence feeds. The investigation confirms that the source IP address is associated with a known credential-stuffing campaign and that the compromised account accessed sensitive systems outside normal business hours. Based on the correlated evidence and business impact, the Security Operations Center (SOC) classifies the activity as a confirmed security incident and escalates it to the Computer Security Incident Response Team (CSIRT) for containment and further investigation.
+
+This example illustrates how structured event analysis transforms multiple isolated alerts into a validated security incident that requires coordinated response.
+
+---
+
+## Key Takeaways
+
+- Security event analysis determines whether detected security events represent genuine cybersecurity incidents requiring formal response.
+- Analysts validate alerts by correlating data from multiple sources, reviewing evidence, integrating threat intelligence, and assessing business context.
+- Effective analysis distinguishes false positives from legitimate threats, enabling organizations to prioritize incident response resources appropriately.
+- Comprehensive documentation and risk-based prioritization improve investigation quality, regulatory readiness, and operational efficiency.
+- From a Governance, Risk, and Compliance (GRC) perspective, security event analysis supports informed decision-making, reduces cyber risk, strengthens governance, and demonstrates due diligence during audits and regulatory reviews.
+
 - 

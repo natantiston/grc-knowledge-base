@@ -291,4 +291,286 @@ This example illustrates how routine security events can evolve into a security 
 - Most incident management programs follow a lifecycle consisting of preparation, detection, analysis, containment, eradication, recovery, and lessons learned.
 - From a Governance, Risk, and Compliance (GRC) perspective, incident management integrates governance, risk management, and compliance activities to improve cybersecurity resilience and support continual organizational improvement.
 
+- # Objectives of Incident Management
+
+Incident management is far more than responding to cybersecurity attacks after they occur. Its primary purpose is to ensure that organizations are prepared to manage security incidents in a structured, coordinated, and effective manner while minimizing disruption to business operations. As cyber threats continue to evolve in frequency and sophistication, organizations must develop incident management capabilities that not only restore affected systems but also protect critical assets, satisfy regulatory requirements, preserve stakeholder trust, and strengthen long-term resilience.
+
+The objectives of incident management extend across technical, operational, legal, and strategic domains. From a technical perspective, incident management seeks to rapidly detect, analyze, contain, eradicate, and recover from security incidents before they cause widespread damage. From a business perspective, it aims to minimize operational downtime, financial losses, and reputational harm while maintaining the availability of essential services. At the governance level, incident management supports executive decision-making, accountability, and continual improvement by ensuring that incidents are documented, analyzed, and used to enhance future security practices.
+
+Modern incident management frameworks such as **ISO/IEC 27035**, **NIST SP 800-61 Revision 2**, and the **NIST Cybersecurity Framework (CSF)** emphasize that successful incident management begins long before an incident occurs. Preparation, planning, employee awareness, defined responsibilities, communication procedures, and regular testing are all essential to achieving the objectives of an effective incident response capability.
+
+Within Governance, Risk, and Compliance (GRC), incident management supports enterprise objectives by reducing cyber risk, ensuring compliance with legal and regulatory obligations, improving organizational resilience, and enabling continuous improvement of security controls and business processes.
+
+---
+
+# Primary Objectives of Incident Management
+
+An effective incident management program seeks to achieve several important objectives.
+
+## 1. Minimize Business Disruption
+
+One of the primary goals is to minimize the interruption of business operations caused by security incidents.
+
+Organizations aim to:
+
+- Maintain business continuity.
+- Reduce operational downtime.
+- Restore critical services quickly.
+- Protect essential business processes.
+- Reduce productivity losses.
+- Support organizational resilience.
+
+Rapid response reduces the overall business impact of an incident.
+
+---
+
+## 2. Protect Information Assets
+
+Incident management protects the organization's information assets by limiting damage to systems, applications, and data.
+
+Assets that require protection include:
+
+- Personal data.
+- Intellectual property.
+- Financial information.
+- Customer records.
+- Business applications.
+- Critical infrastructure.
+
+Protecting these assets preserves the organization's competitive advantage and stakeholder confidence.
+
+---
+
+## 3. Preserve the Confidentiality, Integrity, and Availability (CIA)
+
+Incident response activities are designed to protect the three fundamental principles of information security:
+
+- **Confidentiality** – Prevent unauthorized disclosure of information.
+- **Integrity** – Prevent unauthorized modification or destruction of information.
+- **Availability** – Ensure systems and services remain accessible to authorized users.
+
+Every incident response decision should support one or more components of the CIA Triad.
+
+---
+
+## 4. Reduce Financial Impact
+
+Security incidents often result in significant financial consequences.
+
+Effective incident management helps reduce:
+
+- Revenue loss.
+- Recovery costs.
+- Regulatory fines.
+- Legal expenses.
+- Compensation claims.
+- Business interruption costs.
+
+Early detection and rapid response significantly lower overall financial impact.
+
+---
+
+## 5. Meet Legal and Regulatory Requirements
+
+Many laws, regulations, and contractual obligations require organizations to manage and report security incidents appropriately.
+
+Examples include:
+
+- General Data Protection Regulation (GDPR).
+- NIS2 Directive.
+- HIPAA.
+- PCI DSS.
+- ISO/IEC 27001.
+- ISO/IEC 27035.
+
+Failure to respond appropriately may result in legal penalties and reputational damage.
+
+---
+
+## 6. Preserve Digital Evidence
+
+Certain incidents require forensic investigation or legal action.
+
+Incident management helps preserve:
+
+- System logs.
+- Memory captures.
+- Network traffic.
+- Audit records.
+- File integrity information.
+- Digital evidence.
+
+Proper evidence handling supports investigations, legal proceedings, and regulatory inquiries.
+
+---
+
+## 7. Support Effective Decision-Making
+
+During an incident, executives require timely and accurate information.
+
+Incident management provides:
+
+- Situation reports.
+- Incident severity assessments.
+- Business impact analysis.
+- Risk evaluations.
+- Recovery status updates.
+- Recommendations for executive action.
+
+Accurate information enables informed decision-making under pressure.
+
+---
+
+## 8. Enable Continuous Improvement
+
+Every incident provides an opportunity to strengthen organizational resilience.
+
+Organizations improve by:
+
+- Conducting post-incident reviews.
+- Identifying root causes.
+- Updating policies.
+- Improving technical controls.
+- Revising response procedures.
+- Enhancing employee awareness.
+
+Lessons learned reduce the likelihood and impact of future incidents.
+
+---
+
+# Strategic Benefits of Incident Management
+
+A mature incident management capability provides significant organizational benefits, including:
+
+- Improved cybersecurity resilience.
+- Faster incident detection and response.
+- Reduced operational disruption.
+- Greater regulatory compliance.
+- Better executive visibility.
+- Increased customer trust.
+- Enhanced business continuity.
+- Stronger organizational maturity.
+
+These benefits extend well beyond the technical aspects of cybersecurity.
+
+---
+
+# Challenges in Achieving Incident Management Objectives
+
+Organizations often encounter challenges such as:
+
+- Limited resources.
+- Shortage of skilled personnel.
+- Poor communication.
+- Inadequate monitoring.
+- Unclear responsibilities.
+- Outdated incident response plans.
+- Lack of executive support.
+- Increasingly sophisticated cyber threats.
+
+Addressing these challenges requires ongoing investment in people, processes, and technology.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Define measurable incident response objectives.
+- Develop comprehensive incident response plans.
+- Establish clear roles and responsibilities.
+- Continuously monitor critical systems.
+- Conduct regular incident response exercises.
+- Measure response performance using KPIs.
+- Review incidents after resolution.
+- Update response procedures regularly.
+
+These practices help ensure that incident management objectives are consistently achieved.
+
+---
+
+# GRC Perspective
+
+The objectives of incident management directly support Governance, Risk, and Compliance.
+
+### Governance
+
+Governance activities include:
+
+- Establishing incident response policies.
+- Defining organizational responsibilities.
+- Providing executive oversight.
+- Allocating resources.
+- Approving strategic improvements.
+- Monitoring organizational performance.
+
+### Risk Management
+
+Risk management activities include:
+
+- Reducing cyber risk exposure.
+- Assessing incident impacts.
+- Prioritizing response activities.
+- Monitoring residual risks.
+- Updating enterprise risk registers.
+- Improving organizational resilience.
+
+### Compliance
+
+Incident management objectives support compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST Cybersecurity Framework (CSF)
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- Other applicable legal, regulatory, and contractual obligations
+
+By achieving these objectives, organizations demonstrate accountability, improve operational resilience, and maintain compliance with cybersecurity and privacy requirements.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Objectives of Incident Management
+
+**Diagram Description:**
+
+```text
+           Incident Management
+                    │
+ ┌──────────────────┼──────────────────┐
+ │                  │                  │
+ ▼                  ▼                  ▼
+Protect Assets   Minimize Impact   Meet Compliance
+ │                  │                  │
+ ▼                  ▼                  ▼
+Business      Preserve Evidence   Continuous
+Resilience         & Support       Improvement
+               Decision-Making
+```
+
+**Caption:**
+
+*"Incident management balances technical response, business continuity, regulatory compliance, and continual improvement to minimize the impact of cybersecurity incidents."*
+
+---
+
+# Practical Example
+
+A regional healthcare provider experiences a ransomware attack that encrypts several administrative servers. Because the organization has a well-defined incident management program, the Security Operations Center (SOC) quickly detects the attack and activates the Computer Security Incident Response Team (CSIRT). The affected systems are isolated to prevent further spread, critical healthcare services continue operating through contingency procedures, and forensic evidence is preserved for investigation. The organization notifies regulators where required, communicates transparently with stakeholders, restores systems from verified backups, and conducts a post-incident review that results in stronger endpoint protection and enhanced employee phishing awareness training.
+
+This example demonstrates that effective incident management is not limited to technical recovery. It also protects business operations, supports legal and regulatory obligations, preserves evidence, enables informed decision-making, and drives continual improvement.
+
+---
+
+## Key Takeaways
+
+- The primary objective of incident management is to minimize the impact of security incidents while restoring normal business operations as quickly and safely as possible.
+- Effective incident management protects information assets, preserves the confidentiality, integrity, and availability of information, reduces financial losses, and supports business continuity.
+- Incident management also enables organizations to meet legal and regulatory obligations, preserve digital evidence, support executive decision-making, and learn from incidents through continual improvement.
+- Achieving these objectives requires coordinated people, processes, technology, governance, and regular testing of incident response capabilities.
+- From a Governance, Risk, and Compliance (GRC) perspective, incident management strengthens governance, reduces organizational risk, supports regulatory compliance, and improves overall cyber resilience.
+
 - 

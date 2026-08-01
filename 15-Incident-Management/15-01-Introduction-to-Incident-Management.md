@@ -868,4 +868,276 @@ By combining these complementary frameworks, the organization develops a mature 
 - Organizations should select and integrate frameworks based on their regulatory obligations, business objectives, security maturity, and operational requirements.
 - From a Governance, Risk, and Compliance (GRC) perspective, incident management frameworks establish standardized processes that strengthen governance, improve risk management, support compliance, and enhance enterprise cybersecurity maturity.
 
+- # Incident Management within GRC
+
+Incident management is not solely a technical function performed by cybersecurity teams. While security analysts, incident responders, and Security Operations Centers (SOCs) play critical roles in detecting and responding to cyber threats, effective incident management requires coordination across the entire organization. Executive leadership, legal counsel, compliance officers, privacy teams, business unit managers, human resources, communications personnel, and third-party service providers all contribute to the successful management of security incidents.
+
+Within a **Governance, Risk, and Compliance (GRC)** program, incident management serves as a key operational capability that enables organizations to protect information assets, manage cyber risk, satisfy legal and regulatory obligations, and support business resilience. Every security incident provides valuable information about weaknesses in governance, control effectiveness, risk exposure, employee awareness, and operational processes. Organizations that integrate incident management into their GRC program are better positioned to identify systemic issues, strengthen internal controls, improve decision-making, and continuously enhance their cybersecurity posture.
+
+Incident management is closely linked with other GRC functions. Governance establishes policies, oversight, and accountability for incident response. Risk management evaluates the likelihood and impact of incidents, determines treatment strategies, and monitors residual risks. Compliance ensures that incident response activities align with applicable laws, regulations, contractual obligations, and industry standards. Together, these disciplines transform incident management from a reactive technical activity into a strategic business capability.
+
+International standards and frameworks reinforce this integrated approach. **ISO/IEC 27001** requires organizations to establish processes for managing information security incidents as part of an Information Security Management System (ISMS). **ISO/IEC 27035** provides guidance for information security incident management, while **NIST SP 800-61 Revision 2** and the **NIST Cybersecurity Framework (CSF)** emphasize governance, preparation, continual improvement, and organizational coordination throughout the incident response lifecycle.
+
+Understanding how incident management fits within GRC enables organizations to improve accountability, reduce cyber risk, demonstrate compliance, and strengthen operational resilience.
+
+---
+
+# Governance and Incident Management
+
+Governance establishes the leadership, structure, and accountability required for effective incident management.
+
+Governance responsibilities include:
+
+- Establishing incident response policies.
+- Approving incident management strategies.
+- Defining organizational roles and responsibilities.
+- Assigning executive ownership.
+- Allocating resources.
+- Providing strategic oversight.
+- Reviewing incident performance.
+- Driving continual improvement.
+
+Strong governance ensures that incident response activities align with business objectives and organizational risk appetite.
+
+---
+
+# Risk Management and Incident Management
+
+Risk management focuses on understanding how security incidents affect organizational objectives and determining appropriate treatment strategies.
+
+Risk management activities include:
+
+- Identifying cyber threats.
+- Assessing incident likelihood.
+- Evaluating business impact.
+- Prioritizing critical assets.
+- Determining risk treatment options.
+- Monitoring residual risks.
+- Updating enterprise risk registers.
+- Improving organizational resilience.
+
+Incident data provides valuable input for enterprise risk management by identifying emerging threats and recurring vulnerabilities.
+
+---
+
+# Compliance and Incident Management
+
+Organizations must manage incidents in accordance with legal, regulatory, contractual, and industry requirements.
+
+Compliance activities include:
+
+- Reporting incidents to regulators where required.
+- Meeting contractual notification obligations.
+- Preserving audit evidence.
+- Maintaining incident documentation.
+- Supporting compliance audits.
+- Demonstrating accountability.
+- Protecting personal information.
+- Meeting industry certification requirements.
+
+Failure to comply with incident reporting obligations may result in regulatory penalties and reputational damage.
+
+---
+
+# Executive Oversight
+
+Executive leadership plays a critical role during major security incidents.
+
+Executives are responsible for:
+
+- Approving strategic response decisions.
+- Prioritizing business recovery.
+- Allocating emergency resources.
+- Communicating with stakeholders.
+- Managing organizational risk.
+- Reviewing major incidents.
+- Supporting long-term improvements.
+
+The board of directors and executive management should receive regular reporting on significant incidents and program performance.
+
+---
+
+# Incident Management Across the Organization
+
+Incident management is a shared organizational responsibility.
+
+| Function | Primary Responsibilities |
+|----------|--------------------------|
+| Executive Leadership | Strategic oversight and decision-making |
+| Information Security | Detection, analysis, containment, eradication, and recovery |
+| Security Operations Center (SOC) | Continuous monitoring and incident identification |
+| Legal Department | Regulatory compliance and legal guidance |
+| Privacy Office | Personal data breach assessment and notification |
+| Compliance | Regulatory obligations and audit support |
+| Human Resources | Insider incidents and employee coordination |
+| Communications | Internal, customer, media, and public communications |
+| Business Units | Operational recovery and business continuity |
+| Third-Party Vendors | Supporting incident investigation and remediation where applicable |
+
+Successful incident response depends on effective collaboration among these stakeholders.
+
+---
+
+# Incident Management and Other GRC Processes
+
+Incident management supports numerous enterprise GRC activities, including:
+
+- Enterprise Risk Management (ERM).
+- Business Continuity Management (BCM).
+- Disaster Recovery (DR).
+- Vulnerability Management.
+- Threat Intelligence.
+- Security Awareness Training.
+- Internal Auditing.
+- Vendor Risk Management.
+- Privacy Management.
+- Regulatory Compliance.
+
+This integration ensures that lessons learned from incidents improve multiple organizational capabilities.
+
+---
+
+# Continuous Improvement
+
+A mature incident management program continually evolves based on operational experience.
+
+Continuous improvement activities include:
+
+- Conducting post-incident reviews.
+- Performing root cause analysis.
+- Updating incident response plans.
+- Revising playbooks.
+- Improving technical controls.
+- Enhancing employee training.
+- Monitoring incident metrics.
+- Reviewing governance effectiveness.
+
+Organizations that continuously improve become more resilient against future threats.
+
+---
+
+# Benefits of Integrating Incident Management with GRC
+
+Organizations gain numerous benefits, including:
+
+- Better executive visibility.
+- Stronger governance.
+- Improved risk management.
+- Enhanced regulatory compliance.
+- Faster incident response.
+- Better resource prioritization.
+- Increased stakeholder confidence.
+- Greater organizational resilience.
+
+Integration ensures that incident management supports strategic business objectives rather than operating as an isolated technical function.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Integrate incident management into enterprise governance.
+- Align incident response with enterprise risk management.
+- Define clear accountability across business functions.
+- Establish executive reporting mechanisms.
+- Conduct regular incident response exercises.
+- Measure incident performance using KPIs and KRIs.
+- Perform regular management reviews.
+- Use lessons learned to strengthen organizational controls.
+
+These practices help build a mature and sustainable incident management capability.
+
+---
+
+# GRC Perspective
+
+Incident management is a foundational operational process within Governance, Risk, and Compliance.
+
+### Governance
+
+Governance provides:
+
+- Strategic direction.
+- Policies and procedures.
+- Executive oversight.
+- Organizational accountability.
+- Resource management.
+- Continual improvement.
+
+### Risk Management
+
+Risk management enables organizations to:
+
+- Understand cyber risk exposure.
+- Assess incident impacts.
+- Prioritize response activities.
+- Reduce residual risks.
+- Improve resilience.
+- Support informed decision-making.
+
+### Compliance
+
+Incident management supports compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST Cybersecurity Framework (CSF)
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- Industry-specific regulations and contractual obligations
+
+By integrating incident management into Governance, Risk, and Compliance, organizations create a coordinated, accountable, and resilient approach to managing cybersecurity incidents while supporting business continuity and regulatory compliance.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Incident Management within Governance, Risk, and Compliance
+
+**Diagram Description:**
+
+```text
+                 Governance
+                      │
+     Policies • Oversight • Leadership
+                      │
+                      ▼
+             Incident Management
+                      │
+      ┌───────────────┼───────────────┐
+      ▼                               ▼
+Risk Management                 Compliance
+Risk Assessment                 Regulations
+Risk Treatment                  Standards
+Risk Monitoring                 Reporting
+      │                               │
+      └───────────────┼───────────────┘
+                      ▼
+         Organizational Resilience
+```
+
+**Caption:**
+
+*"Incident management serves as the operational bridge between governance, risk management, and compliance, enabling organizations to respond effectively to cybersecurity incidents while supporting resilience and regulatory accountability."*
+
+---
+
+# Practical Example
+
+A multinational telecommunications company experiences a large-scale ransomware attack that affects customer support systems. The Security Operations Center (SOC) identifies the attack and activates the Computer Security Incident Response Team (CSIRT), while executive leadership convenes the crisis management team to oversee strategic decisions. The Legal and Compliance departments assess regulatory notification obligations under the GDPR and the NIS2 Directive, and the Privacy Office evaluates whether personal data has been compromised. Business Continuity and Disaster Recovery teams restore critical services using approved recovery procedures, while Corporate Communications prepares internal updates and public statements. After recovery, the Governance Committee reviews the incident, approves corrective actions, updates enterprise risk registers, and authorizes improvements to security controls and employee awareness programs.
+
+This example illustrates how effective incident management extends beyond technical response by integrating governance, risk management, compliance, business continuity, legal, and executive decision-making into a unified enterprise capability.
+
+---
+
+## Key Takeaways
+
+- Incident management is a strategic organizational capability that integrates governance, risk management, compliance, cybersecurity operations, and business resilience.
+- Governance establishes policies, accountability, executive oversight, and strategic direction for incident management.
+- Risk management uses incident information to identify threats, assess impacts, prioritize remediation, and improve organizational resilience.
+- Compliance ensures that incident response activities meet applicable legal, regulatory, contractual, and industry requirements while demonstrating organizational accountability.
+- From a Governance, Risk, and Compliance (GRC) perspective, integrating incident management into enterprise processes enables organizations to respond effectively to security incidents, strengthen cybersecurity maturity, improve regulatory readiness, and support continual organizational improvement.
+
 - 

@@ -1031,4 +1031,286 @@ This example illustrates how integrated technologies enable organizations to det
 - Integrated security technologies improve detection speed, response consistency, evidence preservation, and operational efficiency.
 - From a Governance, Risk, and Compliance (GRC) perspective, incident response technologies strengthen governance, reduce cyber risk, support regulatory compliance, and improve organizational resilience.
 
+- # Incident Response Readiness Assessment
+
+Establishing an Incident Response Team (CSIRT), implementing security technologies, and providing training are essential preparation activities, but organizations must also verify that these capabilities are effective before a real cybersecurity incident occurs. An **Incident Response Readiness Assessment** is a structured evaluation that measures an organization's ability to detect, respond to, recover from, and learn from cybersecurity incidents. It identifies strengths, weaknesses, capability gaps, and improvement opportunities across people, processes, technologies, and governance.
+
+Many organizations mistakenly assume they are prepared simply because they have documented policies and incident response plans. However, true readiness can only be demonstrated when personnel understand their responsibilities, technologies operate effectively, communication channels function as intended, and response procedures have been validated through testing and exercises. Readiness assessments help determine whether the organization can respond efficiently under real-world conditions while meeting business objectives and regulatory requirements.
+
+A comprehensive readiness assessment evaluates multiple components of the incident response capability, including governance, organizational structure, incident response documentation, staff competency, monitoring technologies, forensic capabilities, communication procedures, regulatory reporting, business continuity integration, and continual improvement processes. Assessment results enable management to prioritize investments, strengthen response capabilities, and reduce organizational cyber risk.
+
+International standards such as **ISO/IEC 27001**, **ISO/IEC 27035**, **NIST SP 800-61 Revision 2**, and the **NIST Cybersecurity Framework (CSF)** recommend regularly assessing incident response capabilities through reviews, audits, testing, and exercises. Within Governance, Risk, and Compliance (GRC), readiness assessments provide management with objective evidence that incident response capabilities align with organizational risk appetite, regulatory obligations, and strategic business objectives.
+
+---
+
+# Purpose of a Readiness Assessment
+
+The primary purpose of an Incident Response Readiness Assessment is to determine whether the organization is adequately prepared to manage cybersecurity incidents.
+
+The assessment helps organizations to:
+
+- Evaluate incident response capabilities.
+- Identify capability gaps.
+- Measure operational maturity.
+- Improve preparedness.
+- Support regulatory compliance.
+- Reduce cyber risk.
+- Prioritize improvement initiatives.
+- Strengthen organizational resilience.
+
+Preparedness should be measured before—not during—a cybersecurity incident.
+
+---
+
+# Assessment Scope
+
+A comprehensive readiness assessment should evaluate the following areas:
+
+- Governance.
+- Policies.
+- Incident Response Plan.
+- Incident Response Playbooks.
+- CSIRT structure.
+- Staff competency.
+- Security technologies.
+- Communication procedures.
+- Evidence handling.
+- Recovery capabilities.
+- Regulatory reporting.
+- Continuous improvement.
+
+Each area contributes to overall incident response effectiveness.
+
+---
+
+# Governance Assessment
+
+Governance evaluation includes reviewing whether:
+
+- Incident response policies are approved.
+- Executive sponsorship exists.
+- Responsibilities are clearly assigned.
+- Governance committees are established.
+- Reporting structures are defined.
+- Performance is regularly reviewed.
+
+Strong governance provides direction and accountability.
+
+---
+
+# People Assessment
+
+The assessment should determine whether personnel:
+
+- Understand their responsibilities.
+- Receive regular training.
+- Participate in exercises.
+- Possess required technical skills.
+- Know escalation procedures.
+- Can coordinate effectively during incidents.
+
+People remain the most critical component of incident response.
+
+---
+
+# Process Assessment
+
+Organizations should evaluate whether:
+
+- Incident response procedures are documented.
+- Playbooks exist for major scenarios.
+- Escalation procedures are defined.
+- Communication workflows are established.
+- Evidence handling procedures are documented.
+- Lessons learned are incorporated into improvements.
+
+Documented and tested processes improve consistency.
+
+---
+
+# Technology Assessment
+
+Technology reviews should determine whether security tools:
+
+- Detect threats effectively.
+- Generate meaningful alerts.
+- Support investigations.
+- Integrate with other platforms.
+- Enable automation.
+- Produce reliable reporting.
+
+Technology should support the entire incident response lifecycle.
+
+---
+
+# Exercise and Testing Assessment
+
+Organizations should verify that they regularly perform:
+
+- Tabletop exercises.
+- Technical simulations.
+- Recovery testing.
+- Red Team exercises.
+- Blue Team exercises.
+- Purple Team exercises.
+
+Testing validates both technical and organizational readiness.
+
+---
+
+# Regulatory Readiness
+
+The assessment should confirm that the organization can:
+
+- Meet regulatory notification timelines.
+- Produce required evidence.
+- Preserve investigation records.
+- Demonstrate due diligence.
+- Support external audits.
+- Respond to regulator inquiries.
+
+Regulatory preparedness is a critical component of overall readiness.
+
+---
+
+# Measuring Readiness
+
+Organizations may use assessment criteria such as:
+
+- Policy compliance.
+- Training completion.
+- Exercise performance.
+- Detection capability.
+- Response time.
+- Recovery time.
+- Documentation quality.
+- Audit findings.
+
+These measurements provide objective evidence of capability maturity.
+
+---
+
+# Developing an Improvement Plan
+
+Assessment findings should be translated into actionable improvements.
+
+Typical improvement activities include:
+
+- Updating policies.
+- Revising incident response plans.
+- Developing new playbooks.
+- Improving security monitoring.
+- Enhancing training programs.
+- Increasing automation.
+- Strengthening governance.
+- Conducting additional exercises.
+
+Continuous improvement is an essential element of incident response readiness.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Conduct readiness assessments annually.
+- Perform assessments after major incidents.
+- Include both technical and business stakeholders.
+- Document findings and recommendations.
+- Track remediation activities.
+- Measure progress over time.
+- Integrate results into enterprise risk management.
+- Report significant findings to executive management.
+
+Readiness assessments should become part of the organization's continuous improvement program.
+
+---
+
+# GRC Perspective
+
+Incident Response Readiness Assessments provide objective evidence that governance, risk management, and compliance activities are functioning effectively.
+
+### Governance
+
+Governance responsibilities include:
+
+- Reviewing assessment results.
+- Approving improvement initiatives.
+- Allocating resources.
+- Monitoring program maturity.
+- Providing executive oversight.
+- Driving continual improvement.
+
+### Risk Management
+
+Risk management activities include:
+
+- Identifying capability gaps.
+- Assessing operational risk.
+- Prioritizing remediation.
+- Updating enterprise risk registers.
+- Monitoring residual risk.
+- Improving cyber resilience.
+
+### Compliance
+
+Readiness assessments support compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST Cybersecurity Framework (CSF)
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- Industry-specific cybersecurity and privacy regulations
+
+Regular readiness assessments demonstrate due diligence, strengthen governance, and provide evidence that the organization is capable of responding effectively to cybersecurity incidents.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Incident Response Readiness Assessment Framework
+
+**Diagram Description:**
+
+```text
+          Incident Response Readiness
+                     │
+ ┌──────────┬──────────┬──────────┬──────────┐
+ ▼          ▼          ▼          ▼
+Governance People   Processes Technology
+                     │
+                     ▼
+          Testing & Exercises
+                     │
+                     ▼
+         Assessment Findings
+                     │
+                     ▼
+        Continuous Improvement
+```
+
+**Caption:**
+
+*"A readiness assessment evaluates governance, people, processes, technologies, and testing activities to determine the organization's overall incident response capability."*
+
+---
+
+# Practical Example
+
+A multinational energy company conducts an annual Incident Response Readiness Assessment to evaluate its cyber preparedness. The assessment reviews governance documentation, Incident Response Policies, CSIRT responsibilities, incident response playbooks, employee training records, Security Information and Event Management (SIEM) capabilities, and regulatory notification procedures. A tabletop exercise reveals delays in executive communication and unclear responsibilities for third-party cloud providers during major incidents. Technical testing also identifies gaps in endpoint monitoring and evidence preservation procedures. Based on the assessment findings, the organization updates its Incident Response Plan, revises cloud incident playbooks, enhances training for executive leadership, improves automation through its SOAR platform, and schedules follow-up exercises to validate the improvements.
+
+This example demonstrates how structured readiness assessments help organizations identify weaknesses before real incidents occur, prioritize remediation efforts, and continuously strengthen their incident response capability.
+
+---
+
+## Key Takeaways
+
+- An Incident Response Readiness Assessment evaluates whether an organization is prepared to detect, respond to, recover from, and learn from cybersecurity incidents.
+- Readiness assessments review governance, people, processes, technologies, regulatory preparedness, and exercise results to identify capability gaps and improvement opportunities.
+- Regular assessments provide objective evidence of incident response maturity and help organizations prioritize investments in people, processes, and technology.
+- Findings should be translated into measurable improvement initiatives that are tracked through the organization's continual improvement program.
+- From a Governance, Risk, and Compliance (GRC) perspective, readiness assessments strengthen governance, reduce cyber risk, support regulatory compliance, and improve organizational resilience by ensuring that incident response capabilities remain effective and aligned with business objectives.
+
 - 

@@ -616,4 +616,290 @@ This example illustrates how structured event analysis transforms multiple isola
 - Comprehensive documentation and risk-based prioritization improve investigation quality, regulatory readiness, and operational efficiency.
 - From a Governance, Risk, and Compliance (GRC) perspective, security event analysis supports informed decision-making, reduces cyber risk, strengthens governance, and demonstrates due diligence during audits and regulatory reviews.
 
+- # Incident Classification and Prioritization
+
+Once a security event has been analyzed and confirmed as a legitimate cybersecurity incident, the next step is to determine its **classification** and **priority**. Not all incidents pose the same level of risk to an organization. A phishing email reported by a single employee requires a different response than a ransomware attack affecting critical business systems. Proper classification and prioritization enable organizations to allocate resources efficiently, initiate appropriate response actions, and ensure that the most severe incidents receive immediate attention.
+
+Incident classification is the process of categorizing incidents according to their characteristics, such as the type of attack, affected systems, business impact, or regulatory implications. Classification provides a common language for reporting, analysis, metrics, and lessons learned. Prioritization, on the other hand, determines the urgency of the response based on the likelihood of harm and the potential impact on confidentiality, integrity, availability, business operations, regulatory compliance, financial performance, and organizational reputation.
+
+Effective prioritization requires more than technical analysis. Organizations must consider business context, including the criticality of affected assets, data sensitivity, legal obligations, customer impact, operational disruption, and enterprise risk. Risk-based prioritization helps incident responders focus limited resources on the incidents that present the greatest threat to organizational objectives.
+
+International standards such as **ISO/IEC 27035**, **ISO/IEC 27001**, **NIST SP 800-61 Revision 2**, and the **NIST Cybersecurity Framework (CSF)** recommend establishing documented incident classification schemes and prioritization criteria. Within Governance, Risk, and Compliance (GRC), standardized classification and prioritization improve governance, support regulatory compliance, enhance reporting consistency, and strengthen enterprise risk management.
+
+---
+
+# Purpose of Classification and Prioritization
+
+Incident classification and prioritization help organizations to:
+
+- Standardize incident reporting.
+- Allocate response resources effectively.
+- Accelerate decision-making.
+- Improve communication.
+- Support regulatory reporting.
+- Measure incident trends.
+- Improve executive visibility.
+- Reduce organizational risk.
+
+A consistent classification process improves both operational efficiency and governance.
+
+---
+
+# Incident Classification
+
+Incident classification organizes incidents into predefined categories based on their characteristics.
+
+Common categories include:
+
+- Malware infection.
+- Ransomware attack.
+- Phishing attack.
+- Business Email Compromise (BEC).
+- Data breach.
+- Insider threat.
+- Unauthorized access.
+- Distributed Denial-of-Service (DDoS).
+- Web application attack.
+- Cloud security incident.
+- Supply chain compromise.
+
+Organizations should define classification categories that reflect their business environment and threat landscape.
+
+---
+
+# Classification by Impact
+
+Incidents may also be classified according to business impact.
+
+Examples include:
+
+- Operational disruption.
+- Financial loss.
+- Data confidentiality.
+- Service availability.
+- Regulatory impact.
+- Customer impact.
+- Safety implications.
+- Reputational damage.
+
+Business impact often determines the level of management involvement.
+
+---
+
+# Incident Severity Levels
+
+Many organizations use standardized severity levels.
+
+| Severity | Description | Typical Response |
+|----------|-------------|------------------|
+| Critical (Severity 1) | Major business disruption, widespread compromise, or regulatory impact | Immediate executive involvement and full incident response |
+| High (Severity 2) | Significant impact on critical systems or sensitive data | Rapid investigation and containment |
+| Medium (Severity 3) | Limited operational impact with manageable business risk | Standard incident response procedures |
+| Low (Severity 4) | Minimal business impact and low operational risk | Routine investigation and monitoring |
+
+Severity definitions should be documented within the Incident Response Plan.
+
+---
+
+# Factors Affecting Priority
+
+Priority should be determined using multiple risk factors.
+
+These include:
+
+- Business criticality.
+- Asset value.
+- Data sensitivity.
+- Threat severity.
+- Number of affected systems.
+- Regulatory obligations.
+- Operational impact.
+- Public exposure.
+- Customer impact.
+- Recovery complexity.
+
+A risk-based approach ensures that the most significant incidents receive immediate attention.
+
+---
+
+# Risk-Based Prioritization
+
+Risk-based prioritization considers both **likelihood** and **impact**.
+
+Typical considerations include:
+
+- Probability of continued attack.
+- Potential financial losses.
+- Business disruption.
+- Regulatory penalties.
+- Reputational damage.
+- Safety implications.
+
+Organizations should align prioritization with their enterprise risk management framework.
+
+---
+
+# Escalation Criteria
+
+Incident priority determines escalation requirements.
+
+Critical incidents may require:
+
+- Executive Management notification.
+- Crisis Management Team activation.
+- Legal involvement.
+- Privacy Office engagement.
+- Regulatory reporting.
+- Public communications.
+- Board reporting.
+
+Lower-priority incidents may remain within operational security teams.
+
+---
+
+# Service Level Objectives (SLOs)
+
+Organizations often define target response times based on incident severity.
+
+Example:
+
+| Severity | Initial Response | Target Containment |
+|----------|------------------|--------------------|
+| Critical | Within 15 minutes | Within 2 hours |
+| High | Within 30 minutes | Within 4 hours |
+| Medium | Within 2 hours | Within 1 business day |
+| Low | Within 1 business day | As scheduled |
+
+Response targets should reflect organizational risk tolerance and available resources.
+
+---
+
+# Documentation
+
+Incident classification records should include:
+
+- Incident category.
+- Severity level.
+- Business impact.
+- Affected assets.
+- Risk assessment.
+- Escalation decisions.
+- Regulatory considerations.
+- Assigned ownership.
+
+Accurate documentation supports reporting, trend analysis, audits, and continual improvement.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Establish standardized classification criteria.
+- Define severity levels clearly.
+- Use risk-based prioritization.
+- Review priorities as incidents evolve.
+- Document escalation procedures.
+- Align priorities with business objectives.
+- Train responders on classification methods.
+- Regularly review incident trends.
+
+Classification frameworks should be reviewed periodically to remain aligned with evolving threats.
+
+---
+
+# GRC Perspective
+
+Incident classification and prioritization strengthen Governance, Risk, and Compliance by ensuring that cybersecurity incidents are managed consistently and according to business risk.
+
+### Governance
+
+Governance responsibilities include:
+
+- Approving classification schemes.
+- Defining escalation authority.
+- Monitoring incident trends.
+- Supporting executive oversight.
+- Establishing reporting requirements.
+- Driving continual improvement.
+
+### Risk Management
+
+Risk management activities include:
+
+- Assessing business impact.
+- Prioritizing response activities.
+- Monitoring incident severity trends.
+- Updating enterprise risk registers.
+- Reducing operational risk.
+- Strengthening cyber resilience.
+
+### Compliance
+
+Classification and prioritization support compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST Cybersecurity Framework (CSF)
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- Industry-specific cybersecurity and privacy regulations
+
+A structured classification framework demonstrates consistent governance, supports regulatory reporting, and improves organizational accountability during cybersecurity incidents.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Incident Classification and Prioritization Process
+
+**Diagram Description:**
+
+```text
+        Confirmed Security Incident
+                  │
+                  ▼
+       Incident Classification
+                  │
+      ┌───────────┼───────────┐
+      ▼           ▼           ▼
+ Attack Type   Business    Data
+               Impact    Sensitivity
+                  │
+                  ▼
+          Risk Assessment
+                  │
+                  ▼
+      Severity Assignment
+                  │
+                  ▼
+       Priority & Escalation
+                  │
+                  ▼
+       Incident Response Actions
+```
+
+**Caption:**
+
+*"Incident classification and prioritization enable organizations to evaluate business risk, assign severity levels, and initiate appropriate response actions."*
+
+---
+
+# Practical Example
+
+A global financial institution identifies three confirmed security incidents on the same day. The first is a phishing email reported by an employee before any credentials were entered. The second involves malware detected on a workstation with no evidence of lateral movement. The third is a ransomware attack encrypting servers supporting online banking services and potentially exposing customer information. Security analysts classify the incidents as phishing, malware, and ransomware, respectively. Based on business impact, the phishing incident is assigned **Low Severity**, the malware infection is classified as **Medium Severity**, and the ransomware attack is designated **Critical Severity** due to its effect on critical services, customer data, and regulatory obligations. The ransomware incident is immediately escalated to Executive Management, the Computer Security Incident Response Team (CSIRT), Legal, Privacy, and Corporate Communications, while the lower-severity incidents are managed through standard operational procedures.
+
+This example demonstrates how structured classification and risk-based prioritization ensure that response efforts are focused on the incidents posing the greatest threat to organizational objectives.
+
+---
+
+## Key Takeaways
+
+- Incident classification categorizes confirmed security incidents based on their characteristics, while prioritization determines the urgency of the response based on business risk.
+- Organizations should establish standardized incident categories, severity levels, and escalation criteria to ensure consistent decision-making.
+- Risk-based prioritization considers business criticality, data sensitivity, operational impact, regulatory obligations, and potential financial and reputational consequences.
+- Well-defined severity levels and response targets help organizations allocate resources effectively and respond proportionately to different incident types.
+- From a Governance, Risk, and Compliance (GRC) perspective, incident classification and prioritization improve governance, strengthen enterprise risk management, support regulatory compliance, and enhance executive oversight of cybersecurity incidents.
+
 - 

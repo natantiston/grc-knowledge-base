@@ -1,0 +1,294 @@
+# 15.1 Introduction to Incident Management
+
+## Part 1 – Understanding Incident Management
+
+> **Chapter:** 15 – Incident Management
+>
+> **Topic:** Understanding Incident Management
+>
+> **Difficulty:** Beginner
+>
+> **Estimated Reading Time:** 10–15 minutes
+
+## Introduction
+
+Every organization, regardless of its size, industry, or geographical location, faces the possibility of cybersecurity incidents. Cybercriminals continuously develop new attack techniques, insider threats remain a persistent concern, human error can expose sensitive information, and technology failures can disrupt critical business operations. As organizations become increasingly dependent on digital technologies, cloud computing, mobile devices, and interconnected systems, the ability to respond quickly and effectively to security incidents has become an essential organizational capability.
+
+A security incident can have significant consequences beyond technical disruption. Organizations may experience financial losses, operational downtime, regulatory penalties, reputational damage, legal liability, and loss of customer trust. In highly regulated industries such as healthcare, finance, telecommunications, and government, ineffective incident management can also lead to violations of legal and contractual obligations. Consequently, organizations must establish structured processes that enable them to detect, analyze, contain, eradicate, recover from, and learn from security incidents.
+
+**Incident Management** is the coordinated process of preparing for, identifying, responding to, managing, and recovering from security incidents in a manner that minimizes business impact while protecting the confidentiality, integrity, and availability (CIA) of information assets. Rather than focusing solely on technical remediation, incident management integrates governance, risk management, legal considerations, regulatory compliance, business continuity, and organizational communication into a comprehensive response capability.
+
+Modern incident management is guided by internationally recognized standards and frameworks. **ISO/IEC 27035** provides guidance for information security incident management, while **NIST Special Publication (SP) 800-61 Revision 2**, *Computer Security Incident Handling Guide*, outlines a structured approach for preparing, detecting, analyzing, containing, eradicating, and recovering from security incidents. Other frameworks, including the **MITRE ATT&CK Framework**, **SANS Incident Response Process**, and the **NIST Cybersecurity Framework (CSF)**, provide complementary guidance that organizations use to strengthen their incident response capabilities.
+
+Within **Governance, Risk, and Compliance (GRC)**, incident management serves as a critical operational process that enables organizations to reduce cyber risk, meet regulatory obligations, improve resilience, and continuously enhance their security posture. Effective incident management not only limits the impact of security events but also provides valuable insights that strengthen future risk management and organizational decision-making.
+
+This lesson introduces the fundamental concepts of incident management, explains the difference between security events and security incidents, examines the incident lifecycle, and establishes the foundation for the remaining lessons in this chapter.
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Define incident management and explain its purpose.
+- Differentiate between a security event and a security incident.
+- Understand the characteristics of cybersecurity incidents.
+- Describe the stages of the incident management lifecycle.
+- Explain why incident management is essential to organizational resilience.
+- Understand the role of incident management within Governance, Risk, and Compliance (GRC).
+
+---
+
+# What is Incident Management?
+
+**Incident Management** is the structured process of preparing for, detecting, analyzing, responding to, recovering from, and learning from information security incidents.
+
+Its primary objectives are to:
+
+- Minimize business disruption.
+- Protect information assets.
+- Reduce financial and operational impacts.
+- Preserve evidence.
+- Meet legal and regulatory obligations.
+- Restore normal business operations.
+- Improve organizational resilience.
+- Support continual improvement.
+
+Incident management combines people, processes, technology, and governance to ensure that security incidents are handled consistently and effectively.
+
+---
+
+# What is a Security Event?
+
+A **security event** is any observable occurrence within an information system or network that may have relevance to information security.
+
+Examples include:
+
+- A user successfully logs into a system.
+- A firewall blocks an unauthorized connection attempt.
+- An antivirus solution detects suspicious activity.
+- A failed login attempt.
+- A server restart.
+- A configuration change.
+- A system alert generated by a SIEM platform.
+
+Most security events are routine and do not require incident response activities.
+
+---
+
+# What is a Security Incident?
+
+A **security incident** is one or more security events that have been determined to adversely affect—or have the potential to adversely affect—the confidentiality, integrity, or availability of information, information systems, or business operations.
+
+Examples include:
+
+- Ransomware infection.
+- Data breach.
+- Unauthorized access to sensitive systems.
+- Insider misuse of privileged accounts.
+- Distributed Denial-of-Service (DDoS) attack.
+- Business Email Compromise (BEC).
+- Malware infection.
+- Credential theft.
+
+Unlike routine security events, security incidents require investigation, coordinated response, and appropriate remediation.
+
+---
+
+# Security Event vs. Security Incident
+
+Although the terms are sometimes used interchangeably, they have different meanings.
+
+| Security Event | Security Incident |
+|----------------|-------------------|
+| Observable activity | Confirmed or suspected adverse event |
+| May be routine | Requires investigation and response |
+| Often automated | Requires coordinated incident management |
+| Usually low risk | May significantly impact the organization |
+| May not require action | Requires documented response procedures |
+
+Every incident begins with one or more security events, but not every event becomes an incident.
+
+---
+
+# Characteristics of a Security Incident
+
+Most cybersecurity incidents share several common characteristics:
+
+- Unexpected or unauthorized activity.
+- Potential harm to business operations.
+- Impact on confidentiality, integrity, or availability.
+- Requirement for investigation.
+- Need for coordinated response.
+- Possible legal or regulatory implications.
+- Potential financial or reputational consequences.
+
+The severity of an incident determines the urgency and scale of the response.
+
+---
+
+# The Incident Management Lifecycle
+
+Although organizations may use different methodologies, most incident management processes follow a common lifecycle:
+
+1. Preparation
+2. Detection and Identification
+3. Analysis
+4. Containment
+5. Eradication
+6. Recovery
+7. Lessons Learned and Continuous Improvement
+
+Each phase builds upon the previous one to ensure incidents are managed efficiently and consistently.
+
+---
+
+# Why Incident Management is Important
+
+An effective incident management capability enables organizations to:
+
+- Reduce operational downtime.
+- Minimize financial losses.
+- Protect sensitive information.
+- Meet regulatory requirements.
+- Preserve customer trust.
+- Improve business resilience.
+- Support business continuity.
+- Strengthen cybersecurity maturity.
+
+Organizations that respond quickly and effectively recover faster and reduce the long-term impact of security incidents.
+
+---
+
+# Common Causes of Security Incidents
+
+Security incidents may result from:
+
+- Cyberattacks.
+- Human error.
+- Insider threats.
+- Software vulnerabilities.
+- Misconfigurations.
+- Third-party compromises.
+- Hardware failures.
+- Natural disasters affecting technology infrastructure.
+
+Understanding common causes helps organizations implement preventive and detective controls.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Establish a formal incident management program.
+- Define incident response procedures.
+- Train employees on incident reporting.
+- Maintain incident response teams.
+- Continuously monitor systems.
+- Test response capabilities regularly.
+- Document all incidents.
+- Perform post-incident reviews.
+
+These practices improve preparedness and reduce incident response time.
+
+---
+
+# GRC Perspective
+
+Incident management is a core operational capability within Governance, Risk, and Compliance.
+
+### Governance
+
+Governance responsibilities include:
+
+- Establishing incident response policies.
+- Defining roles and responsibilities.
+- Providing executive oversight.
+- Allocating resources.
+- Supporting strategic decision-making.
+- Driving continual improvement.
+
+### Risk Management
+
+Risk management activities include:
+
+- Identifying cyber risks.
+- Assessing incident impacts.
+- Prioritizing response efforts.
+- Reducing residual risk.
+- Updating risk registers.
+- Improving organizational resilience.
+
+### Compliance
+
+Incident management supports compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST Cybersecurity Framework (CSF)
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- Other applicable legal, regulatory, and contractual requirements
+
+An effective incident management program demonstrates organizational accountability, supports regulatory compliance, and strengthens enterprise cybersecurity governance.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Incident Management Lifecycle
+
+**Diagram Description:**
+
+```text
+      Preparation
+           │
+           ▼
+Detection & Identification
+           │
+           ▼
+       Analysis
+           │
+           ▼
+     Containment
+           │
+           ▼
+     Eradication
+           │
+           ▼
+       Recovery
+           │
+           ▼
+ Lessons Learned
+           │
+           └──────────────┐
+                          ▼
+                    Continuous
+                    Improvement
+```
+
+**Caption:**
+
+*"Incident management is a continuous lifecycle that prepares organizations to detect, respond to, recover from, and learn from cybersecurity incidents while continually improving their security posture."*
+
+---
+
+# Practical Example
+
+A financial services company receives an alert from its Security Information and Event Management (SIEM) platform indicating multiple failed login attempts against an administrator account, followed by a successful login from an unfamiliar geographic location. Initially, the failed login attempts are treated as **security events**. However, after analysts confirm that the successful login was unauthorized and that sensitive customer data may have been accessed, the events are escalated into a **security incident**. The organization's Computer Security Incident Response Team (CSIRT) activates the incident response process, isolates the affected systems, investigates the compromise, resets credentials, and begins forensic analysis. Following recovery, the organization updates its access control policies and enhances multi-factor authentication to reduce the likelihood of similar incidents.
+
+This example illustrates how routine security events can evolve into a security incident requiring coordinated technical, operational, and governance responses.
+
+---
+
+## Key Takeaways
+
+- Incident management is the structured process of preparing for, detecting, responding to, recovering from, and learning from cybersecurity incidents.
+- A security event is an observable occurrence, while a security incident is an event that adversely affects—or has the potential to affect—the confidentiality, integrity, or availability of information or systems.
+- Effective incident management minimizes business disruption, protects information assets, supports regulatory compliance, and strengthens organizational resilience.
+- Most incident management programs follow a lifecycle consisting of preparation, detection, analysis, containment, eradication, recovery, and lessons learned.
+- From a Governance, Risk, and Compliance (GRC) perspective, incident management integrates governance, risk management, and compliance activities to improve cybersecurity resilience and support continual organizational improvement.
+
+- 

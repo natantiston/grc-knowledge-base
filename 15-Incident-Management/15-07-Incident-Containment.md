@@ -559,4 +559,270 @@ This example demonstrates how long-term containment enables organizations to con
 - Business continuity should remain a key consideration throughout long-term containment to minimize operational disruption while protecting critical assets.
 - From a Governance, Risk, and Compliance (GRC) perspective, long-term containment strengthens governance, supports enterprise risk management, demonstrates regulatory compliance, and prepares the organization for secure eradication and recovery.
 
+- # Isolation Strategies
+
+Isolation is one of the most effective containment techniques used during cybersecurity incident response. Once malicious activity has been confirmed, incident responders must prevent attackers, malware, or compromised systems from communicating with the rest of the organization's environment. **Isolation strategies** are the methods used to separate affected assets from production systems while preserving business operations and supporting forensic investigations. Proper isolation limits the spread of an attack, reduces business impact, and creates a controlled environment for eradication and recovery.
+
+Cybersecurity incidents frequently involve lateral movement, where attackers expand from one compromised system to other devices across the network. Malware may automatically propagate to connected endpoints, ransomware may encrypt shared network drives, and compromised administrator accounts may be used to access critical infrastructure. Immediate isolation prevents these activities by interrupting communication pathways before additional systems can be compromised. However, isolation decisions must be carefully planned because overly aggressive actions may unnecessarily disrupt business operations or destroy valuable forensic evidence.
+
+Isolation can occur at multiple levels, including individual endpoints, servers, user accounts, applications, virtual machines, containers, cloud resources, or entire network segments. The appropriate strategy depends on the severity of the incident, the criticality of the affected assets, business continuity requirements, and the availability of alternative systems. Incident responders should apply the least disruptive isolation method that effectively contains the threat while maintaining essential business services whenever possible.
+
+International standards such as **ISO/IEC 27035**, **ISO/IEC 27001**, **NIST SP 800-61 Revision 2**, and the **NIST Cybersecurity Framework (CSF)** recommend implementing structured containment and isolation procedures as part of incident response. Within Governance, Risk, and Compliance (GRC), isolation strategies support enterprise risk management, regulatory compliance, operational resilience, and effective cybersecurity governance.
+
+---
+
+# Purpose of Isolation
+
+Isolation separates compromised resources from the production environment to prevent further damage.
+
+Its objectives include:
+
+- Preventing lateral movement.
+- Stopping malware propagation.
+- Protecting critical assets.
+- Preserving forensic evidence.
+- Limiting business impact.
+- Supporting incident investigation.
+- Reducing operational risk.
+- Preparing for eradication.
+
+Effective isolation stabilizes the environment while response activities continue.
+
+---
+
+# Levels of Isolation
+
+Organizations may isolate different components depending on the incident.
+
+Common isolation targets include:
+
+- Individual workstations.
+- Servers.
+- User accounts.
+- Administrator accounts.
+- Network segments.
+- Virtual machines.
+- Containers.
+- Cloud workloads.
+- Applications.
+- Entire data centers (in extreme situations).
+
+Isolation should be proportional to the severity and scope of the incident.
+
+---
+
+# Endpoint Isolation
+
+Endpoint isolation disconnects compromised devices from the network while allowing investigators to analyze them.
+
+Examples include:
+
+- Network quarantine using Endpoint Detection and Response (EDR).
+- Disabling wired network connections.
+- Disconnecting Wi-Fi.
+- Blocking VPN access.
+- Restricting internet connectivity.
+
+Modern EDR solutions often allow investigators to remotely isolate endpoints while maintaining forensic access.
+
+---
+
+# Network Isolation
+
+Network isolation limits communication between systems.
+
+Techniques include:
+
+- VLAN segmentation.
+- Firewall rule updates.
+- Access Control Lists (ACLs).
+- Software-Defined Network (SDN) controls.
+- Zero Trust network policies.
+- Micro-segmentation.
+
+Network isolation prevents attackers from moving laterally across the environment.
+
+---
+
+# Identity Isolation
+
+Compromised identities should be isolated immediately.
+
+Common actions include:
+
+- Disabling compromised accounts.
+- Resetting passwords.
+- Revoking authentication tokens.
+- Disabling privileged access.
+- Enforcing Multi-Factor Authentication (MFA).
+- Blocking suspicious login sessions.
+
+Identity isolation limits unauthorized access while preserving business operations for unaffected users.
+
+---
+
+# Cloud and Virtual Environment Isolation
+
+Cloud-native environments require specialized isolation techniques.
+
+Examples include:
+
+- Suspending cloud instances.
+- Removing virtual machines from load balancers.
+- Isolating Kubernetes namespaces.
+- Restricting cloud security groups.
+- Blocking cloud API access.
+- Isolating compromised storage accounts.
+
+Cloud isolation should minimize disruption to unaffected workloads.
+
+---
+
+# Factors Influencing Isolation Decisions
+
+Isolation strategies should consider:
+
+- Business criticality.
+- Incident severity.
+- Scope of compromise.
+- Evidence preservation.
+- Regulatory obligations.
+- Recovery capabilities.
+- Availability of backup systems.
+- Operational dependencies.
+
+Risk-based decision-making helps balance security and business continuity.
+
+---
+
+# Risks of Improper Isolation
+
+Poor isolation decisions may result in:
+
+- Continued attacker access.
+- Malware spread.
+- Data exfiltration.
+- Extended downtime.
+- Loss of forensic evidence.
+- Regulatory violations.
+- Customer impact.
+- Increased financial losses.
+
+Isolation procedures should therefore be documented, tested, and regularly reviewed.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Develop predefined isolation playbooks.
+- Prioritize critical assets.
+- Use automated isolation where appropriate.
+- Preserve evidence before powering down systems.
+- Coordinate with business stakeholders.
+- Document every isolation action.
+- Continuously monitor isolated assets.
+- Validate that containment remains effective.
+
+Preparation enables organizations to isolate threats rapidly while minimizing operational disruption.
+
+---
+
+# GRC Perspective
+
+Isolation strategies support Governance, Risk, and Compliance by ensuring that containment decisions are structured, risk-based, and aligned with organizational objectives.
+
+### Governance
+
+Governance responsibilities include:
+
+- Approving isolation procedures.
+- Defining decision-making authority.
+- Monitoring containment effectiveness.
+- Supporting executive oversight.
+- Allocating response resources.
+- Driving continual improvement.
+
+### Risk Management
+
+Risk management activities include:
+
+- Protecting critical assets.
+- Limiting business disruption.
+- Reducing attack propagation.
+- Supporting operational resilience.
+- Preserving evidence.
+- Preparing for recovery.
+
+### Compliance
+
+Isolation strategies support compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST Cybersecurity Framework (CSF)
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- Industry-specific cybersecurity and privacy regulations
+
+Documented isolation procedures demonstrate due diligence, support effective incident containment, and help organizations satisfy regulatory expectations for managing cybersecurity incidents.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Isolation Strategy Decision Flow
+
+**Diagram Description:**
+
+```text
+      Confirmed Incident
+              │
+              ▼
+    Assess Scope & Severity
+              │
+              ▼
+ Determine Isolation Level
+              │
+ ┌────────────┼────────────┐
+ ▼            ▼            ▼
+Endpoint   Network     Identity
+Isolation  Isolation   Isolation
+      │         │           │
+      └─────────┼───────────┘
+                ▼
+     Cloud / Infrastructure
+          Isolation
+                │
+                ▼
+ Continuous Monitoring
+                │
+                ▼
+  Eradication & Recovery
+```
+
+**Caption:**
+
+*"Isolation strategies disconnect compromised assets from the production environment, preventing further attacker activity while enabling investigation, containment, and recovery."*
+
+---
+
+# Practical Example
+
+A multinational energy company detects suspicious activity originating from an engineer's workstation that has been compromised through a phishing attack. Endpoint Detection and Response (EDR) software immediately places the workstation into network isolation, allowing investigators to maintain remote forensic access while preventing communication with other systems. The compromised user account is disabled, active authentication tokens are revoked, and firewall rules are updated to block outbound traffic to known malicious command-and-control (C2) servers. Network administrators temporarily segment the affected department from the production environment while threat hunters search for additional Indicators of Compromise (IOCs). Critical operational systems continue functioning through unaffected network segments, minimizing business disruption while the incident response team completes the investigation and prepares for eradication.
+
+This example illustrates how layered isolation strategies can contain a cybersecurity incident quickly, preserve evidence, and protect business operations without unnecessarily shutting down the entire enterprise.
+
+---
+
+## Key Takeaways
+
+- Isolation strategies prevent compromised systems, accounts, and applications from communicating with the production environment, limiting the spread and impact of cybersecurity incidents.
+- Organizations may isolate endpoints, networks, identities, cloud resources, applications, or infrastructure depending on the severity and scope of the incident.
+- Effective isolation balances security objectives with business continuity by selecting the least disruptive approach that successfully contains the threat.
+- Documented isolation procedures, automated response capabilities, and continuous monitoring improve containment effectiveness and reduce organizational risk.
+- From a Governance, Risk, and Compliance (GRC) perspective, isolation strategies strengthen governance, support enterprise risk management, demonstrate regulatory compliance, and provide a secure foundation for eradication and recovery.
+
 - 

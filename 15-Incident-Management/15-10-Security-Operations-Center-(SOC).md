@@ -299,4 +299,310 @@ This example illustrates how the SOC serves as the organization's operational cy
 - Continuous monitoring, threat intelligence integration, analyst training, automation, and performance measurement help organizations improve SOC effectiveness and reduce cyber risk.
 - From a Governance, Risk, and Compliance (GRC) perspective, the SOC strengthens governance through operational visibility, supports enterprise risk management through continuous threat detection, and demonstrates regulatory compliance through structured monitoring and incident management.
 
+- # SOC Processes
+
+A Security Operations Center (SOC) is effective not only because of its people and technologies, but also because of its well-defined operational processes. **SOC processes** provide a structured framework for monitoring, detecting, investigating, responding to, and continuously improving cybersecurity operations. Standardized processes ensure that security events are handled consistently, efficiently, and in accordance with organizational policies, regulatory requirements, and industry best practices.
+
+Cybersecurity operations generate thousands or even millions of security events every day. Without clearly defined processes, analysts may respond inconsistently, overlook important indicators, duplicate efforts, or delay incident response. SOC processes establish standardized workflows that guide analysts from the initial detection of a security event through investigation, incident response, recovery, documentation, and post-incident review. These workflows improve operational efficiency while reducing organizational risk.
+
+Modern SOCs also integrate automation, orchestration, threat intelligence, and continuous monitoring into their operational workflows. Security Information and Event Management (SIEM) platforms collect and correlate security logs, while Security Orchestration, Automation, and Response (SOAR) platforms automate repetitive tasks such as alert enrichment, ticket creation, and incident notification. These technologies enable SOC analysts to focus on higher-value investigative activities while improving response speed and consistency.
+
+International standards such as **ISO/IEC 27001**, **ISO/IEC 27035**, **NIST Cybersecurity Framework (CSF)**, **NIST SP 800-61 Revision 2**, **NIST SP 800-137**, and the **Center for Internet Security (CIS) Controls** emphasize structured operational processes for effective security monitoring and incident management. Within Governance, Risk, and Compliance (GRC), mature SOC processes strengthen governance through standardized operations, reduce enterprise risk through timely response, and support compliance by providing documented and repeatable security procedures.
+
+---
+
+# Purpose of SOC Processes
+
+SOC processes establish repeatable workflows for managing cybersecurity operations.
+
+Their objectives include:
+
+- Standardize security operations.
+- Improve incident response.
+- Reduce response time.
+- Ensure consistent decision-making.
+- Improve analyst efficiency.
+- Support regulatory compliance.
+- Strengthen organizational resilience.
+- Enable continual improvement.
+
+Well-defined processes improve both operational effectiveness and governance.
+
+---
+
+# Core SOC Process Lifecycle
+
+Most SOCs follow a structured operational lifecycle.
+
+Typical phases include:
+
+- Security monitoring.
+- Event detection.
+- Alert triage.
+- Investigation.
+- Incident classification.
+- Incident response.
+- Recovery support.
+- Documentation.
+- Lessons learned.
+
+Each phase builds upon the previous one to provide comprehensive incident management.
+
+---
+
+# Security Event Monitoring
+
+The SOC continuously collects and monitors security events from multiple sources.
+
+Common monitoring sources include:
+
+- Firewalls.
+- Endpoint Detection and Response (EDR).
+- Security Information and Event Management (SIEM).
+- Intrusion Detection and Prevention Systems (IDS/IPS).
+- Cloud security platforms.
+- Identity and Access Management (IAM) systems.
+- Email security gateways.
+- Network devices.
+
+Continuous monitoring enables early identification of suspicious activity.
+
+---
+
+# Alert Triage
+
+Not every security alert represents a genuine cybersecurity incident.
+
+SOC analysts perform triage to:
+
+- Validate alerts.
+- Remove false positives.
+- Determine severity.
+- Identify affected assets.
+- Assess business impact.
+- Prioritize investigations.
+- Decide escalation requirements.
+
+Effective triage ensures that critical incidents receive immediate attention.
+
+---
+
+# Investigation and Analysis
+
+Validated alerts undergo detailed investigation.
+
+Investigation activities include:
+
+- Log correlation.
+- Threat intelligence analysis.
+- Endpoint investigation.
+- Network traffic analysis.
+- Timeline reconstruction.
+- User activity review.
+- Identification of Indicators of Compromise (IOCs).
+- Root Cause Analysis support.
+
+Comprehensive investigation helps determine the scope and severity of the incident.
+
+---
+
+# Incident Escalation and Response
+
+When an incident is confirmed, the SOC initiates appropriate response activities.
+
+These may include:
+
+- Escalating to the Computer Security Incident Response Team (CSIRT).
+- Initiating containment procedures.
+- Notifying stakeholders.
+- Collecting forensic evidence.
+- Coordinating technical teams.
+- Supporting executive reporting.
+- Monitoring containment effectiveness.
+
+Clear escalation procedures reduce response delays.
+
+---
+
+# Automation and Orchestration
+
+Modern SOCs increasingly automate repetitive operational tasks.
+
+Common automated activities include:
+
+- Alert enrichment.
+- Threat intelligence lookups.
+- Ticket creation.
+- Notification workflows.
+- Endpoint isolation.
+- Malware scanning.
+- IOC distribution.
+- Case management updates.
+
+Automation improves speed, consistency, and analyst productivity.
+
+---
+
+# Documentation and Reporting
+
+Every significant security event should be documented.
+
+Documentation includes:
+
+- Alert details.
+- Investigation findings.
+- Response actions.
+- Evidence collected.
+- Incident timeline.
+- Recovery activities.
+- Lessons learned.
+- Performance metrics.
+
+Comprehensive documentation supports audits and continual improvement.
+
+---
+
+# Continuous Improvement
+
+SOC processes should be regularly evaluated and refined.
+
+Improvement activities include:
+
+- Reviewing incident outcomes.
+- Updating detection rules.
+- Improving playbooks.
+- Enhancing automation.
+- Conducting analyst training.
+- Updating threat intelligence.
+- Reviewing performance metrics.
+- Incorporating lessons learned.
+
+Continuous improvement enables the SOC to adapt to evolving cyber threats.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Document all SOC procedures.
+- Standardize operational workflows.
+- Automate repetitive tasks where appropriate.
+- Integrate threat intelligence into investigations.
+- Conduct regular process reviews.
+- Continuously improve detection capabilities.
+- Maintain comprehensive documentation.
+- Measure operational performance.
+
+Mature SOC processes improve consistency, efficiency, and resilience.
+
+---
+
+# GRC Perspective
+
+SOC processes support Governance, Risk, and Compliance by providing structured, repeatable, and auditable cybersecurity operations that align with organizational policies and regulatory expectations.
+
+### Governance
+
+Governance responsibilities include:
+
+- Approving SOC procedures.
+- Monitoring operational performance.
+- Supporting executive oversight.
+- Defining escalation authority.
+- Reviewing operational effectiveness.
+- Driving continual improvement.
+
+### Risk Management
+
+Risk management activities include:
+
+- Detecting threats early.
+- Reducing attacker dwell time.
+- Supporting enterprise risk assessments.
+- Protecting critical assets.
+- Improving operational resilience.
+- Reducing incident impact.
+
+### Compliance
+
+SOC processes support compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- NIST Cybersecurity Framework (CSF)
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST SP 800-137 Information Security Continuous Monitoring (ISCM)
+- Center for Internet Security (CIS) Controls
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- Industry-specific cybersecurity regulations
+
+Documented SOC processes provide evidence of consistent operational practices, support regulatory compliance, and demonstrate due diligence during audits and security assessments.
+
+---
+
+## Diagram Placeholder
+
+**Title:** SOC Operational Process
+
+**Diagram Description:**
+
+```text
+ Security Event Sources
+           │
+           ▼
+ Continuous Monitoring
+           │
+           ▼
+     Alert Detection
+           │
+           ▼
+      Alert Triage
+           │
+           ▼
+ Investigation &
+     Analysis
+           │
+           ▼
+ Incident Confirmed?
+      │           │
+     No          Yes
+      │           │
+ Close Alert   Escalate to CSIRT
+                  │
+                  ▼
+      Containment & Response
+                  │
+                  ▼
+ Documentation &
+ Lessons Learned
+                  │
+                  ▼
+ Continuous Process
+    Improvement
+```
+
+**Caption:**
+
+*"SOC processes provide a structured workflow that transforms security events into coordinated incident response actions while supporting continual improvement and organizational resilience."*
+
+---
+
+# Practical Example
+
+A global manufacturing company operates a centralized Security Operations Center that monitors security events from its on-premises infrastructure, cloud environments, and industrial control systems. During routine monitoring, the Security Information and Event Management (SIEM) platform detects unusual outbound network traffic from a production server. A Tier 1 analyst performs alert triage and determines that the activity warrants further investigation. The case is escalated to a Tier 2 analyst, who correlates firewall logs, endpoint telemetry, and threat intelligence, confirming communication with a known malicious command-and-control server. The incident is escalated to the Computer Security Incident Response Team (CSIRT), which isolates the affected server and begins containment. Throughout the response, automated SOAR workflows create investigation tickets, notify stakeholders, collect forensic artifacts, and update the incident record. After recovery, the SOC reviews the incident, refines detection rules, updates response playbooks, and incorporates lessons learned into future operations.
+
+This example demonstrates how structured SOC processes enable analysts to consistently detect, investigate, respond to, and learn from cybersecurity incidents while improving operational efficiency and reducing enterprise risk.
+
+---
+
+## Key Takeaways
+
+- SOC processes provide standardized workflows for monitoring, detecting, investigating, responding to, documenting, and continuously improving cybersecurity operations.
+- Core SOC activities include continuous monitoring, alert triage, investigation, incident escalation, response coordination, documentation, and post-incident improvement.
+- Automation, orchestration, and threat intelligence improve SOC efficiency by reducing manual effort and accelerating response times.
+- Well-defined and documented SOC processes improve consistency, operational effectiveness, audit readiness, and collaboration across technical and business teams.
+- From a Governance, Risk, and Compliance (GRC) perspective, mature SOC processes strengthen governance, reduce enterprise risk, support regulatory compliance, and enhance organizational resilience through structured and repeatable cybersecurity operations.
+
 - 

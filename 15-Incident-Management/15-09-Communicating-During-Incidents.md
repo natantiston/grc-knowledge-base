@@ -845,4 +845,277 @@ This example demonstrates how coordinated communication with customers, vendors,
 - Customer notifications, vendor coordination, and media engagement should follow predefined communication plans and documented approval processes.
 - From a Governance, Risk, and Compliance (GRC) perspective, effective external communication strengthens governance, reduces reputational and legal risks, supports regulatory compliance, and enhances organizational resilience by maintaining stakeholder trust throughout the incident response lifecycle.
 
+- # Regulatory Notification Requirements
+
+Cybersecurity incidents involving personal data, critical infrastructure, financial services, healthcare systems, or other regulated environments often trigger legal obligations to notify regulators and other competent authorities. **Regulatory notification** is the formal process of reporting qualifying cybersecurity incidents or personal data breaches to government agencies within legally prescribed timeframes. Failure to meet these obligations may result in significant financial penalties, regulatory enforcement actions, reputational damage, and loss of stakeholder trust.
+
+Not every cybersecurity incident requires regulatory notification. Organizations must first determine whether the incident meets the reporting thresholds established by applicable laws, regulations, contractual obligations, or industry standards. This assessment typically considers factors such as the type of data involved, the number of affected individuals, operational disruption, impact on critical services, potential harm to customers, and the likelihood of unauthorized disclosure, alteration, or destruction of information.
+
+Regulatory notification should be coordinated across multiple business functions. The Computer Security Incident Response Team (CSIRT), Legal Department, Privacy Office, Compliance Team, Executive Management, and business owners should collaborate to determine notification obligations, prepare required documentation, and ensure that reports are submitted accurately and within the required deadlines. Organizations should also maintain detailed records of the incident, investigation, decisions, communications, and corrective actions to demonstrate compliance during future audits or investigations.
+
+International regulations and frameworks—including the **General Data Protection Regulation (GDPR)**, **NIS2 Directive**, **ISO/IEC 27035**, **ISO/IEC 27001**, **NIST SP 800-61 Revision 2**, and sector-specific regulations—emphasize timely, accurate, and well-documented reporting of significant cybersecurity incidents. Within Governance, Risk, and Compliance (GRC), regulatory notification demonstrates accountability, supports legal compliance, strengthens governance, and promotes organizational transparency.
+
+---
+
+# Purpose of Regulatory Notification
+
+Regulatory notification ensures that competent authorities receive timely information about qualifying cybersecurity incidents.
+
+Its objectives include:
+
+- Fulfill legal obligations.
+- Protect affected individuals.
+- Support regulatory oversight.
+- Promote transparency.
+- Enable coordinated response.
+- Reduce regulatory risk.
+- Demonstrate accountability.
+- Strengthen public trust.
+
+Notification requirements vary depending on the applicable jurisdiction and industry.
+
+---
+
+# Determining Notification Requirements
+
+Organizations should evaluate whether an incident meets applicable reporting thresholds.
+
+Factors to consider include:
+
+- Type of information affected.
+- Number of affected individuals.
+- Impact on critical services.
+- Financial consequences.
+- Operational disruption.
+- Risk to individuals.
+- Regulatory jurisdiction.
+- Industry-specific obligations.
+
+Legal and Compliance teams should participate in this assessment.
+
+---
+
+# Common Regulatory Requirements
+
+Different jurisdictions impose different reporting obligations.
+
+Examples include:
+
+- Personal data breaches.
+- Critical infrastructure incidents.
+- Financial sector cybersecurity events.
+- Healthcare data breaches.
+- Telecommunications service disruptions.
+- Government system compromises.
+- Critical service interruptions.
+- Significant cyber incidents affecting national security.
+
+Organizations operating internationally may have multiple reporting obligations for a single incident.
+
+---
+
+# Information Included in Notifications
+
+Regulatory notifications generally contain:
+
+- Incident description.
+- Date and time of discovery.
+- Nature of the incident.
+- Systems affected.
+- Categories of information involved.
+- Number of affected individuals (if known).
+- Business impact.
+- Containment actions.
+- Recovery status.
+- Contact information for follow-up.
+
+If complete information is not immediately available, organizations may submit initial notifications followed by supplemental updates as investigations continue.
+
+---
+
+# Notification Timelines
+
+Many regulations specify strict reporting deadlines.
+
+Examples include:
+
+- Immediate notification for certain critical infrastructure incidents.
+- Reporting within legally defined timeframes.
+- Follow-up reports as additional information becomes available.
+- Final reports after incident closure where required.
+
+Organizations should establish procedures to identify reporting deadlines quickly and ensure timely submission.
+
+---
+
+# Roles and Responsibilities
+
+Regulatory notification typically involves multiple organizational functions.
+
+Key participants include:
+
+- Computer Security Incident Response Team (CSIRT).
+- Legal Department.
+- Compliance Team.
+- Privacy Office or Data Protection Officer (DPO).
+- Chief Information Security Officer (CISO).
+- Executive Management.
+- Business owners.
+- Communications team (where applicable).
+
+Clear responsibilities reduce delays and improve reporting accuracy.
+
+---
+
+# Documentation Requirements
+
+Organizations should maintain comprehensive records of:
+
+- Incident timelines.
+- Investigation findings.
+- Notification decisions.
+- Submitted reports.
+- Regulatory correspondence.
+- Evidence collected.
+- Corrective actions.
+- Lessons learned.
+
+Comprehensive documentation supports future audits and regulatory reviews.
+
+---
+
+# Common Challenges
+
+Organizations frequently encounter challenges such as:
+
+- Determining reportable incidents.
+- Meeting strict deadlines.
+- Incomplete information during investigations.
+- Multiple regulatory jurisdictions.
+- Coordinating internal stakeholders.
+- Protecting legal privilege.
+- Managing public disclosure.
+- Balancing speed with accuracy.
+
+Well-defined procedures help organizations address these challenges effectively.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Maintain documented notification procedures.
+- Identify applicable regulatory requirements in advance.
+- Establish clear notification responsibilities.
+- Involve Legal and Compliance early.
+- Maintain accurate incident records.
+- Monitor reporting deadlines.
+- Prepare notification templates.
+- Conduct regular incident reporting exercises.
+
+Preparation significantly improves the organization's ability to meet regulatory obligations during high-pressure situations.
+
+---
+
+# GRC Perspective
+
+Regulatory notification is a core component of Governance, Risk, and Compliance because it demonstrates organizational accountability, supports legal obligations, and reinforces stakeholder confidence during cybersecurity incidents.
+
+### Governance
+
+Governance responsibilities include:
+
+- Approving notification policies.
+- Defining reporting authority.
+- Monitoring regulatory compliance.
+- Supporting executive oversight.
+- Reviewing incident reporting performance.
+- Driving continual improvement.
+
+### Risk Management
+
+Risk management activities include:
+
+- Reducing regulatory risk.
+- Managing legal exposure.
+- Protecting organizational reputation.
+- Supporting enterprise resilience.
+- Improving incident response maturity.
+- Strengthening stakeholder confidence.
+
+### Compliance
+
+Regulatory notification supports compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST Cybersecurity Framework (CSF)
+- Industry-specific cybersecurity, financial, healthcare, telecommunications, and critical infrastructure regulations
+
+Documented notification procedures and timely regulatory reporting demonstrate due diligence, support legal compliance, and provide evidence that cybersecurity incidents are managed responsibly and transparently.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Regulatory Notification Process
+
+**Diagram Description:**
+
+```text
+     Cybersecurity Incident
+               │
+               ▼
+    Incident Investigation
+               │
+               ▼
+ Determine Notification
+     Requirements
+               │
+               ▼
+ Legal, Compliance &
+ Privacy Review
+               │
+               ▼
+ Prepare Regulatory
+     Notification
+               │
+               ▼
+ Submit to Competent
+      Authority
+               │
+               ▼
+ Provide Follow-up
+      Updates
+               │
+               ▼
+ Incident Closure &
+ Documentation
+```
+
+**Caption:**
+
+*"Regulatory notification is a structured process that ensures reportable cybersecurity incidents are communicated to competent authorities accurately, promptly, and in accordance with applicable legal and regulatory requirements."*
+
+---
+
+# Practical Example
+
+A multinational financial institution identifies unauthorized access to a customer database containing personal and financial information. The Computer Security Incident Response Team (CSIRT) immediately begins containment and forensic investigation while the Legal Department, Compliance Team, and Data Protection Officer (DPO) assess the organization's regulatory obligations. Based on the preliminary findings, the incident meets the reporting thresholds under the General Data Protection Regulation (GDPR) and national financial sector regulations. An initial notification is submitted to the relevant supervisory authority within the required legal timeframe, describing the nature of the incident, categories of data involved, containment measures, and expected impact. As the investigation progresses, additional reports provide updated information regarding affected individuals, remediation activities, and corrective actions. Comprehensive documentation is maintained throughout the process to support future regulatory reviews and internal audits.
+
+This example demonstrates how coordinated regulatory notification enables organizations to meet legal obligations, maintain transparency with supervisory authorities, and demonstrate responsible governance during significant cybersecurity incidents.
+
+---
+
+## Key Takeaways
+
+- Regulatory notification is the formal process of reporting qualifying cybersecurity incidents or personal data breaches to competent authorities in accordance with applicable legal and regulatory requirements.
+- Organizations should evaluate each incident against applicable reporting thresholds, considering business impact, affected data, operational disruption, and jurisdictional obligations.
+- Legal, Compliance, Privacy, Executive Management, and the Computer Security Incident Response Team (CSIRT) should collaborate to ensure timely, accurate, and well-documented regulatory reporting.
+- Comprehensive documentation, predefined reporting procedures, and regular notification exercises improve an organization's ability to meet strict regulatory deadlines.
+- From a Governance, Risk, and Compliance (GRC) perspective, regulatory notification strengthens governance, supports enterprise risk management, demonstrates legal and regulatory compliance, and enhances organizational accountability and stakeholder confidence.
 - 

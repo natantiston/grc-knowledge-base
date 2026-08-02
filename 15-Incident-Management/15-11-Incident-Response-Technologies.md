@@ -593,4 +593,577 @@ This example illustrates how SOAR reduces manual effort, accelerates incident re
 - Well-designed playbooks improve operational efficiency, reduce analyst workload, minimize human error, and accelerate incident containment while maintaining appropriate human oversight.
 - From a Governance, Risk, and Compliance (GRC) perspective, SOAR strengthens governance through standardized workflows, reduces enterprise risk through rapid and consistent response, and supports regulatory compliance by providing comprehensive documentation and auditable records of incident response activities.
 
+- # Endpoint Detection and Response (EDR/XDR)
+
+Endpoints such as laptops, desktops, servers, mobile devices, and virtual machines are among the most common targets of modern cyberattacks. Malware infections, ransomware, phishing attacks, credential theft, insider threats, and advanced persistent threats (APTs) frequently begin by compromising an endpoint before spreading throughout the enterprise. Traditional antivirus software is no longer sufficient to detect sophisticated attacks that use legitimate system tools, fileless malware, or zero-day exploits. **Endpoint Detection and Response (EDR)** and **Extended Detection and Response (XDR)** technologies were developed to provide continuous visibility, advanced threat detection, rapid investigation, and automated response capabilities across modern IT environments.
+
+**EDR** focuses on monitoring and protecting endpoint devices by continuously collecting telemetry, detecting suspicious activities, recording endpoint behavior, and enabling rapid investigation and response. **XDR** extends these capabilities beyond endpoints by integrating data from multiple security technologies such as email security, cloud platforms, identity systems, network devices, firewalls, Security Information and Event Management (SIEM), and threat intelligence sources. This broader visibility enables organizations to detect complex, multi-stage attacks that span multiple environments.
+
+Modern EDR and XDR platforms use behavioral analytics, Artificial Intelligence (AI), Machine Learning (ML), threat intelligence, and automation to identify malicious activity that may not be detected through traditional signature-based methods. They also enable Security Operations Centers (SOCs) and Computer Security Incident Response Teams (CSIRTs) to investigate attacks, isolate compromised systems, collect forensic evidence, and coordinate containment activities from a centralized platform.
+
+International standards and frameworks such as **ISO/IEC 27001**, **ISO/IEC 27035**, **NIST Cybersecurity Framework (CSF)**, **NIST SP 800-61 Revision 2**, **NIST SP 800-137 Information Security Continuous Monitoring (ISCM)**, and the **Center for Internet Security (CIS) Controls** recognize endpoint monitoring and continuous detection as critical components of effective cybersecurity operations. Within Governance, Risk, and Compliance (GRC), EDR and XDR strengthen governance through continuous visibility, reduce enterprise risk through proactive threat detection, and support compliance by maintaining detailed security records and investigation evidence.
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Define Endpoint Detection and Response (EDR) and Extended Detection and Response (XDR).
+- Differentiate between EDR and XDR.
+- Identify the core capabilities of EDR/XDR platforms.
+- Explain how EDR/XDR supports incident response.
+- Recognize the role of EDR/XDR within Governance, Risk, and Compliance (GRC).
+
+---
+
+# What is EDR?
+
+**Endpoint Detection and Response (EDR)** is a cybersecurity technology that continuously monitors endpoint devices, detects suspicious behavior, records security events, and enables rapid investigation and response to endpoint-based threats.
+
+Its primary objectives are to:
+
+- Monitor endpoint activity.
+- Detect malicious behavior.
+- Record endpoint telemetry.
+- Support investigations.
+- Enable rapid containment.
+- Improve threat visibility.
+- Reduce attacker dwell time.
+- Strengthen endpoint security.
+
+EDR focuses specifically on protecting endpoint devices.
+
+---
+
+# What is XDR?
+
+**Extended Detection and Response (XDR)** expands endpoint monitoring by integrating security telemetry from multiple technologies across the enterprise.
+
+XDR commonly integrates:
+
+- Endpoints.
+- Email security.
+- Cloud environments.
+- Identity systems.
+- Firewalls.
+- Network monitoring.
+- SIEM platforms.
+- Threat intelligence.
+
+XDR provides a broader view of cybersecurity incidents across multiple environments.
+
+---
+
+# EDR vs. XDR
+
+Although closely related, EDR and XDR have different scopes.
+
+| Feature | EDR | XDR |
+|---------|-----|-----|
+| Primary focus | Endpoints | Enterprise-wide security |
+| Data sources | Endpoint telemetry | Multiple security platforms |
+| Visibility | Individual devices | Cross-domain visibility |
+| Investigation scope | Endpoint incidents | Multi-stage enterprise attacks |
+| Integration | Limited | Extensive |
+| Detection capability | Endpoint threats | Correlated enterprise threats |
+
+Organizations often deploy XDR as an evolution of existing EDR capabilities.
+
+---
+
+# Core Capabilities
+
+Modern EDR/XDR platforms provide capabilities such as:
+
+- Continuous monitoring.
+- Behavioral analysis.
+- Threat detection.
+- Threat hunting.
+- Endpoint isolation.
+- Evidence collection.
+- Malware detection.
+- Automated response.
+
+These capabilities significantly improve incident response effectiveness.
+
+---
+
+# Threat Detection
+
+EDR/XDR platforms identify threats using multiple techniques.
+
+Examples include:
+
+- Behavioral analytics.
+- Machine learning.
+- Artificial Intelligence (AI).
+- Indicators of Compromise (IOCs).
+- Threat intelligence correlation.
+- Process monitoring.
+- Memory analysis.
+- Anomaly detection.
+
+Behavior-based detection improves identification of sophisticated attacks.
+
+---
+
+# Incident Response
+
+EDR/XDR platforms support rapid response through capabilities such as:
+
+- Isolating compromised endpoints.
+- Terminating malicious processes.
+- Blocking malicious files.
+- Collecting forensic artifacts.
+- Capturing memory.
+- Quarantining malware.
+- Supporting root cause investigations.
+- Coordinating with SIEM and SOAR platforms.
+
+Rapid response minimizes business disruption and limits attacker movement.
+
+---
+
+# Benefits of EDR/XDR
+
+Organizations implement EDR/XDR to achieve numerous benefits.
+
+These include:
+
+- Improved endpoint visibility.
+- Faster threat detection.
+- Enhanced investigation capabilities.
+- Automated containment.
+- Reduced attacker dwell time.
+- Better forensic evidence.
+- Improved SOC efficiency.
+- Stronger enterprise security posture.
+
+Modern incident response increasingly depends on endpoint telemetry.
+
+---
+
+# Common Challenges
+
+Organizations implementing EDR/XDR may encounter challenges such as:
+
+- Large volumes of endpoint data.
+- False positives.
+- Endpoint performance considerations.
+- Complex policy management.
+- Cloud integration challenges.
+- Skilled analyst requirements.
+- Licensing costs.
+- Continuous tuning requirements.
+
+Successful deployments require proper planning and ongoing optimization.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Deploy EDR/XDR across all critical endpoints.
+- Integrate with SIEM and SOAR platforms.
+- Continuously update detection rules.
+- Enable automated containment where appropriate.
+- Monitor endpoint health.
+- Regularly review alerts.
+- Conduct threat hunting activities.
+- Maintain comprehensive endpoint inventories.
+
+Continuous monitoring significantly improves organizational resilience.
+
+---
+
+# GRC Perspective
+
+EDR and XDR support Governance, Risk, and Compliance by providing continuous endpoint visibility, strengthening incident detection, and generating evidence required for investigations, audits, and regulatory reporting.
+
+### Governance
+
+Governance responsibilities include:
+
+- Defining endpoint security policies.
+- Monitoring endpoint security posture.
+- Supporting executive oversight.
+- Reviewing detection effectiveness.
+- Protecting critical assets.
+- Driving continual improvement.
+
+### Risk Management
+
+Risk management activities include:
+
+- Detecting endpoint threats.
+- Reducing attacker dwell time.
+- Improving enterprise visibility.
+- Supporting threat intelligence.
+- Strengthening operational resilience.
+- Reducing cyber risk.
+
+### Compliance
+
+EDR/XDR supports compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- NIST Cybersecurity Framework (CSF)
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST SP 800-137 Information Security Continuous Monitoring (ISCM)
+- Center for Internet Security (CIS) Controls
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- Industry-specific cybersecurity regulations
+
+Endpoint telemetry, investigation records, and response documentation provide valuable evidence for audits and demonstrate effective cybersecurity operations.
+
+---
+
+## Diagram Placeholder
+
+**Title:** EDR/XDR Incident Detection Workflow
+
+**Diagram Description:**
+
+```text
+        Endpoints
+   (PCs, Servers, Mobile,
+    Virtual Machines)
+             │
+             ▼
+ Continuous Telemetry
+    Collection
+             │
+             ▼
+Behavioral Analytics &
+ Threat Detection
+             │
+             ▼
+     EDR Platform
+             │
+      ┌──────┴──────┐
+      ▼             ▼
+ Endpoint       XDR Correlation
+ Response     (Cloud, Email, IAM,
+                Network, SIEM)
+      │             │
+      └──────┬──────┘
+             ▼
+ SOC Investigation &
+ Incident Response
+```
+
+**Caption:**
+
+*"EDR provides continuous monitoring and response at the endpoint level, while XDR extends visibility across multiple security domains to detect and respond to complex enterprise-wide attacks."*
+
+---
+
+# Practical Example
+
+A multinational engineering company deploys an XDR platform integrated with endpoint agents, cloud security services, email security, identity management, and its Security Information and Event Management (SIEM) solution. An employee unknowingly opens a phishing email containing a malicious attachment. The endpoint agent detects suspicious PowerShell activity while the email security gateway reports the message as malicious. At the same time, the identity platform records abnormal authentication attempts using the employee's credentials. The XDR platform automatically correlates these seemingly unrelated events, identifies an active attack campaign, and generates a high-priority incident. The affected endpoint is automatically isolated from the corporate network, malicious processes are terminated, evidence is collected, and the Security Operations Center (SOC) is notified. Investigators use the centralized XDR console to reconstruct the attack timeline, identify additional affected systems, and coordinate enterprise-wide containment and recovery.
+
+This example demonstrates how EDR and XDR technologies provide continuous visibility, correlate security events across multiple environments, and enable rapid, coordinated incident response that reduces organizational risk.
+
+---
+
+## Key Takeaways
+
+- Endpoint Detection and Response (EDR) continuously monitors endpoint devices to detect, investigate, and respond to endpoint-based cyber threats.
+- Extended Detection and Response (XDR) expands these capabilities by integrating security telemetry from endpoints, cloud environments, email systems, identity platforms, networks, and other security technologies.
+- Modern EDR/XDR platforms use behavioral analytics, Artificial Intelligence (AI), Machine Learning (ML), threat intelligence, and automation to identify sophisticated attacks and accelerate incident response.
+- Integration with SIEM, SOAR, and Security Operations Centers (SOCs) improves visibility, investigation efficiency, and coordinated response across the enterprise.
+- From a Governance, Risk, and Compliance (GRC) perspective, EDR/XDR strengthens governance through continuous monitoring, supports enterprise risk management through proactive threat detection, and demonstrates regulatory compliance by providing comprehensive endpoint telemetry, forensic evidence, and auditable response records.
+
+- # Threat Intelligence Platforms (TIP)
+
+Cyber threats continue to evolve in sophistication, frequency, and scale. Organizations face an increasing number of malicious actors, including cybercriminals, nation-state groups, hacktivists, insider threats, and organized cybercrime syndicates. To defend against these threats, organizations require timely, accurate, and actionable information about emerging attack techniques, malicious infrastructure, vulnerabilities, and adversary behavior. **Threat Intelligence Platforms (TIPs)** provide a centralized capability for collecting, managing, analyzing, enriching, and distributing cyber threat intelligence across the organization.
+
+A Threat Intelligence Platform aggregates intelligence from multiple internal and external sources, including commercial threat feeds, open-source intelligence (OSINT), Information Sharing and Analysis Centers (ISACs), government advisories, vulnerability databases, malware repositories, and internal security investigations. The platform correlates this information with the organization's own security events, enabling Security Operations Centers (SOCs), Computer Security Incident Response Teams (CSIRTs), Vulnerability Management teams, and security analysts to detect threats more quickly and make informed response decisions.
+
+Modern TIPs support automation by integrating with Security Information and Event Management (SIEM), Security Orchestration, Automation, and Response (SOAR), Endpoint Detection and Response (EDR/XDR), firewalls, email security gateways, cloud security platforms, and vulnerability management solutions. By sharing Indicators of Compromise (IOCs), attacker tactics, techniques, and procedures (TTPs), and contextual threat intelligence, TIPs improve detection accuracy, reduce response times, and strengthen organizational resilience.
+
+International standards and frameworks such as **ISO/IEC 27001**, **ISO/IEC 27035**, **NIST Cybersecurity Framework (CSF)**, **NIST SP 800-61 Revision 2**, **NIST SP 800-137 Information Security Continuous Monitoring (ISCM)**, **NIST SP 800-150 Guide to Cyber Threat Information Sharing**, and the **Center for Internet Security (CIS) Controls** recognize cyber threat intelligence as an essential capability for effective cybersecurity operations. Within Governance, Risk, and Compliance (GRC), Threat Intelligence Platforms strengthen governance through informed decision-making, improve enterprise risk management through proactive threat awareness, and support compliance by documenting threat-informed security operations.
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Define a Threat Intelligence Platform (TIP).
+- Explain the functions of a TIP.
+- Identify common sources of cyber threat intelligence.
+- Understand how TIPs support incident response.
+- Recognize the role of TIPs within Governance, Risk, and Compliance (GRC).
+
+---
+
+# What is a Threat Intelligence Platform?
+
+A **Threat Intelligence Platform (TIP)** is a cybersecurity solution that collects, aggregates, analyzes, enriches, manages, and distributes cyber threat intelligence from multiple sources to support threat detection, investigation, and incident response.
+
+Its primary objectives are to:
+
+- Collect threat intelligence.
+- Correlate threat data.
+- Enrich security events.
+- Improve threat detection.
+- Support incident investigations.
+- Share intelligence across teams.
+- Strengthen proactive defense.
+- Reduce cyber risk.
+
+A TIP transforms raw threat data into actionable intelligence.
+
+---
+
+# Sources of Threat Intelligence
+
+Threat Intelligence Platforms gather information from numerous sources.
+
+Common sources include:
+
+- Commercial threat intelligence providers.
+- Open-source intelligence (OSINT).
+- Government cybersecurity advisories.
+- Information Sharing and Analysis Centers (ISACs).
+- Computer Emergency Response Teams (CERTs).
+- Vulnerability databases.
+- Malware repositories.
+- Internal incident investigations.
+- Security vendors.
+- Dark web monitoring services.
+
+Combining multiple intelligence sources improves visibility into emerging threats.
+
+---
+
+# Types of Threat Intelligence
+
+Threat intelligence is generally categorized into several levels.
+
+### Strategic Intelligence
+
+Supports executive decision-making by providing information about long-term threat trends, business risks, and geopolitical developments.
+
+### Operational Intelligence
+
+Provides information about ongoing attack campaigns, threat actor activities, and planned operations.
+
+### Tactical Intelligence
+
+Focuses on attacker tactics, techniques, and procedures (TTPs) used during cyberattacks.
+
+### Technical Intelligence
+
+Includes machine-readable indicators such as:
+
+- Malicious IP addresses.
+- Domain names.
+- File hashes.
+- URLs.
+- Email addresses.
+- Malware signatures.
+- Indicators of Compromise (IOCs).
+
+Different intelligence types support different organizational roles and objectives.
+
+---
+
+# Core Functions of a TIP
+
+Threat Intelligence Platforms perform several important functions.
+
+These include:
+
+- Threat data collection.
+- Intelligence aggregation.
+- Data normalization.
+- Threat enrichment.
+- Correlation with security events.
+- Intelligence sharing.
+- Threat prioritization.
+- Reporting and dashboards.
+
+These capabilities help organizations respond more effectively to evolving cyber threats.
+
+---
+
+# Integration with Security Operations
+
+TIPs integrate with multiple cybersecurity technologies.
+
+Common integrations include:
+
+- Security Information and Event Management (SIEM).
+- Security Orchestration, Automation, and Response (SOAR).
+- Endpoint Detection and Response (EDR/XDR).
+- Firewalls.
+- Intrusion Detection and Prevention Systems (IDS/IPS).
+- Email security gateways.
+- Cloud security platforms.
+- Vulnerability management systems.
+
+Integration enables automated sharing of threat intelligence across the security ecosystem.
+
+---
+
+# Benefits of Threat Intelligence
+
+Organizations implement TIPs to achieve numerous benefits.
+
+These include:
+
+- Improved threat visibility.
+- Faster threat detection.
+- Better incident investigations.
+- More accurate prioritization.
+- Enhanced threat hunting.
+- Reduced false positives.
+- Stronger collaboration.
+- Improved operational resilience.
+
+Threat intelligence enables proactive rather than reactive cybersecurity operations.
+
+---
+
+# Common Challenges
+
+Organizations implementing TIPs may encounter challenges such as:
+
+- Large volumes of intelligence data.
+- Low-quality threat feeds.
+- Information overload.
+- False positives.
+- Integration complexity.
+- Intelligence validation.
+- Analyst skill requirements.
+- Keeping intelligence current.
+
+Effective governance ensures that intelligence remains relevant and actionable.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Use multiple trusted intelligence sources.
+- Validate intelligence before operational use.
+- Integrate TIPs with existing security technologies.
+- Prioritize high-confidence intelligence.
+- Share intelligence across teams.
+- Continuously update threat feeds.
+- Participate in information-sharing communities.
+- Review intelligence effectiveness regularly.
+
+Threat intelligence should support operational decision-making rather than simply collecting data.
+
+---
+
+# GRC Perspective
+
+Threat Intelligence Platforms support Governance, Risk, and Compliance by enabling informed security decisions, improving enterprise risk awareness, and providing evidence of proactive cybersecurity management.
+
+### Governance
+
+Governance responsibilities include:
+
+- Defining threat intelligence policies.
+- Approving intelligence sources.
+- Supporting executive decision-making.
+- Monitoring emerging cyber risks.
+- Guiding security investments.
+- Driving continual improvement.
+
+### Risk Management
+
+Risk management activities include:
+
+- Identifying emerging threats.
+- Supporting enterprise risk assessments.
+- Improving threat prioritization.
+- Strengthening proactive defense.
+- Protecting critical assets.
+- Reducing cyber risk.
+
+### Compliance
+
+Threat Intelligence Platforms support compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- NIST Cybersecurity Framework (CSF)
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST SP 800-137 Information Security Continuous Monitoring (ISCM)
+- NIST SP 800-150 Guide to Cyber Threat Information Sharing
+- Center for Internet Security (CIS) Controls
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- Industry-specific cybersecurity regulations
+
+Threat intelligence records, documented investigations, and evidence of proactive monitoring support regulatory compliance and demonstrate continual improvement of cybersecurity operations.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Threat Intelligence Platform (TIP) Workflow
+
+**Diagram Description:**
+
+```text
+ External & Internal
+ Intelligence Sources
+(OSINT, ISACs, CERTs,
+ Vendors, SIEM, EDR)
+            │
+            ▼
+ Threat Intelligence
+     Platform (TIP)
+            │
+            ▼
+ Data Aggregation &
+ Intelligence Enrichment
+            │
+            ▼
+ Threat Correlation &
+ Risk Prioritization
+            │
+      ┌─────┼─────┐
+      ▼     ▼     ▼
+     SIEM  SOAR  EDR/XDR
+      │     │      │
+      └─────┼──────┘
+            ▼
+ SOC Investigation &
+ Incident Response
+```
+
+**Caption:**
+
+*"A Threat Intelligence Platform collects and enriches cyber threat intelligence from multiple sources, distributes actionable information across security technologies, and enables faster detection and response to evolving cyber threats."*
+
+---
+
+# Practical Example
+
+A global telecommunications provider subscribes to several commercial threat intelligence feeds, participates in its regional Information Sharing and Analysis Center (ISAC), and collects intelligence from internal incident investigations. The organization's Threat Intelligence Platform continuously aggregates this information and distributes validated Indicators of Compromise (IOCs) to the Security Information and Event Management (SIEM), Endpoint Detection and Response (EDR), firewall, and email security platforms. A newly published intelligence report identifies a ransomware group's command-and-control infrastructure and associated file hashes. The TIP automatically updates detection rules across the integrated security tools, enabling the Security Operations Center (SOC) to detect malicious network connections originating from an employee workstation. Analysts immediately isolate the affected endpoint, block communication with the malicious infrastructure, and begin incident response before the ransomware can spread throughout the enterprise.
+
+This example demonstrates how a Threat Intelligence Platform enables organizations to transform external and internal threat information into actionable security intelligence that improves detection, accelerates incident response, and strengthens overall cybersecurity resilience.
+
+---
+
+## Key Takeaways
+
+- A Threat Intelligence Platform (TIP) centralizes the collection, enrichment, correlation, management, and distribution of cyber threat intelligence from multiple internal and external sources.
+- TIPs support strategic, operational, tactical, and technical intelligence, enabling organizations to better understand adversaries, emerging threats, and Indicators of Compromise (IOCs).
+- Integration with SIEM, SOAR, EDR/XDR, firewalls, cloud security platforms, and vulnerability management solutions enables automated threat-informed security operations.
+- High-quality threat intelligence improves threat detection, incident investigations, threat hunting, prioritization, and proactive cyber defense while reducing false positives.
+- From a Governance, Risk, and Compliance (GRC) perspective, Threat Intelligence Platforms strengthen governance through informed decision-making, support enterprise risk management through proactive threat awareness, and demonstrate regulatory compliance by documenting intelligence-driven cybersecurity operations and continual improvement.
+
 - 

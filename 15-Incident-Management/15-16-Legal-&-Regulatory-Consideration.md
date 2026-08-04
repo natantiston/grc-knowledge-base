@@ -767,3 +767,273 @@ This example demonstrates how structured coordination with law enforcement stren
 - Not every incident requires law enforcement involvement; organizations should assess legal obligations, business impact, and the nature of the incident before engaging external authorities.
 - From a Governance, Risk, and Compliance (GRC) perspective, law enforcement coordination strengthens governance through structured decision-making, supports enterprise risk management by reducing legal and operational risks, and demonstrates compliance through responsible handling of cybersecurity incidents and digital evidence.
 
+# Incident Management Compliance
+
+Cybersecurity incident management is not solely a technical function—it is also a critical compliance responsibility. Organizations are expected to establish, maintain, and continually improve incident management capabilities that satisfy legal, regulatory, contractual, and industry requirements. Failure to comply with these obligations can result in regulatory penalties, legal liability, contractual breaches, financial losses, reputational damage, and increased cybersecurity risk.
+
+**Incident Management Compliance** refers to the process of ensuring that an organization's incident management program conforms to applicable laws, regulations, international standards, contractual obligations, internal policies, and industry best practices. Compliance extends across the entire incident management lifecycle, including preparation, detection, reporting, analysis, containment, eradication, recovery, post-incident review, documentation, evidence preservation, and continual improvement.
+
+Compliance requirements vary depending on the organization's industry, geographic location, regulatory environment, and contractual commitments. For example, organizations may need to comply with the **General Data Protection Regulation (GDPR)**, **NIS2 Directive**, **ISO/IEC 27001**, **ISO/IEC 27035**, **NIST SP 800-61 Revision 2**, **PCI DSS**, **HIPAA**, **SOX**, or sector-specific cybersecurity regulations. Organizations operating internationally often face multiple overlapping compliance obligations that must be managed through an integrated Governance, Risk, and Compliance (GRC) program.
+
+A mature incident management compliance program requires documented policies, clearly defined roles and responsibilities, evidence-based processes, employee training, regular testing, internal audits, performance monitoring, management reviews, and continual improvement. Compliance should not be viewed as a one-time exercise but as an ongoing process that evolves alongside changing threats, technologies, and regulatory requirements.
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Define incident management compliance.
+- Identify major compliance requirements related to incident management.
+- Understand the key elements of a compliant incident management program.
+- Recognize common compliance challenges.
+- Explain the role of incident management compliance within Governance, Risk, and Compliance (GRC).
+
+---
+
+# What is Incident Management Compliance?
+
+**Incident Management Compliance** is the process of ensuring that cybersecurity incident management activities meet applicable legal, regulatory, contractual, and organizational requirements.
+
+Its primary objectives are to:
+
+- Meet legal obligations.
+- Protect sensitive information.
+- Demonstrate accountability.
+- Reduce regulatory risk.
+- Improve cybersecurity governance.
+- Support audits.
+- Strengthen organizational resilience.
+- Promote continual improvement.
+
+Compliance ensures that incident management processes are both effective and defensible.
+
+---
+
+# Common Compliance Requirements
+
+Organizations may be required to comply with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS).
+- ISO/IEC 27035 Information Security Incident Management.
+- General Data Protection Regulation (GDPR).
+- NIS2 Directive.
+- NIST Cybersecurity Framework (CSF).
+- NIST SP 800-61 Computer Security Incident Handling Guide.
+- Payment Card Industry Data Security Standard (PCI DSS).
+- Health Insurance Portability and Accountability Act (HIPAA).
+- Sarbanes-Oxley Act (SOX).
+- Industry-specific cybersecurity regulations.
+
+Organizations should identify all compliance obligations applicable to their operations.
+
+---
+
+# Elements of a Compliant Incident Management Program
+
+A mature compliance program typically includes:
+
+- Documented incident response policies.
+- Defined roles and responsibilities.
+- Incident classification procedures.
+- Regulatory reporting procedures.
+- Evidence preservation processes.
+- Incident documentation.
+- Employee training and awareness.
+- Regular testing and continual improvement.
+
+These elements help demonstrate due diligence during audits and regulatory reviews.
+
+---
+
+# Compliance Activities Throughout the Incident Lifecycle
+
+Compliance should be integrated into every phase of incident management.
+
+Examples include:
+
+### Preparation
+
+- Develop policies and procedures.
+- Assign responsibilities.
+- Train personnel.
+
+### Detection and Analysis
+
+- Document incidents.
+- Preserve evidence.
+- Classify incidents appropriately.
+
+### Response and Recovery
+
+- Meet regulatory reporting deadlines.
+- Protect confidential information.
+- Maintain investigation records.
+
+### Post-Incident Activities
+
+- Conduct lessons learned reviews.
+- Update policies and controls.
+- Verify corrective actions.
+- Maintain audit evidence.
+
+Compliance is an ongoing responsibility rather than a single event.
+
+---
+
+# Benefits of Incident Management Compliance
+
+Organizations achieve several important benefits.
+
+These include:
+
+- Reduced regulatory exposure.
+- Improved audit readiness.
+- Stronger governance.
+- Better operational consistency.
+- Increased stakeholder confidence.
+- Enhanced legal defensibility.
+- Improved cybersecurity maturity.
+- Greater organizational resilience.
+
+Compliance strengthens both security and business performance.
+
+---
+
+# Common Compliance Challenges
+
+Organizations often encounter challenges such as:
+
+- Rapidly changing regulations.
+- Multiple regulatory jurisdictions.
+- Inconsistent documentation.
+- Limited cybersecurity resources.
+- Poor policy enforcement.
+- Lack of employee awareness.
+- Complex third-party relationships.
+- Inadequate governance.
+
+Regular reviews and continual improvement help organizations address these challenges.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Maintain documented incident response procedures.
+- Regularly review applicable regulations.
+- Conduct internal compliance audits.
+- Train incident response personnel.
+- Preserve investigation records.
+- Test reporting procedures.
+- Monitor compliance metrics.
+- Continually improve incident management processes.
+
+Strong governance is essential for sustaining long-term compliance.
+
+---
+
+# GRC Perspective
+
+Incident management compliance is a core component of Governance, Risk, and Compliance. It ensures that cybersecurity incident management aligns with organizational objectives, legal obligations, enterprise risk management, and recognized international standards.
+
+### Governance
+
+Governance responsibilities include:
+
+- Establishing compliance policies.
+- Approving incident management procedures.
+- Supporting executive oversight.
+- Monitoring compliance performance.
+- Driving continual improvement.
+- Aligning cybersecurity with business strategy.
+
+### Risk Management
+
+Risk management activities include:
+
+- Identifying compliance risks.
+- Reducing legal and regulatory exposure.
+- Protecting critical business services.
+- Prioritizing remediation activities.
+- Supporting operational resilience.
+- Managing enterprise cyber risk.
+
+### Compliance
+
+Incident management compliance supports adherence to:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- NIST Cybersecurity Framework (CSF)
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- ISO 22301 Business Continuity Management Systems
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- PCI DSS
+- HIPAA
+- SOX
+- Industry-specific cybersecurity regulations
+
+Documented procedures, incident records, evidence preservation, management reviews, training records, audit reports, and continual improvement activities provide objective evidence of compliance.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Incident Management Compliance Framework
+
+**Diagram Description:**
+
+```text
+ Legal &
+ Regulatory
+ Requirements
+          │
+          ▼
+ Incident Management
+ Policies &
+ Procedures
+          │
+          ▼
+ Incident Response
+ Lifecycle
+          │
+          ▼
+ Documentation,
+ Reporting &
+ Evidence Preservation
+          │
+          ▼
+ Audits,
+ Management Reviews &
+ Compliance Monitoring
+          │
+          ▼
+ Continuous
+ Improvement
+```
+
+**Caption:**
+
+*"Incident management compliance integrates legal, regulatory, and organizational requirements into every stage of the incident response lifecycle, supporting governance, accountability, and continual improvement."*
+
+---
+
+# Practical Example
+
+A multinational financial institution operates in several jurisdictions and must comply with ISO/IEC 27001, GDPR, NIS2, PCI DSS, and local financial sector regulations. To ensure compliance, the organization develops a centralized incident management program with documented response procedures, regulatory reporting workflows, evidence preservation processes, and standardized incident documentation templates. During a data breach affecting payment systems, the incident response team coordinates with legal, compliance, privacy, and executive leadership to meet regulatory notification deadlines, preserve forensic evidence, maintain complete audit records, and communicate with affected stakeholders. Following the incident, internal auditors review the response process, verify compliance with regulatory obligations, and recommend improvements to strengthen future incident handling.
+
+This example demonstrates how integrating compliance into incident management enables organizations to satisfy legal obligations, improve governance, and strengthen overall cybersecurity resilience.
+
+---
+
+## Key Takeaways
+
+- Incident management compliance ensures that cybersecurity incident response activities align with applicable legal, regulatory, contractual, and organizational requirements.
+- Compliance applies throughout the entire incident management lifecycle, from preparation and detection to reporting, recovery, documentation, and continual improvement.
+- Organizations should maintain documented policies, evidence preservation procedures, regulatory reporting workflows, employee training, internal audits, and management reviews to demonstrate compliance.
+- Compliance with standards such as ISO/IEC 27001, ISO/IEC 27035, NIST SP 800-61, GDPR, NIS2, PCI DSS, HIPAA, and SOX strengthens cybersecurity governance and operational maturity.
+- From a Governance, Risk, and Compliance (GRC) perspective, incident management compliance strengthens governance through structured oversight, supports enterprise risk management by reducing legal and regulatory risks, and demonstrates accountability through documented, auditable, and continually improving incident management practices.
+

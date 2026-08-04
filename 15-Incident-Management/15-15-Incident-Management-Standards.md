@@ -273,3 +273,288 @@ This example illustrates how ISO/IEC 27035 enables organizations to manage cyber
 - Regular exercises, documented procedures, defined roles, performance measurement, and continual improvement are essential for successful implementation.
 - From a Governance, Risk, and Compliance (GRC) perspective, ISO/IEC 27035 strengthens governance through standardized incident management, supports enterprise risk management by reducing the impact of cybersecurity incidents, and demonstrates compliance with internationally recognized security standards and regulatory requirements.
 
+# NIST SP 800-61 Revision 2
+
+The **National Institute of Standards and Technology (NIST) Special Publication (SP) 800-61 Revision 2**, titled **Computer Security Incident Handling Guide**, is one of the most widely adopted cybersecurity references for establishing and operating an effective incident response capability. Although originally developed for U.S. federal agencies, its principles and best practices have been adopted globally by government organizations, critical infrastructure operators, multinational enterprises, financial institutions, healthcare providers, and private organizations of all sizes.
+
+NIST SP 800-61 Rev. 2 provides practical guidance for preparing for cybersecurity incidents, detecting and analyzing threats, containing attacks, eradicating malicious activity, recovering affected systems, and continuously improving incident response capabilities. Unlike standards that focus primarily on governance, NIST SP 800-61 provides operational guidance for incident handling teams, including Security Operations Centers (SOCs), Computer Security Incident Response Teams (CSIRTs), and Information Technology (IT) operations.
+
+The publication emphasizes that incident response is not an isolated security function but an integral part of enterprise risk management. Effective incident handling requires collaboration between technical teams, executive leadership, legal counsel, human resources, business continuity, disaster recovery, communications, and external stakeholders. Organizations should also integrate incident response with vulnerability management, threat intelligence, risk management, and security awareness programs.
+
+NIST SP 800-61 aligns closely with other internationally recognized frameworks such as **ISO/IEC 27035**, **ISO/IEC 27001**, the **NIST Cybersecurity Framework (CSF)**, **ISO 22301 Business Continuity Management Systems**, and the **Center for Internet Security (CIS) Controls**. Within Governance, Risk, and Compliance (GRC), it provides practical operational guidance that strengthens governance, supports enterprise risk management, and demonstrates cybersecurity maturity.
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Explain the purpose of NIST SP 800-61 Revision 2.
+- Identify the four phases of the NIST incident response lifecycle.
+- Understand the key recommendations of the framework.
+- Explain how NIST SP 800-61 integrates with other cybersecurity frameworks.
+- Recognize the role of NIST SP 800-61 within Governance, Risk, and Compliance (GRC).
+
+---
+
+# What is NIST SP 800-61 Revision 2?
+
+**NIST SP 800-61 Revision 2** is a cybersecurity guideline that provides best practices for preparing for, detecting, responding to, recovering from, and learning from computer security incidents.
+
+Its primary objectives are to:
+
+- Improve incident response capabilities.
+- Reduce the impact of cybersecurity incidents.
+- Protect information systems.
+- Support business continuity.
+- Preserve digital evidence.
+- Strengthen organizational resilience.
+- Improve communication and coordination.
+- Promote continual improvement.
+
+The guide provides practical recommendations that can be adapted to organizations of different sizes and industries.
+
+---
+
+# The Four Phases of the NIST Incident Response Lifecycle
+
+NIST SP 800-61 defines four major phases of incident handling.
+
+### 1. Preparation
+
+Organizations establish the people, processes, technologies, and governance required to respond effectively to incidents.
+
+Activities include:
+
+- Developing incident response policies.
+- Defining response procedures.
+- Establishing CSIRTs.
+- Deploying security tools.
+- Conducting training and exercises.
+
+---
+
+### 2. Detection and Analysis
+
+Organizations identify potential security events, determine whether they are incidents, assess their severity, and begin investigation.
+
+Activities include:
+
+- Monitoring security events.
+- Validating alerts.
+- Classifying incidents.
+- Assessing business impact.
+- Collecting evidence.
+
+---
+
+### 3. Containment, Eradication, and Recovery
+
+Organizations limit the spread of the incident, remove the threat, restore systems, and return business operations to normal.
+
+Activities include:
+
+- Isolating affected systems.
+- Removing malicious software.
+- Applying security patches.
+- Restoring systems from backups.
+- Validating system integrity.
+
+---
+
+### 4. Post-Incident Activity
+
+Organizations review the incident to identify lessons learned and improve future response capabilities.
+
+Activities include:
+
+- Conducting post-incident reviews.
+- Documenting root causes.
+- Updating policies and procedures.
+- Improving security controls.
+- Tracking corrective actions.
+
+---
+
+# Key Recommendations
+
+NIST SP 800-61 recommends that organizations:
+
+- Establish a dedicated incident response capability.
+- Develop documented response procedures.
+- Maintain effective communication plans.
+- Preserve digital evidence.
+- Coordinate with business stakeholders.
+- Conduct regular incident response exercises.
+- Measure response performance.
+- Continuously improve incident response processes.
+
+These recommendations help organizations respond consistently and effectively to cybersecurity incidents.
+
+---
+
+# Integration with Other Frameworks
+
+NIST SP 800-61 complements several widely adopted standards and frameworks.
+
+It integrates well with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS).
+- ISO/IEC 27035 Information Security Incident Management.
+- NIST Cybersecurity Framework (CSF).
+- ISO 22301 Business Continuity Management Systems.
+- Center for Internet Security (CIS) Controls.
+- Enterprise Risk Management (ERM).
+- Disaster Recovery (DR).
+- Business Continuity Management (BCM).
+
+This integration supports a comprehensive cybersecurity governance program.
+
+---
+
+# Benefits of NIST SP 800-61
+
+Organizations implementing NIST guidance gain several benefits.
+
+These include:
+
+- Faster incident detection.
+- Improved response coordination.
+- Better communication.
+- Stronger forensic readiness.
+- Improved operational resilience.
+- Better audit readiness.
+- Enhanced governance.
+- Reduced business risk.
+
+A structured incident response process improves cybersecurity maturity.
+
+---
+
+# Common Challenges
+
+Organizations commonly experience challenges such as:
+
+- Limited staffing.
+- Inadequate incident documentation.
+- Poor communication.
+- Delayed incident detection.
+- Lack of executive support.
+- Infrequent testing.
+- Weak integration with business processes.
+- Failure to implement lessons learned.
+
+Continuous improvement helps organizations address these challenges.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Develop a formal incident response program.
+- Train incident response personnel regularly.
+- Conduct tabletop and technical exercises.
+- Integrate threat intelligence into operations.
+- Preserve digital evidence.
+- Review incident metrics.
+- Perform post-incident reviews.
+- Continuously improve policies and procedures.
+
+A mature incident response capability evolves as threats and technologies change.
+
+---
+
+# GRC Perspective
+
+NIST SP 800-61 strengthens Governance, Risk, and Compliance by providing practical guidance for managing cybersecurity incidents while supporting governance objectives, enterprise risk management, and regulatory compliance.
+
+### Governance
+
+Governance responsibilities include:
+
+- Establishing incident response policies.
+- Defining organizational responsibilities.
+- Monitoring incident performance.
+- Supporting executive oversight.
+- Driving continual improvement.
+- Aligning incident response with business strategy.
+
+### Risk Management
+
+Risk management activities include:
+
+- Identifying cybersecurity risks.
+- Reducing incident impact.
+- Protecting critical information assets.
+- Improving response capabilities.
+- Supporting operational resilience.
+- Managing enterprise cyber risk.
+
+### Compliance
+
+NIST SP 800-61 supports compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- NIST Cybersecurity Framework (CSF)
+- ISO 22301 Business Continuity Management Systems
+- Center for Internet Security (CIS) Controls
+- NIS2 Directive
+- General Data Protection Regulation (GDPR)
+- Industry-specific cybersecurity regulations
+
+Organizations that implement NIST SP 800-61 demonstrate a structured, well-documented incident response capability that supports audits, regulatory assessments, and continual improvement.
+
+---
+
+## Diagram Placeholder
+
+**Title:** NIST SP 800-61 Incident Response Lifecycle
+
+**Diagram Description:**
+
+```text
+      Preparation
+           │
+           ▼
+ Detection &
+ Analysis
+           │
+           ▼
+Containment,
+Eradication &
+ Recovery
+           │
+           ▼
+ Post-Incident
+   Activity
+           │
+           └──────────────┐
+                          ▼
+            Continuous
+            Improvement
+```
+
+**Caption:**
+
+*"NIST SP 800-61 Revision 2 defines a four-phase incident response lifecycle that emphasizes preparation, effective response, recovery, and continual improvement."*
+
+---
+
+# Practical Example
+
+A multinational insurance company adopts NIST SP 800-61 Revision 2 as the operational framework for its Computer Security Incident Response Team (CSIRT). The organization establishes incident response procedures, deploys Security Information and Event Management (SIEM) technology, conducts annual tabletop exercises, and defines escalation procedures for major incidents. During a ransomware attack, security analysts quickly detect suspicious encryption activity, classify the incident based on predefined severity levels, isolate affected systems, eradicate the malware, restore critical servers from verified backups, and validate system integrity before returning services to production. After recovery, the organization conducts a post-incident review, updates its response procedures, improves endpoint protection, and enhances employee phishing awareness training. These improvements strengthen the organization's overall cybersecurity maturity and operational resilience.
+
+This example demonstrates how NIST SP 800-61 provides practical guidance for managing cybersecurity incidents through structured preparation, coordinated response, secure recovery, and continual improvement.
+
+---
+
+## Key Takeaways
+
+- NIST SP 800-61 Revision 2 is a globally recognized guide that provides practical recommendations for preparing for, detecting, responding to, recovering from, and learning from cybersecurity incidents.
+- The framework defines four incident response phases: Preparation, Detection and Analysis, Containment, Eradication and Recovery, and Post-Incident Activity.
+- Successful implementation requires documented procedures, trained personnel, effective communication, digital evidence preservation, regular exercises, and continual improvement.
+- NIST SP 800-61 complements ISO/IEC 27035, ISO/IEC 27001, the NIST Cybersecurity Framework (CSF), and other cybersecurity and resilience frameworks.
+- From a Governance, Risk, and Compliance (GRC) perspective, NIST SP 800-61 strengthens governance through structured incident response processes, supports enterprise risk management by reducing the impact of cybersecurity incidents, and demonstrates operational maturity and regulatory compliance.
+

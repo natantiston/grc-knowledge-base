@@ -536,3 +536,498 @@ This example demonstrates how organizations can effectively respond to incidents
 - Guidance from ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27035, NIST SP 800-61, the NIST Cybersecurity Framework, and the CIS Kubernetes Benchmark supports secure container and Kubernetes operations.
 - From a Governance, Risk, and Compliance (GRC) perspective, container and Kubernetes incident response strengthens governance through cloud-native security oversight, supports enterprise risk management by addressing modern application risks, and demonstrates compliance through documented controls, monitoring, and continual improvement.
 
+# AI-Assisted Incident Response
+
+Artificial Intelligence (AI) is transforming cybersecurity by enabling organizations to detect threats faster, automate repetitive tasks, analyze massive volumes of security data, and improve decision-making during cybersecurity incidents. As cyber threats become increasingly sophisticated and security operations generate enormous amounts of telemetry, traditional manual incident response processes alone are often insufficient to keep pace. **AI-assisted incident response** combines human expertise with artificial intelligence and machine learning technologies to improve the speed, accuracy, and effectiveness of cybersecurity operations.
+
+AI can support every phase of the incident response lifecycle, including threat detection, alert prioritization, investigation, containment, eradication, recovery, and post-incident analysis. Modern Security Operations Centers (SOCs) increasingly integrate AI capabilities into Security Information and Event Management (SIEM), Security Orchestration, Automation and Response (SOAR), Endpoint Detection and Response (EDR/XDR), User and Entity Behavior Analytics (UEBA), and Threat Intelligence Platforms (TIP). These technologies enable organizations to identify anomalies, correlate events across multiple systems, automate routine investigations, and recommend response actions.
+
+While AI significantly enhances cybersecurity operations, it should not replace human judgment. AI-generated recommendations must be reviewed by qualified security professionals, particularly during high-impact incidents involving legal, regulatory, operational, or business decisions. Organizations must also address risks associated with AI, including false positives, false negatives, adversarial attacks, data quality issues, algorithmic bias, model drift, and the protection of sensitive information processed by AI systems.
+
+International standards and frameworks such as **ISO/IEC 42001 Artificial Intelligence Management Systems (AIMS)**, **ISO/IEC 27001**, **ISO/IEC 27035**, **NIST AI Risk Management Framework (AI RMF)**, **NIST SP 800-61 Revision 2**, and the **NIST Cybersecurity Framework (CSF)** provide guidance for implementing trustworthy AI while maintaining effective cybersecurity governance.
+
+Within Governance, Risk, and Compliance (GRC), AI-assisted incident response strengthens governance through intelligent decision support, enhances enterprise risk management by improving threat detection and response, and supports compliance by maintaining transparency, accountability, and human oversight over AI-driven security processes.
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Define AI-assisted incident response.
+- Identify how AI supports each phase of the incident response lifecycle.
+- Understand the benefits and limitations of AI in cybersecurity.
+- Recognize best practices for implementing AI-assisted incident response.
+- Explain the role of AI-assisted incident response within Governance, Risk, and Compliance (GRC).
+
+---
+
+# What is AI-Assisted Incident Response?
+
+**AI-assisted incident response** is the use of artificial intelligence and machine learning technologies to support cybersecurity teams in detecting, investigating, responding to, and recovering from cybersecurity incidents.
+
+Its objectives are to:
+
+- Detect threats faster.
+- Improve alert accuracy.
+- Automate repetitive tasks.
+- Accelerate investigations.
+- Reduce response time.
+- Improve decision-making.
+- Strengthen operational resilience.
+- Support continual improvement.
+
+AI augments human analysts rather than replacing them.
+
+---
+
+# How AI Supports Incident Response
+
+AI can assist throughout the incident response lifecycle.
+
+### Detection
+
+- Identify anomalous behavior.
+- Detect previously unknown threats.
+- Correlate security events.
+- Reduce false positives.
+
+### Investigation
+
+- Analyze large datasets rapidly.
+- Identify attack patterns.
+- Recommend likely root causes.
+- Prioritize investigations.
+
+### Response
+
+- Trigger automated playbooks.
+- Recommend containment actions.
+- Assist with threat hunting.
+- Support analyst decision-making.
+
+### Recovery
+
+- Validate restored systems.
+- Monitor for recurring threats.
+- Verify remediation effectiveness.
+- Support post-incident analysis.
+
+---
+
+# AI Technologies Used
+
+Organizations commonly use:
+
+- Machine Learning (ML).
+- Large Language Models (LLMs).
+- User and Entity Behavior Analytics (UEBA).
+- Security Information and Event Management (SIEM).
+- Security Orchestration, Automation and Response (SOAR).
+- Endpoint Detection and Response (EDR/XDR).
+- Threat Intelligence Platforms (TIP).
+- AI-powered security assistants.
+
+These technologies improve operational efficiency and reduce analyst workload.
+
+---
+
+# Benefits of AI-Assisted Incident Response
+
+Organizations gain several advantages.
+
+These include:
+
+- Faster threat detection.
+- Improved investigation speed.
+- Better alert prioritization.
+- Reduced analyst workload.
+- Increased operational efficiency.
+- Improved threat visibility.
+- Enhanced decision support.
+- Stronger cybersecurity resilience.
+
+AI enables security teams to focus on higher-value analytical tasks.
+
+---
+
+# Risks and Challenges
+
+Organizations should also consider:
+
+- False positives.
+- False negatives.
+- AI hallucinations.
+- Algorithmic bias.
+- Poor data quality.
+- Model drift.
+- Adversarial AI attacks.
+- Overreliance on automation.
+
+Human oversight remains essential for critical security decisions.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Maintain human review of AI recommendations.
+- Validate AI-generated outputs.
+- Protect AI training data.
+- Monitor AI model performance.
+- Integrate AI with existing incident response procedures.
+- Test AI-assisted workflows regularly.
+- Document AI-supported decisions.
+- Establish AI governance policies.
+
+Responsible AI implementation improves both security and trust.
+
+---
+
+# GRC Perspective
+
+AI-assisted incident response strengthens Governance, Risk, and Compliance by improving decision support while ensuring that AI systems operate responsibly, transparently, and under appropriate human oversight.
+
+### Governance
+
+Governance responsibilities include:
+
+- Establishing AI governance policies.
+- Defining accountability for AI-assisted decisions.
+- Monitoring AI performance.
+- Supporting executive oversight.
+- Ensuring transparency.
+- Driving continual improvement.
+
+### Risk Management
+
+Risk management activities include:
+
+- Managing AI-related risks.
+- Protecting sensitive information.
+- Reducing cyber risk.
+- Monitoring AI model effectiveness.
+- Supporting operational resilience.
+- Managing third-party AI risks.
+
+### Compliance
+
+AI-assisted incident response supports compliance with:
+
+- ISO/IEC 42001 Artificial Intelligence Management Systems (AIMS)
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- NIST AI Risk Management Framework (AI RMF)
+- NIST Cybersecurity Framework (CSF)
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- Emerging AI governance and regulatory requirements
+
+Documented AI governance policies, model validation activities, human review processes, audit logs, and incident records demonstrate responsible AI adoption and regulatory readiness.
+
+---
+
+## Diagram Placeholder
+
+**Title:** AI-Assisted Incident Response Lifecycle
+
+**Diagram Description:**
+
+```text
+ Security Data
+ Collection
+        │
+        ▼
+ AI Threat Detection
+ & Event Correlation
+        │
+        ▼
+ AI Investigation
+ & Prioritization
+        │
+        ▼
+ Human Review &
+ Response Decision
+        │
+        ▼
+ Automated Response
+ & Recovery Support
+        │
+        ▼
+ Lessons Learned &
+ AI Model Improvement
+```
+
+**Caption:**
+
+*"AI-assisted incident response combines artificial intelligence with human expertise to improve threat detection, accelerate investigations, support decision-making, and continually strengthen cybersecurity operations."*
+
+---
+
+# Practical Example
+
+A global telecommunications company operates a 24/7 Security Operations Center (SOC) that processes millions of security events each day. To reduce analyst workload, the organization integrates AI capabilities into its SIEM and SOAR platforms. During an attempted ransomware attack, the AI system identifies unusual endpoint behavior, correlates events across multiple systems, prioritizes the incident based on business impact, and recommends isolating several affected endpoints. Security analysts review the recommendations, approve the automated containment actions, and begin a forensic investigation. After the incident is resolved, the organization evaluates the AI system's performance, refines detection models, updates response playbooks, and documents lessons learned. Human oversight ensures that AI recommendations remain accurate, transparent, and aligned with organizational policies.
+
+This example illustrates how AI enhances cybersecurity operations by accelerating detection and response while maintaining human accountability for critical security decisions.
+
+---
+
+## Key Takeaways
+
+- AI-assisted incident response uses artificial intelligence and machine learning to enhance threat detection, investigation, response, and recovery activities.
+- AI improves cybersecurity operations by automating repetitive tasks, correlating security events, prioritizing alerts, and supporting analyst decision-making.
+- Organizations should implement AI responsibly by maintaining human oversight, validating AI outputs, protecting training data, monitoring model performance, and documenting AI-supported decisions.
+- Standards such as ISO/IEC 42001, ISO/IEC 27001, ISO/IEC 27035, the NIST AI Risk Management Framework, and NIST SP 800-61 provide guidance for secure and trustworthy AI implementation.
+- From a Governance, Risk, and Compliance (GRC) perspective, AI-assisted incident response strengthens governance through accountable AI oversight, supports enterprise risk management by improving threat detection and operational resilience, and demonstrates compliance through transparent, documented, and responsibly managed AI-enabled security processes.
+
+# Supply Chain and Third-Party Incidents
+
+Modern organizations depend heavily on suppliers, cloud providers, software vendors, managed service providers (MSPs), managed security service providers (MSSPs), contractors, business partners, and other third parties to deliver products and services. While these relationships improve efficiency and innovation, they also introduce significant cybersecurity risks. A security weakness in one supplier can rapidly affect hundreds or even thousands of organizations, making **supply chain and third-party incidents** one of the most significant cybersecurity challenges today.
+
+A **supply chain incident** occurs when attackers compromise an organization by exploiting vulnerabilities within its supply chain, including software, hardware, cloud services, open-source components, service providers, or other external dependencies. A **third-party incident** involves a cybersecurity event affecting a vendor, contractor, or service provider that impacts the organization's confidentiality, integrity, or availability of information or services. High-profile incidents have demonstrated that attackers increasingly target trusted third parties because they often provide indirect access to multiple customers.
+
+Examples include compromised software updates, malicious open-source packages, stolen third-party credentials, vendor ransomware attacks, cloud service compromises, hardware tampering, API abuse, data breaches involving external service providers, and attacks against managed service providers. Effective incident response requires organizations to coordinate with suppliers, assess business impact, preserve evidence, maintain communication, and restore affected services while managing contractual, legal, regulatory, and operational risks.
+
+Supply chain and third-party incident response should be integrated with vendor risk management, procurement, enterprise risk management, business continuity, disaster recovery, incident response, and crisis management. International standards and frameworks such as **ISO/IEC 27001**, **ISO/IEC 27036 (Information Security for Supplier Relationships)**, **ISO/IEC 27035**, the **NIST Cybersecurity Framework (CSF)**, **NIST SP 800-61 Revision 2**, the **NIST Secure Software Development Framework (SSDF)**, and the **Center for Internet Security (CIS) Controls** provide guidance for managing supplier-related cybersecurity risks.
+
+Within Governance, Risk, and Compliance (GRC), effective management of supply chain and third-party incidents strengthens governance by extending cybersecurity oversight beyond organizational boundaries, supports enterprise risk management by addressing external dependencies, and demonstrates compliance with regulatory and contractual obligations.
+
+---
+
+# Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Define supply chain and third-party cybersecurity incidents.
+- Identify common attack vectors involving suppliers and vendors.
+- Understand incident response considerations for third-party environments.
+- Recognize best practices for managing supply chain incidents.
+- Explain the role of supply chain incident management within Governance, Risk, and Compliance (GRC).
+
+---
+
+# What are Supply Chain and Third-Party Incidents?
+
+Supply chain and third-party incidents are cybersecurity events that originate from or affect external suppliers, vendors, service providers, contractors, or technology partners.
+
+Examples include:
+
+- Compromised software updates.
+- Vendor ransomware attacks.
+- Cloud service provider breaches.
+- Malicious open-source components.
+- Stolen third-party credentials.
+- API compromises.
+- Hardware supply chain attacks.
+- Managed service provider (MSP) compromises.
+
+Because organizations rely heavily on external providers, these incidents can have widespread operational and business impacts.
+
+---
+
+# Common Attack Vectors
+
+Threat actors commonly exploit:
+
+- Software supply chains.
+- Third-party remote access.
+- Cloud service providers.
+- Open-source software packages.
+- Vendor credentials.
+- Trusted software updates.
+- Weak vendor security controls.
+- Third-party APIs.
+
+Organizations should continuously assess these risks as part of their cybersecurity program.
+
+---
+
+# Incident Response Process
+
+A typical response process includes:
+
+1. Detect the supplier-related incident.
+2. Assess organizational exposure.
+3. Coordinate with the affected third party.
+4. Preserve evidence.
+5. Contain affected systems.
+6. Restore trusted services.
+7. Review supplier risks.
+8. Update third-party security controls.
+
+Incident response should include close collaboration between internal teams and external partners.
+
+---
+
+# Vendor Risk Management Integration
+
+Supply chain incident response should integrate with vendor risk management activities, including:
+
+- Vendor security assessments.
+- Security requirements in contracts.
+- Third-party risk monitoring.
+- Supplier due diligence.
+- Service Level Agreements (SLAs).
+- Right-to-audit provisions.
+- Business continuity planning.
+- Exit strategies.
+
+Strong vendor governance improves organizational resilience.
+
+---
+
+# Benefits of Effective Supply Chain Incident Management
+
+Organizations gain several advantages.
+
+These include:
+
+- Reduced third-party cyber risk.
+- Improved supplier visibility.
+- Faster incident response.
+- Better regulatory compliance.
+- Stronger contractual governance.
+- Enhanced business continuity.
+- Improved stakeholder confidence.
+- Greater operational resilience.
+
+Managing third-party risks proactively reduces the likelihood and impact of supply chain attacks.
+
+---
+
+# Common Challenges
+
+Organizations often encounter challenges such as:
+
+- Limited visibility into supplier environments.
+- Delayed incident notifications.
+- Complex contractual relationships.
+- Cross-border legal issues.
+- Shared responsibility confusion.
+- Dependency on critical suppliers.
+- Inconsistent vendor security practices.
+- Limited control over external systems.
+
+Well-defined governance and communication processes help address these challenges.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Maintain a third-party risk management program.
+- Conduct vendor cybersecurity assessments.
+- Include security requirements in contracts.
+- Monitor supplier security continuously.
+- Develop third-party incident response procedures.
+- Test supplier-related response scenarios.
+- Maintain alternative suppliers where appropriate.
+- Continuously improve supplier security governance.
+
+Third-party cybersecurity should be treated as an extension of the organization's overall security program.
+
+---
+
+# GRC Perspective
+
+Supply chain and third-party incident management strengthens Governance, Risk, and Compliance by extending cybersecurity governance to external partners, reducing enterprise risk arising from supplier relationships, and supporting legal, regulatory, and contractual compliance.
+
+### Governance
+
+Governance responsibilities include:
+
+- Establishing supplier security policies.
+- Defining third-party security requirements.
+- Monitoring vendor performance.
+- Supporting executive oversight.
+- Aligning supplier security with business objectives.
+- Driving continual improvement.
+
+### Risk Management
+
+Risk management activities include:
+
+- Identifying supplier risks.
+- Assessing vendor security maturity.
+- Managing concentration risk.
+- Protecting critical business services.
+- Supporting operational resilience.
+- Strengthening enterprise risk management.
+
+### Compliance
+
+Supply chain incident management supports compliance with:
+
+- ISO/IEC 27001 Information Security Management System (ISMS)
+- ISO/IEC 27035 Information Security Incident Management
+- ISO/IEC 27036 Information Security for Supplier Relationships
+- NIST Cybersecurity Framework (CSF)
+- NIST SP 800-61 Computer Security Incident Handling Guide
+- NIST Secure Software Development Framework (SSDF)
+- CIS Controls
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- Industry-specific cybersecurity regulations
+
+Vendor assessments, contractual security requirements, incident records, supplier communications, and post-incident reviews provide evidence of effective governance and compliance.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Supply Chain and Third-Party Incident Response
+
+**Diagram Description:**
+
+```text
+ Third-Party or
+ Supplier Incident
+          │
+          ▼
+ Assess Business
+ Impact
+          │
+          ▼
+ Coordinate with
+ Supplier
+          │
+          ▼
+ Contain &
+ Protect Internal
+ Systems
+          │
+          ▼
+ Recover Services
+ & Validate Security
+          │
+          ▼
+ Lessons Learned &
+ Improve Vendor
+ Risk Management
+```
+
+**Caption:**
+
+*"Effective management of supply chain and third-party incidents requires close coordination with external partners, strong vendor governance, and continual improvement of supplier security practices."*
+
+---
+
+# Practical Example
+
+A multinational manufacturing company receives notification that its managed service provider (MSP) has suffered a ransomware attack affecting remote administration systems used to support multiple customers. The organization's incident response team immediately assesses its exposure, disables non-essential third-party remote access, reviews authentication logs, and coordinates with the MSP to determine whether internal systems have been compromised. Digital evidence is preserved, enhanced monitoring is enabled, and critical business services continue operating under temporary contingency procedures. After the MSP completes remediation, the organization validates system integrity before restoring normal connectivity. A post-incident review results in stronger contractual security requirements, expanded third-party monitoring, and more frequent vendor security assessments.
+
+This example demonstrates how effective coordination, vendor risk management, and structured incident response reduce the impact of supply chain and third-party cybersecurity incidents.
+
+---
+
+## Key Takeaways
+
+- Supply chain and third-party incidents originate from or affect external suppliers, software vendors, cloud providers, managed service providers, contractors, and other business partners.
+- Organizations should integrate supply chain incident response with vendor risk management, procurement, business continuity, disaster recovery, and enterprise incident management.
+- Effective response requires timely coordination with suppliers, evidence preservation, business impact assessment, secure recovery, and post-incident improvements.
+- Standards such as ISO/IEC 27036, ISO/IEC 27035, ISO/IEC 27001, NIST SP 800-61, the NIST Secure Software Development Framework (SSDF), and the NIST Cybersecurity Framework provide guidance for managing supplier-related cybersecurity risks.
+- From a Governance, Risk, and Compliance (GRC) perspective, supply chain and third-party incident management strengthens governance through supplier oversight, supports enterprise risk management by addressing external dependencies, and demonstrates compliance through documented vendor security controls, contractual governance, and continual improvement.
+

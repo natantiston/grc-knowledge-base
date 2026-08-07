@@ -793,4 +793,228 @@ This example demonstrates how proper data handling practices and privacy awarene
 - Human error is a major cause of data breaches, making continuous awareness and practical guidance essential.
 - From a Governance, Risk, and Compliance (GRC) perspective, data protection awareness strengthens governance through clear policies and oversight, reduces enterprise cyber risk by improving secure information handling, and supports compliance through documented privacy practices, employee awareness, and adherence to applicable regulations.
 
+- Incident reporting is one of the most important responsibilities of every employee within an organization. While security technologies can detect many cyber threats, employees are often the first to notice suspicious activities such as phishing emails, unusual system behavior, lost devices, unauthorized access attempts, or accidental disclosure of sensitive information. Prompt reporting enables security teams to investigate incidents quickly, limit their impact, and reduce potential damage to the organization.
+
+A strong Security Awareness Program teaches employees that reporting suspected security incidents is everyone's responsibility, not just the responsibility of the Information Security or IT departments. Employees should understand what constitutes a security incident, how to report it, when to report it, and why timely reporting is essential. Delayed reporting can allow attackers additional time to compromise systems, steal sensitive information, or spread malware across the organization's network.
+
+Organizations should also promote a positive reporting culture. Employees must feel comfortable reporting mistakes, suspicious activities, or policy violations without fear of punishment when acting in good faith. A blame-free reporting environment encourages transparency, improves incident detection, and supports continual improvement of the organization's cybersecurity posture.
+
+Awareness training should reinforce that employees are not expected to investigate incidents themselves. Their role is to recognize suspicious activities, preserve evidence when appropriate, and report concerns through established organizational procedures so that qualified personnel can respond effectively.
+
+---
+
+# Why Incident Reporting Matters
+
+Timely incident reporting helps organizations:
+
+- Detect cyber threats early.
+- Reduce the impact of security incidents.
+- Protect sensitive information.
+- Support rapid incident response.
+- Preserve digital evidence.
+- Minimize business disruption.
+- Meet regulatory obligations.
+- Improve organizational resilience.
+
+Early reporting often determines whether an incident becomes a minor event or a major cybersecurity breach.
+
+---
+
+# What Should Be Reported
+
+Employees should report events such as:
+
+- Suspicious emails.
+- Phishing attempts.
+- Malware infections.
+- Lost or stolen devices.
+- Unauthorized access attempts.
+- Accidental disclosure of confidential information.
+- Unusual system behavior.
+- Physical security breaches.
+- Password compromise.
+- Suspected insider threats.
+
+When in doubt, employees should report the event rather than ignore it.
+
+---
+
+# Reporting Process
+
+Organizations should establish a simple and well-documented reporting process.
+
+Typical steps include:
+
+1. Identify suspicious activity.
+2. Avoid interacting further with the threat.
+3. Preserve relevant information where possible.
+4. Report the incident using approved channels.
+5. Follow instructions from the incident response team.
+6. Do not discuss the incident with unauthorized individuals.
+7. Cooperate during the investigation.
+
+Employees should know exactly where and how to report incidents.
+
+---
+
+# Common Reporting Channels
+
+Organizations may provide reporting through:
+
+- Security Operations Center (SOC).
+- Information Security team.
+- IT Service Desk.
+- Dedicated security email address.
+- Incident reporting portal.
+- Hotline.
+- Ticketing system.
+- Security reporting button in email clients.
+
+Multiple reporting options improve accessibility and encourage prompt reporting.
+
+---
+
+# Building a Positive Reporting Culture
+
+Organizations should encourage employees to:
+
+- Report incidents immediately.
+- Report honest mistakes without fear.
+- Ask questions when uncertain.
+- Follow organizational procedures.
+- Support colleagues in reporting concerns.
+- Treat security as a shared responsibility.
+
+A blame-free culture encourages faster reporting and better collaboration.
+
+---
+
+# Common Challenges
+
+Organizations may encounter challenges such as:
+
+- Fear of punishment.
+- Uncertainty about what constitutes an incident.
+- Lack of awareness of reporting procedures.
+- Delayed reporting.
+- Reporting fatigue.
+- Remote work environments.
+- Communication barriers.
+- Inconsistent reporting practices.
+
+Continuous awareness and management support help overcome these obstacles.
+
+---
+
+# Best Practices
+
+Organizations should:
+
+- Clearly define reportable incidents.
+- Simplify reporting procedures.
+- Promote a no-blame reporting culture.
+- Provide multiple reporting channels.
+- Conduct regular awareness campaigns.
+- Reinforce reporting responsibilities.
+- Measure reporting performance.
+- Continuously improve reporting processes.
+
+Making reporting simple and accessible increases employee participation and strengthens organizational security.
+
+---
+
+# GRC Perspective
+
+Incident reporting awareness is a critical Governance, Risk, and Compliance (GRC) control because rapid identification and reporting of security events enable effective incident management and support organizational accountability.
+
+### Governance
+
+Governance responsibilities include:
+
+- Establishing incident reporting policies.
+- Defining reporting responsibilities.
+- Monitoring reporting performance.
+- Supporting executive oversight.
+- Promoting security culture.
+- Driving continual improvement.
+
+### Risk Management
+
+Effective reporting reduces risk by:
+
+- Accelerating threat detection.
+- Limiting incident impact.
+- Preserving evidence.
+- Supporting rapid response.
+- Improving organizational learning.
+- Strengthening operational resilience.
+
+### Compliance
+
+Incident reporting awareness supports compliance with:
+
+- ISO/IEC 27001:2022 Information Security Management System (ISMS)
+- ISO/IEC 27002:2022 Information Security Controls
+- ISO/IEC 27035 Information Security Incident Management
+- NIST Cybersecurity Framework (CSF) 2.0
+- NIST SP 800-61 Rev. 2 Computer Security Incident Handling Guide
+- General Data Protection Regulation (GDPR)
+- NIS2 Directive
+- Industry-specific cybersecurity regulations
+
+Incident reporting procedures, training records, awareness campaigns, service desk tickets, incident logs, management reviews, and audit reports provide objective evidence that employees understand and follow established incident reporting requirements.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Employee Security Incident Reporting Process
+
+**Diagram Description:**
+
+```text
+ Suspicious Activity Detected
+              │
+              ▼
+ Recognize Potential Incident
+              │
+              ▼
+ Report Through Approved Channel
+              │
+              ▼
+ Security Team Receives Report
+              │
+              ▼
+ Investigation & Response
+              │
+              ▼
+ Containment & Recovery
+              │
+              ▼
+ Lessons Learned
+```
+
+**Caption:**
+
+*"Prompt employee reporting enables rapid incident detection, effective response, and continual improvement of the organization's cybersecurity posture."*
+
+---
+
+# Practical Example
+
+An employee notices that their laptop suddenly begins displaying unexpected pop-up windows and running unusually slowly shortly after opening an email attachment from an unknown sender. Rather than attempting to troubleshoot the issue, the employee disconnects the device from the corporate network, immediately reports the incident through the organization's security hotline, and follows the instructions provided by the Security Operations Center (SOC). The incident response team quickly identifies malware, isolates affected systems, and prevents the malicious software from spreading to other devices. Because the employee reported the incident promptly, the organization minimizes operational disruption and avoids a larger ransomware outbreak.
+
+This example demonstrates how employee awareness, prompt reporting, and adherence to established procedures contribute significantly to effective incident response and organizational resilience.
+
+---
+
+## Key Takeaways
+
+- Every employee is responsible for recognizing and reporting suspected security incidents promptly.
+- Early reporting enables faster detection, investigation, containment, and recovery from cybersecurity incidents.
+- Employees should understand what constitutes a reportable incident and know how to use approved reporting channels.
+- A positive, no-blame reporting culture encourages transparency, increases reporting rates, and strengthens organizational security.
+- Employees should report incidents rather than investigate them, allowing trained security personnel to manage the response.
+- From a Governance, Risk, and Compliance (GRC) perspective, incident reporting awareness strengthens governance through clearly defined responsibilities, reduces enterprise cyber risk through rapid detection and response, and supports compliance through documented reporting procedures, employee awareness, and incident management records.
+
 - 

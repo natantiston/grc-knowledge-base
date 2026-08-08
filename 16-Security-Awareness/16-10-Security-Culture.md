@@ -714,5 +714,670 @@ to:
 
 When secure behavior becomes a normal part of everyday decision-making, security awareness evolves from a **training program into an organizational capability**.
 
+## Leadership and Employee Engagement
+
+A strong security culture cannot be created by the security team alone. **Leadership and employee engagement** are two of the most important factors in determining whether security awareness becomes part of everyday organizational behavior.
+
+Leadership establishes expectations, provides resources, and demonstrates the importance of security. Employees, in turn, must understand their responsibilities and actively participate in protecting the organization.
+
+The relationship can be summarized as:
+
+> **Leadership sets the direction; employees make security part of daily behavior.**
+
+## The Role of Leadership
+
+Senior leaders have a significant influence on organizational culture.
+
+Employees observe how leaders behave and often use leadership behavior as an indication of what the organization truly considers important.
+
+If executives consistently follow security requirements, employees are more likely to take those requirements seriously.
+
+If executives regularly bypass security controls, employees may conclude that security policies are flexible or optional.
+
+Leadership therefore needs to demonstrate security through both **communication and behavior**.
+
+## Tone at the Top
+
+The concept of **"tone at the top"** refers to the attitudes and expectations established by senior leadership.
+
+A positive security tone might include leadership communicating:
+
+> "Protecting customer and company information is part of everyone's responsibility."
+
+More importantly, leadership should support this message through decisions and actions.
+
+For example, executives should:
+
+* Complete required security training.
+* Use MFA.
+* Follow access-control requirements.
+* Report suspicious activity.
+* Respect data-handling requirements.
+* Participate in security exercises.
+* Support security investments.
+* Avoid requesting inappropriate security exceptions.
+
+When leadership behaves consistently with its messaging, security expectations become more credible.
+
+## Leadership Commitment
+
+Leadership commitment should be visible and measurable.
+
+Examples include:
+
+* Approving security awareness objectives.
+* Allocating adequate resources.
+* Reviewing awareness KPIs and KRIs.
+* Supporting remediation activities.
+* Participating in awareness campaigns.
+* Communicating security expectations.
+* Holding management accountable for security responsibilities.
+
+A security awareness program without leadership support can easily become a compliance exercise.
+
+## Security Leadership Communication
+
+Leadership communications can reinforce important security messages.
+
+For example, a CEO or business-unit leader could communicate:
+
+> "Our customers trust us with their information. Protecting that information is part of every employee's responsibility."
+
+This can have more cultural impact than another generic security email from the security department.
+
+Leadership messages should be:
+
+* Clear.
+* Relevant.
+* Consistent.
+* Practical.
+* Connected to business objectives.
+
+## Managers Have a Critical Role
+
+While executives establish organizational direction, **line managers** have significant influence over day-to-day employee behavior.
+
+Employees often interact with their direct manager more frequently than with senior executives.
+
+Managers can reinforce security by:
+
+* Discussing security during team meetings.
+* Encouraging employees to complete training.
+* Supporting security procedures.
+* Allowing employees time to complete required training.
+* Encouraging incident reporting.
+* Avoiding pressure to bypass controls.
+* Recognizing positive security behavior.
+
+Managers are therefore an important link between security leadership and employees.
+
+## Managers as Security Role Models
+
+Consider two managers.
+
+### Manager A
+
+> "We need to finish this project today, so just bypass the security process."
+
+### Manager B
+
+> "We need to meet the deadline, but let's work with Security to find an approved way to complete the task."
+
+The second approach reinforces a security-first culture.
+
+Managers should demonstrate that business objectives and security objectives can be achieved together.
+
+## Employee Engagement
+
+Employee engagement means employees actively participate in security rather than simply receiving instructions.
+
+An engaged employee does not think:
+
+> "Security is someone else's problem."
+
+Instead:
+
+> "I have a role in protecting the organization."
+
+Engagement can be encouraged through:
+
+* Interactive training.
+* Security workshops.
+* Phishing simulations.
+* Security challenges.
+* Security champions.
+* Recognition programs.
+* Feedback channels.
+* Practical exercises.
+* Awareness campaigns.
+
+## From Passive Awareness to Active Participation
+
+There is an important difference between passive and active awareness.
+
+### Passive
+
+Employee watches a security video.
+
+### Active
+
+Employee participates in a phishing simulation, reports the simulated attack, discusses the scenario with colleagues, and applies the lesson to future situations.
+
+Active participation is more likely to reinforce long-term behavioral change.
+
+## Making Security Relevant to Employees
+
+Employees are more likely to engage when they understand how security affects their own work.
+
+Instead of presenting only technical concepts, organizations should explain practical scenarios.
+
+For example:
+
+**Finance**
+
+> How can business email compromise affect payment requests?
+
+**HR**
+
+> How can employee information be exposed?
+
+**Developers**
+
+> How can insecure coding introduce vulnerabilities?
+
+**Executives**
+
+> How can social engineering target senior leadership?
+
+This makes security awareness relevant to each employee's role.
+
+## Role-Based Engagement
+
+Different groups may require different engagement strategies.
+
+### Executives
+
+* Executive briefings.
+* Targeted simulations.
+* Board-level risk discussions.
+* Crisis exercises.
+
+### Managers
+
+* Management security briefings.
+* Team security responsibilities.
+* Incident reporting guidance.
+
+### General Employees
+
+* eLearning.
+* Phishing simulations.
+* Microlearning.
+* Awareness campaigns.
+
+### Technical Staff
+
+* Secure configuration exercises.
+* Incident response exercises.
+* Technical security training.
+
+Role-based engagement makes awareness more meaningful.
+
+## Employee Feedback
+
+Security culture should not be a one-way communication process.
+
+Organizations should allow employees to provide feedback about:
+
+* Security policies.
+* Training.
+* Security tools.
+* Reporting processes.
+* Usability problems.
+* Security procedures.
+
+For example, employees may report:
+
+> "The phishing-reporting process is too complicated."
+
+That feedback can lead to a simpler reporting mechanism.
+
+Employee feedback can therefore improve both **security culture and security controls**.
+
+## Security as a Two-Way Conversation
+
+A mature security culture encourages employees to ask:
+
+* Why is this security control required?
+* What should I do if the control prevents legitimate work?
+* How should I report an incident?
+* What happens after I report something?
+* Who should I contact when I am uncertain?
+
+Security teams should respond constructively.
+
+If employees repeatedly receive the message:
+
+> "Because Security says so."
+
+they may become disengaged.
+
+A better approach is to explain the **risk and business reason** behind the requirement.
+
+## Building Trust
+
+Trust is essential to employee engagement.
+
+Employees need confidence that:
+
+* Reports will be taken seriously.
+* Security teams will respond appropriately.
+* Mistakes can be reported safely.
+* Personal information will be handled appropriately.
+* Security processes are designed to protect rather than unnecessarily punish.
+
+When trust is present, employees are more likely to participate.
+
+## Rewarding Employee Participation
+
+Organizations can reinforce engagement through recognition.
+
+Examples include:
+
+* Employee recognition.
+* Security champion awards.
+* Team recognition.
+* Certificates.
+* Internal communications.
+* Small incentives.
+* Recognition from management.
+
+For example:
+
+> "The Finance team achieved the highest phishing reporting rate this quarter."
+
+This reinforces positive behavior without creating a punitive environment.
+
+## Avoiding the Wrong Incentives
+
+Rewards must be designed carefully.
+
+Suppose an organization rewards departments only for achieving the lowest phishing click rate.
+
+Employees may become reluctant to report mistakes because they fear damaging their department's score.
+
+A better approach may be to recognize:
+
+* Improvement.
+* Reporting.
+* Participation.
+* Secure behavior.
+* Team engagement.
+
+The objective is to encourage **honest security behavior**, not to encourage employees to hide failures.
+
+## Security Champions
+
+Security champions are particularly useful for employee engagement.
+
+A security champion can act as a local point of contact between employees and the security team.
+
+They can:
+
+* Promote security awareness.
+* Encourage reporting.
+* Share security information.
+* Help colleagues understand policies.
+* Provide feedback to Security.
+* Participate in awareness campaigns.
+
+This creates a distributed security culture rather than concentrating all awareness activities within the cybersecurity department.
+
+## Leadership Participation in Awareness Campaigns
+
+Leadership participation can significantly increase engagement.
+
+For example, during a phishing awareness campaign, the CEO might send a short message explaining:
+
+> "Phishing is one of the ways attackers attempt to compromise our organization. Please report suspicious messages rather than ignoring them."
+
+Employees may pay greater attention because the message comes from leadership.
+
+## Leadership Participation in Simulations
+
+Executives may also participate in authorized phishing simulations.
+
+This demonstrates that security awareness applies to everyone.
+
+However, simulations should be carefully designed to avoid unnecessary disruption or embarrassment.
+
+The purpose should be:
+
+> **Learning and risk reduction, not public punishment.**
+
+## Employee Engagement During Incidents
+
+Security culture becomes especially visible during a real incident.
+
+Employees should know:
+
+* Who to contact.
+* What to report.
+* What information to provide.
+* What actions to avoid.
+* How quickly to report.
+
+For example, if an employee believes their credentials have been compromised, they should know the approved process for immediately reporting the situation.
+
+This is where awareness, leadership, procedures, and employee behavior come together.
+
+## Leadership During a Security Incident
+
+Leadership behavior is especially important during major incidents.
+
+Leaders should:
+
+* Support the incident response team.
+* Avoid encouraging unsafe shortcuts.
+* Communicate appropriately.
+* Maintain confidence in established processes.
+* Support transparent reporting.
+* Make timely risk decisions.
+
+Poor leadership during a crisis can undermine security culture.
+
+## Encouraging Reporting Without Fear
+
+Organizations should make it clear that reporting a mistake is preferable to hiding it.
+
+A useful cultural message is:
+
+> **"Report early. Security can help."**
+
+For example:
+
+**Employee clicks suspicious link**
+
+↓
+
+**Employee immediately reports it**
+
+↓
+
+**Security investigates**
+
+↓
+
+**Account or device is protected**
+
+↓
+
+**Lessons are identified**
+
+This reinforces positive behavior.
+
+## Accountability Still Matters
+
+A positive security culture does not mean there are no consequences.
+
+Organizations should distinguish between:
+
+### Honest Mistake
+
+An employee accidentally clicks a phishing link and immediately reports it.
+
+### Negligent Behavior
+
+An employee repeatedly ignores security requirements after receiving appropriate guidance.
+
+### Intentional Misconduct
+
+An employee deliberately violates security requirements or attempts to bypass controls for malicious purposes.
+
+These situations may require different responses.
+
+A mature organization combines:
+
+> **Psychological safety + appropriate accountability**
+
+## Employee Engagement and Security Awareness Metrics
+
+Engagement can be measured.
+
+Possible indicators include:
+
+* Training participation.
+* Phishing reporting rate.
+* Security campaign participation.
+* Security champion participation.
+* Employee survey results.
+* Incident reporting frequency.
+* Voluntary security activity participation.
+* Improvement in behavioral metrics.
+
+For example:
+
+> Security campaign participation increased from 45% to 72%.
+
+This can indicate stronger employee engagement.
+
+However, participation should still be evaluated alongside behavioral outcomes.
+
+## Measuring Leadership Engagement
+
+Leadership engagement can also be measured.
+
+Possible indicators include:
+
+* Executive training completion.
+* Management participation in security campaigns.
+* Leadership communications.
+* Participation in tabletop exercises.
+* Security issues discussed in management meetings.
+* Management support for remediation actions.
+
+This creates evidence that security culture is being supported from the top.
+
+## Security Culture Surveys
+
+Organizations can periodically assess employee perceptions.
+
+Example statements include:
+
+> "My manager takes cybersecurity seriously."
+
+> "I feel comfortable reporting security mistakes."
+
+> "Security requirements are practical and achievable."
+
+> "I understand my cybersecurity responsibilities."
+
+> "Leadership demonstrates strong commitment to security."
+
+Survey trends can help identify cultural weaknesses.
+
+## The Importance of Consistency
+
+Security messages should remain consistent across leadership, security teams, HR, and business managers.
+
+For example, if the security team says:
+
+> "Employees must complete mandatory training."
+
+but managers repeatedly tell employees:
+
+> "Training can wait because business work is more important."
+
+the organization sends conflicting signals.
+
+Consistent messaging reinforces culture.
+
+## Leadership, Culture, and Risk Appetite
+
+Leadership ultimately determines how much cybersecurity risk the organization is willing to accept.
+
+Security awareness should therefore align with the organization's **risk appetite**.
+
+For example, an organization with very low tolerance for data exposure may require:
+
+* More extensive awareness training.
+* Stronger behavioral monitoring.
+* More frequent simulations.
+* More stringent reporting requirements.
+
+Leadership should establish the expectations, while the security and GRC functions help implement and measure them.
+
+## GRC Perspective
+
+From a GRC perspective, leadership and employee engagement support the implementation of governance requirements.
+
+The relationship can be represented as:
+
+**Leadership Commitment**
+
+↓
+
+**Security Objectives**
+
+↓
+
+**Policies and Expectations**
+
+↓
+
+**Employee Awareness**
+
+↓
+
+**Employee Engagement**
+
+↓
+
+**Secure Behavior**
+
+↓
+
+**Risk Reduction**
+
+This demonstrates why leadership and employee engagement are not merely "soft" security concepts.
+
+They directly influence how effectively cybersecurity controls operate.
+
+## Example: Building Engagement
+
+Imagine an organization has a low phishing reporting rate of 18%.
+
+The organization could respond with another mandatory training course.
+
+A stronger approach might include:
+
+**Leadership**
+
+CEO communicates the importance of reporting.
+
+↓
+
+**Managers**
+
+Discuss phishing during team meetings.
+
+↓
+
+**Security Team**
+
+Provides a simple reporting button.
+
+↓
+
+**Employees**
+
+Participate in realistic simulations.
+
+↓
+
+**Recognition**
+
+Teams demonstrating strong reporting behavior are recognized.
+
+↓
+
+**Measurement**
+
+Reporting rate is tracked over time.
+
+↓
+
+**Improvement**
+
+Campaigns are adjusted based on results.
+
+This creates a broader cultural intervention rather than relying on training alone.
+
+## Common Mistakes
+
+Organizations should avoid:
+
+### Leadership Says but Does Not Do
+
+Employees notice inconsistent leadership behavior.
+
+### Security Is Owned Only by IT
+
+Employees may believe security is not their responsibility.
+
+### Managers Ignore Security
+
+Day-to-day management behavior can undermine awareness programs.
+
+### Punishing Honest Mistakes
+
+Employees may stop reporting incidents.
+
+### Ignoring Employee Feedback
+
+Usability problems can cause employees to bypass controls.
+
+### Using Only Mandatory Training
+
+Compliance does not automatically create engagement.
+
+### Rewarding the Wrong Behavior
+
+Poorly designed incentives may encourage employees to hide failures.
+
+### Failing to Communicate During Incidents
+
+Employees may not know what to do when something goes wrong.
+
+## Key Takeaways
+
+Leadership and employee engagement are fundamental to developing a strong security culture.
+
+The key principles are:
+
+1. **Leadership must demonstrate security commitment through actions.**
+2. **Managers play an important role in reinforcing secure behavior.**
+3. **Employees should be treated as active participants in cybersecurity.**
+4. **Security communications should be relevant to employees' roles.**
+5. **Organizations should create an environment where mistakes can be reported quickly.**
+6. **Positive security behavior should be recognized.**
+7. **Security champions can strengthen engagement across departments.**
+8. **Employee feedback should be used to improve security processes.**
+9. **Leadership and employee engagement should be measured.**
+10. **Rewards should encourage positive behavior without discouraging honest reporting.**
+11. **Accountability should remain appropriate for intentional or repeated misconduct.**
+12. **Leadership, awareness, engagement, and behavior should ultimately support risk reduction.**
+
+The goal is to move from:
+
+> **"Employees must follow security rules."**
+
+to:
+
+> **"Employees understand why security matters and actively participate in protecting the organization."**
+
+When leadership consistently demonstrates the expected behavior and employees are actively engaged, security becomes part of the organization's **shared culture rather than simply another set of rules**.
+
+
 
 

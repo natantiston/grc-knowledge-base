@@ -931,4 +931,541 @@ This example demonstrates why employees must verify unusual requests independent
 * Technical controls, authentication mechanisms, approval procedures, and employee awareness should work together as layers of defense.
 * From a Governance, Risk, and Compliance (GRC) perspective, effective phishing awareness strengthens governance through defined verification and reporting procedures, reduces enterprise cyber risk through targeted employee education, and supports compliance through documented training, simulations, risk assessments, and incident management.
 
+# Part 3 – Vishing, Smishing, and Business Email Compromise (BEC)
+
+Vishing, smishing, and Business Email Compromise (BEC) are forms of social engineering that use trusted communication channels to manipulate individuals into revealing information, approving transactions, providing access, or performing other actions that benefit attackers.
+
+Unlike traditional phishing, which is commonly associated with email, these attacks may use telephone calls, SMS messages, messaging applications, compromised business accounts, or impersonation of trusted individuals.
+
+These attacks are particularly dangerous because employees may naturally trust familiar communication channels. A telephone call from someone claiming to be from IT, an SMS appearing to come from a bank, or an email appearing to come from a senior executive can create a strong sense of legitimacy.
+
+---
+
+## Vishing
+
+Vishing, or voice phishing, is a social engineering attack conducted through telephone or voice communication.
+
+The attacker attempts to convince the victim that they are speaking with a legitimate person or organization.
+
+Attackers may impersonate:
+
+* IT support personnel.
+* Bank representatives.
+* Government officials.
+* Customers.
+* Suppliers.
+* Delivery companies.
+* Human Resources personnel.
+* Security teams.
+* Senior executives.
+
+The attacker may request:
+
+* Passwords.
+* MFA verification codes.
+* Personal information.
+* Account information.
+* Remote access.
+* Payment authorization.
+* Confidential business information.
+
+---
+
+## Common Vishing Scenarios
+
+A vishing attack may involve an attacker claiming:
+
+> "This is the IT Help Desk. We detected suspicious activity on your account. I need your MFA code to verify your identity."
+
+Another example may involve a financial department:
+
+> "I'm calling from your bank's fraud department. We detected an unauthorized transaction. Please confirm your account details so we can secure your account."
+
+The attacker creates a sense of urgency and authority to discourage the victim from independently verifying the call.
+
+---
+
+## Vishing Warning Signs
+
+Employees should be cautious when a caller:
+
+* Requests passwords.
+* Requests MFA codes.
+* Requests sensitive information unexpectedly.
+* Creates extreme urgency.
+* Threatens account suspension.
+* Requests remote access.
+* Demands immediate payment.
+* Refuses independent verification.
+* Becomes aggressive when questioned.
+* Requests information that the legitimate organization should already possess.
+
+A legitimate support organization should not normally require an employee to disclose their password or MFA verification code.
+
+---
+
+## Defensive Practices Against Vishing
+
+Employees should:
+
+1. Remain calm.
+2. Avoid providing sensitive information immediately.
+3. Ask for the caller's identity and department.
+4. End the call if the request appears suspicious.
+5. Independently contact the organization using a trusted number.
+6. Never disclose passwords or MFA codes.
+7. Follow established verification procedures.
+8. Report suspicious calls to the appropriate security team.
+
+Employees should remember that caller ID alone is not sufficient proof of identity because attackers may manipulate caller identification information.
+
+---
+
+## Smishing
+
+Smishing is a form of phishing conducted through SMS or mobile messaging platforms.
+
+The term combines **SMS** and **phishing**.
+
+Smishing messages are commonly designed to encourage the victim to:
+
+* Click a malicious link.
+* Download an application.
+* Provide credentials.
+* Confirm personal information.
+* Make a payment.
+* Contact a fraudulent telephone number.
+* Provide authentication information.
+
+---
+
+## Common Smishing Scenarios
+
+Attackers may impersonate:
+
+* Banks.
+* Delivery companies.
+* Government agencies.
+* Mobile operators.
+* Online retailers.
+* Cloud service providers.
+* Financial institutions.
+* Employers.
+
+Examples include:
+
+> "Your package could not be delivered. Confirm your delivery address using the link below."
+
+Or:
+
+> "Your bank account has been temporarily restricted. Verify your identity immediately."
+
+The message creates urgency and provides a simple action for the victim to take.
+
+---
+
+## Smishing Warning Signs
+
+Employees should be cautious when an unexpected message:
+
+* Contains a suspicious link.
+* Requests personal information.
+* Requests payment.
+* Claims an account is suspended.
+* Creates unusual urgency.
+* Comes from an unknown number.
+* Uses a shortened URL.
+* Requests installation of an unfamiliar application.
+* Instructs the recipient to bypass normal procedures.
+
+Employees should avoid using links or telephone numbers provided in suspicious messages.
+
+Instead, they should access the organization's official website or use a trusted contact method.
+
+---
+
+## Mobile Devices and Smishing Risk
+
+Smishing can be particularly effective because mobile devices are frequently used for rapid communication.
+
+Employees may also have less visibility into:
+
+* Full URLs.
+* Sender information.
+* Security warnings.
+* Domain names.
+* Message headers.
+
+Mobile users may therefore interact with malicious content before carefully evaluating it.
+
+Security awareness programs should specifically address mobile-based threats rather than focusing exclusively on desktop email phishing.
+
+---
+
+## Business Email Compromise
+
+Business Email Compromise (BEC) is a type of cyber-enabled fraud in which attackers impersonate or compromise trusted business identities to deceive employees and cause unauthorized financial or information-related actions.
+
+BEC attacks often target:
+
+* Finance departments.
+* Procurement teams.
+* Accounts payable personnel.
+* Executives.
+* Human Resources.
+* Payroll departments.
+* Vendor management teams.
+
+The attacker may use:
+
+* A compromised legitimate mailbox.
+* A look-alike domain.
+* A spoofed email address.
+* A newly created fraudulent account.
+* Stolen credentials.
+* Information gathered through reconnaissance.
+
+---
+
+## Common BEC Scenarios
+
+### Executive Impersonation
+
+An attacker impersonates a senior executive and requests an urgent payment.
+
+Example:
+
+> "I'm currently traveling and need this supplier payment processed immediately."
+
+The attacker exploits authority and urgency.
+
+### Supplier Account Change
+
+An attacker impersonates a supplier and requests a change to banking information.
+
+Example:
+
+> "Please update our bank details for all future invoices."
+
+If the change is processed without verification, legitimate payments may be redirected to the attacker.
+
+### Invoice Fraud
+
+An attacker sends a fraudulent invoice or modifies a legitimate invoice.
+
+The invoice may contain:
+
+* Real supplier information.
+* Correct purchase order numbers.
+* Accurate employee names.
+* Real project information.
+
+This makes the fraudulent request more difficult to identify.
+
+### Payroll Fraud
+
+An attacker impersonates an employee and requests a change to their payroll account.
+
+The objective is to redirect salary payments to an account controlled by the attacker.
+
+### Sensitive Information Theft
+
+BEC may also be used to obtain:
+
+* Customer information.
+* Employee information.
+* Financial records.
+* Contracts.
+* Business plans.
+* Credentials.
+* Intellectual property.
+
+---
+
+## Why BEC Is Dangerous
+
+BEC attacks can bypass many technical security controls because the attacker may not need to deliver malware.
+
+Instead, the attacker manipulates an employee into performing a legitimate business action.
+
+For example:
+
+```text
+Attacker
+   │
+   ▼
+Research Organization
+   │
+   ▼
+Identify Executive / Supplier
+   │
+   ▼
+Impersonate Trusted Person
+   │
+   ▼
+Send Fraudulent Request
+   │
+   ▼
+Employee Trusts Request
+   │
+   ▼
+Payment / Data Disclosure
+   │
+   ▼
+Financial or Business Loss
+```
+
+This makes business processes and employee verification procedures critical security controls.
+
+---
+
+## BEC Red Flags
+
+Employees should apply additional verification when an email requests:
+
+* A change to bank account information.
+* An urgent payment.
+* A payment outside normal procedures.
+* Confidential information.
+* Payroll changes.
+* Gift card purchases.
+* Unusual wire transfers.
+* Changes to supplier information.
+* Bypassing established approval processes.
+
+The greater the potential impact of the requested action, the stronger the verification should be.
+
+---
+
+## Independent Verification
+
+Independent verification is one of the most important defenses against vishing, smishing, and BEC.
+
+Verification should use a trusted communication channel that is independent from the suspicious request.
+
+For example:
+
+```text
+Suspicious Email
+      │
+      ▼
+Do Not Reply Immediately
+      │
+      ▼
+Use Trusted Contact Information
+      │
+      ▼
+Contact Requester Independently
+      │
+      ▼
+Verify Request
+      │
+      ├───────────────┐
+      │               │
+   Legitimate       Fraudulent
+      │               │
+      ▼               ▼
+Proceed Normally   Report Incident
+```
+
+Employees should not use the telephone number, email address, or link provided in a suspicious communication for verification.
+
+---
+
+## Comparison of Vishing, Smishing, and BEC
+
+| Characteristic           | Vishing                       | Smishing                            | BEC                                 |
+| ------------------------ | ----------------------------- | ----------------------------------- | ----------------------------------- |
+| Primary Channel          | Telephone / Voice             | SMS / Messaging                     | Email / Business communication      |
+| Typical Target           | Employees, customers          | Mobile users                        | Businesses and employees            |
+| Common Objective         | Credentials, MFA, information | Credentials, malware, payment       | Financial fraud, data theft         |
+| Common Technique         | Impersonation and urgency     | Malicious links and urgency         | Executive or supplier impersonation |
+| Common High-Risk Targets | IT, finance, executives       | General users                       | Finance, procurement, executives    |
+| Verification Method      | Independent call-back         | Official website or trusted contact | Independent business verification   |
+
+These techniques can also be combined.
+
+For example, an attacker may first send a smishing message and then call the victim to persuade them to provide the requested information.
+
+---
+
+## Combined Social Engineering Attacks
+
+Modern attackers may combine multiple communication methods.
+
+A possible attack sequence could be:
+
+1. The attacker sends a fraudulent SMS.
+2. The victim clicks the link.
+3. The attacker obtains information from the victim.
+4. The attacker calls the victim pretending to be IT support.
+5. The attacker requests an MFA code.
+6. The attacker attempts to access the employee's account.
+7. The attacker uses the compromised account to conduct further attacks.
+
+This combination is sometimes more effective than using a single communication channel because each interaction can reinforce the credibility of the previous one.
+
+---
+
+## Employee Responsibilities
+
+Employees should:
+
+* Treat unexpected calls and messages cautiously.
+* Never provide passwords or MFA codes.
+* Avoid clicking suspicious SMS links.
+* Independently verify financial requests.
+* Verify supplier bank account changes.
+* Follow established approval procedures.
+* Report suspicious communications.
+* Preserve relevant information when instructed.
+* Cooperate with security investigations.
+
+Employees should remember that a legitimate-looking communication can still be fraudulent.
+
+---
+
+## Organizational Controls
+
+Organizations should implement multiple layers of protection.
+
+Important controls include:
+
+* Security awareness training.
+* Phishing and social engineering simulations.
+* Strong authentication.
+* MFA.
+* Email security controls.
+* Domain protection.
+* Secure payment procedures.
+* Dual approval for high-value transactions.
+* Independent verification of bank changes.
+* Vendor verification procedures.
+* Incident reporting mechanisms.
+* Monitoring for suspicious account activity.
+
+Financial and high-impact business processes should receive particular attention because successful social engineering attacks can cause significant financial and operational damage.
+
+---
+
+## GRC Perspective
+
+Vishing, smishing, and BEC represent significant Governance, Risk, and Compliance (GRC) risks because they can exploit weaknesses in human behavior and business processes.
+
+### Governance
+
+Governance should establish:
+
+* Communication security policies.
+* Employee responsibilities.
+* Financial approval procedures.
+* Supplier verification requirements.
+* Incident reporting requirements.
+* Executive protection measures.
+* Authentication requirements.
+
+### Risk Management
+
+Organizations should assess:
+
+* Which employees are most frequently targeted.
+* Which departments can authorize payments.
+* Which employees have privileged access.
+* Which suppliers are high risk.
+* Which business processes can be manipulated.
+* Historical fraud and social engineering incidents.
+* Results of awareness exercises.
+
+Risk assessments should consider both technical and human factors.
+
+### Compliance
+
+Awareness and controls for vishing, smishing, and BEC support requirements associated with:
+
+* ISO/IEC 27001:2022 Information Security Management System (ISMS).
+* ISO/IEC 27002:2022 Information Security Controls.
+* NIST Cybersecurity Framework (CSF) 2.0.
+* NIST SP 800-50, Building an Information Technology Security Awareness and Training Program.
+* General Data Protection Regulation (GDPR).
+* NIS2 Directive.
+* Financial-sector requirements.
+* Industry-specific cybersecurity regulations.
+
+Evidence may include:
+
+* Security awareness records.
+* Incident reports.
+* Phishing and smishing simulation results.
+* Vendor verification records.
+* Financial approval records.
+* Security policies.
+* Risk assessments.
+* Corrective action records.
+* Management reviews.
+
+---
+
+## Diagram Placeholder
+
+**Title:** Multi-Channel Social Engineering Attack
+
+**Diagram Description:**
+
+```text
+             Attacker
+                │
+       ┌────────┼────────┐
+       │        │        │
+       ▼        ▼        ▼
+    Vishing  Smishing   BEC
+       │        │        │
+       └────────┼────────┘
+                │
+                ▼
+        Employee Manipulation
+                │
+                ▼
+       Unauthorized Action
+                │
+       ┌────────┼────────┐
+       │        │        │
+       ▼        ▼        ▼
+    Account   Financial   Data
+   Compromise   Loss      Theft
+```
+
+**Caption:**
+
+*"Attackers can use multiple communication channels to manipulate employees and bypass technical and procedural security controls."*
+
+---
+
+## Practical Example
+
+A Finance Manager receives an SMS claiming that a supplier's payment account has been suspended and that an urgent verification is required. The message contains a link to a website that appears to belong to the organization's banking provider.
+
+The Finance Manager does not click the link. Shortly afterward, the employee receives a telephone call from someone claiming to be from the company's bank. The caller explains that the SMS was legitimate and asks the Finance Manager to provide an MFA verification code.
+
+The employee recognizes the combination of smishing and vishing techniques. Instead of providing the code, the employee ends the call and contacts the bank through an independently verified telephone number.
+
+The bank confirms that neither the SMS nor the telephone call originated from them.
+
+The Finance Manager reports the incident to the organization's Security team. The Security team identifies the attack as a coordinated social engineering campaign and alerts other employees who may be targeted.
+
+This example demonstrates how attackers can combine multiple communication channels to increase credibility and pressure victims into taking unsafe actions.
+
+---
+
+## Key Takeaways
+
+* Vishing uses telephone or voice communication to manipulate victims.
+* Smishing uses SMS or messaging platforms to conduct phishing attacks.
+* Business Email Compromise (BEC) uses impersonation or compromised business communications to facilitate fraud or information theft.
+* Attackers commonly exploit authority, urgency, fear, trust, and familiarity.
+* BEC frequently targets finance, procurement, payroll, executives, and vendor management processes.
+* Employees should never provide passwords or MFA codes in response to unexpected requests.
+* Financial requests and changes to supplier or employee banking information should be independently verified.
+* Attackers may combine vishing, smishing, phishing, and BEC techniques within a single campaign.
+* From a Governance, Risk, and Compliance (GRC) perspective, effective controls require defined policies, strong verification procedures, employee awareness, risk assessments, incident reporting, and documented evidence of continual improvement.
+
 

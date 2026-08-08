@@ -803,5 +803,888 @@ It is to ensure that when cybersecurity decisions reach the leadership level, th
 
 When senior leadership understands these questions and actively participates in cybersecurity governance, security becomes an **enterprise responsibility rather than simply an IT function**.
 
+## General Employee Training
+
+General employee security awareness training is the foundation of an organization's security awareness program. While executives, technical personnel, developers, and other specialized roles require additional training, **every employee should understand the basic security responsibilities associated with their work**.
+
+Employees interact with organizational systems, information, customers, suppliers, and business processes every day. Consequently, their actions can either reduce or increase organizational risk.
+
+The objective of general employee training is not to make employees cybersecurity experts. It is to ensure that employees can:
+
+* Recognize common security threats.
+* Follow organizational security policies.
+* Protect organizational information.
+* Use technology securely.
+* Identify suspicious activity.
+* Report security incidents appropriately.
+* Understand their individual security responsibilities.
+
+> **Every employee is part of the organization's security control environment.**
+
+## Why General Employee Training Matters
+
+A technically sophisticated security infrastructure can still be undermined by unsafe human behavior.
+
+For example, an organization may have:
+
+* Firewalls.
+* Endpoint protection.
+* Multi-factor authentication.
+* Security monitoring.
+* Data-loss prevention.
+* Email security.
+
+Yet an employee may still:
+
+* Click a malicious link.
+* Approve a fraudulent payment.
+* Share sensitive information with the wrong person.
+* Use unauthorized software.
+* Leave confidential documents unattended.
+* Ignore a security warning.
+
+General employee training helps reduce these risks.
+
+## The Employee as a Security Control
+
+From a GRC perspective, employees can be viewed as part of the organization's **human control environment**.
+
+For example:
+
+**Security Policy**
+
+↓
+
+**Employee Training**
+
+↓
+
+**Expected Behavior**
+
+↓
+
+**Employee Action**
+
+↓
+
+**Security Outcome**
+
+If employees understand and follow security requirements, they become an important layer of defense.
+
+## What General Employee Training Should Cover
+
+A foundational program commonly includes:
+
+1. Information security responsibilities.
+2. Passwords and authentication.
+3. Multi-factor authentication.
+4. Phishing and social engineering.
+5. Malware awareness.
+6. Data protection.
+7. Acceptable use.
+8. Incident reporting.
+9. Physical security.
+10. Remote working.
+11. Mobile device security.
+12. Privacy awareness.
+13. Secure use of email and collaboration tools.
+14. Clean desk and clear screen practices.
+15. Removable media.
+16. Software and application security.
+
+The exact content should be based on organizational risk.
+
+## Security Responsibilities
+
+Employees should understand that security is part of their job responsibilities.
+
+Training should answer:
+
+> **What information and systems am I responsible for protecting?**
+
+Examples include:
+
+* Customer information.
+* Employee information.
+* Business documents.
+* Credentials.
+* Company devices.
+* Intellectual property.
+* Financial information.
+
+Employees should understand that security responsibilities apply even when security is not explicitly included in their job title.
+
+## Password and Authentication Awareness
+
+Employees should understand basic authentication practices.
+
+Training should cover:
+
+* Strong passwords.
+* Password reuse.
+* Password managers.
+* Multi-factor authentication.
+* Credential protection.
+* Suspicious authentication requests.
+
+Employees should never share their passwords or approve authentication requests they did not initiate.
+
+## MFA Fatigue
+
+Employees should also understand **MFA fatigue attacks**.
+
+An attacker may repeatedly trigger authentication requests hoping that the victim eventually approves one simply to stop the notifications.
+
+Employees should understand:
+
+> **Never approve an MFA request that you did not initiate.**
+
+Unexpected MFA prompts should be reported according to organizational procedures.
+
+## Phishing Awareness
+
+Phishing is one of the most important subjects in general employee training.
+
+Employees should learn to identify:
+
+* Unexpected attachments.
+* Suspicious links.
+* Urgent requests.
+* Requests for credentials.
+* Unusual payment instructions.
+* Impersonation.
+* Suspicious sender addresses.
+* Unexpected document-sharing invitations.
+
+However, training should emphasize that modern phishing messages can look highly professional.
+
+Employees should not rely exclusively on spelling mistakes or poor grammar.
+
+## Social Engineering
+
+Security awareness should explain how attackers manipulate people.
+
+Common techniques include:
+
+* Authority.
+* Urgency.
+* Fear.
+* Curiosity.
+* Trust.
+* Familiarity.
+* Scarcity.
+
+For example:
+
+> "The CEO needs this completed immediately."
+
+The employee should recognize that urgency and authority can be deliberately used to bypass normal procedures.
+
+## Business Email Compromise
+
+Employees should understand the risks associated with fraudulent business requests.
+
+Examples include:
+
+* Bank-account changes.
+* Fake invoices.
+* Supplier payment requests.
+* Executive impersonation.
+* Payroll changes.
+
+Training should reinforce independent verification procedures.
+
+## Incident Reporting
+
+Employees need to know **how to report a security incident**.
+
+Training should clearly explain:
+
+* What should be reported.
+* Where to report it.
+* When to report it.
+* What information to provide.
+* What employees should do while waiting for assistance.
+
+For example:
+
+> Suspicious email → Report through the approved phishing-reporting mechanism.
+
+> Lost company device → Immediately contact the designated support/security function.
+
+> Suspected data exposure → Notify the appropriate security or privacy team.
+
+## Why Fast Reporting Matters
+
+Employees sometimes hesitate to report incidents because they are afraid of getting into trouble.
+
+Training should communicate:
+
+> **Early reporting is more important than hiding a mistake.**
+
+For example, reporting a phishing interaction immediately may allow security teams to:
+
+* Disable compromised accounts.
+* Block malicious domains.
+* Search for additional victims.
+* Remove malicious messages.
+* Reset credentials.
+
+Minutes can matter during an active attack.
+
+## Data Protection
+
+Employees should understand how to protect organizational information.
+
+Training should cover:
+
+* Data classification.
+* Appropriate storage.
+* Secure sharing.
+* Access restrictions.
+* Encryption where required.
+* Secure disposal.
+* Protection of printed documents.
+
+Employees should understand that not all information has the same level of sensitivity.
+
+## Data Classification
+
+A simple classification model might include:
+
+| Classification | Example                                     |
+| -------------- | ------------------------------------------- |
+| Public         | Published marketing material                |
+| Internal       | Internal procedures                         |
+| Confidential   | Business plans                              |
+| Restricted     | Sensitive customer or financial information |
+
+Employees should understand what they can and cannot do with each category.
+
+## Secure Information Sharing
+
+Employees should know how to securely share sensitive information.
+
+They should avoid using:
+
+* Personal email.
+* Unauthorized cloud storage.
+* Unapproved messaging applications.
+* Public file-sharing services.
+
+Instead, they should use organizationally approved tools and procedures.
+
+## Acceptable Use
+
+General employee training should explain acceptable use of organizational technology.
+
+Topics may include:
+
+* Internet usage.
+* Email usage.
+* Software installation.
+* Personal devices.
+* External storage.
+* Cloud services.
+* Social media.
+* Company equipment.
+
+Employees should understand the difference between convenience and authorized use.
+
+## Shadow IT
+
+Employees sometimes adopt applications or cloud services without authorization because they believe the tools will make their work easier.
+
+Examples include:
+
+* Personal cloud storage.
+* Unapproved AI tools.
+* File-sharing services.
+* Messaging applications.
+* Browser extensions.
+
+Training should explain why unauthorized tools create risks involving:
+
+* Data exposure.
+* Privacy.
+* Malware.
+* Compliance.
+* Loss of organizational control.
+
+## Generative AI Awareness
+
+Modern employee training should increasingly address **generative AI**.
+
+Employees should understand:
+
+* What information can be entered into AI tools.
+* Which AI services are approved.
+* Risks of entering confidential information.
+* Risks of inaccurate AI-generated content.
+* Privacy implications.
+* Intellectual property considerations.
+* Organizational AI policies.
+
+For example:
+
+> An employee should not paste confidential customer information into an unauthorized public AI service simply to summarize a document.
+
+## Physical Security
+
+General awareness should also cover physical security.
+
+Employees should understand:
+
+* Clean desk requirements.
+* Clear screen practices.
+* Visitor procedures.
+* Badge security.
+* Tailgating.
+* Secure disposal.
+* Protection of laptops and mobile devices.
+
+Cybersecurity does not stop at the organization's network perimeter.
+
+## Clean Desk and Clear Screen
+
+Employees should:
+
+* Lock their computers when leaving their workstation.
+* Avoid leaving sensitive documents unattended.
+* Secure confidential documents.
+* Properly dispose of sensitive information.
+
+A simple unlocked computer can provide an attacker with access to organizational information.
+
+## Tailgating
+
+Employees should understand **tailgating** and **piggybacking**.
+
+For example:
+
+An employee enters a restricted office using their access badge.
+
+A person behind them says:
+
+> "Could you hold the door? I forgot my badge."
+
+The employee should understand that convenience should not override physical access controls.
+
+## Remote Working Security
+
+General training should address remote and hybrid work.
+
+Employees should understand:
+
+* Secure Wi-Fi.
+* VPN requirements where applicable.
+* Device security.
+* Screen privacy.
+* Secure conversations.
+* Protection of printed documents.
+* Physical security in public locations.
+
+For example, employees should avoid discussing confidential information where unauthorized people can easily hear the conversation.
+
+## Mobile Device Security
+
+Training should cover organizational mobile devices.
+
+Employees should understand:
+
+* Device locking.
+* Approved applications.
+* Operating-system updates.
+* Device encryption.
+* Reporting lost devices.
+* Avoiding suspicious applications.
+
+A lost device can become a security incident if sensitive information is accessible through it.
+
+## Removable Media
+
+USB drives and other removable media can introduce security risks.
+
+Employees should understand organizational rules regarding:
+
+* USB storage.
+* External drives.
+* Unknown devices.
+* Personal storage media.
+
+Employees should never connect an unknown removable device to organizational systems simply because they found it or received it unexpectedly.
+
+## Software Updates
+
+Employees should understand why software updates matter.
+
+Updates may address:
+
+* Security vulnerabilities.
+* Malware risks.
+* Stability problems.
+* Compatibility issues.
+
+Employees should follow organizational procedures rather than deliberately bypassing security controls to avoid updates.
+
+## Security Warnings
+
+Employees should not automatically dismiss security warnings.
+
+Examples include:
+
+* Browser security warnings.
+* Endpoint protection alerts.
+* MFA notifications.
+* Suspicious email warnings.
+* Data-loss prevention notifications.
+
+Training should explain why these warnings exist and what employees should do when they appear.
+
+## Privacy Awareness
+
+General employee training should include basic privacy responsibilities.
+
+Employees should understand:
+
+* What personal information is.
+* Why personal information must be protected.
+* Who should have access.
+* How information should be shared.
+* How privacy incidents should be reported.
+
+Privacy training should be aligned with the organization's applicable legal and regulatory requirements.
+
+## Security Policies
+
+Employees should know which organizational policies apply to them.
+
+Examples include:
+
+* Information security policy.
+* Acceptable-use policy.
+* Password policy.
+* Remote-working policy.
+* Data protection policy.
+* Incident-response procedures.
+* Bring Your Own Device policy.
+
+However, training should not simply tell employees:
+
+> "Read the policy."
+
+It should explain how the policy affects their daily work.
+
+## Policy-to-Behavior Translation
+
+For example:
+
+**Policy**
+
+"Sensitive information must be protected from unauthorized disclosure."
+
+↓
+
+**Employee behavior**
+
+"Do not send confidential customer information to a personal email account."
+
+This translation makes policies practical.
+
+## Training Frequency
+
+General employee training should normally combine several approaches.
+
+### New Employee
+
+Security training during onboarding.
+
+### Annual
+
+Core security awareness training.
+
+### Periodic
+
+Short awareness activities throughout the year.
+
+### Event-Driven
+
+Additional training following:
+
+* Major incidents.
+* New threats.
+* Policy changes.
+* Technology changes.
+* Regulatory changes.
+
+### Targeted
+
+Additional training for employees demonstrating specific risk behaviors.
+
+## Security Awareness During Onboarding
+
+New employees should receive security training early.
+
+Important topics include:
+
+* Security policies.
+* Passwords and MFA.
+* Phishing.
+* Data handling.
+* Incident reporting.
+* Physical security.
+* Acceptable use.
+
+This establishes expectations from the beginning of employment.
+
+## Continuous Training
+
+Employees should not be considered "trained" permanently after completing one course.
+
+Security awareness should continue through:
+
+* Microlearning.
+* Simulations.
+* Newsletters.
+* Workshops.
+* Team discussions.
+* Security campaigns.
+
+This supports the continuous reinforcement approach discussed earlier in Chapter 16.
+
+## Role-Based Expansion
+
+General employee training provides the foundation.
+
+Additional role-specific training can then be added.
+
+For example:
+
+**General Employee**
+
+Phishing awareness.
+
+↓
+
+**Finance**
+
+Payment fraud and BEC.
+
+↓
+
+**IT**
+
+Privileged access and technical security.
+
+↓
+
+**Developer**
+
+Secure coding and software supply-chain security.
+
+↓
+
+**Executive**
+
+Cyber risk and crisis decision-making.
+
+This creates a layered training model.
+
+## Training Delivery Methods
+
+General employee training can be delivered through:
+
+* eLearning.
+* Classroom sessions.
+* Workshops.
+* Videos.
+* Microlearning.
+* Security campaigns.
+* Phishing simulations.
+* Team meetings.
+* Interactive exercises.
+
+Using multiple methods can improve engagement.
+
+## Avoiding Training Fatigue
+
+Employees may become disengaged if security training is:
+
+* Too long.
+* Repetitive.
+* Irrelevant.
+* Too technical.
+* Presented only as compliance.
+
+Training should be:
+
+* Practical.
+* Relevant.
+* Concise.
+* Engaging.
+* Appropriate to the audience.
+
+## Scenario-Based Training
+
+Scenario-based learning can make security concepts easier to understand.
+
+For example:
+
+> You receive an email from the CFO asking you to urgently purchase gift cards.
+
+The employee must decide:
+
+**A.** Follow the request immediately.
+
+**B.** Reply to the email asking for confirmation.
+
+**C.** Independently verify the request through an approved communication channel.
+
+The correct response is **C**.
+
+The scenario teaches a behavior rather than simply presenting a definition.
+
+## Security Awareness and Employee Experience
+
+Security controls should be designed with employee workflows in mind.
+
+If security procedures are unnecessarily difficult, employees may try to bypass them.
+
+For example:
+
+> If reporting a phishing email requires five different forms, employees may simply delete the message.
+
+A simple reporting button may produce better security outcomes.
+
+This illustrates an important principle:
+
+> **Security should be secure enough to protect the organization without being unnecessarily difficult to use.**
+
+## Measuring General Employee Training
+
+Organizations should measure more than training completion.
+
+### Activity Metrics
+
+* Training completion rate.
+* Participation rate.
+* Assessment scores.
+
+### Behavioral Metrics
+
+* Phishing reporting rate.
+* Phishing click rate.
+* Incident reporting.
+* Repeat failures.
+
+### Outcome Metrics
+
+* Reduction in risky behavior.
+* Faster reporting.
+* Reduced security incidents.
+* Improved security culture.
+
+This allows the organization to determine whether training is actually effective.
+
+## Example Training Dashboard
+
+| Metric                      |     Result |         Target |
+| --------------------------- | ---------: | -------------: |
+| Training completion         |        97% |           >95% |
+| Phishing reporting          |        68% |           >60% |
+| Phishing click rate         |         5% |            <5% |
+| Repeat failures             |         3% |            <5% |
+| Security incident reporting | Increasing | Positive trend |
+
+A dashboard should combine activity, behavior, and outcome measures.
+
+## Training Effectiveness
+
+An organization should ask:
+
+> **Did employees complete the training?**
+
+but also:
+
+> **Did employees understand it?**
+
+and:
+
+> **Did their behavior change?**
+
+and ultimately:
+
+> **Did the change reduce risk?**
+
+This progression is important:
+
+**Completion → Knowledge → Behavior → Risk Reduction**
+
+## Security Culture Connection
+
+General employee training contributes to security culture.
+
+Employees who regularly receive practical security guidance are more likely to understand that:
+
+> **Security is part of everyone's responsibility.**
+
+This supports the security-first culture discussed in previous lessons.
+
+## GRC Perspective
+
+From a GRC perspective, general employee training supports the implementation of security policies and controls.
+
+The relationship can be represented as:
+
+**Policy**
+
+↓
+
+**Training**
+
+↓
+
+**Employee Understanding**
+
+↓
+
+**Expected Behavior**
+
+↓
+
+**Monitoring**
+
+↓
+
+**Corrective Action**
+
+↓
+
+**Continual Improvement**
+
+Training therefore becomes part of the organization's broader control environment rather than simply an annual compliance exercise.
+
+## Evidence and Audit Readiness
+
+Organizations should retain evidence demonstrating that employees receive appropriate awareness training.
+
+Evidence may include:
+
+* Training records.
+* Completion reports.
+* Assessment results.
+* Awareness campaign records.
+* Phishing simulation results.
+* Policy acknowledgments.
+* Training materials.
+* Attendance records.
+* Corrective-action records.
+
+This can help demonstrate that security awareness requirements are being implemented.
+
+## Common Mistakes
+
+Organizations should avoid:
+
+### Focusing Only on Completion
+
+A 100% completion rate does not prove behavioral effectiveness.
+
+### Using the Same Training Forever
+
+Threats and technologies change.
+
+### Making Training Too Technical
+
+General employees need practical guidance, not engineering-level detail.
+
+### Ignoring Remote Workers
+
+Remote and hybrid employees face different risks.
+
+### Ignoring AI
+
+Employees increasingly interact with generative AI and related technologies.
+
+### Punishing Employees for Reporting Mistakes
+
+This can discourage early reporting.
+
+### Providing Generic Examples
+
+Training should reflect realistic organizational scenarios.
+
+### Overloading Employees
+
+Too much information can reduce retention.
+
+### Failing to Measure Behavior
+
+The organization needs evidence that training is producing meaningful improvement.
+
+## Example General Employee Awareness Program
+
+A mature organization could implement:
+
+**Onboarding**
+
+* Core security training.
+* Security policies.
+* Incident reporting.
+* Phishing awareness.
+
+**Monthly**
+
+* Microlearning.
+* Security tips.
+
+**Quarterly**
+
+* Phishing simulation.
+* Behavioral measurement.
+
+**Semiannually**
+
+* Security workshop or awareness campaign.
+
+**Annually**
+
+* Mandatory security awareness refresher.
+
+**Event-driven**
+
+* Additional training following major incidents, threats, or organizational changes.
+
+This creates a continuous learning environment.
+
+## Key Takeaways
+
+General employee training establishes the foundational security knowledge required across the organization.
+
+The key principles are:
+
+1. **Every employee should understand their security responsibilities.**
+2. **Training should focus on practical behavior rather than technical complexity.**
+3. **Phishing and social engineering should be core topics.**
+4. **Employees must know how and when to report incidents.**
+5. **Data protection and privacy should be included.**
+6. **Physical, remote-working, and mobile security should be addressed.**
+7. **Acceptable use and unauthorized technology should be explained clearly.**
+8. **Generative AI awareness is increasingly important.**
+9. **Training should continue throughout the employee lifecycle.**
+10. **Role-based training should build upon the general foundation.**
+11. **Effectiveness should be measured through behavior, not just completion.**
+12. **Training should support the organization's broader GRC and risk-management objectives.**
+
+The ultimate goal is not simply:
+
+> **"Every employee completed security training."**
+
+The stronger objective is:
+
+> **"Every employee understands their security responsibilities and consistently applies secure behaviors in their daily work."**
+
+When general employee awareness is combined with role-based training, continuous reinforcement, effective policies, and behavioral measurement, the workforce becomes an important and active layer of the organization's overall security defense.
+
 
 

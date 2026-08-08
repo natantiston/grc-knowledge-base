@@ -2781,6 +2781,1078 @@ The stronger objective is:
 
 When technical competency is aligned with role, privilege, organizational risk, and control ownership, IT personnel become a powerful layer of the organization's **defense-in-depth strategy**.
 
+## Developers and DevSecOps Awareness
+
+Developers and DevSecOps personnel require specialized security awareness because they directly influence the security of applications, APIs, infrastructure, code repositories, and software delivery pipelines.
+
+A vulnerability introduced during development can become embedded in a product and potentially affect thousands or millions of users. Similarly, a compromised CI/CD pipeline can allow an attacker to inject malicious code into otherwise legitimate software.
+
+For this reason, developers should not be treated simply as general employees who happen to write code.
+
+> **Developers are security control owners and security decision-makers within the software development lifecycle.**
+
+## Why Developer Security Awareness Matters
+
+Modern organizations increasingly depend on software.
+
+Applications may process:
+
+* Customer information.
+* Financial transactions.
+* Authentication credentials.
+* Personal data.
+* Intellectual property.
+* Business-critical processes.
+
+A security weakness in an application can therefore create significant:
+
+* Confidentiality risk.
+* Integrity risk.
+* Availability risk.
+* Privacy risk.
+* Compliance risk.
+* Reputational risk.
+
+Security awareness must therefore begin during development rather than after the application reaches production.
+
+## From Security Awareness to Secure Development
+
+General employee awareness might teach:
+
+> "Do not click suspicious links."
+
+Developer security awareness must go further:
+
+> "How can insecure code create vulnerabilities, and how do I prevent them?"
+
+Examples include:
+
+* SQL injection.
+* Cross-site scripting.
+* Broken access control.
+* Insecure authentication.
+* Sensitive-data exposure.
+* Insecure APIs.
+* Hardcoded credentials.
+* Vulnerable dependencies.
+
+Developers need to understand both **what the vulnerability is** and **how their development decisions can create or prevent it**.
+
+## Secure Software Development Lifecycle
+
+Security should be integrated throughout the **Software Development Life Cycle (SDLC)**.
+
+A simplified model is:
+
+**Requirements**
+
+↓
+
+**Design**
+
+↓
+
+**Development**
+
+↓
+
+**Testing**
+
+↓
+
+**Deployment**
+
+↓
+
+**Operations**
+
+↓
+
+**Monitoring**
+
+↓
+
+**Improvement**
+
+Security activities should exist at every stage.
+
+This is the fundamental concept behind **Secure SDLC**.
+
+## Security Requirements
+
+Security should be considered before development begins.
+
+Developers and architects should understand requirements such as:
+
+* Authentication.
+* Authorization.
+* Encryption.
+* Logging.
+* Privacy.
+* Data retention.
+* Input validation.
+* Secure API access.
+
+For example, if an application processes sensitive personal information, privacy and security requirements should be established before coding begins.
+
+## Threat Modeling
+
+Developers and security teams should understand **threat modeling**.
+
+Threat modeling asks:
+
+> **What could go wrong, and how could an attacker exploit the system?**
+
+A basic process can include:
+
+1. Identify assets.
+2. Identify trust boundaries.
+3. Identify threats.
+4. Identify vulnerabilities.
+5. Determine potential impact.
+6. Design mitigations.
+
+Threat modeling helps identify security problems before implementation becomes expensive to change.
+
+## Secure Design
+
+Security should be incorporated into application architecture.
+
+Examples include:
+
+* Least privilege.
+* Defense in depth.
+* Secure authentication.
+* Authorization controls.
+* Network segmentation.
+* Encryption.
+* Secure session management.
+
+Developers should understand that secure design is generally more effective than trying to fix fundamental architectural weaknesses after deployment.
+
+## Secure Coding
+
+Developers should understand secure coding practices relevant to their technology stack.
+
+Examples include:
+
+* Input validation.
+* Output encoding.
+* Parameterized queries.
+* Secure authentication.
+* Secure authorization.
+* Error handling.
+* Secure session management.
+* Cryptographic best practices.
+
+Training should be practical and directly related to the programming languages and frameworks used by the organization.
+
+## Input Validation
+
+Applications should not blindly trust user input.
+
+Unvalidated input can contribute to attacks such as:
+
+* SQL injection.
+* Command injection.
+* Cross-site scripting.
+* Path traversal.
+
+Developers should understand how to validate and safely process input according to the application's requirements.
+
+## Authentication vs. Authorization
+
+Developers should clearly understand the difference.
+
+**Authentication**
+
+> "Who are you?"
+
+**Authorization**
+
+> "What are you allowed to do?"
+
+An application can have strong authentication while still having serious authorization vulnerabilities.
+
+For example:
+
+> A user successfully logs into the application but can access another customer's records by changing an identifier in a URL.
+
+This represents an authorization problem.
+
+## Secure Authentication
+
+Developer training should cover:
+
+* Strong authentication.
+* MFA integration.
+* Password handling.
+* Session management.
+* Credential protection.
+* Account recovery.
+
+Developers should avoid implementing authentication mechanisms independently when established and securely maintained solutions are available.
+
+## Secrets Management
+
+One of the common developer security problems is exposing secrets in source code.
+
+Examples include:
+
+* API keys.
+* Database passwords.
+* Cloud credentials.
+* Encryption keys.
+* Service credentials.
+
+A dangerous pattern is:
+
+```text
+username = "admin"
+password = "SecretPassword123"
+```
+
+inside application code.
+
+Secrets should instead be managed using approved mechanisms such as:
+
+* Secrets-management platforms.
+* Environment-specific secure configuration.
+* Managed identity mechanisms.
+* Secure credential stores.
+
+## Source Code Security
+
+Source code repositories contain valuable intellectual property and potentially sensitive information.
+
+Developers should understand:
+
+* Repository access control.
+* Branch protection.
+* Code review.
+* Secret scanning.
+* Commit security.
+* Dependency management.
+* Secure authentication.
+
+Public exposure of a private repository can create significant security and intellectual-property risks.
+
+## Dependency Security
+
+Modern applications frequently rely on third-party libraries.
+
+A developer may write only a small portion of an application while depending on hundreds of external packages.
+
+Training should cover:
+
+* Dependency inventories.
+* Vulnerability scanning.
+* Version management.
+* Trusted repositories.
+* Software Bill of Materials (SBOM).
+* Removal of unnecessary dependencies.
+
+A vulnerable dependency can introduce risk even when the organization's own code is secure.
+
+## Open-Source Software
+
+Open-source software can provide significant benefits, but developers should understand associated risks.
+
+These include:
+
+* Vulnerable components.
+* Malicious packages.
+* Abandoned projects.
+* License issues.
+* Dependency confusion.
+* Typosquatting.
+
+Developers should follow organizational processes for selecting and managing external components.
+
+## Software Supply Chain Security
+
+The software supply chain includes:
+
+* Developers.
+* Source repositories.
+* Dependencies.
+* Build systems.
+* CI/CD pipelines.
+* Package repositories.
+* Deployment systems.
+
+An attacker does not necessarily need to compromise the final application directly.
+
+They may target an earlier stage of the development process.
+
+## CI/CD Security
+
+DevSecOps personnel should understand the security of CI/CD pipelines.
+
+Important areas include:
+
+* Pipeline authentication.
+* Access control.
+* Secrets management.
+* Build integrity.
+* Artifact integrity.
+* Dependency security.
+* Pipeline logging.
+* Runner security.
+
+A compromised pipeline can become a powerful attack mechanism.
+
+## DevSecOps
+
+**DevSecOps** integrates security into development and operations rather than treating security as a separate final-stage activity.
+
+The traditional model might look like:
+
+**Develop → Test → Security Review → Deploy**
+
+A DevSecOps model is closer to:
+
+**Plan → Code → Build → Test → Secure → Deploy → Monitor**
+
+with security integrated throughout the process.
+
+## Shift Left
+
+The concept of **shift left** means identifying and addressing security issues earlier in the development lifecycle.
+
+For example:
+
+**Production vulnerability**
+
+More expensive to fix.
+
+↓
+
+**Testing-stage vulnerability**
+
+Earlier detection.
+
+↓
+
+**Code-stage vulnerability**
+
+Even earlier detection.
+
+↓
+
+**Design-stage security issue**
+
+Potentially the earliest and most cost-effective intervention.
+
+However, security should not only "shift left."
+
+Modern DevSecOps also requires security to remain active throughout deployment and operations.
+
+## Shift Everywhere
+
+A mature DevSecOps model integrates security across the entire lifecycle:
+
+**Design**
+
+**Code**
+
+**Build**
+
+**Test**
+
+**Deploy**
+
+**Operate**
+
+**Monitor**
+
+This ensures that security does not disappear after development.
+
+## Security Testing
+
+Developers should understand different forms of security testing.
+
+Examples include:
+
+* Static Application Security Testing (SAST).
+* Dynamic Application Security Testing (DAST).
+* Software Composition Analysis (SCA).
+* Infrastructure-as-Code scanning.
+* Container scanning.
+* API security testing.
+* Penetration testing.
+
+Each technique identifies different types of risks.
+
+## SAST
+
+**Static Application Security Testing** analyzes source code or compiled code for potential security weaknesses.
+
+It can identify issues before an application is deployed.
+
+However, developers should understand that automated tools can produce:
+
+* False positives.
+* False negatives.
+* Findings requiring human judgment.
+
+Tools support developers; they do not replace secure development expertise.
+
+## DAST
+
+**Dynamic Application Security Testing** examines applications while they are running.
+
+It can help identify issues such as:
+
+* Application vulnerabilities.
+* Authentication weaknesses.
+* Configuration problems.
+
+DAST complements static analysis.
+
+## Software Composition Analysis
+
+**Software Composition Analysis (SCA)** helps identify vulnerabilities in third-party dependencies.
+
+For example:
+
+> Application → Library X → Known vulnerability
+
+The development team can then determine whether the dependency should be:
+
+* Updated.
+* Replaced.
+* Removed.
+* Mitigated.
+
+## Infrastructure as Code
+
+Modern DevSecOps frequently uses **Infrastructure as Code (IaC)**.
+
+Examples include:
+
+* Terraform.
+* CloudFormation.
+* Kubernetes manifests.
+
+Developers and infrastructure teams should understand that insecure infrastructure code can create production vulnerabilities.
+
+For example:
+
+> A cloud storage resource accidentally configured for public access.
+
+This may result from an IaC configuration mistake rather than traditional application code.
+
+## Container Security
+
+Developers using containers should understand:
+
+* Base-image security.
+* Image scanning.
+* Dependency management.
+* Container privileges.
+* Secrets.
+* Registry security.
+* Runtime controls.
+
+Containers should not automatically be considered secure simply because they are isolated from traditional servers.
+
+## API Security
+
+APIs frequently expose business functionality and data.
+
+Developer awareness should cover:
+
+* Authentication.
+* Authorization.
+* Input validation.
+* Rate limiting.
+* Secure error handling.
+* Logging.
+* Data exposure.
+
+Broken API authorization can result in significant data breaches.
+
+## Logging and Secure Monitoring
+
+Developers should understand how applications contribute to security monitoring.
+
+Applications may need to log:
+
+* Authentication events.
+* Authorization failures.
+* Administrative activity.
+* Security-relevant changes.
+* Suspicious transactions.
+
+However, developers should also understand that logs must not unnecessarily expose:
+
+* Passwords.
+* Authentication tokens.
+* Encryption keys.
+* Sensitive personal information.
+
+## Privacy by Design
+
+Developers increasingly need privacy awareness.
+
+Applications should consider:
+
+* Data minimization.
+* Purpose limitation.
+* Access control.
+* Retention.
+* Secure deletion.
+* Privacy requirements.
+
+For example:
+
+> If an application does not need a customer's full date of birth, collecting it may create unnecessary privacy risk.
+
+This connects software development with privacy governance.
+
+## Secure Error Handling
+
+Applications should avoid revealing sensitive technical information through error messages.
+
+For example, exposing:
+
+* Database details.
+* Internal paths.
+* Stack traces.
+* Credentials.
+* System architecture.
+
+may help attackers understand the application.
+
+Error messages should provide useful information to legitimate users without unnecessarily exposing internal details.
+
+## AI-Assisted Coding
+
+AI-assisted development introduces new security considerations.
+
+Developers increasingly use AI tools to:
+
+* Generate code.
+* Explain code.
+* Debug applications.
+* Create tests.
+* Generate documentation.
+
+However, developers should understand that AI-generated code can contain:
+
+* Security vulnerabilities.
+* Incorrect assumptions.
+* Outdated practices.
+* Insecure dependencies.
+* Logic errors.
+
+Therefore:
+
+> **AI-generated code must be reviewed, tested, and validated like human-written code.**
+
+## Protecting Code and Data When Using AI
+
+Developers should also understand the risk of submitting sensitive information to AI systems.
+
+Examples include:
+
+* Proprietary source code.
+* Customer data.
+* API credentials.
+* Internal architecture.
+* Security configurations.
+
+Organizations should establish clear policies regarding approved AI tools and permitted data.
+
+## DevSecOps Security Gates
+
+Organizations can implement automated security controls within CI/CD pipelines.
+
+For example:
+
+**Developer commits code**
+
+↓
+
+**SAST scan**
+
+↓
+
+**Dependency scan**
+
+↓
+
+**Secret scan**
+
+↓
+
+**Build**
+
+↓
+
+**Container scan**
+
+↓
+
+**Security tests**
+
+↓
+
+**Deployment**
+
+Security gates can prevent known high-risk issues from reaching production.
+
+However, organizations should carefully design gates to avoid overwhelming developers with excessive false positives.
+
+## Developer Security Champions
+
+A **Security Champion** is a developer or technical team member who helps integrate security into their development team.
+
+Security champions can:
+
+* Promote secure coding.
+* Coordinate with security teams.
+* Help interpret vulnerabilities.
+* Encourage threat modeling.
+* Support security testing.
+* Share security knowledge.
+
+They help bridge the gap between development and security teams.
+
+## Security Champions Network
+
+A larger organization may establish a network:
+
+**Central Security Team**
+
+↓
+
+**Security Champions**
+
+↓
+
+**Development Teams**
+
+This creates distributed security expertise without requiring every developer to become a security specialist.
+
+## Security Code Review
+
+Code review should consider security where appropriate.
+
+Reviewers may examine:
+
+* Authentication.
+* Authorization.
+* Input validation.
+* Secrets.
+* Error handling.
+* Data handling.
+* Cryptography.
+* Dependencies.
+
+Security should become part of normal development quality practices.
+
+## Secure Coding Standards
+
+Organizations should establish secure coding standards appropriate to their technology environment.
+
+Standards may address:
+
+* Authentication.
+* Authorization.
+* Input validation.
+* Cryptography.
+* Secrets.
+* Logging.
+* Error handling.
+* Dependencies.
+* API security.
+
+Standards provide developers with consistent expectations.
+
+## Developer Training by Technology
+
+Training should be relevant to the actual technology stack.
+
+For example:
+
+**Web Developers**
+
+* OWASP risks.
+* Web authentication.
+* Session security.
+* XSS.
+* Injection.
+
+**API Developers**
+
+* API authentication.
+* Authorization.
+* Rate limiting.
+* Data exposure.
+
+**Cloud Developers**
+
+* Cloud IAM.
+* Secure storage.
+* Infrastructure as Code.
+
+**Mobile Developers**
+
+* Secure local storage.
+* Mobile authentication.
+* API security.
+
+**DevOps Engineers**
+
+* CI/CD security.
+* Secrets.
+* Container security.
+* Pipeline integrity.
+
+## OWASP Awareness
+
+The **OWASP Top 10** is commonly used as an introductory reference for application security awareness.
+
+It helps developers understand common categories of web application risks.
+
+However, organizations should avoid treating the OWASP Top 10 as a complete application-security program.
+
+Secure development should also consider:
+
+* Business logic.
+* Architecture.
+* API security.
+* Supply-chain risks.
+* Cloud security.
+* Privacy.
+* Threat modeling.
+
+## Secure-by-Design
+
+A mature organization moves beyond:
+
+> **"Find vulnerabilities and fix them."**
+
+toward:
+
+> **"Design systems so that common vulnerabilities are less likely to occur."**
+
+Examples include:
+
+* Secure-by-default configurations.
+* Standard authentication libraries.
+* Reusable secure components.
+* Centralized secrets management.
+* Secure development templates.
+
+This reduces the likelihood of developers repeatedly making the same security mistakes.
+
+## Security Automation
+
+DevSecOps uses automation to integrate security into normal workflows.
+
+Examples include:
+
+* Automated dependency scanning.
+* Secret detection.
+* SAST.
+* Container scanning.
+* IaC scanning.
+* Security testing.
+
+Automation allows security checks to occur repeatedly without relying entirely on manual reviews.
+
+## Security Automation Does Not Replace Awareness
+
+Automation is valuable, but developers still need security knowledge.
+
+A tool might identify:
+
+> "Potential SQL injection."
+
+The developer still needs to understand:
+
+* Why it is dangerous.
+* Whether it is a true positive.
+* How to fix it.
+* Whether similar vulnerabilities exist elsewhere.
+
+Therefore:
+
+> **Automation identifies problems; skilled people interpret and resolve them.**
+
+## Measuring Developer Security Awareness
+
+Organizations can measure:
+
+### Training Metrics
+
+* Completion rate.
+* Assessment scores.
+* Security workshop participation.
+
+### Development Metrics
+
+* Vulnerabilities per application.
+* Critical findings.
+* Vulnerability remediation time.
+* Repeat vulnerabilities.
+
+### Process Metrics
+
+* Threat models completed.
+* Security reviews performed.
+* Security tests integrated into pipelines.
+
+### Behavioral Metrics
+
+* Secret commits.
+* Repeated insecure coding patterns.
+* Security exceptions.
+
+### Outcome Metrics
+
+* Reduction in production vulnerabilities.
+* Reduced remediation time.
+* Improved application security.
+
+## Example Developer Security Dashboard
+
+| Metric                          | Current |   Target |
+| ------------------------------- | ------: | -------: |
+| Secure coding training          |     98% |     >95% |
+| Critical vulnerabilities        |       4 |        0 |
+| Average remediation time        | 12 days | <14 days |
+| Secret exposures                |       1 |        0 |
+| Applications with threat models |     82% |     >90% |
+| Security pipeline coverage      |     91% |     >90% |
+
+The goal is to connect developer security practices to measurable risk reduction.
+
+## Security Debt
+
+Organizations should also monitor **security debt**.
+
+Security debt can accumulate when teams:
+
+* Delay vulnerability remediation.
+* Use outdated dependencies.
+* Maintain insecure legacy applications.
+* Accept technical security exceptions.
+* Avoid necessary architectural changes.
+
+Security debt can eventually increase organizational risk and development costs.
+
+## Training Following Security Incidents
+
+Application-security incidents should generate lessons for developers.
+
+For example:
+
+**Incident**
+
+Unauthorized access to customer records.
+
+↓
+
+**Root Cause**
+
+Broken authorization control.
+
+↓
+
+**Training Gap**
+
+Developers did not adequately understand object-level authorization.
+
+↓
+
+**Corrective Action**
+
+Targeted secure API and authorization training.
+
+↓
+
+**Verification**
+
+Security testing added to the CI/CD pipeline.
+
+This demonstrates how awareness can directly contribute to risk reduction.
+
+## Developer Training and GRC
+
+From a GRC perspective, developer security awareness supports:
+
+* Secure development controls.
+* Risk management.
+* Vulnerability management.
+* Privacy requirements.
+* Compliance.
+* Security governance.
+
+The relationship can be represented as:
+
+**Security Requirement**
+
+↓
+
+**Secure Development Standard**
+
+↓
+
+**Developer Competency**
+
+↓
+
+**Secure Implementation**
+
+↓
+
+**Security Testing**
+
+↓
+
+**Control Validation**
+
+↓
+
+**Risk Reduction**
+
+This connects software development directly with the organization's security governance framework.
+
+## Evidence for Audit
+
+Organizations should maintain evidence such as:
+
+* Secure coding training records.
+* Developer competency assessments.
+* Security standards.
+* Threat-modeling records.
+* Security review records.
+* SAST/DAST results.
+* Dependency-scanning results.
+* Security exceptions.
+* Security Champion activities.
+* CI/CD security controls.
+
+This can demonstrate that secure development practices are implemented rather than simply documented.
+
+## Common Mistakes
+
+Organizations should avoid:
+
+### Training Developers Only Once
+
+Development technologies and threats change rapidly.
+
+### Treating Security as the Security Team's Responsibility
+
+Developers have direct influence over application security.
+
+### Relying Entirely on Security Tools
+
+Tools cannot replace developer understanding.
+
+### Ignoring Dependencies
+
+Third-party components can introduce significant vulnerabilities.
+
+### Allowing Secrets in Source Code
+
+Credentials and API keys can be exposed through repositories.
+
+### Ignoring CI/CD Security
+
+A compromised pipeline can undermine otherwise secure code.
+
+### Treating AI-Generated Code as Automatically Secure
+
+AI-generated code still requires review and testing.
+
+### Making Security Gates Excessively Difficult
+
+Poorly designed controls can encourage developers to bypass security processes.
+
+### Measuring Only Training Completion
+
+The real objective is improved software security.
+
+## Example DevSecOps Awareness Program
+
+A mature organization could establish:
+
+### Onboarding
+
+* Secure coding principles.
+* Security policies.
+* Development standards.
+* Repository security.
+
+### Monthly
+
+* Security tips.
+* Vulnerability lessons.
+* Secure coding examples.
+
+### Quarterly
+
+* Secure coding workshop.
+* Threat-modeling exercise.
+* Security Champion meeting.
+
+### Semiannually
+
+* Application-security exercise.
+* CI/CD security review.
+
+### Annually
+
+* Secure development refresher.
+* Developer competency assessment.
+
+### Event-Driven
+
+Additional training following:
+
+* Significant vulnerabilities.
+* Application security incidents.
+* New development technologies.
+* Major regulatory requirements.
+* Introduction of AI-assisted development.
+
+## Key Takeaways
+
+Developers and DevSecOps personnel require specialized security awareness because their decisions directly affect application and software supply-chain security.
+
+The key principles are:
+
+1. **Security should be integrated throughout the SDLC.**
+2. **Developers should understand secure coding principles.**
+3. **Threat modeling should be used to identify security risks early.**
+4. **Authentication and authorization must be properly understood.**
+5. **Secrets should never be unnecessarily embedded in source code.**
+6. **Third-party dependencies and software supply-chain risks require attention.**
+7. **CI/CD pipelines must be protected as critical infrastructure.**
+8. **Security testing should be integrated into development workflows.**
+9. **AI-generated code must be reviewed and validated.**
+10. **Security Champions can help embed security within development teams.**
+11. **Automation should support, not replace, developer security knowledge.**
+12. **Developer training should be measured through security outcomes, not merely completion.**
+13. **Secure development should incorporate privacy and compliance requirements.**
+14. **Continuous improvement should be driven by vulnerabilities, incidents, and lessons learned.**
+
+The ultimate objective is not simply:
+
+> **"Developers completed secure coding training."**
+
+The stronger objective is:
+
+> **"Developers consistently incorporate security into design, coding, testing, deployment, and operational decisions."**
+
+When security awareness becomes integrated into the development lifecycle, **DevSecOps transforms security from a final inspection into a continuous engineering practice**.
+
 
 
 

@@ -239,3 +239,252 @@ The most important principles are:
 7. **Build secure habits rather than relying only on written policies.**
 
 A strong clean desk policy ultimately helps create a workplace where protecting information becomes part of normal employee behavior rather than an activity performed only during security audits.
+
+## Tailgating and Piggybacking
+
+Physical security is not only about protecting documents and equipment. Organizations must also control **who is physically allowed to enter restricted areas**.
+
+Even when an organization has strong access-control systems, an unauthorized person may gain access by following an authorized employee through a secured door. This is known as **tailgating or piggybacking**.
+
+Understanding these techniques is important because physical access can provide an attacker with opportunities to steal information, access systems, install unauthorized devices, observe employees, or conduct further social engineering.
+
+### What Is Tailgating?
+
+**Tailgating** occurs when an unauthorized person follows an authorized individual through a secured entrance without having their own authorization.
+
+For example:
+
+> An employee uses their access card to open a secure office door. A person carrying several boxes approaches behind them and says, "Could you hold the door for me?" The employee allows the person to enter without checking whether they have authorization.
+
+The unauthorized individual has now entered a restricted area without presenting valid credentials.
+
+Tailgating generally involves the unauthorized person entering **without the explicit assistance or awareness of the authorized employee**.
+
+### What Is Piggybacking?
+
+**Piggybacking** is similar, but the authorized employee may knowingly allow another person to enter.
+
+For example:
+
+> An employee recognizes someone as a contractor and allows them to enter through a controlled door without requiring them to use their own access badge.
+
+The distinction between tailgating and piggybacking can vary between organizations and security literature. In practice, the most important security awareness message is the same:
+
+**Employees should not allow unauthorized individuals to bypass physical access controls.**
+
+### Why Tailgating Is a Security Risk
+
+Tailgating can appear harmless, especially when the person seems trustworthy.
+
+However, once inside a restricted area, an unauthorized individual may be able to:
+
+* Access unattended computers.
+* View confidential documents.
+* Photograph sensitive information.
+* Enter server rooms or network areas.
+* Connect unauthorized devices.
+* Steal equipment.
+* Observe employee activities.
+* Search for unattended credentials.
+* Gather information for a later cyberattack.
+* Impersonate an employee or contractor.
+* Conduct additional social engineering.
+
+This demonstrates the relationship between **physical security and cybersecurity**.
+
+An attacker does not necessarily need to defeat a firewall or compromise an authentication system if they can simply walk into a restricted area.
+
+### Common Social Engineering Techniques
+
+Attackers may use social engineering to make employees feel uncomfortable refusing access.
+
+Common techniques include:
+
+**Following closely behind someone**
+
+The attacker waits for an employee to open a secure door and immediately follows.
+
+**Pretending to be an employee**
+
+The person may behave confidently and assume that employees will not question them.
+
+**Impersonating a contractor**
+
+An attacker may wear clothing, carry equipment, or claim to be working for a known service provider.
+
+**Creating urgency**
+
+The attacker may say that they are late for a meeting or need immediate access to complete an important task.
+
+**Carrying objects**
+
+Someone carrying boxes, equipment, or other items may encourage an employee to hold the door.
+
+**Using social pressure**
+
+The attacker may make the employee feel rude or unhelpful for asking for identification.
+
+**Exploiting familiarity**
+
+An attacker may claim to know someone in the organization:
+
+> "I'm here to see John from IT."
+
+The employee may accept the statement without verification.
+
+### Security Awareness Response
+
+Employees should understand that **being helpful is not more important than following physical security procedures**.
+
+If an individual does not have the appropriate access credentials, the employee should not simply allow them to enter.
+
+Appropriate actions may include:
+
+1. Politely ask the individual to use their own access credential.
+2. Direct visitors to reception or the designated check-in area.
+3. Contact the employee or department the visitor claims to be visiting.
+4. Follow the organization's visitor-management procedure.
+5. Report suspicious behavior to security personnel.
+6. Avoid confrontation if doing so could create a safety risk.
+
+A simple statement such as:
+
+> "I'm sorry, everyone needs to use their own badge."
+
+can reinforce the security requirement without creating unnecessary conflict.
+
+### Access-Control Systems Are Not Enough
+
+Organizations commonly use physical access controls such as:
+
+* Badge readers
+* Smart cards
+* Biometrics
+* PINs
+* Security guards
+* Turnstiles
+* Mantraps
+* CCTV
+* Mobile access credentials
+
+These technologies are valuable, but they cannot completely eliminate human behavior as a security risk.
+
+For example, a badge reader may correctly verify that an employee has permission to enter. It cannot automatically determine whether another person is following that employee through the door.
+
+This is why **security awareness must complement physical security technology**.
+
+### Secure Entry Practices
+
+Employees should be trained to develop several basic habits.
+
+#### Do Not Hold Secure Doors Open for Unknown Individuals
+
+Employees should not automatically hold secured doors open for people they do not recognize.
+
+#### Do Not Assume Everyone Belongs
+
+Someone wearing an employee badge, company clothing, or carrying equipment should not automatically be considered authorized.
+
+#### Challenge Politely
+
+Where organizational procedures permit it, employees should politely ask individuals who they are and whether they have appropriate authorization.
+
+#### Use Individual Credentials
+
+Employees should never lend their access badge, access card, PIN, or other authentication mechanism to another person.
+
+#### Report Suspicious Behavior
+
+Repeated attempts to bypass access controls should be reported through the organization's established security process.
+
+### Tailgating in Different Environments
+
+Tailgating risks are not limited to the main entrance of a corporate building.
+
+They can occur at:
+
+* Office entrances
+* Server rooms
+* Data centers
+* Security operations centers
+* Research laboratories
+* Warehouses
+* Manufacturing facilities
+* Telecommunications facilities
+* Restricted floors
+* Conference rooms
+* Storage areas
+* Construction or temporary work sites
+
+The higher the sensitivity of the area, the more important strict access controls become.
+
+For example, allowing an unauthorized person into a public reception area may create relatively limited risk. Allowing the same person into a data center could create significantly greater consequences.
+
+### Remote and Hybrid Work Considerations
+
+Tailgating principles can also apply to shared offices and coworking environments.
+
+Employees working outside the organization's primary facility should remain aware of who can physically access their workspace.
+
+For example, an employee working in a coworking facility should not allow an unknown person to enter a restricted office area simply because that person asks them to hold the door.
+
+Similarly, employees should not allow unauthorized individuals to enter company-controlled temporary workspaces.
+
+### Security Awareness Exercises
+
+Organizations can use controlled security awareness exercises to evaluate whether employees recognize tailgating attempts.
+
+For example, an authorized security team may conduct a simulated exercise in which a trained tester attempts to enter a controlled area by following an employee.
+
+The purpose should be **education and risk reduction**, not embarrassment or punishment.
+
+After the exercise, employees should receive appropriate feedback explaining:
+
+* What happened.
+* Why the behavior created risk.
+* What the employee should have done.
+* How to report similar situations.
+* What procedures apply in the future.
+
+Any exercise should be conducted under appropriate authorization and within defined rules to avoid creating unnecessary disruption or safety concerns.
+
+### GRC Perspective
+
+From a GRC perspective, tailgating is an example of how **human behavior can undermine a technical or physical control**.
+
+A well-designed physical access-control framework may include:
+
+**Policy → Access Control → Awareness → Monitoring → Testing → Corrective Action**
+
+The organization establishes physical security requirements, implements access controls, trains employees, monitors security events, tests the effectiveness of controls, and addresses weaknesses.
+
+Useful evidence may include:
+
+* Physical access-control policies.
+* Employee security awareness records.
+* Visitor-management procedures.
+* Access-control logs.
+* Security incident records.
+* Physical security assessment reports.
+* Results from authorized security exercises.
+* Corrective-action records.
+
+Security awareness professionals should therefore ensure that employees understand not only **what the physical access policy says**, but also **why bypassing that policy creates cybersecurity risk**.
+
+### Key Takeaways
+
+Tailgating and piggybacking exploit human behavior rather than directly defeating an access-control system.
+
+The most important awareness principles are:
+
+1. **Do not allow unauthorized individuals to bypass access controls.**
+2. **Never lend access badges or credentials.**
+3. **Do not assume that someone is authorized simply because they appear legitimate.**
+4. **Direct visitors through the approved visitor-management process.**
+5. **Report suspicious attempts to bypass physical security.**
+6. **Use awareness exercises to reinforce secure behavior.**
+7. **Remember that physical access can lead to cybersecurity compromise.**
+
+Effective physical security depends on both **technology and people**. Access-control systems can control the door, but security-aware employees help control who actually walks through it.
+
+

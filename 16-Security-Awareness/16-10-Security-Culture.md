@@ -1378,6 +1378,741 @@ to:
 
 When leadership consistently demonstrates the expected behavior and employees are actively engaged, security becomes part of the organization's **shared culture rather than simply another set of rules**.
 
+## Reward and Recognition Programs
+
+Reward and recognition programs can be an effective way to reinforce positive security behavior and encourage employees to actively participate in the organization's security culture.
+
+Security awareness should not focus exclusively on what employees do wrong. Organizations should also recognize employees and teams that demonstrate **positive security behavior**.
+
+The underlying principle is:
+
+> **What an organization recognizes and reinforces is more likely to become part of its culture.**
+
+However, reward programs must be carefully designed. Poorly designed incentives can create unintended behavior, such as employees hiding mistakes to protect their department's performance score.
+
+## Why Recognition Matters
+
+Employees receive many messages and requirements during their workday.
+
+If security communication focuses only on:
+
+* Policy violations.
+* Failed phishing simulations.
+* Mandatory training.
+* Disciplinary actions.
+
+employees may eventually associate cybersecurity with punishment and inconvenience.
+
+Recognition provides a different message:
+
+> **"Good security behavior is valuable and appreciated."**
+
+This can help create a more positive relationship between employees and the security function.
+
+## Reward vs. Recognition
+
+Although the terms are often used together, they are slightly different.
+
+### Recognition
+
+Recognition is an acknowledgment of positive behavior.
+
+Examples include:
+
+* Public appreciation.
+* Certificates.
+* Employee-of-the-month recognition.
+* Management acknowledgment.
+* Team announcements.
+
+### Reward
+
+A reward provides some form of tangible benefit.
+
+Examples include:
+
+* Small gifts.
+* Points.
+* Prizes.
+* Training opportunities.
+* Professional development opportunities.
+
+Recognition does not necessarily require money.
+
+In many cases, meaningful recognition from leadership can be highly effective.
+
+## What Should Be Recognized?
+
+Organizations should recognize behaviors that directly support security objectives.
+
+Examples include:
+
+* Reporting suspicious emails.
+* Reporting security incidents quickly.
+* Identifying fraudulent requests.
+* Following secure data-handling procedures.
+* Protecting sensitive information.
+* Identifying security weaknesses.
+* Participating in awareness activities.
+* Helping colleagues understand security requirements.
+* Acting appropriately during security exercises.
+
+The focus should be on **desired behavior**, rather than simply completing administrative requirements.
+
+## Recognizing Phishing Reporting
+
+One of the simplest opportunities for recognition is phishing reporting.
+
+For example, employees who consistently identify and report simulated phishing messages could receive recognition.
+
+However, organizations should avoid creating an environment where employees feel pressured to report every message simply to increase their score.
+
+The objective should be:
+
+> **Accurate and appropriate reporting.**
+
+not:
+
+> **Maximum reporting regardless of accuracy.**
+
+## Example Recognition Program
+
+An organization might establish a quarterly:
+
+**Security Champion Award**
+
+Criteria could include:
+
+* Consistent phishing reporting.
+* Prompt incident reporting.
+* Participation in awareness activities.
+* Helping colleagues.
+* Demonstrating strong security practices.
+
+The award could be presented by a senior manager during a team meeting.
+
+This provides visibility to positive security behavior.
+
+## Team-Based Recognition
+
+Recognition does not always have to focus on individuals.
+
+Teams or departments can also be recognized.
+
+For example:
+
+> "The Finance team achieved a 48% phishing reporting rate this quarter, representing a 20% improvement from the previous quarter."
+
+Team recognition can encourage collaboration and reduce excessive individual competition.
+
+## Why Team Recognition Can Be Better
+
+Individual rankings can sometimes create undesirable behavior.
+
+For example:
+
+> "Employee #147 had the highest phishing score."
+
+This could embarrass employees or create unnecessary competition.
+
+A team-based approach may instead encourage:
+
+> "Our department improved its phishing reporting rate by 25%."
+
+This supports a more collaborative security culture.
+
+## Recognition for Improvement
+
+Organizations should not recognize only employees who already perform exceptionally well.
+
+Recognition can also be based on **improvement**.
+
+For example:
+
+> Employee reporting rate increased from 10% to 35%.
+
+That represents substantial improvement, even if the employee has not yet reached the organizational target.
+
+Recognizing improvement encourages continued progress.
+
+## Recognition for Security Reporting
+
+Employees who report genuine security issues can provide significant value to the organization.
+
+Examples include reporting:
+
+* Phishing.
+* Suspicious access.
+* Lost devices.
+* Misconfigured systems.
+* Exposed information.
+* Unusual account activity.
+* Physical security concerns.
+
+Organizations should recognize appropriate reporting because employees can become an important part of the organization's early-warning capability.
+
+## Do Not Reward Only "Perfect" Behavior
+
+Security is not about achieving zero mistakes.
+
+If employees believe that only perfect performance receives recognition, they may become reluctant to admit errors.
+
+Instead, organizations should recognize behaviors such as:
+
+> **"I made a mistake and reported it immediately."**
+
+This can be more valuable than:
+
+> **"I never reported any mistakes."**
+
+The first behavior demonstrates accountability and supports early detection.
+
+## Recognition and Psychological Safety
+
+Reward programs should complement a psychologically safe environment.
+
+Employees should feel comfortable saying:
+
+> "I made a mistake."
+
+without automatically fearing punishment.
+
+Recognition can reinforce this by acknowledging employees who report problems quickly.
+
+For example:
+
+> "Thank you for reporting the suspicious message immediately. This allowed the Security team to investigate and protect other users."
+
+This reinforces the desired behavior.
+
+## Avoiding Punitive Competition
+
+Security awareness programs sometimes use competitive leaderboards.
+
+For example:
+
+| Department | Phishing Click Rate |
+| ---------- | ------------------: |
+| IT         |                  4% |
+| Finance    |                  7% |
+| HR         |                 10% |
+| Sales      |                 15% |
+
+Leaderboards can increase engagement, but they can also create negative consequences.
+
+Employees may feel embarrassed if their department performs poorly.
+
+Managers may become frustrated with employees.
+
+Employees may stop reporting mistakes.
+
+Competition should therefore be used carefully.
+
+## Positive Competition
+
+If competition is used, it should emphasize positive outcomes.
+
+For example, instead of:
+
+> "Which department has the most failures?"
+
+use:
+
+> "Which department improved its phishing reporting rate the most?"
+
+This shifts the focus from punishment to improvement.
+
+## Rewarding Security Champions
+
+Security champions can receive additional recognition for their contribution.
+
+Possible recognition includes:
+
+* Certificates.
+* Professional development opportunities.
+* Conference attendance.
+* Training opportunities.
+* Leadership recognition.
+* Internal awards.
+
+This reinforces the importance of distributed security responsibility.
+
+## Non-Financial Rewards
+
+Security recognition does not always require a significant budget.
+
+Examples include:
+
+* Thank-you messages from leadership.
+* Certificates.
+* Recognition in company newsletters.
+* Team acknowledgments.
+* Security champion badges.
+* Opportunities to participate in security projects.
+* Invitations to security workshops.
+
+For many organizations, these options are inexpensive but still meaningful.
+
+## Financial Rewards
+
+Organizations may also use financial or tangible incentives.
+
+Examples include:
+
+* Small gift cards.
+* Team rewards.
+* Performance bonuses.
+* Prizes.
+* Professional development funding.
+
+Financial incentives should be designed carefully to avoid encouraging employees to manipulate metrics.
+
+## Example: Poor Incentive Design
+
+Suppose an organization gives a large bonus to the department with the lowest phishing failure rate.
+
+Employees may become afraid to report mistakes because doing so could negatively affect their department's score.
+
+This creates:
+
+**Fear → Under-reporting → False improvement**
+
+The dashboard may show better results while the actual security culture becomes worse.
+
+This is a critical reason to avoid simplistic reward structures.
+
+## Example: Better Incentive Design
+
+Instead, the organization could reward:
+
+* Improvement over time.
+* Accurate phishing reporting.
+* Timely incident reporting.
+* Participation.
+* Security champion contributions.
+* Demonstrated secure behavior.
+
+This encourages the behaviors the organization actually wants.
+
+## Recognition and Security Culture
+
+Recognition can reinforce cultural expectations.
+
+For example:
+
+**Desired behavior**
+
+Employees report suspicious emails.
+
+↓
+
+**Employee reports phishing**
+
+↓
+
+**Security team responds**
+
+↓
+
+**Employee receives recognition**
+
+↓
+
+**Other employees see the behavior being valued**
+
+↓
+
+**Reporting becomes more common**
+
+↓
+
+**Security culture strengthens**
+
+This creates a positive reinforcement cycle.
+
+## Recognition From Leadership
+
+Recognition becomes particularly powerful when it comes from senior leaders.
+
+For example:
+
+> "I would like to recognize Maria for identifying and reporting a suspicious payment request that could have resulted in financial loss."
+
+This demonstrates that leadership values security behavior.
+
+It also communicates to other employees that cybersecurity contributes directly to business protection.
+
+## Recognition and Business Objectives
+
+Security recognition should be connected to meaningful business outcomes.
+
+For example, employees could be recognized for:
+
+* Protecting customer information.
+* Preventing fraud.
+* Protecting intellectual property.
+* Supporting business continuity.
+* Identifying security weaknesses.
+* Reducing operational risk.
+
+This helps employees understand that cybersecurity is not an isolated technical concern.
+
+## Security Awareness Gamification
+
+Recognition programs can be combined with **gamification**.
+
+Examples include:
+
+* Points.
+* Badges.
+* Levels.
+* Challenges.
+* Team competitions.
+* Security quizzes.
+* Achievement milestones.
+
+For example:
+
+> **Bronze:** Complete foundational training.
+
+> **Silver:** Complete advanced training.
+
+> **Gold:** Demonstrate strong performance during security exercises.
+
+Gamification can make awareness activities more engaging.
+
+However, it should not replace meaningful security education.
+
+## Gamification Risks
+
+Poorly designed gamification can create:
+
+* Excessive competition.
+* Employee embarrassment.
+* Metric manipulation.
+* Focus on points rather than learning.
+* Reduced participation by employees who dislike competition.
+
+Organizations should therefore evaluate whether gamification supports the intended security behavior.
+
+## Recognition for Learning
+
+Recognition can also encourage employees to develop security knowledge.
+
+Examples include recognizing:
+
+* Completion of optional security training.
+* Participation in workshops.
+* Completion of advanced security courses.
+* Security certifications.
+* Participation in security exercises.
+
+This can help develop a culture of continuous learning.
+
+## Recognition During Awareness Campaigns
+
+Awareness campaigns can incorporate recognition.
+
+For example, during a phishing awareness month:
+
+**Week 1**
+
+Phishing awareness training.
+
+**Week 2**
+
+Phishing simulation.
+
+**Week 3**
+
+Security reporting challenge.
+
+**Week 4**
+
+Recognition of teams demonstrating strong improvement.
+
+This creates a continuous engagement cycle.
+
+## Recognition for Real Security Contributions
+
+The most valuable recognition may come from real security contributions rather than simulated activities.
+
+Examples include an employee who:
+
+* Identifies a suspicious vendor request.
+* Reports a potential data exposure.
+* Notices unusual system behavior.
+* Identifies a physical security issue.
+* Helps prevent fraud.
+
+These behaviors demonstrate real security value.
+
+## Recognition and Privacy
+
+Organizations should consider employee privacy when publicly recognizing security behavior.
+
+Not every employee may want:
+
+* Their name published.
+* Their performance displayed.
+* Their department publicly ranked.
+
+Recognition should therefore consider:
+
+* Employee preferences.
+* Organizational policy.
+* Privacy requirements.
+* Cultural expectations.
+
+A recognition program should encourage employees, not make them uncomfortable.
+
+## Recognition Across Different Cultures
+
+Global organizations should consider cultural differences.
+
+Public recognition may be highly motivating for some employees but uncomfortable for others.
+
+Organizations may therefore provide different options:
+
+* Public recognition.
+* Private recognition.
+* Manager acknowledgment.
+* Team recognition.
+* Professional development opportunities.
+
+The objective is to make recognition meaningful and appropriate.
+
+## Measuring Recognition Program Effectiveness
+
+Organizations should measure whether recognition actually improves security behavior.
+
+Possible measurements include:
+
+* Participation rate.
+* Phishing reporting rate.
+* Training engagement.
+* Security incident reporting.
+* Employee survey results.
+* Behavioral improvement.
+* Repeat failure rates.
+
+For example:
+
+**Before recognition program**
+
+Phishing reporting: 25%
+
+**After six months**
+
+Phishing reporting: 43%
+
+This may indicate that the combined awareness and recognition strategy is producing positive results.
+
+However, organizations should avoid assuming that recognition alone caused the improvement.
+
+## Recognition Program KPIs
+
+Possible KPIs include:
+
+| KPI                             |   Example Target |
+| ------------------------------- | ---------------: |
+| Employee participation          |             >70% |
+| Security campaign participation |             >80% |
+| Recognition nominations         | Increasing trend |
+| Security champion participation |             >90% |
+| Employee satisfaction           |             >85% |
+
+These should be combined with behavioral measures.
+
+## Recognition Program KRIs
+
+Potential related KRIs include:
+
+* Declining phishing reporting.
+* Increasing repeat phishing failures.
+* Reduced incident reporting.
+* Increased human-error incidents.
+* Employees avoiding reporting due to fear.
+
+This is important because a program can have high participation while still producing poor security outcomes.
+
+## Recognition and Accountability
+
+Recognition and accountability should exist together.
+
+A mature organization communicates:
+
+> **Good behavior is recognized.**
+
+and:
+
+> **Intentional or repeated inappropriate behavior is addressed appropriately.**
+
+This balance helps prevent the program from becoming either:
+
+* Excessively punitive, or
+* Completely lacking accountability.
+
+## GRC Perspective
+
+From a GRC perspective, reward and recognition programs are mechanisms for reinforcing desired control behavior.
+
+The relationship can be represented as:
+
+**Security Objective**
+
+↓
+
+**Desired Behavior**
+
+↓
+
+**Measurement**
+
+↓
+
+**Recognition**
+
+↓
+
+**Reinforcement**
+
+↓
+
+**Behavioral Improvement**
+
+↓
+
+**Risk Reduction**
+
+For example:
+
+**Objective**
+
+Reduce phishing-related risk.
+
+↓
+
+**Desired behavior**
+
+Employees report suspicious emails.
+
+↓
+
+**Measurement**
+
+Phishing reporting rate.
+
+↓
+
+**Recognition**
+
+Recognize employees and teams demonstrating strong reporting behavior.
+
+↓
+
+**Reinforcement**
+
+Employees become more engaged in reporting.
+
+↓
+
+**Behavioral improvement**
+
+Reporting increases and risky interactions decrease.
+
+↓
+
+**Risk reduction**
+
+Potential phishing threats are detected earlier.
+
+## Common Mistakes
+
+Organizations should avoid:
+
+### Rewarding Only Completion
+
+Completing training does not necessarily demonstrate secure behavior.
+
+### Rewarding the Lowest Failure Rate Alone
+
+This may encourage employees to hide mistakes.
+
+### Publicly Shaming Poor Performers
+
+This can damage trust and discourage reporting.
+
+### Overusing Competition
+
+Competition should not undermine collaboration.
+
+### Ignoring Improvement
+
+Employees who make significant progress should also be recognized.
+
+### Using Rewards Without Measurement
+
+The organization should determine whether recognition actually changes behavior.
+
+### Ignoring Cultural Differences
+
+Recognition should be appropriate for the workforce.
+
+### Making Recognition Too Complicated
+
+Simple and timely recognition is often more effective than a complex rewards system.
+
+## Example Enterprise Recognition Framework
+
+An organization could establish four levels:
+
+### Individual Recognition
+
+For employees demonstrating strong security behavior.
+
+### Team Recognition
+
+For departments demonstrating measurable improvement.
+
+### Security Champion Recognition
+
+For employees who actively promote security within their teams.
+
+### Leadership Recognition
+
+For managers and executives who demonstrate strong security leadership.
+
+This creates reinforcement throughout the organization.
+
+## Key Takeaways
+
+Reward and recognition programs can strengthen security culture when they reinforce the **right behaviors**.
+
+The key principles are:
+
+1. **Recognize positive security behavior.**
+2. **Focus on behavior rather than simple training completion.**
+3. **Recognize improvement as well as high performance.**
+4. **Encourage accurate and timely security reporting.**
+5. **Avoid rewards that encourage employees to hide mistakes.**
+6. **Use team recognition to encourage collaboration.**
+7. **Use gamification carefully.**
+8. **Include leadership recognition where appropriate.**
+9. **Consider employee privacy and cultural differences.**
+10. **Measure whether recognition actually changes behavior.**
+11. **Combine positive reinforcement with appropriate accountability.**
+12. **Connect recognition programs to organizational security objectives and risk reduction.**
+
+The ultimate goal is not to create a workforce that behaves securely only because it wants a reward.
+
+The goal is to create a culture where:
+
+> **Secure behavior is recognized, encouraged, and eventually becomes the normal way of working.**
+
+When recognition is combined with leadership commitment, meaningful awareness activities, and appropriate measurement, it can become a powerful mechanism for reinforcing a **security-first culture**.
+
+
 
 
 

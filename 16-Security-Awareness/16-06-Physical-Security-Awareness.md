@@ -823,5 +823,344 @@ The key principles are:
 
 A strong visitor-management program creates accountability while allowing legitimate business activities to continue securely.
 
+## Secure Disposal of Information
+
+Protecting information does not end when employees finish using it. Information that is no longer required must be disposed of securely so that unauthorized individuals cannot recover or access it.
+
+Secure disposal is therefore an important part of information security and physical security. A document placed in a normal trash bin, a discarded USB drive, or an old computer that has not been properly sanitized can all become sources of information exposure.
+
+The objective is simple:
+
+> **Information should remain protected throughout its entire lifecycle, including when it is no longer needed.**
+
+### Why Secure Disposal Matters
+
+Organizations routinely generate and store large amounts of information.
+
+Examples include:
+
+* Customer records.
+* Employee information.
+* Financial documents.
+* Contracts.
+* Business reports.
+* Security documentation.
+* Network diagrams.
+* System configurations.
+* Printed meeting materials.
+* Password-related information.
+* Backup media.
+* Portable storage devices.
+
+Once information is no longer required, retaining it indefinitely can create unnecessary security and privacy risk.
+
+If the information is eventually discarded without appropriate controls, an unauthorized person may recover it.
+
+For example, a confidential document placed in a regular waste bin may later be retrieved from the organization's premises or waste collection area.
+
+Similarly, simply deleting a file from a computer does not necessarily mean that the information has been securely destroyed.
+
+### Information Disposal Lifecycle
+
+Secure disposal should be considered as part of the complete information lifecycle:
+
+**Create → Store → Use → Share → Retain → Dispose**
+
+Each stage should have appropriate security controls.
+
+Organizations should determine:
+
+* What information must be retained.
+* How long it must be retained.
+* Where it should be stored.
+* Who can access it.
+* When it can be disposed of.
+* How it should be securely destroyed.
+
+This is particularly important because security and privacy requirements may require organizations to retain certain information for defined periods while also preventing unnecessary retention.
+
+### Secure Disposal of Paper Documents
+
+Paper documents containing sensitive information should not normally be placed in ordinary waste bins.
+
+Organizations may use:
+
+* Cross-cut shredders.
+* Secure document disposal bins.
+* Approved document destruction services.
+* Controlled disposal areas.
+* Certified destruction processes.
+
+For highly sensitive information, organizations may require additional controls such as documented destruction and certificates from approved disposal providers.
+
+The appropriate method should depend on the sensitivity and classification of the information.
+
+### Shredding
+
+Shredding is one of the most common methods for destroying paper records.
+
+However, not all shredding methods provide the same level of protection.
+
+For example, strips of paper may potentially be reconstructed if enough pieces are available.
+
+Organizations handling highly sensitive information may therefore require more secure shredding methods.
+
+Employees should follow the organization's information classification and disposal requirements rather than choosing a disposal method based only on convenience.
+
+### Secure Disposal of Electronic Information
+
+Electronic information requires different disposal techniques.
+
+Simply selecting "Delete" does not necessarily securely destroy information.
+
+Depending on the technology and risk, organizations may use:
+
+* Secure erasure.
+* Cryptographic erasure.
+* Media sanitization.
+* Device reimaging.
+* Physical destruction.
+* Approved disposal services.
+
+The appropriate method depends on the type of device, storage technology, sensitivity of information, and organizational requirements.
+
+### Disposal of Computers and Storage Devices
+
+Old equipment can contain significant amounts of sensitive information.
+
+Examples include:
+
+* Desktop computers.
+* Laptops.
+* Smartphones.
+* Tablets.
+* USB drives.
+* External hard drives.
+* Solid-state drives.
+* Network equipment.
+* Backup media.
+
+Before equipment is reused, transferred, returned, donated, sold, or discarded, the organization should ensure that information is appropriately removed or destroyed.
+
+For example, an employee should never assume that a factory reset or normal file deletion automatically provides sufficient protection for sensitive organizational information.
+
+### Removable Media
+
+USB drives and other removable media create particular disposal risks because they are portable and can contain large amounts of information.
+
+Employees should:
+
+* Use only approved removable media.
+* Protect sensitive information stored on removable devices.
+* Report lost devices promptly.
+* Follow organizational procedures when media is no longer required.
+* Never dispose of sensitive media in ordinary waste.
+
+Where appropriate, removable media should be securely sanitized or physically destroyed.
+
+### Cloud and Online Information
+
+Secure disposal also applies to cloud-based information.
+
+Organizations should understand how information is removed from:
+
+* Cloud storage.
+* SaaS platforms.
+* Collaboration tools.
+* Document management systems.
+* Online repositories.
+* Backup systems.
+
+Deleting a file from one application may not immediately remove every copy or backup.
+
+Organizations should therefore understand their service provider's data retention and deletion mechanisms and ensure that contractual requirements are aligned with the organization's security and privacy obligations.
+
+### Backups and Retention
+
+One of the more complicated aspects of information disposal involves backups.
+
+An organization may delete a document from its active system while copies remain in backups.
+
+This does not automatically mean that the organization has failed to securely dispose of the information. Backup retention may be governed by separate technical and business requirements.
+
+However, organizations should understand:
+
+* What information exists in backups.
+* How long backups are retained.
+* How backup media is protected.
+* When backup copies are overwritten or destroyed.
+* What happens when a retention period expires.
+
+This should be addressed through documented retention and disposal procedures.
+
+### Third-Party Disposal Services
+
+Organizations sometimes use external providers to destroy documents, equipment, or storage media.
+
+Examples include:
+
+* Secure document destruction companies.
+* Electronic waste disposal providers.
+* IT asset disposition companies.
+* Data destruction specialists.
+
+Third-party disposal creates additional supply chain risk.
+
+Organizations should evaluate whether the provider:
+
+* Is appropriately authorized.
+* Has suitable security controls.
+* Protects information during transportation.
+* Uses approved destruction methods.
+* Maintains appropriate records.
+* Provides evidence of destruction where required.
+
+Contracts may also specify security requirements, responsibilities, and evidence that must be provided.
+
+### Certificates of Destruction
+
+For certain types of sensitive information or equipment, organizations may require a **certificate of destruction**.
+
+This provides evidence that the information or media was destroyed according to an agreed process.
+
+A certificate may identify information such as:
+
+* Date of destruction.
+* Type of material destroyed.
+* Quantity.
+* Destruction method.
+* Service provider.
+* Reference number.
+
+Such evidence can be useful for audits, investigations, and regulatory compliance.
+
+### Clean Desk and Secure Disposal
+
+Secure disposal is closely connected to the clean desk policy discussed earlier.
+
+A clean desk policy reduces the likelihood that sensitive information is left exposed.
+
+Secure disposal ensures that information that is no longer required does not become a source of exposure.
+
+For example:
+
+**Sensitive document → Used → Stored securely → No longer required → Placed in secure disposal container → Destroyed**
+
+This creates a controlled process rather than leaving disposal decisions entirely to individual employees.
+
+### Common Disposal Mistakes
+
+Security awareness training should highlight common mistakes.
+
+Examples include:
+
+* Throwing confidential documents into regular trash.
+* Leaving documents beside a printer.
+* Giving old computers to another person without proper sanitization.
+* Selling company devices without removing organizational information.
+* Throwing USB drives into ordinary waste.
+* Leaving sensitive documents in public recycling containers.
+* Assuming that pressing "Delete" permanently removes electronic information.
+* Failing to follow retention requirements before destroying information.
+* Using an unapproved third-party disposal provider.
+
+These mistakes are often caused by convenience rather than malicious intent.
+
+Security awareness therefore needs to make the correct disposal process simple and practical.
+
+### Employee Responsibilities
+
+Employees should understand their responsibilities regarding information disposal.
+
+They should:
+
+* Follow the organization's retention and disposal procedures.
+* Use designated secure disposal containers.
+* Avoid placing sensitive information in ordinary waste.
+* Use approved methods for electronic media disposal.
+* Report lost or improperly discarded information.
+* Ask the appropriate team when they are uncertain about disposal requirements.
+* Never independently destroy information that the organization is legally or operationally required to retain.
+
+The last point is particularly important.
+
+Secure disposal does **not** mean destroying information as soon as possible. Information must first be subject to the organization's retention requirements.
+
+### Security Awareness Perspective
+
+Employees should be encouraged to think about disposal as part of information security rather than as a housekeeping activity.
+
+A useful awareness principle is:
+
+> **If unauthorized people should not be able to read it, they should not be able to recover it from the disposal process.**
+
+This simple concept helps employees understand why ordinary trash bins, unsecured recycling containers, and improperly discarded electronic devices can create security risks.
+
+### GRC Perspective
+
+From a GRC perspective, secure disposal connects several areas of information security:
+
+**Information Classification → Retention → Disposal Requirements → Secure Destruction → Evidence**
+
+The organization should define what information exists, how it is classified, how long it must be retained, when it can be disposed of, and which destruction method is appropriate.
+
+Potential evidence may include:
+
+* Information retention policies.
+* Secure disposal procedures.
+* Records of destruction.
+* Certificates of destruction.
+* Media sanitization records.
+* Asset disposal records.
+* Third-party supplier assessments.
+* Employee awareness training records.
+* Physical security inspection results.
+* Disposal-related incident reports.
+
+Secure disposal should also be considered when evaluating compliance with privacy, contractual, regulatory, and information-security requirements.
+
+### Measuring Secure Disposal Awareness
+
+Organizations can assess whether employees understand disposal requirements through:
+
+* Awareness quizzes.
+* Physical security inspections.
+* Clean desk inspections.
+* Secure disposal bin reviews.
+* Controlled awareness exercises.
+* Training completion rates.
+* Disposal-related incident trends.
+
+For example, an organization could monitor whether sensitive documents are repeatedly discovered in ordinary waste containers.
+
+If repeated violations occur, the issue may indicate a weakness in awareness, procedures, communication, or physical controls.
+
+### Building the Right Security Culture
+
+The strongest secure disposal programs make the secure option the easiest option.
+
+For example, employees are more likely to dispose of confidential documents correctly when secure disposal bins are conveniently located near work areas.
+
+Similarly, employees are more likely to follow electronic disposal procedures when the organization provides a clear process for returning old devices to IT or asset management.
+
+Security awareness should therefore be supported by practical organizational controls.
+
+### Key Takeaways
+
+Secure disposal protects information after it is no longer needed.
+
+The key principles are:
+
+1. **Protect information throughout its entire lifecycle.**
+2. **Do not place sensitive documents in ordinary waste.**
+3. **Use approved methods for destroying paper and electronic information.**
+4. **Securely sanitize or destroy storage devices before disposal or reuse.**
+5. **Follow retention requirements before destroying information.**
+6. **Evaluate third-party disposal providers.**
+7. **Maintain evidence of destruction when required.**
+8. **Make secure disposal easy for employees to follow.**
+
+A mature security awareness program teaches employees that information security does not end when information is no longer useful. **The final stage of the information lifecycle must be controlled just as carefully as its creation, storage, and use.**
+
 
 

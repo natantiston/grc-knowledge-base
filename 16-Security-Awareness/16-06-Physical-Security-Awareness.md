@@ -487,4 +487,341 @@ The most important awareness principles are:
 
 Effective physical security depends on both **technology and people**. Access-control systems can control the door, but security-aware employees help control who actually walks through it.
 
+## Visitor Management
+
+Visitor management is the process organizations use to control, monitor, and document people who enter facilities but are not authorized employees.
+
+Visitors may include customers, suppliers, contractors, consultants, delivery personnel, business partners, auditors, interview candidates, and other external individuals.
+
+Visitors are not necessarily a security threat. However, organizations must ensure that visitors receive only the physical access they require and cannot freely enter restricted areas.
+
+Effective visitor management therefore combines **security procedures, employee awareness, physical controls, and accountability**.
+
+### Why Visitor Management Matters
+
+An organization may have strong employee access controls but still create significant physical security exposure if visitors can move around the facility without supervision.
+
+For example, a visitor who is allowed to enter an office without proper controls could potentially:
+
+* View confidential documents.
+* Observe computer screens.
+* Photograph sensitive information.
+* Access unattended equipment.
+* Enter restricted areas.
+* Identify security procedures.
+* Observe network or telecommunications equipment.
+* Collect information useful for later social engineering.
+* Remove physical assets.
+
+The objective of visitor management is therefore not simply to know who is inside the building. It is to ensure that visitors are **appropriately identified, authorized, monitored, and restricted**.
+
+### Visitor Management Lifecycle
+
+A mature visitor-management process generally follows a lifecycle:
+
+**Request → Authorization → Registration → Verification → Access → Monitoring → Departure → Record Retention**
+
+Each stage provides an opportunity to reduce risk.
+
+For example, an organization may require a visitor to be pre-registered by an employee before arrival. At reception, the visitor's identity can be verified, appropriate access credentials can be issued, and the visitor can be directed to the approved area.
+
+When the visit ends, the organization should ensure that temporary credentials are returned or disabled and that the visitor is properly checked out.
+
+### Pre-Registration
+
+Where practical, visitors should be registered before arriving.
+
+The employee responsible for the visit may provide information such as:
+
+* Visitor name.
+* Organization.
+* Purpose of the visit.
+* Expected arrival time.
+* Expected departure time.
+* Host employee.
+* Areas the visitor needs to access.
+* Special access requirements.
+
+Pre-registration can help reception or security personnel determine whether the visitor is expected and whether the visit has been appropriately authorized.
+
+### Visitor Identification and Verification
+
+Visitors should normally be required to provide appropriate identification according to organizational procedures.
+
+The verification process may include:
+
+* Government-issued identification where appropriate.
+* Company identification.
+* Confirmation of the visitor's appointment.
+* Verification with the host employee.
+* Visitor registration information.
+
+The level of verification should be proportional to the sensitivity of the facility.
+
+A visitor entering a general meeting room may require less verification than someone requesting access to a data center or restricted laboratory.
+
+### Visitor Badges
+
+Many organizations issue temporary visitor badges.
+
+A visitor badge helps employees and security personnel distinguish visitors from employees.
+
+Badges may display:
+
+* Visitor status.
+* Visitor name.
+* Host or department.
+* Date of access.
+* Expiration time.
+* Access restrictions.
+
+Badges should be clearly distinguishable from employee credentials.
+
+Where technology permits, temporary badges may also be configured to provide access only to specific areas and for a limited period.
+
+### Escort Requirements
+
+Some visitors may require an employee escort.
+
+An escort helps ensure that visitors remain within authorized areas and do not accidentally or intentionally access restricted locations.
+
+Escort requirements may apply particularly to:
+
+* Data centers.
+* Network rooms.
+* Security operations centers.
+* Research facilities.
+* Production environments.
+* Restricted offices.
+* Areas containing sensitive information.
+
+Employees should understand that being responsible for a visitor means more than simply bringing the visitor into the building.
+
+The host may also be responsible for ensuring that the visitor follows applicable security requirements.
+
+### Restricted Areas
+
+Visitors should not automatically receive access to all areas of a facility.
+
+Organizations should identify areas that require additional authorization.
+
+Examples include:
+
+* Server rooms.
+* Network operations centers.
+* Security operations centers.
+* Records storage rooms.
+* Finance departments.
+* Human resources areas.
+* Research and development facilities.
+* Executive offices.
+* Production facilities.
+* Areas containing regulated information.
+
+Physical access should follow the principle of **least privilege**.
+
+A visitor should receive only the level of access necessary for the legitimate purpose of the visit.
+
+### Photography and Recording
+
+Organizations should consider whether visitors are permitted to take photographs, record video, or make audio recordings.
+
+This is particularly important in sensitive environments.
+
+A photograph taken during an ordinary office visit could unintentionally reveal:
+
+* Computer screens.
+* Network diagrams.
+* Whiteboards.
+* Access-control systems.
+* Security equipment.
+* Confidential documents.
+* Employee information.
+* Product designs.
+
+Visitors should therefore be informed of any restrictions on photography or recording.
+
+### Deliveries and Service Personnel
+
+Visitor management should also consider people who enter the facility for operational reasons.
+
+Examples include:
+
+* Couriers.
+* Maintenance workers.
+* Cleaning personnel.
+* Equipment installers.
+* Telecom technicians.
+* Building contractors.
+* Delivery drivers.
+
+These individuals may have legitimate reasons to enter the facility but should still be subject to appropriate controls.
+
+For example, a technician who needs access to a telecommunications room should not automatically receive unrestricted access to other areas of the building.
+
+Their access should be limited to the **specific purpose and location required**.
+
+### Social Engineering Through Visitors
+
+Attackers may deliberately impersonate legitimate visitors.
+
+For example, an attacker could claim:
+
+> "I'm from the IT support company. I'm here to replace a network device."
+
+If employees accept the claim without verification, the attacker may gain physical access to sensitive areas.
+
+Security awareness training should therefore teach employees not to rely solely on appearance, confidence, uniforms, or verbal claims.
+
+When something does not appear correct, employees should follow the established verification process.
+
+### Visitor Logs
+
+Organizations may maintain visitor records to provide accountability.
+
+Depending on legal and organizational requirements, visitor records may contain information such as:
+
+* Visitor identity.
+* Organization.
+* Host.
+* Arrival time.
+* Departure time.
+* Badge number.
+* Areas accessed.
+
+Visitor logs can help organizations determine who was physically present during a security incident.
+
+However, visitor information can itself contain personal data. Organizations should therefore establish appropriate retention, access, and protection requirements for these records.
+
+### Visitor Management and Privacy
+
+Visitor management must balance physical security with privacy obligations.
+
+Organizations should avoid collecting more visitor information than necessary for the legitimate security or operational purpose.
+
+Where visitor information constitutes personal data, the organization should consider applicable privacy requirements concerning:
+
+* Purpose limitation.
+* Data minimization.
+* Transparency.
+* Retention.
+* Access control.
+* Protection against unauthorized disclosure.
+
+This is particularly relevant for organizations operating across multiple jurisdictions.
+
+### Employee Responsibilities
+
+Employees have an important role in visitor security.
+
+They should:
+
+* Follow visitor-management procedures.
+* Ensure visitors remain within authorized areas.
+* Challenge unknown individuals when appropriate.
+* Avoid sharing access credentials with visitors.
+* Report suspicious visitor behavior.
+* Ensure visitors return temporary credentials when required.
+* Avoid leaving visitors unattended in restricted areas unless explicitly authorized.
+
+Employees should also understand that **someone else's responsibility for security does not eliminate their own responsibility**.
+
+For example, an employee should not assume that reception or security personnel will detect every unauthorized visitor.
+
+### Reception and Security Personnel
+
+Receptionists and security personnel are often an important part of the visitor-management process.
+
+Their responsibilities may include:
+
+* Verifying visitors.
+* Confirming appointments.
+* Issuing temporary badges.
+* Communicating access restrictions.
+* Contacting hosts.
+* Maintaining visitor records.
+* Monitoring visitor access.
+* Collecting temporary credentials.
+* Escalating suspicious activity.
+
+These personnel should receive role-specific security training because they may be exposed to social engineering attempts more frequently than other employees.
+
+### Visitor Management in Remote and Hybrid Environments
+
+Visitor management also applies to organizations using shared offices, coworking spaces, and temporary facilities.
+
+Employees working in these environments should understand:
+
+* Who is permitted to enter the workspace.
+* How guests should be registered.
+* Which areas are restricted.
+* How sensitive information should be protected from visitors.
+* How to report suspicious individuals.
+
+Remote workers should also avoid allowing unauthorized individuals to access company devices, documents, or workspaces.
+
+### Security Awareness Exercises
+
+Organizations can use controlled exercises to test whether employees follow visitor-management procedures.
+
+For example, an authorized tester may attempt to enter a restricted area while claiming to be:
+
+* A contractor.
+* A delivery person.
+* An IT technician.
+* A new employee.
+* A maintenance worker.
+
+The objective is to determine whether employees verify authorization and follow established procedures.
+
+These exercises should be properly authorized, carefully controlled, and designed primarily to improve security behavior.
+
+The results can then be used to identify:
+
+* Training gaps.
+* Procedural weaknesses.
+* Physical control weaknesses.
+* Areas requiring stronger monitoring.
+* Opportunities for policy improvement.
+
+### GRC Perspective
+
+From a GRC perspective, visitor management supports several important security objectives:
+
+**Authorization → Accountability → Least Privilege → Monitoring → Evidence**
+
+A mature program should establish clear requirements for who may enter the facility, how visitors are authorized, how access is restricted, and how visitor activity is recorded.
+
+Potential evidence may include:
+
+* Visitor-management policies.
+* Visitor procedures.
+* Visitor logs.
+* Temporary badge records.
+* Physical access-control logs.
+* Security awareness training records.
+* Security incident reports.
+* Physical security assessment results.
+* Corrective-action records.
+
+Visitor management can therefore become an auditable security control rather than an informal reception procedure.
+
+### Key Takeaways
+
+Effective visitor management reduces the risk that unauthorized individuals will gain access to sensitive facilities or information.
+
+The key principles are:
+
+1. **Know who is entering the facility.**
+2. **Verify that visitors are authorized.**
+3. **Limit access according to business need.**
+4. **Use visitor badges and escorts where appropriate.**
+5. **Protect restricted areas from unauthorized access.**
+6. **Monitor and record visitor activity appropriately.**
+7. **Protect visitor information as personal data where applicable.**
+8. **Train employees to recognize suspicious visitor behavior.**
+
+A strong visitor-management program creates accountability while allowing legitimate business activities to continue securely.
+
+
 

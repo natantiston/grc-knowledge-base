@@ -2976,9 +2976,904 @@ The stronger objective is:
 
 A mature supply chain security program recognizes that **organizational resilience depends not only on securing what the organization owns, but also on understanding and managing the security of what the organization depends upon.**
 
+## Third-Party Compliance Requirements
 
+Third-party organizations can introduce legal, regulatory, contractual, and security obligations that affect the organization they support. As a result, third-party security awareness cannot be limited to general cybersecurity practices.
 
+Vendors, contractors, consultants, and other external parties may need to understand specific requirements related to:
 
+* Information security.
+* Privacy and data protection.
+* Regulatory compliance.
+* Industry standards.
+* Contractual obligations.
+* Incident notification.
+* Records retention.
+* Data location.
+* Audit and assurance.
 
-Effective vendor security awareness creates a more resilient security ecosystem in which **third parties become controlled and accountable participants in the organization's security program rather than unmanaged extensions of organizational risk**.
+The fundamental principle is:
+
+> **An organization remains responsible for managing the risks associated with third parties even when operational activities are outsourced.**
+
+Outsourcing a process does not automatically outsource the organization's accountability for the associated risk.
+
+## What Are Third-Party Compliance Requirements?
+
+Third-party compliance requirements are the security, privacy, legal, regulatory, and contractual obligations that an external party must satisfy as part of its relationship with an organization.
+
+For example, a vendor processing personal data may need to comply with requirements concerning:
+
+* Confidentiality.
+* Data protection.
+* Access control.
+* Data retention.
+* Security incidents.
+* Subprocessors.
+* Data transfers.
+
+The exact requirements depend on the nature of the service and applicable laws and regulations.
+
+## Why Third-Party Compliance Matters
+
+Consider an organization that uses a cloud provider to process customer information.
+
+The organization may have obligations relating to:
+
+* Privacy.
+* Security.
+* Data retention.
+* Breach notification.
+
+Even though the cloud provider operates the infrastructure, the organization must still understand:
+
+* What the provider does.
+* What security controls exist.
+* What responsibilities remain with the organization.
+* What evidence is available.
+
+This is why third-party compliance is an important GRC responsibility.
+
+## Compliance Does Not Automatically Transfer
+
+A common misconception is:
+
+> "The vendor is responsible for compliance because we outsourced the service."
+
+This is often incorrect.
+
+Outsourcing a process may transfer **operational responsibility**, but it does not necessarily eliminate the organization's:
+
+* Regulatory obligations.
+* Contractual responsibilities.
+* Risk ownership.
+* Governance responsibilities.
+
+The organization must understand exactly what is being outsourced and what remains its responsibility.
+
+## Shared Responsibility
+
+Many third-party relationships operate under a shared responsibility model.
+
+For example:
+
+**Organization**
+
+Responsible for:
+
+* Business requirements.
+* User access.
+* Data classification.
+* Configuration.
+* Governance.
+
+**Service Provider**
+
+Responsible for:
+
+* Infrastructure.
+* Platform security.
+* Physical security.
+* Certain technical controls.
+
+The exact division depends on the service.
+
+The organization must understand the boundary.
+
+## Third-Party Compliance Lifecycle
+
+A mature process can follow:
+
+**Identify Requirement**
+
+↓
+
+**Identify Applicable Third Parties**
+
+↓
+
+**Define Security Obligations**
+
+↓
+
+**Contractual Requirements**
+
+↓
+
+**Awareness & Training**
+
+↓
+
+**Assessment**
+
+↓
+
+**Monitoring**
+
+↓
+
+**Evidence & Assurance**
+
+↓
+
+**Remediation**
+
+↓
+
+**Periodic Review**
+
+This creates a continuous compliance process rather than a one-time vendor assessment.
+
+## Identifying Applicable Requirements
+
+Before imposing compliance requirements on a third party, the organization should identify which requirements actually apply.
+
+Relevant sources may include:
+
+* Laws.
+* Regulations.
+* Industry standards.
+* Customer contracts.
+* Internal policies.
+* Regulatory licenses.
+* Business requirements.
+
+Not every vendor will be subject to every requirement.
+
+## Risk-Based Compliance
+
+Compliance requirements should be proportionate to risk.
+
+For example:
+
+### Low-Risk Supplier
+
+May only require:
+
+* Basic contractual security requirements.
+* Confidentiality obligations.
+
+### Medium-Risk Supplier
+
+May require:
+
+* Security questionnaire.
+* Data-handling requirements.
+* Incident notification.
+
+### High-Risk Supplier
+
+May require:
+
+* Formal security assessments.
+* Security certifications.
+* Audit rights.
+* Detailed security controls.
+
+### Critical Supplier
+
+May require:
+
+* Continuous monitoring.
+* Independent assurance.
+* Formal risk reviews.
+* Resilience testing.
+* Detailed incident requirements.
+
+## Contractual Security Requirements
+
+Contracts are one of the most important mechanisms for establishing third-party compliance expectations.
+
+Security clauses may address:
+
+* Information security.
+* Privacy.
+* Access control.
+* Security awareness.
+* Incident reporting.
+* Vulnerability management.
+* Encryption.
+* Data retention.
+* Data deletion.
+* Subcontractors.
+* Business continuity.
+* Audit rights.
+
+The contract should clearly define responsibilities.
+
+## Security Awareness as a Contractual Requirement
+
+For higher-risk relationships, organizations may require vendors to provide appropriate security awareness training to personnel who interact with organizational systems or information.
+
+For example:
+
+> Vendor personnel with access to confidential organizational information must complete appropriate security awareness training and comply with applicable security policies.
+
+This transforms awareness from a recommendation into a contractual obligation.
+
+## Privacy Requirements
+
+Third parties frequently process personal information on behalf of organizations.
+
+Examples include:
+
+* Payroll providers.
+* HR platforms.
+* Marketing providers.
+* Cloud services.
+* Customer support providers.
+* Healthcare service providers.
+
+Where personal data is involved, organizations should determine:
+
+* What data is processed.
+* Why it is processed.
+* Where it is processed.
+* Who can access it.
+* How it is protected.
+* How long it is retained.
+* How it is deleted.
+
+## GDPR and Third Parties
+
+For organizations subject to the **General Data Protection Regulation (GDPR)**, third-party relationships involving personal data require particular attention.
+
+A vendor processing personal data on behalf of an organization may act as a **processor**, depending on the relationship.
+
+The organization and processor need appropriate contractual and security arrangements.
+
+Third-party awareness should therefore include relevant privacy responsibilities.
+
+For example, vendor personnel should understand that:
+
+> Customer personal data cannot be accessed, copied, or disclosed simply because the vendor has technical access to it.
+
+## Data Processing Agreements
+
+Where applicable, organizations may use a **Data Processing Agreement (DPA)** to define privacy and data-processing responsibilities.
+
+A DPA may address:
+
+* Processing instructions.
+* Confidentiality.
+* Security.
+* Subprocessors.
+* Data subject rights.
+* Incident notification.
+* Data deletion.
+* Assistance with compliance.
+
+Security teams should coordinate with legal and privacy teams when establishing such requirements.
+
+## Data Breach Notification
+
+Third-party contracts should define how security incidents involving organizational information are reported.
+
+For example:
+
+> Vendor discovers unauthorized access to customer data.
+
+The organization may need to:
+
+1. Receive notification.
+2. Assess the incident.
+3. Determine affected information.
+4. Activate incident response.
+5. Assess regulatory obligations.
+6. Notify relevant parties where required.
+
+The contract should provide enough information and timing to support the organization's response obligations.
+
+## NIS2 and Third Parties
+
+For organizations within the scope of the **NIS2 Directive**, supply-chain cybersecurity becomes particularly important.
+
+Organizations should consider cybersecurity risks associated with:
+
+* Direct suppliers.
+* Service providers.
+* ICT providers.
+* Critical dependencies.
+
+Third-party awareness may therefore need to address:
+
+* Security responsibilities.
+* Incident reporting.
+* Risk management.
+* Supply-chain security.
+* Resilience.
+
+Organizations should also understand that contractual requirements should be aligned with their applicable legal obligations.
+
+## ISO/IEC 27001 and Suppliers
+
+**ISO/IEC 27001** provides requirements for establishing and maintaining an information security management system.
+
+Supplier relationships are relevant because organizations need to manage information-security risks arising from external parties.
+
+This can include:
+
+* Supplier security requirements.
+* Monitoring.
+* Reviews.
+* Changes in supplier services.
+* Access to organizational information.
+
+Third-party awareness can therefore support the organization's ISMS.
+
+## Regulatory Requirements Vary by Industry
+
+Different industries may impose additional requirements.
+
+Examples include:
+
+* Financial services.
+* Healthcare.
+* Telecommunications.
+* Energy.
+* Government.
+* Defense.
+* Critical infrastructure.
+
+A third party serving a regulated organization may therefore need to comply with additional contractual and security requirements.
+
+## Industry-Specific Example: Financial Services
+
+A financial institution may require suppliers to address:
+
+* Customer information protection.
+* Security monitoring.
+* Incident reporting.
+* Business continuity.
+* Resilience.
+* Access control.
+
+A supplier providing critical financial technology may therefore receive much stronger requirements than a supplier providing office supplies.
+
+## Industry-Specific Example: Healthcare
+
+A healthcare organization may have strict requirements concerning:
+
+* Patient information.
+* Privacy.
+* Confidentiality.
+* Access control.
+* Data disclosure.
+
+Third-party personnel handling patient information should receive appropriate privacy and security awareness.
+
+## Industry-Specific Example: Telecommunications
+
+Telecommunications organizations may have requirements concerning:
+
+* Customer information.
+* Network security.
+* Critical infrastructure.
+* Availability.
+* Lawful access.
+* Incident reporting.
+
+Third-party technical personnel with network access may therefore require enhanced security controls.
+
+## Contractual Compliance
+
+Compliance does not come only from laws and regulations.
+
+A customer may impose contractual requirements on an organization.
+
+For example:
+
+> A large enterprise customer requires its service provider to maintain ISO/IEC 27001 certification.
+
+The organization may then need to ensure that relevant suppliers supporting that service also meet appropriate security requirements.
+
+This creates a chain of contractual obligations.
+
+## Flow-Down Requirements
+
+**Flow-down requirements** occur when an organization passes applicable security or compliance requirements to its suppliers.
+
+For example:
+
+**Customer**
+
+↓
+
+Requires security controls from
+
+**Organization**
+
+↓
+
+Organization requires appropriate controls from
+
+**Supplier**
+
+This helps maintain consistent security expectations across the supply chain.
+
+## Why Flow-Down Matters
+
+Without flow-down requirements, an organization may have strong controls internally but weak controls in the suppliers supporting its services.
+
+For example:
+
+> Customer requires strict data protection → Organization implements strong controls → Supplier handling the same data has no equivalent requirements.
+
+This creates a potential weak point.
+
+## Subcontractor Requirements
+
+Third parties may use their own subcontractors.
+
+Contracts should address whether:
+
+* Subcontractors are permitted.
+* Prior approval is required.
+* Security requirements flow down.
+* The organization can assess subcontractors.
+* The primary vendor remains responsible.
+
+This is particularly important for critical services.
+
+## Fourth-Party Compliance
+
+The organization may not have a direct contractual relationship with every organization involved in delivering a service.
+
+For example:
+
+**Organization**
+
+↓
+
+**SaaS Provider**
+
+↓
+
+**Cloud Provider**
+
+↓
+
+**Infrastructure Provider**
+
+The SaaS provider may depend on another provider to deliver its service.
+
+Where risk is material, the organization should understand these dependencies and how the primary supplier manages them.
+
+## Audit Rights
+
+High-risk contracts may provide the organization with appropriate audit or assessment rights.
+
+These may include:
+
+* Security questionnaires.
+* Independent audit reports.
+* Certifications.
+* Control assessments.
+* On-site assessments where justified.
+
+Audit rights should be practical and proportional to risk.
+
+## Evidence of Compliance
+
+Organizations should obtain appropriate evidence rather than relying solely on vendor statements.
+
+Evidence may include:
+
+* ISO/IEC 27001 certification.
+* SOC reports.
+* Security assessment results.
+* Penetration testing summaries.
+* Security policies.
+* Training records.
+* Incident statistics.
+
+Evidence requirements should reflect the importance of the supplier.
+
+## Compliance Attestation
+
+Some suppliers may provide formal attestations that certain controls have been implemented.
+
+An attestation can provide useful assurance, but organizations should understand:
+
+* What was assessed.
+* What period was covered.
+* Which controls were included.
+* Who performed the assessment.
+* What limitations exist.
+
+An attestation should not automatically be treated as proof of complete security.
+
+## Security Awareness Evidence
+
+Organizations may specifically request evidence related to personnel awareness.
+
+Examples include:
+
+* Training completion rates.
+* Security awareness policies.
+* Phishing simulation statistics.
+* Role-based training.
+* Security assessment results.
+
+This can help demonstrate that awareness requirements are actually implemented.
+
+## Compliance Monitoring
+
+Third-party compliance should be monitored throughout the relationship.
+
+Monitoring may include:
+
+* Annual assessments.
+* Quarterly reviews.
+* Certification monitoring.
+* Security metrics.
+* Incident reporting.
+* Contract reviews.
+
+The frequency should be based on risk.
+
+## Continuous Compliance
+
+Compliance should not be viewed as:
+
+> **"We completed the vendor assessment, so we are compliant."**
+
+Instead:
+
+> **Compliance is an ongoing process of maintaining, monitoring, and demonstrating appropriate controls.**
+
+A vendor's risk can change because of:
+
+* New services.
+* New systems.
+* New subcontractors.
+* New regulations.
+* Security incidents.
+* Ownership changes.
+
+## Change Management
+
+Significant changes to a supplier relationship should trigger security review.
+
+Examples include:
+
+* New processing activities.
+* New geographic locations.
+* New subcontractors.
+* Major technology changes.
+* New types of data.
+* Expanded access.
+
+A vendor that was low-risk at onboarding may become high-risk later.
+
+## Vendor Compliance Exceptions
+
+Sometimes a supplier cannot immediately meet a required control.
+
+The organization should have a formal exception process.
+
+It may include:
+
+1. Identify the gap.
+2. Assess the risk.
+3. Document the exception.
+4. Define compensating controls.
+5. Obtain appropriate approval.
+6. Establish an expiration date.
+7. Track remediation.
+
+This prevents informal exceptions from becoming permanent security weaknesses.
+
+## Compensating Controls
+
+Suppose a supplier cannot implement a specific security control immediately.
+
+The organization may establish an alternative control.
+
+For example:
+
+> Supplier cannot support a particular authentication mechanism.
+
+Possible compensating measures might include:
+
+* Restricted access.
+* Additional monitoring.
+* IP restrictions.
+* Temporary access.
+* Additional approval.
+
+Compensating controls should be formally assessed rather than accepted informally.
+
+## Third-Party Compliance Risk Register
+
+Third-party compliance risks should be recorded where appropriate.
+
+Example:
+
+| Risk                                        | Impact | Likelihood | Treatment            |
+| ------------------------------------------- | ------ | ---------- | -------------------- |
+| Vendor lacks required training              | Medium | Medium     | Mandatory training   |
+| Supplier cannot meet encryption requirement | High   | Low        | Compensating control |
+| Subcontractor not assessed                  | High   | Medium     | Supplier assessment  |
+| Vendor certification expired                | Medium | Medium     | Renewal tracking     |
+
+This provides visibility to GRC teams.
+
+## Third-Party Compliance Metrics
+
+Useful metrics may include:
+
+### Coverage
+
+* Percentage of high-risk suppliers assessed.
+* Percentage of critical suppliers with contracts containing security requirements.
+
+### Training
+
+* Vendor security training completion.
+* Contractor training completion.
+
+### Assurance
+
+* Percentage of suppliers with current security certifications.
+* Percentage with independent assurance reports.
+
+### Findings
+
+* Open supplier security findings.
+* Overdue remediation items.
+
+### Incidents
+
+* Number of supplier-related security incidents.
+* Average incident notification time.
+
+## Example Compliance Dashboard
+
+| Metric                                                | Current | Target |
+| ----------------------------------------------------- | ------: | -----: |
+| Critical suppliers assessed                           |    100% |   100% |
+| High-risk suppliers with security clauses             |     98% |   100% |
+| Critical vendors with current assurance               |     93% |   >95% |
+| Supplier compliance findings overdue                  |       5 |     <2 |
+| Vendor security training completion                   |     96% |   >95% |
+| Supplier incidents reported within required timeframe |     97% |   100% |
+
+Such metrics can be reported to:
+
+* Security leadership.
+* Risk committees.
+* Compliance teams.
+* Procurement.
+* Executive management.
+
+## Third-Party Compliance and GRC
+
+Third-party compliance sits at the intersection of several GRC functions:
+
+**Governance**
+
+↓
+
+Define requirements and responsibilities.
+
+**Risk**
+
+↓
+
+Assess supplier exposure.
+
+**Compliance**
+
+↓
+
+Determine applicable obligations.
+
+**Security**
+
+↓
+
+Implement and monitor controls.
+
+**Assurance**
+
+↓
+
+Verify that requirements are being met.
+
+This makes third-party compliance a natural component of an enterprise GRC program.
+
+## Common Mistakes
+
+Organizations should avoid:
+
+### Assuming Compliance Automatically Transfers to the Vendor
+
+The organization may retain regulatory and contractual responsibilities.
+
+### Using the Same Requirements for Every Supplier
+
+Controls should be risk-based.
+
+### Relying Only on Contracts
+
+A contractual requirement is ineffective if it is never monitored or enforced.
+
+### Relying Only on Certifications
+
+Certification does not eliminate the need for risk assessment.
+
+### Ignoring Subcontractors
+
+Security requirements may need to flow down the supply chain.
+
+### Failing to Monitor Expiring Evidence
+
+Certifications and assurance reports can become outdated.
+
+### Ignoring Regulatory Changes
+
+New regulations may change third-party requirements.
+
+### Allowing Permanent Exceptions
+
+Exceptions should have owners, risk acceptance, and expiration dates.
+
+### Failing to Define Incident Notification
+
+A supplier may not know how quickly it needs to report an incident.
+
+## Example Third-Party Compliance Program
+
+A mature organization might implement the following:
+
+### 1. Identify Requirements
+
+Determine applicable:
+
+* Laws.
+* Regulations.
+* Standards.
+* Contracts.
+* Internal policies.
+
+### 2. Map Requirements
+
+Determine which suppliers are affected.
+
+### 3. Classify Supplier Risk
+
+Identify:
+
+* Low.
+* Medium.
+* High.
+* Critical.
+
+### 4. Define Controls
+
+Specify appropriate security and compliance requirements.
+
+### 5. Contract
+
+Include requirements in appropriate agreements.
+
+### 6. Educate
+
+Ensure relevant third-party personnel understand their responsibilities.
+
+### 7. Assess
+
+Evaluate implementation.
+
+### 8. Monitor
+
+Track compliance and security performance.
+
+### 9. Remediate
+
+Address identified gaps.
+
+### 10. Review
+
+Reassess periodically and when circumstances change.
+
+## Practical Scenario
+
+Consider an organization that uses an external cloud provider to process customer information.
+
+The organization determines that the service is:
+
+**Critical**
+
+↓
+
+Requires access to:
+
+* Customer data.
+* Production systems.
+* Business-critical applications.
+
+↓
+
+The organization establishes:
+
+* Security requirements.
+* Privacy requirements.
+* Incident notification requirements.
+* Access controls.
+* Audit and assurance requirements.
+* Security awareness requirements.
+
+↓
+
+The vendor provides:
+
+* Security certification.
+* Independent assurance report.
+* Training evidence.
+* Incident-response procedures.
+
+↓
+
+The organization performs:
+
+* Initial assessment.
+* Contract review.
+* Periodic reassessment.
+* Security monitoring.
+
+This demonstrates how third-party compliance can become an integrated part of the organization's governance framework.
+
+## Key Takeaways
+
+Third-party compliance requirements ensure that external organizations understand and meet the security, privacy, regulatory, and contractual obligations associated with their services.
+
+The key principles are:
+
+1. **Outsourcing a process does not automatically outsource organizational accountability.**
+2. **Third-party requirements should be based on risk and applicable obligations.**
+3. **Security and compliance requirements should be established during contracting.**
+4. **Security awareness can be incorporated into contractual requirements.**
+5. **Privacy requirements are particularly important when third parties process personal data.**
+6. **Applicable regulatory requirements should be mapped to relevant suppliers.**
+7. **Flow-down requirements help extend security expectations through the supply chain.**
+8. **Subcontractors and fourth parties should be considered where material.**
+9. **High-risk suppliers may require stronger assurance and audit mechanisms.**
+10. **Vendor certifications and attestations provide evidence but do not eliminate the need for risk assessment.**
+11. **Compliance should be continuously monitored rather than treated as a one-time activity.**
+12. **Exceptions should be formally documented, risk-assessed, approved, and tracked.**
+13. **Third-party compliance metrics should be reported to appropriate stakeholders.**
+14. **Third-party compliance is a core GRC activity connecting governance, risk, compliance, security, and assurance.**
+
+The ultimate objective is not simply:
+
+> **"Our vendors have signed compliant contracts."**
+
+The stronger objective is:
+
+> **"Our organization understands its third-party obligations, communicates them clearly, verifies implementation, monitors compliance, and manages exceptions throughout the entire third-party lifecycle."**
+
+Effective third-party compliance ensures that **outsourcing does not create an uncontrolled gap between the organization's regulatory responsibilities and the external parties performing critical business activities**.
+
 

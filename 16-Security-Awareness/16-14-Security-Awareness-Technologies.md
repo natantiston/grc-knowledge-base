@@ -1296,4 +1296,1287 @@ The stronger objective is:
 
 A mature organization therefore treats the LMS as a **technology component within a broader security awareness program**, rather than assuming that deploying an LMS automatically creates security awareness.
 
+## Phishing Simulation Platforms
+
+Phishing remains one of the most common methods attackers use to target employees. Traditional security awareness training can teach employees what phishing looks like, but knowledge alone does not always translate into behavior.
+
+A **phishing simulation platform** allows an organization to safely test employee responses to simulated phishing attacks.
+
+The fundamental concept is:
+
+> **Train employees → simulate realistic attacks → measure behavior → provide targeted improvement → repeat.**
+
+Unlike a normal security awareness course, a phishing simulation tests what employees actually do when confronted with a realistic scenario.
+
+---
+
+# What Is a Phishing Simulation Platform?
+
+A phishing simulation platform is a security-awareness technology that allows an organization to create, send, manage, and analyze simulated phishing campaigns.
+
+The platform can simulate scenarios such as:
+
+* Credential phishing.
+* Malicious links.
+* Fake invoices.
+* Password-reset requests.
+* Delivery notifications.
+* Executive impersonation.
+* HR communications.
+* Cloud-service notifications.
+* Business Email Compromise (BEC).
+* QR-code phishing.
+
+The messages are designed to resemble realistic attacks without actually compromising the employee or organization.
+
+---
+
+# Why Phishing Simulations Are Important
+
+Traditional training asks:
+
+> "Do you know what phishing looks like?"
+
+A simulation asks:
+
+> **"What will you actually do when you receive a suspicious message?"**
+
+This distinction is important.
+
+An employee may score 95% on a phishing awareness quiz but still click a simulated phishing link.
+
+This demonstrates that:
+
+**Knowledge ≠ Behavior**
+
+Phishing simulations help organizations measure the behavioral component.
+
+---
+
+# How a Phishing Simulation Works
+
+A typical simulation follows this process:
+
+**Plan**
+
+↓
+
+**Create Campaign**
+
+↓
+
+**Select Target Group**
+
+↓
+
+**Send Simulation**
+
+↓
+
+**Monitor Behavior**
+
+↓
+
+**Analyze Results**
+
+↓
+
+**Provide Training**
+
+↓
+
+**Repeat**
+
+This creates a continuous learning cycle.
+
+---
+
+# Step 1 – Define the Objective
+
+Before launching a simulation, the organization should define what it wants to measure.
+
+Examples include:
+
+* Phishing recognition.
+* Reporting behavior.
+* Credential protection.
+* Social engineering resistance.
+* Executive impersonation awareness.
+
+For example:
+
+> Objective: Determine whether employees can recognize fake Microsoft 365 credential requests.
+
+A clear objective makes the simulation more useful.
+
+---
+
+# Step 2 – Select the Target Population
+
+The organization can select:
+
+* Entire workforce.
+* Specific departments.
+* New employees.
+* Executives.
+* High-risk users.
+* Privileged administrators.
+* Remote workers.
+
+Different groups may require different scenarios.
+
+For example:
+
+### Finance
+
+Fake invoice or payment request.
+
+### HR
+
+Fake employee-document request.
+
+### IT
+
+Fake security alert.
+
+### Executives
+
+Executive impersonation.
+
+---
+
+# Step 3 – Design the Simulation
+
+The security team creates a simulated phishing message.
+
+Example:
+
+> **Subject: Your account requires immediate verification**
+
+The message may contain:
+
+* Familiar branding.
+* Urgent language.
+* Suspicious link.
+* Call to action.
+
+The simulation should be realistic enough to measure behavior but controlled enough to avoid causing operational disruption.
+
+---
+
+# Realism vs. Safety
+
+An important consideration is balancing realism with employee safety.
+
+The organization should not create simulations that:
+
+* Cause unnecessary panic.
+* Damage employee trust.
+* Create serious personal distress.
+* Impersonate highly sensitive events unnecessarily.
+* Create confusion during real incidents.
+
+For example, simulating a fake payroll termination notice may generate strong emotional reactions.
+
+A better simulation may use:
+
+> "Your corporate password will expire."
+
+The goal is to test security behavior, not manipulate employees emotionally.
+
+---
+
+# Types of Phishing Simulations
+
+## Credential Phishing
+
+Attempts to convince users to enter credentials.
+
+Example:
+
+> "Your corporate account has been locked. Sign in to restore access."
+
+Measures whether employees recognize fake authentication requests.
+
+---
+
+## Invoice Fraud
+
+Targets employees involved in finance.
+
+Example:
+
+> "Urgent: Updated supplier banking details attached."
+
+This tests whether employees follow payment verification procedures.
+
+---
+
+## Executive Impersonation
+
+Attempts to imitate senior management.
+
+Example:
+
+> "I need you to purchase gift cards immediately."
+
+This tests resistance to authority-based social engineering.
+
+---
+
+## IT Support Simulation
+
+Example:
+
+> "Security Alert: Your VPN access requires verification."
+
+This tests whether employees trust apparent IT communications without verification.
+
+---
+
+## Delivery Notification
+
+Example:
+
+> "Your package could not be delivered. Confirm your address."
+
+This is useful because employees frequently encounter legitimate delivery notifications.
+
+---
+
+## QR-Code Phishing
+
+A simulation may contain a QR code leading to a controlled landing page.
+
+This tests awareness of **quishing**, or QR-code-based phishing.
+
+---
+
+# Simulation Landing Pages
+
+Some platforms use controlled landing pages.
+
+For example:
+
+Employee clicks the simulated link.
+
+↓
+
+Browser opens a controlled page.
+
+↓
+
+Platform records the interaction.
+
+↓
+
+Employee sees an educational message.
+
+The page might explain:
+
+> "This was a security awareness simulation. Look for unexpected requests, suspicious domains, urgency, and unusual authentication links."
+
+The objective is immediate learning.
+
+---
+
+# Credential Capture
+
+Some phishing simulation platforms can simulate credential submission.
+
+However, organizations should be extremely careful.
+
+A mature program should generally avoid collecting employees' real passwords.
+
+The platform may instead detect:
+
+> "User attempted to enter information"
+
+without storing the actual password.
+
+This protects employee privacy and reduces unnecessary risk.
+
+---
+
+# What Should Be Measured?
+
+A phishing simulation platform can measure several behaviors.
+
+### Delivery
+
+Was the message delivered?
+
+### Open
+
+Did the employee open the message?
+
+### Click
+
+Did the employee click the simulated link?
+
+### Submission
+
+Did the employee attempt to enter information?
+
+### Report
+
+Did the employee report the message?
+
+These measurements provide a behavioral picture.
+
+---
+
+# Click Rate
+
+One common metric is:
+
+**Click Rate = Users Who Clicked / Users Who Received the Simulation × 100**
+
+For example:
+
+1,000 employees receive a simulation.
+
+50 click the link.
+
+**Click rate = 5%**
+
+However, click rate should not be the only metric.
+
+---
+
+# Reporting Rate
+
+Another important metric is:
+
+**Reporting Rate = Users Who Reported / Users Who Received the Simulation × 100**
+
+For example:
+
+1,000 employees receive the simulation.
+
+700 report it.
+
+**Reporting rate = 70%**
+
+A high reporting rate is generally a positive indicator.
+
+---
+
+# False Reporting
+
+Some organizations also measure whether employees incorrectly report legitimate messages.
+
+This can help identify whether employees are becoming excessively suspicious.
+
+The objective should be:
+
+> **Accurate detection and appropriate reporting.**
+
+Not simply:
+
+> **Report everything.**
+
+---
+
+# Time to Report
+
+Organizations can also measure how quickly employees report simulated phishing.
+
+For example:
+
+| Employee | Time to Report |
+| -------- | -------------: |
+| A        |      2 minutes |
+| B        |      7 minutes |
+| C        |     18 minutes |
+| D        | Did not report |
+
+This can help evaluate how quickly employees recognize and escalate suspicious messages.
+
+---
+
+# Repeat Behavior
+
+One of the most valuable measurements is repeated behavior.
+
+For example:
+
+### Campaign 1
+
+Click rate = 12%
+
+### Campaign 2
+
+Click rate = 8%
+
+### Campaign 3
+
+Click rate = 5%
+
+This suggests improvement.
+
+However, if the same employees repeatedly click simulations, targeted intervention may be appropriate.
+
+---
+
+# Risk-Based Phishing Simulations
+
+Organizations should avoid treating every employee identically.
+
+A risk-based program may classify employees according to:
+
+* Role.
+* Access privileges.
+* Exposure.
+* Previous behavior.
+* Business importance.
+
+For example:
+
+### Low Risk
+
+Standard awareness.
+
+### Medium Risk
+
+Additional simulations.
+
+### High Risk
+
+Targeted training and increased monitoring.
+
+This allows limited security resources to focus on higher-risk populations.
+
+---
+
+# High-Risk Users
+
+Examples may include:
+
+* Privileged administrators.
+* Finance employees.
+* Executives.
+* Help desk personnel.
+* HR personnel.
+* Employees with access to sensitive data.
+* Remote administrators.
+
+These users may be targeted by attackers because compromise could provide significant access or financial benefit.
+
+---
+
+# Phishing Simulation Frequency
+
+There is no universal number of simulations that is appropriate for every organization.
+
+Possible approaches include:
+
+* Quarterly.
+* Monthly.
+* Campaign-based.
+* Risk-based.
+* Event-driven.
+
+For example:
+
+**January**
+
+Baseline simulation.
+
+**April**
+
+Credential phishing.
+
+**July**
+
+Executive impersonation.
+
+**October**
+
+Invoice fraud.
+
+The organization can adjust frequency based on results.
+
+---
+
+# Randomized Campaigns
+
+Some platforms can randomize:
+
+* Message templates.
+* Send times.
+* Target groups.
+* Difficulty.
+* Attack techniques.
+
+This can make simulations more representative of real-world conditions.
+
+However, randomness should not become excessive.
+
+Employees should still understand that simulations are part of a learning program.
+
+---
+
+# Difficulty Levels
+
+A mature program can gradually increase difficulty.
+
+### Beginner
+
+Obvious phishing indicators.
+
+### Intermediate
+
+Realistic branding and language.
+
+### Advanced
+
+Subtle domain differences and realistic business context.
+
+### Expert
+
+Highly convincing social engineering scenarios.
+
+The objective is to develop employee capability progressively.
+
+---
+
+# Baseline Testing
+
+Before launching a major awareness program, organizations may conduct a baseline simulation.
+
+For example:
+
+**Initial click rate = 15%**
+
+After training:
+
+**Click rate = 9%**
+
+After additional campaigns:
+
+**Click rate = 5%**
+
+The baseline provides a reference point for measuring improvement.
+
+---
+
+# Phishing Simulation and Training
+
+Simulation should not operate independently from training.
+
+A strong model is:
+
+**Simulation**
+
+↓
+
+Identify weakness
+
+↓
+
+**Training**
+
+↓
+
+Practice
+
+↓
+
+**Second Simulation**
+
+↓
+
+Measure improvement
+
+This is more effective than simply sending simulations repeatedly.
+
+---
+
+# Just-in-Time Training
+
+Some platforms provide immediate training after a simulated phishing interaction.
+
+For example:
+
+Employee clicks the simulated link.
+
+↓
+
+Educational page appears.
+
+↓
+
+Employee receives a 3-minute lesson.
+
+↓
+
+Employee learns the indicators.
+
+This is called **just-in-time training**.
+
+The lesson is delivered at the moment when the behavior is most relevant.
+
+---
+
+# Remedial Training
+
+Employees who repeatedly fail simulations may receive additional training.
+
+For example:
+
+**First failure**
+
+→ Short phishing refresher.
+
+**Second failure**
+
+→ Targeted phishing module.
+
+**Third failure**
+
+→ Manager/security intervention.
+
+However, remediation should focus on improving behavior rather than punishment.
+
+---
+
+# Avoiding a Punitive Culture
+
+Phishing simulations should not become a "gotcha" exercise.
+
+Poor approach:
+
+> "You clicked the link. You failed."
+
+Better approach:
+
+> "This was a simulation. Here's what made the message suspicious and what you should do next time."
+
+The goal is:
+
+**Learning → Behavior Change → Risk Reduction**
+
+not:
+
+**Punishment → Fear → Under-reporting**
+
+---
+
+# Reporting as a Positive Behavior
+
+Organizations should strongly encourage reporting.
+
+Suppose an employee receives a phishing email and is uncertain whether it is malicious.
+
+If the employee reports it, the security team can investigate.
+
+This is preferable to:
+
+> "I don't want to bother security."
+
+A mature security culture treats reporting as a positive behavior.
+
+---
+
+# Phishing Simulation Platforms and Email Security
+
+Some platforms can integrate with organizational email systems.
+
+This may allow:
+
+* Campaign deployment.
+* Tracking.
+* Reporting.
+* Automated response.
+* User education.
+
+However, security teams must ensure that simulations do not accidentally trigger:
+
+* Email security blocks.
+* Security alerts.
+* Incident response processes.
+* External reputation systems.
+
+The simulation should be coordinated with relevant security teams.
+
+---
+
+# Whitelisting Considerations
+
+Some organizations may need to configure their email security infrastructure so that approved simulation messages are delivered correctly.
+
+However, this creates a potential security risk.
+
+If simulation infrastructure is broadly trusted or improperly configured, attackers could potentially abuse the same configuration.
+
+Therefore:
+
+> **Simulation infrastructure should be tightly controlled and documented.**
+
+---
+
+# Integration With Security Operations
+
+A mature phishing simulation program can connect with the SOC.
+
+For example:
+
+**Simulation sent**
+
+↓
+
+Employee reports message
+
+↓
+
+SOC receives report
+
+↓
+
+SOC identifies it as simulation
+
+↓
+
+Platform records successful reporting behavior
+
+This also provides an opportunity to test the organization's phishing-reporting workflow.
+
+---
+
+# Integration With SIEM
+
+Advanced environments may integrate awareness platforms with security monitoring systems.
+
+For example:
+
+* Simulation event.
+* User activity.
+* Reporting event.
+* Security alert.
+
+These integrations can provide broader visibility.
+
+However, organizations should carefully manage data privacy and avoid collecting unnecessary employee information.
+
+---
+
+# Integration With LMS
+
+The phishing platform may integrate with the LMS.
+
+Example:
+
+**Employee fails simulation**
+
+↓
+
+**LMS automatically assigns training**
+
+↓
+
+Employee completes training
+
+↓
+
+**LMS records completion**
+
+This creates an integrated learning environment.
+
+---
+
+# Integration With GRC
+
+For GRC teams, phishing simulation results can support:
+
+* Risk assessments.
+* Control monitoring.
+* Compliance evidence.
+* Management reporting.
+* Awareness metrics.
+
+For example:
+
+> Phishing susceptibility is identified as a human-related risk.
+
+↓
+
+Simulation measures the risk.
+
+↓
+
+Training addresses the weakness.
+
+↓
+
+Subsequent simulations measure improvement.
+
+This provides evidence of continuous improvement.
+
+---
+
+# Phishing Risk Score
+
+Some platforms provide a composite risk score.
+
+It may consider:
+
+* Click behavior.
+* Reporting behavior.
+* Training completion.
+* Previous simulation results.
+* Role or exposure.
+
+For example:
+
+**Employee Risk Score**
+
+= Behavioral Results + Exposure + Historical Performance
+
+Organizations should be cautious with such scores.
+
+A score should support risk management, not become an unfair employee-performance rating.
+
+---
+
+# Privacy Considerations
+
+Phishing simulations involve employee behavioral data.
+
+The organization should carefully consider:
+
+* What information is collected.
+* Why it is collected.
+* Who can access it.
+* How long it is retained.
+* Whether individual-level reporting is necessary.
+
+For example:
+
+Security leadership may need department-level trends.
+
+They may not need to publish an employee's individual failure publicly.
+
+---
+
+# Ethical Considerations
+
+A phishing simulation should be:
+
+* Authorized.
+* Controlled.
+* Proportionate.
+* Relevant.
+* Secure.
+* Educational.
+
+Organizations should avoid simulations that:
+
+* Humiliate employees.
+* Create unnecessary fear.
+* Manipulate sensitive personal circumstances.
+* Collect unnecessary credentials.
+* Create operational disruption.
+
+---
+
+# Phishing Simulation Governance
+
+A formal governance process should define:
+
+* Who can authorize campaigns.
+* Who can create simulations.
+* Who can access results.
+* How employee data is handled.
+* How often simulations occur.
+* How remediation works.
+* How results are reported.
+
+For example:
+
+**CISO**
+
+↓
+
+Approves program
+
+**Security Awareness Team**
+
+↓
+
+Designs campaigns
+
+**SOC**
+
+↓
+
+Coordinates technical monitoring
+
+**HR / Legal / Privacy**
+
+↓
+
+Reviews employee-data considerations
+
+**Managers**
+
+↓
+
+Support remediation
+
+This creates accountability.
+
+---
+
+# Phishing Simulation Metrics
+
+A mature program can measure:
+
+### Delivery Rate
+
+Percentage successfully delivered.
+
+### Open Rate
+
+Percentage opened.
+
+### Click Rate
+
+Percentage clicking simulated links.
+
+### Submission Rate
+
+Percentage attempting to submit information.
+
+### Reporting Rate
+
+Percentage reporting the simulation.
+
+### Time to Report
+
+How quickly users report.
+
+### Repeat Failure Rate
+
+Users repeatedly failing simulations.
+
+### Improvement Rate
+
+Reduction in risky behavior over time.
+
+---
+
+# Example Dashboard
+
+| Metric              |     Q1 |     Q2 |     Q3 |     Q4 |
+| ------------------- | -----: | -----: | -----: | -----: |
+| Click Rate          |    11% |     8% |     6% |     4% |
+| Reporting Rate      |    48% |    61% |    70% |    78% |
+| Submission Rate     |     5% |     3% |     2% |     1% |
+| Avg. Time to Report | 28 min | 21 min | 15 min | 11 min |
+| Repeat Failures     |     9% |     7% |     4% |     3% |
+
+This provides evidence of behavioral improvement.
+
+---
+
+# Measuring the Right Outcome
+
+A common mistake is to focus exclusively on click rate.
+
+Suppose:
+
+**Click rate decreases**
+
+but
+
+**Reporting rate remains unchanged.**
+
+The organization may have improved resistance but not necessarily detection capability.
+
+A stronger program considers both:
+
+**Avoidance**
+
+and
+
+**Detection**
+
+The desired behavior is:
+
+> **Don't click, and report the suspicious message.**
+
+---
+
+# Simulation Fatigue
+
+Too many simulations can create awareness fatigue.
+
+Employees may begin to:
+
+* Ignore emails.
+* Expect simulations.
+* Become frustrated.
+* Treat all emails as suspicious.
+* Stop taking training seriously.
+
+Therefore, campaigns should be carefully planned.
+
+Quality is generally more important than simply increasing the number of simulations.
+
+---
+
+# Simulation Predictability
+
+If simulations always arrive:
+
+> Monday at 10:00 AM
+
+employees may learn the pattern rather than the security behavior.
+
+Instead, campaigns can vary:
+
+* Timing.
+* Scenarios.
+* Message styles.
+* Attack techniques.
+
+The objective is to test actual recognition rather than pattern recognition.
+
+---
+
+# Phishing Simulation Example
+
+Consider a company with 5,000 employees.
+
+The security team performs a baseline simulation.
+
+### Results
+
+* 5,000 received.
+* 4,900 opened.
+* 600 clicked.
+* 180 attempted credential submission.
+* 2,000 reported the message.
+
+The organization identifies:
+
+**Click rate = 12%**
+
+**Submission rate = 3.6%**
+
+**Reporting rate = 40%**
+
+The organization then provides targeted training.
+
+Three months later:
+
+* Click rate = 6%.
+* Submission rate = 1%.
+* Reporting rate = 68%.
+
+The organization can demonstrate measurable improvement.
+
+---
+
+# Advanced Scenario
+
+A financial organization identifies that finance employees are particularly targeted by payment fraud.
+
+Instead of giving them generic phishing simulations, it creates a targeted scenario:
+
+> "Urgent: Supplier banking information has changed."
+
+The simulation tests whether employees:
+
+* Follow verification procedures.
+* Independently confirm payment changes.
+* Report suspicious requests.
+
+This is more relevant than simply testing whether employees recognize generic phishing.
+
+---
+
+# Common Mistakes
+
+Organizations should avoid:
+
+### Using Simulations as Punishment
+
+The objective is behavior improvement.
+
+### Collecting Real Passwords
+
+There is generally no need to collect actual credentials.
+
+### Excessive Frequency
+
+Too many campaigns can cause fatigue.
+
+### Unrealistic Messages
+
+Poor simulations provide little value.
+
+### Measuring Only Clicks
+
+Reporting behavior is also important.
+
+### Ignoring High-Risk Roles
+
+Executives, finance, administrators, and privileged users may require specialized scenarios.
+
+### Failing to Train After Failure
+
+Simulation without remediation limits learning.
+
+### Publicly Shaming Employees
+
+This can damage security culture.
+
+### Poor Governance
+
+Simulations must be authorized and controlled.
+
+---
+
+# Practical Implementation Lifecycle
+
+A mature phishing simulation program can follow:
+
+### Step 1 – Establish Governance
+
+Define authorization, privacy, and reporting requirements.
+
+### Step 2 – Establish Baseline
+
+Measure current employee behavior.
+
+### Step 3 – Identify Risk Groups
+
+Identify departments and roles requiring additional attention.
+
+### Step 4 – Design Scenarios
+
+Create realistic, controlled simulations.
+
+### Step 5 – Launch
+
+Deploy the campaign.
+
+### Step 6 – Measure
+
+Track:
+
+* Clicks.
+* Reports.
+* Submissions.
+* Time to report.
+
+### Step 7 – Train
+
+Provide targeted education.
+
+### Step 8 – Repeat
+
+Conduct subsequent campaigns.
+
+### Step 9 – Compare
+
+Measure behavioral change.
+
+### Step 10 – Improve
+
+Adjust the program based on results.
+
+---
+
+# GRC Perspective
+
+For a GRC professional, phishing simulation platforms can provide evidence for human-risk controls.
+
+A useful chain is:
+
+**Threat**
+
+Phishing
+
+↓
+
+**Risk**
+
+Credential compromise
+
+↓
+
+**Control**
+
+Security awareness and phishing simulations
+
+↓
+
+**Test**
+
+Simulated phishing campaign
+
+↓
+
+**Measurement**
+
+Click/report/submission behavior
+
+↓
+
+**Remediation**
+
+Targeted training
+
+↓
+
+**Retest**
+
+Subsequent simulation
+
+↓
+
+**Assurance**
+
+Evidence of improved behavior
+
+This is a practical example of the **Plan → Implement → Measure → Improve** cycle.
+
+---
+
+# Key Takeaways
+
+Phishing simulation platforms provide organizations with a practical way to test and improve employee behavior against phishing attacks.
+
+The key principles are:
+
+1. **Phishing simulations test behavior rather than merely knowledge.**
+2. **Simulations should have clearly defined objectives.**
+3. **Different roles may require different phishing scenarios.**
+4. **Baseline testing helps establish the organization's initial risk level.**
+5. **Click rate is useful but should not be the only metric.**
+6. **Reporting rate and time to report are important indicators of detection capability.**
+7. **Repeated failures can identify individuals or groups requiring targeted training.**
+8. **Just-in-time training can reinforce learning immediately after a simulated failure.**
+9. **Realistic simulations should remain ethical, controlled, and proportionate.**
+10. **Organizations should avoid collecting real passwords or unnecessary personal information.**
+11. **Simulation results should be handled carefully because they contain employee behavioral data.**
+12. **Integration with LMS, email systems, SOC, and GRC platforms can increase program effectiveness.**
+13. **Phishing simulations should not be used primarily as a punishment mechanism.**
+14. **The goal is behavior improvement, not employee humiliation.**
+15. **Repeated measurement allows organizations to demonstrate whether phishing resilience is improving.**
+
+The ultimate objective is not:
+
+> **"Our phishing simulation had a low click rate."**
+
+The stronger objective is:
+
+> **"Our organization has measurable evidence that employees are increasingly able to recognize, avoid, and report phishing attacks."**
+
+A mature phishing simulation program therefore transforms phishing awareness from **passive training into an ongoing behavioral measurement and improvement process**, making it an important component of enterprise human-risk management.
+
+
 

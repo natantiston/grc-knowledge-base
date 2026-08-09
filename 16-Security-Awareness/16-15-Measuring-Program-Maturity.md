@@ -2303,5 +2303,1288 @@ It is:
 
 From a GRC perspective, the program assessment provides the bridge between **security awareness activities and demonstrable risk reduction**.
 
+## Continuous Improvement Roadmap
+
+A security awareness program should not be treated as a project that is completed once training has been delivered.
+
+Threats change. Employees change. Technology changes. Regulations change. Business processes change.
+
+Therefore, an effective security awareness program requires a **continuous improvement roadmap**.
+
+The roadmap translates assessment findings and maturity gaps into a structured plan for improving the program over time.
+
+The fundamental principle is:
+
+> **Assess → Identify Gaps → Prioritize → Improve → Measure → Reassess**
+
+This creates a continuous cycle rather than a one-time initiative.
+
+---
+
+# What Is a Continuous Improvement Roadmap?
+
+A continuous improvement roadmap is a structured plan that defines:
+
+* What needs to improve.
+* Why it needs to improve.
+* What actions will be taken.
+* Who is responsible.
+* When the improvement should occur.
+* What resources are required.
+* How success will be measured.
+
+For security awareness, the roadmap should connect improvements to:
+
+**Risk**
+
+↓
+
+**Business Objectives**
+
+↓
+
+**Security Awareness Strategy**
+
+↓
+
+**Maturity Targets**
+
+↓
+
+**Improvement Initiatives**
+
+↓
+
+**Measurable Outcomes**
+
+---
+
+# Why a Roadmap Is Necessary
+
+A program assessment may identify many weaknesses.
+
+For example:
+
+* No role-based training.
+* Weak phishing metrics.
+* Poor contractor awareness.
+* Outdated training content.
+* Limited executive reporting.
+* No human-risk measurement.
+* Weak security culture.
+
+An organization cannot necessarily fix all of these simultaneously.
+
+The roadmap determines:
+
+> **What should be improved first, what can wait, and how the improvements will be delivered.**
+
+---
+
+# Continuous Improvement vs. One-Time Remediation
+
+A one-time approach looks like:
+
+**Assessment**
+
+↓
+
+**Fix findings**
+
+↓
+
+**Close assessment**
+
+A continuous improvement approach looks like:
+
+**Assessment**
+
+↓
+
+**Improvement**
+
+↓
+
+**Measurement**
+
+↓
+
+**Reassessment**
+
+↓
+
+**New gaps identified**
+
+↓
+
+**Further improvement**
+
+↓
+
+**Measurement**
+
+This creates a repeating cycle.
+
+---
+
+# The Improvement Cycle
+
+A practical cycle can use six stages:
+
+### 1. Assess
+
+Determine current performance and maturity.
+
+### 2. Analyze
+
+Identify weaknesses and their root causes.
+
+### 3. Prioritize
+
+Determine which improvements provide the greatest risk reduction.
+
+### 4. Implement
+
+Execute improvement initiatives.
+
+### 5. Measure
+
+Determine whether the changes produced the expected results.
+
+### 6. Reassess
+
+Determine what still needs improvement.
+
+The cycle then starts again.
+
+---
+
+# Roadmap Inputs
+
+The roadmap should not be created from the awareness team's opinions alone.
+
+Important inputs include:
+
+* Program assessments.
+* Maturity assessments.
+* Risk assessments.
+* Phishing results.
+* Security incidents.
+* Employee surveys.
+* Audit findings.
+* Regulatory changes.
+* Threat intelligence.
+* Business changes.
+* Technology changes.
+* Executive priorities.
+
+These inputs help ensure the roadmap reflects actual organizational risk.
+
+---
+
+# Example
+
+Suppose a company discovers:
+
+> Phishing-related incidents increased by 30%.
+
+At the same time:
+
+* Phishing simulation failures increased.
+* Reporting rates decreased.
+* Employees report that training is repetitive.
+
+These findings could result in roadmap initiatives such as:
+
+1. Refresh phishing training.
+2. Introduce targeted simulations.
+3. Implement microlearning.
+4. Improve reporting mechanisms.
+5. Measure behavioral change.
+
+The roadmap therefore responds directly to observed risk.
+
+---
+
+# Current State and Target State
+
+A roadmap should clearly define both.
+
+### Current State
+
+Security awareness maturity = Level 2.
+
+### Target State
+
+Security awareness maturity = Level 4.
+
+### Gap
+
+The organization lacks:
+
+* Behavioral analytics.
+* Role-based training.
+* Executive reporting.
+* Risk-based simulations.
+
+### Roadmap
+
+Implement these capabilities progressively.
+
+This gives management a clear picture of the transformation.
+
+---
+
+# Roadmap Prioritization
+
+Not every improvement should have the same priority.
+
+A useful prioritization model considers:
+
+**Risk Reduction**
+
+*
+
+**Regulatory Importance**
+
+*
+
+**Business Impact**
+
+*
+
+**Urgency**
+
+*
+
+**Implementation Effort**
+
+For example:
+
+| Initiative               | Risk Reduction | Effort | Priority |
+| ------------------------ | -------------- | ------ | -------- |
+| Privileged-user training | High           | Medium | High     |
+| Contractor awareness     | High           | Medium | High     |
+| Dashboard redesign       | Medium         | Low    | Medium   |
+| New training graphics    | Low            | Low    | Low      |
+
+This prevents resources from being consumed by low-value improvements.
+
+---
+
+# Risk-Based Prioritization
+
+Consider two findings.
+
+### Finding A
+
+Training videos are visually outdated.
+
+Impact: Low.
+
+### Finding B
+
+Privileged administrators receive no specialized awareness training.
+
+Impact: High.
+
+Even though Finding A may be easier to fix, Finding B should normally receive greater priority.
+
+Therefore:
+
+> **Ease of implementation should not determine security priority.**
+
+---
+
+# Quick Wins
+
+Roadmaps should identify **quick wins**.
+
+Examples include:
+
+* Updating outdated training links.
+* Adding phishing reporting instructions.
+* Creating security awareness reminders.
+* Improving training notifications.
+* Updating contact information.
+* Adding role-specific examples.
+
+Quick wins provide visible improvement while larger initiatives are being developed.
+
+---
+
+# Strategic Initiatives
+
+Some improvements require significant effort.
+
+Examples:
+
+* Implementing a new LMS.
+* Integrating human-risk analytics.
+* Developing role-based training.
+* Establishing third-party awareness.
+* Creating an enterprise awareness governance model.
+* Implementing AI-powered awareness capabilities.
+
+These initiatives should appear as longer-term roadmap items.
+
+---
+
+# Roadmap Time Horizons
+
+A roadmap can be divided into:
+
+### Short Term
+
+**0–3 months**
+
+Focus on:
+
+* Critical gaps.
+* Quick wins.
+* Governance.
+* Immediate risk reduction.
+
+### Medium Term
+
+**3–12 months**
+
+Focus on:
+
+* Role-based training.
+* Metrics.
+* Phishing program improvements.
+* Technology enhancements.
+
+### Long Term
+
+**12–24+ months**
+
+Focus on:
+
+* Human-risk management.
+* Advanced analytics.
+* AI capabilities.
+* Security culture transformation.
+* Enterprise optimization.
+
+The exact timeline depends on organizational size and risk.
+
+---
+
+# Example Three-Year Roadmap
+
+## Year 1 – Establish
+
+Objectives:
+
+* Formalize governance.
+* Define awareness strategy.
+* Establish baseline metrics.
+* Implement regular phishing simulations.
+* Refresh training content.
+
+Target maturity:
+
+**Level 3**
+
+---
+
+## Year 2 – Measure
+
+Objectives:
+
+* Implement behavioral analytics.
+* Introduce role-based training.
+* Improve executive reporting.
+* Expand third-party awareness.
+* Establish human-risk indicators.
+
+Target maturity:
+
+**Level 4**
+
+---
+
+## Year 3 – Optimize
+
+Objectives:
+
+* Adaptive training.
+* Advanced analytics.
+* Threat-informed awareness.
+* AI-assisted personalization.
+* Predictive human-risk analysis.
+
+Target maturity:
+
+**Level 5**
+
+The organization should not automatically pursue Level 5 simply because it is available. The target should remain risk-driven.
+
+---
+
+# Roadmap Example
+
+| Initiative           | Owner                  | Priority | Timeline | Success Measure            |
+| -------------------- | ---------------------- | -------- | -------- | -------------------------- |
+| Awareness governance | CISO                   | High     | Q1       | Governance approved        |
+| Role-based training  | Security Awareness     | High     | Q2       | 90% target-role completion |
+| Phishing improvement | Security               | High     | Q2       | Failure rate reduced       |
+| Behavioral analytics | GRC/Security           | Medium   | Q3       | Risk dashboard operational |
+| Third-party training | Procurement + Security | High     | Q3       | 90% contractor coverage    |
+| Executive dashboard  | GRC                    | Medium   | Q4       | Quarterly reporting        |
+| Human-risk program   | CISO                   | Medium   | Year 2   | HRM capability established |
+
+This makes the roadmap actionable.
+
+---
+
+# Assigning Ownership
+
+Every roadmap initiative should have an accountable owner.
+
+Possible owners include:
+
+* CISO.
+* Security Awareness Manager.
+* GRC Manager.
+* HR.
+* IT.
+* SOC.
+* Privacy.
+* Procurement.
+* Business Unit Leaders.
+
+Avoid statements such as:
+
+> "Security team will improve training."
+
+Instead define:
+
+> **Owner: Security Awareness Manager**
+
+> **Action: Implement role-based training for Finance, HR, IT, and privileged users.**
+
+> **Target: Q2.**
+
+Accountability makes improvement measurable.
+
+---
+
+# RACI and Continuous Improvement
+
+A RACI model can clarify responsibilities.
+
+**Responsible**
+
+Who performs the work?
+
+**Accountable**
+
+Who owns the outcome?
+
+**Consulted**
+
+Who provides expertise?
+
+**Informed**
+
+Who needs to know the result?
+
+For example:
+
+| Activity            | Security | HR | GRC | CISO |
+| ------------------- | -------- | -- | --- | ---- |
+| Training content    | R        | C  | C   | I    |
+| Employee onboarding | C        | R  | I   | I    |
+| Metrics             | R        | C  | R   | A    |
+| Strategy            | C        | C  | R   | A    |
+
+This reduces ambiguity.
+
+---
+
+# Defining Success
+
+Every improvement should have a measurable outcome.
+
+Bad roadmap objective:
+
+> "Improve phishing awareness."
+
+Better:
+
+> "Reduce phishing simulation failure from 12% to below 7% within 12 months."
+
+Another example:
+
+Bad:
+
+> "Improve contractor awareness."
+
+Better:
+
+> "Achieve at least 95% security awareness training completion among active contractors within six months of onboarding."
+
+Specific outcomes make improvement measurable.
+
+---
+
+# Leading and Lagging Indicators
+
+A roadmap should use both.
+
+### Leading Indicators
+
+Measure activities that should contribute to future improvement.
+
+Examples:
+
+* Training participation.
+* Simulation frequency.
+* Reporting adoption.
+* Microlearning engagement.
+
+### Lagging Indicators
+
+Measure actual outcomes.
+
+Examples:
+
+* Security incidents.
+* Phishing-related compromises.
+* Policy violations.
+* Reduction in risky behavior.
+
+Both are necessary.
+
+---
+
+# Example
+
+### Leading Indicator
+
+Phishing training completion:
+
+**98%**
+
+### Lagging Indicator
+
+Phishing incidents:
+
+**Down 25%**
+
+The organization can therefore determine whether training activity is translating into improved security outcomes.
+
+---
+
+# Measuring Improvement
+
+Suppose the baseline is:
+
+**Phishing failure rate = 15%**
+
+After targeted training:
+
+**12%**
+
+After another campaign:
+
+**8%**
+
+The organization can demonstrate improvement.
+
+However, it should also investigate whether external factors influenced the results.
+
+For example:
+
+* Email filtering changed.
+* Threat levels changed.
+* Employee population changed.
+* Simulation difficulty changed.
+
+Metrics must therefore be interpreted in context.
+
+---
+
+# Avoiding Metric Manipulation
+
+A poorly designed roadmap can create incentives to improve the wrong metric.
+
+For example:
+
+> "Success = 100% training completion."
+
+Employees may simply click through training.
+
+A better approach combines:
+
+**Completion**
+
+*
+
+**Knowledge**
+
+*
+
+**Behavior**
+
+*
+
+**Security outcomes**
+
+This provides a more accurate picture.
+
+---
+
+# Continuous Improvement and Phishing
+
+Phishing simulations provide valuable feedback for roadmap decisions.
+
+For example:
+
+### Result
+
+Phishing failure = 18%.
+
+↓
+
+### Analysis
+
+Finance employees are disproportionately affected.
+
+↓
+
+### Improvement
+
+Develop finance-specific phishing training.
+
+↓
+
+### Simulation
+
+Test again.
+
+↓
+
+### Result
+
+Failure decreases to 8%.
+
+↓
+
+### Next Step
+
+Focus on reporting behavior.
+
+This creates a data-driven improvement cycle.
+
+---
+
+# Continuous Improvement and Incidents
+
+Security incidents should also feed into the roadmap.
+
+Suppose an employee accidentally sends confidential information to an external recipient.
+
+The organization investigates.
+
+### Root Cause
+
+Employee did not understand data classification requirements.
+
+### Awareness Improvement
+
+Introduce targeted data-handling training.
+
+### Measurement
+
+Track policy-related incidents.
+
+### Validation
+
+Measure whether similar incidents decrease.
+
+This turns incidents into learning opportunities.
+
+---
+
+# Lessons Learned
+
+After significant events, the awareness team should ask:
+
+* What happened?
+* Why did employees behave this way?
+* Was training relevant?
+* Was the policy understandable?
+* Was the process too complicated?
+* Did technology contribute?
+* What should change?
+* How will we measure improvement?
+
+This is much more valuable than simply assigning another generic training course.
+
+---
+
+# Threat Intelligence and Roadmaps
+
+Emerging threats should influence roadmap priorities.
+
+For example:
+
+### Threat
+
+AI-generated phishing campaigns increase.
+
+↓
+
+### Assessment
+
+Employees struggle to identify highly convincing messages.
+
+↓
+
+### Roadmap
+
+Add:
+
+* AI phishing awareness.
+* Verification procedures.
+* Identity verification training.
+* Deepfake awareness.
+
+The roadmap therefore remains aligned with the threat environment.
+
+---
+
+# Regulatory Changes
+
+Regulatory developments may also require roadmap changes.
+
+For example, new requirements may introduce stronger expectations for:
+
+* Employee awareness.
+* Management responsibility.
+* Cybersecurity training.
+* Incident reporting.
+* Supply-chain security.
+
+The organization may need to update:
+
+* Training.
+* Policies.
+* Evidence.
+* Reporting.
+* Governance.
+
+Regulatory monitoring should therefore be part of continuous improvement.
+
+---
+
+# Technology Roadmap
+
+Technology should support program objectives.
+
+A technology roadmap might include:
+
+### Phase 1
+
+LMS implementation.
+
+### Phase 2
+
+Phishing simulation integration.
+
+### Phase 3
+
+Behavioral analytics.
+
+### Phase 4
+
+Human-risk dashboards.
+
+### Phase 5
+
+AI-assisted personalization.
+
+Technology should follow the program's needs rather than drive the strategy.
+
+---
+
+# Security Culture Roadmap
+
+Not every improvement involves technology.
+
+A mature roadmap may include:
+
+* Security champions.
+* Leadership communications.
+* Recognition programs.
+* Department security meetings.
+* Security awareness events.
+* Employee engagement campaigns.
+
+This helps transform security from:
+
+> **A compliance obligation**
+
+into:
+
+> **An organizational behavior.**
+
+---
+
+# Budget Planning
+
+Each roadmap initiative should have an estimated resource requirement.
+
+Resources may include:
+
+* Personnel.
+* Training platforms.
+* Content.
+* Consulting.
+* Technology.
+* Communications.
+* Analytics.
+
+For example:
+
+| Initiative           | Resource Requirement |
+| -------------------- | -------------------- |
+| Training refresh     | Low                  |
+| Role-based program   | Medium               |
+| LMS replacement      | High                 |
+| Behavioral analytics | High                 |
+| AI platform          | High                 |
+
+This helps management make realistic investment decisions.
+
+---
+
+# Roadmap Dependencies
+
+Some initiatives depend on others.
+
+For example:
+
+**Behavioral Analytics**
+
+may depend on:
+
+**Data Collection**
+
+which may depend on:
+
+**Phishing Platform Integration**
+
+Therefore, the roadmap should identify dependencies.
+
+A practical sequence might be:
+
+**Governance**
+
+↓
+
+**Data Collection**
+
+↓
+
+**Measurement**
+
+↓
+
+**Analytics**
+
+↓
+
+**Risk-Based Intervention**
+
+↓
+
+**Optimization**
+
+---
+
+# Avoiding Roadmap Overload
+
+A common mistake is creating a roadmap with 50 initiatives.
+
+This can make the roadmap impossible to execute.
+
+A better approach is to identify:
+
+* Critical improvements.
+* High-value improvements.
+* Strategic improvements.
+* Deferred improvements.
+
+A focused roadmap is more likely to succeed.
+
+---
+
+# Continuous Improvement Governance
+
+The roadmap should itself be governed.
+
+Possible governance activities include:
+
+### Monthly
+
+Review major implementation activities.
+
+### Quarterly
+
+Review KPIs and improvement progress.
+
+### Semiannually
+
+Review major risks and priorities.
+
+### Annually
+
+Perform comprehensive program assessment.
+
+This creates governance around the improvement process.
+
+---
+
+# Management Reporting
+
+Executives should be able to see:
+
+### Current State
+
+Where are we?
+
+### Target State
+
+Where do we want to be?
+
+### Progress
+
+How much have we improved?
+
+### Risk
+
+What remains?
+
+### Investment
+
+What resources are required?
+
+For example:
+
+> **Current maturity:** 3.1
+
+> **Target maturity:** 4.0
+
+> **Current priority:** Improve third-party awareness and behavioral measurement.
+
+> **Progress:** 65% of roadmap initiatives completed.
+
+This is much more useful than a list of training statistics.
+
+---
+
+# Example Executive Roadmap Dashboard
+
+| Area        | Current | Target | Status      |
+| ----------- | ------: | -----: | ----------- |
+| Governance  |       4 |      4 | On Target   |
+| Training    |       3 |      4 | In Progress |
+| Phishing    |       4 |      4 | On Target   |
+| Metrics     |       2 |      4 | Behind      |
+| Third Party |       1 |      3 | Behind      |
+| Culture     |       3 |      4 | In Progress |
+
+Executives can immediately identify where attention is required.
+
+---
+
+# Roadmap Risks
+
+The improvement roadmap itself has risks.
+
+Examples include:
+
+* Insufficient budget.
+* Lack of ownership.
+* Employee resistance.
+* Technology integration problems.
+* Poor data quality.
+* Competing organizational priorities.
+* Lack of executive sponsorship.
+
+These risks should also be managed.
+
+---
+
+# Change Management
+
+Security awareness improvements often require organizational change.
+
+For example, introducing mandatory role-based training may affect:
+
+* Employees.
+* Managers.
+* HR.
+* IT.
+* Business operations.
+
+Communication should explain:
+
+> **Why is this change necessary?**
+
+and:
+
+> **How does it help the organization and employees?**
+
+Change management increases adoption.
+
+---
+
+# Practical Enterprise Example
+
+Consider a multinational organization whose assessment identified these gaps:
+
+1. Limited role-based training.
+2. Weak third-party awareness.
+3. Poor behavioral metrics.
+4. Outdated training content.
+5. Limited executive reporting.
+
+The roadmap might be:
+
+### Q1
+
+* Refresh content.
+* Establish governance.
+* Define metrics.
+
+### Q2
+
+* Launch role-based training.
+* Improve phishing simulations.
+
+### Q3
+
+* Implement third-party awareness.
+* Introduce behavioral analytics.
+
+### Q4
+
+* Launch executive dashboard.
+* Perform reassessment.
+
+### Year 2
+
+* Human-risk management.
+* Adaptive training.
+* Advanced analytics.
+
+This creates a logical progression.
+
+---
+
+# The PDCA Model
+
+Continuous improvement can also be explained using the **Plan–Do–Check–Act (PDCA)** cycle.
+
+### Plan
+
+Identify risks and define improvements.
+
+### Do
+
+Implement the improvements.
+
+### Check
+
+Measure performance.
+
+### Act
+
+Adjust the program based on results.
+
+Then repeat.
+
+For example:
+
+**Plan**
+
+Phishing failure is too high.
+
+↓
+
+**Do**
+
+Introduce targeted training.
+
+↓
+
+**Check**
+
+Failure decreases from 14% to 8%.
+
+↓
+
+**Act**
+
+Expand successful training approach and address remaining high-risk groups.
+
+↓
+
+Repeat.
+
+---
+
+# GRC Perspective
+
+For a GRC professional, the continuous improvement roadmap is where assessment findings become **risk treatment actions**.
+
+The process can be represented as:
+
+**Risk**
+
+↓
+
+**Assessment Finding**
+
+↓
+
+**Gap**
+
+↓
+
+**Risk Treatment**
+
+↓
+
+**Improvement Initiative**
+
+↓
+
+**Control Implementation**
+
+↓
+
+**Measurement**
+
+↓
+
+**Residual Risk**
+
+This makes security awareness part of the organization's broader risk management process.
+
+For example:
+
+> **Risk:** Employees are vulnerable to targeted phishing.
+
+↓
+
+> **Finding:** Phishing failure rate is 15%.
+
+↓
+
+> **Gap:** No role-based phishing training.
+
+↓
+
+> **Treatment:** Introduce targeted training.
+
+↓
+
+> **Control:** Role-based phishing awareness program.
+
+↓
+
+> **Measurement:** Failure rate reduced to 7%.
+
+↓
+
+> **Residual Risk:** Continue monitoring high-risk groups.
+
+This is a strong example of GRC-driven security awareness.
+
+---
+
+# Common Mistakes
+
+Organizations should avoid:
+
+### Treating the Roadmap as a To-Do List
+
+Every initiative should have a risk or business justification.
+
+### Creating Too Many Initiatives
+
+Prioritize.
+
+### Focusing Only on Technology
+
+Culture and governance are equally important.
+
+### No Measurement
+
+Every major initiative should have success criteria.
+
+### No Ownership
+
+Every initiative needs an accountable owner.
+
+### Ignoring Dependencies
+
+Some capabilities must be established before others.
+
+### Never Reassessing
+
+Improvement must be validated.
+
+### Chasing the Highest Maturity Level
+
+The target should be based on risk.
+
+---
+
+# Key Takeaways
+
+A continuous improvement roadmap transforms security awareness assessment results into a structured program of action.
+
+The key principles are:
+
+1. **Security awareness should continuously evolve.**
+2. **A roadmap connects current maturity to a desired future state.**
+3. **Assessment findings should provide the primary input to improvement planning.**
+4. **Improvements should be prioritized according to risk and business impact.**
+5. **Quick wins and strategic initiatives should both be considered.**
+6. **Every significant initiative should have an accountable owner.**
+7. **Success criteria should be measurable.**
+8. **Leading and lagging indicators should be used together.**
+9. **Security incidents and lessons learned should feed into the roadmap.**
+10. **Threat intelligence and regulatory changes should influence priorities.**
+11. **Technology should support the awareness strategy rather than dictate it.**
+12. **Roadmaps should consider resources, dependencies, and implementation risks.**
+13. **Management should receive regular progress and risk reporting.**
+14. **Improvement should be validated through measurement and reassessment.**
+15. **The PDCA cycle provides a practical model for continuous improvement.**
+16. **From a GRC perspective, the roadmap converts identified risks and gaps into measurable risk-treatment actions.**
+
+Ultimately, the purpose of the roadmap is not simply to produce more training.
+
+It is to create a sustainable cycle:
+
+> **Assess → Prioritize → Improve → Measure → Learn → Reassess**
+
+A mature security awareness program therefore does not ask only:
+
+> **"What training should we deliver next?"**
+
+It asks:
+
+> **"What human-related security risk should we reduce next, what intervention will address it, and what evidence will demonstrate that the risk has actually improved?"**
+
+
 
 

@@ -958,5 +958,919 @@ to:
 
 **"Can you make the safe decision when authenticity is uncertain?"**
 
+## Deepfake Awareness
+
+Deepfakes represent one of the most significant emerging challenges for security awareness because they can make **fake audio, video, images, and identities appear authentic**.
+
+A deepfake may be used to impersonate:
+
+* An executive.
+* A colleague.
+* A customer.
+* A supplier.
+* A government official.
+* A family member.
+* A public figure.
+
+The security concern is not simply that someone can create a fake video.
+
+The larger concern is:
+
+> **People may trust what they see or hear when visual or audio evidence can no longer be treated as proof of identity.**
+
+For security awareness programs, this creates a fundamental shift from **"seeing is believing"** toward **"verify before trusting."**
+
+---
+
+# What Is a Deepfake?
+
+A deepfake is synthetic or manipulated media created using artificial intelligence or machine-learning techniques to make a person appear to say or do something they did not actually say or do.
+
+Deepfakes can involve:
+
+* Video.
+* Audio.
+* Images.
+* Facial expressions.
+* Lip movements.
+* Voice.
+* Entire virtual identities.
+
+For example, an attacker could create a video that appears to show a company's CEO instructing an employee to transfer money.
+
+The CEO may never have made the video.
+
+---
+
+# Deepfake vs. Traditional Media Manipulation
+
+Traditional media manipulation has existed for many years.
+
+Examples include:
+
+* Editing photographs.
+* Cutting video.
+* Modifying audio.
+* Creating fake documents.
+
+Deepfake technology can make manipulation significantly more sophisticated.
+
+AI can potentially generate or modify:
+
+* Facial movements.
+* Voice characteristics.
+* Lip synchronization.
+* Facial expressions.
+* Speech patterns.
+
+This can make fraudulent content more convincing.
+
+---
+
+# Why Deepfakes Matter to Cybersecurity
+
+Deepfakes can be used as part of broader social engineering attacks.
+
+For example:
+
+**Attacker**
+
+↓
+
+Creates fake CEO video.
+
+↓
+
+**Employee**
+
+↓
+
+Believes the CEO is requesting an action.
+
+↓
+
+**Employee**
+
+↓
+
+Transfers money or discloses information.
+
+The deepfake itself is therefore not necessarily the final attack.
+
+It is a **social engineering mechanism** used to influence human behavior.
+
+---
+
+# Deepfake Attack Scenarios
+
+Deepfakes can potentially support many attack scenarios.
+
+## Executive Impersonation
+
+An attacker creates a fake video or voice message appearing to come from the CEO.
+
+## Financial Fraud
+
+An attacker impersonates a finance executive and requests a payment.
+
+## Credential Theft
+
+A fake IT administrator instructs an employee to authenticate through a fraudulent website.
+
+## Data Disclosure
+
+A fake manager requests confidential information.
+
+## Recruitment Fraud
+
+An attacker creates a fake candidate or employee identity.
+
+## Customer Fraud
+
+An attacker impersonates a legitimate customer.
+
+## Supplier Fraud
+
+An attacker impersonates a supplier representative.
+
+---
+
+# Voice Deepfakes
+
+Voice cloning can be particularly dangerous.
+
+Suppose an employee receives a phone call appearing to come from their manager.
+
+The caller:
+
+* Sounds like the manager.
+* Knows the employee's name.
+* Knows the current project.
+* Uses familiar language.
+* Requests an urgent action.
+
+The employee may conclude:
+
+> "I recognize the voice, so this must be my manager."
+
+That assumption can be dangerous.
+
+A familiar voice should not automatically be treated as proof of identity.
+
+---
+
+# Video Deepfakes
+
+Video can create an even stronger psychological effect.
+
+Humans often trust visual information.
+
+An attacker could potentially create a video showing an executive:
+
+* Speaking directly to an employee.
+* Giving instructions.
+* Participating in a meeting.
+* Appearing on a video call.
+
+The employee may feel that video confirmation is sufficient.
+
+Security awareness must challenge that assumption.
+
+---
+
+# The "Seeing Is Believing" Problem
+
+Traditional security thinking often relies on:
+
+> "I can see the person."
+
+or:
+
+> "I can hear the person."
+
+Deepfakes challenge both assumptions.
+
+Modern awareness should instead promote:
+
+> **Identity should be verified through trusted mechanisms, not merely through appearance or voice.**
+
+This is especially important when the requested action has significant consequences.
+
+---
+
+# High-Risk Requests
+
+Deepfake awareness should focus particularly on requests involving:
+
+* Money.
+* Bank-account changes.
+* Passwords.
+* MFA codes.
+* Confidential information.
+* Customer information.
+* Intellectual property.
+* Privileged access.
+* Sensitive documents.
+* Urgent executive decisions.
+
+The higher the potential impact, the stronger the verification should be.
+
+---
+
+# Independent Verification
+
+Independent verification is one of the strongest defenses against deepfake-enabled social engineering.
+
+Suppose an employee receives a video call from the CFO asking for a €100,000 transfer.
+
+The employee should not rely solely on the video.
+
+Instead:
+
+1. Stop.
+2. Do not process the transaction immediately.
+3. Follow the established financial approval procedure.
+4. Contact the CFO using a trusted communication channel.
+5. Confirm the request independently.
+6. Escalate if necessary.
+
+This protects the organization even if the video is extremely convincing.
+
+---
+
+# Established Communication Channels
+
+Organizations should establish trusted channels for verification.
+
+Examples include:
+
+* Corporate directory.
+* Verified telephone number.
+* Official collaboration platform.
+* Approved ticketing system.
+* Existing supplier contact.
+* Formal approval workflow.
+
+Employees should avoid using contact information supplied within the suspicious message itself.
+
+---
+
+# Example
+
+An employee receives a voice message:
+
+> "Hi, this is the CFO. I'm traveling and need you to urgently change the supplier's bank account."
+
+The employee should recognize:
+
+* Financial request.
+* Urgency.
+* Authority.
+* Bank-account change.
+* Unusual circumstances.
+
+The employee should verify using the organization's established process.
+
+The correct response is not:
+
+> "The voice sounds exactly like the CFO."
+
+The correct response is:
+
+> **"The request must be independently verified."**
+
+---
+
+# Deepfake Awareness Training
+
+Organizations should teach employees several core concepts.
+
+### 1. Audio Can Be Manipulated
+
+A familiar voice is not absolute proof of identity.
+
+### 2. Video Can Be Manipulated
+
+A video call is not necessarily proof that the person is present.
+
+### 3. Context Matters
+
+A legitimate person may still appear in a fraudulent context.
+
+### 4. High-Risk Requests Require Verification
+
+Especially financial and sensitive requests.
+
+### 5. Follow Established Processes
+
+Security procedures should override informal requests.
+
+### 6. Report Suspicious Incidents
+
+Employees should know how and where to report suspected deepfakes.
+
+---
+
+# Behavioral Indicators
+
+Employees should pay attention to the **request**, not just the quality of the media.
+
+Warning signs may include:
+
+* Unusual urgency.
+* Secrecy.
+* Requests to bypass procedures.
+* Unexpected financial transactions.
+* Requests for credentials.
+* Requests to disclose sensitive information.
+* Unusual communication channels.
+* Requests outside normal responsibilities.
+* Pressure not to verify.
+
+Even a technically perfect deepfake may accompany a suspicious request.
+
+---
+
+# Technical Indicators
+
+Employees may sometimes notice signs of manipulated media.
+
+Possible indicators include:
+
+* Unusual facial movement.
+* Inconsistent lip synchronization.
+* Strange lighting.
+* Facial artifacts.
+* Unnatural blinking.
+* Inconsistent shadows.
+* Unusual voice characteristics.
+* Background inconsistencies.
+* Audio quality changes.
+
+However, awareness programs should be careful not to teach employees that these indicators are always reliable.
+
+Deepfake technology continues to improve.
+
+Therefore:
+
+> **Detection clues are useful, but verification procedures are more reliable.**
+
+---
+
+# Do Not Rely on Deepfake Detection Alone
+
+Organizations may use technical deepfake detection tools.
+
+These can potentially analyze:
+
+* Video frames.
+* Audio patterns.
+* Facial movement.
+* Metadata.
+* Synthetic-media characteristics.
+
+However, detection technology should be considered another layer of defense.
+
+The organization should not assume:
+
+> "Our detection tool will always identify every deepfake."
+
+A sophisticated attacker may produce content that is difficult to classify.
+
+---
+
+# Deepfake Detection vs. Identity Verification
+
+These are different controls.
+
+### Deepfake Detection
+
+Asks:
+
+> "Does this media appear manipulated?"
+
+### Identity Verification
+
+Asks:
+
+> "Can we independently confirm that this person actually authorized this action?"
+
+The second question is often more important.
+
+For example:
+
+Even if a deepfake detector says a video is probably authentic, a €500,000 payment should still follow established financial controls.
+
+---
+
+# Security Controls
+
+Deepfake awareness should be supported by technical and procedural controls.
+
+Examples include:
+
+* Multi-factor authentication.
+* Strong identity verification.
+* Dual authorization.
+* Segregation of duties.
+* Payment approval workflows.
+* Callback procedures.
+* Privileged-access controls.
+* Secure collaboration platforms.
+* Digital signatures.
+* Transaction monitoring.
+
+These controls reduce the impact of successful impersonation.
+
+---
+
+# Financial Controls
+
+Financial processes are particularly important.
+
+For example:
+
+> A supplier requests a change to its bank account.
+
+The organization should require:
+
+1. Written request.
+2. Independent supplier verification.
+3. Verification using an existing trusted contact.
+4. Approval according to financial policy.
+5. Additional authorization for high-value transactions.
+
+The process should not depend on whether the request arrived through:
+
+* Email.
+* Phone.
+* Video.
+* Messaging application.
+
+---
+
+# Executive Awareness
+
+Executives should receive specialized deepfake awareness training because they may be targeted for impersonation.
+
+Training should include:
+
+* Executive impersonation.
+* Voice cloning.
+* Video manipulation.
+* Payment fraud.
+* Sensitive-information requests.
+* Social-media exposure.
+* Verification procedures.
+
+Executives should also understand that their public content may provide attackers with material for impersonation.
+
+---
+
+# Publicly Available Information
+
+Attackers may use publicly available information to make deepfake attacks more convincing.
+
+For example:
+
+A company website may contain:
+
+* Executive photographs.
+* Leadership videos.
+* Conference presentations.
+* Interviews.
+
+Public social media may contain:
+
+* Voice recordings.
+* Videos.
+* Personal interests.
+* Speaking patterns.
+
+This information may help attackers construct realistic impersonations.
+
+Organizations should therefore consider **executive digital exposure** as part of their threat model.
+
+---
+
+# Security Awareness for Finance
+
+Finance teams should receive specialized training because deepfakes can support:
+
+* Payment fraud.
+* Executive impersonation.
+* Supplier fraud.
+* Invoice manipulation.
+* Bank-account changes.
+
+Finance employees should understand:
+
+> **A request that appears to come from an executive does not override financial controls.**
+
+---
+
+# Security Awareness for Help Desk Personnel
+
+Help desk teams may also be targeted.
+
+An attacker could impersonate an employee and request:
+
+* Password reset.
+* MFA reset.
+* Account recovery.
+* Privileged access.
+
+A convincing voice or video should not bypass identity-verification procedures.
+
+Help desk personnel should follow formal identity verification processes.
+
+---
+
+# Remote Work
+
+Deepfakes are particularly relevant to remote and hybrid work.
+
+In a physical office, employees may verify identity by:
+
+> "Let me walk over to your office."
+
+Remote workers may not have that option.
+
+Therefore, remote organizations should establish:
+
+* Trusted verification channels.
+* Strong authentication.
+* Formal approval processes.
+* Clear escalation procedures.
+
+---
+
+# Deepfake Simulation Exercises
+
+Organizations can create controlled awareness exercises.
+
+For example:
+
+### Scenario
+
+An employee receives a simulated voice message from a fictional executive requesting a sensitive action.
+
+The employee must determine:
+
+* Is the request legitimate?
+* What verification process should be used?
+* Should the request be reported?
+
+The objective should be to measure **decision-making**, not to embarrass employees.
+
+---
+
+# Ethical Considerations
+
+Deepfake simulations must be carefully designed.
+
+Organizations should avoid:
+
+* Creating unnecessary fear.
+* Using real personal likeness without appropriate authorization.
+* Creating reputational harm.
+* Simulating highly traumatic scenarios.
+* Collecting unnecessary personal information.
+
+The purpose is to improve security behavior.
+
+---
+
+# Measuring Deepfake Awareness
+
+Organizations can introduce metrics such as:
+
+### Verification Rate
+
+Percentage of employees who correctly verify simulated requests.
+
+### Reporting Rate
+
+Percentage who report suspicious deepfake scenarios.
+
+### Unsafe Action Rate
+
+Percentage who perform the simulated risky action.
+
+### Time to Verification
+
+How quickly employees verify suspicious requests.
+
+### Repeat Failure Rate
+
+Percentage of users who repeatedly fail simulations.
+
+These metrics can be incorporated into the broader human-risk management program.
+
+---
+
+# Awareness Campaign Example
+
+A campaign might use the message:
+
+> **"Would you trust your CEO's voice?"**
+
+The campaign then explains:
+
+* Voices can be cloned.
+* Videos can be manipulated.
+* Identities can be impersonated.
+* High-risk requests must be independently verified.
+
+The campaign ends with a simple behavioral rule:
+
+> **Stop. Verify. Then Act.**
+
+---
+
+# Deepfake Awareness and Security Culture
+
+A strong security culture encourages employees to question unusual requests.
+
+An employee should feel comfortable saying:
+
+> "I need to verify this request before proceeding."
+
+Even when the request appears to come from:
+
+* CEO.
+* CFO.
+* Manager.
+* Customer.
+* Supplier.
+
+This should be viewed as responsible behavior rather than insubordination.
+
+---
+
+# The Role of Management
+
+Management should reinforce the verification culture.
+
+Executives can communicate:
+
+> "If you receive an unusual request that appears to come from me, verify it through the established process."
+
+This removes the psychological pressure employees may feel when dealing with senior executives.
+
+---
+
+# Deepfake Awareness and Incident Response
+
+Organizations should integrate suspected deepfake incidents into incident response procedures.
+
+For example:
+
+**Employee suspects impersonation**
+
+↓
+
+**Stops action**
+
+↓
+
+**Reports incident**
+
+↓
+
+**Security investigates**
+
+↓
+
+**Identity verified**
+
+↓
+
+**Potentially affected systems/accounts protected**
+
+↓
+
+**Incident assessed**
+
+↓
+
+**Lessons learned**
+
+↓
+
+**Awareness content updated**
+
+This creates a feedback loop.
+
+---
+
+# Deepfake Awareness and Privacy
+
+Deepfake awareness also has a privacy dimension.
+
+Organizations should be careful when collecting:
+
+* Employee photographs.
+* Voice recordings.
+* Video recordings.
+* Biometric information.
+
+Security teams should consider:
+
+* Purpose limitation.
+* Data minimization.
+* Access controls.
+* Retention.
+* Appropriate legal basis where applicable.
+
+The objective is not to collect unlimited biometric information simply because deepfakes exist.
+
+---
+
+# Deepfake Awareness and AI Governance
+
+Organizations developing AI governance programs should consider deepfakes as part of their broader AI risk landscape.
+
+Relevant areas include:
+
+* Synthetic media.
+* Identity impersonation.
+* Fraud.
+* Privacy.
+* Reputation.
+* Information integrity.
+* Authentication.
+
+This connects security awareness with broader **AI governance and risk management**.
+
+---
+
+# Practical Scenario
+
+Imagine a multinational organization.
+
+An employee receives a Microsoft Teams video call from someone who appears to be the CFO.
+
+The CFO says:
+
+> "I need you to transfer €75,000 to this account immediately. I'm in a meeting and cannot go through the normal process."
+
+The employee notices:
+
+* The person looks like the CFO.
+* The voice sounds correct.
+* The request is urgent.
+* The transaction bypasses normal procedures.
+
+A mature employee should respond:
+
+> "I will follow the standard verification and payment process."
+
+The employee independently contacts the CFO through a trusted channel.
+
+The CFO confirms:
+
+> "I did not request this."
+
+The incident is reported.
+
+The attack is stopped.
+
+The key lesson is:
+
+> **The verification process defeated the attack—not the employee's ability to recognize the deepfake.**
+
+---
+
+# GRC Perspective
+
+From a GRC perspective, deepfake risk should be incorporated into the organization's:
+
+* Risk assessment.
+* Security awareness program.
+* Fraud controls.
+* Identity and access management.
+* Incident response.
+* Business continuity planning.
+* AI governance.
+* Human Risk Management.
+
+The GRC process can be represented as:
+
+**Threat**
+
+Deepfake-enabled impersonation.
+
+↓
+
+**Risk**
+
+Employees may trust fraudulent identity representations.
+
+↓
+
+**Impact**
+
+Financial loss, data disclosure, unauthorized access, or reputational damage.
+
+↓
+
+**Controls**
+
+Identity verification + authorization + awareness + technical controls.
+
+↓
+
+**Testing**
+
+Controlled simulations.
+
+↓
+
+**Metrics**
+
+Verification and reporting behavior.
+
+↓
+
+**Improvement**
+
+Update controls and training.
+
+This demonstrates how an emerging technology threat becomes a manageable enterprise risk.
+
+---
+
+# Common Mistakes
+
+Organizations should avoid:
+
+### Teaching Employees to Detect Deepfakes Perfectly
+
+Detection is difficult and constantly evolving.
+
+### Assuming Video Proves Identity
+
+Video can be manipulated.
+
+### Assuming Voice Proves Identity
+
+Voice can potentially be cloned.
+
+### Ignoring Normal Business Processes
+
+Verification procedures are often more reliable than media analysis.
+
+### Targeting Only Employees
+
+Executives, contractors, suppliers, and customers can also be involved.
+
+### Relying Only on Technology
+
+Technical detection should complement—not replace—organizational controls.
+
+### Using Unrealistic Training
+
+Scenarios should reflect actual business processes.
+
+### Punishing Employees for Verification
+
+Verification should be encouraged.
+
+---
+
+# Key Takeaways
+
+Deepfakes create a new challenge for security awareness because attackers can potentially manipulate audio, video, images, and identities to make fraudulent communications appear authentic.
+
+The key principles are:
+
+1. **Deepfakes can be used to support social engineering and impersonation attacks.**
+2. **Voice and video should no longer automatically be treated as proof of identity.**
+3. **Deepfake attacks may target executives, finance teams, IT support, HR, employees, customers, and suppliers.**
+4. **High-risk requests should always be independently verified.**
+5. **Employees should follow established processes even when a request appears to come from a trusted person.**
+6. **Traditional visual indicators of manipulation may not always be reliable.**
+7. **Identity verification is generally more important than attempting to detect every deepfake.**
+8. **Financial transactions, credential requests, sensitive information, and privileged access require stronger verification.**
+9. **Security awareness should include voice, video, messaging, and other communication channels—not just email.**
+10. **Executives should actively support a culture where employees can verify unusual requests.**
+11. **Deepfake simulations can test whether employees follow verification procedures.**
+12. **Deepfake awareness should be supported by technical, procedural, and financial controls.**
+13. **Suspected deepfake incidents should feed into incident response and lessons learned.**
+14. **Deepfake risks should be considered within Human Risk Management and AI governance.**
+15. **Continuous improvement is necessary because synthetic-media technology will continue to evolve.**
+
+The most important lesson is:
+
+> **Do not make security decisions based solely on what you see or hear.**
+
+A mature organization teaches employees:
+
+**Pause → Verify Identity → Follow the Process → Report if Suspicious**
+
+This principle remains effective even when an attacker can produce an extremely convincing fake voice or video.
+
+
 
 

@@ -903,5 +903,931 @@ The stronger objective is:
 
 An effective ISO/IEC 27001-aligned awareness program therefore transforms security awareness from a **compliance checkbox into an active component of information-security governance, risk management, and continual improvement**.
 
+## NIST Cybersecurity Framework (CSF) Awareness
+
+The **NIST Cybersecurity Framework (CSF)** provides a structured way for organizations to manage and communicate cybersecurity risk. While the framework is not itself a security awareness training program, its principles can be translated into awareness objectives for employees, managers, technical personnel, executives, and other stakeholders.
+
+The central idea is:
+
+> **People at different levels of the organization need to understand how their responsibilities contribute to managing cybersecurity risk.**
+
+NIST CSF awareness therefore connects cybersecurity education with the broader organizational risk-management process.
+
+## What Is the NIST Cybersecurity Framework?
+
+The NIST CSF is a cybersecurity risk-management framework developed by the **National Institute of Standards and Technology (NIST)**.
+
+The current major version is **NIST CSF 2.0**, which organizes cybersecurity outcomes around six Functions:
+
+1. **Govern**
+2. **Identify**
+3. **Protect**
+4. **Detect**
+5. **Respond**
+6. **Recover**
+
+These Functions provide a high-level structure for understanding and managing cybersecurity risk.
+
+## Why NIST CSF Matters to Security Awareness
+
+Cybersecurity is not exclusively the responsibility of the security department.
+
+Different people contribute to each CSF Function.
+
+For example:
+
+| CSF Function | Example Human Contribution                |
+| ------------ | ----------------------------------------- |
+| Govern       | Executives establish risk expectations    |
+| Identify     | Business owners identify important assets |
+| Protect      | Employees follow security controls        |
+| Detect       | Employees report suspicious activity      |
+| Respond      | Incident teams coordinate response        |
+| Recover      | Business teams support recovery           |
+
+Security awareness helps personnel understand these responsibilities.
+
+## NIST CSF 2.0 and the Govern Function
+
+The **Govern** Function emphasizes cybersecurity strategy, expectations, policy, roles, responsibilities, and risk management.
+
+From an awareness perspective, this means employees should understand:
+
+* Security policies.
+* Organizational expectations.
+* Their security responsibilities.
+* Risk ownership.
+* Escalation requirements.
+
+Executives and managers have additional responsibilities because they establish organizational direction.
+
+## Security Governance Awareness
+
+Employees should understand that cybersecurity is part of organizational governance.
+
+For example:
+
+> A business manager approving a new SaaS application is making a cybersecurity risk decision, even if the manager is not part of the IT department.
+
+The manager should therefore understand when security or privacy review is required.
+
+## NIST CSF and Organizational Roles
+
+A mature organization should define who is responsible for cybersecurity outcomes.
+
+Possible roles include:
+
+* Board.
+* Executive management.
+* CISO.
+* GRC.
+* IT.
+* Security operations.
+* Business owners.
+* HR.
+* Procurement.
+* Developers.
+* Employees.
+* Third parties.
+
+Security awareness should reflect these responsibilities.
+
+## NIST CSF and the Identify Function
+
+The **Identify** Function focuses on understanding cybersecurity risks, including:
+
+* Assets.
+* Business environment.
+* Risk assessment.
+* Improvement opportunities.
+
+Awareness helps employees understand what needs to be protected.
+
+For example, employees should recognize that:
+
+* Customer data has value.
+* Intellectual property requires protection.
+* Business systems support critical processes.
+* Personal information has privacy implications.
+
+## Asset Awareness
+
+Employees can contribute to asset identification by recognizing:
+
+* Information assets.
+* Applications.
+* Devices.
+* Cloud services.
+* Business processes.
+
+For example:
+
+> An employee discovers that a team is using an unapproved cloud application to store customer information.
+
+Awareness should enable the employee to understand that this may represent a security and compliance concern.
+
+## Shadow IT
+
+**Shadow IT** occurs when employees use technology or services without appropriate organizational approval.
+
+Examples include:
+
+* Personal cloud storage.
+* Unapproved SaaS applications.
+* Unauthorized AI tools.
+* Personal messaging applications.
+
+NIST CSF-aligned awareness should explain:
+
+> **Why unauthorized technology can create cybersecurity risk.**
+
+The goal should not simply be to prohibit technology but to provide secure alternatives.
+
+## Risk Awareness
+
+Employees should understand the concept of cybersecurity risk.
+
+A simplified model is:
+
+**Threat**
+
+*
+
+**Vulnerability**
+
+*
+
+**Potential Impact**
+
+↓
+
+**Cybersecurity Risk**
+
+For example:
+
+> Phishing email + credential theft + access to sensitive systems = significant cybersecurity risk.
+
+Understanding this relationship helps employees recognize why security controls exist.
+
+## NIST CSF and the Protect Function
+
+The **Protect** Function focuses on implementing safeguards to prevent or reduce cybersecurity risks.
+
+This is highly relevant to security awareness.
+
+Employees may contribute by:
+
+* Using MFA.
+* Protecting credentials.
+* Following data-handling requirements.
+* Installing approved updates.
+* Protecting devices.
+* Following access-control rules.
+
+## Identity and Access Management Awareness
+
+Employees should understand:
+
+* Why accounts are personal.
+* Why MFA is required.
+* Why access is restricted.
+* Why privileges should be limited.
+
+A common misconception is:
+
+> "I am an employee, so I should have access."
+
+Security awareness should reinforce:
+
+> **Access should be based on business need, authorization, and risk.**
+
+## Data Security Awareness
+
+Protecting data is a core component of cybersecurity.
+
+Employees should understand:
+
+* Data classification.
+* Secure storage.
+* Secure transmission.
+* Sharing restrictions.
+* Data retention.
+* Secure disposal.
+
+For example:
+
+> Confidential customer information should not be uploaded to an unapproved personal storage service.
+
+## Security Awareness and Device Protection
+
+Personnel should understand how to protect organizational devices.
+
+Topics may include:
+
+* Screen locking.
+* Software updates.
+* Endpoint protection.
+* Approved applications.
+* Encryption.
+* Physical protection.
+
+These controls help reduce the attack surface.
+
+## NIST CSF and the Detect Function
+
+The **Detect** Function focuses on finding and analyzing possible cybersecurity attacks and compromises.
+
+Employees can play an important role in detection.
+
+For example, employees may notice:
+
+* Suspicious emails.
+* Unusual login notifications.
+* Unexpected MFA requests.
+* Strange system behavior.
+* Unauthorized transactions.
+
+Employees should know how to report these observations.
+
+## Human Detection as a Security Control
+
+Technology can detect many threats, but humans can also provide valuable detection capabilities.
+
+For example:
+
+> An employee receives an MFA approval request despite not attempting to log in.
+
+If the employee reports it immediately, the security team may identify an account attack.
+
+Therefore:
+
+> **Security awareness can increase the organization's detection capability.**
+
+## Phishing Reporting
+
+Organizations should provide a simple mechanism for reporting suspicious messages.
+
+Examples include:
+
+* Report Phishing button.
+* Security mailbox.
+* Service desk ticket.
+* Security hotline.
+
+The easier the reporting process, the more likely employees are to use it.
+
+## NIST CSF and the Respond Function
+
+The **Respond** Function focuses on taking action regarding detected cybersecurity incidents.
+
+Employees need to understand their role during incidents.
+
+They may need to:
+
+* Report incidents.
+* Follow instructions.
+* Disconnect affected devices when instructed.
+* Preserve evidence.
+* Avoid communicating sensitive information.
+* Cooperate with investigators.
+
+## Incident Response Awareness
+
+Employees should know:
+
+> **What constitutes a security incident?**
+
+Examples include:
+
+* Lost corporate device.
+* Suspected phishing.
+* Malware.
+* Unauthorized access.
+* Accidental data disclosure.
+* Suspicious activity.
+
+They should also know:
+
+> **Who should receive the report?**
+
+## Avoiding Independent Investigation
+
+Employees should generally avoid conducting unauthorized investigations themselves.
+
+For example:
+
+> An employee discovers suspicious files on a corporate laptop and decides to delete them.
+
+This may destroy evidence.
+
+Awareness should teach employees to:
+
+1. Recognize the issue.
+2. Report it.
+3. Follow instructions from the incident-response team.
+
+## NIST CSF and the Recover Function
+
+The **Recover** Function focuses on restoring affected systems and operations after a cybersecurity incident.
+
+Security awareness may involve:
+
+* Following recovery procedures.
+* Supporting business continuity.
+* Protecting restored systems.
+* Communicating with customers when authorized.
+* Learning from incidents.
+
+Recovery is not only a technical process.
+
+Business personnel are often required to restore normal operations.
+
+## Recovery Awareness
+
+Employees should understand:
+
+* What happens during major incidents.
+* Where business continuity procedures are located.
+* Who makes recovery decisions.
+* What alternative processes exist.
+
+For critical roles, awareness may include participation in:
+
+* Tabletop exercises.
+* Business continuity exercises.
+* Disaster recovery exercises.
+
+## NIST CSF Awareness by Role
+
+A mature awareness program should not teach every person the same content.
+
+### Board and Executives
+
+Focus on:
+
+* Cybersecurity risk.
+* Governance.
+* Risk appetite.
+* Business impact.
+* Strategic priorities.
+
+### Managers
+
+Focus on:
+
+* Risk ownership.
+* Access approvals.
+* Incident escalation.
+* Security responsibilities.
+
+### General Employees
+
+Focus on:
+
+* Phishing.
+* Passwords.
+* MFA.
+* Data protection.
+* Incident reporting.
+
+### IT Professionals
+
+Focus on:
+
+* Secure configuration.
+* Vulnerability management.
+* Identity.
+* Monitoring.
+* Incident response.
+
+### Developers
+
+Focus on:
+
+* Secure development.
+* Dependencies.
+* Application security.
+* Secrets management.
+
+### GRC Professionals
+
+Focus on:
+
+* Risk management.
+* Framework mapping.
+* Control assessment.
+* Metrics.
+* Governance.
+
+## NIST CSF Awareness Profiles
+
+NIST CSF 2.0 uses organizational and community profiles to help organizations describe their cybersecurity posture and desired outcomes.
+
+Awareness programs can use similar concepts.
+
+For example:
+
+### Current State
+
+Employees have:
+
+* Basic phishing awareness.
+* Limited incident-reporting knowledge.
+
+### Target State
+
+Employees should:
+
+* Recognize common phishing attacks.
+* Report suspicious activity quickly.
+* Understand data-handling requirements.
+
+Training can then be designed to close the identified gap.
+
+## Current vs. Target Awareness
+
+A practical approach is:
+
+**Current Awareness State**
+
+↓
+
+Identify Gaps
+
+↓
+
+**Target Awareness State**
+
+↓
+
+Training and Reinforcement
+
+↓
+
+**Measure**
+
+↓
+
+Improved Awareness
+
+This aligns security awareness with risk-management principles.
+
+## Cybersecurity Awareness Objectives
+
+Organizations should define measurable awareness objectives.
+
+Examples:
+
+* Reduce phishing susceptibility.
+* Increase incident reporting.
+* Improve MFA adoption.
+* Reduce unauthorized cloud usage.
+* Improve secure data handling.
+* Improve security-policy compliance.
+
+Objectives should be connected to actual organizational risks.
+
+## NIST CSF and Human Risk
+
+Human behavior can contribute to cybersecurity risk.
+
+Examples include:
+
+* Clicking malicious links.
+* Sharing credentials.
+* Misconfiguring systems.
+* Sending information to the wrong recipient.
+* Using unauthorized applications.
+
+Awareness should therefore focus on reducing risky behavior.
+
+However, organizations should avoid assuming that every security incident is simply an employee failure.
+
+A better approach considers:
+
+**People**
+
+*
+
+**Processes**
+
+*
+
+**Technology**
+
+*
+
+**Environment**
+
+↓
+
+**Security Outcome**
+
+## Security Culture
+
+NIST CSF awareness should support a broader security culture.
+
+Employees should feel that:
+
+* Security is everyone's responsibility.
+* Reporting is encouraged.
+* Questions are welcome.
+* Mistakes can be reported quickly.
+* Security requirements support business objectives.
+
+This creates stronger organizational resilience.
+
+## Security Awareness Campaigns Based on NIST CSF
+
+Organizations can organize awareness campaigns around the CSF Functions.
+
+### Govern
+
+"Know Your Security Responsibilities"
+
+### Identify
+
+"Know What You Need to Protect"
+
+### Protect
+
+"Protect Your Accounts and Data"
+
+### Detect
+
+"Recognize and Report Suspicious Activity"
+
+### Respond
+
+"Know What to Do During an Incident"
+
+### Recover
+
+"Support Safe Business Recovery"
+
+This makes the framework easier for employees to understand.
+
+## Example Awareness Campaign
+
+A quarterly campaign might focus on one Function at a time.
+
+### Quarter 1 – Protect
+
+Topics:
+
+* MFA.
+* Passwords.
+* Data handling.
+
+### Quarter 2 – Detect
+
+Topics:
+
+* Phishing.
+* Suspicious login activity.
+* Reporting.
+
+### Quarter 3 – Respond
+
+Topics:
+
+* Incident reporting.
+* Employee responsibilities.
+* Social engineering.
+
+### Quarter 4 – Recover
+
+Topics:
+
+* Business continuity.
+* Disaster recovery.
+* Lessons learned.
+
+The organization can then reinforce **Govern** and **Identify** throughout the year.
+
+## Security Awareness Metrics
+
+NIST CSF-aligned awareness can be measured through:
+
+### Knowledge
+
+* Assessment scores.
+* Training completion.
+
+### Behavior
+
+* Phishing click rates.
+* Reporting rates.
+* Policy violations.
+
+### Detection
+
+* Number of suspicious activities reported.
+* Time to report.
+
+### Response
+
+* Incident reporting accuracy.
+* Participation in exercises.
+
+### Risk
+
+* Reduction in human-related risk.
+
+## Example NIST CSF Awareness Dashboard
+
+| Measure                            | Result |               Target |
+| ---------------------------------- | -----: | -------------------: |
+| Security training completion       |    98% |                 >95% |
+| Phishing reporting rate            |    78% |                 >75% |
+| Phishing click rate                |     4% |                  <5% |
+| Suspicious activity reports        |  1,240 | Increasing initially |
+| Average incident reporting time    | 18 min |              <20 min |
+| Unauthorized application incidents |      7 |            Declining |
+
+The interpretation of metrics is important.
+
+For example, an increase in security reports may initially represent **improved awareness**, rather than worsening security.
+
+## Leading and Lagging Indicators
+
+### Leading Indicators
+
+These measure activities that may prevent future incidents.
+
+Examples:
+
+* Training completion.
+* Phishing simulation participation.
+* Security campaign engagement.
+* MFA adoption.
+
+### Lagging Indicators
+
+These measure outcomes after events occur.
+
+Examples:
+
+* Security incidents.
+* Data breaches.
+* Malware infections.
+* Account compromises.
+
+A mature program should use both.
+
+## NIST CSF and Executive Reporting
+
+Executives do not necessarily need detailed training statistics.
+
+They need to understand:
+
+* Human-related cybersecurity risk.
+* Major awareness gaps.
+* Trends.
+* Business impact.
+* Required investments.
+
+For example:
+
+Instead of reporting:
+
+> "8,742 employees completed training."
+
+A stronger executive statement might be:
+
+> "Training completion is 98%, while phishing susceptibility has decreased from 9% to 4% over the last twelve months."
+
+This connects awareness to risk outcomes.
+
+## NIST CSF and GRC
+
+NIST CSF awareness fits naturally into GRC.
+
+### Governance
+
+Define cybersecurity expectations.
+
+### Risk
+
+Identify human-related risks.
+
+### Compliance
+
+Map requirements to applicable controls.
+
+### Assurance
+
+Measure whether controls and awareness objectives are working.
+
+A GRC team can therefore use NIST CSF to structure security awareness requirements.
+
+## Mapping Awareness to NIST CSF
+
+A simplified mapping could look like:
+
+| Awareness Objective                  | CSF Function |
+| ------------------------------------ | ------------ |
+| Understand security responsibilities | Govern       |
+| Recognize critical information       | Identify     |
+| Protect credentials                  | Protect      |
+| Report suspicious activity           | Detect       |
+| Follow incident procedures           | Respond      |
+| Support business continuity          | Recover      |
+
+This helps demonstrate that awareness contributes to cybersecurity risk management.
+
+## NIST CSF and ISO/IEC 27001
+
+Organizations frequently use multiple frameworks.
+
+NIST CSF and ISO/IEC 27001 can complement each other.
+
+For example:
+
+**ISO/IEC 27001**
+
+Provides an ISMS structure and requirements.
+
+**NIST CSF**
+
+Provides a flexible framework for managing and communicating cybersecurity outcomes.
+
+An organization can use ISO/IEC 27001 to govern its ISMS while using NIST CSF to structure cybersecurity risk outcomes and awareness objectives.
+
+## NIST CSF Awareness and Third Parties
+
+Third parties can also contribute to cybersecurity outcomes.
+
+Awareness requirements may therefore apply to:
+
+* Vendors.
+* Contractors.
+* Cloud providers.
+* Managed service providers.
+
+For example:
+
+> A critical supplier with privileged access should understand the organization's security requirements and incident-reporting expectations.
+
+This connects NIST CSF awareness with third-party risk management.
+
+## Common Mistakes
+
+Organizations should avoid:
+
+### Treating NIST CSF as Just a Technical Framework
+
+The framework also addresses governance, risk, and organizational responsibilities.
+
+### Training Everyone the Same Way
+
+Different roles contribute differently to cybersecurity outcomes.
+
+### Focusing Only on Protect
+
+Detection, response, and recovery are equally important.
+
+### Ignoring Governance
+
+Security awareness should include understanding of responsibilities and accountability.
+
+### Measuring Only Training Completion
+
+Completion does not demonstrate behavior change.
+
+### Ignoring Business Context
+
+Cybersecurity awareness should be connected to organizational risk and business objectives.
+
+### Treating Reporting as Failure
+
+Increased reporting may indicate improved awareness.
+
+### Using Framework Terminology Without Explaining It
+
+Employees should understand what the concepts mean in practical terms.
+
+## Practical NIST CSF Awareness Program
+
+A mature organization could implement:
+
+### Step 1 – Identify Risks
+
+Determine major human-related cybersecurity risks.
+
+### Step 2 – Map Responsibilities
+
+Identify which roles contribute to each CSF Function.
+
+### Step 3 – Define Awareness Objectives
+
+Determine what people need to know and do.
+
+### Step 4 – Deliver Role-Based Awareness
+
+Use:
+
+* eLearning.
+* Workshops.
+* Simulations.
+* Microlearning.
+* Exercises.
+
+### Step 5 – Measure
+
+Track:
+
+* Knowledge.
+* Behavior.
+* Reporting.
+* Risk indicators.
+
+### Step 6 – Report
+
+Communicate meaningful results to management.
+
+### Step 7 – Improve
+
+Update the program based on:
+
+* Threats.
+* Incidents.
+* Metrics.
+* Organizational changes.
+
+## Practical Scenario
+
+Consider a global organization experiencing an increase in credential-phishing attacks.
+
+The organization maps the problem to the NIST CSF:
+
+**Govern**
+
+Define phishing risk ownership.
+
+↓
+
+**Identify**
+
+Determine which systems and users are most exposed.
+
+↓
+
+**Protect**
+
+Implement MFA and email-security controls.
+
+↓
+
+**Detect**
+
+Train employees to recognize and report phishing.
+
+↓
+
+**Respond**
+
+Establish procedures for compromised accounts.
+
+↓
+
+**Recover**
+
+Restore affected accounts and review lessons learned.
+
+This demonstrates that awareness is one part of a broader cybersecurity risk-management strategy.
+
+## Key Takeaways
+
+NIST CSF awareness helps organizations translate cybersecurity risk-management principles into practical responsibilities and behaviors.
+
+The key principles are:
+
+1. **NIST CSF 2.0 organizes cybersecurity outcomes around Govern, Identify, Protect, Detect, Respond, and Recover.**
+2. **Security awareness can support every CSF Function.**
+3. **Governance awareness helps employees understand security responsibilities and accountability.**
+4. **Identify awareness helps personnel understand what information, systems, and processes need protection.**
+5. **Protect awareness reinforces secure behaviors and control usage.**
+6. **Detect awareness enables employees to recognize and report suspicious activity.**
+7. **Respond awareness helps personnel understand their role during incidents.**
+8. **Recover awareness supports business continuity and safe restoration of operations.**
+9. **Awareness should be role-based and aligned with organizational risk.**
+10. **Human behavior should be considered alongside people, processes, and technology.**
+11. **Awareness programs should measure both activities and outcomes.**
+12. **Leading and lagging indicators should be used together.**
+13. **NIST CSF can complement ISO/IEC 27001 and other security frameworks.**
+14. **Third parties should be considered where their activities contribute to cybersecurity risk.**
+15. **Security awareness should ultimately support measurable improvements in cybersecurity risk management.**
+
+The ultimate objective is not:
+
+> **"Employees know the six NIST CSF Functions."**
+
+The stronger objective is:
+
+> **"People understand how their roles contribute to governing, identifying, protecting, detecting, responding to, and recovering from cybersecurity risks."**
+
+A mature NIST CSF-aligned awareness program therefore transforms the framework from a **security team's reference model into a practical organizational approach for improving cybersecurity behavior, accountability, and resilience**.
+
 
 

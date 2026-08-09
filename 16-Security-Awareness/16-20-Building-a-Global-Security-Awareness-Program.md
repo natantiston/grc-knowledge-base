@@ -2380,5 +2380,1302 @@ The most important principle is:
 
 > **A large-scale phishing campaign should not be viewed only as an incident to contain; it should also be treated as a real-world test of the organization's people, processes, technology, and security awareness program.**
 
+## Enterprise Security Awareness Assessment
+
+An **Enterprise Security Awareness Assessment** is a structured evaluation of how effectively an organization's security awareness program is operating across the entire enterprise.
+
+Unlike a single training review, an enterprise assessment examines the complete program, including:
+
+* Governance.
+* Policies.
+* Training.
+* Role-based awareness.
+* Phishing simulations.
+* Security culture.
+* Third-party awareness.
+* Technology.
+* Metrics.
+* Regulatory alignment.
+* Human risk.
+* Continuous improvement.
+
+The fundamental question is:
+
+> **"How capable is the organization at reducing security risk caused by human behavior?"**
+
+---
+
+# Purpose of an Enterprise Security Awareness Assessment
+
+The assessment should determine whether the organization:
+
+1. Has appropriate governance.
+2. Provides effective security awareness training.
+3. Reaches the correct populations.
+4. Changes employee behavior.
+5. Measures program effectiveness.
+6. Addresses high-risk roles.
+7. Includes third parties.
+8. Meets applicable requirements.
+9. Uses appropriate technology.
+10. Continuously improves the program.
+
+The assessment should evaluate both **program capability** and **security outcomes**.
+
+---
+
+# Enterprise Assessment Scope
+
+A comprehensive assessment may cover:
+
+### Governance
+
+* Ownership.
+* Responsibilities.
+* Policies.
+* Standards.
+* Management oversight.
+
+### Training
+
+* Annual training.
+* Onboarding.
+* Role-based training.
+* Executive training.
+* Technical training.
+
+### Awareness Activities
+
+* Phishing simulations.
+* Campaigns.
+* Workshops.
+* Microlearning.
+* Security communications.
+
+### Measurement
+
+* KPIs.
+* KRIs.
+* Behavioral metrics.
+* Trend analysis.
+* Executive reporting.
+
+### Risk
+
+* Human risk.
+* High-risk populations.
+* Third-party risk.
+* Emerging threats.
+
+---
+
+# Assessment Framework
+
+A useful enterprise assessment model is:
+
+**Governance**
+
+↓
+
+**Strategy**
+
+↓
+
+**Risk**
+
+↓
+
+**Training**
+
+↓
+
+**Behavior**
+
+↓
+
+**Measurement**
+
+↓
+
+**Technology**
+
+↓
+
+**Culture**
+
+↓
+
+**Compliance**
+
+↓
+
+**Continuous Improvement**
+
+Each area should be assessed individually before forming an overall conclusion.
+
+---
+
+# Step 1 – Define the Assessment Objectives
+
+Before beginning, establish what the assessment is intended to determine.
+
+For example:
+
+> "Evaluate whether the enterprise security awareness program effectively reduces human-related cybersecurity risk and supports applicable regulatory and organizational requirements."
+
+Objectives could include:
+
+* Assess program maturity.
+* Identify gaps.
+* Evaluate effectiveness.
+* Determine compliance.
+* Identify high-risk populations.
+* Recommend improvements.
+
+---
+
+# Step 2 – Define the Scope
+
+The scope should specify:
+
+* Business units.
+* Countries.
+* Employees.
+* Contractors.
+* Third parties.
+* Training platforms.
+* Awareness activities.
+* Time period.
+* Regulations.
+* Technologies.
+
+For example:
+
+> "The assessment covers all 18,000 employees and 4,000 contractors across 12 countries."
+
+A clear scope prevents ambiguity.
+
+---
+
+# Step 3 – Identify Assessment Criteria
+
+The organization needs criteria against which the program will be evaluated.
+
+Possible sources include:
+
+* Organizational policies.
+* Security standards.
+* ISO/IEC 27001.
+* NIST Cybersecurity Framework.
+* NIST SP 800-50.
+* NIST SP 800-61.
+* Privacy requirements.
+* Industry regulations.
+* Contractual requirements.
+* Internal risk requirements.
+
+The assessment criteria should be appropriate to the organization.
+
+---
+
+# Step 4 – Review Governance
+
+The assessment should determine:
+
+* Who owns security awareness?
+* Is there an approved policy?
+* Are responsibilities defined?
+* Is there executive sponsorship?
+* Is funding available?
+* Are objectives documented?
+* Is performance reported to management?
+
+A program without governance may become inconsistent and difficult to sustain.
+
+---
+
+# Governance Assessment Example
+
+### Question
+
+Who is accountable for the enterprise security awareness program?
+
+### Evidence
+
+* CISO organizational structure.
+* Security awareness charter.
+* Job description.
+* Governance committee minutes.
+
+### Assessment
+
+**Partially Effective**
+
+The security team manages training, but formal accountability has not been documented.
+
+### Recommendation
+
+Define and formally approve program ownership.
+
+---
+
+# Step 5 – Assess Policies and Standards
+
+Review:
+
+* Security awareness policy.
+* Acceptable-use policy.
+* Password requirements.
+* Incident reporting procedures.
+* Data protection requirements.
+* Remote-working requirements.
+* Third-party security requirements.
+
+The assessment should determine whether policies are:
+
+* Current.
+* Approved.
+* Communicated.
+* Understood.
+* Enforced.
+* Periodically reviewed.
+
+---
+
+# Step 6 – Assess Training Coverage
+
+Determine:
+
+> **Who receives training?**
+
+Review:
+
+* Employees.
+* New hires.
+* Contractors.
+* Temporary workers.
+* Executives.
+* Privileged users.
+* Developers.
+* Administrators.
+* Third parties.
+
+Training coverage should be compared with organizational requirements.
+
+---
+
+# Training Coverage Example
+
+Suppose:
+
+**20,000 employees**
+
+Required training:
+
+20,000
+
+Completed:
+
+19,200
+
+Completion:
+
+**96%**
+
+At first glance, this appears strong.
+
+But further analysis shows:
+
+> 600 of the 800 incomplete employees are privileged administrators.
+
+The risk is therefore greater than the overall 96% figure suggests.
+
+---
+
+# Step 7 – Assess Training Quality
+
+Completion alone is insufficient.
+
+Review:
+
+* Content relevance.
+* Accuracy.
+* Frequency.
+* Accessibility.
+* Language.
+* Role relevance.
+* Knowledge testing.
+* Retention.
+* User feedback.
+
+The question is:
+
+> **Is the training actually helping employees make better security decisions?**
+
+---
+
+# Step 8 – Assess Role-Based Training
+
+Review whether specialized populations receive appropriate content.
+
+For example:
+
+| Role              | Training                        |
+| ----------------- | ------------------------------- |
+| Executives        | Executive impersonation and BEC |
+| Finance           | Payment fraud and BEC           |
+| HR                | Employee data protection        |
+| IT                | Privileged access security      |
+| Developers        | Secure development              |
+| Procurement       | Vendor fraud                    |
+| General Employees | Core security awareness         |
+
+A single generic course may not adequately address all these risks.
+
+---
+
+# Step 9 – Assess Phishing Simulation
+
+Review:
+
+* Frequency.
+* Coverage.
+* Scenario diversity.
+* Target populations.
+* Reporting.
+* Click rates.
+* Repeat failures.
+* Remediation.
+* Trend analysis.
+
+The assessment should determine whether simulations are actually being used to improve behavior.
+
+---
+
+# Phishing Assessment Example
+
+### Finding
+
+Phishing simulations occur annually.
+
+### Observation
+
+Employees receive only one simulation per year.
+
+### Risk
+
+Limited opportunity to measure behavioral improvement.
+
+### Recommendation
+
+Introduce a risk-based simulation program with appropriate frequency and role-specific scenarios.
+
+---
+
+# Step 10 – Assess Security Culture
+
+Security awareness should not be limited to formal training.
+
+Assess:
+
+* Employee reporting behavior.
+* Management engagement.
+* Security champion participation.
+* Employee confidence.
+* Attitudes toward security.
+* Willingness to report mistakes.
+
+A strong security culture encourages employees to:
+
+> **Stop, verify, and report.**
+
+---
+
+# Security Culture Survey
+
+An assessment may include questions such as:
+
+> "I know how to report a suspicious email."
+
+> "I feel comfortable reporting a security mistake."
+
+> "My manager takes cybersecurity seriously."
+
+> "I understand my responsibility for protecting company information."
+
+Results can provide insight into organizational culture.
+
+---
+
+# Step 11 – Assess Metrics
+
+Review whether the organization measures:
+
+### Activity
+
+* Training completion.
+* Campaign participation.
+
+### Knowledge
+
+* Assessment scores.
+* Knowledge retention.
+
+### Behavior
+
+* Phishing failure.
+* Reporting rate.
+* Repeat failures.
+
+### Outcomes
+
+* Human-related incidents.
+* BEC incidents.
+* Data-handling incidents.
+
+A mature program measures more than participation.
+
+---
+
+# Step 12 – Assess KPIs and KRIs
+
+The organization should have clearly defined:
+
+### KPIs
+
+Indicators of program performance.
+
+Examples:
+
+* Training completion.
+* Phishing reporting.
+* Phishing failure.
+* Training effectiveness.
+
+### KRIs
+
+Indicators of human-related risk.
+
+Examples:
+
+* Repeat phishing failures.
+* High-risk user behavior.
+* BEC incidents.
+* Third-party training gaps.
+
+---
+
+# Step 13 – Assess Technology
+
+Review the technology supporting the program.
+
+Examples include:
+
+* LMS.
+* Phishing simulation platform.
+* Awareness platform.
+* Analytics.
+* Reporting tools.
+* HR integration.
+* Identity integration.
+
+Questions should include:
+
+> Can the organization accurately identify who has completed required training?
+
+> Can managers see appropriate team-level results?
+
+> Can security teams identify high-risk populations?
+
+---
+
+# Step 14 – Assess Third-Party Awareness
+
+Third parties may have access to:
+
+* Sensitive information.
+* Corporate networks.
+* Cloud platforms.
+* Customer data.
+* Critical systems.
+
+The assessment should determine whether third parties receive appropriate awareness requirements.
+
+Review:
+
+* Contracts.
+* Onboarding.
+* Training.
+* Access requirements.
+* Monitoring.
+* Offboarding.
+
+---
+
+# Step 15 – Assess Regulatory Alignment
+
+The assessment should determine whether the program supports applicable requirements.
+
+Potential areas include:
+
+* ISO/IEC 27001.
+* GDPR.
+* NIS2.
+* Sector-specific requirements.
+* Contractual obligations.
+* Internal security standards.
+
+The objective is not simply to claim:
+
+> "We are compliant."
+
+The assessment should identify evidence demonstrating that requirements are being addressed.
+
+---
+
+# Step 16 – Assess Human Risk
+
+A mature assessment should identify:
+
+* High-risk employees.
+* High-risk roles.
+* High-risk departments.
+* Repeat simulation failures.
+* High-risk behaviors.
+* Emerging threats.
+
+This moves the program from:
+
+> **Training management**
+
+toward:
+
+> **Human risk management.**
+
+---
+
+# Human Risk Example
+
+Consider two employees.
+
+### Employee A
+
+* Completes all training.
+* Never fails simulations.
+* Reports suspicious emails.
+
+### Employee B
+
+* Repeatedly fails phishing simulations.
+* Does not complete training on time.
+* Has privileged access.
+
+Even if both are technically "trained," Employee B represents significantly greater human risk.
+
+---
+
+# Step 17 – Assess Incident Integration
+
+The awareness program should learn from real incidents.
+
+Review whether incidents have resulted in:
+
+* Updated training.
+* New scenarios.
+* Targeted campaigns.
+* Policy changes.
+* Process improvements.
+
+For example:
+
+> A BEC incident occurs.
+
+↓
+
+Root cause identified.
+
+↓
+
+BEC awareness updated.
+
+↓
+
+Finance receives targeted training.
+
+↓
+
+New simulation launched.
+
+↓
+
+Results measured.
+
+This demonstrates a learning organization.
+
+---
+
+# Step 18 – Assess Continuous Improvement
+
+The program should have a documented improvement process.
+
+Review:
+
+* Previous assessments.
+* Open findings.
+* Corrective actions.
+* Improvement plans.
+* Management reviews.
+* Lessons learned.
+
+The question is:
+
+> **Does the organization actually improve after identifying weaknesses?**
+
+---
+
+# Assessment Methods
+
+An enterprise assessment can use multiple methods.
+
+### Document Review
+
+Examine:
+
+* Policies.
+* Training materials.
+* Procedures.
+* Reports.
+
+### Interviews
+
+Speak with:
+
+* CISO.
+* Awareness team.
+* GRC.
+* HR.
+* IT.
+* SOC.
+* Business leaders.
+
+### Surveys
+
+Collect employee perspectives.
+
+### Data Analysis
+
+Analyze:
+
+* Training records.
+* Phishing results.
+* Incident data.
+* Behavioral metrics.
+
+### Observation
+
+Observe awareness activities and processes.
+
+### Testing
+
+Conduct:
+
+* Phishing simulations.
+* Knowledge assessments.
+* Scenario-based exercises.
+
+Using multiple methods produces stronger assurance.
+
+---
+
+# Evidence Collection
+
+Assessment findings should be supported by evidence.
+
+Examples:
+
+* Approved policy.
+* Training records.
+* LMS reports.
+* Phishing results.
+* Incident records.
+* Awareness campaign materials.
+* Management reports.
+* Employee surveys.
+* Meeting minutes.
+
+Evidence should be:
+
+* Relevant.
+* Reliable.
+* Current.
+* Traceable.
+
+---
+
+# Evidence Sampling
+
+Large organizations may have hundreds of thousands of training records.
+
+Instead of reviewing every record, assessors may use appropriate sampling techniques.
+
+For example:
+
+> Select employees from different countries, departments, roles, and risk categories.
+
+The sample should provide reasonable coverage of the assessment population.
+
+---
+
+# Assessment Rating
+
+Organizations can use a maturity or effectiveness scale.
+
+For example:
+
+### Level 1 – Initial
+
+Program is largely ad hoc.
+
+### Level 2 – Developing
+
+Basic training exists.
+
+### Level 3 – Defined
+
+Formal governance and processes exist.
+
+### Level 4 – Managed
+
+Performance is measured and risk-driven.
+
+### Level 5 – Optimized
+
+Human risk is continuously monitored and improved.
+
+This provides leadership with an understandable maturity picture.
+
+---
+
+# Example Maturity Assessment
+
+| Domain                 | Level |
+| ---------------------- | ----: |
+| Governance             |     3 |
+| Training               |     4 |
+| Phishing Simulation    |     3 |
+| Metrics                |     2 |
+| Security Culture       |     3 |
+| Third-Party Awareness  |     2 |
+| Technology             |     3 |
+| Human Risk             |     2 |
+| Continuous Improvement |     3 |
+
+Overall:
+
+> **Developing to Managed**
+
+The organization can then prioritize the lowest-performing domains.
+
+---
+
+# Heat Map
+
+An enterprise assessment can use a risk heat map.
+
+| Domain        | Risk        |
+| ------------- | ----------- |
+| Governance    | 🟡 Medium   |
+| Training      | 🟢 Low      |
+| Phishing      | 🟠 High     |
+| Metrics       | 🔴 Critical |
+| Third Parties | 🔴 Critical |
+| Human Risk    | 🟠 High     |
+
+This makes priorities easier for management to understand.
+
+---
+
+# Assessment Findings
+
+Findings should be written clearly.
+
+A useful format is:
+
+### Finding
+
+What was identified?
+
+### Evidence
+
+What proves it?
+
+### Risk
+
+Why does it matter?
+
+### Root Cause
+
+Why did it happen?
+
+### Recommendation
+
+What should be done?
+
+### Owner
+
+Who is accountable?
+
+### Target Date
+
+When should it be addressed?
+
+This creates a complete audit trail.
+
+---
+
+# Example Finding
+
+### Finding
+
+The organization does not provide mandatory security awareness training to high-risk contractors.
+
+### Evidence
+
+Only 58% of contractors with access to sensitive systems have completed awareness training.
+
+### Risk
+
+Contractors may introduce additional phishing, data-handling, and social-engineering risk.
+
+### Root Cause
+
+Third-party onboarding does not include mandatory security awareness requirements.
+
+### Recommendation
+
+Integrate security awareness requirements into third-party onboarding and access provisioning.
+
+### Priority
+
+High.
+
+---
+
+# Executive Assessment Report
+
+The final assessment report should generally contain:
+
+## 1. Executive Summary
+
+Overall assessment results.
+
+## 2. Scope
+
+What was assessed.
+
+## 3. Methodology
+
+How the assessment was conducted.
+
+## 4. Current State
+
+Current program capabilities.
+
+## 5. Findings
+
+Identified weaknesses.
+
+## 6. Risk Analysis
+
+Business and security implications.
+
+## 7. Maturity Assessment
+
+Program maturity by domain.
+
+## 8. Recommendations
+
+Proposed improvements.
+
+## 9. Improvement Roadmap
+
+Prioritized actions and timelines.
+
+---
+
+# Executive Summary Example
+
+An executive summary might state:
+
+> The enterprise security awareness program has established a formal foundation and achieves 96% annual training completion. However, behavioral measurement, third-party awareness, and human-risk management remain underdeveloped. Phishing simulations indicate elevated risk within Finance and executive populations. Three high-priority improvements are recommended: implementation of role-based phishing simulations, mandatory third-party awareness requirements, and a behavioral risk measurement framework.
+
+This is more useful to executives than a long list of training statistics.
+
+---
+
+# Benchmarking
+
+Organizations may compare:
+
+* Current performance.
+* Previous assessments.
+* Business units.
+* Regions.
+* Industry benchmarks.
+
+However, external benchmarks should be interpreted carefully.
+
+For example:
+
+> A 7% phishing failure rate may be good for one environment but concerning for another.
+
+Risk context matters.
+
+---
+
+# Enterprise Assessment Dashboard
+
+A dashboard could provide:
+
+| Area          | Score | Trend | Priority |
+| ------------- | ----: | ----- | -------- |
+| Governance    |   82% | ↑     | Medium   |
+| Training      |   94% | ↑     | Low      |
+| Phishing      |   68% | →     | High     |
+| Culture       |   76% | ↑     | Medium   |
+| Third Parties |   52% | ↓     | Critical |
+| Metrics       |   61% | ↑     | High     |
+| Human Risk    |   55% | →     | High     |
+
+Executives can quickly identify where attention is required.
+
+---
+
+# Assessment vs. Audit
+
+These activities are related but not identical.
+
+### Assessment
+
+Evaluates:
+
+> **How well is the program performing?**
+
+### Audit
+
+Determines:
+
+> **Does the organization meet defined requirements and can compliance be demonstrated with evidence?**
+
+An assessment can identify improvement opportunities beyond strict compliance.
+
+---
+
+# Assessment vs. Penetration Testing
+
+A security awareness assessment also differs from penetration testing.
+
+### Penetration Testing
+
+Tests technical or human attack paths from an adversarial perspective.
+
+### Awareness Assessment
+
+Evaluates the overall capability and effectiveness of the awareness program.
+
+Both can complement one another.
+
+---
+
+# Assessment and Enterprise Risk Management
+
+The results should feed into enterprise risk management.
+
+For example:
+
+**Assessment Finding**
+
+↓
+
+High phishing susceptibility
+
+↓
+
+**Risk**
+
+Credential compromise
+
+↓
+
+**Risk Owner**
+
+CISO / Business Unit
+
+↓
+
+**Risk Treatment**
+
+Training + technical controls
+
+↓
+
+**Residual Risk**
+
+Reassessed after remediation
+
+This creates a direct connection between awareness and GRC.
+
+---
+
+# Assessment and ISO 27001
+
+From an ISO 27001 perspective, an assessment can examine whether the organization has established appropriate:
+
+* Awareness.
+* Competence.
+* Communication.
+* Security responsibilities.
+* Control implementation.
+* Monitoring.
+* Continual improvement.
+
+The assessment should focus on evidence that the ISMS and its controls are functioning effectively rather than simply confirming that training exists.
+
+---
+
+# Assessment and NIST CSF
+
+The assessment can also align with NIST CSF concepts.
+
+For example:
+
+### Govern
+
+Awareness governance and accountability.
+
+### Identify
+
+Human-related risks.
+
+### Protect
+
+Security awareness and training.
+
+### Detect
+
+Employee reporting.
+
+### Respond
+
+Incident reporting and response awareness.
+
+### Recover
+
+Lessons learned and improvement.
+
+This demonstrates that security awareness contributes across the cybersecurity lifecycle.
+
+---
+
+# Practical Enterprise Assessment
+
+Consider a multinational organization with:
+
+* 30,000 employees.
+* 7,000 contractors.
+* 15 countries.
+* 10 languages.
+
+The assessment produces the following results:
+
+### Strengths
+
+* 97% employee training completion.
+* Strong executive sponsorship.
+* Centralized LMS.
+* Established phishing simulations.
+
+### Weaknesses
+
+* Contractor training only 61%.
+* Limited role-based training.
+* High repeat phishing failures.
+* No formal human-risk dashboard.
+* Regional metrics are inconsistent.
+
+---
+
+# Assessment Conclusion
+
+The assessment could conclude:
+
+> The organization has a mature foundational awareness program but has not yet achieved consistent enterprise-wide behavioral risk management.
+
+Recommended priorities:
+
+1. Improve third-party awareness.
+2. Implement standardized enterprise metrics.
+3. Introduce role-based training.
+4. Develop human-risk analytics.
+5. Strengthen regional governance.
+
+This provides a clear direction for improvement.
+
+---
+
+# Linking Assessment to the Previous Lessons
+
+The entire Chapter 16 security awareness program can now be brought together.
+
+### 16.6
+
+Physical security awareness.
+
+### 16.7
+
+Awareness delivery methods.
+
+### 16.8
+
+Phishing simulations.
+
+### 16.9
+
+Effectiveness measurement.
+
+### 16.10
+
+Security culture.
+
+### 16.11
+
+Role-based training.
+
+### 16.12
+
+Third-party awareness.
+
+### 16.13
+
+Regulatory requirements.
+
+### 16.14
+
+Awareness technologies.
+
+### 16.15
+
+Program maturity.
+
+### 16.16
+
+Emerging trends.
+
+### 16.17
+
+Enterprise program development.
+
+### 16.18
+
+Practical exercises.
+
+### 16.19
+
+Program assessment.
+
+### 16.20
+
+Enterprise case studies and application.
+
+This creates a complete lifecycle:
+
+**Design → Deliver → Measure → Assess → Improve**
+
+---
+
+# GRC Perspective
+
+For a GRC professional, an enterprise security awareness assessment is essentially a **control assurance activity**.
+
+The GRC professional evaluates:
+
+**Governance**
+
+↓
+
+Is the program properly owned?
+
+**Risk**
+
+↓
+
+Are human risks identified?
+
+**Controls**
+
+↓
+
+Are appropriate awareness controls implemented?
+
+**Evidence**
+
+↓
+
+Can the organization demonstrate operation?
+
+**Effectiveness**
+
+↓
+
+Are employees behaving more securely?
+
+**Compliance**
+
+↓
+
+Are applicable requirements addressed?
+
+**Improvement**
+
+↓
+
+Are identified weaknesses being remediated?
+
+This is the same fundamental thinking used throughout cybersecurity GRC.
+
+---
+
+# Key Takeaways
+
+1. **An enterprise security awareness assessment evaluates the effectiveness and maturity of the entire awareness program.**
+2. **It goes beyond checking whether employees completed training.**
+3. **The assessment should cover governance, training, culture, technology, metrics, risk, compliance, and improvement.**
+4. **A clearly defined scope and assessment criteria are essential.**
+5. **Multiple evidence sources should be used to provide reliable assurance.**
+6. **Training coverage should be analyzed by role, department, region, and risk level.**
+7. **Role-based training is important for high-risk populations.**
+8. **Phishing simulations provide valuable behavioral evidence.**
+9. **Security culture should be evaluated alongside formal training.**
+10. **KPIs and KRIs should provide insight into both performance and risk.**
+11. **Third-party awareness should be included where third parties create organizational risk.**
+12. **Human-risk measurement should become part of mature enterprise programs.**
+13. **Real security incidents should feed into awareness assessments and improvement activities.**
+14. **Assessment findings should include evidence, risk, root cause, and recommendations.**
+15. **Maturity models help organizations understand their current capability.**
+16. **Executive dashboards should communicate risk and priorities clearly.**
+17. **Assessment is broader than compliance auditing.**
+18. **Assessment results should feed into enterprise risk management.**
+19. **The assessment should result in a prioritized improvement roadmap.**
+20. **The ultimate objective is to determine whether the security awareness program contributes to measurable reduction in human-related cybersecurity risk.**
+
+The complete assessment model is:
+
+**Scope → Criteria → Evidence → Assessment → Findings → Risk → Recommendations → Improvement → Validation**
+
+The most important principle is:
+
+> **An enterprise security awareness assessment should not ask only whether employees received security training; it should determine whether the organization's governance, training, technology, culture, and processes collectively reduce human-related cybersecurity risk.**
+
+
 
 

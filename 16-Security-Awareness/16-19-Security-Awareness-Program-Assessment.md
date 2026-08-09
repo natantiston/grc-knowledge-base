@@ -1076,5 +1076,1267 @@ The most important principle is:
 
 > **A mature security awareness program is not measured by how much training the organization delivers, but by how effectively it changes behavior and reduces human-related security risk.**
 
+## Gap Analysis
+
+A **gap analysis** is a structured comparison between an organization's **current security awareness program** and its **desired or required state**.
+
+In a security awareness program assessment, gap analysis answers a fundamental question:
+
+> **"What should our security awareness program be doing, and where are we falling short?"**
+
+The objective is not simply to identify problems. A good gap analysis determines:
+
+* What is missing.
+* What is inadequate.
+* Why the gap exists.
+* What risk the gap creates.
+* How the gap should be addressed.
+* Who should own the remediation.
+* When the improvement should be completed.
+
+---
+
+# Current State vs. Target State
+
+The basic concept is straightforward:
+
+**Current State**
+
+↓
+
+**Gap**
+
+↓
+
+**Target State**
+
+For example:
+
+### Current State
+
+Employees receive annual security awareness training.
+
+### Target State
+
+Employees receive:
+
+* Annual foundational training.
+* Role-based training.
+* Targeted phishing exercises.
+* Incident-reporting guidance.
+* Continuous security reinforcement.
+
+### Gap
+
+The organization lacks role-based and continuous awareness activities.
+
+### Risk
+
+Employees in high-risk roles may not recognize threats relevant to their responsibilities.
+
+### Improvement
+
+Develop a risk-based role-specific training program.
+
+---
+
+# Why Gap Analysis Matters
+
+Without gap analysis, organizations may simply add more training.
+
+For example:
+
+> "Phishing click rates are high, so let's add another training course."
+
+That may not solve the underlying problem.
+
+The actual cause could be:
+
+* Poor email filtering.
+* Confusing reporting procedures.
+* Weak MFA.
+* Excessive workload.
+* Unrealistic policies.
+* Lack of management support.
+* Poor training content.
+
+A gap analysis helps identify the **root cause** rather than assuming every problem is a training problem.
+
+---
+
+# Gap Analysis in the Security Awareness Lifecycle
+
+A mature program can follow:
+
+**Assess Current State**
+
+↓
+
+**Define Target State**
+
+↓
+
+**Identify Gaps**
+
+↓
+
+**Assess Risk**
+
+↓
+
+**Prioritize**
+
+↓
+
+**Remediate**
+
+↓
+
+**Measure Improvement**
+
+↓
+
+**Reassess**
+
+Gap analysis is therefore part of continuous improvement.
+
+---
+
+# Sources for the Target State
+
+The target state should not be invented arbitrarily.
+
+It can be based on:
+
+* Organizational policies.
+* Enterprise risk assessments.
+* Security objectives.
+* Regulatory requirements.
+* Contractual requirements.
+* ISO/IEC 27001.
+* NIST frameworks.
+* Industry practices.
+* Internal standards.
+* Audit requirements.
+* Business objectives.
+
+The target state should reflect what the organization actually needs.
+
+---
+
+# Compliance-Based Gap Analysis
+
+An organization may compare its current program against applicable requirements.
+
+For example:
+
+| Requirement               | Current State   | Gap             |
+| ------------------------- | --------------- | --------------- |
+| Security awareness policy | Exists          | No gap          |
+| Employee training         | Annual          | Partial         |
+| Role-based training       | Limited         | Significant gap |
+| Third-party awareness     | Inconsistent    | Significant gap |
+| Training effectiveness    | Completion only | Significant gap |
+
+This allows GRC teams to identify compliance-related weaknesses.
+
+---
+
+# Risk-Based Gap Analysis
+
+Compliance alone is not sufficient.
+
+Suppose an organization technically meets its annual awareness requirement.
+
+However:
+
+> 25% of Finance employees repeatedly fail BEC simulations.
+
+There may be no obvious compliance violation, but there is a significant **human-risk gap**.
+
+Risk-based analysis therefore asks:
+
+> **"Where could weaknesses cause the greatest business impact?"**
+
+---
+
+# Security Awareness Domains
+
+A comprehensive gap analysis can examine several domains.
+
+### Governance
+
+* Ownership.
+* Policies.
+* Responsibilities.
+* Management oversight.
+
+### Training
+
+* Content.
+* Frequency.
+* Completion.
+* Role-based training.
+
+### Behavior
+
+* Phishing results.
+* Reporting.
+* Security incidents.
+* Policy violations.
+
+### Technology
+
+* LMS.
+* Simulation platforms.
+* Reporting tools.
+* Analytics.
+
+### Culture
+
+* Employee engagement.
+* Leadership support.
+* Security mindset.
+
+### Compliance
+
+* Regulatory requirements.
+* Audit evidence.
+* Training obligations.
+
+---
+
+# Gap Categories
+
+Gaps can be classified to make remediation easier.
+
+### Policy Gap
+
+A required policy does not exist.
+
+### Process Gap
+
+A process exists but is incomplete or ineffective.
+
+### People Gap
+
+Employees lack required knowledge or skills.
+
+### Technology Gap
+
+Required technical capabilities are missing.
+
+### Governance Gap
+
+Ownership or accountability is unclear.
+
+### Measurement Gap
+
+The organization cannot demonstrate effectiveness.
+
+### Compliance Gap
+
+A regulatory or contractual requirement is not adequately addressed.
+
+---
+
+# Example: Reporting Gap
+
+Consider the following situation.
+
+### Current State
+
+Employees are instructed to report phishing.
+
+### Observation
+
+Only 35% know how to report suspicious emails.
+
+### Gap
+
+Awareness of the reporting process is inadequate.
+
+### Root Cause
+
+The reporting process is poorly communicated and differs between business units.
+
+### Risk
+
+Potential incidents may not be reported quickly.
+
+### Recommendation
+
+Standardize the reporting mechanism and reinforce it through simulations and microlearning.
+
+This is more useful than simply saying:
+
+> "Employees need more training."
+
+---
+
+# Root Cause Analysis
+
+A good gap analysis should investigate **why** the gap exists.
+
+For example:
+
+### Problem
+
+Employees do not report suspicious emails.
+
+Possible causes:
+
+**Cause 1**
+
+They don't know how.
+
+**Cause 2**
+
+The reporting button is difficult to find.
+
+**Cause 3**
+
+They believe reporting is only for serious incidents.
+
+**Cause 4**
+
+Employees fear being blamed.
+
+**Cause 5**
+
+The security team does not provide feedback.
+
+Each cause requires a different solution.
+
+---
+
+# The Five Whys
+
+The **Five Whys** technique can help identify root causes.
+
+### Problem
+
+Employees are not reporting phishing.
+
+**Why?**
+
+They do not know where to report it.
+
+**Why?**
+
+The reporting process is not clearly communicated.
+
+**Why?**
+
+Different business units use different procedures.
+
+**Why?**
+
+No global reporting standard exists.
+
+**Why?**
+
+Program governance was decentralized without a common control framework.
+
+The original problem appeared to be a training issue.
+
+The root cause is actually a **governance and process issue**.
+
+---
+
+# Gap Statement
+
+A useful gap statement should be specific.
+
+Weak:
+
+> "Security awareness needs improvement."
+
+Better:
+
+> "Third-party contractors in three business units do not receive standardized security awareness training before receiving access to corporate systems."
+
+This identifies:
+
+* Who.
+* What.
+* Where.
+* What is missing.
+
+---
+
+# Gap Analysis Matrix
+
+A gap analysis matrix can organize findings.
+
+| Domain      | Requirement            | Current State     | Gap                        | Risk   | Priority |
+| ----------- | ---------------------- | ----------------- | -------------------------- | ------ | -------- |
+| Governance  | Defined program owner  | Partial ownership | Accountability unclear     | Medium | Medium   |
+| Training    | Annual training        | Exists            | No role-based content      | High   | High     |
+| Phishing    | Simulations            | Quarterly         | Finance not targeted       | High   | High     |
+| Third Party | Awareness requirements | Inconsistent      | Vendor coverage incomplete | High   | High     |
+| Metrics     | Behavioral measurement | Limited           | Completion-focused         | Medium | Medium   |
+
+This provides a clear view of the program's weaknesses.
+
+---
+
+# Gap Severity
+
+Organizations can classify gaps according to severity.
+
+### Critical
+
+Immediate action required due to significant risk.
+
+### High
+
+Significant weakness requiring prioritized remediation.
+
+### Medium
+
+Important weakness that should be addressed.
+
+### Low
+
+Minor improvement opportunity.
+
+The exact classification methodology should be defined by the organization's risk-management framework.
+
+---
+
+# Risk-Based Prioritization
+
+Not every gap should receive the same priority.
+
+Consider:
+
+> A minor content formatting issue
+
+versus:
+
+> Finance employees repeatedly approving simulated fraudulent payment requests.
+
+The second clearly represents greater risk.
+
+Prioritization should consider:
+
+* Likelihood.
+* Impact.
+* Exposure.
+* Threat activity.
+* Regulatory consequences.
+* Business criticality.
+* Existing controls.
+
+---
+
+# Risk Scoring
+
+A simple methodology might calculate:
+
+**Risk Score = Likelihood × Impact**
+
+For example:
+
+| Gap                        | Likelihood | Impact | Score |
+| -------------------------- | ---------: | -----: | ----: |
+| Outdated awareness posters |          1 |      1 |     1 |
+| Poor phishing reporting    |          3 |      4 |    12 |
+| Finance BEC weakness       |          4 |      5 |    20 |
+| Contractor awareness gap   |          4 |      4 |    16 |
+
+The highest-risk gaps should generally receive priority.
+
+Organizations may use more sophisticated risk models depending on their GRC framework.
+
+---
+
+# Control Gap vs. Awareness Gap
+
+This distinction is important.
+
+Suppose employees repeatedly click phishing emails.
+
+It may appear to be an awareness problem.
+
+But investigation might reveal:
+
+* Email filtering is weak.
+* MFA is not enabled.
+* Browser protection is inadequate.
+* Employees are overloaded.
+* Reporting is difficult.
+
+Therefore:
+
+> **A human-risk problem does not necessarily have a training solution.**
+
+The correct remediation may involve multiple controls.
+
+---
+
+# Example: Business Email Compromise
+
+### Observation
+
+Finance employees frequently fail BEC simulations.
+
+### Possible gaps
+
+**Awareness Gap**
+
+Employees don't recognize BEC indicators.
+
+**Process Gap**
+
+Payment verification procedures are unclear.
+
+**Technology Gap**
+
+Email security does not detect impersonation effectively.
+
+**Control Gap**
+
+No independent verification is required for bank-account changes.
+
+A mature gap analysis identifies all four.
+
+---
+
+# Gap Analysis and Control Mapping
+
+Gaps can be mapped to security controls.
+
+For example:
+
+**Risk**
+
+Employees disclose sensitive information.
+
+↓
+
+**Control**
+
+Data handling awareness.
+
+↓
+
+**Gap**
+
+Training does not cover the organization's data-classification requirements.
+
+↓
+
+**Remediation**
+
+Update training and conduct role-specific exercises.
+
+This makes the analysis useful for GRC and audit activities.
+
+---
+
+# ISO/IEC 27001 Perspective
+
+For an ISO/IEC 27001-based organization, the gap analysis can examine whether security awareness activities support the organization's ISMS.
+
+The organization should consider:
+
+* Competence.
+* Awareness.
+* Information security responsibilities.
+* Relevant policies.
+* Risk treatment.
+* Control implementation.
+* Evidence of effectiveness.
+
+The important point is that awareness should be connected to the organization's broader information security management system rather than operating independently.
+
+---
+
+# NIST Perspective
+
+The NIST Cybersecurity Framework can also provide a useful structure.
+
+For example, the organization can consider human-related activities across:
+
+* **Govern**
+* **Identify**
+* **Protect**
+* **Detect**
+* **Respond**
+* **Recover**
+
+Security awareness is particularly relevant to protection, but human behavior can influence every function.
+
+For example:
+
+**Protect**
+
+Employees receive security training.
+
+**Detect**
+
+Employees report suspicious activity.
+
+**Respond**
+
+Employees follow incident-response instructions.
+
+**Recover**
+
+Employees follow recovery and continuity procedures.
+
+---
+
+# Regulatory Gap Analysis
+
+The organization may also assess requirements related to:
+
+* Privacy.
+* Cybersecurity.
+* Employee awareness.
+* Incident reporting.
+* Third-party risk.
+* Data protection.
+
+For multinational organizations, requirements may differ by jurisdiction.
+
+The gap analysis should therefore identify:
+
+* Which requirement applies.
+* Which population is affected.
+* Current compliance status.
+* Evidence available.
+* Remediation required.
+
+---
+
+# Third-Party Gap Analysis
+
+Third parties should be evaluated separately where appropriate.
+
+For example:
+
+### Current State
+
+Employees receive annual training.
+
+### Target State
+
+Employees and relevant contractors must complete security awareness training before accessing corporate systems.
+
+### Gap
+
+Contractors are not consistently included.
+
+### Risk
+
+External personnel may introduce human-related security risks.
+
+### Remediation
+
+Integrate third-party onboarding with security awareness requirements.
+
+---
+
+# Role-Based Gap Analysis
+
+A program may appear effective at the enterprise level but still contain significant gaps in individual populations.
+
+Example:
+
+| Population        | Phishing Failure | Assessment |
+| ----------------- | ---------------: | ---------- |
+| General Employees |               5% | Acceptable |
+| IT                |               3% | Low        |
+| HR                |               7% | Moderate   |
+| Finance           |              18% | High       |
+| Executives        |              14% | High       |
+
+The enterprise average may hide the Finance and Executive risks.
+
+Therefore:
+
+> **Always analyze high-risk populations separately.**
+
+---
+
+# Geographic Gap Analysis
+
+Global organizations may discover regional differences.
+
+For example:
+
+* Europe has strong privacy awareness.
+* Asia-Pacific has inconsistent third-party training.
+* North America has stronger phishing reporting.
+* Latin America has lower training completion.
+
+The organization should determine whether differences are caused by:
+
+* Local requirements.
+* Language.
+* Culture.
+* Technology.
+* Governance.
+* Resource limitations.
+
+---
+
+# Content Gap Analysis
+
+Training content should be compared against actual organizational risks.
+
+For example:
+
+### Existing Training
+
+* Passwords.
+* Phishing.
+* Malware.
+* Physical security.
+
+### Emerging Risks
+
+* Generative AI.
+* Deepfakes.
+* Business Email Compromise.
+* Cloud collaboration.
+* Data leakage through AI tools.
+
+The gap analysis may determine that the awareness curriculum needs to evolve.
+
+---
+
+# Frequency Gap
+
+Training frequency should also be evaluated.
+
+For example:
+
+### Current
+
+Annual training only.
+
+### Risk
+
+Employees may forget key practices between annual sessions.
+
+### Target
+
+Annual foundational training plus:
+
+* Quarterly microlearning.
+* Targeted simulations.
+* Incident-driven awareness.
+* Security campaigns.
+
+The target frequency should be based on risk rather than simply increasing training for its own sake.
+
+---
+
+# Measurement Gap
+
+One of the most common weaknesses is poor measurement.
+
+### Current
+
+> 98% training completion.
+
+### Missing
+
+* Behavioral metrics.
+* Phishing reporting.
+* Repeat failure.
+* Human-related incidents.
+* Risk reduction.
+
+The gap is therefore:
+
+> **The organization measures participation but not effectiveness.**
+
+The remediation should establish meaningful behavioral and outcome metrics.
+
+---
+
+# Data Quality Gaps
+
+Metrics are only useful when the underlying data is reliable.
+
+Potential problems include:
+
+* Incomplete employee records.
+* Duplicate accounts.
+* Incorrect organizational mappings.
+* Missing contractor data.
+* Inconsistent reporting.
+* Different definitions of "completion."
+
+The assessment should therefore examine the quality of the data used to measure the program.
+
+---
+
+# Documentation Gaps
+
+An organization may perform awareness activities but fail to document them adequately.
+
+For example:
+
+> Security training was conducted, but there are no attendance records.
+
+This creates problems for:
+
+* Audit.
+* Compliance.
+* Management reporting.
+* Program evaluation.
+
+Documentation is therefore an important part of the target state.
+
+---
+
+# Governance Gap
+
+A common governance problem is:
+
+> Everyone is responsible for security awareness, but nobody owns the program.
+
+A target state might define:
+
+* Program owner.
+* Executive sponsor.
+* Supporting functions.
+* Business-unit responsibilities.
+* Reporting structure.
+* Decision authority.
+
+Clear ownership improves accountability.
+
+---
+
+# Resource Gap
+
+Sometimes the program has clear requirements but insufficient resources.
+
+For example:
+
+> The organization wants quarterly role-based training but has one awareness specialist supporting 50,000 employees.
+
+The gap is not simply a process problem.
+
+It may require:
+
+* Additional staff.
+* Technology.
+* Outsourcing.
+* Security champions.
+* Budget.
+
+---
+
+# Technology Gap
+
+A program may also have technology limitations.
+
+For example:
+
+### Current
+
+Manual training assignment.
+
+### Problem
+
+Employees who change roles do not automatically receive appropriate training.
+
+### Target
+
+Automated role-based assignment through LMS and HR integration.
+
+The gap is therefore a technology and process issue.
+
+---
+
+# Prioritization Matrix
+
+A practical method is to categorize findings using:
+
+**Impact**
+
+and
+
+**Effort**
+
+|             | Low Effort         | High Effort        |
+| ----------- | ------------------ | ------------------ |
+| High Impact | Quick Wins         | Strategic Projects |
+| Low Impact  | Minor Improvements | Defer              |
+
+For example:
+
+### High Impact / Low Effort
+
+Add a phishing reporting button.
+
+### High Impact / High Effort
+
+Implement enterprise human-risk analytics.
+
+### Low Impact / Low Effort
+
+Update awareness posters.
+
+### Low Impact / High Effort
+
+Replace an entire LMS solely for minor reporting improvements.
+
+This helps management allocate resources effectively.
+
+---
+
+# Gap Remediation Plan
+
+Each significant gap should have:
+
+* Gap ID.
+* Description.
+* Risk.
+* Root cause.
+* Recommendation.
+* Owner.
+* Priority.
+* Target date.
+* Status.
+* Success criteria.
+
+Example:
+
+| Field            | Example                             |
+| ---------------- | ----------------------------------- |
+| Gap ID           | SA-007                              |
+| Gap              | Finance lacks targeted BEC training |
+| Risk             | High                                |
+| Owner            | Security Awareness Manager          |
+| Priority         | High                                |
+| Target           | Q2                                  |
+| Success Criteria | BEC reporting rate >80%             |
+
+---
+
+# Defining Success Criteria
+
+A recommendation should be measurable.
+
+Weak:
+
+> "Improve phishing awareness."
+
+Better:
+
+> "Reduce repeat phishing simulation failures among Finance employees from 18% to below 8% within two quarters."
+
+The second provides a measurable objective.
+
+---
+
+# Quick Wins
+
+Some gaps can be addressed quickly.
+
+Examples:
+
+* Update outdated training content.
+* Publish reporting instructions.
+* Add phishing-reporting guidance.
+* Update contact information.
+* Add security awareness to onboarding.
+* Create executive awareness material.
+
+Quick wins can demonstrate progress while larger initiatives are being developed.
+
+---
+
+# Strategic Improvements
+
+Other gaps require longer-term initiatives.
+
+Examples:
+
+* Implement Human Risk Management.
+* Deploy enterprise awareness technology.
+* Integrate LMS with HR.
+* Establish security champion networks.
+* Develop global role-based training.
+* Integrate awareness metrics with enterprise GRC.
+
+These should be included in the organization's strategic roadmap.
+
+---
+
+# Tracking Remediation
+
+Gap analysis is not complete when the report is issued.
+
+The organization should track:
+
+**Finding**
+
+↓
+
+**Action**
+
+↓
+
+**Owner**
+
+↓
+
+**Due Date**
+
+↓
+
+**Implementation**
+
+↓
+
+**Validation**
+
+↓
+
+**Closure**
+
+A finding should only be considered closed when the organization can demonstrate that the underlying gap has been adequately addressed.
+
+---
+
+# Validation
+
+Suppose the organization identifies:
+
+> Finance employees have a high BEC failure rate.
+
+The organization introduces:
+
+* BEC training.
+* Payment verification procedures.
+* Targeted simulations.
+
+After six months:
+
+> BEC failure rate decreases from 18% to 6%.
+
+This provides evidence that the remediation was effective.
+
+If the rate remains at 18%, the organization should reassess the underlying problem.
+
+---
+
+# Gap Analysis as a Continuous Process
+
+Threats change.
+
+Technology changes.
+
+Employees change.
+
+Regulations change.
+
+Business operations change.
+
+Therefore, gap analysis should not happen only once.
+
+A mature cycle is:
+
+**Assess**
+
+↓
+
+**Identify Gaps**
+
+↓
+
+**Remediate**
+
+↓
+
+**Measure**
+
+↓
+
+**Reassess**
+
+↓
+
+**Identify New Gaps**
+
+This creates continuous improvement.
+
+---
+
+# Practical Enterprise Example
+
+Consider a multinational company with 25,000 employees.
+
+The enterprise review identifies the following:
+
+### Gap 1 – Third Parties
+
+Only 40% of contractors complete awareness training.
+
+**Risk:** High
+
+### Gap 2 – Finance
+
+BEC simulation failure rate is 20%.
+
+**Risk:** High
+
+### Gap 3 – Reporting
+
+Employees in different regions use different incident-reporting processes.
+
+**Risk:** Medium
+
+### Gap 4 – Metrics
+
+The organization measures training completion but not behavior.
+
+**Risk:** Medium
+
+### Gap 5 – AI
+
+The awareness program does not address generative AI data leakage.
+
+**Risk:** High
+
+---
+
+# Recommended Improvement Plan
+
+### Priority 1
+
+Implement mandatory third-party awareness requirements.
+
+### Priority 2
+
+Develop Finance-specific BEC training and exercises.
+
+### Priority 3
+
+Standardize phishing reporting globally.
+
+### Priority 4
+
+Implement behavioral metrics.
+
+### Priority 5
+
+Introduce generative-AI security awareness.
+
+This provides management with a clear path from assessment to action.
+
+---
+
+# GRC Perspective
+
+Gap analysis is particularly valuable for GRC professionals because it connects:
+
+**Requirement**
+
+↓
+
+**Control**
+
+↓
+
+**Current State**
+
+↓
+
+**Gap**
+
+↓
+
+**Risk**
+
+↓
+
+**Treatment**
+
+↓
+
+**Evidence**
+
+This is essentially the same logic used throughout governance, risk, and compliance programs.
+
+For example:
+
+> **Requirement:** Employees must understand security responsibilities.
+
+↓
+
+> **Control:** Security awareness training.
+
+↓
+
+> **Current State:** Annual training exists.
+
+↓
+
+> **Gap:** High-risk roles receive no specialized training.
+
+↓
+
+> **Risk:** Increased likelihood of successful social engineering.
+
+↓
+
+> **Treatment:** Implement role-based awareness.
+
+↓
+
+> **Evidence:** Training records and behavioral metrics.
+
+This makes the security awareness program measurable and auditable.
+
+---
+
+# Key Takeaways
+
+1. **Gap analysis compares the current security awareness program with the desired state.**
+2. **The target state should be based on risk, business requirements, standards, and regulations.**
+3. **A gap is not automatically a training problem.**
+4. **Root-cause analysis helps determine why a gap exists.**
+5. **Gaps can involve governance, people, processes, technology, measurement, or compliance.**
+6. **Risk should drive remediation priorities.**
+7. **High-risk populations should be analyzed separately.**
+8. **Third parties should be included where they create organizational risk.**
+9. **Behavioral data should be compared with training and policy requirements.**
+10. **Completion rates alone cannot demonstrate program effectiveness.**
+11. **Specific gap statements are more useful than generic observations.**
+12. **Each significant gap should have an owner, priority, target date, and success criteria.**
+13. **Quick wins can provide immediate improvements.**
+14. **Strategic gaps may require technology, people, or governance changes.**
+15. **Remediation should be validated after implementation.**
+16. **Findings can be mapped to enterprise risks and security controls.**
+17. **Gap analysis can support ISO/IEC 27001, NIST, regulatory, and audit activities.**
+18. **Employee and stakeholder interviews can reveal gaps that documentation does not show.**
+19. **Gap analysis should be repeated as risks, technology, and business requirements change.**
+20. **The ultimate purpose is to turn identified weaknesses into measurable risk-reduction actions.**
+
+The fundamental model is:
+
+**Requirement → Current State → Gap → Root Cause → Risk → Remediation → Validation**
+
+A strong GRC professional should therefore avoid simply saying:
+
+> **"There is a security awareness gap."**
+
+Instead, the assessment should be able to explain:
+
+> **"What requirement are we trying to meet, what is happening today, why does the gap exist, what risk does it create, what should we change, who owns the change, and how will we prove that the change worked?"**
+
+That is what turns a security awareness gap analysis into a meaningful GRC activity.
+
 
 

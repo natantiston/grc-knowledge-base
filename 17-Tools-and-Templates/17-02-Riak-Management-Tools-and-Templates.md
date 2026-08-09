@@ -3204,6 +3204,1114 @@ This is the difference between **activity tracking** and **risk management**.
 17. The effectiveness of treatment should ultimately be determined by its impact on residual risk.
 18. A mature GRC professional manages **risk reduction**, not merely remediation tasks.
 
+## Part 4 – Risk Acceptance and Exception Template
+
+Risk cannot always be completely eliminated.
+
+Organizations operate in environments where some risks must be temporarily tolerated, transferred, or formally accepted because of technical limitations, business requirements, cost constraints, legacy systems, or other circumstances.
+
+However, **accepting a risk should never mean ignoring it**.
+
+A mature GRC program provides a formal process for documenting, evaluating, approving, monitoring, and eventually reviewing accepted risks.
+
+The **Risk Acceptance and Exception Template** provides the mechanism for doing this consistently.
+
+---
+
+## 4.1 Risk Acceptance vs Security Exception
+
+Risk acceptance and security exceptions are closely related but should not be treated as identical concepts.
+
+### Risk Acceptance
+
+Management formally acknowledges and accepts a defined level of risk.
+
+Example:
+
+> Management accepts the residual risk associated with operating a legacy application until its scheduled replacement.
+
+### Security Exception
+
+An organization formally authorizes a temporary deviation from a specific security requirement, policy, standard, or control.
+
+Example:
+
+> A legacy application cannot comply with the organization's MFA requirement until the application is replaced.
+
+A security exception may therefore create or contribute to a risk that must subsequently be assessed and potentially accepted.
+
+The relationship can be represented as:
+
+```text id="5u4n9a"
+Security Requirement
+        ↓
+Exception Requested
+        ↓
+Risk Identified
+        ↓
+Risk Assessed
+        ↓
+Compensating Controls
+        ↓
+Approval
+        ↓
+Monitoring
+        ↓
+Expiration / Renewal / Closure
+```
+
+---
+
+## 4.2 Why Formal Risk Acceptance Is Necessary
+
+Without a formal process, risk acceptance can become informal.
+
+For example:
+
+> "We know about the problem, but we cannot fix it right now."
+
+This is not sufficient governance.
+
+A formal process establishes:
+
+* What risk is being accepted.
+* Why it is being accepted.
+* Who is accepting it.
+* For how long.
+* What controls remain in place.
+* What conditions apply.
+* When it must be reviewed.
+
+This creates accountability.
+
+---
+
+## 4.3 Risk Acceptance Is a Management Decision
+
+Risk acceptance should normally be made by an appropriately authorized business or risk owner.
+
+The GRC team should facilitate the process but should not automatically become the owner of business risk.
+
+For example:
+
+**GRC**
+
+* Identifies the issue.
+* Performs or facilitates the assessment.
+* Documents the risk.
+* Provides recommendations.
+* Tracks the decision.
+
+**Risk Owner**
+
+* Understands the business consequences.
+* Determines whether the risk can be tolerated.
+* Accepts accountability.
+
+**Management**
+
+* Provides approval when required by the risk level.
+
+This separation preserves proper governance.
+
+---
+
+## 4.4 When Risk Acceptance May Be Appropriate
+
+Risk acceptance may be appropriate when:
+
+* Residual risk is within risk appetite.
+* Treatment cost is disproportionate to the expected reduction.
+* The system is scheduled for retirement.
+* A replacement solution is already being implemented.
+* Technical remediation is temporarily impossible.
+* Business continuity requires temporary operation.
+* A compensating control adequately reduces exposure.
+* Management deliberately chooses to retain the risk.
+
+Acceptance should be justified rather than used as the default treatment.
+
+---
+
+## 4.5 When Risk Acceptance May Not Be Appropriate
+
+Risk acceptance may not be appropriate when:
+
+* The risk violates applicable law.
+* A mandatory regulatory requirement is not met.
+* The risk exceeds the authority of the proposed approver.
+* No accountable risk owner exists.
+* The risk is Critical and exceeds defined acceptance thresholds.
+* There is no documented business justification.
+* The organization has a feasible and proportionate remediation option.
+* The acceptance period has expired.
+
+Risk acceptance does not override legal or regulatory obligations.
+
+---
+
+## 4.6 Risk Acceptance Criteria
+
+An organization should define criteria for when risk acceptance is permitted.
+
+For example:
+
+| Risk Level | Possible Acceptance Authority |
+| ---------- | ----------------------------- |
+| Low        | Department Manager            |
+| Medium     | Business Risk Owner           |
+| High       | CISO / Business Executive     |
+| Critical   | Executive Risk Committee      |
+
+The exact authority structure should be formally defined by the organization.
+
+A user should never be able to accept any risk simply because they created the assessment.
+
+---
+
+## 4.7 Risk Acceptance Information
+
+A practical acceptance form should include:
+
+* Risk ID.
+* Risk title.
+* Risk description.
+* Business context.
+* Current controls.
+* Residual risk.
+* Risk appetite.
+* Business justification.
+* Treatment alternatives.
+* Compensating controls.
+* Risk owner.
+* Acceptance authority.
+* Acceptance period.
+* Expiration date.
+* Review date.
+* Conditions.
+* Approval.
+
+This creates a complete decision record.
+
+---
+
+## 4.8 Risk Acceptance Statement
+
+The acceptance statement should be clear.
+
+For example:
+
+> "The risk owner acknowledges the identified residual risk and accepts the exposure described in this assessment until 31 March 2027, subject to the compensating controls and monitoring requirements documented below."
+
+This is stronger than:
+
+> "Risk accepted."
+
+The statement should define what is being accepted and under what conditions.
+
+---
+
+## 4.9 Business Justification
+
+The acceptance request should explain why the organization is accepting the risk.
+
+Examples:
+
+* System replacement is already funded.
+* Business operations cannot be interrupted.
+* Vendor remediation requires additional time.
+* Technical limitation prevents immediate implementation.
+* Treatment cost is disproportionate.
+* Temporary exception is necessary during migration.
+
+Example:
+
+> The application will be decommissioned by March 2027. Implementing a complete replacement security architecture before decommissioning would require significant investment without proportionate risk reduction. Additional monitoring and network isolation will remain in place until retirement.
+
+This provides management context.
+
+---
+
+## 4.10 Alternatives Considered
+
+A mature acceptance request should identify alternatives.
+
+For example:
+
+| Option                       |  Cost | Risk Reduction | Decision     |
+| ---------------------------- | ----: | -------------- | ------------ |
+| Replace system immediately   |   €2M | Very High      | Not selected |
+| Upgrade security controls    | €300K | High           | Not selected |
+| Network isolation            |  €50K | Medium         | Implemented  |
+| Accept risk without controls |    €0 | None           | Rejected     |
+
+This demonstrates that acceptance was a considered decision rather than an easy shortcut.
+
+---
+
+## 4.11 Compensating Controls
+
+Compensating controls are particularly important when a security exception is granted.
+
+Suppose:
+
+**Requirement**
+
+MFA must be enabled.
+
+**Exception**
+
+Legacy application cannot support MFA.
+
+Possible compensating controls include:
+
+* Network segmentation.
+* Restricted user population.
+* VPN-only access.
+* Additional authentication layer.
+* Enhanced monitoring.
+* Shorter session duration.
+* Additional logging.
+* Privileged access restrictions.
+
+The compensating controls should themselves be documented and monitored.
+
+---
+
+## 4.12 Compensating Controls Must Be Effective
+
+A compensating control should not be added simply to make an exception request look complete.
+
+The GRC professional should ask:
+
+* What threat does the control address?
+* Does it reduce likelihood?
+* Does it reduce impact?
+* Is it implemented?
+* Is it operating?
+* Is it tested?
+* What evidence exists?
+
+For example:
+
+> "The system is monitored."
+
+is not enough.
+
+A stronger statement is:
+
+> "All authentication events are forwarded to the SOC, which monitors failed authentication patterns and generates alerts for defined thresholds."
+
+The second statement is testable.
+
+---
+
+## 4.13 Exception Scope
+
+The exception should clearly define its scope.
+
+For example:
+
+**System**
+
+Customer Billing Application.
+
+**Requirement**
+
+MFA Policy Section 5.2.
+
+**Users**
+
+42 legacy application users.
+
+**Environment**
+
+Production.
+
+**Geographic Scope**
+
+Spain.
+
+**Period**
+
+1 October 2026 – 31 March 2027.
+
+This prevents an exception from unintentionally becoming an organization-wide exemption.
+
+---
+
+## 4.14 Exception Conditions
+
+An exception may be approved with conditions.
+
+For example:
+
+* Access restricted to corporate network.
+* MFA required through a compensating authentication layer.
+* Weekly vulnerability monitoring.
+* Monthly management review.
+* No additional users may be added.
+* System must be retired by the defined date.
+
+Conditions make the exception more controlled.
+
+---
+
+## 4.15 Exception Expiration
+
+Security exceptions should normally have an expiration date.
+
+For example:
+
+> Expiration Date: 31 March 2027.
+
+The exception should not automatically remain valid forever.
+
+Before expiration, management should decide whether to:
+
+* Close the exception.
+* Renew it.
+* Modify it.
+* Replace the system.
+* Implement the required control.
+
+---
+
+## 4.16 Temporary vs Permanent Exceptions
+
+### Temporary Exception
+
+Has a defined end date.
+
+Example:
+
+> MFA cannot be implemented until the legacy application is replaced.
+
+### Permanent Exception
+
+The organization deliberately accepts that the requirement cannot or will not be implemented.
+
+Permanent exceptions require significantly stronger governance because they can become a mechanism for bypassing security requirements indefinitely.
+
+Where possible, organizations should prefer:
+
+> **Time-limited exceptions with periodic review.**
+
+---
+
+## 4.17 Exception Renewal
+
+If the exception cannot be closed by the expiration date, a renewal should require a new review.
+
+The owner should explain:
+
+* Why the original deadline was missed.
+* What has changed.
+* Current residual risk.
+* Current compensating controls.
+* Revised remediation date.
+* Whether additional controls are necessary.
+
+Renewal should not be automatic.
+
+---
+
+## 4.18 Risk Acceptance Duration
+
+The acceptance period should reflect the circumstances.
+
+For example:
+
+| Scenario                     | Possible Review Period     |
+| ---------------------------- | -------------------------- |
+| Critical vulnerability       | Very short                 |
+| Temporary project constraint | Project duration           |
+| Legacy system retirement     | Until retirement date      |
+| Vendor remediation           | Until remediation deadline |
+| Strategic risk               | Defined periodic review    |
+
+The organization should establish formal requirements for acceptance duration.
+
+---
+
+## 4.19 Risk Acceptance Register
+
+Organizations should maintain a centralized register of accepted risks.
+
+Example:
+
+| ID     | Risk                    | Rating | Owner | Accepted Until | Status |
+| ------ | ----------------------- | ------ | ----- | -------------- | ------ |
+| RA-001 | Legacy MFA limitation   | High   | CIO   | Mar 2027       | Active |
+| RA-002 | Vendor encryption gap   | Medium | CISO  | Dec 2026       | Active |
+| RA-003 | Unsupported application | High   | CTO   | Jun 2027       | Active |
+
+This allows management to see how much risk is being formally accepted.
+
+---
+
+## 4.20 Exception Register
+
+A separate exception register may track policy and control exceptions.
+
+Example:
+
+| Exception ID | Requirement | System          | Risk   | Expiry   | Status |
+| ------------ | ----------- | --------------- | ------ | -------- | ------ |
+| EX-001       | MFA         | Legacy ERP      | High   | Mar 2027 | Active |
+| EX-002       | Encryption  | Legacy Database | Medium | Dec 2026 | Active |
+| EX-003       | Patch SLA   | OT System       | High   | Jan 2027 | Active |
+
+The exception register should link to the corresponding risk record.
+
+---
+
+## 4.21 Relationship Between Risk and Exception Registers
+
+A useful model is:
+
+```text id="q4w7g8"
+Security Requirement
+        ↓
+Exception
+        ↓
+Risk
+        ↓
+Risk Assessment
+        ↓
+Compensating Controls
+        ↓
+Risk Acceptance
+        ↓
+Treatment / Monitoring
+        ↓
+Closure
+```
+
+This provides traceability.
+
+For example:
+
+**EX-001**
+
+MFA exception.
+
+↓
+
+**R-2026-034**
+
+Unauthorized access risk.
+
+↓
+
+**RA-2026-012**
+
+Risk acceptance.
+
+This relationship is valuable during audits.
+
+---
+
+## 4.22 Risk Acceptance Approval Workflow
+
+A practical workflow could be:
+
+```text id="1l5b8w"
+Exception / Risk Identified
+        ↓
+Risk Assessment
+        ↓
+Treatment Options Evaluated
+        ↓
+Compensating Controls Defined
+        ↓
+Risk Owner Review
+        ↓
+Approval Authority
+        ↓
+Approved?
+    ↙        ↘
+  Yes         No
+   ↓           ↓
+Monitor      Remediate
+   ↓
+Review
+   ↓
+Close / Renew
+```
+
+This provides a controlled decision process.
+
+---
+
+## 4.23 Approval Evidence
+
+Approval should be traceable.
+
+Possible evidence includes:
+
+* Electronic approval.
+* GRC workflow record.
+* Meeting minutes.
+* Signed acceptance form.
+* Management committee decision.
+
+Email approval may sometimes be acceptable depending on organizational policy, but a structured workflow provides better traceability.
+
+---
+
+## 4.24 Risk Acceptance and Accountability
+
+A critical principle is:
+
+> **Risk acceptance transfers accountability for the decision, not ownership of the risk.**
+
+For example:
+
+The CIO accepts the risk.
+
+The risk does not become the GRC team's responsibility.
+
+The risk remains associated with the business owner and continues to require monitoring.
+
+---
+
+## 4.25 Monitoring Accepted Risks
+
+Accepted risks should be monitored.
+
+Monitoring may include:
+
+* Security incidents.
+* Control failures.
+* Threat intelligence.
+* Vulnerability changes.
+* Business changes.
+* Regulatory changes.
+* Compensating control effectiveness.
+
+If the risk increases significantly, the acceptance decision may need to be reconsidered before its expiration date.
+
+---
+
+## 4.26 Trigger-Based Reassessment
+
+An accepted risk should be reassessed when certain events occur.
+
+Examples:
+
+### Security Incident
+
+A related incident occurs.
+
+### Threat Change
+
+A new threat significantly increases likelihood.
+
+### Technology Change
+
+The affected system is modified.
+
+### Regulatory Change
+
+A new obligation applies.
+
+### Control Failure
+
+A compensating control stops operating.
+
+### Business Change
+
+The business process becomes more critical.
+
+These triggers prevent organizations from relying blindly on an old approval.
+
+---
+
+## 4.27 Example – Legacy Application
+
+Consider an organization with a legacy application that cannot support modern MFA.
+
+### Requirement
+
+All critical applications must use MFA.
+
+### Exception
+
+Legacy application cannot technically support MFA.
+
+### Risk
+
+Compromise of user credentials could allow unauthorized access.
+
+### Residual Risk
+
+High.
+
+### Compensating Controls
+
+* Application accessible only through corporate network.
+* Additional authentication at the remote access layer.
+* Restricted user population.
+* Enhanced SOC monitoring.
+* Quarterly access review.
+
+### Business Justification
+
+Application replacement is scheduled within six months.
+
+### Acceptance
+
+CIO accepts the residual risk until the application is retired.
+
+### Expiration
+
+31 March 2027.
+
+This is a controlled exception.
+
+---
+
+## 4.28 Example – Vendor Exception
+
+A critical cloud provider may not meet one internal encryption requirement.
+
+Instead of immediately terminating the vendor relationship, the organization may:
+
+* Conduct additional due diligence.
+* Review the vendor's alternative security controls.
+* Require contractual commitments.
+* Restrict sensitive workloads.
+* Increase monitoring.
+* Define a remediation deadline.
+
+The organization can then determine whether the residual risk is acceptable.
+
+---
+
+## 4.29 Example – Regulatory Constraint
+
+Suppose a control gap causes potential regulatory non-compliance.
+
+The GRC professional should not simply recommend:
+
+> "Accept the risk."
+
+The organization should first determine:
+
+* Is the requirement legally mandatory?
+* Is there a permitted alternative?
+* Is there a compensating measure recognized by the regulator?
+* What is the potential consequence?
+* Who has authority to make the decision?
+
+Risk acceptance cannot be used to override a legal obligation.
+
+---
+
+## 4.30 Risk Acceptance Template
+
+A practical template can be structured as:
+
+```text id="5qv4ha"
+RISK ACCEPTANCE / SECURITY EXCEPTION REQUEST
+
+1. Request Information
+
+Request ID:
+Risk ID:
+Exception ID:
+Request Date:
+Requestor:
+Business Unit:
+
+2. Requirement
+
+Policy / Standard:
+Requirement:
+Control:
+Reason for Exception:
+
+3. Risk
+
+Risk Title:
+Risk Description:
+Cause:
+Risk Event:
+Potential Consequences:
+
+4. Risk Assessment
+
+Likelihood:
+Impact:
+Inherent Risk:
+Existing Controls:
+Control Effectiveness:
+Residual Risk:
+
+5. Risk Appetite
+
+Risk Appetite:
+Within Appetite?:
+
+6. Business Justification
+
+Business Reason:
+Operational Constraints:
+Technical Constraints:
+Financial Considerations:
+
+7. Alternatives Considered
+
+Option 1:
+Option 2:
+Option 3:
+
+8. Compensating Controls
+
+Control:
+Owner:
+Frequency:
+Evidence:
+
+9. Treatment Plan
+
+Action:
+Owner:
+Target Date:
+
+10. Acceptance
+
+Acceptance Statement:
+Risk Owner:
+Acceptance Authority:
+
+11. Conditions
+
+Condition 1:
+Condition 2:
+Condition 3:
+
+12. Validity
+
+Effective Date:
+Expiration Date:
+Review Date:
+
+13. Approval
+
+Risk Owner:
+CISO:
+Business Executive:
+Other Approver:
+
+14. Closure
+
+Closure Date:
+Closure Evidence:
+Validated By:
+Final Status:
+```
+
+---
+
+## 4.31 Practical Exercise – Create a Security Exception
+
+Use the following scenario:
+
+> A critical legacy application cannot support MFA. The application is scheduled for replacement in six months. Approximately 50 employees currently use the application.
+
+Create a security exception request.
+
+Document:
+
+1. The requirement.
+2. The reason for the exception.
+3. The associated risk.
+4. Inherent risk.
+5. Existing controls.
+6. Residual risk.
+7. Compensating controls.
+8. Business justification.
+9. Treatment plan.
+10. Risk owner.
+11. Approval authority.
+12. Expiration date.
+13. Monitoring requirements.
+
+---
+
+## 4.32 Practical Exercise – Determine Acceptance Authority
+
+Assume an organization has the following rules:
+
+| Risk     | Acceptance Authority     |
+| -------- | ------------------------ |
+| Low      | Department Manager       |
+| Medium   | Business Owner           |
+| High     | CISO                     |
+| Critical | Executive Risk Committee |
+
+Determine who must approve:
+
+1. Low risk – Score 4.
+2. Medium risk – Score 8.
+3. High risk – Score 15.
+4. Critical risk – Score 20.
+
+Then explain why the person requesting the exception should not automatically be allowed to approve it.
+
+---
+
+## 4.33 Practical Exercise – Review an Expired Exception
+
+Assume:
+
+> Exception EX-004 expired on 30 June 2026.
+
+The system replacement has been delayed until December 2026.
+
+The business wants to automatically extend the exception for another six months.
+
+Determine what the GRC professional should request before renewal.
+
+Consider:
+
+* Current risk assessment.
+* Current controls.
+* Changes since original approval.
+* Reason for delay.
+* New threat information.
+* Compensating controls.
+* Revised remediation date.
+* Updated management approval.
+
+---
+
+## 4.34 Practical Exercise – Risk Acceptance Decision
+
+Consider:
+
+> A critical system has a residual risk score of 18. The organization's risk appetite allows a maximum score of 12. Management argues that remediation would cost €3 million and wants to accept the risk.
+
+Determine what the GRC professional should do.
+
+Consider:
+
+* Risk appetite.
+* Treatment alternatives.
+* Business impact.
+* Regulatory requirements.
+* Compensating controls.
+* Acceptance authority.
+* Management justification.
+* Monitoring requirements.
+
+The goal is not simply to decide "accept" or "reject."
+
+The objective is to demonstrate a **defensible governance process**.
+
+---
+
+## 4.35 Common Risk Acceptance Problems
+
+### Problem 1 – "Accepted" Without Documentation
+
+A verbal decision is not sufficient evidence.
+
+### Problem 2 – No Expiration Date
+
+The exception becomes effectively permanent.
+
+### Problem 3 – Wrong Approver
+
+The person accepting the risk does not have sufficient authority.
+
+### Problem 4 – No Business Justification
+
+Management cannot explain why the risk is being accepted.
+
+### Problem 5 – No Compensating Controls
+
+The organization accepts unnecessary exposure while waiting for remediation.
+
+### Problem 6 – No Monitoring
+
+The accepted risk remains unmanaged.
+
+### Problem 7 – Automatic Renewal
+
+The exception is renewed without reassessment.
+
+### Problem 8 – Treating Regulatory Non-Compliance as Ordinary Risk
+
+A legal or regulatory obligation may require remediation rather than discretionary acceptance.
+
+---
+
+## 4.36 Risk Acceptance Metrics
+
+The GRC team can monitor metrics such as:
+
+### Number of Accepted Risks
+
+How many risks are currently accepted?
+
+### Accepted Risk by Severity
+
+How many High or Critical risks are accepted?
+
+### Expiring Acceptances
+
+How many risk acceptances will expire within 30, 60, or 90 days?
+
+### Overdue Exceptions
+
+How many exceptions have passed their expiration date?
+
+### Renewal Rate
+
+How many exceptions require renewal?
+
+### Acceptance Aging
+
+How long have risks remained accepted?
+
+These metrics can reveal whether risk acceptance is being overused.
+
+---
+
+## 4.37 Example Risk Acceptance Dashboard
+
+| Metric                    |    Value |
+| ------------------------- | -------: |
+| Active Risk Acceptances   |       24 |
+| High/Critical Acceptances |        7 |
+| Expiring in 30 Days       |        4 |
+| Expired                   |        1 |
+| Pending Approval          |        3 |
+| Renewed This Quarter      |        5 |
+| Average Acceptance Age    | 146 days |
+
+Management can use this information to determine whether accepted risk is becoming excessive.
+
+---
+
+## 4.38 Risk Acceptance Aging
+
+A useful maturity indicator is how long risks remain accepted.
+
+For example:
+
+| Age          | Number |
+| ------------ | -----: |
+| <30 days     |      5 |
+| 31–90 days   |      8 |
+| 91–180 days  |      6 |
+| 181–365 days |      4 |
+| >365 days    |      1 |
+
+A high number of long-running exceptions may indicate:
+
+* Poor remediation planning.
+* Insufficient resources.
+* Weak governance.
+* Unrealistic policies.
+* Overly broad security requirements.
+* Excessive risk tolerance.
+
+The data should be investigated rather than interpreted automatically.
+
+---
+
+## 4.39 Automating Risk Acceptance
+
+A GRC platform can automate:
+
+* Request submission.
+* Risk assessment.
+* Approval routing.
+* Expiration notifications.
+* Escalations.
+* Evidence collection.
+* Renewal workflows.
+* Dashboards.
+
+For example:
+
+```text id="w3d6qa"
+Exception Created
+      ↓
+Risk Assessment
+      ↓
+Automatic Approval Routing
+      ↓
+Risk Owner Approval
+      ↓
+CISO Approval
+      ↓
+Expiration Reminder
+      ↓
+Reassessment
+      ↓
+Close / Renew
+```
+
+Automation reduces administrative work and improves consistency.
+
+---
+
+## 4.40 Professional GRC Perspective
+
+The GRC professional should maintain a balanced position.
+
+The goal is not:
+
+> "Never accept risk."
+
+The goal is also not:
+
+> "Accept everything the business requests."
+
+The correct approach is:
+
+> **Make risk acceptance deliberate, informed, authorized, time-bound, and transparent.**
+
+A strong GRC professional helps management understand:
+
+* What risk exists.
+* Why it exists.
+* What treatment options are available.
+* What treatment would cost.
+* What risk remains.
+* What happens if the risk is accepted.
+* Who is accountable for the decision.
+
+This allows management to make informed decisions without removing business accountability.
+
+---
+
+## Key Takeaways
+
+1. Risk acceptance and security exceptions are related but distinct processes.
+2. Risk acceptance is a formal management decision.
+3. A security exception authorizes a deviation from a security requirement.
+4. Every accepted risk should have an accountable risk owner.
+5. Acceptance authority should be based on defined governance thresholds.
+6. Business justification should be documented.
+7. Treatment alternatives should be considered before accepting risk.
+8. Compensating controls should be documented and assessed for effectiveness.
+9. Exceptions should normally have defined expiration dates.
+10. Renewals should require reassessment rather than automatic extension.
+11. Accepted risks should remain monitored.
+12. Significant changes should trigger reassessment before expiration.
+13. Risk acceptance cannot automatically override legal or regulatory obligations.
+14. Risk and exception registers should provide traceability to the underlying requirements and controls.
+15. Metrics such as aging, expiration, and severity can identify excessive reliance on risk acceptance.
+16. Automation can improve approval, monitoring, and renewal processes.
+17. The objective is not zero risk; it is **informed, accountable, and controlled risk decision-making**.
+18. A mature GRC professional facilitates the decision but does not assume ownership of business risk.
+
 
 
 

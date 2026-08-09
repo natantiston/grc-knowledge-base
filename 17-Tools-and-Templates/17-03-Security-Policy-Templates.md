@@ -3793,5 +3793,1127 @@ This is the difference between **compliance documentation** and **effective assu
 14. Control testing can provide evidence for multiple frameworks and regulatory requirements.
 15. The ultimate objective is not simply to prove that a control exists, but to determine whether **the control actually reduces the intended risk**.
 
+## Part 4 – Risk Treatment Plan Template
+
+A **Risk Treatment Plan** translates identified risks into concrete actions. While the risk assessment determines **what the risk is and how significant it is**, the treatment plan determines **what the organization will do about it**.
+
+A practical risk treatment process should answer:
+
+* What action will be taken?
+* Why is the action necessary?
+* Who is responsible?
+* When must it be completed?
+* What control or improvement will be implemented?
+* What residual risk is expected?
+* How will completion be verified?
+* Who approves the final risk decision?
+
+The treatment plan should therefore connect risk identification, control implementation, remediation, ownership, and management decision-making.
+
+---
+
+### 4.1 Purpose of a Risk Treatment Plan
+
+A risk treatment plan provides a structured mechanism for managing risks that require action.
+
+It helps the organization:
+
+* Prioritize remediation.
+* Assign accountability.
+* Track deadlines.
+* Document treatment decisions.
+* Monitor progress.
+* Measure risk reduction.
+* Support management reporting.
+* Provide audit evidence.
+* Demonstrate alignment with risk appetite.
+
+Without a treatment plan, a risk assessment can become merely a documentation exercise.
+
+---
+
+### 4.2 Risk Treatment Lifecycle
+
+A practical lifecycle is:
+
+```text
+Risk Identified
+      ↓
+Risk Assessed
+      ↓
+Residual Risk Determined
+      ↓
+Compare With Risk Appetite
+      ↓
+Select Treatment
+      ↓
+Define Actions
+      ↓
+Assign Owner
+      ↓
+Set Target Date
+      ↓
+Implement Treatment
+      ↓
+Validate Effectiveness
+      ↓
+Reassess Risk
+      ↓
+Accept / Escalate / Continue Treatment
+```
+
+The important point is that treatment should eventually result in **reassessment**.
+
+Implementing a security control does not automatically mean that the risk has been eliminated.
+
+---
+
+### 4.3 Risk Treatment Options
+
+The traditional treatment options are:
+
+1. **Avoid**
+2. **Mitigate**
+3. **Transfer**
+4. **Accept**
+
+Some organizations also use terms such as:
+
+* Reduce.
+* Share.
+* Reject.
+* Exploit, for positive risks in enterprise risk management.
+
+For cybersecurity GRC, the four traditional options provide a useful foundation.
+
+---
+
+### 4.4 Risk Avoidance
+
+Risk avoidance means eliminating the activity that creates the risk.
+
+Example:
+
+> An organization determines that an unsupported legacy application presents unacceptable security risk and decides not to deploy it.
+
+Other examples include:
+
+* Discontinuing an insecure service.
+* Removing an exposed system.
+* Stopping processing of unnecessary sensitive information.
+* Cancelling a high-risk integration.
+
+Risk avoidance can be effective, but it may also have business consequences.
+
+The GRC professional should therefore ask:
+
+> What business capability will be lost by avoiding the risk?
+
+---
+
+### 4.5 Risk Mitigation
+
+Risk mitigation reduces the likelihood and/or impact of the risk.
+
+Examples:
+
+* Implement MFA.
+* Encrypt sensitive information.
+* Improve network segmentation.
+* Patch vulnerable systems.
+* Strengthen vendor requirements.
+* Implement security monitoring.
+* Improve backup and recovery.
+* Conduct security awareness training.
+
+Mitigation is probably the most common cybersecurity treatment option.
+
+---
+
+### 4.6 Risk Transfer
+
+Risk transfer involves sharing some consequences of the risk with another party.
+
+Examples include:
+
+* Cyber insurance.
+* Contractual arrangements.
+* Outsourcing.
+* Service-level agreements.
+* Indemnification clauses.
+
+However:
+
+> **Transferring financial responsibility does not necessarily transfer the underlying cybersecurity risk.**
+
+For example, purchasing cyber insurance does not make a vulnerable system secure.
+
+The organization may still have:
+
+* Regulatory obligations.
+* Privacy responsibilities.
+* Customer notification requirements.
+* Operational consequences.
+* Reputational consequences.
+
+---
+
+### 4.7 Risk Acceptance
+
+Risk acceptance means management knowingly accepts the residual risk.
+
+Acceptance should not simply mean:
+
+> "We don't have time to fix it."
+
+A legitimate acceptance decision should consider:
+
+* Risk level.
+* Risk appetite.
+* Business justification.
+* Cost of treatment.
+* Available alternatives.
+* Duration of acceptance.
+* Compensating controls.
+* Appropriate approval authority.
+
+Risk acceptance should be documented.
+
+---
+
+### 4.8 Risk Treatment Decision
+
+A practical decision record might look like:
+
+```text
+Risk ID:
+R-2026-021
+
+Residual Risk:
+High
+
+Risk Appetite:
+Medium
+
+Treatment Decision:
+Mitigate
+
+Reason:
+Residual risk exceeds the approved risk appetite.
+
+Treatment:
+Implement phishing-resistant MFA for privileged accounts.
+
+Risk Owner:
+CISO
+
+Treatment Owner:
+IAM Manager
+
+Target Date:
+30 September 2026
+
+Expected Residual Risk:
+Medium
+```
+
+This creates a clear management trail.
+
+---
+
+### 4.9 Risk Treatment Plan Template
+
+A practical template can contain:
+
+```text
+RISK TREATMENT PLAN
+
+Risk ID:
+
+Risk Title:
+
+Risk Description:
+
+Risk Owner:
+
+Business Unit:
+
+Inherent Risk:
+
+Current Controls:
+
+Residual Risk:
+
+Risk Appetite:
+
+Treatment Decision:
+
+Treatment Rationale:
+
+Treatment Objective:
+
+Treatment Actions:
+
+Control / Improvement:
+
+Action Owner:
+
+Supporting Teams:
+
+Priority:
+
+Target Date:
+
+Milestones:
+
+Required Resources:
+
+Dependencies:
+
+Expected Risk Reduction:
+
+Expected Residual Risk:
+
+KPI / KRI:
+
+Evidence Required:
+
+Status:
+
+Management Approval:
+
+Approval Date:
+
+Review Date:
+
+Closure Criteria:
+
+Validation / Retest:
+
+Final Risk Decision:
+```
+
+---
+
+### 4.10 Treatment Objective
+
+The treatment should have a clearly defined objective.
+
+Weak:
+
+> "Improve security."
+
+Better:
+
+> "Reduce the likelihood of unauthorized privileged access by implementing phishing-resistant MFA for all privileged accounts."
+
+The second objective is measurable.
+
+---
+
+### 4.11 Treatment Actions
+
+A treatment plan should break the overall treatment into specific actions.
+
+Example:
+
+| Action                           | Owner    | Due Date | Status      |
+| -------------------------------- | -------- | -------- | ----------- |
+| Identify privileged accounts     | IAM      | 15 Sep   | Complete    |
+| Identify unsupported MFA methods | IAM      | 18 Sep   | In Progress |
+| Configure phishing-resistant MFA | IAM      | 25 Sep   | Open        |
+| Test implementation              | Security | 28 Sep   | Open        |
+| Produce evidence                 | GRC      | 30 Sep   | Open        |
+| Reassess risk                    | GRC      | 5 Oct    | Open        |
+
+This is more useful than:
+
+> "Implement MFA."
+
+---
+
+### 4.12 Action Owner vs Risk Owner
+
+These roles should be clearly separated.
+
+**Risk Owner**
+
+Accountable for the risk and the treatment decision.
+
+**Action Owner**
+
+Responsible for completing a particular remediation action.
+
+For example:
+
+> Risk Owner: CIO
+
+> Action Owner: IAM Manager
+
+> Supporting Team: Infrastructure
+
+> GRC: Validation and reporting
+
+One risk can have multiple action owners.
+
+---
+
+### 4.13 Treatment Priority
+
+Treatment priority should consider more than the risk score.
+
+Factors can include:
+
+* Residual risk.
+* Risk appetite.
+* Regulatory requirements.
+* Exploitability.
+* Business criticality.
+* Threat activity.
+* Customer impact.
+* Dependency on other projects.
+* Cost.
+* Implementation complexity.
+
+Example:
+
+| Priority | Typical Meaning                               |
+| -------- | --------------------------------------------- |
+| Critical | Immediate action required                     |
+| High     | Action required within defined timeframe      |
+| Medium   | Planned remediation                           |
+| Low      | Monitor or address through normal improvement |
+
+The organization should define actual deadlines for each priority.
+
+---
+
+### 4.14 Risk Treatment Schedule
+
+A treatment plan should include realistic dates.
+
+Example:
+
+```text
+Risk Identified
+     ↓
+09 August
+
+Treatment Approved
+     ↓
+12 August
+
+Design Completed
+     ↓
+20 August
+
+Implementation
+     ↓
+01–20 September
+
+Testing
+     ↓
+21–25 September
+
+Validation
+     ↓
+26 September
+
+Risk Reassessment
+     ↓
+30 September
+```
+
+This provides management with visibility into the remediation lifecycle.
+
+---
+
+### 4.15 Milestones
+
+Large remediation activities should be divided into milestones.
+
+Example:
+
+**Objective:** Improve third-party security.
+
+Milestones:
+
+1. Identify critical vendors.
+2. Classify vendors by risk.
+3. Update security questionnaire.
+4. Perform assessments.
+5. Identify deficiencies.
+6. Issue remediation requests.
+7. Track remediation.
+8. Validate evidence.
+9. Reassess vendor risk.
+
+This allows GRC teams to monitor progress without waiting for final completion.
+
+---
+
+### 4.16 Treatment Dependencies
+
+Some remediation actions depend on other activities.
+
+Example:
+
+> MFA implementation depends on identity platform upgrade.
+
+The treatment plan should document this dependency.
+
+Example:
+
+| Dependency             | Owner       | Impact                           |
+| ---------------------- | ----------- | -------------------------------- |
+| IAM platform upgrade   | IT          | Delays MFA deployment            |
+| Vendor contract update | Procurement | Delays third-party remediation   |
+| Application upgrade    | Development | Delays vulnerability remediation |
+
+Dependencies explain why a treatment may not progress according to the original schedule.
+
+---
+
+### 4.17 Compensating Controls
+
+Sometimes the preferred treatment cannot be implemented immediately.
+
+A temporary compensating control may reduce exposure.
+
+Example:
+
+> Vulnerable application cannot be patched for 30 days because of a production dependency.
+
+Temporary controls might include:
+
+* Network isolation.
+* WAF rules.
+* Restricted access.
+* Enhanced monitoring.
+* Additional authentication.
+* Reduced exposure.
+
+The treatment plan should clearly distinguish:
+
+**Temporary control**
+
+from
+
+**Permanent remediation.**
+
+A compensating control should not become a permanent excuse for avoiding remediation.
+
+---
+
+### 4.18 Expected Risk Reduction
+
+The treatment plan should estimate the expected effect.
+
+Example:
+
+```text
+Current Risk:
+20 – Critical
+
+Treatment:
+Implement MFA
+
+Expected Likelihood:
+4 → 2
+
+Impact:
+5 → 5
+
+Expected Residual Risk:
+10 – High
+```
+
+This helps management determine whether the proposed treatment provides sufficient risk reduction.
+
+---
+
+### 4.19 Cost-Benefit Consideration
+
+Treatment decisions should consider cost.
+
+Example:
+
+```text
+Treatment Cost:
+€150,000
+
+Current Annualized Risk Exposure:
+€500,000
+
+Expected Risk Reduction:
+60%
+```
+
+This does not mean that organizations should always select the cheapest option.
+
+Security decisions should consider:
+
+* Regulatory requirements.
+* Risk appetite.
+* Business criticality.
+* Customer expectations.
+* Legal obligations.
+* Strategic importance.
+
+Cost is one factor, not the only factor.
+
+---
+
+### 4.20 Treatment Effectiveness
+
+After implementation, determine whether the treatment actually worked.
+
+For example:
+
+Before treatment:
+
+> 30% of privileged accounts lacked MFA.
+
+After treatment:
+
+> 0% lack MFA.
+
+This provides evidence of improvement.
+
+However, the GRC team should also ask:
+
+> Is MFA operating correctly?
+
+and:
+
+> Are there unauthorized exceptions?
+
+The objective is effective risk reduction, not merely implementation.
+
+---
+
+### 4.21 Evidence of Completion
+
+A treatment should not be marked "Complete" merely because someone says it has been implemented.
+
+Possible evidence:
+
+* System configuration.
+* Change ticket.
+* Deployment report.
+* Screenshot.
+* Security test.
+* Audit log.
+* Updated procedure.
+* Contract amendment.
+* Training records.
+* Independent validation.
+
+Example:
+
+**Action:**
+
+Implement MFA.
+
+**Evidence:**
+
+IAM configuration export showing MFA enforcement for all privileged accounts.
+
+**Validation:**
+
+GRC independently reviewed the configuration.
+
+That is stronger than:
+
+> "IAM confirmed MFA was implemented."
+
+---
+
+### 4.22 Closure Criteria
+
+Every treatment should define what "complete" means.
+
+Example:
+
+> Treatment is considered complete when 100% of privileged accounts use approved MFA, exceptions are formally approved, and GRC validates the implementation.
+
+This prevents premature closure.
+
+---
+
+### 4.23 Risk Reassessment
+
+After treatment, the risk should be reassessed.
+
+Example:
+
+**Before treatment**
+
+Likelihood = 4
+
+Impact = 5
+
+Risk = 20
+
+**After treatment**
+
+Likelihood = 2
+
+Impact = 5
+
+Risk = 10
+
+The treatment reduced likelihood but did not change the potential impact.
+
+This distinction is important.
+
+---
+
+### 4.24 Treatment Status
+
+A standardized status model is useful.
+
+| Status             | Meaning                                   |
+| ------------------ | ----------------------------------------- |
+| Not Started        | Treatment has not begun                   |
+| Planned            | Treatment has been approved               |
+| In Progress        | Work is underway                          |
+| Blocked            | Dependency prevents progress              |
+| Pending Validation | Implementation completed but not verified |
+| Complete           | Treatment validated                       |
+| Closed             | Risk decision finalized                   |
+| Deferred           | Management approved delay                 |
+
+This allows management to understand treatment progress quickly.
+
+---
+
+### 4.25 Overdue Treatment
+
+A treatment becomes overdue when its approved target date passes without completion.
+
+Example:
+
+> Target Date: 30 June 2026
+
+> Current Date: 9 August 2026
+
+> Status: In Progress
+
+The GRC system should flag the treatment as overdue.
+
+The GRC professional should then determine:
+
+* Why is it overdue?
+* Is the risk increasing?
+* Is a compensating control available?
+* Does management need escalation?
+* Does the risk acceptance need extension?
+
+---
+
+### 4.26 Risk Treatment Escalation
+
+Escalation may be required when:
+
+* Risk exceeds appetite.
+* Treatment is significantly overdue.
+* A critical vulnerability remains unresolved.
+* A regulatory deadline is approaching.
+* Management has not provided resources.
+* A business unit repeatedly misses remediation deadlines.
+
+Escalation should follow the organization's governance structure.
+
+---
+
+### 4.27 Risk Acceptance vs Risk Treatment
+
+These decisions should not be confused.
+
+Suppose:
+
+> Residual Risk = High.
+
+Management can decide:
+
+**Option A – Treat**
+
+Implement additional controls.
+
+**Option B – Accept**
+
+Management formally accepts the risk.
+
+**Option C – Avoid**
+
+Stop the activity.
+
+**Option D – Transfer**
+
+Share certain consequences through contractual or insurance arrangements.
+
+The decision should be intentional and documented.
+
+---
+
+### 4.28 Risk Acceptance Expiration
+
+Risk acceptance should normally have an expiration or review date.
+
+Example:
+
+```text
+Risk:
+Legacy Server Vulnerability
+
+Residual Risk:
+High
+
+Decision:
+Accepted
+
+Reason:
+Replacement project scheduled.
+
+Acceptance Start:
+01 August 2026
+
+Acceptance Expiration:
+31 December 2026
+
+Risk Owner:
+CIO
+
+Approval:
+CEO
+
+Review:
+Monthly
+```
+
+This prevents temporary acceptance from becoming indefinite acceptance.
+
+---
+
+### 4.29 Treatment Plan and Risk Register
+
+The treatment plan provides detailed action information.
+
+The risk register provides the management-level view.
+
+Example:
+
+| Risk  | Residual Risk | Treatment          | Owner       | Due    | Status      |
+| ----- | ------------: | ------------------ | ----------- | ------ | ----------- |
+| R-001 |      Critical | MFA                | IAM         | Sep 30 | In Progress |
+| R-002 |          High | Patch systems      | IT          | Aug 31 | Open        |
+| R-003 |        Medium | Vendor remediation | Procurement | Oct 15 | Planned     |
+
+The two artifacts should remain linked.
+
+---
+
+### 4.30 Treatment Plan and GRC Platforms
+
+A GRC platform can automate many activities.
+
+Typical workflow:
+
+```text
+Risk
+ ↓
+Treatment Plan
+ ↓
+Task Creation
+ ↓
+Assignment
+ ↓
+Notification
+ ↓
+Progress Tracking
+ ↓
+Evidence Upload
+ ↓
+Validation
+ ↓
+Risk Reassessment
+ ↓
+Closure
+```
+
+Platforms such as ServiceNow GRC, Archer, and other enterprise GRC solutions can support this workflow.
+
+The technology, however, does not replace governance.
+
+A poorly designed treatment process will remain poor even after automation.
+
+---
+
+### 4.31 Key Risk Indicators
+
+Treatment plans can use KRIs to determine whether risk is improving.
+
+Example:
+
+**Risk:** Privileged account compromise.
+
+Possible KRI:
+
+> Percentage of privileged accounts without phishing-resistant MFA.
+
+Before treatment:
+
+> 35%.
+
+After treatment:
+
+> 5%.
+
+Target:
+
+> 0%.
+
+This gives management a measurable indication of progress.
+
+---
+
+### 4.32 Key Performance Indicators
+
+KPIs measure treatment execution.
+
+Examples:
+
+* Percentage of remediation actions completed on time.
+* Average remediation time.
+* Percentage of overdue actions.
+* Number of risks closed.
+* Percentage of treatments validated.
+* Percentage of high-risk findings remediated.
+
+For example:
+
+> 92% of remediation actions completed within the agreed timeframe.
+
+This measures performance, while a KRI might measure the underlying risk.
+
+---
+
+### 4.33 Treatment Plan Dashboard
+
+A management dashboard might show:
+
+| Metric               | Result |
+| -------------------- | -----: |
+| Open Risk Treatments |     38 |
+| Critical             |      3 |
+| High                 |     12 |
+| Medium               |     18 |
+| Low                  |      5 |
+| Overdue              |      7 |
+| Completed This Month |     11 |
+| Pending Validation   |      4 |
+| Above Risk Appetite  |      6 |
+
+Management can immediately identify areas requiring attention.
+
+---
+
+### 4.34 Practical Exercise – Create a Treatment Plan
+
+Scenario:
+
+> A customer database is exposed to an internet-facing application. A critical vulnerability has been identified. The application cannot be patched immediately because a major business release is scheduled in two weeks.
+
+Create a treatment plan containing:
+
+1. Risk ID.
+2. Risk description.
+3. Current risk.
+4. Risk owner.
+5. Treatment decision.
+6. Immediate compensating controls.
+7. Permanent remediation.
+8. Action owners.
+9. Milestones.
+10. Target dates.
+11. Evidence requirements.
+12. Expected residual risk.
+13. Validation method.
+14. Closure criteria.
+
+The objective is to distinguish **immediate risk reduction** from **permanent remediation**.
+
+---
+
+### 4.35 Practical Exercise – Treatment Decision
+
+Consider the following situation:
+
+> A legacy system has a high residual risk. Replacing the system would cost €2 million and take 18 months. Management has approved €100,000 for temporary security controls while the replacement project is being developed.
+
+Determine:
+
+* Should the risk be accepted?
+* Should it be mitigated?
+* What compensating controls could be implemented?
+* Who should approve the risk?
+* How frequently should the risk be reviewed?
+* When should the acceptance expire?
+
+The important lesson is that risk treatment is a **business decision supported by GRC**, not simply a technical decision.
+
+---
+
+### 4.36 Practical Exercise – Overdue Treatment
+
+Scenario:
+
+> A high-risk vulnerability was supposed to be remediated by 31 July. It is now 9 August and the remediation has not been completed.
+
+The treatment owner says:
+
+> "The development team needs another month."
+
+As the GRC professional, determine:
+
+* What information should you request?
+* Should the risk rating be reassessed?
+* Is a compensating control required?
+* Should the issue be escalated?
+* Should the target date be formally changed?
+* Does the risk acceptance need management approval?
+
+Do not simply change the due date.
+
+A change to the treatment timeline may require a corresponding reassessment of the risk.
+
+---
+
+### 4.37 Practical Exercise – Treatment Effectiveness
+
+Before treatment:
+
+> Likelihood = 5
+> Impact = 4
+> Risk = 20
+
+Treatment:
+
+> Implement network segmentation.
+
+After implementation:
+
+> Likelihood = 2
+> Impact = 4
+> Risk = 8
+
+Determine:
+
+* Risk reduction.
+* Whether the treatment achieved its objective.
+* Whether the residual risk is acceptable.
+* What evidence should support the reassessment.
+
+Then consider whether the segmentation control is actually operating effectively.
+
+---
+
+### 4.38 Practical Exercise – Build a Treatment Tracker
+
+Create a tracker containing at least five risks:
+
+| Risk ID | Risk | Rating | Treatment | Owner | Due Date | Status | Residual Risk |
+| ------- | ---- | ------ | --------- | ----- | -------- | ------ | ------------- |
+| R-001   |      |        |           |       |          |        |               |
+| R-002   |      |        |           |       |          |        |               |
+| R-003   |      |        |           |       |          |        |               |
+| R-004   |      |        |           |       |          |        |               |
+| R-005   |      |        |           |       |          |        |               |
+
+Then identify:
+
+* Highest priority treatment.
+* Overdue treatment.
+* Treatment requiring escalation.
+* Treatment awaiting validation.
+* Risk requiring formal acceptance.
+
+---
+
+### 4.39 GRC Professional Perspective
+
+A risk treatment plan is where **risk management becomes execution**.
+
+A risk assessment may correctly identify:
+
+> "This risk is high."
+
+But management still needs to know:
+
+> "What are we going to do about it?"
+
+The GRC professional should therefore be able to translate risk into:
+
+```text
+Risk
+ ↓
+Decision
+ ↓
+Treatment
+ ↓
+Action
+ ↓
+Owner
+ ↓
+Deadline
+ ↓
+Evidence
+ ↓
+Validation
+ ↓
+Residual Risk
+ ↓
+Management Decision
+```
+
+The strongest treatment plans do not merely track whether an action is complete. They demonstrate whether the action **actually reduced the risk**.
+
+A mature GRC professional should challenge statements such as:
+
+> "The remediation is complete."
+
+The appropriate follow-up questions are:
+
+* What evidence demonstrates completion?
+* Was the control independently validated?
+* Did the risk actually decrease?
+* Was the residual risk recalculated?
+* Is the residual risk within appetite?
+* Does management still need to accept the remaining risk?
+
+This mindset prevents GRC from becoming a simple task-tracking function.
+
+---
+
+## Key Takeaways
+
+1. A Risk Treatment Plan converts identified risks into actionable remediation.
+2. The four primary treatment options are avoid, mitigate, transfer, and accept.
+3. Risk treatment should be aligned with organizational risk appetite.
+4. Risk owners and treatment/action owners have different responsibilities.
+5. Treatment actions should be specific, measurable, assigned, and time-bound.
+6. Large remediation programs should be divided into milestones.
+7. Dependencies and blockers should be documented.
+8. Compensating controls can temporarily reduce exposure when permanent remediation is delayed.
+9. Risk acceptance should be formally approved and normally have an expiration or review date.
+10. Completion should require objective evidence.
+11. Remediation should be validated rather than accepted solely on management assertion.
+12. Residual risk should be reassessed after treatment.
+13. KRIs measure changes in the underlying risk, while KPIs measure treatment performance.
+14. Overdue high-risk treatments may require escalation and reassessment.
+15. A treatment plan should remain linked to the risk register and control environment.
+16. The ultimate objective is not simply to **close a remediation task**, but to **reduce risk to an acceptable level**.
+
 
 

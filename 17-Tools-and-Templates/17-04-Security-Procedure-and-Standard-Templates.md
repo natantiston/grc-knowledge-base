@@ -1,5 +1,3 @@
-Yes. The section title itself should appear prominently and in **bold**, before Part 1. I’ll keep the established Chapter 17 structure.
-
 **Chapter:** 17 – Tools and Templates
 
 **Topic:** Security Procedure and Standard Templates

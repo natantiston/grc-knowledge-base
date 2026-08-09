@@ -2960,6 +2960,1366 @@ A mature remote-work security culture can be summarized as:
 
 **Secure the Device → Protect the Environment → Verify the Person → Protect the Data → Report the Unexpected**
 
+## Human Risk Management (HRM)
+
+Human Risk Management (HRM) is an approach to cybersecurity that focuses on identifying, measuring, reducing, and continuously managing risks created by human behavior.
+
+Traditional cybersecurity programs have often focused heavily on:
+
+* Firewalls.
+* Endpoint protection.
+* Vulnerability management.
+* Identity and access management.
+* Network security.
+* Security monitoring.
+
+These controls remain essential.
+
+However, organizations increasingly recognize that **human behavior can significantly influence cybersecurity risk**.
+
+An employee may:
+
+* Click a malicious link.
+* Approve an unexpected MFA request.
+* Send sensitive information to the wrong recipient.
+* Use an unauthorized application.
+* Fall for an impersonation attack.
+* Misconfigure a cloud resource.
+* Lose a corporate device.
+* Ignore a security warning.
+* Report suspicious activity quickly.
+
+HRM provides a structured way to understand and manage these behaviors.
+
+The central principle is:
+
+> **Human Risk Management treats human behavior as a measurable cybersecurity risk rather than simply a training problem.**
+
+---
+
+# What Is Human Risk Management?
+
+Human Risk Management is the process of identifying and managing cybersecurity risks associated with people's actions, decisions, behaviors, and interactions.
+
+A simplified model is:
+
+**Identify Human Risk**
+
+↓
+
+**Measure Behavior**
+
+↓
+
+**Prioritize Risk**
+
+↓
+
+**Apply Targeted Controls**
+
+↓
+
+**Measure Improvement**
+
+↓
+
+**Continuously Adapt**
+
+This is different from simply requiring employees to complete annual security awareness training.
+
+---
+
+# Security Awareness vs. Human Risk Management
+
+Security awareness and HRM are closely related but are not identical.
+
+### Security Awareness
+
+Focuses primarily on:
+
+> **What should employees know and do?**
+
+Examples:
+
+* Phishing awareness.
+* Password security.
+* Data protection.
+* Incident reporting.
+
+### Human Risk Management
+
+Focuses on:
+
+> **Which human behaviors create the greatest organizational risk, and how can those risks be reduced?**
+
+For example:
+
+An organization may discover that employees in the finance department repeatedly interact with payment-fraud simulations.
+
+HRM would investigate:
+
+* Why this group is being targeted.
+* Which behaviors are creating risk.
+* Which processes contribute to the risk.
+* What controls should be introduced.
+* Whether targeted intervention reduces the risk.
+
+Therefore:
+
+> **Security awareness is one important component of Human Risk Management.**
+
+---
+
+# Why Human Risk Management Is Becoming More Important
+
+The threat landscape is increasingly designed around human behavior.
+
+Attackers can exploit:
+
+* Trust.
+* Authority.
+* Urgency.
+* Curiosity.
+* Fear.
+* Convenience.
+* Lack of awareness.
+* Fatigue.
+* Distraction.
+
+Emerging technologies such as AI-generated phishing and deepfakes can make these attacks even more convincing.
+
+As discussed earlier in this lesson:
+
+**AI-Generated Social Engineering**
+
+and
+
+**Deepfake Attacks**
+
+can manipulate employees into making unsafe decisions.
+
+HRM provides a framework for managing this broader human-risk landscape.
+
+---
+
+# Human Risk Is Not the Same as Employee Blame
+
+One of the most important principles of HRM is:
+
+> **Human risk should be managed, not used primarily to blame individuals.**
+
+Suppose an employee clicks a phishing simulation.
+
+There may be many contributing factors:
+
+* The email was highly convincing.
+* The employee was under time pressure.
+* Training was not relevant to the employee's role.
+* The organization had poor email controls.
+* The employee did not know how to report the incident.
+* The employee received too many security warnings.
+
+Simply saying:
+
+> "The employee failed."
+
+does not identify the underlying risk.
+
+A mature HRM program asks:
+
+> **"Why did this behavior occur, and what can we do to reduce the likelihood and impact of recurrence?"**
+
+---
+
+# Human Risk as an Enterprise Risk
+
+Human risk should be incorporated into the organization's broader risk management framework.
+
+For example:
+
+### Threat
+
+AI-generated phishing.
+
+↓
+
+### Vulnerability
+
+Employees may trust convincing communications.
+
+↓
+
+### Human Behavior
+
+Employee clicks malicious link.
+
+↓
+
+### Business Risk
+
+Credentials may be compromised.
+
+↓
+
+### Business Impact
+
+Unauthorized access or data breach.
+
+↓
+
+### Controls
+
+MFA + email security + awareness + reporting.
+
+↓
+
+### Measurement
+
+Phishing failure and reporting rates.
+
+This connects human behavior directly to enterprise risk.
+
+---
+
+# Sources of Human Risk
+
+Human risk can originate from many sources.
+
+## Lack of Knowledge
+
+Employees do not understand security requirements.
+
+## Poor Behavior
+
+Employees know the rule but do not follow it.
+
+## Process Problems
+
+Security procedures are too complicated.
+
+## Technology Problems
+
+Security controls are difficult to use.
+
+## Workload
+
+Employees are under excessive pressure.
+
+## Fatigue
+
+Employees become desensitized to warnings.
+
+## Organizational Culture
+
+Employees feel pressured to prioritize speed over security.
+
+## Malicious Insider Behavior
+
+An individual intentionally abuses access.
+
+## External Manipulation
+
+Attackers manipulate employees through social engineering.
+
+A mature HRM program considers all these factors.
+
+---
+
+# Human Risk Categories
+
+Organizations can classify human risk into different categories.
+
+### Phishing Risk
+
+Likelihood that employees interact with malicious communications.
+
+### Credential Risk
+
+Likelihood of password or authentication compromise.
+
+### Data Handling Risk
+
+Likelihood of inappropriate information disclosure.
+
+### Access Risk
+
+Likelihood of inappropriate use of privileges.
+
+### Device Risk
+
+Likelihood of loss, theft, or insecure device use.
+
+### Social Engineering Risk
+
+Likelihood of manipulation through human interaction.
+
+### Insider Risk
+
+Risk associated with intentional or unintentional misuse.
+
+### Third-Party Human Risk
+
+Risk associated with contractors, suppliers, and partners.
+
+---
+
+# Risk-Based Prioritization
+
+Not every employee represents the same level of risk.
+
+For example:
+
+A general employee with access to public information may present lower potential impact than:
+
+* A system administrator.
+* A database administrator.
+* A finance manager.
+* A security administrator.
+* A senior executive.
+
+HRM therefore prioritizes human risk according to factors such as:
+
+* Access.
+* Role.
+* Privileges.
+* Data exposure.
+* Business criticality.
+* Previous behavior.
+* Threat targeting.
+* Potential impact.
+
+---
+
+# High-Risk Roles
+
+Examples of potentially high-risk roles include:
+
+### Privileged IT Administrators
+
+May have extensive technical access.
+
+### Finance Personnel
+
+May authorize financial transactions.
+
+### Executives
+
+May be targeted for impersonation.
+
+### HR Personnel
+
+May handle sensitive employee information.
+
+### Developers
+
+May have access to source code and cloud environments.
+
+### Security Personnel
+
+May have access to security systems.
+
+### Customer-Service Personnel
+
+May interact with external parties and sensitive customer information.
+
+HRM can provide targeted awareness for these groups.
+
+---
+
+# Behavioral Risk Indicators
+
+Organizations can use behavioral indicators to identify areas requiring attention.
+
+Examples include:
+
+* Repeated phishing failures.
+* Repeated policy violations.
+* Frequent inappropriate data sharing.
+* Excessive unauthorized application use.
+* Repeated MFA approval of unexpected requests.
+* Failure to report suspicious activity.
+* Repeated security exceptions.
+
+However, these indicators must be interpreted carefully.
+
+A single mistake does not necessarily mean an employee is high risk.
+
+---
+
+# Risk Scoring
+
+Some organizations use human-risk scoring.
+
+For example:
+
+| Employee Group    | Phishing Risk | Data Risk | Privilege Risk | Overall Risk |
+| ----------------- | ------------: | --------: | -------------: | -----------: |
+| General Employees |        Medium |    Medium |            Low |       Medium |
+| Finance           |          High |      High |         Medium |         High |
+| IT Administrators |        Medium |      High |      Very High |    Very High |
+| Executives        |          High |      High |           High |         High |
+
+The exact scoring methodology should be defined by the organization.
+
+Risk scores should support decision-making rather than become arbitrary labels.
+
+---
+
+# Example of Human Risk Scoring
+
+Consider a finance employee who:
+
+* Failed two phishing simulations.
+* Has access to payment systems.
+* Handles sensitive financial information.
+* Rarely reports suspicious messages.
+
+The combination of these factors may create a higher human-risk profile than:
+
+> An employee who failed one simulation but has limited access and consistently reports suspicious messages.
+
+This illustrates why HRM should consider **multiple risk factors** rather than a single metric.
+
+---
+
+# Behavioral Analytics
+
+Behavior analytics can help identify patterns.
+
+Possible data sources include:
+
+* Phishing simulations.
+* Security awareness training.
+* Incident reports.
+* Access activity.
+* Policy violations.
+* DLP events.
+* Authentication events.
+* Endpoint events.
+
+The objective is not necessarily to monitor every employee continuously.
+
+Instead:
+
+> **Use relevant data to identify meaningful patterns of human risk.**
+
+---
+
+# Privacy Considerations
+
+Human Risk Management can involve significant employee information.
+
+Potential data may include:
+
+* Training records.
+* Simulation results.
+* Security incidents.
+* Risk scores.
+* User behavior.
+* Access information.
+
+Therefore, HRM must be implemented with appropriate privacy safeguards.
+
+Organizations should consider:
+
+* Data minimization.
+* Purpose limitation.
+* Access control.
+* Retention.
+* Transparency.
+* Appropriate legal and regulatory requirements.
+
+Security teams should avoid collecting personal information simply because it is technically possible.
+
+---
+
+# Avoiding Employee Surveillance
+
+A poorly designed HRM program can become excessive employee monitoring.
+
+For example:
+
+> "Let's collect every possible employee behavior and assign everyone a permanent risk score."
+
+This can create:
+
+* Privacy concerns.
+* Employee distrust.
+* Cultural problems.
+* False positives.
+* Unnecessary data collection.
+
+A mature program instead focuses on:
+
+> **Risk reduction using proportionate and relevant information.**
+
+---
+
+# Human Risk and Privacy by Design
+
+Privacy should be incorporated into HRM from the beginning.
+
+For example:
+
+Instead of storing detailed individual-level results indefinitely, the organization may use:
+
+* Aggregated metrics.
+* Role-based analysis.
+* Limited retention.
+* Restricted access.
+
+Individual-level information should generally be used only where there is a legitimate operational or security purpose.
+
+---
+
+# Targeted Awareness
+
+One of the major advantages of HRM is the ability to move away from:
+
+> **One-size-fits-all training**
+
+toward:
+
+> **Risk-based, targeted interventions.**
+
+For example:
+
+### Finance
+
+Payment fraud and BEC training.
+
+### IT
+
+Privileged access and credential attacks.
+
+### Executives
+
+Impersonation and deepfake awareness.
+
+### Developers
+
+Secure coding and supply-chain risks.
+
+### HR
+
+Recruitment fraud and personal-data protection.
+
+This makes awareness more relevant.
+
+---
+
+# Just-in-Time Training
+
+HRM can also support **just-in-time awareness**.
+
+Instead of waiting for annual training, employees receive targeted guidance close to the risky behavior.
+
+For example:
+
+An employee repeatedly interacts with simulated phishing messages.
+
+The organization can provide:
+
+* Immediate feedback.
+* Short targeted training.
+* Additional simulation.
+* Practical examples.
+
+The goal is to reinforce the desired behavior while the event is still relevant.
+
+---
+
+# Adaptive Learning
+
+Training can also become adaptive.
+
+For example:
+
+### Employee A
+
+Strong phishing awareness.
+
+→ Receives advanced scenarios.
+
+### Employee B
+
+Struggles with phishing.
+
+→ Receives foundational training.
+
+### Employee C
+
+Finance employee.
+
+→ Receives BEC and payment-fraud training.
+
+This creates a more efficient awareness program.
+
+---
+
+# Human Risk and Phishing Simulations
+
+Phishing simulations are an important HRM data source.
+
+However, organizations should avoid treating the results simply as:
+
+> "Who clicked?"
+
+A better approach is to analyze:
+
+* Which departments are most affected?
+* Which scenarios are most effective?
+* Which behaviors repeat?
+* Who reports suspicious messages?
+* How quickly do users report?
+* Does targeted training improve behavior?
+
+This transforms simulation data into risk intelligence.
+
+---
+
+# Human Risk and Reporting Behavior
+
+Reporting is an important positive security behavior.
+
+Consider two employees:
+
+### Employee A
+
+Never clicks phishing simulations but also never reports suspicious messages.
+
+### Employee B
+
+Accidentally clicks once but consistently reports suspicious communications.
+
+Employee B may demonstrate a stronger security behavior overall.
+
+Therefore:
+
+> **HRM should measure both risky and protective behaviors.**
+
+---
+
+# Positive Security Behaviors
+
+HRM should recognize desirable behaviors such as:
+
+* Reporting phishing.
+* Verifying unusual requests.
+* Using MFA correctly.
+* Following data-handling procedures.
+* Reporting lost devices quickly.
+* Escalating suspicious activity.
+* Following secure development practices.
+
+This creates a more balanced view of human risk.
+
+---
+
+# Human Risk and Security Culture
+
+Culture has a major influence on behavior.
+
+Suppose an organization says:
+
+> "Security is everyone's responsibility."
+
+but employees are punished when they report mistakes.
+
+The actual culture becomes:
+
+> "Do not tell security when something goes wrong."
+
+This increases risk.
+
+A mature HRM program therefore supports a culture where employees:
+
+* Ask questions.
+* Report mistakes.
+* Verify suspicious requests.
+* Follow security procedures.
+* Learn from incidents.
+
+---
+
+# Rewarding Secure Behavior
+
+Organizations can reinforce positive behaviors.
+
+Examples include:
+
+* Recognition for effective phishing reporting.
+* Security champions programs.
+* Team recognition.
+* Awareness achievements.
+* Positive management feedback.
+
+Rewards should encourage genuine security behavior rather than competition that causes employees to hide mistakes.
+
+---
+
+# Human Risk and Security Champions
+
+Security champions can act as local security advocates.
+
+For example:
+
+* Finance security champion.
+* HR security champion.
+* Developer security champion.
+* Business-unit security champion.
+
+They can:
+
+* Reinforce awareness.
+* Share security information.
+* Identify local risks.
+* Help employees report concerns.
+* Provide feedback to the security team.
+
+This creates a distributed security culture.
+
+---
+
+# Human Risk and Third Parties
+
+HRM should not necessarily stop with employees.
+
+Organizations may also have:
+
+* Contractors.
+* Consultants.
+* Suppliers.
+* Outsourced service providers.
+* Partners.
+
+Third parties may have access to:
+
+* Corporate systems.
+* Customer data.
+* Physical facilities.
+* Sensitive information.
+
+Therefore, human risk should be considered throughout the extended enterprise.
+
+---
+
+# Human Risk and Insider Threat
+
+HRM can contribute to insider-risk management.
+
+Insider threats may be:
+
+### Unintentional
+
+An employee accidentally sends confidential information to the wrong recipient.
+
+### Negligent
+
+An employee repeatedly ignores security requirements.
+
+### Malicious
+
+An authorized user intentionally abuses access.
+
+HRM should recognize the differences between these situations.
+
+The response should be proportionate to the actual risk.
+
+---
+
+# Human Risk and Incident Response
+
+Human-risk data can support incident response.
+
+For example:
+
+**Phishing Incident**
+
+↓
+
+Identify affected users.
+
+↓
+
+Assess their behavior.
+
+↓
+
+Determine whether credentials were exposed.
+
+↓
+
+Contain affected accounts.
+
+↓
+
+Provide targeted guidance.
+
+↓
+
+Measure follow-up behavior.
+
+↓
+
+Update awareness content.
+
+This creates a feedback loop between:
+
+**Incident Response**
+
+and
+
+**Security Awareness**.
+
+---
+
+# Human Risk and GRC
+
+For GRC professionals, HRM provides a bridge between people-related behavior and formal risk management.
+
+The process can be:
+
+**Business Asset**
+
+↓
+
+Identify critical information/system.
+
+↓
+
+**Human Interaction**
+
+↓
+
+Determine who interacts with it.
+
+↓
+
+**Behavioral Risk**
+
+↓
+
+Identify risky behaviors.
+
+↓
+
+**Risk Assessment**
+
+↓
+
+Determine likelihood and impact.
+
+↓
+
+**Controls**
+
+↓
+
+Training + technology + processes.
+
+↓
+
+**Metrics**
+
+↓
+
+Measure behavioral outcomes.
+
+↓
+
+**Improvement**
+
+↓
+
+Update controls and awareness.
+
+This is a classic GRC lifecycle applied to human behavior.
+
+---
+
+# Human Risk Register
+
+Organizations may maintain a human-risk register.
+
+Example:
+
+| Risk                    | Cause             | Impact                | Control                   | Owner      |
+| ----------------------- | ----------------- | --------------------- | ------------------------- | ---------- |
+| Executive impersonation | Deepfakes         | Financial fraud       | Verification process      | Finance    |
+| Phishing                | Low awareness     | Credential compromise | Training + email security | Security   |
+| Data leakage            | Incorrect sharing | Privacy breach        | DLP + awareness           | Data Owner |
+| MFA fatigue             | User approval     | Account takeover      | MFA controls + training   | IAM        |
+| Insider misuse          | Excessive access  | Data loss             | Least privilege           | IT         |
+
+This integrates human risk into the broader enterprise risk register.
+
+---
+
+# Human Risk Treatment
+
+Once risks are identified, organizations can apply different treatment strategies.
+
+## Reduce
+
+Implement controls to lower the risk.
+
+Example:
+
+> MFA + targeted awareness.
+
+## Avoid
+
+Remove the risky activity.
+
+Example:
+
+> Prohibit use of personal email for confidential corporate information.
+
+## Transfer
+
+Transfer certain risks through contractual or insurance mechanisms where appropriate.
+
+## Accept
+
+Accept a residual risk when it falls within organizational risk tolerance.
+
+HRM therefore follows the same fundamental principles as broader risk management.
+
+---
+
+# Measuring HRM Effectiveness
+
+A mature HRM program should measure whether human risk is actually declining.
+
+Possible metrics include:
+
+### Phishing Failure Rate
+
+Should generally decrease over time.
+
+### Phishing Reporting Rate
+
+Should generally increase.
+
+### Repeat Failure Rate
+
+Should decrease.
+
+### Time to Report
+
+Should decrease.
+
+### Security Incident Frequency
+
+May decrease for relevant human-driven incidents.
+
+### Policy Violation Rate
+
+Should decrease.
+
+### High-Risk Population
+
+Should decrease or become better controlled.
+
+---
+
+# Example of Improvement
+
+Suppose an organization starts with:
+
+**Phishing failure:** 14%
+
+**Reporting rate:** 42%
+
+After targeted interventions:
+
+**Phishing failure:** 7%
+
+**Reporting rate:** 76%
+
+The organization can then evaluate whether this improvement is sustained.
+
+The important question becomes:
+
+> **Did behavior change?**
+
+rather than:
+
+> **Did employees complete the training?**
+
+---
+
+# Leading and Lagging Indicators
+
+HRM can use both.
+
+### Leading Indicators
+
+Indicators of preventive behavior.
+
+Examples:
+
+* Training completion.
+* Reporting rate.
+* Verification rate.
+* MFA adoption.
+* Security champion participation.
+
+### Lagging Indicators
+
+Indicators of actual negative outcomes.
+
+Examples:
+
+* Phishing-related incidents.
+* Credential compromise.
+* Data leakage.
+* Security policy violations.
+* Human-caused incidents.
+
+A mature program uses both.
+
+---
+
+# Human Risk Dashboard
+
+An executive dashboard might contain:
+
+| Metric              | Current | Target | Trend     |
+| ------------------- | ------: | -----: | --------- |
+| Phishing Failure    |      7% |    <5% | Improving |
+| Reporting Rate      |     76% |   >80% | Improving |
+| Repeat Failure      |      3% |    <2% | Improving |
+| High-Risk Users     |     120 |    <75 | Stable    |
+| Training Completion |     98% |   >98% | Stable    |
+
+The dashboard should focus on **risk and outcomes**, not simply training activity.
+
+---
+
+# AI and Human Risk Management
+
+Emerging AI threats make HRM even more important.
+
+AI can potentially make attacks:
+
+* More personalized.
+* More convincing.
+* Faster.
+* More scalable.
+
+Therefore, HRM should include:
+
+* AI-generated phishing.
+* Deepfake impersonation.
+* Voice cloning.
+* AI-assisted fraud.
+* Malicious AI-generated communications.
+
+Employees should be trained to rely on **verification procedures and security controls**, rather than trying to become experts at identifying AI-generated content.
+
+---
+
+# Human Risk and AI Governance
+
+AI governance programs should also consider human risk.
+
+For example:
+
+**AI Technology**
+
+↓
+
+May generate realistic synthetic content.
+
+↓
+
+**Human Risk**
+
+Employees may trust fraudulent content.
+
+↓
+
+**Business Risk**
+
+Fraud, data disclosure, or unauthorized access.
+
+↓
+
+**Governance**
+
+Define acceptable-use and verification requirements.
+
+↓
+
+**Awareness**
+
+Train employees.
+
+↓
+
+**Monitoring**
+
+Measure behavioral outcomes.
+
+This connects:
+
+**AI Governance → Cybersecurity → Human Risk → Security Awareness**
+
+---
+
+# Human Risk and Remote Work
+
+Remote work increases the importance of HRM.
+
+Employees may be exposed to:
+
+* Public environments.
+* Remote communication.
+* Collaboration platforms.
+* Home networks.
+* Personal devices.
+* Digital impersonation.
+
+HRM can identify which remote-work behaviors create the greatest risk and prioritize interventions accordingly.
+
+---
+
+# Human Risk Management Lifecycle
+
+A mature HRM program can follow this lifecycle:
+
+### 1. Identify
+
+Identify human-related risks.
+
+↓
+
+### 2. Assess
+
+Evaluate likelihood and impact.
+
+↓
+
+### 3. Measure
+
+Collect relevant behavioral indicators.
+
+↓
+
+### 4. Prioritize
+
+Focus on the highest risks.
+
+↓
+
+### 5. Intervene
+
+Provide targeted controls and awareness.
+
+↓
+
+### 6. Validate
+
+Measure whether behavior improved.
+
+↓
+
+### 7. Monitor
+
+Continue monitoring relevant trends.
+
+↓
+
+### 8. Improve
+
+Update the program based on results.
+
+This creates a continuous cycle.
+
+---
+
+# Practical Enterprise Example
+
+Consider a global organization with 20,000 employees.
+
+The security team discovers:
+
+* Finance employees have high exposure to BEC attacks.
+* Executives are frequently targeted by impersonation.
+* Remote workers have higher phishing failure rates.
+* Developers frequently use unauthorized AI tools.
+* Contractors have lower training completion.
+
+Instead of providing the same training to everyone, HRM enables targeted interventions.
+
+### Finance
+
+BEC and payment-verification training.
+
+### Executives
+
+Deepfake and impersonation awareness.
+
+### Remote Workers
+
+Phishing and remote-work security.
+
+### Developers
+
+AI-use and secure development awareness.
+
+### Contractors
+
+Mandatory security awareness before access.
+
+After several months, the organization measures the results.
+
+This is a much more mature approach than simply conducting one annual awareness course.
+
+---
+
+# Practical HRM Exercise
+
+Consider the following situation:
+
+A company discovers that:
+
+* 12% of employees fail phishing simulations.
+* 30% of employees who fail simulations do not report the incident.
+* Finance has the highest failure rate.
+* Remote employees fail at twice the rate of office employees.
+* Employees who received targeted training show significantly lower failure rates.
+
+The HRM response should not simply be:
+
+> "Send another annual training email."
+
+Instead:
+
+### Step 1
+
+Identify high-risk populations.
+
+### Step 2
+
+Analyze the causes.
+
+### Step 3
+
+Provide targeted interventions.
+
+### Step 4
+
+Strengthen technical controls.
+
+### Step 5
+
+Measure behavioral improvement.
+
+### Step 6
+
+Update the risk assessment.
+
+### Step 7
+
+Continue monitoring.
+
+This is Human Risk Management in practice.
+
+---
+
+# Common Mistakes
+
+Organizations should avoid:
+
+### Treating HRM as Another Name for Training
+
+HRM is broader than awareness training.
+
+### Measuring Only Training Completion
+
+Completion does not necessarily indicate behavior change.
+
+### Punishing Employees for Mistakes
+
+This can reduce reporting and create hidden risk.
+
+### Creating Permanent Employee Risk Labels
+
+Risk changes over time.
+
+### Collecting Excessive Personal Data
+
+HRM should follow privacy and data-minimization principles.
+
+### Ignoring Positive Behaviors
+
+Reporting and verification are important indicators of security maturity.
+
+### Treating All Employees the Same
+
+Risk differs according to role, access, behavior, and business context.
+
+### Ignoring Third Parties
+
+Human risk extends beyond employees.
+
+### Relying Only on Awareness
+
+Technology and process controls remain necessary.
+
+### Failing to Measure Outcomes
+
+The organization must determine whether interventions actually reduce risk.
+
+---
+
+# Key Takeaways
+
+Human Risk Management represents an evolution from traditional security awareness toward **measurable, risk-based management of human behavior**.
+
+The key principles are:
+
+1. **Human behavior is an important component of cybersecurity risk.**
+2. **HRM is broader than security awareness training.**
+3. **The objective is to reduce risk, not simply increase training completion.**
+4. **Human risk should be identified, assessed, measured, prioritized, treated, and continuously monitored.**
+5. **Different roles and populations have different human-risk profiles.**
+6. **High-risk roles should receive targeted awareness and controls.**
+7. **Both risky and positive security behaviors should be measured.**
+8. **Phishing simulations can provide valuable behavioral data.**
+9. **Reporting suspicious activity is an important positive security behavior.**
+10. **Human-risk programs should avoid becoming excessive employee-surveillance programs.**
+11. **Privacy, proportionality, access control, and data minimization are important HRM considerations.**
+12. **Human risk should be integrated into the enterprise risk-management framework.**
+13. **Third-party personnel can also create human-related security risk.**
+14. **AI-generated social engineering and deepfakes increase the importance of HRM.**
+15. **Remote and hybrid work create additional human-risk considerations.**
+16. **Security awareness interventions should be targeted according to actual risk.**
+17. **Leading and lagging indicators should be used together.**
+18. **The effectiveness of HRM should be demonstrated through measurable behavioral improvement.**
+19. **Technology, processes, and awareness should work together to reduce human risk.**
+20. **Human Risk Management should be treated as a continuous improvement process.**
+
+The most important distinction is:
+
+> **Traditional security awareness asks: "Have our employees been trained?"**
+
+Human Risk Management asks:
+
+> **"What human behaviors create risk, where is that risk concentrated, what controls are reducing it, and can we demonstrate that the risk is improving?"**
+
+This represents a major evolution in modern cybersecurity GRC.
+
+The overall model can be summarized as:
+
+**Human Behavior → Risk Identification → Measurement → Targeted Intervention → Behavioral Change → Risk Reduction → Continuous Improvement**
+
+A mature security awareness program therefore does not simply educate people.
+
+It **uses evidence about human behavior to continuously reduce organizational risk**.
 
 
 

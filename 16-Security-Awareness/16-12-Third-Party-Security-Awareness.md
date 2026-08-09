@@ -995,5 +995,969 @@ The stronger objective is:
 
 > **"Our vendors understand, demonstrate, and continuously maintain the security behaviors required to protect our organization, information, systems, and customers."**
 
+## Contractor and Consultant Awareness
+
+Contractors and consultants are an important part of the modern workforce. Organizations may use external personnel for:
+
+* IT operations.
+* Cybersecurity.
+* Engineering.
+* Project management.
+* Software development.
+* Consulting.
+* Professional services.
+* Maintenance.
+* Technical support.
+* Temporary staffing.
+
+Although these individuals may not be employees, they can have access to the organization's people, facilities, information, applications, and infrastructure.
+
+This creates an important security principle:
+
+> **Security responsibilities should follow access and risk, not employment status.**
+
+A contractor with privileged access to a production environment may represent a greater security risk than an internal employee with limited access.
+
+## Contractor vs. Vendor
+
+It is useful to distinguish between a vendor organization and individual contractors or consultants.
+
+A **vendor** is generally an external organization providing products or services.
+
+A **contractor or consultant** is an individual external worker who may work directly with the organization or through a vendor.
+
+For example:
+
+**Organization**
+
+↓
+
+**Consulting Company**
+
+↓
+
+**Security Consultant**
+
+The organization therefore needs to consider both the vendor's security controls and the individual's behavior.
+
+## Why Contractor Awareness Matters
+
+Contractors may receive access quickly because they are brought into an organization to meet an urgent business need.
+
+This can create risks such as:
+
+* Inadequate security training.
+* Excessive privileges.
+* Shared accounts.
+* Unapproved devices.
+* Unclear responsibilities.
+* Poor incident reporting.
+* Incomplete offboarding.
+
+A contractor may also work across multiple organizations, increasing the importance of clearly defining what information and systems they are permitted to access.
+
+## Contractors Are Part of the Security Boundary
+
+Traditional security programs often focus heavily on permanent employees.
+
+A more mature approach considers:
+
+> **Employees + Contractors + Consultants + Vendors + Other External Personnel**
+
+as part of the organization's broader human security environment.
+
+This is particularly important when external personnel have:
+
+* System access.
+* Physical access.
+* Customer contact.
+* Administrative privileges.
+* Access to confidential information.
+
+## Risk-Based Contractor Classification
+
+Not every contractor presents the same level of risk.
+
+Organizations can classify contractors based on:
+
+* Access level.
+* Information sensitivity.
+* Business criticality.
+* Physical access.
+* Privileged access.
+* Remote access.
+* Duration of engagement.
+* Regulatory exposure.
+
+For example:
+
+| Contractor                | Access                       | Risk      |
+| ------------------------- | ---------------------------- | --------- |
+| Office maintenance worker | Limited physical access      | Low       |
+| Marketing consultant      | Internal documents           | Moderate  |
+| IT support contractor     | Corporate endpoints          | High      |
+| Cloud consultant          | Production cloud environment | High      |
+| Security administrator    | Privileged infrastructure    | Very High |
+
+The awareness requirements should correspond to this risk.
+
+## Contractor Onboarding
+
+Security awareness should begin before or during onboarding.
+
+A mature process may look like:
+
+**Contractor Selected**
+
+↓
+
+**Background / Due Diligence**
+
+↓
+
+**Risk Classification**
+
+↓
+
+**Security Requirements**
+
+↓
+
+**Security Training**
+
+↓
+
+**Access Provisioning**
+
+↓
+
+**Work Begins**
+
+Security should therefore be integrated into contractor onboarding rather than treated as an optional administrative activity.
+
+## Training Before Access
+
+For sensitive roles, organizations may require security training before granting access.
+
+For example:
+
+> Contractor completes security awareness training → Training completion verified → Account created → Access granted.
+
+This creates a direct relationship between security awareness and access control.
+
+## Contractor Security Orientation
+
+Contractor orientation may cover:
+
+* Security policies.
+* Acceptable use.
+* Password requirements.
+* MFA.
+* Data handling.
+* Physical security.
+* Incident reporting.
+* Remote access.
+* Confidentiality.
+* Privacy.
+* Use of organizational equipment.
+
+The orientation should be concise but relevant to the contractor's responsibilities.
+
+## Role-Based Contractor Awareness
+
+Contractors should receive training appropriate to their role.
+
+For example:
+
+### IT Contractor
+
+* Privileged access.
+* Secure administration.
+* Remote access.
+* Incident response.
+
+### Software Consultant
+
+* Secure coding.
+* Source-code protection.
+* Secrets management.
+* Secure development.
+
+### Facilities Contractor
+
+* Physical security.
+* Restricted areas.
+* Badge requirements.
+* Secure disposal.
+
+### Business Consultant
+
+* Confidential information.
+* Privacy.
+* Phishing.
+* Secure document handling.
+
+Role-based training increases relevance and reduces unnecessary training.
+
+## Privileged Contractors
+
+Special attention should be given to contractors with privileged access.
+
+Examples include:
+
+* System administrators.
+* Network engineers.
+* Cloud administrators.
+* Database administrators.
+* Security consultants.
+
+These individuals may have the ability to:
+
+* Change configurations.
+* Create accounts.
+* Access sensitive information.
+* Disable security controls.
+* Modify production systems.
+
+Therefore, privileged contractor access should receive enhanced controls.
+
+## Privileged Access Management
+
+Where appropriate, organizations should use privileged access controls such as:
+
+* Separate administrative accounts.
+* MFA.
+* Just-in-time access.
+* Time-limited privileges.
+* Session monitoring.
+* Approval workflows.
+* Privileged Access Management (PAM).
+
+Security awareness should explain why these controls exist rather than treating them merely as administrative obstacles.
+
+## Temporary Access
+
+Contractor access should generally be aligned with the duration and requirements of the engagement.
+
+For example:
+
+> A consultant requires database access for two weeks.
+
+It may be inappropriate to create permanent unrestricted access.
+
+Instead, the organization may implement:
+
+**Approved access**
+
+↓
+
+**Limited permissions**
+
+↓
+
+**Time-bound access**
+
+↓
+
+**Automatic expiration**
+
+This reduces residual access risk.
+
+## Contractor Account Management
+
+Each contractor should normally have an identifiable account rather than using shared credentials.
+
+Individual accounts provide:
+
+* Accountability.
+* Traceability.
+* Access management.
+* Auditability.
+
+For example, instead of:
+
+`contractor-admin`
+
+being shared by several consultants, individual identities can provide a record of who performed each activity.
+
+## Shared Accounts
+
+Shared contractor accounts create significant security problems because they make it difficult to determine:
+
+> **Who actually performed the action?**
+
+They can also make:
+
+* Incident investigation.
+* Access revocation.
+* Accountability.
+
+more difficult.
+
+Organizations should avoid shared privileged accounts wherever technically and operationally feasible.
+
+## Contractor Identity Verification
+
+Contractors may be targeted by attackers through impersonation.
+
+For example:
+
+> "I'm the new consultant assigned to the infrastructure project. Can you give me VPN access?"
+
+Employees should verify:
+
+* Identity.
+* Contract status.
+* Business need.
+* Authorization.
+* Appropriate sponsor.
+
+Security awareness should teach employees not to grant access simply because someone claims to be a contractor.
+
+## Contractor Sponsorship
+
+A useful control is assigning an internal **business sponsor** to each contractor.
+
+The sponsor may be responsible for:
+
+* Confirming the contractor's business need.
+* Approving access.
+* Reviewing access periodically.
+* Confirming continued engagement.
+* Initiating offboarding.
+
+This creates clear accountability.
+
+## Contractor Access Reviews
+
+Access should be reviewed periodically.
+
+Questions may include:
+
+* Does the contractor still require access?
+* Is the current access level appropriate?
+* Has the contractor's role changed?
+* Are privileged permissions still required?
+* Has the engagement been extended?
+* Is the contractor still sponsored?
+
+Access reviews help prevent privilege accumulation.
+
+## Contractor Role Changes
+
+A contractor may initially be hired for one function and later perform another.
+
+For example:
+
+> A consultant initially supports a development project and later receives production administration responsibilities.
+
+The organization should reassess:
+
+* Risk.
+* Training requirements.
+* Access.
+* Approval.
+
+A change in responsibility can create a change in security risk.
+
+## Remote Contractor Security
+
+Remote contractors may access organizational systems from:
+
+* Home offices.
+* Hotels.
+* Client sites.
+* Co-working spaces.
+* Other countries.
+
+Security awareness should cover:
+
+* Secure connections.
+* MFA.
+* Device security.
+* Physical privacy.
+* Secure Wi-Fi.
+* VPN or approved remote-access mechanisms.
+* Protection of printed documents.
+
+Remote work can increase the difficulty of maintaining physical and technical security controls.
+
+## Contractor-Owned Devices
+
+Some organizations permit contractors to use their own devices.
+
+This creates additional risks involving:
+
+* Malware.
+* Unpatched software.
+* Data leakage.
+* Unauthorized applications.
+* Lack of encryption.
+* Inadequate endpoint security.
+
+Organizations should establish clear requirements for contractor-owned devices.
+
+## Managed Devices
+
+For high-risk access, organizations may require contractors to use organization-managed devices.
+
+This can provide greater control over:
+
+* Security configuration.
+* Endpoint protection.
+* Encryption.
+* Software.
+* Monitoring.
+* Data handling.
+
+The decision should be based on risk and operational requirements.
+
+## Data Handling
+
+Contractors should understand the organization's information classification requirements.
+
+For example:
+
+**Public**
+
+May generally be shared externally.
+
+**Internal**
+
+Restricted to authorized organizational use.
+
+**Confidential**
+
+Requires stronger protection.
+
+**Restricted / Highly Sensitive**
+
+Requires strict access and handling controls.
+
+Contractors should understand what they are permitted to:
+
+* View.
+* Copy.
+* Download.
+* Email.
+* Print.
+* Store.
+* Share.
+
+## Use of Personal Cloud Storage
+
+Contractors should not automatically upload organizational information to personal cloud services.
+
+Examples include:
+
+* Personal Google Drive.
+* Personal Dropbox.
+* Personal OneDrive.
+* Personal email accounts.
+
+Such actions can create:
+
+* Data leakage.
+* Loss of organizational control.
+* Privacy exposure.
+* Compliance issues.
+
+## Use of Personal Email
+
+Contractors should use approved communication channels when handling organizational information.
+
+Sending sensitive information to personal email accounts can create significant risk.
+
+Training should make clear:
+
+> **Convenience does not override information-security requirements.**
+
+## Removable Media
+
+Contractors may sometimes use:
+
+* USB drives.
+* External hard drives.
+* Portable storage.
+
+Organizations should establish requirements governing the use of removable media.
+
+Controls may include:
+
+* Encryption.
+* Device restrictions.
+* Malware scanning.
+* Authorization.
+* Data-loss prevention.
+
+## Contractor Phishing Awareness
+
+Contractors should receive phishing awareness appropriate to their access.
+
+Topics may include:
+
+* Credential phishing.
+* Business email compromise.
+* Malicious attachments.
+* Fake support requests.
+* MFA attacks.
+* Social engineering.
+
+This is especially important when contractors have access to privileged or sensitive systems.
+
+## Social Engineering Against Contractors
+
+Attackers may specifically target contractors because they may be perceived as less familiar with organizational procedures.
+
+For example:
+
+> An attacker contacts a new contractor claiming to be an internal manager and asks for confidential project information.
+
+Contractors should know:
+
+* How to verify requests.
+* When to refuse.
+* Where to report suspicious activity.
+
+## Incident Reporting
+
+Contractors should know exactly how to report security incidents.
+
+Examples include:
+
+* Lost devices.
+* Phishing.
+* Credential compromise.
+* Malware.
+* Accidental data disclosure.
+* Unauthorized access.
+* Suspicious requests.
+
+The reporting process should be simple enough that contractors can use it quickly.
+
+## No-Blame Reporting Culture
+
+Contractors may hesitate to report mistakes because they fear:
+
+* Losing their contract.
+* Disciplinary action.
+* Damaging their reputation.
+
+Organizations should encourage timely reporting.
+
+For example:
+
+> A contractor accidentally sends a confidential document to the wrong recipient.
+
+Immediate reporting may allow the organization to contain the incident.
+
+Delayed reporting may increase the impact.
+
+The security culture should therefore emphasize:
+
+> **Report quickly so the organization can respond.**
+
+## Contractor Confidentiality
+
+Contractors often sign confidentiality agreements.
+
+However, confidentiality should also be reinforced through awareness.
+
+Contractors should understand:
+
+* What information is confidential.
+* Where it may be stored.
+* Who may receive it.
+* How it should be transmitted.
+* What happens when the contract ends.
+
+A signed agreement alone does not guarantee secure behavior.
+
+## Contractor Use of AI
+
+Contractors and consultants increasingly use AI tools for:
+
+* Research.
+* Coding.
+* Documentation.
+* Analysis.
+* Translation.
+* Reporting.
+
+Organizations should establish clear rules regarding the use of AI with organizational information.
+
+Contractors should understand that they may not be permitted to submit:
+
+* Customer data.
+* Confidential documents.
+* Source code.
+* Credentials.
+* Internal security information.
+
+to unapproved AI services.
+
+## Contractor Security and Generative AI
+
+A contractor may unintentionally expose information by asking an AI tool:
+
+> "Analyze this confidential customer database."
+
+Even if the intention is legitimate, the action may violate organizational data-handling requirements.
+
+AI awareness should therefore become part of modern contractor security training.
+
+## Physical Security
+
+Contractors who work on organizational premises should understand:
+
+* Badge requirements.
+* Visitor procedures.
+* Restricted areas.
+* Escort requirements.
+* Clean desk requirements.
+* Secure disposal.
+
+A contractor should not assume that being authorized to enter a building means they can freely enter every area.
+
+## Tailgating and Piggybacking
+
+Contractors should understand that physical security controls apply to them as well.
+
+For example:
+
+> Someone follows a contractor through a secure door.
+
+The contractor should not automatically hold the door open simply because the person appears to be an employee.
+
+They should follow organizational access procedures.
+
+## Secure Disposal
+
+Contractors may handle:
+
+* Printed documents.
+* Storage devices.
+* Equipment.
+* Customer records.
+
+They should understand secure disposal requirements.
+
+Examples include:
+
+* Approved shredding.
+* Secure media destruction.
+* Approved disposal providers.
+* Data sanitization.
+
+## Contractor Equipment
+
+When contractors receive organizational equipment, responsibilities should be defined.
+
+Examples include:
+
+* Laptops.
+* Smartphones.
+* Tokens.
+* Security keys.
+* Network equipment.
+
+Contractors should understand:
+
+* How to protect the equipment.
+* How to report loss.
+* Whether personal use is permitted.
+* What happens when the engagement ends.
+
+## Contractor Offboarding
+
+Offboarding is one of the most important contractor security processes.
+
+When the engagement ends:
+
+**Contractor leaves**
+
+↓
+
+**Sponsor confirms termination**
+
+↓
+
+**Access revoked**
+
+↓
+
+**Credentials disabled**
+
+↓
+
+**Equipment recovered**
+
+↓
+
+**Information returned or securely destroyed**
+
+↓
+
+**Physical access removed**
+
+This should happen promptly.
+
+## Immediate Termination
+
+Some contractor relationships may end unexpectedly.
+
+Organizations should have procedures for immediate access revocation.
+
+This is particularly important when the contractor:
+
+* Has privileged access.
+* Is terminated for security reasons.
+* Has access to sensitive information.
+* Is suspected of misuse.
+
+The offboarding process should not depend solely on routine administrative schedules.
+
+## Contractor Personnel Turnover
+
+A vendor or consulting company may replace one consultant with another.
+
+The organization should not simply transfer access from one person to another without proper authorization.
+
+The replacement should:
+
+* Be identified.
+* Be approved.
+* Receive required training.
+* Receive appropriate access.
+* Have access provisioned individually.
+
+## Contractor Training Evidence
+
+Organizations should maintain evidence of contractor awareness where appropriate.
+
+Examples include:
+
+* Training completion records.
+* Policy acknowledgments.
+* Assessment results.
+* Security briefings.
+* Access approvals.
+
+This evidence can support:
+
+* Audits.
+* Investigations.
+* Risk assessments.
+* Compliance requirements.
+
+## Measuring Contractor Awareness
+
+Useful metrics include:
+
+### Training Completion
+
+Percentage of contractors completing required training.
+
+### Phishing Performance
+
+Percentage of contractors who:
+
+* Clicked.
+* Reported.
+* Submitted credentials.
+
+during simulations, where such testing is appropriate and contractually supported.
+
+### Incident Reporting
+
+Number and timeliness of contractor security reports.
+
+### Access Reviews
+
+Percentage of contractor accounts reviewed on schedule.
+
+### Offboarding
+
+Time required to remove access after termination.
+
+## Example Contractor Security Dashboard
+
+| Metric                                           | Current | Target |
+| ------------------------------------------------ | ------: | -----: |
+| Contractor training completion                   |     97% |   >95% |
+| Privileged contractor accounts reviewed          |    100% |   100% |
+| Contractor offboarding within required timeframe |     94% |   100% |
+| Contractor phishing reporting rate               |     72% |   >80% |
+| Dormant contractor accounts                      |       3 |      0 |
+
+These metrics allow security and management teams to identify weaknesses in the contractor lifecycle.
+
+## Contractor Awareness and Third-Party Risk Management
+
+Contractor awareness should be integrated into the broader **Third-Party Risk Management (TPRM)** process.
+
+The lifecycle can be represented as:
+
+**Due Diligence**
+
+↓
+
+**Risk Classification**
+
+↓
+
+**Contracting**
+
+↓
+
+**Security Training**
+
+↓
+
+**Access Provisioning**
+
+↓
+
+**Monitoring**
+
+↓
+
+**Access Review**
+
+↓
+
+**Offboarding**
+
+This creates a consistent approach throughout the relationship.
+
+## Contractor Awareness and GRC
+
+From a GRC perspective, contractor security awareness supports several control objectives:
+
+* Access control.
+* Information security.
+* Risk management.
+* Human resource security.
+* Supplier relationships.
+* Incident management.
+* Privacy.
+* Compliance.
+
+The organization should be able to demonstrate not only that contractor security requirements exist, but that they are actually implemented.
+
+## Common Mistakes
+
+Organizations should avoid:
+
+### Treating Contractors Like Employees Without Considering Their Different Risk
+
+Contractors may have different access, contractual relationships, and working environments.
+
+### Granting Access Before Training
+
+Sensitive access should be appropriately controlled.
+
+### Using Shared Contractor Accounts
+
+Individual accountability is important.
+
+### Forgetting Contractor Offboarding
+
+Inactive accounts create unnecessary exposure.
+
+### Ignoring Contractor-Owned Devices
+
+Unmanaged devices may introduce significant risk.
+
+### Giving Contractors Excessive Privileges
+
+Access should follow least privilege.
+
+### Ignoring Personnel Changes
+
+A replacement contractor should go through appropriate onboarding.
+
+### Relying Only on Confidentiality Agreements
+
+Legal agreements do not replace security awareness.
+
+### Failing to Train Contractors on Incident Reporting
+
+A contractor who does not know how to report an incident may delay containment.
+
+### Ignoring AI Usage
+
+Unapproved AI tools can create information-disclosure risks.
+
+## Example Contractor Awareness Program
+
+A mature organization could implement:
+
+### Before Engagement
+
+* Contractor risk assessment.
+* Background verification where appropriate.
+* Security requirements.
+
+### During Onboarding
+
+* Security awareness training.
+* Policy acknowledgment.
+* Role-specific training.
+* Access approval.
+
+### During Engagement
+
+* Periodic awareness updates.
+* Phishing awareness.
+* Access reviews.
+* Security monitoring.
+
+### After Role Changes
+
+* Reassessment of access.
+* Additional training where required.
+
+### At Offboarding
+
+* Immediate access revocation.
+* Equipment return.
+* Information return or destruction.
+* Final access review.
+
+## Key Takeaways
+
+Contractors and consultants can have significant access to organizational resources and therefore must be included in the security awareness program.
+
+The key principles are:
+
+1. **Security responsibilities should follow access and risk, not employment status.**
+2. **Contractors should receive security awareness before or during onboarding.**
+3. **Training should be appropriate to the contractor's role and level of access.**
+4. **Privileged contractors require enhanced security controls.**
+5. **Contractor accounts should be individually identifiable wherever possible.**
+6. **Least privilege and time-bound access should be used where appropriate.**
+7. **Contractors should understand phishing, social engineering, and credential-security risks.**
+8. **Contractors must know how to report security incidents quickly.**
+9. **Contractor-owned devices and remote access require appropriate controls.**
+10. **Confidential information should be handled according to organizational requirements.**
+11. **Contractor personnel changes require appropriate access and training reviews.**
+12. **AI usage should be governed to prevent unauthorized disclosure of organizational information.**
+13. **Offboarding must promptly remove access and address organizational information and equipment.**
+14. **Contractor awareness should be integrated into Third-Party Risk Management and GRC.**
+
+The ultimate objective is not simply:
+
+> **"Our contractors signed the security policy."**
+
+The stronger objective is:
+
+> **"Our contractors understand and consistently follow the security responsibilities associated with their access, role, and relationship with the organization."**
+
+Effective contractor awareness ensures that external personnel become **accountable participants in the organization's security culture rather than unmanaged extensions of its human and third-party risk**.
+
+
+
+
 Effective vendor security awareness creates a more resilient security ecosystem in which **third parties become controlled and accountable participants in the organization's security program rather than unmanaged extensions of organizational risk**.
 

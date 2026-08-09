@@ -1155,5 +1155,1322 @@ The best policies are therefore:
 14. A policy should be specific enough to support implementation and auditability.
 15. The real value of an Information Security Policy is not the document itself, but the **governance, accountability, and control structure it establishes**.
 
+## Part 2 – Risk Assessment Template
+
+A **Risk Assessment Template** is one of the most practical tools in a GRC professional's toolkit. It provides a consistent structure for identifying, analyzing, evaluating, and documenting risks across systems, processes, projects, vendors, and business activities.
+
+Without a standardized template, different teams may assess similar risks using different terminology, scoring methods, assumptions, and levels of detail. This makes it difficult for management to compare risks and make consistent decisions.
+
+A good risk assessment template creates a common language for risk.
+
+---
+
+## 2.1 Purpose of the Risk Assessment Template
+
+The template should help the organization answer five fundamental questions:
+
+1. **What can go wrong?**
+2. **Why could it happen?**
+3. **What would happen if it occurred?**
+4. **How likely is it to happen?**
+5. **What should the organization do about it?**
+
+The template should capture enough information to support a defensible risk decision without becoming unnecessarily complicated.
+
+---
+
+## 2.2 When to Use a Risk Assessment Template
+
+A standardized template can be used for:
+
+* Enterprise risk assessments.
+* Information security risk assessments.
+* Application assessments.
+* Infrastructure assessments.
+* Cloud risk assessments.
+* Project risk assessments.
+* Vendor risk assessments.
+* Third-party assessments.
+* Data protection assessments.
+* Change assessments.
+* New technology assessments.
+* AI system assessments.
+* Business process assessments.
+* Compliance assessments.
+
+The same fundamental methodology can be adapted to different use cases.
+
+---
+
+## 2.3 Risk Assessment Lifecycle
+
+A practical risk assessment follows a defined lifecycle:
+
+```text
+Establish Context
+      ↓
+Identify Assets / Processes
+      ↓
+Identify Threats
+      ↓
+Identify Vulnerabilities
+      ↓
+Identify Risk Events
+      ↓
+Assess Likelihood
+      ↓
+Assess Impact
+      ↓
+Determine Inherent Risk
+      ↓
+Assess Existing Controls
+      ↓
+Determine Residual Risk
+      ↓
+Evaluate Against Risk Appetite
+      ↓
+Select Risk Treatment
+      ↓
+Assign Risk Owner
+      ↓
+Monitor and Review
+```
+
+The template should support this entire lifecycle.
+
+---
+
+## 2.4 Risk Assessment Metadata
+
+Every assessment should have basic identification information.
+
+Example:
+
+```text
+Risk Assessment ID:
+RA-2026-017
+
+Assessment Title:
+Customer Portal Security Assessment
+
+Business Unit:
+Digital Services
+
+Assessment Owner:
+GRC Manager
+
+Risk Owner:
+Director of Digital Services
+
+Assessment Date:
+09 August 2026
+
+Review Date:
+09 February 2027
+
+Assessment Type:
+Information Security
+
+Methodology:
+Corporate Risk Assessment Methodology
+
+Status:
+In Progress
+```
+
+This metadata makes the assessment traceable.
+
+---
+
+## 2.5 Step 1 – Establish Context
+
+Before identifying risks, the assessor should understand the context.
+
+Questions include:
+
+* What business process is being assessed?
+* What system or service is involved?
+* Who owns it?
+* What information does it process?
+* Who uses it?
+* What is its business importance?
+* What regulations apply?
+* What dependencies exist?
+* What is the assessment objective?
+
+Example:
+
+> The customer portal provides online access to customer accounts and processes personal and financial information. It is classified as a business-critical application.
+
+Without context, risk identification becomes superficial.
+
+---
+
+## 2.6 Step 2 – Identify Assets
+
+Identify the assets involved.
+
+Examples:
+
+* Applications.
+* Databases.
+* Servers.
+* Cloud services.
+* Networks.
+* Devices.
+* Information.
+* Business processes.
+* People.
+* Third-party services.
+
+Example:
+
+| Asset             | Type           | Criticality |
+| ----------------- | -------------- | ----------- |
+| Customer Portal   | Application    | High        |
+| Customer Database | Information    | Critical    |
+| API Gateway       | Infrastructure | High        |
+| Identity Platform | Service        | Critical    |
+
+Asset criticality helps establish the potential impact of a risk.
+
+---
+
+## 2.7 Step 3 – Identify Information
+
+Determine what information is processed.
+
+For example:
+
+* Personal data.
+* Financial information.
+* Authentication information.
+* Intellectual property.
+* Customer records.
+* Employee information.
+* Operational information.
+
+The sensitivity of the information can significantly influence the impact assessment.
+
+---
+
+## 2.8 Step 4 – Identify Threats
+
+A threat is a potential source of harm.
+
+Examples include:
+
+* Phishing.
+* Malware.
+* Ransomware.
+* Credential theft.
+* Insider misuse.
+* Exploitation of vulnerabilities.
+* Denial-of-service attacks.
+* Supply chain compromise.
+* Cloud misconfiguration.
+* Physical theft.
+* Human error.
+
+The assessment should identify threats relevant to the specific environment rather than simply copying a generic threat list.
+
+---
+
+## 2.9 Step 5 – Identify Vulnerabilities
+
+A vulnerability is a weakness that could be exploited.
+
+Examples:
+
+* Missing security patches.
+* Weak authentication.
+* Excessive privileges.
+* Poor network segmentation.
+* Insecure configuration.
+* Unsupported software.
+* Lack of monitoring.
+* Insufficient security awareness.
+* Weak vendor controls.
+
+The distinction is important:
+
+> **Threat + Vulnerability + Exposure = Risk Scenario**
+
+For example:
+
+> Threat: Credential theft
+> Vulnerability: No MFA
+> Exposure: Internet-facing administrative interface
+
+This creates a meaningful risk scenario.
+
+---
+
+## 2.10 Step 6 – Define the Risk Event
+
+The risk event should describe what could actually happen.
+
+Weak description:
+
+> "Cybersecurity risk."
+
+Better:
+
+> "An attacker could obtain valid administrator credentials through phishing and use them to gain unauthorized access to the customer management platform."
+
+The second description identifies the event and makes impact analysis easier.
+
+---
+
+## 2.11 Risk Statement
+
+A useful risk statement can follow this structure:
+
+> **Because of [cause/vulnerability], [risk event] could occur, resulting in [consequence].**
+
+Example:
+
+> Because privileged accounts do not consistently use phishing-resistant MFA, an attacker could compromise administrative credentials through social engineering, resulting in unauthorized access to critical production systems and customer information.
+
+This provides a much stronger basis for assessment.
+
+---
+
+## 2.12 Step 7 – Identify Consequences
+
+The assessor should identify what happens if the risk event occurs.
+
+Consequences may include:
+
+### Confidentiality
+
+Unauthorized disclosure of information.
+
+### Integrity
+
+Unauthorized modification or destruction of information.
+
+### Availability
+
+Loss or interruption of systems or services.
+
+### Financial
+
+Revenue loss, recovery costs, penalties, or increased operational costs.
+
+### Legal / Regulatory
+
+Potential violations of applicable obligations.
+
+### Reputational
+
+Loss of customer or stakeholder trust.
+
+### Operational
+
+Disruption to business processes.
+
+### Safety
+
+Potential impact on physical safety where relevant.
+
+---
+
+## 2.13 CIA Impact
+
+A practical assessment can evaluate:
+
+| Dimension       | Impact |
+| --------------- | ------ |
+| Confidentiality | High   |
+| Integrity       | High   |
+| Availability    | Medium |
+| Regulatory      | High   |
+| Financial       | High   |
+| Reputation      | Medium |
+
+This creates a multidimensional view of impact.
+
+---
+
+## 2.14 Step 8 – Assess Likelihood
+
+Likelihood estimates how probable the risk event is within the defined assessment period.
+
+For example:
+
+| Score | Rating         | Description                  |
+| ----: | -------------- | ---------------------------- |
+|     1 | Rare           | Highly unlikely              |
+|     2 | Unlikely       | Could occur but not expected |
+|     3 | Possible       | Could reasonably occur       |
+|     4 | Likely         | Expected to occur            |
+|     5 | Almost Certain | Very likely to occur         |
+
+The organization should define these terms consistently.
+
+---
+
+## 2.15 Likelihood Factors
+
+Likelihood should not be based purely on intuition.
+
+Consider:
+
+* Threat capability.
+* Threat motivation.
+* Exposure.
+* Vulnerability severity.
+* Existing controls.
+* Attack frequency.
+* Historical incidents.
+* Industry intelligence.
+* Environmental conditions.
+* Human behavior.
+
+Example:
+
+An internet-facing critical vulnerability actively exploited in the wild should generally have a different likelihood assessment from an isolated internal vulnerability.
+
+---
+
+## 2.16 Step 9 – Assess Impact
+
+Impact should also use a defined scale.
+
+Example:
+
+| Score | Rating        | Description                    |
+| ----: | ------------- | ------------------------------ |
+|     1 | Insignificant | Minimal business effect        |
+|     2 | Minor         | Limited disruption             |
+|     3 | Moderate      | Significant but manageable     |
+|     4 | Major         | Serious business impact        |
+|     5 | Severe        | Critical business consequences |
+
+Organizations should define these categories based on their own business environment.
+
+---
+
+## 2.17 Step 10 – Calculate Inherent Risk
+
+**Inherent risk** represents the level of risk before considering the effectiveness of existing controls.
+
+A simple model is:
+
+> **Inherent Risk = Likelihood × Impact**
+
+Example:
+
+Likelihood = 4
+
+Impact = 5
+
+Therefore:
+
+> Inherent Risk = 4 × 5 = 20
+
+The organization may classify 20 as Critical.
+
+---
+
+## 2.18 Example Risk Matrix
+
+A simple 5×5 matrix may be used:
+
+| Likelihood \ Impact |  1 |  2 |  3 |  4 |  5 |
+| ------------------- | -: | -: | -: | -: | -: |
+| 5                   |  5 | 10 | 15 | 20 | 25 |
+| 4                   |  4 |  8 | 12 | 16 | 20 |
+| 3                   |  3 |  6 |  9 | 12 | 15 |
+| 2                   |  2 |  4 |  6 |  8 | 10 |
+| 1                   |  1 |  2 |  3 |  4 |  5 |
+
+The organization can then define thresholds.
+
+Example:
+
+| Score | Rating   |
+| ----: | -------- |
+|   1–4 | Low      |
+|   5–9 | Medium   |
+| 10–14 | High     |
+| 15–25 | Critical |
+
+These values are illustrative. The organization's approved methodology should determine the actual thresholds.
+
+---
+
+## 2.19 Step 11 – Identify Existing Controls
+
+The next step is to determine what controls already exist.
+
+Examples:
+
+* MFA.
+* Endpoint protection.
+* Firewalls.
+* Encryption.
+* Logging.
+* Security awareness.
+* Vulnerability management.
+* Access reviews.
+* Backup.
+* Network segmentation.
+* Security monitoring.
+
+The assessor should distinguish between:
+
+> **Control exists**
+
+and:
+
+> **Control is effective.**
+
+A control that exists but does not operate effectively should not receive full credit.
+
+---
+
+## 2.20 Control Effectiveness
+
+A practical rating may be:
+
+| Rating              | Description                                      |
+| ------------------- | ------------------------------------------------ |
+| Effective           | Control is implemented and operating effectively |
+| Partially Effective | Control exists but has limitations               |
+| Ineffective         | Control does not adequately reduce the risk      |
+| Not Implemented     | No relevant control exists                       |
+
+Evidence should support the assessment.
+
+For example:
+
+> MFA configured.
+
+is evidence of implementation.
+
+But:
+
+> MFA configuration reviewed and tested; 98.7% of privileged accounts protected.
+
+provides stronger evidence of effectiveness.
+
+---
+
+## 2.21 Step 12 – Determine Residual Risk
+
+**Residual risk** is the risk remaining after considering existing controls.
+
+Example:
+
+```text
+Inherent Risk
+     ↓
+Existing Controls
+     ↓
+Control Effectiveness
+     ↓
+Residual Risk
+```
+
+Suppose:
+
+* Inherent likelihood = 4.
+* Inherent impact = 5.
+* Existing controls reduce likelihood to 2.
+* Impact remains 5.
+
+Residual risk:
+
+> 2 × 5 = 10
+
+The risk therefore decreases from 20 to 10.
+
+---
+
+## 2.22 Important Principle – Controls Do Not Always Reduce Impact
+
+Some controls primarily reduce likelihood.
+
+For example:
+
+* MFA.
+* Firewall.
+* Security awareness.
+* Vulnerability management.
+
+Other controls primarily reduce impact.
+
+For example:
+
+* Backup.
+* Disaster recovery.
+* Incident response.
+* Business continuity.
+
+Therefore, the assessor should understand **how the control changes the risk**, rather than automatically reducing both likelihood and impact.
+
+---
+
+## 2.23 Risk Assessment Template
+
+A practical risk assessment record may look like:
+
+```text
+RISK ASSESSMENT
+
+1. Assessment Information
+
+Risk ID:
+Assessment Title:
+Business Unit:
+Assessment Owner:
+Risk Owner:
+Assessment Date:
+Review Date:
+
+2. Business Context
+
+Business Process:
+System / Service:
+Business Criticality:
+Dependencies:
+
+3. Asset Information
+
+Asset:
+Asset Owner:
+Information Type:
+Classification:
+
+4. Risk Scenario
+
+Threat:
+Vulnerability:
+Exposure:
+Risk Event:
+Risk Statement:
+
+5. Impact
+
+Confidentiality:
+Integrity:
+Availability:
+Financial:
+Regulatory:
+Reputation:
+Operational:
+
+Overall Impact:
+
+6. Likelihood
+
+Threat Capability:
+Exposure:
+Vulnerability:
+Historical Evidence:
+Existing Controls:
+
+Likelihood Rating:
+
+7. Inherent Risk
+
+Likelihood:
+Impact:
+Risk Score:
+Risk Rating:
+
+8. Existing Controls
+
+Control:
+Control Owner:
+Control Type:
+Effectiveness:
+Evidence:
+
+9. Residual Risk
+
+Residual Likelihood:
+Residual Impact:
+Residual Score:
+Residual Rating:
+
+10. Risk Appetite
+
+Risk Appetite:
+Within Appetite?:
+
+11. Treatment
+
+Treatment Option:
+Action:
+Control:
+Owner:
+Target Date:
+
+12. Risk Acceptance
+
+Acceptance Required:
+Risk Owner:
+Approval Authority:
+Expiration Date:
+
+13. Monitoring
+
+KRI / KPI:
+Monitoring Frequency:
+Review Date:
+
+14. Approval
+
+Risk Owner:
+GRC Reviewer:
+Management Approver:
+Approval Date:
+```
+
+---
+
+## 2.24 Risk Treatment Options
+
+The template should provide clear treatment options.
+
+### Avoid
+
+Stop the activity that creates the risk.
+
+Example:
+
+> Do not deploy an application that cannot meet minimum security requirements.
+
+### Mitigate
+
+Implement additional controls.
+
+Example:
+
+> Implement MFA and network segmentation.
+
+### Transfer
+
+Transfer some financial or operational consequences to another party.
+
+Examples:
+
+* Insurance.
+* Contractual arrangements.
+* Outsourcing.
+
+Risk transfer does not necessarily eliminate the underlying security risk.
+
+### Accept
+
+Management formally accepts the residual risk.
+
+Acceptance should follow the organization's risk acceptance process.
+
+---
+
+## 2.25 Treatment Plan
+
+Every risk requiring action should have a treatment plan.
+
+Example:
+
+| Action                     | Owner          | Due Date    | Status      |
+| -------------------------- | -------------- | ----------- | ----------- |
+| Implement MFA              | IAM Team       | 30 Sep 2026 | In Progress |
+| Restrict admin access      | Infrastructure | 15 Sep 2026 | Open        |
+| Enable enhanced monitoring | SOC            | 20 Sep 2026 | Complete    |
+
+This turns the assessment into an actionable management tool.
+
+---
+
+## 2.26 Risk Owner vs Control Owner
+
+These roles should not be confused.
+
+### Risk Owner
+
+Accountable for the risk and the decision regarding its treatment.
+
+### Control Owner
+
+Responsible for implementing and operating a specific control.
+
+For example:
+
+> CIO = Risk Owner
+
+> IAM Manager = Control Owner
+
+> SOC Manager = Control Owner
+
+This distinction is important in GRC.
+
+---
+
+## 2.27 Risk Appetite
+
+The assessment should compare residual risk against the organization's risk appetite.
+
+Example:
+
+```text
+Residual Risk = 10
+Risk Appetite Threshold = 12
+
+Result:
+Within Risk Appetite
+```
+
+Another example:
+
+```text
+Residual Risk = 18
+Risk Appetite Threshold = 12
+
+Result:
+Above Risk Appetite
+```
+
+A risk above appetite should normally require additional treatment, escalation, or formally authorized acceptance according to organizational governance.
+
+---
+
+## 2.28 Risk Acceptance Decision
+
+If residual risk remains above appetite, the template should document the decision.
+
+Possible outcomes:
+
+* Additional mitigation required.
+* Escalation required.
+* Risk accepted.
+* Activity suspended.
+* Risk transferred.
+* Exception required.
+
+This creates traceability between the assessment and management decision.
+
+---
+
+## 2.29 Evidence
+
+A professional risk assessment should be supported by evidence.
+
+Evidence may include:
+
+* Vulnerability scan.
+* Penetration test.
+* Configuration review.
+* Audit report.
+* Access review.
+* Incident records.
+* Architecture diagrams.
+* Vendor assessment.
+* Security logs.
+* Business impact analysis.
+* Control testing results.
+
+Evidence should be referenced rather than simply stating that a control exists.
+
+---
+
+## 2.30 Risk Assessment Example
+
+Consider a customer-facing web application.
+
+### Risk Scenario
+
+> An attacker could exploit an unpatched web application vulnerability and gain unauthorized access to customer information.
+
+### Likelihood
+
+4 – Likely.
+
+### Impact
+
+5 – Severe.
+
+### Inherent Risk
+
+4 × 5 = 20 – Critical.
+
+### Existing Controls
+
+* Web application firewall.
+* Vulnerability scanning.
+* Endpoint monitoring.
+* Security monitoring.
+* Network segmentation.
+
+### Control Effectiveness
+
+Partially effective because patching is delayed.
+
+### Residual Likelihood
+
+3 – Possible.
+
+### Residual Impact
+
+5 – Severe.
+
+### Residual Risk
+
+3 × 5 = 15 – Critical.
+
+### Treatment
+
+* Apply security patch.
+* Conduct validation testing.
+* Increase monitoring.
+* Restrict vulnerable component exposure.
+
+### Risk Owner
+
+Application Director.
+
+### Target Date
+
+30 September 2026.
+
+This is much more useful than simply recording:
+
+> "Web application vulnerability – High."
+
+---
+
+## 2.31 Risk Assessment Quality
+
+A high-quality assessment should be:
+
+### Consistent
+
+Different assessors should produce reasonably comparable results.
+
+### Evidence-Based
+
+Ratings should have supporting evidence.
+
+### Transparent
+
+Assumptions should be documented.
+
+### Reproducible
+
+Another assessor should understand how the score was calculated.
+
+### Actionable
+
+The assessment should lead to a management decision or treatment action.
+
+### Current
+
+The assessment should reflect the current environment.
+
+---
+
+## 2.32 Common Risk Assessment Problems
+
+### Problem 1 – Generic Risk Statements
+
+> "Cyberattack risk."
+
+This is too broad.
+
+### Problem 2 – Arbitrary Scores
+
+> Likelihood = 5 because the assessor "feels" it is high.
+
+The methodology should define the reasoning.
+
+### Problem 3 – Ignoring Existing Controls
+
+The assessment calculates inherent risk but never evaluates controls.
+
+### Problem 4 – Treating Controls as Automatically Effective
+
+A control's existence does not prove effectiveness.
+
+### Problem 5 – No Risk Owner
+
+Nobody is accountable for the decision.
+
+### Problem 6 – No Treatment Plan
+
+The assessment identifies a problem but does not define what happens next.
+
+### Problem 7 – No Review Date
+
+Risk assessments become outdated.
+
+### Problem 8 – Confusing Vulnerability With Risk
+
+A vulnerability is not automatically the complete risk scenario.
+
+### Problem 9 – Treating Risk Scores as Absolute Truth
+
+A score is a decision-support mechanism, not a mathematical representation of reality.
+
+---
+
+## 2.33 Risk Assessment Assumptions
+
+The assessor should document important assumptions.
+
+Example:
+
+> The likelihood rating assumes the application remains internet-facing throughout the assessment period.
+
+Another:
+
+> The assessment assumes the existing MFA implementation remains operational and covers all privileged accounts.
+
+If assumptions change, the assessment may need to be updated.
+
+---
+
+## 2.34 Risk Assessment Confidence
+
+Some organizations may also record confidence in the assessment.
+
+Example:
+
+| Confidence | Description                   |
+| ---------- | ----------------------------- |
+| High       | Strong evidence available     |
+| Medium     | Some assumptions required     |
+| Low        | Limited information available |
+
+For example:
+
+> Residual risk: High
+> Confidence: Low
+
+This tells management that the risk rating may change when better information becomes available.
+
+---
+
+## 2.35 Risk Assessment Review Triggers
+
+The assessment should be reviewed when:
+
+* A major system change occurs.
+* A security incident occurs.
+* A new vulnerability emerges.
+* A new threat becomes relevant.
+* A major control changes.
+* A new regulation applies.
+* A third-party relationship changes.
+* Business criticality changes.
+* Risk appetite changes.
+
+Periodic review alone may not be sufficient.
+
+---
+
+## 2.36 Risk Register Integration
+
+The assessment should feed the organization's risk register.
+
+Example:
+
+| Risk ID | Description       | Inherent | Residual | Owner        | Treatment | Status      |
+| ------- | ----------------- | -------: | -------: | ------------ | --------- | ----------- |
+| R-001   | Web vulnerability |       20 |       15 | App Director | Mitigate  | Open        |
+| R-002   | Vendor access     |       16 |        8 | Procurement  | Monitor   | Accepted    |
+| R-003   | Data exposure     |       20 |       10 | Data Owner   | Mitigate  | In Progress |
+
+The risk assessment provides the detailed analysis.
+
+The risk register provides the management-level view.
+
+---
+
+## 2.37 Connecting Risk Assessment to Controls
+
+A mature GRC process should provide traceability:
+
+```text
+Asset
+  ↓
+Risk
+  ↓
+Control
+  ↓
+Control Test
+  ↓
+Evidence
+  ↓
+Residual Risk
+  ↓
+Treatment
+  ↓
+Risk Decision
+```
+
+This is particularly valuable during audits.
+
+An auditor may ask:
+
+> "How did you determine this risk was acceptable?"
+
+The GRC professional should be able to trace the answer back through the assessment, controls, evidence, and management approval.
+
+---
+
+## 2.38 Risk Assessment for Third Parties
+
+The same template can be adapted for vendor assessments.
+
+Example:
+
+**Vendor:** Cloud Service Provider
+
+**Service:** Customer Data Hosting
+
+**Information:** Personal and confidential information
+
+**Threat:** Vendor compromise
+
+**Vulnerability:** Weak privileged access controls
+
+**Impact:** High
+
+**Likelihood:** Possible
+
+**Inherent Risk:** High
+
+**Controls:**
+
+* MFA.
+* SOC monitoring.
+* Encryption.
+* Independent assurance report.
+* Incident notification requirements.
+
+**Residual Risk:** Medium.
+
+**Treatment:** Contractual remediation and periodic reassessment.
+
+This makes the template reusable across GRC processes.
+
+---
+
+## 2.39 Risk Assessment for Projects
+
+Risk assessment should also occur during projects.
+
+Example:
+
+A project is deploying a new AI-powered customer service platform.
+
+Potential risks:
+
+* Unauthorized data access.
+* Privacy violations.
+* Incorrect AI responses.
+* Third-party dependency.
+* Model manipulation.
+* Data leakage.
+
+The project should assess these risks before production deployment rather than after implementation.
+
+---
+
+## 2.40 Risk Assessment for AI Systems
+
+For AI systems, additional factors may need to be considered:
+
+* Data quality.
+* Privacy.
+* Model security.
+* Prompt injection.
+* Model manipulation.
+* Unauthorized data disclosure.
+* Bias and fairness.
+* Explainability.
+* Third-party model dependencies.
+* Human oversight.
+
+The risk assessment template can therefore be extended for AI governance.
+
+---
+
+## 2.41 Practical Exercise – Complete a Risk Assessment
+
+Use the following scenario:
+
+> An organization operates an internet-facing customer portal. The portal processes customer personal information. A vulnerability assessment identified a critical vulnerability that has not yet been patched because the application team is preparing a major release.
+
+Complete:
+
+1. Asset identification.
+2. Threat identification.
+3. Vulnerability identification.
+4. Risk statement.
+5. Impact assessment.
+6. Likelihood assessment.
+7. Inherent risk.
+8. Existing controls.
+9. Control effectiveness.
+10. Residual risk.
+11. Risk treatment.
+12. Risk owner.
+13. Target remediation date.
+14. Monitoring requirements.
+
+Then determine whether the residual risk is within the organization's assumed risk appetite.
+
+---
+
+## 2.42 Practical Exercise – Challenge the Assessment
+
+Imagine another assessor gives the following assessment:
+
+> Likelihood: 5
+> Impact: 5
+> Risk Score: 25
+> Rating: Critical
+
+No additional explanation is provided.
+
+As the GRC reviewer, determine what questions you would ask.
+
+For example:
+
+* Why is likelihood 5?
+* What evidence supports the rating?
+* What threat is being considered?
+* What vulnerabilities exist?
+* What controls are already implemented?
+* Are those controls effective?
+* Why is impact 5?
+* What business consequences were considered?
+* What assumptions were used?
+
+The objective is to learn how to **challenge risk assessments constructively**.
+
+---
+
+## 2.43 Practical Exercise – Compare Two Risks
+
+Compare:
+
+### Risk A
+
+An internal workstation contains non-sensitive information and has a moderate vulnerability.
+
+### Risk B
+
+A customer database contains sensitive personal information and has the same vulnerability.
+
+The vulnerability may be technically identical, but the business risk is not necessarily identical.
+
+Determine why:
+
+* Asset criticality.
+* Data sensitivity.
+* Exposure.
+* Business impact.
+* Regulatory consequences.
+
+can change the overall risk.
+
+This demonstrates an important GRC principle:
+
+> **Risk is contextual.**
+
+---
+
+## 2.44 Practical Exercise – Build a Risk Register
+
+Create five risks from a fictional organization and populate:
+
+| Risk ID | Risk Statement | Likelihood | Impact | Inherent | Residual | Owner | Treatment |
+| ------- | -------------- | ---------: | -----: | -------: | -------: | ----- | --------- |
+| R-001   | ...            |            |        |          |          |       |           |
+| R-002   | ...            |            |        |          |          |       |           |
+| R-003   | ...            |            |        |          |          |       |           |
+| R-004   | ...            |            |        |          |          |       |           |
+| R-005   | ...            |            |        |          |          |       |           |
+
+Then identify:
+
+* Highest residual risk.
+* Risk above appetite.
+* Risks requiring management attention.
+* Risks requiring immediate treatment.
+
+---
+
+## 2.45 GRC Professional Perspective
+
+A risk assessment template is more than a form.
+
+It is a mechanism for creating **consistent and defensible risk decisions**.
+
+The GRC professional should not simply ask:
+
+> "What is the risk score?"
+
+The better questions are:
+
+> "What is the scenario?"
+
+> "What evidence supports the rating?"
+
+> "What controls are actually operating?"
+
+> "What risk remains?"
+
+> "Is the residual risk within appetite?"
+
+> "Who is accountable?"
+
+> "What decision needs to be made?"
+
+This shifts the assessment from a documentation exercise into a real governance process.
+
+A mature GRC professional should also be comfortable challenging risk assessments when:
+
+* Ratings are unsupported.
+* Controls are assumed to be effective.
+* Impact is underestimated.
+* Risk statements are vague.
+* Important dependencies are ignored.
+* Risk appetite is not considered.
+* Management decisions are not documented.
+
+The ultimate objective is not to produce a perfect numerical score.
+
+The objective is to provide management with **reliable information for making informed risk decisions**.
+
+---
+
+## Key Takeaways
+
+1. A Risk Assessment Template creates consistency across risk assessments.
+2. The assessment should establish context before identifying risks.
+3. Assets, threats, vulnerabilities, and risk events should be clearly distinguished.
+4. Risk statements should describe a realistic scenario and consequence.
+5. Likelihood and impact should use defined organizational criteria.
+6. Inherent risk represents exposure before considering existing controls.
+7. Residual risk represents the remaining exposure after considering controls.
+8. Control existence does not automatically mean control effectiveness.
+9. Evidence and assumptions should support risk ratings.
+10. Risk owners and control owners have different responsibilities.
+11. Residual risk should be compared against organizational risk appetite.
+12. Risks requiring treatment should have owners, actions, and target dates.
+13. Risk assessments should be reviewed when significant changes occur.
+14. Risk assessments should feed the enterprise risk register.
+15. The same methodology can be adapted for applications, vendors, projects, cloud services, and AI systems.
+16. A risk score is a decision-support tool, not an absolute measurement of reality.
+17. The strongest assessments are **consistent, evidence-based, transparent, reproducible, and actionable**.
+
 
 

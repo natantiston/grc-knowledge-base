@@ -2578,5 +2578,1129 @@ The stronger objective is:
 
 A mature phishing simulation program therefore transforms phishing awareness from **passive training into an ongoing behavioral measurement and improvement process**, making it an important component of enterprise human-risk management.
 
+## Behavior Analytics and Reporting Tools
+
+Security awareness programs traditionally focused on whether employees completed their required training. However, completion alone does not demonstrate that employees are actually behaving securely.
+
+**Behavior analytics and reporting tools** help organizations move from measuring **training activity** to measuring **human behavior and security risk**.
+
+The fundamental concept is:
+
+> **What employees learn is important, but what they actually do is more important.**
+
+These technologies collect and analyze security-awareness-related data to identify patterns, trends, high-risk behaviors, and opportunities for improvement.
+
+---
+
+# What Are Behavior Analytics and Reporting Tools?
+
+Behavior analytics tools analyze employee-related security behaviors and transform the collected information into useful insights.
+
+Depending on the platform, data may come from:
+
+* Security awareness training.
+* Phishing simulations.
+* Phishing reports.
+* Security incidents.
+* Policy violations.
+* Data protection events.
+* Access behavior.
+* Security questionnaires.
+* Incident reporting.
+* Endpoint security systems.
+* Email security systems.
+
+The objective is to answer questions such as:
+
+* Which groups are most susceptible to phishing?
+* Are employees reporting suspicious emails?
+* Is security behavior improving?
+* Which departments require additional training?
+* Are repeated risky behaviors occurring?
+* Where is human-related cyber risk increasing?
+
+---
+
+# From Training Metrics to Behavioral Metrics
+
+Consider two organizations.
+
+### Organization A
+
+> 99% of employees completed security awareness training.
+
+### Organization B
+
+> 96% completed training, phishing reporting increased by 30%, and phishing failures decreased by 50%.
+
+Organization B may have stronger evidence that awareness is actually changing behavior.
+
+This demonstrates an important distinction:
+
+**Training Activity**
+
+vs.
+
+**Security Behavior**
+
+vs.
+
+**Risk Reduction**
+
+A mature program attempts to measure all three.
+
+---
+
+# Why Behavior Analytics Matter
+
+Human behavior can contribute significantly to cybersecurity risk.
+
+Examples include:
+
+* Clicking malicious links.
+* Reusing passwords.
+* Sharing sensitive information.
+* Failing to report suspicious activity.
+* Improperly handling confidential information.
+* Ignoring security policies.
+* Using unauthorized services.
+* Mishandling removable media.
+
+Behavior analytics can help identify recurring patterns.
+
+For example:
+
+> A particular business unit consistently demonstrates higher phishing susceptibility than other departments.
+
+The security team can investigate why.
+
+Possible causes could include:
+
+* Insufficient training.
+* High workload.
+* Poorly designed processes.
+* Lack of management support.
+* Language barriers.
+* High employee turnover.
+* Greater exposure to external communications.
+
+The purpose of analytics is therefore not simply to identify "bad employees."
+
+It is to identify **risk patterns and underlying causes**.
+
+---
+
+# Sources of Behavioral Data
+
+Behavior analytics platforms may collect information from multiple sources.
+
+## Security Awareness Platform
+
+Provides:
+
+* Training completion.
+* Assessment scores.
+* Phishing simulation results.
+
+## Email Security
+
+May provide:
+
+* Phishing reports.
+* Suspicious-email activity.
+* Malicious message interactions.
+
+## Security Operations
+
+May provide:
+
+* Incident reports.
+* Security alerts.
+* User-related events.
+
+## Endpoint Security
+
+May provide information about certain security-related behaviors.
+
+## GRC Platform
+
+May provide:
+
+* Risk assessments.
+* Policy violations.
+* Control findings.
+* Compliance information.
+
+Combining these sources can provide a broader view of human-related security risk.
+
+---
+
+# Behavioral Indicators
+
+Organizations can define specific behaviors they want to measure.
+
+Examples include:
+
+### Positive Behaviors
+
+* Reporting phishing.
+* Using MFA.
+* Following secure data-handling procedures.
+* Completing required training.
+* Reporting security incidents promptly.
+* Following approved processes.
+
+### Risky Behaviors
+
+* Clicking phishing links.
+* Attempting to submit credentials.
+* Sharing sensitive information improperly.
+* Repeated policy violations.
+* Failing to report incidents.
+
+The organization can then establish measurable indicators.
+
+---
+
+# Positive Security Behavior
+
+An important principle is that security analytics should not focus exclusively on failures.
+
+Positive behavior is also valuable.
+
+For example:
+
+> Employee receives suspicious email → employee reports it within two minutes.
+
+That is a positive security behavior.
+
+A mature program should recognize this.
+
+Instead of asking only:
+
+> "Who clicked?"
+
+It should also ask:
+
+> **"Who correctly identified and reported the threat?"**
+
+---
+
+# Behavioral Risk Scoring
+
+Some platforms provide a **human risk score** or behavioral risk score.
+
+A simplified model might consider:
+
+* Phishing failures.
+* Phishing reports.
+* Training performance.
+* Repeated risky behavior.
+* Role sensitivity.
+* Exposure to threats.
+
+For example:
+
+| Employee Group | Risk Score |
+| -------------- | ---------: |
+| Group A        |        Low |
+| Group B        |     Medium |
+| Group C        |       High |
+
+The score can help security teams prioritize interventions.
+
+However, risk scoring should be treated carefully.
+
+A behavioral score should support:
+
+> **Risk management**
+
+rather than:
+
+> **Employee punishment.**
+
+---
+
+# Example Risk Model
+
+Imagine the organization assigns points:
+
+* Phishing click = +10
+* Credential submission attempt = +20
+* Failure to complete mandatory training = +5
+* Successful phishing report = −5
+* Completing remediation = −5
+
+An employee's risk score could therefore change over time.
+
+However, this is only a conceptual example.
+
+Real organizations should develop scoring methodologies based on:
+
+* Risk appetite.
+* Business context.
+* Data quality.
+* Role sensitivity.
+* Privacy requirements.
+
+---
+
+# Why Context Matters
+
+The same behavior can have different risk levels depending on the employee's role.
+
+For example:
+
+### Employee A
+
+Clicks a simulated phishing link.
+
+Risk impact may be relatively limited.
+
+### Employee B
+
+A privileged administrator clicks the same link.
+
+Potential impact may be significantly greater because the employee has elevated access.
+
+Therefore:
+
+> **Behavior should be evaluated in context, not in isolation.**
+
+This is a fundamental GRC principle.
+
+---
+
+# Role-Based Risk
+
+Behavior analytics can combine behavior with role information.
+
+For example:
+
+| Role          | Phishing Failures | Access Level                | Risk   |
+| ------------- | ----------------: | --------------------------- | ------ |
+| Marketing     |                 4 | Standard                    | Medium |
+| Finance       |                 3 | Sensitive financial systems | High   |
+| Administrator |                 2 | Privileged                  | High   |
+| HR            |                 5 | Personal data               | High   |
+
+Even though Marketing has more failures than the administrator, the administrator may represent greater organizational risk because of privileged access.
+
+---
+
+# Department-Level Analysis
+
+Behavior analytics can identify trends by department.
+
+For example:
+
+| Department | Click Rate | Report Rate |
+| ---------- | ---------: | ----------: |
+| Finance    |         4% |         82% |
+| HR         |         7% |         71% |
+| IT         |         3% |         91% |
+| Sales      |        11% |         54% |
+| Operations |         9% |         63% |
+
+This may indicate that Sales requires additional awareness support.
+
+However, the security team should investigate the underlying causes before assuming that Sales employees are simply less security-conscious.
+
+---
+
+# Trend Analysis
+
+One of the most valuable capabilities is measuring change over time.
+
+For example:
+
+**Q1**
+
+Phishing click rate = 14%
+
+↓
+
+**Q2**
+
+10%
+
+↓
+
+**Q3**
+
+7%
+
+↓
+
+**Q4**
+
+4%
+
+This suggests an improving trend.
+
+But organizations should also examine:
+
+* Reporting rate.
+* Incident rate.
+* Repeat failures.
+* Training completion.
+* Type of simulations used.
+
+A single metric can be misleading.
+
+---
+
+# Behavioral Baselines
+
+Before measuring improvement, organizations need a baseline.
+
+For example:
+
+> Initial phishing failure rate = 13%.
+
+After implementing an awareness program:
+
+> Phishing failure rate = 6%.
+
+The baseline allows the organization to demonstrate change.
+
+Without a baseline, management may not know whether the program is actually improving security.
+
+---
+
+# Behavioral Analytics and Incident Data
+
+Security incidents can provide another source of behavioral information.
+
+For example:
+
+An organization discovers that employees repeatedly send sensitive documents to personal email accounts.
+
+The security team can identify:
+
+* Which process is involved.
+* Which departments are affected.
+* Why employees are using personal email.
+* Whether training addresses the issue.
+
+The solution may not simply be:
+
+> "Provide more training."
+
+The root cause could be that employees lack a convenient approved method for transferring files.
+
+This demonstrates an important principle:
+
+> **Human risk is not always a training problem.**
+
+Sometimes the underlying issue is:
+
+* Poor technology.
+* Poor process design.
+* Excessive workload.
+* Confusing policies.
+* Lack of automation.
+
+---
+
+# Human Behavior and Root Cause Analysis
+
+Suppose employees repeatedly bypass a security procedure.
+
+A weak analysis might conclude:
+
+> "Employees need more training."
+
+A stronger GRC analysis asks:
+
+1. Do employees understand the requirement?
+2. Is the procedure practical?
+3. Is the approved process available?
+4. Does the technology support the required behavior?
+5. Are managers reinforcing the requirement?
+6. Is the policy unnecessarily complicated?
+
+This prevents the organization from treating every security problem as an awareness problem.
+
+---
+
+# Reporting Tools
+
+Behavior analytics become useful when information is converted into understandable reports.
+
+Different stakeholders need different levels of detail.
+
+## Security Team
+
+May require:
+
+* Individual trends.
+* Department trends.
+* Phishing behavior.
+* Training performance.
+* Risk indicators.
+
+## Managers
+
+May need:
+
+* Team-level completion.
+* High-level behavior trends.
+* Required remediation.
+
+## Executives
+
+May need:
+
+* Overall human risk.
+* Major trends.
+* Risk reduction.
+* Significant exceptions.
+
+## Board
+
+May need:
+
+* Strategic human-risk indicators.
+* Major trends.
+* Material risks.
+* Regulatory exposure.
+
+---
+
+# Executive Reporting
+
+Executives generally do not need thousands of individual records.
+
+A useful executive dashboard might show:
+
+### Security Awareness Completion
+
+97%
+
+### Phishing Failure Rate
+
+4.2%
+
+### Phishing Reporting Rate
+
+76%
+
+### Repeat High-Risk Users
+
+2.8%
+
+### Security Incidents Involving Human Error
+
+↓ 31%
+
+This provides a concise view of the program.
+
+---
+
+# Management Reporting
+
+Managers may need more detailed information.
+
+For example:
+
+**Finance Department**
+
+* Training completion: 100%
+* Phishing failure: 3%
+* Reporting rate: 85%
+* Overdue training: 0%
+* Remediation required: 4 employees
+
+This allows managers to support their teams without exposing unnecessary information about other departments.
+
+---
+
+# Individual Reporting
+
+Individual-level data should be handled carefully.
+
+Security teams may need individual information for remediation.
+
+For example:
+
+> Employee repeatedly fails phishing simulations.
+
+Security may assign targeted training.
+
+However, publishing a list of employees who failed a simulation to the entire organization would generally be inappropriate.
+
+---
+
+# Privacy and Employee Data
+
+Behavior analytics can create significant privacy considerations.
+
+The organization may be collecting information about:
+
+* Employee behavior.
+* Training performance.
+* Security incidents.
+* Risk scores.
+* Department.
+* Job role.
+
+Organizations should therefore establish appropriate:
+
+* Purpose.
+* Access controls.
+* Retention periods.
+* Transparency.
+* Data minimization.
+* Governance.
+
+The principle should be:
+
+> **Collect and use behavioral data only to the extent necessary to manage security risk and improve the awareness program.**
+
+---
+
+# Access Control
+
+Not everyone should have access to individual behavioral data.
+
+A possible model is:
+
+### Security Awareness Team
+
+Individual-level access where necessary.
+
+### Managers
+
+Their team's relevant information.
+
+### Executives
+
+Aggregated organizational information.
+
+### Board
+
+Strategic aggregated indicators.
+
+This follows the principle of **least privilege**.
+
+---
+
+# Data Retention
+
+Organizations should determine how long behavioral data needs to be retained.
+
+For example:
+
+* Current training status.
+* Historical training evidence.
+* Phishing campaign results.
+* Remediation records.
+
+Retention should be based on:
+
+* Legal requirements.
+* Regulatory requirements.
+* Business needs.
+* Audit requirements.
+* Privacy considerations.
+
+Keeping employee behavioral data indefinitely may create unnecessary risk.
+
+---
+
+# Anonymization and Aggregation
+
+Organizations can reduce privacy risks by using aggregated data.
+
+Instead of reporting:
+
+> Employee A clicked three simulations.
+
+Management might see:
+
+> Sales department phishing failure rate increased from 5% to 9%.
+
+This provides useful information without unnecessary individual exposure.
+
+---
+
+# Reporting Accuracy
+
+Behavior analytics are only as good as the underlying data.
+
+Potential problems include:
+
+* Incorrect employee records.
+* Incomplete integrations.
+* Duplicate users.
+* Missing events.
+* Incorrect department assignments.
+* Inconsistent measurement methodologies.
+
+Therefore, data quality should be part of the governance process.
+
+---
+
+# False Positives and False Negatives
+
+Analytics systems may incorrectly classify behavior.
+
+### False Positive
+
+A legitimate action is identified as risky.
+
+### False Negative
+
+A risky behavior is not identified.
+
+Both can affect decision-making.
+
+For example:
+
+> A legitimate security report may be incorrectly categorized as suspicious behavior.
+
+Therefore, automated risk scores should not always be treated as absolute truth.
+
+---
+
+# AI and Behavioral Analytics
+
+Modern security-awareness platforms increasingly use AI and machine learning to identify behavioral patterns.
+
+AI may help identify:
+
+* Unusual behavior.
+* High-risk patterns.
+* Repeated failures.
+* Changes in behavior.
+* Users requiring targeted training.
+
+For example:
+
+> An employee normally reports suspicious messages but suddenly stops reporting them.
+
+The system may identify this as a behavioral change.
+
+However, AI-generated risk scores should be explainable enough for security and GRC teams to understand how they are being used.
+
+---
+
+# Predictive Human Risk
+
+More advanced platforms attempt to identify potential future risk.
+
+For example:
+
+**Historical Behavior**
+
+*
+
+**Role**
+
+*
+
+**Exposure**
+
+*
+
+**Recent Changes**
+
+↓
+
+**Potential Risk**
+
+This could help security teams prioritize awareness interventions.
+
+However, predictive models should be treated as risk indicators rather than definitive judgments about individuals.
+
+---
+
+# Behavior Analytics and Security Culture
+
+Analytics should support—not undermine—security culture.
+
+If employees believe:
+
+> "Everything I do is being monitored and scored."
+
+They may become less willing to report mistakes.
+
+A better message is:
+
+> "Behavior analytics help us identify security risks and provide the right support and training."
+
+The objective should be:
+
+**Improve behavior**
+
+rather than:
+
+**Catch employees making mistakes.**
+
+---
+
+# Positive Reinforcement
+
+Behavior analytics can also identify positive behavior.
+
+For example:
+
+* Employees who consistently report phishing.
+* Teams with strong training performance.
+* Departments showing major improvement.
+
+Organizations can use this information for:
+
+* Recognition.
+* Awareness campaigns.
+* Security champions.
+* Team recognition.
+
+This reinforces the desired security culture.
+
+---
+
+# Security Champions
+
+A department with consistently strong security behavior may have effective security champions.
+
+Analytics can help identify potential candidates.
+
+For example:
+
+> Employees who consistently report suspicious messages and demonstrate strong awareness may be invited to participate in a security champion program.
+
+This turns positive behavior into organizational capability.
+
+---
+
+# Behavior Analytics and Continuous Improvement
+
+Behavior analytics support the continuous improvement cycle:
+
+**Measure**
+
+↓
+
+**Analyze**
+
+↓
+
+**Identify Risk**
+
+↓
+
+**Intervene**
+
+↓
+
+**Measure Again**
+
+For example:
+
+**Measure**
+
+Phishing failure = 12%
+
+↓
+
+**Analyze**
+
+Finance has elevated susceptibility.
+
+↓
+
+**Intervene**
+
+Targeted finance-focused phishing training.
+
+↓
+
+**Measure Again**
+
+Phishing failure = 5%
+
+This provides evidence that the intervention worked.
+
+---
+
+# Example Enterprise Scenario
+
+Consider an organization with 8,000 employees.
+
+The security team collects:
+
+* Training completion.
+* Phishing simulation results.
+* Phishing reports.
+* Security incidents.
+* Department information.
+
+The analytics platform identifies:
+
+> Sales has the highest phishing failure rate.
+
+The security team investigates.
+
+It discovers that Sales employees receive a high volume of external email and frequently work from mobile devices.
+
+Instead of simply assigning additional generic training, the organization introduces:
+
+* Mobile phishing awareness.
+* Targeted simulations.
+* Short microlearning.
+* Reporting guidance.
+
+Three months later:
+
+**Phishing failure**
+
+10% → 4%
+
+**Reporting**
+
+51% → 79%
+
+This provides evidence of behavioral improvement.
+
+---
+
+# Example Behavioral Risk Dashboard
+
+| Indicator             | Current | Previous | Trend     |
+| --------------------- | ------: | -------: | --------- |
+| Phishing failure      |    4.1% |     7.8% | Improving |
+| Reporting rate        |     78% |      61% | Improving |
+| Repeat failures       |    3.2% |     5.9% | Improving |
+| Training completion   |     97% |      94% | Improving |
+| Human-error incidents |      14 |       19 | Improving |
+| High-risk departments |       2 |        4 | Improving |
+
+This is more useful than reporting training completion alone.
+
+---
+
+# Human Risk vs. Employee Performance
+
+A critical governance distinction must be maintained.
+
+Security behavioral data should not automatically become an employee-performance measurement.
+
+For example:
+
+> "Employee clicked a phishing simulation."
+
+does not necessarily mean:
+
+> "Employee is a poor performer."
+
+The security context is different from traditional HR performance management.
+
+Organizations should establish clear rules for how behavioral information is used.
+
+---
+
+# Common Mistakes
+
+Organizations should avoid:
+
+### Measuring Only Completion
+
+Training completion does not demonstrate behavior.
+
+### Creating Unexplained Risk Scores
+
+Employees and managers may not understand what the score means.
+
+### Over-monitoring Employees
+
+Excessive monitoring can damage trust.
+
+### Ignoring Context
+
+Different roles have different levels of risk.
+
+### Treating Every Risk as a Training Problem
+
+Some risks originate from technology or processes.
+
+### Publishing Individual Failures
+
+This can damage security culture.
+
+### Poor Data Governance
+
+Behavioral data should be appropriately protected.
+
+### Relying Entirely on AI
+
+Automated analytics should support human judgment rather than replace it.
+
+---
+
+# Practical Implementation Model
+
+An organization can implement behavioral analytics through the following lifecycle.
+
+### Step 1 – Define Objectives
+
+Determine which security behaviors matter.
+
+### Step 2 – Identify Data Sources
+
+Identify:
+
+* LMS.
+* Phishing platform.
+* Security tools.
+* Incident management.
+* GRC.
+
+### Step 3 – Establish Metrics
+
+Define measurable indicators.
+
+### Step 4 – Establish Baselines
+
+Determine current performance.
+
+### Step 5 – Analyze Trends
+
+Identify recurring patterns.
+
+### Step 6 – Identify Risk
+
+Determine which behaviors represent meaningful risk.
+
+### Step 7 – Intervene
+
+Provide:
+
+* Training.
+* Process improvement.
+* Technology improvements.
+* Management support.
+
+### Step 8 – Measure Again
+
+Determine whether the intervention worked.
+
+### Step 9 – Report
+
+Provide appropriate information to:
+
+* Security.
+* Management.
+* Executives.
+* Board.
+
+### Step 10 – Improve
+
+Update the program based on findings.
+
+---
+
+# GRC Perspective
+
+Behavior analytics are particularly valuable from a **Governance, Risk, and Compliance** perspective.
+
+The GRC professional can connect:
+
+**Regulation**
+
+↓
+
+**Requirement**
+
+↓
+
+**Risk**
+
+↓
+
+**Control**
+
+↓
+
+**Expected Behavior**
+
+↓
+
+**Behavioral Measurement**
+
+↓
+
+**Risk Indicator**
+
+↓
+
+**Management Action**
+
+For example:
+
+> **Requirement:** Employees must protect sensitive information.
+
+↓
+
+> **Risk:** Employees may improperly share confidential data.
+
+↓
+
+> **Control:** Data protection awareness training.
+
+↓
+
+> **Expected Behavior:** Employees use approved data-sharing mechanisms.
+
+↓
+
+> **Measurement:** Policy violations and data-handling incidents.
+
+↓
+
+> **Result:** Risk trend.
+
+↓
+
+> **Action:** Improve training or process controls.
+
+This turns security awareness into a measurable component of the organization's risk-management system.
+
+---
+
+# Key Takeaways
+
+Behavior analytics and reporting tools help organizations move from measuring **training participation** to measuring **security behavior and human risk**.
+
+The key principles are:
+
+1. **Behavior analytics measure what employees actually do.**
+2. **Training completion alone does not demonstrate behavioral change.**
+3. **Behavioral data can come from LMS, phishing platforms, security tools, incidents, and GRC systems.**
+4. **Positive security behavior should be measured alongside risky behavior.**
+5. **Risk scores can help prioritize interventions but should be used carefully.**
+6. **Employee behavior should be evaluated in the context of role and access.**
+7. **Trend analysis is more useful than relying on a single measurement.**
+8. **Baseline measurements allow organizations to demonstrate improvement.**
+9. **Behavioral problems may originate from technology or processes, not only from lack of training.**
+10. **Individual behavioral information requires appropriate privacy and access controls.**
+11. **Aggregated reporting can provide useful management information while reducing unnecessary exposure of individual data.**
+12. **AI and machine learning can help identify behavioral patterns, but automated scores should not be treated as unquestionable judgments.**
+13. **Behavior analytics should support security culture rather than create a punitive environment.**
+14. **Behavioral data can help identify security champions and positive security practices.**
+15. **The strongest programs use analytics to measure, intervene, retest, and continuously improve.**
+
+The ultimate objective is not:
+
+> **"We can identify which employees make mistakes."**
+
+The stronger objective is:
+
+> **"We can identify human-related security risks, understand their causes, apply appropriate interventions, and demonstrate measurable improvement over time."**
+
+For a GRC professional, this distinction is particularly important. **Behavior analytics turns security awareness from a training-compliance activity into a measurable risk-management capability.**
+
+
 
 

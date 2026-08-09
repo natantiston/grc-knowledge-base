@@ -1076,5 +1076,829 @@ The objective is to establish **clear organizational requirements that can be im
 12. A good policy should be practical, measurable, and aligned with the organization's operating environment.
 13. The purpose of a policy is not merely documentation. It is to establish **clear governance that can be translated into controls and verified through evidence**.
 
+**17.4 Security Procedure and Standard Templates**
+
+### Part 2 – Security Standard Template
+
+A **security standard** translates high-level policy requirements into specific, mandatory security requirements that can be consistently implemented across the organization.
+
+If a policy answers:
+
+> **"What does the organization require?"**
+
+a standard answers:
+
+> **"What specific security requirements must be met?"**
+
+For example, an Access Control Policy may state:
+
+> Access to organizational systems must be appropriately protected.
+
+The corresponding Authentication Standard could establish:
+
+> All privileged accounts must use phishing-resistant multi-factor authentication.
+
+The standard therefore provides greater specificity than the policy while avoiding the step-by-step instructions normally found in procedures.
+
+---
+
+## 2.1 Purpose of a Security Standard
+
+Security standards establish a consistent minimum level of security.
+
+They can define requirements for:
+
+* Authentication.
+* Passwords.
+* Encryption.
+* Network security.
+* Endpoint security.
+* Cloud security.
+* Vulnerability management.
+* Logging and monitoring.
+* Privileged access.
+* Application security.
+* Data protection.
+* Mobile devices.
+* Remote access.
+* Third-party connections.
+
+Standards are particularly useful when an organization wants to prevent different teams from implementing security requirements in completely different ways.
+
+For example, without an MFA standard:
+
+> Team A may require MFA for administrators, Team B may use passwords only, and Team C may use different authentication methods.
+
+A standard creates a common baseline.
+
+---
+
+## 2.2 Policy-to-Standard Relationship
+
+A typical hierarchy is:
+
+```text
+Security Policy
+       ↓
+Security Standard
+       ↓
+Security Procedure
+       ↓
+Work Instruction
+```
+
+For example:
+
+```text
+Access Control Policy
+       ↓
+Authentication Standard
+       ↓
+MFA Enrollment Procedure
+       ↓
+MFA Enrollment Work Instruction
+```
+
+Each level becomes progressively more detailed.
+
+---
+
+## 2.3 Example
+
+Consider the following documents.
+
+### Policy
+
+> The organization must protect access to information systems.
+
+### Standard
+
+> Privileged accounts must use phishing-resistant MFA.
+
+### Procedure
+
+> The IAM team must enroll privileged users in the approved authentication platform and verify successful registration.
+
+### Work Instruction
+
+> Step 1: Open the IAM administration console.
+> Step 2: Select the user account.
+> Step 3: Select Authentication Methods.
+> Step 4: Register the approved security key.
+
+The policy establishes governance.
+
+The standard establishes the mandatory technical requirement.
+
+The procedure explains the operational process.
+
+The work instruction explains exactly how to perform the task.
+
+---
+
+## 2.4 Security Standard Template
+
+A practical security standard template can contain:
+
+```text
+SECURITY STANDARD
+
+Document ID:
+Standard Name:
+Version:
+Standard Owner:
+Approved By:
+Effective Date:
+Review Date:
+Classification:
+Status:
+
+1. Purpose
+2. Scope
+3. Standard Requirements
+4. Technical Requirements
+5. Roles and Responsibilities
+6. Exceptions
+7. Compliance and Monitoring
+8. Related Policies
+9. Related Procedures
+10. References
+11. Document Control
+```
+
+The template can be adjusted depending on the type of standard.
+
+---
+
+## 2.5 Standard Metadata
+
+Like policies, standards should have controlled metadata.
+
+Example:
+
+| Field          | Example                 |
+| -------------- | ----------------------- |
+| Document ID    | SEC-STD-004             |
+| Standard Name  | Authentication Standard |
+| Version        | 2.0                     |
+| Owner          | CISO                    |
+| Approved By    | CIO                     |
+| Effective Date | 1 September 2026        |
+| Review Date    | 1 September 2027        |
+| Classification | Internal                |
+| Status         | Approved                |
+
+This allows the GRC team to manage standards as controlled documents.
+
+---
+
+## 2.6 Purpose Statement
+
+The purpose should explain what security objective the standard supports.
+
+Example:
+
+> This standard establishes minimum authentication requirements for protecting access to organizational information systems and services.
+
+It should be concise and focused.
+
+---
+
+## 2.7 Scope
+
+The scope identifies the systems, users, technologies, and environments covered by the standard.
+
+Example:
+
+> This standard applies to all employees, contractors, administrators, service accounts, applications, cloud services, and information systems requiring authentication to organizational resources.
+
+A standard may have a narrower scope than its parent policy.
+
+For example:
+
+```text
+Access Control Policy
+        ↓
+Authentication Standard
+        ↓
+Privileged Authentication Standard
+```
+
+---
+
+## 2.8 Standard Requirements
+
+This is the most important part of the document.
+
+For an Authentication Standard, requirements could include:
+
+1. All users must have unique identities.
+2. Shared accounts must be prohibited unless formally approved.
+3. MFA must be required for privileged accounts.
+4. MFA must be required for remote access.
+5. Privileged accounts must use phishing-resistant authentication where technically supported.
+6. Authentication credentials must be protected.
+7. Authentication events must be logged.
+8. Authentication failures must be monitored.
+
+These requirements are specific enough to be tested.
+
+---
+
+## 2.9 Minimum Security Baseline
+
+A standard often establishes a **minimum security baseline**.
+
+For example:
+
+### Password Standard
+
+```text
+Minimum Requirements
+
+Password Length:
+Minimum 14 characters
+
+Password Reuse:
+Prohibited for the defined password history
+
+MFA:
+Required for privileged access
+
+Account Lockout:
+Must follow approved authentication controls
+
+Password Storage:
+Passwords must not be stored in plaintext
+```
+
+The exact values should be based on the organization's risk assessment, technology, applicable standards, and current security practices.
+
+The important GRC principle is that the organization establishes a **defined minimum requirement**.
+
+---
+
+## 2.10 Mandatory Requirements
+
+Standards generally contain mandatory requirements.
+
+Use clear language such as:
+
+* Must.
+* Shall.
+* Required.
+* Prohibited.
+
+For example:
+
+> All internet-facing administrative interfaces must use approved multi-factor authentication.
+
+Avoid vague statements such as:
+
+> Internet-facing administrative interfaces should preferably use MFA.
+
+If MFA is mandatory, the standard should say so explicitly.
+
+---
+
+## 2.11 Technical Specificity
+
+A standard should contain more technical detail than a policy, but it should still avoid becoming a step-by-step operational manual.
+
+For example:
+
+**Policy**
+
+> Sensitive information must be protected.
+
+**Standard**
+
+> Sensitive information stored on organizational systems must use organization-approved encryption mechanisms.
+
+**Procedure**
+
+> The system administrator must configure the approved encryption mechanism according to the platform-specific implementation procedure.
+
+This separation makes documents easier to maintain.
+
+---
+
+## 2.12 Roles and Responsibilities
+
+The standard should identify who is responsible for implementation and compliance.
+
+Example:
+
+### CISO
+
+Defines security requirements and approves the standard.
+
+### Security Architecture
+
+Defines approved technical security mechanisms.
+
+### IT
+
+Implements the required controls.
+
+### Application Owners
+
+Ensure applications comply with the standard.
+
+### System Owners
+
+Maintain compliance for systems under their responsibility.
+
+### GRC
+
+Monitors compliance and coordinates exceptions and assessments.
+
+---
+
+## 2.13 Exceptions
+
+Standards should include an exception mechanism.
+
+For example:
+
+> Any deviation from this standard must be formally documented, risk assessed, approved by the designated authority, and assigned an expiration or review date.
+
+An exception could be required when:
+
+* A legacy system cannot meet the requirement.
+* A vendor product has a technical limitation.
+* A business-critical application requires temporary deviation.
+* A migration is in progress.
+
+The exception should document the reason and compensating controls.
+
+---
+
+## 2.14 Example – Encryption Standard Exception
+
+Suppose the standard requires:
+
+> Sensitive information must be encrypted using an approved encryption mechanism.
+
+A legacy application cannot support the approved mechanism.
+
+A temporary exception might include:
+
+```text
+Requirement:
+Approved encryption required.
+
+Exception:
+Legacy application cannot support the approved encryption mechanism.
+
+Reason:
+Application replacement scheduled for March 2027.
+
+Compensating Controls:
+- Network segmentation
+- Restricted access
+- Enhanced monitoring
+- Additional backup protection
+
+Risk:
+High
+
+Owner:
+Application Director
+
+Expiration:
+31 December 2026
+```
+
+The exception should be tracked in the organization's GRC system.
+
+---
+
+## 2.15 Compliance Monitoring
+
+Standards should be measurable.
+
+For example:
+
+> 100% of privileged accounts must use approved MFA.
+
+This creates a clear compliance test.
+
+The GRC team can then measure:
+
+```text
+Total Privileged Accounts:
+250
+
+Accounts Using Required MFA:
+245
+
+Compliance:
+98%
+
+Non-Compliant:
+5
+```
+
+The five accounts can then be investigated and remediated or formally excepted.
+
+---
+
+## 2.16 Standard-to-Control Mapping
+
+A standard should be connected to the organization's control framework.
+
+Example:
+
+| Standard Requirement                 | Control                 | Evidence       |
+| ------------------------------------ | ----------------------- | -------------- |
+| MFA required for privileged accounts | Privileged MFA          | IAM report     |
+| Authentication events logged         | Authentication logging  | SIEM records   |
+| Shared accounts prohibited           | Unique identity control | IAM inventory  |
+| Access reviewed periodically         | Access review control   | Review records |
+
+This creates traceability:
+
+```text
+Policy
+   ↓
+Standard
+   ↓
+Control
+   ↓
+Evidence
+   ↓
+Testing
+```
+
+---
+
+## 2.17 Standard-to-Risk Mapping
+
+Standards should also support risk treatment.
+
+Example:
+
+```text
+Risk:
+Unauthorized privileged access
+       ↓
+Policy:
+Access Control Policy
+       ↓
+Standard:
+Privileged Authentication Standard
+       ↓
+Control:
+Phishing-resistant MFA
+       ↓
+Evidence:
+IAM configuration
+       ↓
+Test:
+MFA compliance review
+```
+
+This demonstrates how a standard contributes directly to risk reduction.
+
+---
+
+## 2.18 Standard Ownership
+
+Every standard should have an owner.
+
+The owner is normally responsible for:
+
+* Maintaining the standard.
+* Monitoring changes.
+* Coordinating reviews.
+* Assessing proposed modifications.
+* Coordinating stakeholder input.
+* Managing exceptions.
+* Ensuring continued alignment with policies and risks.
+
+For example:
+
+> Authentication Standard → IAM / Security Architecture
+
+> Cloud Security Standard → Cloud Security / Security Architecture
+
+> Vulnerability Management Standard → Vulnerability Management Team
+
+---
+
+## 2.19 Standard Approval
+
+The approval authority should be appropriate to the significance of the standard.
+
+Examples:
+
+| Standard                          | Possible Approver         |
+| --------------------------------- | ------------------------- |
+| Authentication Standard           | CISO / CIO                |
+| Encryption Standard               | CISO                      |
+| Cloud Security Standard           | CISO / CIO                |
+| Network Security Standard         | CISO / Network Leadership |
+| Vulnerability Management Standard | CISO                      |
+| Secure Development Standard       | CISO / CTO                |
+
+Approval authority should be defined by the organization's governance framework.
+
+---
+
+## 2.20 Standard Review
+
+Standards should be reviewed periodically and whenever significant changes occur.
+
+Triggers can include:
+
+* New technology.
+* New vulnerabilities.
+* Regulatory changes.
+* Security incidents.
+* Changes in threat landscape.
+* Changes to organizational architecture.
+* Changes to security frameworks.
+* Audit findings.
+
+For example, an authentication standard written several years ago may no longer reflect current passwordless or phishing-resistant authentication capabilities.
+
+---
+
+## 2.21 Version Control
+
+Example:
+
+| Version | Date | Change                                  | Approver |
+| ------- | ---- | --------------------------------------- | -------- |
+| 1.0     | 2024 | Initial standard                        | CISO     |
+| 1.1     | 2025 | Added MFA requirement                   | CISO     |
+| 2.0     | 2026 | Added phishing-resistant authentication | CIO      |
+
+Version history allows the organization to demonstrate how security requirements evolved.
+
+---
+
+## 2.22 Standard Communication
+
+A new standard should be communicated to affected stakeholders.
+
+For example, a new Cloud Security Standard may need to be communicated to:
+
+* Cloud engineers.
+* DevOps teams.
+* Developers.
+* Security architects.
+* Application owners.
+* Infrastructure teams.
+* GRC.
+* Procurement.
+
+Communication ensures that affected teams understand the new requirements.
+
+---
+
+## 2.23 Standard Implementation
+
+Creating a standard does not mean the organization is compliant.
+
+Consider:
+
+> Standard requires MFA.
+
+The organization must still:
+
+1. Identify affected systems.
+2. Determine current compliance.
+3. Implement the requirement.
+4. Test the implementation.
+5. Record evidence.
+6. Remediate exceptions.
+7. Monitor ongoing compliance.
+
+Therefore:
+
+```text
+Standard
+   ↓
+Implementation
+   ↓
+Verification
+   ↓
+Evidence
+   ↓
+Continuous Monitoring
+```
+
+---
+
+## 2.24 Common Security Standard Types
+
+An enterprise may maintain many security standards.
+
+Examples include:
+
+### Identity and Access
+
+* Authentication Standard.
+* Password Standard.
+* Privileged Access Standard.
+* Access Review Standard.
+
+### Infrastructure
+
+* Network Security Standard.
+* Server Hardening Standard.
+* Endpoint Security Standard.
+* Logging Standard.
+
+### Data Protection
+
+* Encryption Standard.
+* Data Classification Standard.
+* Data Retention Standard.
+* Secure Disposal Standard.
+
+### Application Security
+
+* Secure Coding Standard.
+* Application Security Testing Standard.
+* API Security Standard.
+* Software Dependency Standard.
+
+### Cloud
+
+* Cloud Security Standard.
+* Cloud Identity Standard.
+* Cloud Logging Standard.
+* Cloud Configuration Standard.
+
+The exact set should reflect the organization's risk profile.
+
+---
+
+## 2.25 Practical Exercise – Create an Authentication Standard
+
+Create an Authentication Standard containing:
+
+1. Purpose.
+2. Scope.
+3. Authentication requirements.
+4. MFA requirements.
+5. Privileged account requirements.
+6. Service account requirements.
+7. Remote access requirements.
+8. Authentication logging.
+9. Exception process.
+10. Compliance monitoring.
+11. Roles and responsibilities.
+12. Review requirements.
+
+Then identify which requirements should be tested by GRC.
+
+---
+
+## 2.26 Practical Exercise – Convert Policy Into Standard
+
+Start with this policy requirement:
+
+> The organization must protect privileged access.
+
+Convert it into at least five specific standard requirements.
+
+For example:
+
+```text
+Policy:
+Protect privileged access.
+
+        ↓
+
+Standard Requirements:
+
+1. Privileged accounts must be uniquely assigned.
+2. Privileged accounts must use MFA.
+3. Privileged access must follow least privilege.
+4. Administrative activity must be logged.
+5. Privileged access must be reviewed periodically.
+```
+
+The objective is to practice converting broad governance language into measurable requirements.
+
+---
+
+## 2.27 Practical Exercise – Compliance Assessment
+
+Assume an Authentication Standard requires:
+
+> 100% of privileged accounts must use MFA.
+
+The GRC team discovers:
+
+```text
+Privileged Accounts:
+500
+
+MFA Enabled:
+485
+
+MFA Not Enabled:
+15
+```
+
+Calculate:
+
+* Compliance percentage.
+* Non-compliance percentage.
+* Number of remediation actions required.
+
+Then determine whether the 15 accounts should be:
+
+* Remediated.
+* Formally excepted.
+* Disabled.
+* Investigated further.
+
+The correct answer may depend on the circumstances of each account.
+
+---
+
+## 2.28 Practical Exercise – Standard Exception
+
+Scenario:
+
+> A critical legacy system cannot support the organization's current authentication standard.
+
+Create an exception containing:
+
+* Standard requirement.
+* Business justification.
+* Risk.
+* Compensating controls.
+* Risk owner.
+* Approval authority.
+* Target remediation date.
+* Expiration date.
+* Review frequency.
+
+The objective is to demonstrate that exceptions are **risk-managed deviations**, not informal agreements.
+
+---
+
+## 2.29 GRC Professional Perspective
+
+A GRC professional should be able to determine whether a security standard is:
+
+* Specific.
+* Mandatory.
+* Measurable.
+* Risk-based.
+* Technically achievable.
+* Consistent with policy.
+* Supported by controls.
+* Testable.
+* Properly approved.
+* Properly maintained.
+
+A weak standard might state:
+
+> Systems must be secure.
+
+A stronger standard might state:
+
+> Internet-facing systems must implement organization-approved vulnerability scanning at least monthly, with critical vulnerabilities remediated according to the organization's defined remediation timeframe.
+
+The second requirement is much more useful because it can be:
+
+* Implemented.
+* Measured.
+* Tested.
+* Audited.
+* Reported.
+
+The GRC professional should also avoid making standards unnecessarily restrictive.
+
+A standard should establish an appropriate security baseline while allowing the organization to manage legitimate exceptions through a controlled risk process.
+
+The objective is to create **consistent, measurable security requirements that translate policy into operational controls**.
+
+---
+
+## Key Takeaways
+
+1. A security standard translates policy requirements into specific mandatory requirements.
+2. Standards establish a consistent minimum security baseline.
+3. Standards should be more specific than policies but less operational than procedures.
+4. Requirements should use clear mandatory language.
+5. Standards should be measurable and testable.
+6. Standards should have an owner and appropriate approval authority.
+7. Exceptions should be formally documented, risk assessed, approved, and time-bound.
+8. Standards should be mapped to controls and organizational risks.
+9. Compliance should be supported by objective evidence.
+10. Standards should be reviewed when technology, threats, regulations, or business requirements change.
+11. A standard should be practical enough to implement across the organization's environment.
+12. The ultimate purpose of a security standard is to create **consistent and measurable security requirements that can be implemented, monitored, tested, and improved**.
+
+
 
 

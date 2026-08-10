@@ -1,5 +1,3 @@
-Below is the reconstructed **17.5 Part 1**, following the original Chapter 17 outline and keeping it practical.
-
 **17.5 ISO 27001 Tools and Templates**
 
 ### Part 1 – ISO 27001 Control Mapping Template
@@ -734,6 +732,640 @@ Assessment Result
 ```
 
 This bidirectional traceability is one of the most useful capabilities of a mature GRC program.
+
+The **Statement of Applicability (SoA)** is one of the key documented components of an ISO/IEC 27001 Information Security Management System (ISMS). It records the organization's decisions regarding the applicable controls and provides a clear connection between the organization's risk assessment, risk treatment decisions, and selected security controls.
+
+The SoA should not be treated as a simple checklist of Annex A controls.
+
+Its purpose is to demonstrate that the organization has systematically determined which controls are necessary for its information security risks and ISMS objectives.
+
+The basic relationship is:
+
+```text
+ISMS Scope
+     ↓
+Risk Assessment
+     ↓
+Risk Treatment
+     ↓
+Control Selection
+     ↓
+Statement of Applicability
+     ↓
+Control Implementation
+     ↓
+Evidence
+```
+
+A practical SoA should therefore provide traceability between the selected controls and the organization's risk treatment process.
+
+A basic **Statement of Applicability Template** can contain:
+
+```text
+STATEMENT OF APPLICABILITY
+
+Control Reference:
+
+Control Name:
+
+Applicable:
+
+Justification for Applicability:
+
+Risk Reference:
+
+Risk Treatment Reference:
+
+Control Implementation Status:
+
+Implementation Description:
+
+Control Owner:
+
+Evidence Reference:
+
+Related Policy:
+
+Related Procedure:
+
+Exclusion Justification:
+
+Implementation Date:
+
+Assessment Status:
+
+Comments:
+```
+
+The **Applicable** field records whether the control has been determined to be applicable to the organization's ISMS.
+
+For example:
+
+```text
+Control:
+[Applicable Annex A control]
+
+Applicable:
+Yes
+
+Justification:
+The control is required to address risks
+identified during the ISMS risk assessment.
+```
+
+If a control is determined not to be applicable, the organization should provide a documented justification.
+
+For example:
+
+```text
+Applicable:
+No
+
+Justification:
+The organization does not operate physical
+data center facilities within the defined ISMS
+scope. The relevant physical infrastructure
+is provided by a contracted hosting provider.
+```
+
+However, the organization should be careful when declaring controls not applicable.
+
+The decision should be based on the organization's actual circumstances and risk environment rather than simply because the control is inconvenient or difficult to implement.
+
+The SoA should also connect the control to the **risk assessment**.
+
+For example:
+
+```text
+Risk ID:
+R-014
+
+Risk:
+Unauthorized privileged access
+
+Treatment:
+Mitigate
+
+Selected Control:
+Privileged Access Management
+
+SoA:
+Applicable
+```
+
+This creates traceability:
+
+```text
+Risk
+ ↓
+Risk Treatment
+ ↓
+Control
+ ↓
+SoA
+ ↓
+Implementation
+```
+
+This is one of the most important relationships in an ISO 27001 ISMS.
+
+A control should have a clear reason for being selected.
+
+Possible justifications include:
+
+* It addresses an identified information security risk.
+* It is necessary to achieve an ISMS security objective.
+* It supports a contractual requirement.
+* It addresses a legal or regulatory requirement.
+* It supports business continuity.
+* It protects critical information assets.
+* It addresses a known threat.
+* It supports customer security requirements.
+* It is necessary because of the organization's operating environment.
+
+For example:
+
+```text
+Control:
+Supplier Security Management
+
+Applicable:
+Yes
+
+Justification:
+The organization relies on external suppliers
+for critical technology services. Supplier-related
+risks were identified during the risk assessment.
+
+Risk:
+R-021 – Third-Party Security Risk
+```
+
+The SoA should also record the **implementation status**.
+
+A practical status model could be:
+
+| Status                | Meaning                                          |
+| --------------------- | ------------------------------------------------ |
+| Not Implemented       | Control has not yet been implemented             |
+| Planned               | Implementation has been approved                 |
+| In Progress           | Implementation is underway                       |
+| Partially Implemented | Control covers only part of the required scope   |
+| Implemented           | Control has been implemented                     |
+| Effective             | Control is implemented and operating as intended |
+
+This distinction is useful during ISO 27001 implementation projects.
+
+For example:
+
+```text
+Control:
+Security Awareness
+
+Status:
+Partially Implemented
+
+Current State:
+Annual training exists for employees.
+
+Gap:
+Contractors are not currently included.
+
+Action:
+Extend training requirements to relevant contractors.
+```
+
+The SoA can therefore provide visibility into implementation gaps.
+
+The **implementation description** should explain how the organization has implemented the control.
+
+A weak description would be:
+
+> Access is controlled.
+
+A stronger description would be:
+
+> User access is managed through the centralized identity management platform. Access requests require business owner approval, privileged accounts require MFA, and access rights are reviewed quarterly.
+
+The second description provides meaningful information about the organization's implementation.
+
+The SoA should also reference supporting documentation.
+
+For example:
+
+```text
+Policy:
+Access Control Policy
+
+Procedure:
+User Access Management Procedure
+
+Standard:
+Privileged Access Standard
+
+Evidence:
+IAM Access Review – Q2 2026
+MFA Compliance Report – Q2 2026
+```
+
+This provides a documentation chain:
+
+```text
+SoA
+ ↓
+Policy
+ ↓
+Procedure
+ ↓
+Control
+ ↓
+Evidence
+```
+
+The SoA should also identify the **control owner**.
+
+For example:
+
+| Control             | Control Owner              |
+| ------------------- | -------------------------- |
+| Access Management   | IAM Manager                |
+| Security Awareness  | Security Awareness Manager |
+| Incident Management | SOC Manager                |
+| Supplier Security   | Third-Party Risk Manager   |
+| Backup              | Infrastructure Manager     |
+
+The GRC team may maintain the SoA, but the underlying controls remain the responsibility of their respective control owners.
+
+One important distinction is between **control applicability** and **control effectiveness**.
+
+A control can be:
+
+```text
+Applicable + Effective
+Applicable + Partially Effective
+Applicable + Ineffective
+Applicable + Not Implemented
+```
+
+For example:
+
+```text
+Applicable:
+Yes
+
+Implementation:
+Yes
+
+Effectiveness:
+Partially Effective
+```
+
+This means the organization considers the control necessary but has identified weaknesses in its operation.
+
+The SoA should therefore not be used to hide control deficiencies.
+
+Instead, the deficiencies should be connected to the organization's risk and corrective-action processes.
+
+For example:
+
+```text
+Applicable:
+Yes
+
+Implementation:
+Partial
+
+Gap:
+Quarterly access reviews are not performed
+for two legacy applications.
+
+Risk:
+R-014
+
+Corrective Action:
+Implement access review capability.
+
+Owner:
+IAM Manager
+
+Target Date:
+31 December 2026
+```
+
+Another important field is the **exclusion justification**.
+
+When an organization determines that a control is not applicable, the justification should be specific and related to the organization's circumstances.
+
+A weak justification would be:
+
+> Not applicable.
+
+A stronger justification would explain:
+
+* What the organization does.
+* Why the control does not apply.
+* What is outside the ISMS scope.
+* Whether another party provides the relevant capability.
+* Whether the risk was considered during risk assessment.
+
+For example:
+
+```text
+Control:
+Physical Data Center Security
+
+Applicable:
+No
+
+Justification:
+The ISMS scope does not include organization-owned
+data center facilities. Production infrastructure is
+hosted entirely by contracted cloud service providers.
+Physical infrastructure security is addressed through
+supplier security requirements and contractual controls.
+```
+
+The justification should be reviewed to ensure that the organization has not incorrectly excluded a control simply because responsibility has been outsourced.
+
+Outsourcing does not automatically eliminate organizational risk.
+
+For example:
+
+```text
+Organization
+     ↓
+Cloud Provider
+     ↓
+Physical Infrastructure
+```
+
+The organization may not operate the physical data center, but it may still need to address supplier-related risks and contractual requirements.
+
+The SoA can therefore identify the relationship between organizational responsibility and third-party responsibility.
+
+Another useful field is the **related requirement**.
+
+For example:
+
+```text
+ISO 27001 Control
+       ↓
+Regulatory Requirement
+       ↓
+Contractual Requirement
+       ↓
+Internal Policy
+```
+
+This helps organizations avoid maintaining separate control inventories for every requirement.
+
+A single control may support several obligations.
+
+For example:
+
+```text
+Control:
+Security Logging
+
+Supports:
+ISO 27001
+NIST CSF
+Internal Security Policy
+Customer Contract
+Regulatory Requirement
+```
+
+This is particularly valuable for organizations with multiple compliance obligations.
+
+The SoA should also be version controlled.
+
+A practical document header could contain:
+
+```text
+Document:
+Statement of Applicability
+
+Version:
+2.0
+
+Document Owner:
+GRC Manager
+
+Approved By:
+CISO
+
+Effective Date:
+01 September 2026
+
+Next Review:
+01 September 2027
+```
+
+Changes should be documented.
+
+For example:
+
+```text
+Version 1.0:
+Initial SoA
+
+Version 1.1:
+Added supplier security control
+
+Version 2.0:
+Updated following ISMS scope expansion
+```
+
+The SoA should be reviewed when significant organizational changes occur.
+
+Triggers may include:
+
+* Changes to ISMS scope.
+* New business processes.
+* New technologies.
+* New information assets.
+* Significant risk changes.
+* New regulatory requirements.
+* Major security incidents.
+* New suppliers.
+* Business acquisitions.
+* Major changes to the threat environment.
+* Changes to the organization's risk treatment strategy.
+
+For example:
+
+```text
+New Critical Cloud Service
+        ↓
+New Risk
+        ↓
+Risk Assessment
+        ↓
+Risk Treatment
+        ↓
+Control Selection
+        ↓
+SoA Review
+```
+
+This ensures that the SoA remains aligned with the actual ISMS.
+
+The SoA can also be used as an **audit navigation tool**.
+
+An auditor may select a control from the SoA and ask:
+
+> Why is this control applicable?
+
+The organization should be able to provide:
+
+```text
+Control
+ ↓
+Applicability Justification
+ ↓
+Risk
+ ↓
+Risk Treatment
+ ↓
+Implementation
+ ↓
+Evidence
+```
+
+If the auditor asks:
+
+> How do you know the control is operating effectively?
+
+the organization should be able to continue the chain:
+
+```text
+Evidence
+ ↓
+Control Assessment
+ ↓
+Test Results
+ ↓
+Corrective Actions
+```
+
+This demonstrates traceability throughout the ISMS.
+
+A practical SoA table might look like:
+
+| Control              | Applicable | Justification                    | Risk  | Implementation | Evidence           | Status    |
+| -------------------- | ---------- | -------------------------------- | ----- | -------------- | ------------------ | --------- |
+| Access Control       | Yes        | Addresses access risk            | R-001 | Implemented    | IAM Report         | Effective |
+| Privileged Access    | Yes        | Addresses privileged access risk | R-002 | Partial        | PAM Report         | Partial   |
+| Supplier Security    | Yes        | Critical suppliers exist         | R-005 | Implemented    | Vendor Assessments | Effective |
+| Physical Data Center | No         | No owned data centers in scope   | —     | N/A            | Scope Statement    | N/A       |
+| Security Awareness   | Yes        | Required to reduce human risk    | R-008 | Implemented    | Training Report    | Effective |
+
+The SoA should be kept consistent with the organization's actual control environment.
+
+For example, if the SoA says:
+
+> Control implemented.
+
+but the organization cannot provide evidence that the control exists, there is a traceability problem.
+
+Similarly, if the SoA says:
+
+> Control not applicable.
+
+but the risk register contains a significant risk that clearly relates to the control, the organization should reassess the decision.
+
+This is why the SoA should be maintained as a **living ISMS document** rather than created once for certification and then forgotten.
+
+A useful relationship between the major ISO 27001 documents is:
+
+```text
+ISMS Scope
+    ↓
+Context and Requirements
+    ↓
+Risk Assessment
+    ↓
+Risk Treatment Plan
+    ↓
+Statement of Applicability
+    ↓
+Policies / Procedures
+    ↓
+Controls
+    ↓
+Evidence
+    ↓
+Internal Audit
+    ↓
+Management Review
+    ↓
+Continual Improvement
+```
+
+The SoA sits between risk treatment and operational control implementation.
+
+This makes it a central document within the ISMS.
+
+For a practical exercise, create a mini-SoA for the following risks:
+
+```text
+R-001 – Unauthorized Access
+R-002 – Malware Infection
+R-003 – Data Leakage
+R-004 – Supplier Security Risk
+R-005 – Loss of Critical Data
+```
+
+Select appropriate ISO/IEC 27001:2022 Annex A controls for each risk and create the following fields:
+
+```text
+Control Reference
+Control Name
+Applicable
+Justification
+Risk ID
+Implementation Status
+Control Owner
+Evidence
+Related Policy
+Gap
+```
+
+Then create one example where a control is **not applicable**.
+
+Document a specific justification explaining why the control is outside the organization's circumstances or ISMS scope.
+
+Finally, create one example where a control is **applicable but only partially implemented**.
+
+Document:
+
+```text
+Current Implementation
+Control Gap
+Associated Risk
+Remediation Action
+Control Owner
+Target Date
+```
+
+This exercise demonstrates the difference between:
+
+```text
+Not Applicable
+        ≠
+Not Implemented
+        ≠
+Partially Implemented
+        ≠
+Ineffective
+```
+
+These distinctions are critical when preparing an organization for ISO/IEC 27001 certification or maintaining an existing ISMS.
+
+The key principle is:
+
+> **The Statement of Applicability should provide a defensible explanation of which controls are relevant to the ISMS, why they are applicable or not applicable, how they are implemented, and how they connect to the organization's risks and treatment decisions.**
+
 
 
 

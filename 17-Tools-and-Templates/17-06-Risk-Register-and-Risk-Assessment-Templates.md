@@ -625,5 +625,739 @@ Reassess
 
 The practical objective of a risk register is to provide management with a **current and defensible view of the organization's most important security risks**.
 
+A practical risk assessment should begin by defining the **risk assessment context** before individual risks are scored.
+
+The assessor should understand:
+
+* What business unit is being assessed.
+* What process is involved.
+* Which assets are affected.
+* What information is processed.
+* Which systems support the process.
+* What regulatory requirements apply.
+* Which third parties are involved.
+* What assessment period is being considered.
+* Who owns the risk.
+
+For example:
+
+```text id="a7m3qx"
+Business Process:
+Customer Payment Processing
+
+Critical Assets:
+Payment Application
+Customer Database
+Payment Gateway
+
+Information:
+Customer and Transaction Data
+
+Dependencies:
+Cloud Provider
+Payment Processor
+Identity Provider
+
+Applicable Requirements:
+GDPR
+PCI DSS
+Internal Security Requirements
+
+Risk Owner:
+Head of Payments
+```
+
+Defining this context prevents the assessment from becoming too general.
+
+A risk assessment should then identify the **assets or business processes that could be affected**.
+
+An asset can include:
+
+* Information.
+* Applications.
+* Servers.
+* Networks.
+* Cloud services.
+* Endpoints.
+* Databases.
+* Business processes.
+* Physical facilities.
+* People.
+* Third-party services.
+
+The importance of an asset should be considered when determining risk.
+
+For example:
+
+```text id="q8c4vn"
+Asset A:
+Public Marketing Website
+Business Criticality: Low
+
+Asset B:
+Customer Database
+Business Criticality: High
+
+Asset C:
+Payment Processing Platform
+Business Criticality: Critical
+```
+
+A security weakness affecting the payment platform may therefore require a higher priority than the same weakness affecting a low-criticality system.
+
+The assessor should also identify the **information characteristics** involved.
+
+The CIA triad remains useful:
+
+```text id="x4p7mb"
+Confidentiality
+       +
+Integrity
+       +
+Availability
+```
+
+For example:
+
+| Asset             | Confidentiality | Integrity | Availability |
+| ----------------- | --------------- | --------- | ------------ |
+| Customer Database | High            | High      | High         |
+| Public Website    | Low             | Medium    | High         |
+| Internal Wiki     | Low             | Medium    | Low          |
+
+The organization can use these ratings to help determine potential impact.
+
+A confidentiality breach may result in:
+
+* Privacy violations.
+* Regulatory penalties.
+* Customer notification requirements.
+* Intellectual property loss.
+* Reputational damage.
+
+An integrity failure may result in:
+
+* Incorrect transactions.
+* Fraud.
+* Incorrect business decisions.
+* Corrupted information.
+
+An availability failure may result in:
+
+* Business interruption.
+* Lost revenue.
+* Customer service disruption.
+* Operational delays.
+
+The assessor should identify relevant **threat scenarios**.
+
+Rather than simply writing:
+
+> Malware
+
+the assessment should describe a realistic event:
+
+> A threat actor deploys ransomware after compromising an employee endpoint through a phishing attack.
+
+This creates a scenario that can be analyzed.
+
+Other examples include:
+
+```text id="n8r5wd"
+Threat Scenario 1:
+Credential theft → unauthorized access
+
+Threat Scenario 2:
+Ransomware → system encryption
+
+Threat Scenario 3:
+Cloud misconfiguration → data exposure
+
+Threat Scenario 4:
+Supplier compromise → malicious software introduced
+
+Threat Scenario 5:
+Insider misuse → unauthorized data disclosure
+```
+
+Threat scenarios should be relevant to the organization's environment.
+
+The next step is identifying **vulnerabilities and weaknesses** that could allow the threat scenario to occur.
+
+For example:
+
+```text id="k2v7ps"
+Threat:
+Credential theft
+
+Vulnerabilities:
+- No MFA
+- Weak password controls
+- Excessive privileges
+- Poor monitoring
+```
+
+A single threat can therefore be associated with multiple vulnerabilities.
+
+The assessor should also identify existing controls.
+
+For example:
+
+```text id="g5x9za"
+Threat:
+Credential Theft
+
+Existing Controls:
+- MFA
+- Conditional Access
+- Password Policy
+- EDR
+- SIEM Monitoring
+- Privileged Access Management
+```
+
+However, the presence of a control does not automatically mean that the risk has been adequately managed.
+
+The assessor should consider the **control effectiveness**.
+
+A practical scale might be:
+
+| Rating              | Meaning                                                     |
+| ------------------- | ----------------------------------------------------------- |
+| Effective           | Control is appropriately designed and operating effectively |
+| Mostly Effective    | Minor weaknesses exist                                      |
+| Partially Effective | Significant weaknesses exist                                |
+| Ineffective         | Control does not adequately address the risk                |
+| Not Implemented     | Control does not exist                                      |
+
+For example:
+
+> MFA is implemented for 95% of privileged accounts.
+
+The control exists, but it is not completely effective if the organization's requirement is 100% coverage.
+
+This distinction affects residual risk.
+
+A useful risk assessment record can therefore include:
+
+| Element               | Example             |
+| --------------------- | ------------------- |
+| Threat                | Credential theft    |
+| Vulnerability         | MFA gaps            |
+| Existing Control      | MFA                 |
+| Control Effectiveness | Partially Effective |
+| Impact                | High                |
+| Likelihood            | Possible            |
+| Risk                  | High                |
+
+The assessor should then determine the **inherent likelihood**.
+
+Likelihood should be based on reasonable evidence where available.
+
+Relevant information may include:
+
+* Previous incidents.
+* Threat intelligence.
+* Vulnerability data.
+* Attack frequency.
+* Exposure to the internet.
+* Security control maturity.
+* Industry trends.
+* Threat actor activity.
+* System accessibility.
+* Existing security monitoring.
+
+For example, an internet-facing system with a known critical vulnerability may have a higher likelihood of compromise than an isolated internal system with strong controls.
+
+The assessor should also consider the **frequency of exposure**.
+
+For example:
+
+> A privileged administration interface accessible from the public internet.
+
+may present greater exposure than:
+
+> A privileged administration interface accessible only from a dedicated management network.
+
+The risk assessment should therefore consider the actual environment rather than applying generic assumptions.
+
+Impact assessment should also be evidence-based.
+
+Consider:
+
+```text id="u8q3mv"
+Potential Impact
+
+Financial:
+€2 million
+
+Operational:
+3-day service disruption
+
+Regulatory:
+Potential reporting obligation
+
+Privacy:
+Customer personal data exposed
+
+Reputation:
+Significant customer trust impact
+```
+
+These factors can be consolidated into an overall impact rating according to the organization's methodology.
+
+A practical risk assessment worksheet might therefore look like:
+
+| Risk               | Likelihood | Impact | Inherent Risk |
+| ------------------ | ---------: | -----: | ------------: |
+| Ransomware         |          4 |      5 | 20 – Critical |
+| Data leakage       |          3 |      5 |     15 – High |
+| Insider misuse     |          3 |      4 |     12 – High |
+| Website defacement |          2 |      2 |       4 – Low |
+
+The assessor should then identify whether existing controls reduce the likelihood, impact, or both.
+
+For example:
+
+```text id="5k2n9c"
+Inherent Risk
+     ↓
+Preventive Controls
+     ↓
+Detection Controls
+     ↓
+Response Controls
+     ↓
+Recovery Controls
+     ↓
+Residual Risk
+```
+
+This is important because security controls operate at different stages.
+
+**Preventive controls** attempt to prevent the event.
+
+Examples:
+
+* MFA.
+* Network segmentation.
+* Secure configuration.
+* Least privilege.
+* Encryption.
+
+**Detective controls** identify events.
+
+Examples:
+
+* SIEM.
+* EDR.
+* Intrusion detection.
+* Security monitoring.
+* Audit logs.
+
+**Corrective and response controls** reduce the consequences.
+
+Examples:
+
+* Incident response.
+* Account disabling.
+* Malware containment.
+* Emergency patching.
+
+**Recovery controls** restore operations.
+
+Examples:
+
+* Backups.
+* Disaster recovery.
+* Business continuity.
+* System restoration.
+
+A risk assessment should consider the complete control environment rather than focusing only on preventive controls.
+
+For example:
+
+```text id="v9p6aw"
+Ransomware Risk
+
+Prevent:
+EDR + Email Security
+
+Detect:
+SIEM + SOC Monitoring
+
+Respond:
+Incident Response Plan
+
+Recover:
+Immutable Backups + DR
+
+Result:
+Residual Risk Reduced
+```
+
+The assessor should also consider **control dependencies**.
+
+For example, an organization may claim:
+
+> "We have effective incident response."
+
+But the incident response process may depend on:
+
+* Accurate asset inventory.
+* Reliable logging.
+* SOC monitoring.
+* Contact information.
+* Backup systems.
+* Incident response personnel.
+
+If those dependencies are weak, the effectiveness of the overall control environment may also be reduced.
+
+This is particularly important when assessing complex systems.
+
+Risk assessments should also consider **third-party dependencies**.
+
+For example:
+
+```text id="b3x7kq"
+Business Process
+      ↓
+Internal Application
+      ↓
+Cloud Provider
+      ↓
+Payment Provider
+      ↓
+Customer
+```
+
+A failure at any point in the chain may affect the organization's risk.
+
+Third-party risks may include:
+
+* Supplier compromise.
+* Service outage.
+* Data exposure.
+* Contractual weaknesses.
+* Lack of security assurance.
+* Subcontractor risk.
+* Geographic or jurisdictional exposure.
+
+The risk register should therefore identify important dependencies.
+
+A useful field is:
+
+```text
+Critical Dependencies:
+Cloud Provider
+Payment Processor
+Identity Provider
+Managed SOC
+```
+
+The GRC professional should then determine whether those dependencies are adequately controlled.
+
+Risk assessment should also consider **risk aggregation**.
+
+Several individual risks may appear manageable when viewed independently but create a significant combined exposure.
+
+For example:
+
+```text id="c7w4mq"
+Risk 1:
+Weak MFA
+
+Risk 2:
+Excessive Privileges
+
+Risk 3:
+Insufficient Monitoring
+
+Risk 4:
+Poor Incident Response
+
+        ↓
+
+Combined Exposure:
+High likelihood of prolonged
+unauthorized access
+```
+
+This is why enterprise risk management should not rely exclusively on isolated risk records.
+
+The GRC team should look for relationships between risks.
+
+Another important concept is **risk concentration**.
+
+For example, an organization may depend heavily on a single cloud provider:
+
+```text id="m5j8tv"
+20 Critical Applications
+        ↓
+Single Cloud Provider
+        ↓
+Single Major Dependency
+```
+
+A major outage could therefore affect many systems simultaneously.
+
+The individual application risks may appear moderate, but the shared dependency creates concentration risk.
+
+This should be reflected in enterprise risk reporting.
+
+Risk assessments should also consider **risk appetite and tolerance**.
+
+Risk appetite represents the level and type of risk an organization is willing to pursue or retain in achieving its objectives.
+
+Risk tolerance describes acceptable variation around those objectives.
+
+For example:
+
+> The organization has very low tolerance for unauthorized disclosure of regulated personal data.
+
+This means a privacy-related risk may require treatment even when its numerical score is relatively moderate.
+
+Risk scoring should therefore not be viewed in isolation from management's risk appetite.
+
+A useful comparison is:
+
+```text id="h8q4nx"
+Risk Level
+     +
+Risk Appetite
+     +
+Risk Tolerance
+     ↓
+Treatment Decision
+```
+
+For example:
+
+| Risk                       | Rating   | Appetite | Decision            |
+| -------------------------- | -------- | -------- | ------------------- |
+| Customer data exposure     | High     | Very Low | Mitigate            |
+| Minor website outage       | Medium   | Moderate | Accept              |
+| Critical system compromise | Critical | Very Low | Immediate treatment |
+
+The treatment decision should be documented.
+
+A practical risk treatment register might contain:
+
+```text id="y6r3kp"
+Risk ID:
+R-024
+
+Risk:
+Unauthorized privileged access
+
+Current Risk:
+High
+
+Treatment:
+Mitigate
+
+Treatment Objective:
+Reduce likelihood of unauthorized administrative access.
+
+Actions:
+1. Enforce MFA
+2. Implement PAM
+3. Review privileged accounts
+4. Improve monitoring
+
+Expected Residual Risk:
+Medium
+```
+
+The **expected residual risk** is important because management should understand what the proposed treatment is intended to achieve.
+
+Risk treatment should also have measurable success criteria.
+
+For example:
+
+> Reduce privileged accounts without MFA from 8% to 0%.
+
+This is much more useful than:
+
+> Improve MFA coverage.
+
+The GRC professional should be able to determine objectively whether the action was successful.
+
+Risk treatment plans can contain multiple actions.
+
+For example:
+
+| Action             | Owner              | Target | Measure                     |
+| ------------------ | ------------------ | ------ | --------------------------- |
+| Enable MFA         | IAM                | 30 Sep | 100% coverage               |
+| Deploy PAM         | Security           | 31 Dec | Critical accounts onboarded |
+| Review privileges  | Application Owners | 15 Oct | 100% reviewed               |
+| Improve monitoring | SOC                | 30 Nov | Alert coverage implemented  |
+
+This converts risk management into an actionable program.
+
+Risk assessments should also document **assumptions and limitations**.
+
+For example:
+
+> The assessment assumes that the asset inventory provided by IT is complete and accurate as of the assessment date.
+
+or:
+
+> The assessment did not include physical security controls because the assessment scope was limited to cloud-hosted systems.
+
+This is important because risk assessments are based on information available at a particular point in time.
+
+The assessor should avoid presenting assumptions as facts.
+
+A risk assessment should also identify **information gaps**.
+
+For example:
+
+```text id="r4b7cv"
+Required Information:
+Privileged account inventory
+
+Available:
+Partial
+
+Impact:
+Unable to determine complete MFA coverage
+
+Assessment Result:
+Likelihood rating subject to review
+```
+
+Instead of guessing, the assessor can document the uncertainty.
+
+This improves the credibility of the assessment.
+
+Risk assessment results should be reviewed with the appropriate stakeholders.
+
+Stakeholders may include:
+
+* Business owners.
+* IT owners.
+* Security teams.
+* Risk managers.
+* Compliance teams.
+* Privacy teams.
+* Legal.
+* Senior management.
+
+The purpose of stakeholder review is not to allow stakeholders to arbitrarily reduce risk ratings.
+
+Instead, they should provide additional factual information that may affect the assessment.
+
+For example:
+
+> The assessor initially rated availability impact as High, but the business owner provided evidence that the application has an active-active architecture with a tested recovery capability.
+
+The impact or likelihood assessment may then reasonably change.
+
+All material changes should be documented.
+
+A practical risk assessment workflow is:
+
+```text id="p5q8ny"
+Prepare
+  ↓
+Identify Assets
+  ↓
+Identify Threats
+  ↓
+Identify Vulnerabilities
+  ↓
+Identify Existing Controls
+  ↓
+Assess Likelihood
+  ↓
+Assess Impact
+  ↓
+Calculate Inherent Risk
+  ↓
+Evaluate Controls
+  ↓
+Determine Residual Risk
+  ↓
+Select Treatment
+  ↓
+Assign Owner
+  ↓
+Monitor
+```
+
+A GRC platform can automate much of this process.
+
+For example:
+
+```text id="s7c4vm"
+Risk Created
+     ↓
+Assessment Assigned
+     ↓
+Risk Questionnaire
+     ↓
+Risk Score
+     ↓
+Treatment Plan
+     ↓
+Action Assignment
+     ↓
+Evidence Collection
+     ↓
+Approval
+     ↓
+Monitoring
+```
+
+This becomes increasingly important when an organization manages hundreds or thousands of risks.
+
+A practical exercise is to assess the following scenario:
+
+> A company stores customer personal data in a cloud database. The database is accessible through an application hosted on the internet. MFA is implemented for administrators, but database activity monitoring is limited. Backups are performed daily but recovery testing is performed only once every two years.
+
+Identify:
+
+```text
+Asset:
+Threat:
+Vulnerability:
+Existing Controls:
+Likelihood:
+Impact:
+Inherent Risk:
+Control Effectiveness:
+Residual Risk:
+Treatment:
+Risk Owner:
+```
+
+Then identify whether the most significant concern is:
+
+* Confidentiality.
+* Integrity.
+* Availability.
+* Or a combination of all three.
+
+A second exercise is to compare two risks:
+
+**Risk A**
+
+> Internal employee accidentally deletes a non-critical document repository.
+
+**Risk B**
+
+> Ransomware encrypts the company's customer database.
+
+Both are security risks, but their business consequences are very different.
+
+The GRC professional should therefore avoid treating all security incidents or weaknesses equally.
+
+Risk management is fundamentally about **prioritization**.
+
+The goal is to ensure that limited resources are directed toward the risks that could have the greatest effect on organizational objectives.
+
+
 
 

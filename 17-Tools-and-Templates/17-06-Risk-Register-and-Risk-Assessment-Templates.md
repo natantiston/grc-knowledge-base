@@ -1358,6 +1358,698 @@ Risk management is fundamentally about **prioritization**.
 
 The goal is to ensure that limited resources are directed toward the risks that could have the greatest effect on organizational objectives.
 
+Risk treatment is the process of deciding **what the organization will do about an identified risk** after the risk has been assessed.
+
+A risk assessment without a treatment decision is incomplete. The organization needs to determine whether the risk should be reduced, avoided, transferred, shared, or accepted.
+
+The practical relationship is:
+
+```text
+Inherent Risk
+      ↓
+Existing Controls
+      ↓
+Residual Risk
+      ↓
+Risk Appetite / Tolerance
+      ↓
+Treatment Decision
+      ↓
+Treatment Plan
+      ↓
+Residual Risk After Treatment
+```
+
+The first step is to determine whether the current risk is within the organization's approved **risk appetite and tolerance**.
+
+For example:
+
+| Risk                          | Current Rating | Risk Appetite | Decision            |
+| ----------------------------- | -------------- | ------------- | ------------------- |
+| Critical system compromise    | Critical       | Low           | Mitigate            |
+| Customer data exposure        | High           | Very Low      | Mitigate            |
+| Minor internal service outage | Low            | Moderate      | Accept              |
+| Legacy system vulnerability   | High           | Low           | Mitigate / Transfer |
+
+A risk that exceeds the organization's tolerance normally requires additional treatment.
+
+The main risk treatment options are:
+
+### Risk Mitigation
+
+Risk mitigation means implementing additional controls to reduce the likelihood, impact, or both.
+
+Examples include:
+
+* MFA.
+* Encryption.
+* Network segmentation.
+* Security monitoring.
+* Vulnerability management.
+* Backup improvements.
+* Access reviews.
+* Security awareness training.
+
+For example:
+
+```text id="8r4x7n"
+Risk:
+Unauthorized privileged access
+
+Current Risk:
+High
+
+Treatment:
+Mitigate
+
+Actions:
+- Implement PAM
+- Enforce MFA
+- Remove excessive privileges
+- Conduct quarterly reviews
+```
+
+The objective should be measurable.
+
+Instead of:
+
+> Improve privileged access security.
+
+Use:
+
+> Reduce privileged accounts without MFA from 8% to 0% and complete quarterly access reviews for 100% of privileged accounts.
+
+This provides a clear definition of success.
+
+### Risk Avoidance
+
+Risk avoidance means eliminating the activity that creates the risk.
+
+For example:
+
+> An organization decides not to deploy a highly sensitive application on an unsupported legacy platform because the platform cannot meet required security controls.
+
+The organization may instead:
+
+* Replace the system.
+* Cancel the service.
+* Stop a particular business process.
+* Remove a high-risk feature.
+* Change the architecture.
+
+The basic concept is:
+
+```text id="4m7q2p"
+Risk Source
+    ↓
+Remove Activity
+    ↓
+Risk Eliminated or Significantly Reduced
+```
+
+Risk avoidance can be effective, but it may also have business consequences.
+
+The organization should therefore consider whether avoiding the risk prevents the business from achieving an important objective.
+
+### Risk Transfer or Sharing
+
+Risk transfer or sharing involves moving or distributing some consequences of the risk to another party.
+
+Examples include:
+
+* Cyber insurance.
+* Outsourcing.
+* Contractual requirements.
+* Indemnification clauses.
+* Service-level agreements.
+* Supplier security obligations.
+
+However, transferring financial consequences does not necessarily eliminate the underlying cybersecurity risk.
+
+For example:
+
+> Purchasing cyber insurance does not prevent a ransomware attack.
+
+Similarly:
+
+> Outsourcing a cloud service does not transfer all responsibility for data protection and security.
+
+The organization should understand exactly which responsibilities are transferred and which remain.
+
+### Risk Acceptance
+
+Risk acceptance means the organization knowingly decides to retain the risk.
+
+Acceptance may be appropriate when:
+
+* The risk is within tolerance.
+* Treatment cost exceeds expected benefit.
+* The risk cannot reasonably be reduced further.
+* The activity provides significant business value.
+* Compensating controls sufficiently reduce exposure.
+
+Acceptance should be formal.
+
+A practical risk acceptance record can contain:
+
+```text id="q7k3mz"
+RISK ACCEPTANCE
+
+Risk ID:
+Risk Description:
+
+Current Risk Rating:
+
+Reason for Acceptance:
+
+Existing Controls:
+
+Compensating Controls:
+
+Residual Risk:
+
+Risk Owner:
+
+Acceptance Authority:
+
+Acceptance Date:
+
+Expiration / Review Date:
+
+Conditions:
+
+Comments:
+```
+
+Risk acceptance should not simply be recorded as:
+
+> "Management accepts the risk."
+
+It should explain **why** the risk is being accepted.
+
+For example:
+
+> The legacy application cannot support MFA and is scheduled for replacement within six months. Network isolation, restricted administrative access, enhanced logging, and continuous monitoring have been implemented. The residual risk is assessed as Medium and is accepted temporarily until system replacement.
+
+This is much more defensible.
+
+Risk treatment should also consider **cost versus risk reduction**.
+
+Suppose:
+
+```text id="7m5p8c"
+Current Risk:
+High
+
+Treatment Option A:
+€10,000
+Risk reduced to Medium
+
+Treatment Option B:
+€500,000
+Risk reduced to Low
+
+Treatment Option C:
+€1,000,000
+Risk eliminated
+```
+
+The organization needs to determine whether the additional reduction in risk justifies the additional investment.
+
+This is not purely a cybersecurity decision.
+
+It is a **business risk decision**.
+
+The GRC professional should therefore provide management with information that supports the decision.
+
+A treatment analysis can look like:
+
+| Treatment          |      Cost | Risk Reduction | Complexity | Recommendation |
+| ------------------ | --------: | -------------- | ---------- | -------------- |
+| MFA                |       Low | High           | Low        | Immediate      |
+| PAM                |      High | Very High      | Medium     | Strategic      |
+| Network isolation  |    Medium | High           | Medium     | Immediate      |
+| System replacement | Very High | Very High      | High       | Long-term      |
+
+Risk treatment can also involve **multiple controls**.
+
+For example, ransomware risk may require:
+
+```text id="n2x7qp"
+Email Security
+      +
+Endpoint Protection
+      +
+Patch Management
+      +
+Network Segmentation
+      +
+Backup
+      +
+Incident Response
+      +
+Recovery Testing
+```
+
+No single control may be sufficient.
+
+The treatment plan should therefore address the risk as a system of controls.
+
+A treatment plan should identify specific actions.
+
+For example:
+
+| Action                      | Owner          | Target Date | Success Measure            |
+| --------------------------- | -------------- | ----------- | -------------------------- |
+| Deploy EDR                  | SOC Manager    | 30 Sep      | 100% endpoints covered     |
+| Implement immutable backups | Infrastructure | 15 Oct      | Critical systems protected |
+| Test recovery               | BCM Manager    | 30 Nov      | Recovery test completed    |
+| Conduct ransomware exercise | CISO           | 15 Dec      | Exercise completed         |
+
+Each action should contribute to reducing the overall risk.
+
+The GRC professional should also identify **dependencies between treatment actions**.
+
+For example:
+
+```text id="d5q8vy"
+Asset Inventory
+      ↓
+PAM Deployment
+      ↓
+Privileged Account Migration
+      ↓
+MFA Enforcement
+      ↓
+Monitoring
+      ↓
+Validation
+```
+
+If the asset inventory is incomplete, the PAM implementation may also be incomplete.
+
+Treatment planning should therefore consider sequencing.
+
+Some treatment actions are **preventive**, while others reduce impact after an event occurs.
+
+For example:
+
+```text id="x3m8kt"
+Risk:
+Ransomware
+
+Preventive:
+Patch Management
+Email Security
+EDR
+MFA
+
+Detective:
+SIEM
+SOC Monitoring
+
+Response:
+Incident Response
+
+Recovery:
+Immutable Backup
+Disaster Recovery
+```
+
+A mature treatment plan normally uses multiple layers.
+
+Risk treatment should also consider **compensating controls**.
+
+Suppose a legacy application cannot support modern authentication.
+
+The organization might implement:
+
+* Network isolation.
+* Privileged access gateway.
+* Restricted administrative accounts.
+* Additional monitoring.
+* Stronger password controls.
+* Manual access reviews.
+
+The risk register should document that these controls are compensating for the original weakness.
+
+However, compensating controls should be periodically reviewed.
+
+```text id="r9k4wp"
+Original Gap
+     ↓
+Compensating Control
+     ↓
+Residual Risk
+     ↓
+Review
+     ↓
+Permanent Solution
+```
+
+Temporary compensating controls should not become forgotten permanent arrangements.
+
+Treatment actions should also have **closure criteria**.
+
+For example:
+
+> MFA implementation is considered complete when 100% of privileged accounts are enrolled and enforcement is confirmed through a system-generated report.
+
+This is better than:
+
+> MFA implementation completed.
+
+The closure criteria make validation objective.
+
+The same principle can be applied to other actions.
+
+| Action                         | Closure Criteria                                              |
+| ------------------------------ | ------------------------------------------------------------- |
+| Patch critical vulnerabilities | 100% critical vulnerabilities remediated or formally excepted |
+| Implement access review        | 100% required accounts reviewed                               |
+| Deploy EDR                     | 100% in-scope endpoints reporting                             |
+| Update policy                  | Policy approved and published                                 |
+| Conduct DR test                | Recovery objectives successfully demonstrated                 |
+
+This creates measurable remediation.
+
+Risk treatment should also include **expected residual risk**.
+
+For example:
+
+```text id="p8c6zy"
+Current Risk:
+High
+
+Treatment:
+Implement MFA + PAM
+
+Expected Likelihood:
+Low
+
+Expected Impact:
+High
+
+Expected Residual Risk:
+Medium
+```
+
+This allows management to understand the expected result before approving the investment.
+
+After implementation, the organization should calculate or reassess the **actual residual risk**.
+
+```text id="w3n7mx"
+Expected Residual Risk
+        ↓
+Treatment Implemented
+        ↓
+Validation
+        ↓
+Actual Residual Risk
+```
+
+The actual result may differ from the expected result.
+
+For example:
+
+> The organization expected the risk to fall from High to Medium, but 15% of privileged accounts remained outside the new PAM solution.
+
+The residual risk may therefore remain High.
+
+This is why treatment must be followed by validation.
+
+Risk treatment also needs **monitoring indicators**.
+
+Useful indicators include:
+
+* Number of unresolved high-risk findings.
+* Percentage of privileged accounts using MFA.
+* Percentage of critical vulnerabilities remediated.
+* Number of overdue remediation actions.
+* Number of systems without EDR.
+* Backup recovery success rate.
+* Third-party assessment completion rate.
+
+These indicators can demonstrate whether treatment is actually improving the risk profile.
+
+For example:
+
+```text id="7f2q4m"
+Privileged MFA Coverage
+
+January:   82%
+March:     89%
+June:      96%
+August:    100%
+```
+
+This provides evidence of improvement.
+
+Risk treatment should also be integrated with the **risk register**.
+
+For example:
+
+| Risk ID | Risk          | Current Risk | Treatment | Owner      | Status      |
+| ------- | ------------- | ------------ | --------- | ---------- | ----------- |
+| R-001   | Ransomware    | High         | Mitigate  | CISO       | In Progress |
+| R-002   | Data leakage  | High         | Mitigate  | DPO        | Open        |
+| R-003   | Legacy system | High         | Avoid     | CIO        | Planned     |
+| R-004   | Minor outage  | Low          | Accept    | IT Manager | Accepted    |
+
+This allows management to see both risk exposure and treatment progress.
+
+Risk treatment should also connect to the organization's **security roadmap**.
+
+For example:
+
+```text id="z6t8qp"
+Risk Assessment
+      ↓
+High-Risk Issues
+      ↓
+Treatment Decisions
+      ↓
+Security Initiatives
+      ↓
+Budget
+      ↓
+Implementation
+      ↓
+Risk Reduction
+```
+
+This is one of the most valuable functions of GRC.
+
+GRC helps translate identified risks into **business decisions and security investments**.
+
+A GRC professional may therefore need to explain to management:
+
+> "The organization has eight high-risk findings. Four can be addressed through existing capabilities, two require additional technology investment, and two require business process changes."
+
+This is more useful than simply presenting a risk score.
+
+Risk treatment should also be reviewed when circumstances change.
+
+Triggers include:
+
+* New vulnerabilities.
+* New threat intelligence.
+* Security incidents.
+* Major system changes.
+* New regulations.
+* New suppliers.
+* Organizational restructuring.
+* Significant changes in business processes.
+* Changes in risk appetite.
+
+For example, a risk previously accepted as Medium may become High after a new vulnerability is discovered.
+
+Therefore:
+
+> **Risk acceptance is not necessarily permanent.**
+
+Risk acceptance should have a review mechanism.
+
+A practical risk acceptance lifecycle is:
+
+```text id="c9m5bx"
+Risk Identified
+      ↓
+Risk Assessed
+      ↓
+Treatment Considered
+      ↓
+Risk Accepted
+      ↓
+Monitoring
+      ↓
+Periodic Review
+      ↓
+Reassess
+      ↓
+Accept / Treat / Avoid
+```
+
+A practical exercise is to create a risk treatment plan for this scenario:
+
+> A company's customer database does not have encryption at rest. The database contains sensitive personal information. The database is hosted in a cloud environment with restricted network access and strong administrator authentication.
+
+Determine:
+
+```text id="t5y7qm"
+Risk:
+Threat:
+Vulnerability:
+Existing Controls:
+Inherent Risk:
+Treatment Option:
+Treatment Actions:
+Risk Owner:
+Expected Residual Risk:
+Closure Criteria:
+```
+
+A second exercise is to compare the four treatment options for the same risk.
+
+| Treatment | Example                                  |
+| --------- | ---------------------------------------- |
+| Mitigate  | Implement database encryption            |
+| Avoid     | Stop storing the sensitive information   |
+| Transfer  | Use contractual and insurance mechanisms |
+| Accept    | Retain the risk with formal approval     |
+
+Then determine which option provides the best balance between **risk reduction, cost, operational impact, and business objectives**.
+
+A third exercise is to create a treatment plan for a high-risk vulnerability.
+
+Assume:
+
+> A critical internet-facing application contains an exploitable vulnerability, but immediate patching would cause significant business disruption.
+
+The GRC professional should consider:
+
+```text id="q2w6cn"
+Immediate Risk
+      ↓
+Temporary Compensating Controls
+      ↓
+Business Impact Analysis
+      ↓
+Emergency Remediation Plan
+      ↓
+Permanent Fix
+      ↓
+Validation
+      ↓
+Risk Reassessment
+```
+
+Possible temporary controls might include:
+
+* Restricting network access.
+* Disabling vulnerable functionality.
+* Increasing monitoring.
+* Applying virtual patching where appropriate.
+* Restricting administrative access.
+
+The permanent remediation should still be tracked.
+
+The key principle is:
+
+> **A compensating control manages the risk; it does not automatically eliminate the underlying vulnerability.**
+
+Another important concept is **risk treatment effectiveness**.
+
+The GRC professional should ask:
+
+> Did the treatment actually reduce the risk?
+
+For example:
+
+```text id="p4z9xm"
+Before Treatment:
+Likelihood = 4
+Impact = 5
+Risk = 20
+
+After Treatment:
+Likelihood = 2
+Impact = 5
+Risk = 10
+```
+
+The treatment reduced the likelihood but did not change the potential impact.
+
+This is perfectly reasonable.
+
+Controls often affect likelihood more than impact.
+
+Other controls may primarily reduce impact.
+
+For example:
+
+```text id="m7x3qv"
+Preventive Controls
+       ↓
+Reduce Likelihood
+
+Recovery Controls
+       ↓
+Reduce Impact
+```
+
+A mature risk assessment therefore considers how each control changes the risk characteristics.
+
+Risk treatment is ultimately about making informed decisions under uncertainty.
+
+The GRC professional does not need to eliminate every risk.
+
+Instead, the goal is to ensure that:
+
+* Risks are understood.
+* Risks are prioritized.
+* Treatment decisions are documented.
+* Responsibilities are assigned.
+* Resources are allocated appropriately.
+* Residual risks are visible.
+* Management accepts risks consciously.
+* Treatment effectiveness is measured.
+
+The complete practical cycle is:
+
+```text id="k8r2vx"
+Identify Risk
+      ↓
+Assess Risk
+      ↓
+Determine Inherent Risk
+      ↓
+Evaluate Existing Controls
+      ↓
+Determine Residual Risk
+      ↓
+Compare With Risk Appetite
+      ↓
+Select Treatment
+      ↓
+Implement Actions
+      ↓
+Validate
+      ↓
+Reassess Residual Risk
+      ↓
+Monitor
+```
+
+A strong GRC professional should be able to take a risk from the initial identification stage all the way through **treatment, validation, and ongoing monitoring**.
+
+That is what transforms risk management from a spreadsheet exercise into an effective governance process.
+
+The most important principle is:
+
+> **Risk treatment should result in measurable changes to the organization's risk exposure, not simply the completion of security activities.**
+
+
 
 
 

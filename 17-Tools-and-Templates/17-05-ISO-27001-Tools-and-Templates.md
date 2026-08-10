@@ -1366,6 +1366,843 @@ The key principle is:
 
 > **The Statement of Applicability should provide a defensible explanation of which controls are relevant to the ISMS, why they are applicable or not applicable, how they are implemented, and how they connect to the organization's risks and treatment decisions.**
 
+Once the applicable controls have been identified and documented in the Statement of Applicability, the next step is to connect those controls to the organization's **ISMS risk assessment and risk treatment process**.
+
+The purpose of the ISMS risk assessment is to identify information security risks, determine their significance, and provide a rational basis for selecting appropriate risk treatment options and controls.
+
+A practical relationship is:
+
+```text
+Assets / Processes
+       ↓
+Threats and Vulnerabilities
+       ↓
+Risk Identification
+       ↓
+Risk Analysis
+       ↓
+Risk Evaluation
+       ↓
+Risk Treatment
+       ↓
+Control Selection
+       ↓
+Implementation
+       ↓
+Residual Risk
+```
+
+The risk assessment template should provide enough information for the organization to understand why a particular control was selected.
+
+A practical **ISMS Risk Assessment Template** can contain:
+
+```text
+ISMS RISK ASSESSMENT
+
+Risk ID:
+
+Asset / Process:
+
+Asset Owner:
+
+Business Function:
+
+Threat:
+
+Vulnerability:
+
+Risk Scenario:
+
+Existing Controls:
+
+Likelihood:
+
+Impact:
+
+Inherent Risk:
+
+Risk Appetite / Criteria:
+
+Risk Rating:
+
+Risk Treatment Decision:
+
+Additional Controls Required:
+
+Risk Owner:
+
+Target Date:
+
+Residual Likelihood:
+
+Residual Impact:
+
+Residual Risk:
+
+Risk Acceptance:
+
+Evidence:
+
+Assessment Date:
+
+Next Review:
+
+Comments:
+```
+
+The first step is identifying the **asset, process, or business activity** affected by the risk.
+
+For example:
+
+```text
+Asset:
+Customer Database
+
+Business Process:
+Customer Account Management
+
+Information:
+Personally Identifiable Information
+
+Owner:
+Customer Operations Manager
+```
+
+The assessment should then identify the relevant threat.
+
+For example:
+
+```text
+Threat:
+Unauthorized access
+
+Vulnerability:
+Excessive user privileges
+
+Risk Scenario:
+An employee with excessive privileges could access
+customer information beyond their business requirements.
+```
+
+A well-written risk scenario should explain the relationship between the threat, vulnerability, and potential consequence.
+
+For example:
+
+> Excessive privileges could allow an unauthorized employee to access sensitive customer information, resulting in data disclosure, regulatory penalties, financial loss, and reputational damage.
+
+This is more useful than simply recording:
+
+> Data breach.
+
+The GRC professional should be able to understand what could happen and why it matters.
+
+Risk analysis normally considers at least two major dimensions:
+
+```text
+Likelihood
+    +
+Impact
+    ↓
+Risk Level
+```
+
+A simple scoring model may use a 1–5 scale.
+
+| Score | Likelihood     |
+| ----: | -------------- |
+|     1 | Rare           |
+|     2 | Unlikely       |
+|     3 | Possible       |
+|     4 | Likely         |
+|     5 | Almost Certain |
+
+Impact can similarly be assessed:
+
+| Score | Impact        |
+| ----: | ------------- |
+|     1 | Insignificant |
+|     2 | Minor         |
+|     3 | Moderate      |
+|     4 | Major         |
+|     5 | Severe        |
+
+A simple risk calculation can then be:
+
+```text
+Risk Score = Likelihood × Impact
+```
+
+For example:
+
+```text
+Likelihood = 4
+
+Impact = 5
+
+Risk Score = 4 × 5 = 20
+```
+
+The organization may classify 20 as High or Critical depending on its defined risk criteria.
+
+The important point is that the organization should use a **documented and consistently applied methodology**.
+
+The risk matrix might look like:
+
+| Likelihood \ Impact |  1 |  2 |  3 |  4 |  5 |
+| ------------------- | -: | -: | -: | -: | -: |
+| 5                   |  5 | 10 | 15 | 20 | 25 |
+| 4                   |  4 |  8 | 12 | 16 | 20 |
+| 3                   |  3 |  6 |  9 | 12 | 15 |
+| 2                   |  2 |  4 |  6 |  8 | 10 |
+| 1                   |  1 |  2 |  3 |  4 |  5 |
+
+The organization should then define what the scores mean.
+
+For example:
+
+| Score | Risk Level | Typical Treatment                |
+| ----: | ---------- | -------------------------------- |
+|   1–4 | Low        | Accept / Monitor                 |
+|   5–9 | Medium     | Treat / Monitor                  |
+| 10–16 | High       | Treatment Required               |
+| 17–25 | Critical   | Immediate Treatment / Escalation |
+
+The actual thresholds should be established by the organization and documented in its risk methodology.
+
+The next step is identifying **existing controls**.
+
+For example:
+
+```text
+Risk:
+Unauthorized access to customer database
+
+Existing Controls:
+- Role-based access
+- MFA
+- Access approval
+- Quarterly access review
+- Privileged access monitoring
+```
+
+This allows the organization to determine whether existing controls are already reducing the risk.
+
+The assessment should distinguish between **inherent risk** and **residual risk**.
+
+Inherent risk represents the level of risk before considering the effectiveness of existing controls.
+
+Residual risk represents the remaining risk after controls and treatment measures are considered.
+
+For example:
+
+```text
+Inherent Risk:
+Likelihood = 5
+Impact = 5
+Risk = 25
+Critical
+
+Existing Controls:
+MFA
+RBAC
+PAM
+Access Reviews
+
+Residual Risk:
+Likelihood = 2
+Impact = 5
+Risk = 10
+High
+```
+
+The controls have reduced the likelihood, but the potential impact remains significant.
+
+This distinction is extremely important in an ISMS.
+
+A control does not necessarily eliminate a risk.
+
+It may simply reduce the probability or impact of the risk occurring.
+
+The risk treatment plan should then identify what the organization intends to do with the remaining risk.
+
+The primary treatment options are:
+
+```text
+Avoid
+Reduce / Modify
+Share / Transfer
+Retain
+```
+
+For example:
+
+**Avoid**
+
+> Discontinue a high-risk business activity.
+
+**Reduce / Modify**
+
+> Implement additional security controls.
+
+**Share / Transfer**
+
+> Transfer some financial or operational consequences through insurance or contractual arrangements.
+
+**Retain**
+
+> Accept the remaining risk when it is within the organization's defined risk acceptance criteria.
+
+The selected treatment should be documented.
+
+For example:
+
+```text
+Risk:
+R-014 – Privileged Access Risk
+
+Inherent Risk:
+Critical
+
+Treatment:
+Reduce
+
+Actions:
+Implement PAM
+Enforce MFA
+Perform quarterly access reviews
+
+Target Residual Risk:
+Medium
+```
+
+The treatment plan should identify specific actions rather than vague statements.
+
+A weak treatment action would be:
+
+> Improve security.
+
+A stronger action would be:
+
+> Implement centralized privileged access management for all production infrastructure and require MFA for privileged sessions.
+
+The second statement can be assigned, measured, and verified.
+
+A practical **ISMS Risk Treatment Template** can contain:
+
+```text
+RISK TREATMENT PLAN
+
+Risk ID:
+
+Risk Description:
+
+Current Risk Rating:
+
+Treatment Option:
+
+Treatment Objective:
+
+Required Control:
+
+Control Reference:
+
+Treatment Action:
+
+Action Owner:
+
+Priority:
+
+Resources Required:
+
+Target Date:
+
+Milestone:
+
+Expected Risk Reduction:
+
+Residual Risk Target:
+
+Status:
+
+Evidence:
+
+Validation Method:
+
+Approval:
+
+Comments:
+```
+
+Each treatment action should have a clear owner.
+
+For example:
+
+| Risk              | Treatment                  | Owner                  | Target |
+| ----------------- | -------------------------- | ---------------------- | ------ |
+| Privileged Access | Implement PAM              | IAM Manager            | Q4     |
+| Data Leakage      | Implement DLP              | Security Manager       | Q3     |
+| Supplier Risk     | Vendor reassessment        | Vendor Manager         | Q3     |
+| Backup Failure    | Implement recovery testing | Infrastructure Manager | Q4     |
+
+This creates accountability.
+
+Treatment actions should also have measurable outcomes.
+
+For example:
+
+```text
+Current:
+30% of privileged accounts covered by PAM
+
+Target:
+100% of privileged accounts covered by PAM
+```
+
+This is better than:
+
+> Implement PAM.
+
+The GRC professional should be able to determine whether the treatment action has actually achieved its intended objective.
+
+The risk treatment process should also identify the **expected residual risk**.
+
+For example:
+
+```text
+Current Risk:
+High
+
+Treatment:
+Implement MFA + PAM
+
+Expected Residual Risk:
+Medium
+```
+
+After implementation, the organization should reassess the risk.
+
+```text
+Before Treatment
+       ↓
+High Risk
+       ↓
+Treatment Implemented
+       ↓
+Control Validated
+       ↓
+Risk Reassessment
+       ↓
+Residual Risk
+```
+
+The actual residual risk may be different from the expected residual risk.
+
+For example:
+
+```text
+Expected:
+Medium
+
+Actual:
+High
+```
+
+This indicates that the treatment did not reduce the risk as expected.
+
+The organization may then need additional treatment.
+
+Risk treatment should therefore be considered a continuous process rather than a one-time activity.
+
+The risk register can connect all these activities.
+
+For example:
+
+| Risk ID | Inherent | Treatment       | Residual | Owner            | Status      |
+| ------- | -------- | --------------- | -------- | ---------------- | ----------- |
+| R-001   | Critical | PAM             | High     | IAM Manager      | In Progress |
+| R-002   | High     | DLP             | Medium   | Security Manager | Implemented |
+| R-003   | High     | Vendor Controls | Medium   | Vendor Manager   | In Progress |
+| R-004   | Medium   | Backup Testing  | Low      | Infrastructure   | Complete    |
+
+This provides management with a consolidated view.
+
+The **ISMS risk assessment** should also consider different types of impact.
+
+Depending on the organization's methodology, impact may include:
+
+* Confidentiality.
+* Integrity.
+* Availability.
+* Privacy.
+* Financial impact.
+* Legal impact.
+* Regulatory impact.
+* Operational impact.
+* Reputational impact.
+* Customer impact.
+
+For example:
+
+```text
+Confidentiality: High
+Integrity:       Medium
+Availability:    Low
+Privacy:         High
+Regulatory:      High
+Reputation:      High
+```
+
+The organization can then determine an overall impact rating based on its defined methodology.
+
+This is particularly useful for organizations handling sensitive personal, financial, health, or customer information.
+
+Risk assessment should also consider **business context**.
+
+The same vulnerability can create different levels of risk for different organizations.
+
+For example:
+
+```text
+Vulnerability:
+Database unavailable for 4 hours
+```
+
+For a non-critical internal application, the impact might be Medium.
+
+For a critical payment system, the impact could be Critical.
+
+Risk assessment should therefore not rely entirely on technical severity.
+
+The GRC professional must understand the business consequences.
+
+This is one reason GRC professionals need to work closely with:
+
+* Business owners.
+* IT teams.
+* Security teams.
+* Legal.
+* Compliance.
+* Privacy.
+* Procurement.
+* Senior management.
+
+The treatment plan should also identify **dependencies**.
+
+For example:
+
+```text
+Treatment:
+Implement MFA
+
+Dependencies:
+IAM platform
+Identity provider
+Application compatibility
+User enrollment
+Help desk support
+```
+
+If a treatment depends on another project, the risk treatment plan should identify that dependency.
+
+This helps prevent unrealistic treatment deadlines.
+
+The organization should also document **risk acceptance criteria**.
+
+For example:
+
+```text
+Risk Level:
+Low
+
+Treatment:
+Risk may be accepted by business owner.
+
+Risk Level:
+High
+
+Treatment:
+Requires documented management approval.
+
+Risk Level:
+Critical
+
+Treatment:
+Requires executive escalation and formal
+treatment decision.
+```
+
+The exact authority levels should be defined in the organization's risk management methodology.
+
+Risk acceptance should not be confused with ignoring the risk.
+
+A formal risk acceptance should document:
+
+```text
+Risk
+ ↓
+Reason for Acceptance
+ ↓
+Residual Risk
+ ↓
+Business Owner
+ ↓
+Approval Authority
+ ↓
+Expiration / Review Date
+```
+
+For example:
+
+```text
+Risk:
+Legacy Application Vulnerability
+
+Residual Risk:
+High
+
+Reason:
+Replacement project scheduled for Q1 2027.
+
+Compensating Controls:
+Network isolation
+Restricted administrative access
+Enhanced monitoring
+
+Accepted By:
+Business Owner
+
+Approval:
+CISO
+
+Review Date:
+31 December 2026
+```
+
+This makes the acceptance decision accountable and time-bound.
+
+Risk treatment should also be connected to the **Statement of Applicability**.
+
+For example:
+
+```text
+Risk R-014
+     ↓
+Treatment Decision
+     ↓
+Selected Control
+     ↓
+SoA
+     ↓
+Implementation
+     ↓
+Evidence
+```
+
+The SoA records the control decision, while the risk treatment documentation explains why the control was selected.
+
+This creates a strong audit trail.
+
+The GRC professional should be able to demonstrate:
+
+> This risk was identified, evaluated, treated, and linked to a specific control.
+
+This is much stronger than simply stating:
+
+> We selected the control because ISO 27001 contains it.
+
+The organization should also avoid selecting controls without understanding the risk they are intended to address.
+
+For example:
+
+```text
+Weak Approach:
+
+ISO Control
+     ↓
+Implement Control
+     ↓
+Find Risk Later
+```
+
+A stronger risk-based approach is:
+
+```text
+Risk
+     ↓
+Risk Treatment
+     ↓
+Control Selection
+     ↓
+Implementation
+     ↓
+Validation
+```
+
+The organization should also consider whether a treatment introduces **new risks**.
+
+For example, implementing a new cloud security platform may reduce cybersecurity risk but introduce:
+
+* Supplier dependency.
+* Data residency concerns.
+* Privacy considerations.
+* Integration risks.
+* Availability risks.
+* New administrative privileges.
+
+Therefore, significant treatments should be considered within the broader risk management process.
+
+A practical **Risk Treatment Tracking Table** might look like:
+
+| Risk  | Treatment Action          | Owner            | Due Date | Status      | Expected Residual Risk |
+| ----- | ------------------------- | ---------------- | -------- | ----------- | ---------------------- |
+| R-001 | Implement PAM             | IAM Manager      | Q4       | In Progress | Medium                 |
+| R-002 | Deploy DLP                | Security Manager | Q3       | Complete    | Medium                 |
+| R-003 | Reassess critical vendors | Vendor Manager   | Q3       | In Progress | Low                    |
+| R-004 | Conduct recovery testing  | Infrastructure   | Q4       | Planned     | Low                    |
+
+The treatment status should be periodically reviewed.
+
+A simple status model could be:
+
+```text
+Not Started
+     ↓
+Planned
+     ↓
+In Progress
+     ↓
+Implemented
+     ↓
+Validated
+     ↓
+Closed
+```
+
+The **Validated** stage is particularly important.
+
+A treatment should not automatically be considered complete simply because the technical implementation has finished.
+
+For example:
+
+> PAM was installed.
+
+does not necessarily mean:
+
+> Privileged access risk has been reduced.
+
+The GRC team should verify that the control operates as intended.
+
+For example:
+
+```text
+PAM Installed
+      ↓
+Accounts Onboarded
+      ↓
+Policies Configured
+      ↓
+MFA Enforced
+      ↓
+Privileged Sessions Monitored
+      ↓
+Control Tested
+      ↓
+Treatment Validated
+```
+
+This provides stronger evidence that risk treatment has achieved its objective.
+
+For a practical exercise, create an ISMS risk assessment for:
+
+> **Risk:** Unauthorized access to a customer database.
+
+Use the following information:
+
+```text
+Asset:
+Customer Database
+
+Threat:
+Unauthorized access
+
+Vulnerability:
+Excessive user privileges
+
+Existing Controls:
+MFA
+RBAC
+Access Reviews
+
+Likelihood:
+4
+
+Impact:
+5
+```
+
+Calculate the inherent risk and document:
+
+```text
+Risk ID
+Risk Scenario
+Existing Controls
+Inherent Risk
+Treatment Decision
+Additional Controls
+Risk Owner
+Target Date
+Expected Residual Risk
+```
+
+Then create a treatment plan for the risk.
+
+For example:
+
+```text
+Treatment:
+Reduce
+
+Additional Controls:
+Privileged Access Management
+Enhanced Access Monitoring
+Quarterly Access Review
+
+Owner:
+IAM Manager
+
+Target:
+31 December 2026
+```
+
+Finally, reassess the risk after the proposed controls have been implemented.
+
+The exercise should demonstrate the complete relationship:
+
+```text
+Risk Identification
+        ↓
+Risk Assessment
+        ↓
+Risk Evaluation
+        ↓
+Risk Treatment
+        ↓
+Control Selection
+        ↓
+Control Implementation
+        ↓
+Residual Risk Assessment
+        ↓
+Risk Acceptance / Further Treatment
+```
+
+The key principle is:
+
+> **ISO 27001 controls should be connected to the organization's actual information security risks and treatment decisions.**
+
+A strong ISMS does not implement controls simply because they appear in a standard. It determines what the organization needs to protect, identifies the risks, evaluates those risks, selects appropriate treatments and controls, implements them, and then verifies whether the remaining risk is acceptable.
+:::
+
 
 
 

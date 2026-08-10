@@ -1998,6 +1998,997 @@ The key principle is:
 
 > **Control testing provides objective evidence that a control is appropriately designed, implemented, and operating as intended, while identifying exceptions that may require risk treatment or remediation.**
 
+Control testing depends heavily on the quality, completeness, and reliability of the evidence collected. A **Control Evidence Collection Template** provides a structured way to identify, request, receive, validate, organize, and retain evidence supporting control assessments.
+
+The purpose is not simply to collect documents. The objective is to establish a clear relationship between:
+
+```text
+Control
+   ↓
+Requirement
+   ↓
+Evidence
+   ↓
+Testing
+   ↓
+Assessment Result
+```
+
+Evidence should demonstrate that the control exists, has been implemented, operates as required, and can be independently verified.
+
+For example, if the control requires quarterly privileged access reviews, a policy stating that access reviews are required is not sufficient evidence that the reviews actually occurred.
+
+The organization may need:
+
+```text
+Policy
+   +
+Access Review Report
+   +
+Reviewer Approval
+   +
+Account Population
+   +
+Exception Records
+```
+
+A practical **Control Evidence Collection Template** can contain:
+
+```text
+CONTROL EVIDENCE COLLECTION
+
+Evidence ID:
+
+Assessment ID:
+
+Control ID:
+
+Control Name:
+
+Control Objective:
+
+Evidence Requirement:
+
+Evidence Description:
+
+Evidence Type:
+
+Evidence Owner:
+
+Evidence Source:
+
+Assessment Period:
+
+Evidence Date:
+
+Date Requested:
+
+Date Received:
+
+Evidence Location:
+
+Evidence Classification:
+
+Evidence Status:
+
+Completeness:
+
+Relevance:
+
+Reliability:
+
+Authenticity:
+
+Period Covered:
+
+Related Test:
+
+Evidence Reviewed By:
+
+Review Date:
+
+Assessment Result:
+
+Exception:
+
+Comments:
+```
+
+The first step is to define the **evidence requirement**.
+
+The evidence requirement should explain what the assessor needs to demonstrate.
+
+For example:
+
+```text
+Control:
+Privileged Access Review
+
+Evidence Requirement:
+Evidence demonstrating that all privileged
+accounts were reviewed quarterly by an
+authorized reviewer and that review decisions
+were documented.
+```
+
+This is better than simply requesting:
+
+> Please provide access review evidence.
+
+The request should be specific enough that the control owner understands exactly what is required.
+
+Evidence requirements may include:
+
+* Policies.
+* Procedures.
+* System configurations.
+* Reports.
+* Logs.
+* Tickets.
+* Approval records.
+* Screenshots.
+* Meeting records.
+* Training records.
+* Risk assessments.
+* Audit reports.
+* Monitoring records.
+* System-generated exports.
+
+The type of evidence should depend on the control being assessed.
+
+For example:
+
+| Control                  | Typical Evidence                      |
+| ------------------------ | ------------------------------------- |
+| Access Review            | Access review report                  |
+| MFA                      | IAM configuration and coverage report |
+| Vulnerability Management | Scan reports                          |
+| Security Monitoring      | SIEM coverage and alert records       |
+| Security Awareness       | Training completion report            |
+| Backup                   | Backup execution reports              |
+| Incident Response        | Incident records and exercise reports |
+| Third-Party Risk         | Vendor assessment records             |
+| Change Management        | Change tickets and approvals          |
+
+The evidence collection process should begin with an **evidence request**.
+
+A practical request may contain:
+
+```text
+Evidence Request ID:
+ER-2026-015
+
+Control:
+AC-05 Privileged Access Review
+
+Requested Evidence:
+Q1 and Q2 2026 privileged access
+review reports
+
+Required Information:
+- Complete account population
+- Review date
+- Reviewer
+- Approval decision
+- Exceptions
+- Remediation actions
+
+Due Date:
+15 August 2026
+
+Evidence Owner:
+IAM Manager
+```
+
+This creates accountability.
+
+The evidence request should also define the **assessment period**.
+
+For example:
+
+```text
+Assessment Period:
+1 January 2026 – 30 June 2026
+```
+
+Evidence outside the required period may not demonstrate that the control operated during the assessment period.
+
+For example, if an assessor is evaluating 2026 access reviews, a 2025 access review report may provide useful background but may not be sufficient evidence for the 2026 assessment.
+
+The evidence should also be associated with the correct **control**.
+
+For example:
+
+```text
+Evidence ID:
+EV-2026-031
+
+Control ID:
+AC-05
+
+Evidence:
+Q2 Privileged Access Review
+
+Assessment:
+CA-2026-004
+```
+
+This creates traceability.
+
+A mature GRC program should be able to answer:
+
+> Which evidence supports this control?
+
+And:
+
+> Which controls are supported by this evidence?
+
+This can be represented as:
+
+```text
+Control
+   ↕
+Evidence
+   ↕
+Assessment
+   ↕
+Test
+   ↕
+Finding
+```
+
+The evidence should also have a unique identifier.
+
+For example:
+
+```text
+EV-2026-001
+EV-2026-002
+EV-2026-003
+```
+
+This makes evidence easier to reference in assessment reports and audit workpapers.
+
+The evidence collection process should also track **status**.
+
+A useful status model is:
+
+```text
+Requested
+Pending
+Received
+Under Review
+Accepted
+Rejected
+Additional Evidence Required
+Validated
+Archived
+```
+
+For example:
+
+```text
+Requested
+    ↓
+Received
+    ↓
+Under Review
+    ↓
+Additional Evidence Required
+    ↓
+Received
+    ↓
+Validated
+```
+
+This prevents evidence requests from becoming lost or forgotten.
+
+The assessor should not automatically accept every document that is submitted.
+
+Evidence should be evaluated for several characteristics.
+
+A useful model is:
+
+```text
+Relevance
+Completeness
+Reliability
+Authenticity
+Timeliness
+Traceability
+```
+
+**Relevance** asks:
+
+> Does the evidence actually relate to the control being assessed?
+
+For example, an organization may submit its Information Security Policy for a control requiring evidence of quarterly access reviews.
+
+The policy may be relevant background information, but it does not demonstrate that the quarterly review occurred.
+
+**Completeness** asks:
+
+> Does the evidence cover the full population, period, and scope required by the assessment?
+
+For example:
+
+```text
+Required:
+January–June
+
+Submitted:
+January–March
+```
+
+The evidence is incomplete.
+
+**Reliability** asks:
+
+> Can the evidence reasonably be trusted?
+
+System-generated reports may generally provide stronger evidence than manually prepared spreadsheets, depending on the circumstances.
+
+**Authenticity** asks:
+
+> Can the source and integrity of the evidence be established?
+
+For example:
+
+```text
+System-generated report
++
+Known system owner
++
+Export date
++
+System metadata
+```
+
+may provide stronger assurance than an unexplained screenshot.
+
+**Timeliness** asks:
+
+> Does the evidence represent the required assessment period?
+
+**Traceability** asks:
+
+> Can the evidence be clearly linked to the control, system, process, and assessment?
+
+These characteristics help the assessor determine evidence quality.
+
+A practical evidence quality assessment can be:
+
+| Attribute | Result  |
+| --------- | ------- |
+| Relevant  | Yes     |
+| Complete  | Partial |
+| Reliable  | Yes     |
+| Authentic | Yes     |
+| Timely    | Yes     |
+| Traceable | Yes     |
+
+The overall evidence status might then be:
+
+> **Additional Evidence Required**
+
+The assessor should also distinguish between **primary evidence** and **supporting evidence**.
+
+For example:
+
+```text
+Primary Evidence:
+Quarterly access review report
+
+Supporting Evidence:
+Access control policy
+IAM procedure
+Exception register
+```
+
+The primary evidence demonstrates actual control operation.
+
+The supporting evidence provides context.
+
+This distinction is useful during audits.
+
+Evidence should also be collected according to the **control testing methodology**.
+
+For example:
+
+```text
+Control:
+Vulnerability Scanning
+
+Requirement:
+Critical systems scanned monthly
+
+Evidence:
+Monthly vulnerability scan reports
+
+Testing:
+Compare asset population against
+scanning coverage
+```
+
+The assessor may discover:
+
+```text
+500 critical systems
+
+Systems scanned:
+480
+
+Coverage:
+96%
+```
+
+The evidence therefore reveals a control coverage gap.
+
+Evidence collection should support this type of analysis.
+
+The evidence should also be connected to the **population** where relevant.
+
+For example:
+
+```text
+Population:
+500 critical production systems
+
+Evidence:
+Vulnerability scanning report
+
+Evidence Coverage:
+480 systems
+
+Gap:
+20 systems not demonstrated as scanned
+```
+
+This is much stronger than simply storing the report.
+
+The GRC professional should understand what the evidence proves.
+
+A document may contain a large amount of information but still fail to demonstrate the required control activity.
+
+For example:
+
+```text
+Document:
+100-page Security Policy
+
+Control Requirement:
+Quarterly privileged access reviews
+
+What the document proves:
+The organization has defined an access
+review requirement.
+
+What it does not prove:
+That the quarterly reviews actually occurred.
+```
+
+The evidence should therefore be assessed against the specific control requirement.
+
+Evidence collection should also capture **evidence ownership**.
+
+For example:
+
+```text
+Evidence:
+Q2 Access Review Report
+
+Evidence Owner:
+IAM Manager
+
+System:
+Identity Governance Platform
+```
+
+The evidence owner should be able to explain the source and context of the evidence.
+
+The assessor should also record the **date the evidence was received**.
+
+For example:
+
+```text
+Date Requested:
+1 August 2026
+
+Date Received:
+5 August 2026
+```
+
+This can be useful for tracking assessment delays.
+
+Evidence requests can also have due dates.
+
+For example:
+
+```text
+Due Date:
+7 August 2026
+
+Status:
+Overdue
+```
+
+This allows GRC teams to follow up with control owners.
+
+A GRC team should also track repeated evidence delays.
+
+For example:
+
+```text
+Control Owner A:
+95% evidence submitted on time
+
+Control Owner B:
+60% submitted on time
+```
+
+This may identify a process or ownership problem that should be addressed.
+
+Evidence collection can be performed manually using spreadsheets or document repositories, but larger organizations may use GRC platforms.
+
+A typical automated workflow is:
+
+```text
+GRC Platform
+      ↓
+Evidence Request
+      ↓
+Control Owner Notification
+      ↓
+Evidence Upload
+      ↓
+GRC Review
+      ↓
+Evidence Validation
+      ↓
+Control Assessment
+```
+
+Platforms may also maintain evidence relationships automatically.
+
+For example:
+
+```text
+Control AC-05
+     ↓
+Assessment CA-2026-004
+     ↓
+Evidence EV-2026-031
+     ↓
+Test T-2026-012
+     ↓
+Finding F-2026-007
+```
+
+This creates a complete audit trail.
+
+However, technology does not automatically guarantee evidence quality.
+
+A GRC platform can confirm that a file was uploaded, but it cannot necessarily determine whether the file proves that the control operated effectively.
+
+Professional assessment remains necessary.
+
+Evidence should also be protected because it may contain sensitive information.
+
+Examples include:
+
+* Personal data.
+* Employee information.
+* Customer information.
+* Security configurations.
+* System architecture.
+* Vulnerability information.
+* Access information.
+* Incident details.
+* Confidential business information.
+
+Evidence repositories should therefore apply appropriate:
+
+* Access controls.
+* Data classification.
+* Encryption.
+* Retention rules.
+* Audit logging.
+* Secure sharing mechanisms.
+
+For example:
+
+```text
+Evidence Classification:
+Confidential
+
+Access:
+GRC Team
+Control Owner
+Internal Audit
+
+Retention:
+According to organizational
+retention requirements
+```
+
+Evidence should not be stored indefinitely without a defined retention requirement.
+
+The organization should establish how long assessment evidence should be retained based on:
+
+* Audit requirements.
+* Regulatory requirements.
+* Contractual requirements.
+* Internal policies.
+* Legal requirements.
+* Assessment cycles.
+
+The evidence repository should also use **version control** where necessary.
+
+For example:
+
+```text
+Evidence:
+Access Review Procedure
+
+Version:
+1.0
+```
+
+Later:
+
+```text
+Version:
+2.0
+```
+
+The assessor should be able to determine which version was applicable during the assessment period.
+
+This is particularly important when assessing controls against changing policies or procedures.
+
+The evidence collection process should also identify **evidence gaps**.
+
+For example:
+
+```text
+Control:
+Backup Monitoring
+
+Required Evidence:
+Monthly backup reports
+
+Received:
+January–April
+
+Missing:
+May–June
+```
+
+The appropriate assessment status may be:
+
+> Additional Evidence Required.
+
+This is different from immediately concluding that the control failed.
+
+The assessor should first determine whether the control actually failed or whether the evidence simply has not yet been provided.
+
+This distinction is important:
+
+```text
+No Evidence
+     ≠
+Control Failure
+```
+
+However:
+
+```text
+No Evidence
+     +
+No Alternative Verification
+     ↓
+Unable to Demonstrate Control Operation
+```
+
+Depending on the assessment methodology, insufficient evidence may itself result in a control deficiency.
+
+The organization should define how evidence gaps are treated.
+
+For example:
+
+```text
+Evidence Missing:
+Request additional evidence.
+
+Evidence Still Missing:
+Escalate to control owner.
+
+Material Evidence Gap:
+Escalate to GRC management.
+
+Unable to Validate:
+Assess control according to
+approved assessment methodology.
+```
+
+The evidence collection template should also support **evidence review comments**.
+
+For example:
+
+> The submitted Q2 access review report covers corporate applications but does not include cloud administrator accounts. Additional evidence or an explanation of scope is required.
+
+This creates a clear record of the assessor's reasoning.
+
+The evidence collection process should also support **cross-framework reuse**.
+
+For example, the same evidence may support:
+
+```text
+ISO/IEC 27001
+NIST CSF
+NIS2
+Internal Security Controls
+Customer Security Requirements
+```
+
+Instead of requesting the same evidence repeatedly, the GRC team can maintain a central evidence library.
+
+For example:
+
+```text
+Evidence:
+Annual Security Awareness Completion Report
+
+Supports:
+ISO 27001 Control
+NIST CSF Outcome
+Internal Awareness Requirement
+Customer Requirement
+```
+
+This reduces duplicate work.
+
+The relationship can be:
+
+```text
+One Evidence Item
+       ↓
+Multiple Controls
+       ↓
+Multiple Frameworks
+       ↓
+Multiple Assessments
+```
+
+However, the GRC team should verify that the evidence actually satisfies each requirement.
+
+Evidence reuse should not become uncontrolled evidence mapping.
+
+A practical evidence library can contain:
+
+| Evidence ID | Evidence             | Owner | Period  | Controls Supported | Status    |
+| ----------- | -------------------- | ----- | ------- | ------------------ | --------- |
+| EV-001      | Access Review Report | IAM   | Q2 2026 | AC-05              | Validated |
+| EV-002      | Vulnerability Scan   | SOC   | Q2 2026 | VM-03              | Validated |
+| EV-003      | Training Report      | HR    | 2026    | AT-01              | Validated |
+| EV-004      | Backup Report        | IT    | Q2 2026 | BC-04              | Review    |
+
+The evidence library should also record when evidence was last reviewed.
+
+For example:
+
+```text
+Last Reviewed:
+10 August 2026
+
+Next Review:
+10 November 2026
+```
+
+This is useful for recurring controls.
+
+Evidence collection can also support **continuous control monitoring**.
+
+For example:
+
+```text
+Control:
+MFA Coverage
+
+Target:
+100%
+
+Automated Evidence:
+Monthly MFA Coverage Report
+
+Current:
+97.5%
+```
+
+The evidence can therefore be refreshed automatically.
+
+Another example:
+
+```text
+Control:
+Critical Vulnerability Remediation
+
+Target:
+Critical vulnerabilities remediated
+within 30 days.
+
+Automated Evidence:
+Vulnerability Management Dashboard
+```
+
+This can provide more timely assurance than annual evidence collection.
+
+However, automated evidence should still be validated for:
+
+* Data accuracy.
+* Scope.
+* Completeness.
+* Source reliability.
+* Configuration.
+* Reporting logic.
+
+A technically automated report can still contain incorrect information if its underlying data or configuration is incomplete.
+
+The evidence collection process should therefore remain subject to governance.
+
+For a practical exercise, use the following control:
+
+```text
+Control ID:
+VM-03
+
+Control Name:
+Vulnerability Scanning
+
+Requirement:
+All critical production systems must be
+scanned monthly.
+```
+
+The assessor requests:
+
+```text
+1. Asset inventory
+2. April vulnerability report
+3. May vulnerability report
+4. June vulnerability report
+5. Exception register
+6. Vulnerability remediation report
+```
+
+The evidence received is:
+
+```text
+Asset Inventory:
+Received
+
+April Report:
+Received
+
+May Report:
+Received
+
+June Report:
+Missing
+
+Exception Register:
+Received
+
+Remediation Report:
+Received
+```
+
+The evidence collection record should show:
+
+```text
+Evidence Status:
+Incomplete
+
+Missing Evidence:
+June vulnerability report
+
+Action:
+Request June report
+
+Owner:
+Vulnerability Management Team
+
+Due Date:
+15 August 2026
+```
+
+Once the June report is received, the assessor can validate the evidence.
+
+Suppose the June report shows:
+
+```text
+Critical Production Systems:
+500
+
+Systems Scanned:
+480
+
+Unscanned:
+20
+```
+
+The assessor now has evidence of a potential control coverage gap.
+
+The next step is control testing.
+
+```text
+Evidence
+   ↓
+Testing
+   ↓
+20 Systems Not Scanned
+   ↓
+Control Exception
+   ↓
+Risk Assessment
+   ↓
+Remediation
+```
+
+This demonstrates why evidence collection and control testing are closely connected.
+
+The evidence collection process should ultimately allow the organization to answer:
+
+```text
+What evidence was requested?
+
+Who provided it?
+
+When was it provided?
+
+What control does it support?
+
+What period does it cover?
+
+Is it complete?
+
+Is it reliable?
+
+Was it validated?
+
+What did the evidence demonstrate?
+
+Were exceptions identified?
+
+What assessment result was reached?
+```
+
+A mature evidence management process therefore creates a defensible chain:
+
+```text
+Control Requirement
+       ↓
+Evidence Request
+       ↓
+Evidence Received
+       ↓
+Evidence Validation
+       ↓
+Control Test
+       ↓
+Assessment Result
+       ↓
+Finding / Risk
+       ↓
+Remediation
+       ↓
+Retest
+```
+
+The key principle is:
+
+> **Control evidence should be relevant, complete, reliable, timely, traceable, and sufficient to support an objective conclusion about whether a security control is properly designed, implemented, and operating effectively.**
+
+
 
 
 

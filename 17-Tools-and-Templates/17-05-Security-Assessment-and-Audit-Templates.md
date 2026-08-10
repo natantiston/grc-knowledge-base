@@ -1483,6 +1483,619 @@ A strong audit provides management with reasonable assurance about the effective
 11. Auditors should consider both design effectiveness and operating effectiveness.
 12. A mature audit process provides an evidence-based chain from **requirement through control testing, finding, remediation, validation, and closure**.
 
+A **security gap analysis template** provides a structured way to compare the organization's current security posture against a defined target state.
+
+While an assessment determines whether controls meet requirements and an audit independently evaluates compliance and effectiveness, a gap analysis focuses on identifying the **difference between the current state and the desired state**.
+
+The basic concept is:
+
+```text id="n4k7qp"
+Current State
+      ↓
+Assessment
+      ↓
+Required / Target State
+      ↓
+Identify Gaps
+      ↓
+Risk Prioritization
+      ↓
+Remediation Plan
+      ↓
+Target State
+```
+
+A gap analysis can be performed against:
+
+* ISO/IEC 27001.
+* NIST Cybersecurity Framework.
+* NIST SP 800-53.
+* COBIT.
+* GDPR.
+* NIS2.
+* Internal security policies.
+* Customer requirements.
+* Regulatory requirements.
+* Contractual security requirements.
+
+A practical **Security Gap Analysis Template** can contain:
+
+```text id="c2r8mx"
+SECURITY GAP ANALYSIS
+
+Assessment ID:
+Assessment Name:
+Assessment Date:
+
+Organization / Business Unit:
+Assessment Owner:
+Assessor:
+
+Framework / Requirement:
+Target Security Level:
+
+Current State:
+
+Requirement:
+
+Current Control:
+
+Current Maturity:
+
+Gap:
+
+Risk:
+
+Priority:
+
+Recommended Action:
+
+Remediation Owner:
+
+Target Date:
+
+Status:
+
+Evidence:
+
+Comments:
+```
+
+The template should allow the assessor to compare the requirement with the actual current state.
+
+For example:
+
+| Requirement                 | Current State         | Gap                          | Risk   | Action                      |
+| --------------------------- | --------------------- | ---------------------------- | ------ | --------------------------- |
+| MFA for privileged accounts | 92% enabled           | 8% without MFA               | High   | Enable MFA                  |
+| Quarterly access reviews    | Performed annually    | Frequency insufficient       | High   | Implement quarterly reviews |
+| Security awareness          | Annual training       | No phishing simulation       | Medium | Introduce simulations       |
+| Vendor assessments          | Critical vendors only | Medium-risk vendors excluded | Medium | Expand assessment scope     |
+
+The **current state** should describe what actually exists.
+
+For example:
+
+> Privileged accounts are currently protected by MFA, but eight percent of identified privileged accounts remain outside the MFA enforcement policy.
+
+This is more useful than:
+
+> MFA is partially implemented.
+
+The **target state** describes what should exist.
+
+For example:
+
+> 100% of privileged accounts must use phishing-resistant MFA in accordance with the organization's privileged access standard.
+
+The gap is then the difference:
+
+```text id="8z7d4a"
+Target State:
+100% MFA
+
+Current State:
+92% MFA
+
+Gap:
+8% of privileged accounts without MFA
+```
+
+The gap should be supported by evidence whenever possible.
+
+Evidence could include:
+
+* Configuration reports.
+* System inventories.
+* Policies.
+* Procedures.
+* Audit reports.
+* Access reports.
+* Security assessment results.
+* Vulnerability reports.
+* Training records.
+* Incident records.
+* GRC system records.
+
+A gap analysis should distinguish between **absence of a control** and **weakness in an existing control**.
+
+For example:
+
+### No Control
+
+> The organization has no formal third-party security assessment process.
+
+### Partial Control
+
+> Third-party assessments exist, but only critical suppliers are assessed.
+
+### Ineffective Control
+
+> Third-party assessments are required annually, but evidence shows that required assessments are frequently overdue.
+
+These represent different types of gaps and may require different remediation strategies.
+
+A useful classification is:
+
+| Gap Type              | Description                                           |
+| --------------------- | ----------------------------------------------------- |
+| Not Implemented       | Required control does not exist                       |
+| Partially Implemented | Control exists but coverage is incomplete             |
+| Ineffective           | Control exists but does not operate effectively       |
+| Outdated              | Control exists but does not meet current requirements |
+| Documentation Gap     | Activity exists but documentation is insufficient     |
+| Evidence Gap          | Control may operate but evidence is unavailable       |
+| Process Gap           | Required process is incomplete                        |
+| Technology Gap        | Required technical capability is missing              |
+
+This classification helps the GRC professional determine the appropriate remediation approach.
+
+A **documentation gap** is particularly important.
+
+For example:
+
+> The organization performs quarterly access reviews, but there is no formally approved procedure defining the process.
+
+The operational control may exist, but governance documentation is incomplete.
+
+An **evidence gap** is different:
+
+> The organization states that quarterly access reviews are performed, but cannot produce records demonstrating completion.
+
+In this case, the organization may have an operational process, but it cannot demonstrate that the process occurred.
+
+This distinction becomes important during audits.
+
+Gap analysis results should also be risk-rated.
+
+For example:
+
+```text id="q7w2nm"
+Critical
+High
+Medium
+Low
+Informational
+```
+
+Risk should consider:
+
+* Business impact.
+* Security impact.
+* Likelihood.
+* Threat exposure.
+* Data sensitivity.
+* Regulatory consequences.
+* Asset criticality.
+* Existing compensating controls.
+
+A gap affecting a public-facing critical system should generally receive greater attention than a minor documentation issue affecting a low-risk internal process.
+
+A **gap prioritization matrix** can help management decide where to focus resources.
+
+| Gap                              | Impact | Likelihood | Priority |
+| -------------------------------- | ------ | ---------- | -------- |
+| Privileged accounts without MFA  | High   | High       | Critical |
+| Missing vendor assessments       | High   | Medium     | High     |
+| Incomplete awareness metrics     | Medium | Medium     | Medium   |
+| Minor procedure formatting issue | Low    | Low        | Low      |
+
+The organization should avoid treating every gap equally.
+
+A mature GRC function prioritizes gaps based on **risk and business importance**.
+
+Gap analysis can also be connected to maturity assessment.
+
+For example:
+
+```text id="t4q6zr"
+Level 1 – Initial
+      ↓
+Level 2 – Developing
+      ↓
+Level 3 – Defined
+      ↓
+Level 4 – Managed
+      ↓
+Level 5 – Optimized
+```
+
+An organization may assess a particular capability as:
+
+> Current maturity: Level 2 – Developing
+
+while its target is:
+
+> Target maturity: Level 4 – Managed
+
+The resulting gap is:
+
+```text id="m9n4cs"
+Current: Level 2
+Target:  Level 4
+Gap:     2 maturity levels
+```
+
+This approach is useful for building cybersecurity improvement roadmaps.
+
+A maturity-based assessment should clearly define what each maturity level means.
+
+For example:
+
+| Level          | Description                                          |
+| -------------- | ---------------------------------------------------- |
+| 1 – Initial    | Activities are ad hoc and inconsistent               |
+| 2 – Developing | Basic processes exist but are inconsistently applied |
+| 3 – Defined    | Processes are formally documented and standardized   |
+| 4 – Managed    | Performance is measured and actively managed         |
+| 5 – Optimized  | Processes are continuously improved and optimized    |
+
+The exact model should be selected based on the organization's chosen framework.
+
+A gap analysis can also be used for **ISO/IEC 27001 readiness**.
+
+For example:
+
+```text id="4y8j7v"
+ISO/IEC 27001 Requirements
+          ↓
+Current ISMS
+          ↓
+Gap Assessment
+          ↓
+Findings
+          ↓
+Remediation
+          ↓
+Readiness Assessment
+          ↓
+Certification Audit
+```
+
+The GRC team can create a matrix such as:
+
+| Requirement       | Current Status | Gap                       | Action              | Owner        |
+| ----------------- | -------------- | ------------------------- | ------------------- | ------------ |
+| ISMS scope        | Defined        | None                      | Maintain            | ISMS Manager |
+| Risk assessment   | Implemented    | Minor                     | Improve methodology | Risk Manager |
+| Internal audit    | Partial        | Audit schedule incomplete | Establish program   | GRC          |
+| Management review | Implemented    | None                      | Maintain            | CISO         |
+| Supplier security | Partial        | Coverage incomplete       | Expand assessment   | TPRM         |
+
+This creates a practical roadmap toward compliance.
+
+Gap analysis can similarly support **NIS2 readiness**.
+
+The organization can map requirements to:
+
+```text id="p4n6tg"
+NIS2 Requirement
+      ↓
+Organizational Control
+      ↓
+Current Implementation
+      ↓
+Gap
+      ↓
+Risk
+      ↓
+Remediation
+      ↓
+Evidence
+```
+
+This allows the GRC team to convert regulatory requirements into practical implementation activities.
+
+A useful **gap remediation register** can contain:
+
+| Gap ID  | Requirement   | Gap                  | Risk   | Action            | Owner    | Due Date | Status  |
+| ------- | ------------- | -------------------- | ------ | ----------------- | -------- | -------- | ------- |
+| GAP-001 | MFA           | 8% accounts excluded | High   | Enable MFA        | IAM      | 30 Sep   | Open    |
+| GAP-002 | Vendor review | Coverage incomplete  | Medium | Expand assessment | TPRM     | 31 Oct   | Open    |
+| GAP-003 | Awareness     | No simulations       | Medium | Launch program    | Security | 15 Oct   | Planned |
+
+This register becomes the central mechanism for tracking improvement.
+
+Each remediation action should have a clear owner.
+
+Avoid assigning actions to vague groups such as:
+
+> IT Department
+
+Instead, assign responsibility to a specific accountable role:
+
+> IAM Manager
+
+or:
+
+> Head of Third-Party Risk Management
+
+Clear ownership improves accountability.
+
+Every action should also have a target date.
+
+Dates should reflect the risk.
+
+For example:
+
+```text id="0x4d6k"
+Critical Risk → Immediate / Urgent
+High Risk     → Short-term
+Medium Risk   → Planned
+Low Risk      → Routine improvement
+```
+
+The exact timeframes should follow the organization's risk management methodology.
+
+A remediation plan should also identify **dependencies**.
+
+For example:
+
+> MFA implementation depends on completion of the privileged account inventory.
+
+This allows management to understand why certain remediation activities may require additional time.
+
+Some gaps may require **compensating controls**.
+
+For example:
+
+> A legacy application cannot technically support MFA.
+
+The organization might temporarily implement:
+
+* Network restrictions.
+* Privileged access gateway.
+* Additional monitoring.
+* Restricted administrative access.
+* Enhanced logging.
+* Stronger password requirements.
+
+However, compensating controls should not automatically eliminate the original gap.
+
+The organization should document:
+
+```text id="w6z3ab"
+Original Requirement
+        ↓
+Gap
+        ↓
+Risk Assessment
+        ↓
+Compensating Control
+        ↓
+Residual Risk
+        ↓
+Risk Acceptance
+        ↓
+Long-Term Remediation
+```
+
+This prevents temporary exceptions from becoming permanent weaknesses.
+
+A gap analysis should also identify **quick wins**.
+
+Some gaps can be addressed with minimal effort.
+
+Examples include:
+
+* Updating outdated procedures.
+* Assigning missing control owners.
+* Enabling existing security features.
+* Updating document review dates.
+* Establishing recurring access reviews.
+* Improving evidence retention.
+
+Other gaps may require major investment.
+
+Examples include:
+
+* Implementing IAM platforms.
+* Deploying PAM.
+* Replacing legacy systems.
+* Implementing SIEM capabilities.
+* Establishing a formal third-party risk program.
+
+The roadmap can therefore classify remediation into:
+
+```text id="q2t6xv"
+Quick Wins
+     ↓
+Short-Term Improvements
+     ↓
+Medium-Term Projects
+     ↓
+Strategic Initiatives
+```
+
+A mature GRC team should connect remediation activities to business planning.
+
+For example:
+
+| Initiative                 | Risk Reduction |   Cost | Priority  |
+| -------------------------- | -------------: | -----: | --------- |
+| MFA expansion              |           High |    Low | Immediate |
+| PAM implementation         |      Very High |   High | Strategic |
+| Vendor assessment platform |         Medium | Medium | Planned   |
+| Procedure updates          |         Medium |    Low | Quick Win |
+
+This allows management to make informed investment decisions.
+
+Gap analysis results can also be presented to executives through a **heat map**.
+
+For example:
+
+```text
+                 IMPACT
+             Low  Med  High
+Likelihood
+High          M    H    C
+Medium        L    M    H
+Low           L    L    M
+
+L = Low
+M = Medium
+H = High
+C = Critical
+```
+
+This provides a high-level visualization of the organization's most significant gaps.
+
+The GRC professional should avoid presenting hundreds of individual gaps to senior management without prioritization.
+
+Instead, management reporting should focus on:
+
+* Top risks.
+* Major compliance gaps.
+* Critical control weaknesses.
+* Remediation progress.
+* Resource requirements.
+* Target completion dates.
+* Residual risk.
+
+For example:
+
+> The assessment identified 42 gaps. Three are high risk, 11 are medium risk, and 28 are low risk. The three high-risk gaps relate to privileged access, third-party risk, and vulnerability remediation.
+
+This is more useful for executive decision-making.
+
+Gap analysis should also be repeated periodically.
+
+A typical cycle is:
+
+```text id="7s2n1w"
+Baseline Assessment
+       ↓
+Gap Identification
+       ↓
+Remediation
+       ↓
+Follow-Up Assessment
+       ↓
+Measure Improvement
+       ↓
+New Gap Identification
+       ↓
+Continuous Improvement
+```
+
+The purpose is not to reach a permanent state where there are no gaps.
+
+Security requirements, technologies, threats, regulations, and business processes continually change.
+
+Therefore:
+
+> **Security gap analysis is a continuous improvement activity rather than a one-time compliance exercise.**
+
+A practical exercise is to perform an **ISO/IEC 27001 gap analysis** for a hypothetical organization.
+
+Select ten requirements and create:
+
+```text
+Requirement
+Current State
+Target State
+Gap
+Risk
+Recommended Action
+Owner
+Due Date
+Status
+```
+
+For example:
+
+| Requirement       | Current State    | Target                    | Gap             |
+| ----------------- | ---------------- | ------------------------- | --------------- |
+| Risk assessment   | Annual           | Risk-based and documented | Methodology gap |
+| Access review     | Annual           | Quarterly                 | Frequency gap   |
+| Awareness         | Annual training  | Training + simulations    | Program gap     |
+| Supplier security | Critical vendors | Risk-based coverage       | Scope gap       |
+
+Then assign risk ratings and create a remediation roadmap.
+
+A second practical exercise is to perform a **NIST CSF gap analysis**.
+
+For each applicable cybersecurity outcome:
+
+1. Identify the current capability.
+2. Identify the desired capability.
+3. Document the gap.
+4. Determine the risk.
+5. Define remediation.
+6. Assign ownership.
+7. Establish a target date.
+8. Identify evidence required to demonstrate completion.
+
+The final output should become an actionable cybersecurity improvement plan.
+
+From a GRC perspective, the most important principle is:
+
+> **A gap is valuable only when the organization understands its risk and knows what it will do about it.**
+
+Simply recording:
+
+> "Control not implemented"
+
+does not provide sufficient management value.
+
+The GRC professional should determine:
+
+```text id="v3c7nm"
+What is missing?
+      ↓
+Why is it missing?
+      ↓
+What risk does it create?
+      ↓
+How significant is the risk?
+      ↓
+What should be done?
+      ↓
+Who owns the action?
+      ↓
+When should it be completed?
+      ↓
+How will completion be verified?
+```
+
+This transforms gap analysis from a checklist exercise into a practical **risk-based improvement mechanism**.
+
+## Key Takeaways
+
+1. Gap analysis compares the organization's current state with a defined target state.
+2. A good gap analysis identifies both control deficiencies and process, documentation, evidence, and technology gaps.
+3. Gaps should be supported by objective evidence whenever possible.
+4. Not all gaps have the same risk or priority.
+5. Risk-based prioritization helps organizations focus resources on the most important weaknesses.
+6. Maturity models can be used to measure the difference between current and desired capability.
+7. Gap analysis can support ISO/IEC 27001, NIST CSF, NIS2, GDPR, COBIT, and other requirements.
+8. Each remediation action should have a clear owner, target date, and measurable completion criteria.
+9. Compensating controls can reduce risk temporarily but should not hide unresolved underlying gaps.
+10. Gap analysis should result in a practical remediation roadmap rather than a static list of deficiencies.
+11. Follow-up assessments should verify whether remediation actually reduced the identified risk.
+12. A mature GRC professional uses gap analysis to convert **requirements and identified weaknesses into prioritized, measurable, and evidence-based security improvements**.
+
+
 
 
 

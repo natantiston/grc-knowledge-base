@@ -691,4 +691,773 @@ The key principle is:
 
 > **The NIST CSF Current Profile provides an evidence-based picture of the organization's present cybersecurity posture and establishes the baseline from which future cybersecurity improvements can be planned.**
 
+Part 2 builds directly on the Current Profile. The **Target Profile** defines the cybersecurity outcomes and capabilities the organization intends to achieve.
+
+A Target Profile answers a different question:
+
+> **Where do we want to be?**
+
+The Current Profile describes the existing state, while the Target Profile describes the desired future state.
+
+The relationship is:
+
+```text
+Current Profile
+      ↓
+Current State
+      ↓
+Risk and Business Requirements
+      ↓
+Target Profile
+      ↓
+Desired Future State
+```
+
+The Target Profile should not simply represent the highest possible cybersecurity maturity. It should represent a **realistic and risk-based target state** that supports the organization's business objectives, risk appetite, regulatory obligations, and available resources.
+
+A practical **NIST CSF Target Profile Template** can contain:
+
+```text id="3r7vqm"
+NIST CSF TARGET PROFILE
+
+Organization:
+
+Assessment Scope:
+
+Profile Owner:
+
+NIST CSF Version:
+
+Target Date:
+
+Business Objective:
+
+Risk Considerations:
+
+Function:
+
+Category:
+
+Subcategory:
+
+Target Cybersecurity Outcome:
+
+Target Practice:
+
+Target Implementation Status:
+
+Required Capability:
+
+Required Control:
+
+Required Evidence:
+
+Control Owner:
+
+Priority:
+
+Target Risk Level:
+
+Gap Reference:
+
+Implementation Dependency:
+
+Target Completion Date:
+
+Comments:
+```
+
+The first step is defining the **business context** for the target state.
+
+For example:
+
+```text id="2z8mks"
+Business Objective:
+
+Protect customer information while
+expanding cloud-based services.
+
+Risk Considerations:
+
+Data exposure
+Unauthorized access
+Cloud misconfiguration
+Third-party risk
+Service availability
+```
+
+This is important because the target cybersecurity state should support business objectives.
+
+A financial institution may require stronger controls around financial transactions.
+
+A healthcare organization may place greater emphasis on privacy and availability.
+
+A software company may place greater emphasis on cloud security, application security, and intellectual property protection.
+
+The Target Profile should therefore be organization-specific.
+
+The Target Profile should use the relevant **NIST CSF 2.0 Functions**:
+
+```text id="1v5c8z"
+Govern
+Identify
+Protect
+Detect
+Respond
+Recover
+```
+
+Each Function can then be used to define desired future capabilities.
+
+For example:
+
+```text id="n7w4pj"
+Current:
+
+Asset inventory covers 80% of corporate assets.
+
+Target:
+
+100% of in-scope corporate and cloud assets
+are identified and maintained in the organization's
+asset inventory.
+```
+
+The target statement should be measurable whenever possible.
+
+Instead of:
+
+> Improve asset management.
+
+Use:
+
+> Maintain an authoritative inventory covering 100% of in-scope assets, with ownership and classification recorded.
+
+This gives the organization something that can be assessed later.
+
+The Target Profile should also define the **desired control capability**.
+
+For example:
+
+```text id="7j8m2q"
+Current:
+MFA implemented for privileged users.
+
+Target:
+MFA required for all users accessing
+in-scope corporate and cloud systems.
+```
+
+The target can then be connected to a control:
+
+```text id="f6p9wr"
+NIST CSF Outcome
+      ↓
+Target Capability
+      ↓
+Internal Control
+      ↓
+Implementation Requirement
+      ↓
+Evidence
+```
+
+This makes the Target Profile operational.
+
+A useful Target Profile table could look like:
+
+| Function | Category               | Current State     | Target State                             | Priority | Owner |
+| -------- | ---------------------- | ----------------- | ---------------------------------------- | -------- | ----- |
+| Govern   | Cybersecurity Strategy | Strategy exists   | Strategy integrated with enterprise risk | High     | CISO  |
+| Identify | Asset Management       | Partial inventory | Complete asset inventory                 | High     | IT    |
+| Protect  | Access Control         | MFA partial       | MFA universal                            | Critical | IAM   |
+| Detect   | Monitoring             | SIEM implemented  | Full critical asset coverage             | High     | SOC   |
+| Respond  | Incident Management    | Plan exists       | Annual enterprise exercise               | Medium   | SOC   |
+| Recover  | Recovery Planning      | Annual testing    | Critical systems tested regularly        | High     | BCM   |
+
+The Target Profile should distinguish between **desired capability** and **implementation deadline**.
+
+For example:
+
+```text id="u0g9x5"
+Target Capability:
+100% MFA coverage
+
+Target Date:
+31 December 2026
+```
+
+This allows the organization to measure progress.
+
+The target date should be realistic.
+
+A target such as:
+
+> Implement enterprise-wide zero trust within 30 days.
+
+may not be realistic for a large organization.
+
+The GRC team should consider:
+
+* Budget.
+* Staffing.
+* Technology dependencies.
+* Business impact.
+* Procurement timelines.
+* Regulatory deadlines.
+* Existing projects.
+* Organizational change capacity.
+
+The Target Profile should therefore be aligned with the organization's implementation roadmap.
+
+The Target Profile should also consider **risk appetite**.
+
+For example:
+
+```text id="l6t8mw"
+Risk Appetite:
+Low tolerance for unauthorized access
+to customer information.
+
+Target:
+100% MFA for privileged and remote access.
+
+Target Risk:
+Low.
+```
+
+For a less critical system, the organization may accept a different target.
+
+The target state should therefore be driven by risk rather than by arbitrary maturity goals.
+
+The GRC professional should also distinguish between **target outcomes** and **specific technologies**.
+
+For example:
+
+Weak target:
+
+> Deploy Vendor X security platform.
+
+Stronger target:
+
+> Establish centralized security monitoring capable of detecting and alerting on significant security events across all critical systems.
+
+The second statement describes the desired capability rather than prematurely selecting a vendor or technology.
+
+Technology can be selected later based on requirements.
+
+This is particularly important in GRC because the framework should remain technology-neutral.
+
+The Target Profile can also define the required **evidence**.
+
+For example:
+
+```text id="6f3m9q"
+Target Outcome:
+Continuous monitoring of critical systems
+
+Target Evidence:
+SIEM coverage report
+Monitoring coverage dashboard
+Alerting configuration
+Incident records
+Monthly monitoring review
+```
+
+This allows the organization to determine how it will prove that the target capability has been achieved.
+
+The Target Profile should also identify **control ownership**.
+
+For example:
+
+| Target Capability           | Owner                     |
+| --------------------------- | ------------------------- |
+| Enterprise Asset Inventory  | IT Asset Manager          |
+| MFA Coverage                | IAM Manager               |
+| Vulnerability Management    | Security Operations       |
+| Security Monitoring         | SOC Manager               |
+| Incident Response Exercises | Incident Response Manager |
+| Recovery Testing            | BCM Manager               |
+
+Clear ownership is necessary for implementation.
+
+The Target Profile can also include **priority**.
+
+A practical priority model could be:
+
+```text
+Critical
+High
+Medium
+Low
+```
+
+However, priority should be based on factors such as:
+
+* Risk reduction.
+* Regulatory requirements.
+* Business criticality.
+* Threat exposure.
+* Customer requirements.
+* Dependency on other initiatives.
+* Implementation complexity.
+
+For example:
+
+```text id="5z1q7p"
+Target:
+100% MFA coverage
+
+Risk:
+Unauthorized access
+
+Priority:
+Critical
+
+Reason:
+High-risk privileged access exposure.
+```
+
+Another target may be:
+
+```text id="m8v3cy"
+Target:
+Improve security awareness reporting
+
+Priority:
+Medium
+
+Reason:
+Useful improvement but lower immediate
+risk reduction than privileged access controls.
+```
+
+The Target Profile should also capture **dependencies**.
+
+For example:
+
+```text id="b5q7mx"
+Target:
+Centralized cloud asset inventory
+
+Dependencies:
+Cloud discovery capability
+CMDB integration
+Cloud account ownership
+Tagging standards
+Application owner data
+```
+
+This is important because some target outcomes cannot be achieved independently.
+
+For example:
+
+```text id="j6n9wr"
+Complete Asset Inventory
+        ↓
+Requires CMDB Integration
+        ↓
+Requires Cloud Discovery
+        ↓
+Requires Cloud Account Governance
+```
+
+The GRC team should document these dependencies so that the target state is achievable.
+
+The Target Profile can also be linked to strategic initiatives.
+
+For example:
+
+```text id="x4m8qz"
+Target:
+Improve cloud security visibility
+
+Related Initiative:
+Cloud Security Program
+
+Project:
+Cloud Security Posture Management
+
+Owner:
+Cloud Security Manager
+
+Target:
+Q2 2027
+```
+
+This creates a direct relationship between framework outcomes and GRC projects.
+
+The Target Profile should also consider **regulatory and contractual requirements**.
+
+For example:
+
+```text id="k3p6vn"
+Target:
+Implement stronger supplier security controls
+
+Drivers:
+NIS2
+Customer Contracts
+Internal Risk Appetite
+Enterprise Security Strategy
+```
+
+The organization may therefore have several reasons for establishing the same target.
+
+This can be represented as:
+
+```text id="v8x2mq"
+Business Requirement
+        +
+Risk Requirement
+        +
+Regulatory Requirement
+        +
+Customer Requirement
+        ↓
+Target Cybersecurity Capability
+```
+
+This makes the Target Profile more strategically useful.
+
+The Target Profile should not necessarily include every NIST CSF outcome.
+
+The organization can prioritize the outcomes most relevant to its:
+
+* Business model.
+* Risk environment.
+* ISMS scope.
+* Regulatory obligations.
+* Technology environment.
+* Strategic objectives.
+
+However, the organization should document its methodology for determining what is included or excluded.
+
+The Target Profile can also be created at different organizational levels.
+
+For example:
+
+```text id="t5k7wp"
+Enterprise Target Profile
+        ↓
+Business Unit Target Profile
+        ↓
+Technology Target Profile
+        ↓
+Project Target Profile
+```
+
+For example, a cloud migration project could have its own Target Profile focused on:
+
+* Cloud identity.
+* Cloud asset inventory.
+* Logging.
+* Encryption.
+* Vulnerability management.
+* Incident response.
+* Recovery.
+
+This allows the NIST CSF to be applied flexibly.
+
+A Target Profile should also be **time-bound**.
+
+For example:
+
+```text id="r9q4mc"
+Target Profile:
+
+Baseline:
+August 2026
+
+Target State:
+December 2027
+```
+
+The organization can then monitor progress between the two states.
+
+This creates the foundation for the gap assessment covered in Part 3.
+
+The relationship is:
+
+```text id="x6p8vn"
+Current Profile
+      ↓
+Target Profile
+      ↓
+Gap Assessment
+      ↓
+Prioritization
+      ↓
+Implementation Roadmap
+```
+
+For example:
+
+```text id="n2m5qx"
+Current:
+MFA = 70%
+
+Target:
+MFA = 100%
+
+Gap:
+30%
+
+Priority:
+Critical
+
+Action:
+Extend MFA coverage
+
+Owner:
+IAM Manager
+
+Target:
+December 2026
+```
+
+The Target Profile should also describe the **expected risk outcome**.
+
+For example:
+
+```text id="p4v7mz"
+Current Risk:
+High
+
+Target Capability:
+Centralized privileged access management
+
+Expected Residual Risk:
+Medium
+```
+
+This allows management to understand why the target matters.
+
+A cybersecurity improvement should ideally answer:
+
+> What risk will this investment reduce?
+
+For example:
+
+> Implementing centralized privileged access management is expected to reduce the likelihood of unauthorized privileged access and improve monitoring of administrative activity.
+
+This is much more meaningful than:
+
+> Implement PAM because NIST recommends it.
+
+The Target Profile can also include a **success criterion**.
+
+For example:
+
+```text id="q8m3rx"
+Target:
+100% MFA coverage
+
+Success Criteria:
+All in-scope user accounts require MFA,
+with exceptions formally documented and approved.
+```
+
+Another example:
+
+```text id="w5k9pv"
+Target:
+Complete asset visibility
+
+Success Criteria:
+100% of in-scope production assets have:
+- Asset owner
+- Business classification
+- System classification
+- Criticality
+- Location
+- Lifecycle status
+```
+
+Success criteria make the target measurable.
+
+The Target Profile should also consider **exceptions**.
+
+For example:
+
+```text id="g7x2mq"
+Target:
+100% MFA
+
+Exception:
+Legacy application cannot support MFA.
+
+Compensating Controls:
+Network restriction
+Privileged access limitation
+Enhanced monitoring
+
+Exception Owner:
+Application Owner
+
+Expiration:
+31 December 2026
+```
+
+This allows the organization to maintain a high target while formally managing unavoidable exceptions.
+
+The Target Profile can also be maintained in a spreadsheet.
+
+A practical structure is:
+
+| CSF Function | Category            | Target Outcome                             | Target Capability                | Priority | Owner | Target Date |
+| ------------ | ------------------- | ------------------------------------------ | -------------------------------- | -------- | ----- | ----------- |
+| Govern       | Strategy            | Cybersecurity aligned with enterprise risk | Formal cyber risk reporting      | High     | CISO  | Q4 2026     |
+| Identify     | Asset Management    | Complete asset visibility                  | Centralized inventory            | Critical | IT    | Q1 2027     |
+| Protect      | Access Control      | Strong authentication                      | Universal MFA                    | Critical | IAM   | Q4 2026     |
+| Detect       | Monitoring          | Timely threat detection                    | Expanded SIEM coverage           | High     | SOC   | Q2 2027     |
+| Respond      | Incident Management | Tested response capability                 | Enterprise IR exercise           | Medium   | SOC   | Q1 2027     |
+| Recover      | Recovery Planning   | Reliable recovery                          | Critical-system recovery testing | High     | BCM   | Q2 2027     |
+
+The Target Profile should be reviewed periodically.
+
+Changes may be required because of:
+
+* New business objectives.
+* New threats.
+* New regulations.
+* Major incidents.
+* Technology changes.
+* Budget changes.
+* Changes to risk appetite.
+* Changes in organizational strategy.
+* Completed improvement initiatives.
+
+For example:
+
+```text id="z6q4mx"
+New Regulation
+      ↓
+New Requirement
+      ↓
+Risk Assessment
+      ↓
+Target Profile Updated
+      ↓
+Roadmap Updated
+```
+
+This makes the Target Profile a living strategic document.
+
+For a practical exercise, use the following Current Profile:
+
+```text id="p7m3qv"
+Asset Management:
+80% coverage
+
+MFA:
+70% coverage
+
+Vulnerability Management:
+80% of systems scanned
+
+Security Monitoring:
+Critical servers monitored
+
+Incident Response:
+Plan exists but exercise incomplete
+
+Recovery:
+Annual recovery test
+```
+
+Develop a Target Profile with the following objectives:
+
+```text id="c5x8nm"
+Asset Management:
+100% coverage
+
+MFA:
+100% coverage for in-scope users
+
+Vulnerability Management:
+100% coverage of critical systems
+
+Security Monitoring:
+All critical systems monitored
+
+Incident Response:
+Annual enterprise-wide exercise
+
+Recovery:
+Critical systems tested against defined
+recovery objectives
+```
+
+For each target, document:
+
+```text id="m8q2vr"
+NIST CSF Function
+Category
+Current State
+Target State
+Business Driver
+Risk Driver
+Required Capability
+Priority
+Owner
+Target Date
+Success Criteria
+Evidence
+Dependencies
+```
+
+Then determine which targets should receive the highest priority.
+
+For example:
+
+```text id="y4p7mc"
+Target:
+100% MFA
+
+Risk:
+Unauthorized access
+
+Priority:
+Critical
+```
+
+The important point is that priority should be justified through business and risk considerations.
+
+The Target Profile should ultimately allow management to answer:
+
+```text id="k9m3qx"
+What cybersecurity capabilities do we want?
+
+Why do we need them?
+
+Which risks will they address?
+
+What will the future state look like?
+
+Who owns each capability?
+
+When should it be achieved?
+
+How will success be measured?
+
+What evidence will demonstrate achievement?
+```
+
+The Target Profile then becomes the foundation for the next stage:
+
+```text id="v6x8mq"
+Current Profile
+      +
+Target Profile
+      ↓
+Current-State vs Target-State Gap Assessment
+```
+
+The key principle is:
+
+> **The NIST CSF Target Profile defines a realistic, risk-based future cybersecurity state that the organization intends to achieve and provides measurable objectives for improving its cybersecurity capabilities.**
+> :::
+
+
 

@@ -702,5 +702,787 @@ It is to provide **reasonable assurance about the effectiveness of security cont
 11. GRC professionals should distinguish between management assertions and objective evidence.
 12. A mature security assessment provides **evidence-based assurance about the organization's security posture and identifies opportunities for risk reduction**.
     :::
+A security audit template provides a structured method for examining whether an organization's governance, controls, processes, and evidence meet defined requirements.
+
+While a security assessment may focus on evaluating control effectiveness or identifying security weaknesses, an audit generally places greater emphasis on **independent, objective, and evidence-based evaluation against defined criteria**.
+
+A practical security audit process can be represented as:
+
+```text id="q5h8xm"
+Audit Planning
+      ↓
+Scope and Criteria
+      ↓
+Evidence Collection
+      ↓
+Testing
+      ↓
+Findings
+      ↓
+Audit Report
+      ↓
+Corrective Actions
+      ↓
+Follow-Up
+```
+
+The audit template should help the auditor consistently document each stage.
+
+A practical **Security Audit Template** can contain:
+
+```text id="j7r2kd"
+SECURITY AUDIT
+
+Audit ID:
+Audit Name:
+Audit Type:
+Audit Scope:
+Audit Period:
+
+Audit Lead:
+Audit Team:
+Business Owner:
+
+Audit Criteria:
+Applicable Policies:
+Applicable Standards:
+Applicable Regulations:
+
+Audit Objectives:
+
+Systems / Processes in Scope:
+
+Audit Methodology:
+
+Evidence Requested:
+
+Tests Performed:
+
+Audit Results:
+
+Findings:
+
+Risk Ratings:
+
+Recommendations:
+
+Corrective Actions:
+
+Management Response:
+
+Action Owner:
+
+Due Date:
+
+Audit Conclusion:
+
+Approval:
+
+Follow-Up Date:
+```
+
+The template should be adapted to the organization's audit methodology.
+
+Security audits may be performed for different purposes.
+
+Examples include:
+
+* Internal security audits.
+* ISO/IEC 27001 internal audits.
+* Regulatory audits.
+* Customer audits.
+* Supplier audits.
+* Compliance audits.
+* Control audits.
+* Information security management system audits.
+* Technology audits.
+
+The audit type should be documented because it affects the scope, criteria, independence requirements, and reporting approach.
+
+A critical element of an audit is the **audit criteria**.
+
+The auditor needs to know what requirements are being evaluated.
+
+For example:
+
+```text id="w4z0bd"
+Audit Criteria
+
+ISO/IEC 27001 requirements
+        +
+Information Security Policy
+        +
+Access Control Standard
+        +
+IAM Procedure
+        +
+Applicable regulatory requirements
+```
+
+The audit conclusion is then based on the defined criteria.
+
+An audit should also establish clear **objectives**.
+
+For example:
+
+> The objective of this audit is to determine whether the organization's access control processes are implemented and operating in accordance with approved security policies, standards, and applicable ISO/IEC 27001 requirements.
+
+Other objectives may include:
+
+* Evaluating control effectiveness.
+* Determining compliance.
+* Identifying control deficiencies.
+* Evaluating evidence.
+* Identifying opportunities for improvement.
+* Confirming corrective actions from previous audits.
+
+The audit scope should be equally clear.
+
+For example:
+
+> The audit covers identity and access management controls for critical business applications operated by the organization's European business units during the period January–June 2026.
+
+The scope may include:
+
+* Organizational units.
+* Applications.
+* Infrastructure.
+* Business processes.
+* Geographic locations.
+* Assessment period.
+* Specific controls.
+
+A clearly defined scope prevents disagreements about what the audit did and did not examine.
+
+The audit team should also establish an **audit plan**.
+
+A practical audit plan could contain:
+
+| Activity         | Responsible | Planned Date | Status      |
+| ---------------- | ----------- | ------------ | ----------- |
+| Kickoff meeting  | Audit Lead  | 01 Sep       | Complete    |
+| Evidence request | Auditor     | 02 Sep       | Complete    |
+| Document review  | Audit Team  | 03–05 Sep    | In Progress |
+| Interviews       | Audit Team  | 08 Sep       | Planned     |
+| Control testing  | Audit Team  | 09–12 Sep    | Planned     |
+| Findings review  | Audit Lead  | 15 Sep       | Planned     |
+| Draft report     | Audit Lead  | 18 Sep       | Planned     |
+| Final report     | Audit Lead  | 22 Sep       | Planned     |
+
+This helps keep the audit controlled and predictable.
+
+Evidence requests should also be standardized.
+
+For example:
+
+```text id="y7m3ba"
+Evidence Request
+
+Control:
+Privileged Access Management
+
+Requirement:
+Privileged access must be reviewed quarterly.
+
+Evidence Requested:
+- Privileged account inventory
+- Q1 access review
+- Q2 access review
+- Approval records
+- Remediation tickets
+- Exception records
+
+Evidence Period:
+January–June 2026
+
+Evidence Owner:
+IAM Manager
+
+Due Date:
+05 September 2026
+```
+
+This is more effective than sending a vague request such as:
+
+> "Please provide access control evidence."
+
+Evidence should be linked to specific audit requirements.
+
+The auditor should maintain an **audit evidence register**.
+
+Example:
+
+| Evidence ID | Requirement       | Evidence    | Owner     | Status   |
+| ----------- | ----------------- | ----------- | --------- | -------- |
+| EV-001      | MFA               | IAM report  | IAM       | Received |
+| EV-002      | Access review     | Q2 review   | App Owner | Received |
+| EV-003      | Logging           | SIEM report | SOC       | Pending  |
+| EV-004      | Privileged access | PAM report  | IAM       | Received |
+
+This creates traceability between the audit requirement and supporting evidence.
+
+Evidence should also be assessed for quality.
+
+The auditor should consider:
+
+* Is the evidence relevant?
+* Is it complete?
+* Is it current?
+* Does it cover the audit period?
+* Is the source reliable?
+* Can it be independently verified?
+* Does it actually demonstrate the control?
+
+For example, a screenshot of a security configuration may demonstrate configuration at a particular point in time, but it may not demonstrate that the control operated consistently throughout the entire audit period.
+
+Sampling is another important part of audit testing.
+
+Auditors rarely examine every transaction or account.
+
+Instead, they may select representative samples.
+
+For example:
+
+```text id="l9v4st"
+1,000 User Accounts
+        ↓
+Risk-Based Sample
+        ↓
+50 Accounts Tested
+        ↓
+Evidence Review
+        ↓
+Test Result
+```
+
+The sampling methodology should be appropriate to the audit objective.
+
+For higher-risk areas, the auditor may require:
+
+* Larger samples.
+* Targeted samples.
+* Judgmental samples.
+* Statistical sampling.
+* Complete population testing.
+
+The auditor should document how the sample was selected.
+
+For example:
+
+> A sample of 50 privileged accounts was selected from the population of 500 privileged accounts, with additional targeted selection of high-risk administrative accounts.
+
+This makes the audit process more defensible.
+
+Audit interviews are another source of information.
+
+The auditor may interview:
+
+* Control owners.
+* System administrators.
+* Security personnel.
+* Business managers.
+* GRC personnel.
+* Application owners.
+* Senior management.
+
+However, an interview response should not automatically be treated as sufficient evidence.
+
+For example:
+
+> "We review access every quarter."
+
+The auditor should then request evidence demonstrating that quarterly reviews actually occurred.
+
+This creates an important principle:
+
+> **Interview responses provide information; objective evidence provides support for audit conclusions.**
+
+The auditor should document testing procedures.
+
+Example:
+
+```text id="m2tr1p"
+Control:
+Quarterly Privileged Access Review
+
+Test:
+1. Obtain privileged account population.
+2. Select sample.
+3. Verify quarterly review evidence.
+4. Confirm reviewer authorization.
+5. Verify review date.
+6. Check identified exceptions.
+7. Verify remediation.
+8. Record results.
+```
+
+The test result should then be recorded.
+
+For example:
+
+| Sample      | Review Completed | Approved | Timely | Result |
+| ----------- | ---------------- | -------- | ------ | ------ |
+| Account 001 | Yes              | Yes      | Yes    | Pass   |
+| Account 002 | Yes              | Yes      | Yes    | Pass   |
+| Account 003 | Yes              | No       | —      | Fail   |
+| Account 004 | Yes              | Yes      | Yes    | Pass   |
+
+This allows the auditor to demonstrate how the conclusion was reached.
+
+Audit findings should be structured consistently.
+
+A useful finding structure is:
+
+```text id="t2h5wx"
+Finding ID:
+Finding Title:
+
+Requirement:
+
+Condition:
+
+Evidence:
+
+Risk / Impact:
+
+Root Cause:
+
+Recommendation:
+
+Management Response:
+
+Action Owner:
+
+Due Date:
+```
+
+The **requirement** explains what should have happened.
+
+The **condition** explains what actually happened.
+
+The **evidence** supports the condition.
+
+The **risk** explains why the issue matters.
+
+The **root cause** explains why the problem occurred.
+
+The **recommendation** explains what should be done.
+
+For example:
+
+**Requirement**
+
+> Privileged access must be reviewed quarterly.
+
+**Condition**
+
+> Five of twenty sampled privileged accounts did not have evidence of the required quarterly review.
+
+**Evidence**
+
+> IAM access review records for Q1 and Q2 2026.
+
+**Risk**
+
+> Inadequate periodic review may allow inappropriate privileged access to remain active.
+
+**Root Cause**
+
+> The current review process relies on manual tracking and does not include automated escalation.
+
+**Recommendation**
+
+> Implement automated access review reminders and escalation for overdue reviews.
+
+This provides management with a much clearer understanding of the issue.
+
+Audit findings should also be risk-rated.
+
+A typical methodology might use:
+
+```text id="v7v8si"
+Critical
+High
+Medium
+Low
+Observation
+```
+
+The organization should define the criteria for each rating.
+
+For example:
+
+| Rating      | General Meaning                                          |
+| ----------- | -------------------------------------------------------- |
+| Critical    | Severe exposure requiring immediate management attention |
+| High        | Significant security risk requiring prompt remediation   |
+| Medium      | Material weakness requiring planned remediation          |
+| Low         | Limited weakness requiring corrective action             |
+| Observation | Improvement opportunity                                  |
+
+The exact definitions should be based on the organization's risk management methodology.
+
+Auditors should avoid assigning ratings purely based on intuition.
+
+The rating should consider factors such as:
+
+* Likelihood.
+* Impact.
+* Control effectiveness.
+* Asset criticality.
+* Data sensitivity.
+* Regulatory exposure.
+* Threat environment.
+* Existing compensating controls.
+
+Audit observations are different from formal findings.
+
+An observation might identify an opportunity to improve a process even when the organization technically meets the requirement.
+
+For example:
+
+> The organization meets the minimum access review requirement, but automated monitoring could improve the timeliness of remediation.
+
+This may not represent a control failure but could still be valuable to management.
+
+The audit report should summarize the overall results.
+
+A practical structure is:
+
+```text id="nq0j1x"
+Security Audit Report
+
+1. Executive Summary
+2. Audit Objectives
+3. Audit Scope
+4. Audit Criteria
+5. Audit Methodology
+6. Overall Conclusion
+7. Findings
+8. Risk Summary
+9. Recommendations
+10. Management Responses
+11. Corrective Action Plan
+12. Follow-Up Requirements
+13. Appendices
+```
+
+The **executive summary** should be understandable to senior management.
+
+It should answer:
+
+* What was audited?
+* Why was it audited?
+* What was the overall conclusion?
+* What are the most significant findings?
+* What actions are required?
+
+For example:
+
+> The audit evaluated access management controls across 15 critical applications. The overall control environment was assessed as Generally Effective, with two high-risk and four medium-risk findings. The primary weaknesses relate to privileged access reviews and delayed remediation of excessive permissions.
+
+This provides management with the essential information without requiring them to read the complete audit workpapers.
+
+Audit results can also be presented using dashboards.
+
+For example:
+
+```text id="kj8qk7"
+Audit Results
+
+Controls Tested:             75
+
+Effective:                   61
+Partially Effective:          9
+Ineffective:                  3
+Not Applicable:               2
+
+Critical Findings:            0
+High Findings:                2
+Medium Findings:              4
+Low Findings:                 6
+
+Overdue Actions:               3
+```
+
+This allows the GRC function to identify trends across multiple audits.
+
+Audit findings should be tracked through a **corrective action plan**.
+
+Example:
+
+| Finding | Risk   | Corrective Action         | Owner | Due Date | Status      |
+| ------- | ------ | ------------------------- | ----- | -------- | ----------- |
+| F-001   | High   | Implement PAM MFA         | IAM   | 30 Sep   | In Progress |
+| F-002   | High   | Automate access review    | IT    | 15 Oct   | Open        |
+| F-003   | Medium | Improve logging retention | SOC   | 30 Oct   | Open        |
+
+The audit is not complete simply because the report has been issued.
+
+The organization must determine whether corrective actions actually address the findings.
+
+This requires follow-up testing.
+
+For example:
+
+```text id="m7n6kn"
+Audit Finding
+      ↓
+Corrective Action
+      ↓
+Management Claims Completion
+      ↓
+Evidence Submitted
+      ↓
+Auditor Validation
+      ↓
+Effective?
+   ↙       ↘
+ YES       NO
+ ↓          ↓
+Close     Reopen
+```
+
+A finding should not be closed simply because the action owner says:
+
+> "Completed."
+
+The auditor or designated reviewer should validate the evidence.
+
+This distinction is important in GRC:
+
+> **Action completion is not necessarily the same as risk remediation.**
+
+For example, an organization may implement a new access review procedure but fail to perform the reviews.
+
+The documentation changed, but the underlying control weakness remains.
+
+Audit independence is another important consideration.
+
+Where appropriate, the person performing an audit should be sufficiently independent from the activity being audited.
+
+For example, the person responsible for operating a control should generally not be the sole person determining whether that same control is effective.
+
+This helps reduce conflicts of interest and improves objectivity.
+
+A practical audit governance model might be:
+
+```text id="7w7xxh"
+Control Owner
+      ↓
+Operates Control
+      ↓
+GRC / Internal Audit
+      ↓
+Performs Independent Assessment
+      ↓
+Management
+      ↓
+Reviews Findings
+```
+
+The appropriate level of independence depends on the type and purpose of the audit.
+
+For regulated or certified environments, audit records should be retained according to the organization's document retention requirements.
+
+Audit records may include:
+
+* Audit plan.
+* Evidence requests.
+* Evidence received.
+* Testing workpapers.
+* Interview records.
+* Sampling methodology.
+* Findings.
+* Management responses.
+* Final report.
+* Corrective action records.
+* Follow-up evidence.
+
+These records create an audit trail.
+
+A GRC platform can automate many of these activities.
+
+For example:
+
+```text id="c5b3xu"
+Audit Created
+     ↓
+Controls Assigned
+     ↓
+Evidence Requests
+     ↓
+Evidence Collection
+     ↓
+Testing
+     ↓
+Findings
+     ↓
+Corrective Actions
+     ↓
+Management Review
+     ↓
+Closure
+```
+
+This is particularly useful when an organization manages multiple frameworks, business units, audits, and regulatory obligations.
+
+A practical audit assessment should also distinguish between **design effectiveness** and **operating effectiveness**.
+
+Design effectiveness asks:
+
+> Is the control appropriately designed to address the identified risk?
+
+Operating effectiveness asks:
+
+> Is the control actually operating as designed?
+
+For example:
+
+**Design**
+
+> Quarterly privileged access reviews are required and assigned to application owners.
+
+**Operating effectiveness**
+
+> Evidence demonstrates that application owners actually performed the reviews every quarter and remediated identified issues.
+
+A control may therefore be:
+
+```text
+Well Designed + Operating Effectively
+        = Effective
+
+Well Designed + Not Operating Effectively
+        = Operating Weakness
+
+Poorly Designed + Operating Consistently
+        = Design Weakness
+```
+
+This distinction is extremely important for GRC professionals.
+
+A practical audit exercise is to create an audit plan for an **Access Control Audit**.
+
+Define:
+
+```text id="f6s3eq"
+Audit Objective:
+Determine whether access controls are appropriately designed
+and operating effectively.
+
+Scope:
+Critical business applications.
+
+Criteria:
+Access Control Policy
+Access Control Standard
+IAM Procedures
+Applicable ISO/IEC 27001 controls
+
+Testing:
+- User provisioning
+- User termination
+- Privileged access
+- MFA
+- Access reviews
+- Segregation of duties
+
+Evidence:
+- IAM reports
+- Access tickets
+- Review records
+- Configuration reports
+- Exception records
+```
+
+Then create at least three hypothetical findings.
+
+For each finding, identify:
+
+* Requirement.
+* Condition.
+* Evidence.
+* Risk.
+* Root cause.
+* Recommendation.
+* Owner.
+* Due date.
+
+Another useful exercise is to perform a **follow-up audit**.
+
+Assume an original audit identified:
+
+> 15 privileged accounts did not have MFA enabled.
+
+Management implemented a remediation project and reported:
+
+> "MFA has now been enabled."
+
+The GRC professional should not immediately close the finding.
+
+Instead:
+
+1. Obtain the current privileged account population.
+2. Obtain MFA configuration evidence.
+3. Compare the population against the MFA-enabled accounts.
+4. Test a sample.
+5. Determine whether all affected accounts were remediated.
+6. Identify any remaining exceptions.
+7. Validate that exceptions are formally approved.
+8. Determine whether the original risk has been reduced sufficiently.
+9. Document the follow-up result.
+10. Close or reopen the finding.
+
+This demonstrates the difference between **management representation** and **validated remediation**.
+
+From a GRC perspective, a strong audit template should create traceability across the entire audit lifecycle:
+
+```text id="s3j4i4"
+Requirement
+      ↓
+Control
+      ↓
+Evidence
+      ↓
+Test
+      ↓
+Result
+      ↓
+Finding
+      ↓
+Risk
+      ↓
+Corrective Action
+      ↓
+Validation
+      ↓
+Closure
+```
+
+This traceability is valuable during internal audits, external audits, regulatory reviews, customer assessments, and certification activities.
+
+The most important principle is that an audit should be **evidence-based, objective, risk-focused, and actionable**.
+
+A completed audit checklist by itself provides limited value.
+
+A strong audit provides management with reasonable assurance about the effectiveness of controls, identifies significant weaknesses, explains the associated risks, and tracks corrective actions until the identified issues have been appropriately addressed.
+
+## Key Takeaways
+
+1. A security audit evaluates controls against defined and approved criteria.
+2. An audit template provides consistency across planning, testing, reporting, and follow-up.
+3. Audit scope, objectives, criteria, and methodology should be defined before testing begins.
+4. Evidence should be relevant, reliable, current, complete, and traceable.
+5. Interviews provide information, but objective evidence should support audit conclusions.
+6. Sampling should follow an appropriate and documented methodology.
+7. Findings should clearly identify the requirement, condition, evidence, risk, root cause, and recommendation.
+8. Audit findings should be risk-rated using an approved methodology.
+9. Corrective actions should be tracked to completion and independently validated where appropriate.
+10. Management's claim that an action is complete does not automatically demonstrate that the underlying risk has been addressed.
+11. Auditors should consider both design effectiveness and operating effectiveness.
+12. A mature audit process provides an evidence-based chain from **requirement through control testing, finding, remediation, validation, and closure**.
+
+
 
 

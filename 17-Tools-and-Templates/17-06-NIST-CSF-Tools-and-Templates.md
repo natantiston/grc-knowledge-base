@@ -1459,5 +1459,796 @@ The key principle is:
 > **The NIST CSF Target Profile defines a realistic, risk-based future cybersecurity state that the organization intends to achieve and provides measurable objectives for improving its cybersecurity capabilities.**
 > :::
 
+**17.6 NIST Cybersecurity Framework Tools and Templates**
+
+When the Current Profile and Target Profile have been completed, the organization can compare them to determine what needs to change.
+
+This is the purpose of the **Current-State vs Target-State Gap Assessment**.
+
+The basic concept is:
+
+```text
+Current State
+      ↓
+Compare
+      ↓
+Target State
+      ↓
+Identify Gaps
+      ↓
+Assess Risk
+      ↓
+Prioritize
+      ↓
+Define Actions
+```
+
+A gap does not necessarily mean that the organization has completely failed to meet a cybersecurity requirement. A gap can represent:
+
+* A missing capability.
+* A partially implemented capability.
+* An ineffective control.
+* Insufficient coverage.
+* Inconsistent implementation.
+* Missing evidence.
+* Lack of ownership.
+* Outdated processes.
+* A capability that exists but does not meet the organization's target.
+
+A practical **NIST CSF Gap Assessment Template** can contain:
+
+```text
+NIST CSF GAP ASSESSMENT
+
+Gap ID:
+
+NIST CSF Version:
+
+Function:
+
+Category:
+
+Subcategory:
+
+Current State:
+
+Target State:
+
+Gap Description:
+
+Gap Type:
+
+Risk Reference:
+
+Risk Rating:
+
+Business Impact:
+
+Regulatory Impact:
+
+Priority:
+
+Recommended Action:
+
+Action Owner:
+
+Dependencies:
+
+Target Completion Date:
+
+Required Resources:
+
+Success Criteria:
+
+Evidence Required:
+
+Status:
+
+Comments:
+```
+
+The first step is to compare the Current Profile with the Target Profile.
+
+For example:
+
+| Capability               | Current State    | Target State                       | Gap                |
+| ------------------------ | ---------------- | ---------------------------------- | ------------------ |
+| Asset Management         | 80% coverage     | 100% coverage                      | 20% coverage gap   |
+| MFA                      | 70% coverage     | 100% coverage                      | 30% coverage gap   |
+| Vulnerability Management | 80% scanned      | 100% critical systems              | 20% coverage gap   |
+| Security Monitoring      | Critical servers | All critical systems               | Cloud coverage gap |
+| Incident Response        | Plan exists      | Annual enterprise exercise         | Testing gap        |
+| Recovery                 | Annual testing   | Defined recovery objectives tested | Validation gap     |
+
+The assessment should describe the gap clearly.
+
+A weak statement would be:
+
+> MFA needs improvement.
+
+A stronger statement would be:
+
+> MFA is implemented for approximately 70% of in-scope users. The remaining user population, including several remote-access accounts, does not currently use MFA.
+
+The second statement provides a clear basis for remediation.
+
+The GRC professional should also identify the **type of gap**.
+
+A useful classification is:
+
+```text
+Capability Gap
+Control Gap
+Process Gap
+Technology Gap
+People / Skills Gap
+Evidence Gap
+Governance Gap
+Compliance Gap
+```
+
+For example:
+
+```text
+Gap:
+No formal third-party cybersecurity assessment process.
+
+Gap Type:
+Process / Governance
+```
+
+Another example:
+
+```text
+Gap:
+SIEM does not receive logs from several
+critical cloud workloads.
+
+Gap Type:
+Technology / Coverage
+```
+
+Another:
+
+```text
+Gap:
+Access review is performed but evidence
+is not consistently retained.
+
+Gap Type:
+Evidence / Process
+```
+
+This classification helps determine the appropriate treatment.
+
+The assessment should also determine whether the gap represents a **risk**.
+
+For example:
+
+```text
+Gap:
+30% of users do not have MFA.
+
+Potential Risk:
+Unauthorized account access.
+
+Risk:
+High.
+```
+
+The gap assessment should therefore connect to the organization's risk register.
+
+The relationship is:
+
+```text
+NIST CSF Gap
+      ↓
+Risk Scenario
+      ↓
+Risk Assessment
+      ↓
+Risk Rating
+      ↓
+Treatment Priority
+```
+
+This prevents the GRC team from treating every gap as equally important.
+
+For example:
+
+```text
+Gap A:
+30% of privileged accounts lack MFA.
+
+Risk:
+Critical
+
+Gap B:
+Security awareness dashboard lacks
+one additional reporting metric.
+
+Risk:
+Low
+```
+
+Both are gaps, but they should not receive the same priority.
+
+The organization should define a **gap prioritization methodology**.
+
+For example:
+
+| Priority | Description                                                |
+| -------- | ---------------------------------------------------------- |
+| Critical | Significant risk or urgent regulatory/business requirement |
+| High     | Material cybersecurity risk requiring planned action       |
+| Medium   | Meaningful improvement needed                              |
+| Low      | Minor improvement or optimization                          |
+
+The organization can also use numerical scoring.
+
+For example:
+
+```text
+Priority Score =
+Risk Impact × Likelihood × Business Criticality
+```
+
+The exact calculation should follow the organization's approved methodology.
+
+A gap assessment table might therefore look like:
+
+| Gap                     | Risk                 | Impact | Likelihood | Priority |
+| ----------------------- | -------------------- | -----: | ---------: | -------- |
+| Privileged MFA coverage | Unauthorized access  |      5 |          4 | Critical |
+| Cloud asset inventory   | Unknown assets       |      4 |          4 | High     |
+| SIEM cloud coverage     | Delayed detection    |      5 |          3 | High     |
+| IR exercise             | Response readiness   |      4 |          3 | Medium   |
+| Dashboard enhancement   | Reporting limitation |      2 |          2 | Low      |
+
+The GRC team should also consider **regulatory requirements**.
+
+A gap may receive a higher priority if it affects a mandatory requirement.
+
+For example:
+
+```text
+Gap:
+Insufficient incident reporting process
+
+Risk:
+Operational / Regulatory
+
+Regulatory Driver:
+Applicable cybersecurity regulation
+
+Priority:
+High
+```
+
+This means gap prioritization should consider more than technical risk.
+
+A useful model is:
+
+```text
+Cybersecurity Risk
+       +
+Regulatory Requirement
+       +
+Business Criticality
+       +
+Customer Requirement
+       +
+Implementation Complexity
+       ↓
+Gap Priority
+```
+
+The gap assessment should then identify the recommended action.
+
+For example:
+
+```text
+Gap:
+MFA coverage = 70%
+
+Target:
+MFA coverage = 100%
+
+Recommended Action:
+Extend MFA enrollment to all remaining
+in-scope users and formally document
+approved exceptions.
+```
+
+The action should be specific enough to become a project or remediation task.
+
+Avoid vague actions such as:
+
+> Improve authentication.
+
+Instead:
+
+> Deploy MFA to all remaining in-scope user accounts and implement an exception approval process for systems that cannot technically support MFA.
+
+The GRC team should also identify the **gap owner**.
+
+For example:
+
+| Gap                    | Owner                     |
+| ---------------------- | ------------------------- |
+| Asset inventory        | IT Asset Manager          |
+| MFA coverage           | IAM Manager               |
+| Vulnerability scanning | Security Operations       |
+| SIEM coverage          | SOC Manager               |
+| IR exercise            | Incident Response Manager |
+| Recovery testing       | BCM Manager               |
+
+Ownership is critical because a gap without an accountable owner is unlikely to be resolved.
+
+The assessment should also include a **target completion date**.
+
+For example:
+
+```text
+Gap:
+Incomplete MFA coverage
+
+Owner:
+IAM Manager
+
+Target:
+31 December 2026
+```
+
+The date should be aligned with risk and organizational priorities.
+
+Critical gaps should generally receive more urgent attention than low-risk improvements.
+
+The assessment should also identify **dependencies**.
+
+For example:
+
+```text
+Gap:
+Complete cloud asset inventory
+
+Dependencies:
+Cloud account discovery
+CMDB integration
+Asset ownership
+Cloud tagging standards
+```
+
+A gap may therefore require several supporting activities before it can be closed.
+
+The relationship might be:
+
+```text
+Cloud Discovery
+       ↓
+Asset Identification
+       ↓
+CMDB Integration
+       ↓
+Asset Ownership
+       ↓
+Complete Asset Inventory
+```
+
+The GRC professional should identify these dependencies before assigning unrealistic deadlines.
+
+The gap assessment should also define **success criteria**.
+
+For example:
+
+```text
+Gap:
+Incomplete MFA coverage
+
+Success Criteria:
+100% of in-scope user accounts use MFA,
+except formally approved and documented
+exceptions.
+```
+
+This provides an objective definition of closure.
+
+Another example:
+
+```text
+Gap:
+Incomplete vulnerability scanning
+
+Success Criteria:
+100% of critical production systems are
+included in authenticated vulnerability
+scanning at the required frequency.
+```
+
+This is much stronger than:
+
+> Vulnerability management improved.
+
+The gap should only be considered closed when the success criteria have been met and appropriate evidence exists.
+
+A useful closure model is:
+
+```text
+Gap Identified
+      ↓
+Remediation Planned
+      ↓
+Remediation Implemented
+      ↓
+Evidence Collected
+      ↓
+Validation Performed
+      ↓
+Gap Closed
+```
+
+The **validation step** is important.
+
+For example:
+
+> The IAM team reports that MFA has been deployed.
+
+The GRC team should verify the claim using appropriate evidence.
+
+For example:
+
+```text
+IAM Report
+     +
+MFA Configuration
+     +
+User Coverage Report
+     +
+Exception Register
+     ↓
+Validation
+```
+
+If the evidence shows that only 94% of users have MFA, the gap has not yet reached the target of 100%.
+
+The assessment should therefore distinguish between:
+
+```text
+Remediation Reported
+```
+
+and:
+
+```text
+Remediation Validated
+```
+
+This is an important GRC control.
+
+The gap assessment can also use a simple maturity comparison.
+
+For example:
+
+| Capability               | Current | Target | Gap |
+| ------------------------ | ------: | -----: | --: |
+| Asset Management         |       3 |      5 |   2 |
+| Access Management        |       3 |      5 |   2 |
+| Vulnerability Management |       4 |      5 |   1 |
+| Monitoring               |       3 |      5 |   2 |
+| Incident Response        |       3 |      4 |   1 |
+| Recovery                 |       3 |      5 |   2 |
+
+However, numerical maturity scores should not replace detailed analysis.
+
+A score of 3 does not explain what is missing.
+
+The GRC professional should always retain the underlying assessment information.
+
+The gap assessment can also be visualized as a heat map.
+
+```text
+             Target State
+                  ↑
+                  │
+Current State ────┼────→ Improvement
+                  │
+                  ↓
+             Risk Exposure
+```
+
+A more practical representation is:
+
+```text
+MFA
+Current: 70%
+Target: 100%
+Gap: 30%
+Risk: High
+Priority: Critical
+```
+
+```text
+Asset Inventory
+Current: 80%
+Target: 100%
+Gap: 20%
+Risk: High
+Priority: High
+```
+
+```text
+Incident Response
+Current: Plan exists
+Target: Tested annually
+Gap: Exercise capability
+Risk: Medium
+Priority: Medium
+```
+
+The gap assessment should also identify whether a gap can be addressed through:
+
+* Existing processes.
+* A new control.
+* Technology implementation.
+* Policy changes.
+* Training.
+* Staffing.
+* Outsourcing.
+* Process automation.
+* Risk acceptance.
+
+For example:
+
+```text
+Gap:
+Insufficient security awareness coverage.
+
+Treatment:
+Training program expansion.
+```
+
+Another:
+
+```text
+Gap:
+Legacy system cannot support MFA.
+
+Treatment:
+Compensating controls + planned replacement.
+```
+
+This demonstrates that not every gap requires the same type of solution.
+
+The organization should also consider **quick wins**.
+
+Some gaps can be addressed quickly with limited resources.
+
+For example:
+
+```text
+Quick Win:
+Enable MFA for remaining administrative accounts.
+```
+
+Other gaps may require major programs.
+
+For example:
+
+```text
+Strategic Initiative:
+Enterprise-wide asset discovery and CMDB modernization.
+```
+
+The GRC team can therefore classify remediation actions as:
+
+```text
+Quick Win
+Short-Term
+Medium-Term
+Strategic
+```
+
+This helps prepare for the implementation roadmap in Part 4.
+
+A practical gap register could look like:
+
+| Gap ID | CSF Area          | Current     | Target                  | Risk   | Priority | Action           | Owner | Due |
+| ------ | ----------------- | ----------- | ----------------------- | ------ | -------- | ---------------- | ----- | --- |
+| G-001  | Access Control    | 70% MFA     | 100%                    | High   | Critical | Extend MFA       | IAM   | Q4  |
+| G-002  | Asset Management  | 80%         | 100%                    | High   | High     | Cloud discovery  | IT    | Q1  |
+| G-003  | Monitoring        | Partial     | Full critical coverage  | High   | High     | Expand SIEM      | SOC   | Q2  |
+| G-004  | Incident Response | Untested    | Annual exercise         | Medium | Medium   | Conduct exercise | SOC   | Q1  |
+| G-005  | Recovery          | Annual test | Objective-based testing | Medium | Medium   | Improve testing  | BCM   | Q2  |
+
+The GRC team should periodically update the gap register.
+
+A practical status model is:
+
+```text
+Identified
+      ↓
+Assessed
+      ↓
+Prioritized
+      ↓
+Action Planned
+      ↓
+In Progress
+      ↓
+Implemented
+      ↓
+Validated
+      ↓
+Closed
+```
+
+This provides management with visibility into progress.
+
+The gap assessment should also support management reporting.
+
+For example:
+
+```text
+Total Gaps: 25
+
+Critical: 3
+High: 8
+Medium: 10
+Low: 4
+
+Closed: 7
+In Progress: 12
+Not Started: 6
+```
+
+Management can then understand the organization's improvement position without reviewing every individual gap.
+
+However, summary metrics should always be supported by the underlying gap register.
+
+For a practical exercise, use the following Current and Target Profiles.
+
+**Current State**
+
+```text
+Asset Management:
+80% coverage
+
+MFA:
+70% coverage
+
+Vulnerability Management:
+80% of critical systems scanned
+
+Security Monitoring:
+Critical servers monitored
+
+Incident Response:
+Plan exists but no annual exercise completed
+
+Recovery:
+Annual recovery test
+```
+
+**Target State**
+
+```text
+Asset Management:
+100% coverage
+
+MFA:
+100% coverage
+
+Vulnerability Management:
+100% of critical systems scanned
+
+Security Monitoring:
+All critical systems monitored
+
+Incident Response:
+Annual enterprise-wide exercise
+
+Recovery:
+Critical systems tested against defined
+recovery objectives
+```
+
+Create a **NIST CSF Gap Assessment** containing:
+
+```text
+Gap ID
+CSF Function
+Category
+Current State
+Target State
+Gap Description
+Gap Type
+Risk
+Priority
+Recommended Action
+Owner
+Dependencies
+Target Date
+Success Criteria
+Status
+```
+
+For example:
+
+```text
+Gap ID:
+G-001
+
+CSF Function:
+Protect
+
+Category:
+Identity Management, Authentication,
+and Access Control
+
+Current State:
+MFA covers 70% of users.
+
+Target State:
+MFA covers 100% of in-scope users.
+
+Gap:
+30% coverage gap.
+
+Risk:
+Unauthorized access.
+
+Priority:
+Critical.
+
+Action:
+Extend MFA deployment.
+
+Owner:
+IAM Manager.
+
+Success Criteria:
+100% coverage except formally
+approved exceptions.
+```
+
+Then identify which gaps should be addressed first.
+
+The prioritization should consider:
+
+```text
+Risk
+Business Criticality
+Regulatory Requirements
+Threat Exposure
+Customer Requirements
+Implementation Complexity
+Dependencies
+```
+
+The final result should not simply be a list of weaknesses.
+
+It should become a **risk-based improvement backlog**.
+
+The overall relationship is:
+
+```text
+Current Profile
+      ↓
+Target Profile
+      ↓
+Gap Assessment
+      ↓
+Risk-Based Prioritization
+      ↓
+Remediation Actions
+      ↓
+Implementation Roadmap
+```
+
+The key principle is:
+
+> **A NIST CSF gap assessment transforms the difference between the organization's current and desired cybersecurity states into a prioritized, risk-based set of improvement actions.**
+
+
 
 

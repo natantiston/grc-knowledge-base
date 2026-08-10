@@ -2203,6 +2203,881 @@ The key principle is:
 A strong ISMS does not implement controls simply because they appear in a standard. It determines what the organization needs to protect, identifies the risks, evaluates those risks, selects appropriate treatments and controls, implements them, and then verifies whether the remaining risk is acceptable.
 :::
 
+The final part of the ISO/IEC 27001 toolkit focuses on gathering and organizing the evidence needed to demonstrate that the ISMS and its controls are implemented and operating as intended.
+
+An **ISO 27001 Audit Evidence Checklist** provides a structured method for identifying the evidence required for an internal audit, certification audit, surveillance audit, or management review.
+
+Evidence should demonstrate more than the existence of documentation. Where applicable, it should demonstrate that processes and controls are actually being performed.
+
+The evidence chain can be represented as:
+
+```text id="f8m2qx"
+ISO Requirement
+       ↓
+Applicable Control
+       ↓
+Organizational Process
+       ↓
+Control Implementation
+       ↓
+Evidence
+       ↓
+Audit Testing
+       ↓
+Audit Conclusion
+```
+
+A practical **ISO 27001 Audit Evidence Checklist** can contain:
+
+```text id="x4k7nz"
+ISO 27001 AUDIT EVIDENCE CHECKLIST
+
+Requirement / Control:
+
+Control Reference:
+
+Evidence Required:
+
+Evidence Owner:
+
+Evidence Location:
+
+Evidence Period:
+
+Evidence Provided:
+
+Evidence Date:
+
+Evidence Validity:
+
+Evidence Reviewed:
+
+Assessment Result:
+
+Finding:
+
+Related Risk:
+
+Corrective Action:
+
+Action Owner:
+
+Comments:
+```
+
+The first step is to identify the **ISO 27001 requirement or control** being assessed.
+
+For example:
+
+```text id="q8v3mc"
+Requirement:
+Internal Audit
+
+Evidence Required:
+Internal Audit Program
+Internal Audit Plan
+Audit Reports
+Audit Findings
+Corrective Action Records
+```
+
+The evidence checklist should then identify who is responsible for providing the evidence.
+
+For example:
+
+| Evidence                   | Evidence Owner              |
+| -------------------------- | --------------------------- |
+| Risk Register              | GRC Manager                 |
+| Internal Audit Report      | Internal Audit              |
+| Access Review              | IAM Manager                 |
+| Incident Records           | SOC Manager                 |
+| Security Awareness Records | Security Awareness Manager  |
+| Supplier Assessments       | Third-Party Risk Manager    |
+| Business Continuity Test   | Business Continuity Manager |
+
+This prevents the audit team from spending unnecessary time determining who should provide each item.
+
+The checklist should also specify the **evidence period**.
+
+For example:
+
+```text id="v5m9kp"
+Evidence:
+Quarterly Access Review
+
+Required Period:
+Q2 2026
+
+Evidence Date:
+30 June 2026
+```
+
+This is important because auditors frequently need evidence covering a defined period rather than a single point in time.
+
+For example, a screenshot taken today may demonstrate that a control exists today, but it may not demonstrate that the control operated throughout the audit period.
+
+Evidence should therefore be relevant to the period being assessed.
+
+The checklist should distinguish between different types of evidence.
+
+Common categories include:
+
+```text id="j3q8mw"
+Documentary Evidence
+     ↓
+Operational Evidence
+     ↓
+Technical Evidence
+     ↓
+Interview Evidence
+     ↓
+Observation
+     ↓
+Test Evidence
+```
+
+**Documentary evidence** may include:
+
+* Policies.
+* Procedures.
+* Standards.
+* Risk assessments.
+* Risk treatment plans.
+* SoA.
+* Internal audit procedures.
+* ISMS documentation.
+
+**Operational evidence** may include:
+
+* Access reviews.
+* Security awareness records.
+* Incident reports.
+* Supplier assessments.
+* Change records.
+* Corrective action records.
+
+**Technical evidence** may include:
+
+* System configurations.
+* Security logs.
+* Vulnerability reports.
+* IAM reports.
+* Backup reports.
+* Monitoring dashboards.
+
+**Test evidence** may include:
+
+* Disaster recovery test results.
+* Penetration test reports.
+* Vulnerability remediation validation.
+* Access control testing.
+* Security control testing.
+
+Different controls require different types of evidence.
+
+For example:
+
+```text id="p2x7mc"
+Control:
+Access Review
+
+Weak Evidence:
+Access Control Policy
+
+Stronger Evidence:
+Completed Access Review Report
+```
+
+The policy demonstrates that the process is defined.
+
+The completed review demonstrates that the process was actually performed.
+
+This distinction is critical during an audit.
+
+A useful evidence model is:
+
+```text id="k6n4vz"
+Design Evidence
+      ↓
+Implementation Evidence
+      ↓
+Operating Evidence
+      ↓
+Effectiveness Evidence
+```
+
+For example:
+
+**Design evidence:**
+
+> Access Control Policy.
+
+**Implementation evidence:**
+
+> IAM configuration.
+
+**Operating evidence:**
+
+> Quarterly access review.
+
+**Effectiveness evidence:**
+
+> Testing demonstrating that inappropriate access was identified and removed.
+
+The audit evidence checklist should therefore avoid collecting documentation simply for the sake of having documentation.
+
+The objective is to obtain evidence that supports the audit conclusion.
+
+A practical evidence checklist could look like:
+
+| Area                | Evidence                 | Owner          | Period        | Status   |
+| ------------------- | ------------------------ | -------------- | ------------- | -------- |
+| ISMS Scope          | Approved Scope Statement | GRC            | Current       | Received |
+| Risk Management     | Risk Register            | GRC            | Current       | Received |
+| Risk Treatment      | Treatment Plan           | GRC            | Current       | Pending  |
+| SoA                 | Approved SoA             | GRC            | Current       | Received |
+| Access Control      | Access Review            | IAM            | Q2            | Received |
+| Incident Management | Incident Records         | SOC            | Q2            | Received |
+| Supplier Security   | Vendor Assessments       | Procurement    | Q2            | Pending  |
+| Awareness           | Training Records         | HR/Security    | Q2            | Received |
+| Internal Audit      | Audit Reports            | Internal Audit | Current cycle | Received |
+| Corrective Action   | Action Tracker           | GRC            | Current       | Received |
+
+The status can be standardized:
+
+```text id="y9q3mv"
+Requested
+     ↓
+Submitted
+     ↓
+Under Review
+     ↓
+Accepted
+     ↓
+Clarification Required
+     ↓
+Rejected / Insufficient
+```
+
+This creates a controlled evidence collection process.
+
+The GRC team should also avoid accepting evidence without validating its relevance.
+
+For example:
+
+> A security policy dated 2022 is provided as evidence for a 2026 assessment.
+
+The GRC reviewer should determine whether:
+
+* The policy is still approved.
+* The policy is still applicable.
+* The policy was reviewed.
+* The policy was superseded.
+* The policy reflects the current control environment.
+
+Evidence should be **current enough for the purpose of the assessment**.
+
+The checklist should also track the **source of evidence**.
+
+For example:
+
+```text id="h7v4nc"
+Evidence Source:
+ServiceNow GRC
+
+Evidence Type:
+Access Review Report
+
+Record ID:
+AR-2026-045
+
+Period:
+Q2 2026
+```
+
+or:
+
+```text id="p5m8qx"
+Evidence Source:
+IAM Platform
+
+Evidence:
+Privileged Account Report
+
+Generated:
+30 June 2026
+```
+
+This improves audit traceability.
+
+Where possible, evidence should have a unique identifier.
+
+For example:
+
+```text id="z2q6mw"
+Evidence ID:
+EV-2026-0145
+
+Control:
+AC-004
+
+Description:
+Q2 Privileged Access Review
+
+Owner:
+IAM Manager
+
+Date:
+30 June 2026
+```
+
+The evidence ID can then be referenced by:
+
+* Audit workpapers.
+* Control assessments.
+* Risk records.
+* Audit findings.
+* Corrective actions.
+
+This creates a connected GRC evidence structure.
+
+The checklist should also identify **missing evidence**.
+
+For example:
+
+```text id="c8x4np"
+Control:
+Supplier Security Assessment
+
+Required Evidence:
+Annual assessment for critical suppliers
+
+Received:
+7 of 10 suppliers
+
+Missing:
+3 assessments
+
+Assessment:
+Incomplete
+```
+
+This does not automatically mean that the control has failed, but it creates an issue that must be investigated.
+
+The GRC professional should determine whether the missing evidence indicates:
+
+* A documentation problem.
+* A control execution problem.
+* A scope issue.
+* A process failure.
+* An evidence retention problem.
+
+The distinction matters.
+
+For example:
+
+> The assessment was completed, but the evidence was not retained.
+
+This is different from:
+
+> The assessment was never performed.
+
+The first may indicate an evidence management weakness.
+
+The second may indicate a control operating failure.
+
+The checklist should also include **evidence quality criteria**.
+
+Evidence should generally be:
+
+* Relevant.
+* Reliable.
+* Complete.
+* Current.
+* Traceable.
+* Authentic.
+* Sufficient.
+
+A simple evidence quality assessment can use:
+
+| Rating       | Meaning                                     |
+| ------------ | ------------------------------------------- |
+| Strong       | Directly demonstrates the control           |
+| Adequate     | Supports the control with minor limitations |
+| Weak         | Provides limited support                    |
+| Insufficient | Does not adequately demonstrate the control |
+
+For example:
+
+```text id="w6n2pk"
+Evidence:
+Policy Document
+
+Purpose:
+Demonstrates control design
+
+Quality:
+Adequate
+
+Additional Evidence Required:
+Operational records
+```
+
+This prevents a policy document from being treated as proof that the control operates effectively.
+
+The evidence checklist should also consider **sampling**.
+
+Auditors rarely need to examine every transaction when an appropriate sampling methodology can be applied.
+
+For example:
+
+```text id="m4q8vc"
+Population:
+1,200 user access changes
+
+Sample:
+30 transactions
+
+Test:
+Authorization
+Appropriate provisioning
+Appropriate removal
+
+Result:
+29 compliant
+1 exception
+```
+
+The sampling approach should be documented.
+
+The auditor or assessor should be able to explain:
+
+* What population was selected.
+* Why the sample was selected.
+* What period was covered.
+* What criteria were tested.
+* What exceptions were identified.
+
+Evidence collection should therefore be linked to the audit testing methodology.
+
+The relationship is:
+
+```text id="r7m3xn"
+Control
+   ↓
+Population
+   ↓
+Sample
+   ↓
+Evidence
+   ↓
+Test
+   ↓
+Result
+```
+
+The checklist should also track **evidence requests**.
+
+For example:
+
+```text id="q5v9mz"
+Evidence Request ID:
+REQ-026
+
+Requested From:
+IAM Manager
+
+Request:
+Provide Q2 2026 privileged access review
+and evidence of remediation for identified
+exceptions.
+
+Requested Date:
+10 July 2026
+
+Due Date:
+15 July 2026
+
+Status:
+Submitted
+```
+
+This is particularly useful when managing large audits.
+
+An evidence request tracker might contain:
+
+| Request            | Owner       | Due Date | Status        |
+| ------------------ | ----------- | -------- | ------------- |
+| Risk Register      | GRC         | 15 Jul   | Received      |
+| Access Review      | IAM         | 15 Jul   | Received      |
+| Incident Records   | SOC         | 16 Jul   | Pending       |
+| Vendor Assessments | Procurement | 17 Jul   | Received      |
+| BCP Test           | BCM         | 18 Jul   | Clarification |
+
+This helps prevent audit delays.
+
+The evidence checklist should also map evidence to the **Statement of Applicability**.
+
+For example:
+
+```text id="n8k4wp"
+SoA Control
+     ↓
+Internal Control
+     ↓
+Evidence Requirement
+     ↓
+Evidence ID
+     ↓
+Audit Test
+     ↓
+Result
+```
+
+This provides a direct connection between control selection and audit evidence.
+
+The same evidence can sometimes support multiple controls.
+
+For example:
+
+```text id="a3m7qc"
+Evidence:
+Privileged Access Management Report
+
+Supports:
+Access Control
+Privileged Access
+Monitoring
+Risk Treatment
+Internal Audit
+```
+
+However, the GRC professional should verify that the evidence actually demonstrates each requirement.
+
+One piece of evidence should not automatically be assumed to satisfy every related control.
+
+The checklist should also record **audit findings**.
+
+For example:
+
+```text id="x9p5mv"
+Control:
+Access Review
+
+Evidence:
+Q2 Access Review Report
+
+Finding:
+3 terminated users remained active
+beyond the defined deprovisioning period.
+
+Severity:
+Minor / Major / Other classification
+according to the audit methodology.
+
+Corrective Action:
+Improve automated deprovisioning controls.
+```
+
+The exact finding classification should follow the organization's audit methodology.
+
+The evidence checklist should therefore connect directly to corrective action management.
+
+```text id="k4v8qn"
+Evidence Review
+      ↓
+Exception
+      ↓
+Audit Finding
+      ↓
+Corrective Action
+      ↓
+Owner
+      ↓
+Due Date
+      ↓
+Validation
+      ↓
+Closure
+```
+
+Evidence management should also be subject to appropriate **security and privacy controls**.
+
+Audit evidence may contain:
+
+* Personal information.
+* Customer information.
+* Security configurations.
+* Vulnerability information.
+* Credentials or secrets if improperly collected.
+* Confidential business information.
+* Supplier information.
+
+The GRC team should therefore apply appropriate access restrictions.
+
+For example:
+
+```text id="w8m3xq"
+Audit Evidence Repository
+
+Access:
+GRC
+Internal Audit
+Authorized Management
+
+Restrictions:
+No Public Access
+No Uncontrolled Sharing
+Retention Requirements
+Audit Trail
+```
+
+Sensitive evidence should not be collected unnecessarily.
+
+For example, if an auditor needs proof that MFA is enabled, it may be unnecessary to provide actual authentication secrets or sensitive configuration details.
+
+The principle should be:
+
+> **Collect sufficient evidence, but avoid unnecessary sensitive information.**
+
+Evidence retention should also follow the organization's retention requirements.
+
+The checklist can include:
+
+```text id="m2q7vc"
+Evidence Retention:
+
+Retention Period:
+7 Years
+
+Repository:
+GRC Evidence Repository
+
+Owner:
+GRC Manager
+
+Access:
+Authorized Personnel
+
+Disposal:
+Controlled Disposal Process
+```
+
+The exact retention period should be based on organizational, contractual, legal, regulatory, and audit requirements.
+
+An effective evidence repository should also provide version control and auditability.
+
+For example:
+
+```text id="p7x4mn"
+Evidence ID:
+EV-2026-021
+
+Version:
+2.0
+
+Uploaded By:
+IAM Manager
+
+Upload Date:
+12 July 2026
+
+Reviewed By:
+GRC Analyst
+
+Review Date:
+14 July 2026
+```
+
+This prevents confusion when evidence is updated during an assessment.
+
+The GRC professional should also establish an **audit evidence index**.
+
+For example:
+
+| Evidence ID | Control             | Description       | Owner       | Status   |
+| ----------- | ------------------- | ----------------- | ----------- | -------- |
+| EV-001      | Risk Management     | Risk Register     | GRC         | Accepted |
+| EV-002      | Access Control      | IAM Report        | IAM         | Accepted |
+| EV-003      | Incident Management | Incident Log      | SOC         | Accepted |
+| EV-004      | Supplier Security   | Vendor Assessment | Procurement | Pending  |
+| EV-005      | Awareness           | Training Report   | Security    | Accepted |
+
+This provides a central inventory of audit evidence.
+
+A complete ISO 27001 audit evidence checklist can therefore connect:
+
+```text id="q8m5zr"
+ISO Requirement
+      ↓
+Annex A Control
+      ↓
+Internal Control
+      ↓
+Risk
+      ↓
+Policy / Procedure
+      ↓
+Evidence
+      ↓
+Audit Test
+      ↓
+Finding
+      ↓
+Corrective Action
+      ↓
+Validation
+```
+
+This is the complete traceability model that a mature GRC program should aim to achieve.
+
+For a practical exercise, create an **ISO 27001 Audit Evidence Checklist** for five areas:
+
+```text id="v6k3pq"
+1. Risk Management
+2. Access Control
+3. Incident Management
+4. Supplier Security
+5. Business Continuity
+```
+
+For each area, identify:
+
+```text id="c4x8nm"
+ISO / Control Reference
+Internal Control
+Evidence Required
+Evidence Owner
+Evidence Period
+Evidence Location
+Evidence Status
+Evidence Quality
+Audit Test
+Finding
+Corrective Action
+```
+
+For example:
+
+```text id="z7m2vc"
+Area:
+Access Control
+
+Control:
+User Access Management
+
+Evidence:
+Q2 Access Review
+
+Owner:
+IAM Manager
+
+Period:
+April–June 2026
+
+Test:
+Sample 25 user accounts and verify
+authorization and access appropriateness.
+
+Result:
+24 compliant
+1 exception
+
+Follow-up:
+Investigate exception and determine
+whether corrective action is required.
+```
+
+Another exercise is to create an **audit evidence request tracker** containing at least ten evidence requests.
+
+Track:
+
+```text id="r3q9wk"
+Request ID
+Evidence Description
+Control
+Owner
+Request Date
+Due Date
+Status
+Review Result
+Finding
+```
+
+Then classify each evidence item as:
+
+```text id="y5m7xp"
+Accepted
+Clarification Required
+Insufficient
+Not Provided
+Not Applicable
+```
+
+This exercise demonstrates how evidence collection can be managed as a structured GRC process rather than as an informal exchange of files and emails.
+
+The GRC professional should also understand that **evidence availability does not automatically mean control effectiveness**.
+
+For example:
+
+> The organization has a completed access review report.
+
+This demonstrates that a review was performed.
+
+It does not necessarily demonstrate that:
+
+> The review was complete, accurate, performed by an appropriate person, and that identified inappropriate access was actually removed.
+
+Additional testing may therefore be necessary.
+
+The strongest evidence approach combines:
+
+```text id="n6q4mv"
+Documentation
+     +
+Operational Records
+     +
+Technical Evidence
+     +
+Interviews
+     +
+Testing
+     ↓
+Overall Assessment
+```
+
+This produces a more reliable conclusion.
+
+The key principle is:
+
+> **ISO 27001 audit evidence should demonstrate that requirements and controls are not merely documented, but are implemented, operated, monitored, and supported by objective evidence.**
+
+A mature GRC professional should be able to trace any significant audit conclusion back to the underlying evidence and, ultimately, to the applicable ISO requirement, organizational control, and business risk.
+
+This completes the practical ISO/IEC 27001 toolkit:
+
+```text id="u9x3mk"
+Control Mapping
+      ↓
+Statement of Applicability
+      ↓
+ISMS Risk Assessment & Treatment
+      ↓
+Audit Evidence
+      ↓
+Control Assessment
+      ↓
+Audit Findings
+      ↓
+Corrective Action
+      ↓
+Continual Improvement
+```
+
+The result is an integrated ISO 27001 GRC process rather than a collection of disconnected documents.
+:::
+
+
 
 
 

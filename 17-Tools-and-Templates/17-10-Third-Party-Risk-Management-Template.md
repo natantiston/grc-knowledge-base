@@ -3536,6 +3536,1181 @@ The key principle is:
 
 > **Supplier security requirements establish clear, risk-based, and enforceable security expectations that suppliers must meet throughout the relationship, from onboarding and service delivery through monitoring, remediation, renewal, and contract termination.**
 
+**Part 4 – Third-Party Risk Register**
+
+A Third-Party Risk Register is a structured record used to identify, assess, monitor, and manage cybersecurity, privacy, compliance, operational, and resilience risks associated with suppliers, vendors, contractors, service providers, and other external parties.
+
+The register provides the organization with a centralized view of third-party risks and helps ensure that identified risks have accountable owners, defined treatment actions, target dates, and appropriate management oversight.
+
+The third-party risk management lifecycle can be represented as:
+
+```text
+Vendor Identification
+        ↓
+Vendor Classification
+        ↓
+Inherent Risk Assessment
+        ↓
+Due Diligence
+        ↓
+Control Assessment
+        ↓
+Risk Identification
+        ↓
+Risk Recording
+        ↓
+Risk Treatment
+        ↓
+Risk Monitoring
+        ↓
+Risk Reassessment
+        ↓
+Risk Closure / Acceptance
+```
+
+A practical Third-Party Risk Register can contain:
+
+```text
+THIRD-PARTY RISK REGISTER
+
+Risk ID:
+
+Vendor ID:
+
+Vendor Name:
+
+Service:
+
+Business Owner:
+
+Vendor Owner:
+
+Risk Description:
+
+Risk Category:
+
+Risk Source:
+
+Affected Asset / Service:
+
+Data Involved:
+
+Business Criticality:
+
+Regulatory Impact:
+
+Inherent Likelihood:
+
+Inherent Impact:
+
+Inherent Risk Rating:
+
+Existing Controls:
+
+Control Effectiveness:
+
+Residual Likelihood:
+
+Residual Impact:
+
+Residual Risk Rating:
+
+Risk Treatment:
+
+Corrective Action:
+
+Action Owner:
+
+Target Date:
+
+Risk Owner:
+
+Risk Acceptance Required:
+
+Risk Acceptance Authority:
+
+Risk Status:
+
+Risk Due Date:
+
+Evidence:
+
+Last Review Date:
+
+Next Review Date:
+
+Escalation Status:
+
+Comments:
+```
+
+The first step is to assign a unique **Risk ID**.
+
+For example:
+
+```text
+TPR-2026-001
+TPR-2026-002
+TPR-2026-003
+```
+
+The identifier should remain unique throughout the lifecycle of the risk.
+
+The register should also contain a **Vendor ID** that links the risk to the organization's vendor master record.
+
+For example:
+
+```text
+Vendor ID:
+VEN-00457
+
+Vendor:
+ABC Cloud Services
+
+Service:
+Production Cloud Infrastructure
+```
+
+This creates traceability between procurement, vendor management, third-party risk management, and cybersecurity GRC.
+
+The register should identify the **business owner**.
+
+For example:
+
+```text
+Business Owner:
+Head of Infrastructure
+```
+
+The business owner understands why the organization uses the vendor and the importance of the service to business operations.
+
+The **vendor owner** may be a separate role responsible for managing the commercial and operational relationship.
+
+For example:
+
+```text
+Business Owner:
+Chief Technology Officer
+
+Vendor Owner:
+Vendor Management Manager
+```
+
+The **risk owner** is responsible for managing the identified risk and ensuring that an appropriate risk decision is made.
+
+These roles should not automatically be assumed to be the same person.
+
+The register should contain a clear **risk description**.
+
+A weak risk description would be:
+
+```text
+Cloud security risk.
+```
+
+A stronger description would be:
+
+```text
+The supplier's privileged administrative
+accounts are not consistently protected
+with MFA, which may increase the risk of
+unauthorized administrative access to the
+production environment.
+```
+
+A strong risk description should explain:
+
+```text
+Cause
+Risk Event
+Potential Consequence
+```
+
+A useful structure is:
+
+```text
+Because of [cause],
+there is a risk that [event],
+which could result in [impact].
+```
+
+For example:
+
+```text
+Because the supplier does not enforce MFA
+for all privileged accounts, there is a risk
+that an unauthorized individual could gain
+administrative access, resulting in compromise
+of production systems or sensitive information.
+```
+
+The register should classify the **risk category**.
+
+Possible categories include:
+
+```text
+Cybersecurity
+Information Security
+Privacy
+Compliance
+Operational
+Availability
+Confidentiality
+Integrity
+Business Continuity
+Third-Party Dependency
+Concentration Risk
+Data Protection
+Technology
+Financial
+Reputational
+```
+
+Multiple categories may apply to the same risk.
+
+For example:
+
+```text
+Primary Category:
+Cybersecurity
+
+Secondary Category:
+Operational
+Privacy
+```
+
+The register should identify the **risk source**.
+
+For example:
+
+```text
+Risk Source:
+
+Vendor Assessment
+Security Questionnaire
+Audit Finding
+Security Incident
+Penetration Test
+Contract Review
+Compliance Assessment
+Threat Intelligence
+Business Continuity Review
+Management Review
+```
+
+This provides traceability back to the activity that identified the risk.
+
+The register should identify the **affected asset or service**.
+
+For example:
+
+```text
+Affected Service:
+Customer Payment Platform
+
+Affected Assets:
+Cloud Infrastructure
+Customer Database
+Application Platform
+```
+
+This helps determine the potential business impact.
+
+The register should identify the **data involved**.
+
+For example:
+
+```text
+Data:
+
+Customer Personal Data
+Payment Information
+Authentication Information
+Confidential Business Information
+```
+
+Data classification should be aligned with the organization's data classification framework.
+
+The register should also capture **business criticality**.
+
+For example:
+
+```text
+Critical
+High
+Medium
+Low
+```
+
+A supplier supporting a critical business process should normally receive greater risk attention than a supplier supporting a non-critical activity.
+
+The organization should also identify **regulatory impact**.
+
+For example:
+
+```text
+Regulatory Impact:
+
+GDPR
+NIS2
+DORA
+PCI DSS
+Industry Requirements
+Contractual Requirements
+```
+
+The actual regulatory requirements should be determined based on the organization's circumstances and the services provided.
+
+The register should assess **inherent risk** before considering mitigating controls.
+
+A simple methodology can use:
+
+```text
+Likelihood × Impact = Inherent Risk
+```
+
+For example:
+
+```text
+Likelihood:
+4 – Likely
+
+Impact:
+5 – Severe
+
+Inherent Risk:
+20 – Critical
+```
+
+A five-level likelihood scale might be:
+
+```text
+1 – Rare
+2 – Unlikely
+3 – Possible
+4 – Likely
+5 – Almost Certain
+```
+
+A five-level impact scale might be:
+
+```text
+1 – Insignificant
+2 – Minor
+3 – Moderate
+4 – Major
+5 – Severe
+```
+
+The resulting risk matrix could be:
+
+```text
+              IMPACT
+          1    2    3    4    5
+
+L  5       5   10   15   20   25
+I  4       4    8   12   16   20
+K  3       3    6    9   12   15
+E  2       2    4    6    8   10
+L  1       1    2    3    4    5
+```
+
+The organization should define the thresholds for:
+
+```text
+Low
+Medium
+High
+Critical
+```
+
+For example:
+
+```text
+1–4:
+Low
+
+5–9:
+Medium
+
+10–15:
+High
+
+16–25:
+Critical
+```
+
+The exact thresholds should be defined by the organization's approved risk methodology.
+
+The register should document the **existing controls**.
+
+For example:
+
+```text
+Existing Controls:
+
+MFA for most privileged accounts
+Privileged Access Management
+Network Segmentation
+Security Monitoring
+Quarterly Access Reviews
+Incident Response Process
+```
+
+Controls should be described clearly enough to understand how they reduce the identified risk.
+
+The organization should then evaluate **control effectiveness**.
+
+For example:
+
+```text
+Effective
+Partially Effective
+Ineffective
+Not Tested
+Unknown
+```
+
+A vendor may have a documented control that appears appropriate but is not operating effectively.
+
+For example:
+
+```text
+Control:
+Quarterly Access Review
+
+Documentation:
+Available
+
+Evidence:
+Incomplete
+
+Assessment:
+Partially Effective
+```
+
+The register should then assess **residual risk**.
+
+Residual risk is the risk remaining after considering the effectiveness of existing controls.
+
+For example:
+
+```text
+Inherent Risk:
+Critical
+
+Existing Controls:
+Strong
+
+Residual Risk:
+Medium
+```
+
+Another example:
+
+```text
+Inherent Risk:
+High
+
+Existing Controls:
+Weak
+
+Residual Risk:
+High
+```
+
+This distinction is fundamental to third-party risk management.
+
+The organization should then determine the appropriate **risk treatment**.
+
+Common treatment options include:
+
+```text
+Mitigate
+Accept
+Transfer
+Avoid
+```
+
+For example:
+
+```text
+Risk:
+Vendor does not support MFA for a legacy
+administrative interface.
+
+Treatment:
+Mitigate
+
+Action:
+Replace legacy interface with MFA-enabled
+administrative access.
+```
+
+Risk treatment should be selected based on the organization's risk appetite and business requirements.
+
+The register should contain the **corrective action**.
+
+A weak action would be:
+
+```text
+Improve vendor security.
+```
+
+A stronger action would be:
+
+```text
+Require the supplier to implement MFA for
+all privileged administrative access and
+provide evidence of implementation.
+```
+
+The corrective action should address the specific risk.
+
+The register should identify the **action owner**.
+
+For example:
+
+```text
+Action Owner:
+Vendor Security Manager
+```
+
+The organization may also identify an internal owner responsible for monitoring the remediation.
+
+For example:
+
+```text
+Internal Owner:
+Third-Party Risk Manager
+```
+
+The corrective action should have a **target completion date**.
+
+For example:
+
+```text
+Target Date:
+30 November 2026
+```
+
+The date should be realistic but should also reflect the severity of the risk.
+
+Critical risks generally require faster remediation than low-risk issues.
+
+The register should identify the **risk owner**.
+
+For example:
+
+```text
+Risk Owner:
+Chief Information Security Officer
+```
+
+The risk owner should have appropriate authority to make or approve the risk decision.
+
+The register should identify whether **formal risk acceptance** is required.
+
+For example:
+
+```text
+Risk Acceptance Required:
+Yes
+```
+
+If risk acceptance is required, the register should identify the **risk acceptance authority**.
+
+For example:
+
+```text
+Risk Acceptance Authority:
+CISO
+
+Executive Approval:
+Required
+```
+
+The approval level should correspond to the organization's risk governance framework.
+
+A high or critical third-party risk may require senior management approval.
+
+The register should maintain a **risk status**.
+
+Common statuses include:
+
+```text
+Open
+Under Assessment
+Treatment in Progress
+Monitoring
+Accepted
+Overdue
+Escalated
+Closed
+```
+
+For example:
+
+```text
+Status:
+Treatment in Progress
+```
+
+The status should accurately reflect the current condition of the risk.
+
+A risk should not be marked "Closed" merely because a remediation task was created.
+
+The risk should be closed only when the defined closure criteria have been satisfied.
+
+The register should also include a **risk due date**.
+
+This is particularly important for risks requiring remediation.
+
+For example:
+
+```text
+Risk Due Date:
+31 December 2026
+```
+
+The GRC team should monitor approaching and overdue due dates.
+
+The register should also identify **supporting evidence**.
+
+For example:
+
+```text
+Evidence:
+
+Vendor Security Assessment
+ISO/IEC 27001 Certificate
+SOC 2 Report
+Penetration Test Summary
+Contract Security Schedule
+Remediation Evidence
+Management Approval
+```
+
+Evidence should be linked to the risk record where the GRC platform supports document or evidence management.
+
+The register should capture the **last review date**.
+
+For example:
+
+```text
+Last Review:
+15 August 2026
+```
+
+It should also contain the **next review date**.
+
+For example:
+
+```text
+Next Review:
+15 November 2026
+```
+
+Review frequency should be based on risk.
+
+For example:
+
+```text
+Low:
+Annual or Biennial
+
+Medium:
+Annual
+
+High:
+Quarterly
+
+Critical:
+Continuous Monitoring / Monthly Review
+```
+
+The exact frequency should be determined by the organization's methodology.
+
+The register should support **risk escalation**.
+
+For example:
+
+```text
+Escalation Status:
+
+Normal
+Management Attention
+Executive Escalation
+Critical Escalation
+```
+
+An escalation may be triggered when:
+
+```text
+Remediation Is Overdue
+Risk Increases
+Control Fails
+Vendor Has Major Incident
+Regulatory Exposure Increases
+Critical Dependency Emerges
+Risk Exceeds Appetite
+```
+
+The GRC professional should monitor third-party risks against the organization's **risk appetite**.
+
+For example:
+
+```text
+Risk Appetite:
+Medium
+
+Vendor Residual Risk:
+High
+
+Result:
+Outside Risk Appetite
+```
+
+This should trigger management action.
+
+The organization may then:
+
+```text
+Mitigate
+Accept
+Transfer
+Avoid
+Escalate
+```
+
+A third-party risk register should also support **risk aggregation**.
+
+For example:
+
+```text
+Vendor A:
+High Risk
+
+Vendor B:
+High Risk
+
+Vendor C:
+Medium Risk
+
+Vendor D:
+Critical Risk
+```
+
+Management can use this information to understand the overall third-party risk landscape.
+
+The organization can calculate metrics such as:
+
+```text
+Total Third Parties:
+250
+
+High-Risk Third Parties:
+32
+
+Critical Third Parties:
+8
+
+Open Third-Party Risks:
+47
+
+Overdue Risks:
+9
+
+Risks Outside Appetite:
+6
+```
+
+These metrics can be displayed in a GRC dashboard.
+
+The organization should also monitor **risk trends**.
+
+For example:
+
+```text
+Q1:
+55 Open Third-Party Risks
+
+Q2:
+49 Open Third-Party Risks
+
+Q3:
+43 Open Third-Party Risks
+
+Q4:
+35 Open Third-Party Risks
+```
+
+A declining number of risks may indicate improved risk management, but the organization should also consider changes in vendor population, assessment coverage, and business activity.
+
+The register should also identify **concentration risk**.
+
+Concentration risk occurs when an organization becomes heavily dependent on a small number of suppliers or a single supplier for critical services.
+
+For example:
+
+```text
+Cloud Infrastructure:
+
+70% Provider A
+20% Provider B
+10% Provider C
+```
+
+If Provider A experiences a major outage, the organization's exposure may be significant.
+
+The register can therefore capture:
+
+```text
+Critical Dependency:
+Yes
+
+Alternative Supplier:
+Limited
+
+Exit Difficulty:
+High
+
+Concentration Risk:
+High
+```
+
+This information can be important for business continuity and resilience planning.
+
+The register should also identify **fourth-party dependency risk**.
+
+For example:
+
+```text
+Organization
+     ↓
+Cloud Provider
+     ↓
+Data Center Provider
+     ↓
+Infrastructure Provider
+```
+
+The organization may not have a direct contractual relationship with the fourth party, but its failure could still affect the service.
+
+The GRC professional should therefore consider material dependencies where appropriate.
+
+The register should also capture **vendor security incidents**.
+
+For example:
+
+```text
+Incident ID:
+INC-2026-078
+
+Vendor:
+ABC Cloud
+
+Incident:
+Unauthorized access attempt
+
+Impact:
+No customer data confirmed compromised
+
+Response:
+Contained
+
+Corrective Action:
+Additional authentication controls
+```
+
+The incident may result in a new third-party risk.
+
+For example:
+
+```text
+Existing Risk:
+Medium
+
+Post-Incident Risk:
+High
+```
+
+This demonstrates why third-party risk registers should be connected to incident management.
+
+The register can also connect third-party risks to:
+
+```text
+Vendor Records
+Contracts
+Controls
+Compliance Requirements
+Audit Findings
+Security Incidents
+Business Continuity Plans
+Risk Acceptance Records
+Corrective Actions
+```
+
+This creates an integrated GRC information structure.
+
+A practical example of a completed third-party risk record is:
+
+```text
+Risk ID:
+TPR-2026-014
+
+Vendor:
+ABC Cloud Services
+
+Service:
+Production Cloud Hosting
+
+Business Owner:
+Head of Infrastructure
+
+Risk Owner:
+CISO
+
+Risk Category:
+Cybersecurity
+
+Risk Source:
+Vendor Due Diligence
+
+Affected Service:
+Production Infrastructure
+
+Data:
+Confidential Customer Data
+
+Business Criticality:
+Critical
+
+Risk Description:
+
+The supplier does not enforce MFA for all
+privileged administrative accounts, increasing
+the risk of unauthorized access to production
+systems and sensitive information.
+
+Inherent Likelihood:
+4 – Likely
+
+Inherent Impact:
+5 – Severe
+
+Inherent Risk:
+20 – Critical
+
+Existing Controls:
+
+Privileged Access Management
+Network Segmentation
+Security Monitoring
+Access Reviews
+
+Control Effectiveness:
+Partially Effective
+
+Residual Likelihood:
+3 – Possible
+
+Residual Impact:
+5 – Severe
+
+Residual Risk:
+15 – High
+
+Risk Treatment:
+Mitigate
+
+Corrective Action:
+
+Implement MFA for all privileged administrative
+accounts and provide implementation evidence.
+
+Action Owner:
+Vendor Security Manager
+
+Target Date:
+30 November 2026
+
+Risk Acceptance Required:
+No
+
+Status:
+Treatment in Progress
+
+Last Review:
+15 August 2026
+
+Next Review:
+15 September 2026
+```
+
+After remediation, the record may be updated:
+
+```text
+Corrective Action:
+Completed
+
+Evidence:
+MFA Configuration Report
+Access Control Test Results
+
+Control Effectiveness:
+Effective
+
+Residual Likelihood:
+1 – Rare
+
+Residual Impact:
+5 – Severe
+
+Residual Risk:
+5 – Medium
+
+Risk Decision:
+Accepted Within Risk Appetite
+
+Status:
+Monitoring
+```
+
+The risk may eventually be closed if the risk condition is eliminated or the applicable risk management process allows closure.
+
+For example:
+
+```text
+Status:
+Closed
+
+Closure Basis:
+
+MFA implemented for all privileged accounts.
+Validation completed.
+No outstanding remediation.
+Residual risk within approved tolerance.
+```
+
+However, some third-party risks should remain under continuous monitoring rather than being permanently closed.
+
+For example:
+
+```text
+Critical Cloud Provider Dependency
+
+Risk Status:
+Monitoring
+```
+
+This is because the underlying dependency continues to exist even though controls may be effective.
+
+The Third-Party Risk Register should therefore distinguish between:
+
+```text
+Risk Resolved
+Risk Mitigated
+Risk Accepted
+Risk Transferred
+Risk Avoided
+Risk Under Continuous Monitoring
+```
+
+The register should be periodically reviewed for outdated information.
+
+The GRC professional should verify:
+
+```text
+Vendor Information
+Service Information
+Risk Rating
+Control Effectiveness
+Open Findings
+Risk Owner
+Treatment Status
+Target Dates
+Evidence
+Regulatory Requirements
+Subcontractor Dependencies
+Next Review Date
+```
+
+Changes should be documented rather than silently overwritten where historical traceability is important.
+
+Version history may include:
+
+```text
+15 Aug 2026:
+Initial Risk Assessment
+
+15 Sep 2026:
+Vendor Provided Remediation Evidence
+
+30 Sep 2026:
+Control Validation Completed
+
+01 Oct 2026:
+Residual Risk Reduced
+
+01 Oct 2026:
+Risk Status Changed to Monitoring
+```
+
+This creates an auditable record of the risk lifecycle.
+
+A mature Third-Party Risk Register should ultimately provide management with answers to questions such as:
+
+```text
+Which vendors present the greatest risk?
+
+Which vendors support critical business services?
+
+Which vendors process sensitive information?
+
+Which risks are outside risk appetite?
+
+Which vendor risks are overdue?
+
+Which vendors have unresolved security findings?
+
+Which vendors have experienced security incidents?
+
+Where do we have concentration risk?
+
+Which vendor risks require executive attention?
+```
+
+The register should not become merely a spreadsheet containing hundreds of disconnected risk entries. It should function as a management tool that connects third-party risk information with business decisions, remediation activities, contracts, controls, compliance requirements, and ongoing monitoring.
+
+A mature third-party risk management structure can be represented as:
+
+```text
+Vendor Inventory
+        ↓
+Vendor Classification
+        ↓
+Risk Assessment
+        ↓
+Due Diligence
+        ↓
+Security Requirements
+        ↓
+Third-Party Risk Register
+        ↓
+Risk Treatment
+        ↓
+Corrective Actions
+        ↓
+Continuous Monitoring
+        ↓
+Management Reporting
+```
+
+The key principle is:
+
+> **A Third-Party Risk Register provides a centralized and auditable view of supplier risks, linking each risk to its business context, responsible owner, existing controls, treatment actions, residual risk, evidence, and management decision so that third-party risk remains actively governed throughout the supplier lifecycle.**
+
 
 
 

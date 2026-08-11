@@ -927,4 +927,1093 @@ The key principle is:
 
 > **An effective Data Inventory and Processing Register provides a structured and continuously maintained view of organizational data, its processing activities, ownership, classification, locations, recipients, protection measures, retention requirements, and associated risks, creating a foundation for effective privacy, security, compliance, and data governance.**
 
+**Part 2 – Data Classification Template**
+
+Data classification is the process of assigning a defined security classification to information based on its sensitivity, business value, regulatory requirements, and the potential impact of unauthorized disclosure, modification, loss, or destruction.
+
+A practical data classification framework allows an organization to determine how information should be handled throughout its lifecycle.
+
+A typical classification model may contain four levels:
+
+```text
+PUBLIC
+Information approved for public disclosure.
+
+INTERNAL
+Information intended for internal organizational
+use and not normally approved for public disclosure.
+
+CONFIDENTIAL
+Information that could cause significant harm,
+business disruption, financial loss, or reputational
+damage if disclosed without authorization.
+
+RESTRICTED
+Highly sensitive information requiring the strongest
+protection because unauthorized disclosure, alteration,
+or loss could cause severe legal, financial, operational,
+privacy, or security consequences.
+```
+
+The classification should be based on the potential impact of compromise rather than simply the type of document.
+
+For example:
+
+```text
+Information:
+Public Annual Report
+
+Classification:
+Public
+```
+
+The same organization may have:
+
+```text
+Information:
+Internal Security Procedure
+
+Classification:
+Internal
+```
+
+And:
+
+```text
+Information:
+Customer Contract
+
+Classification:
+Confidential
+```
+
+And:
+
+```text
+Information:
+Customer Payment Information
+
+Classification:
+Restricted
+```
+
+A practical Data Classification Template can contain:
+
+```text
+DATA CLASSIFICATION TEMPLATE
+
+Record ID:
+
+Data Asset:
+
+Business Process:
+
+Data Owner:
+
+Data Steward:
+
+Data Description:
+
+Data Type:
+
+Data Subject:
+
+Confidentiality:
+
+Integrity:
+
+Availability:
+
+Regulatory Sensitivity:
+
+Privacy Sensitivity:
+
+Business Impact:
+
+Classification:
+
+Classification Justification:
+
+Authorized Users:
+
+Access Restrictions:
+
+Storage Requirements:
+
+Transmission Requirements:
+
+Encryption Requirements:
+
+Sharing Requirements:
+
+Printing Requirements:
+
+Backup Requirements:
+
+Retention Period:
+
+Disposal Requirements:
+
+Third-Party Access:
+
+Security Monitoring:
+
+Classification Review Date:
+
+Next Review Date:
+
+Approved By:
+
+Status:
+
+Comments:
+```
+
+The first step is to identify the **data asset**.
+
+For example:
+
+```text
+Data Asset:
+Employee Personnel Records
+```
+
+The organization should describe what information is included.
+
+For example:
+
+```text
+Data Description:
+
+Employee identification information,
+employment records, salary information,
+benefits information, and related HR records.
+```
+
+The register should identify the **data owner**.
+
+For example:
+
+```text
+Data Owner:
+Human Resources Director
+```
+
+The data owner is normally responsible for determining the appropriate classification and approving changes to that classification.
+
+The organization may also identify a **data steward**.
+
+For example:
+
+```text
+Data Steward:
+HR Operations Manager
+```
+
+The data steward may manage the data operationally while the data owner retains overall accountability.
+
+Classification should consider the **confidentiality** of information.
+
+Confidentiality asks:
+
+> What would happen if unauthorized individuals gained access to this information?
+
+For example:
+
+```text
+Confidentiality Impact:
+Low
+
+Potential Impact:
+Limited inconvenience
+```
+
+Or:
+
+```text
+Confidentiality Impact:
+High
+
+Potential Impact:
+Regulatory penalties,
+customer harm,
+reputational damage,
+financial loss.
+```
+
+The classification process should also consider **integrity**.
+
+Integrity asks:
+
+> What would happen if the information were modified, corrupted, or manipulated without authorization?
+
+For example:
+
+```text
+Data:
+Financial Transaction Records
+
+Integrity Impact:
+Critical
+```
+
+Unauthorized modification could result in incorrect financial transactions, reporting errors, regulatory issues, or financial losses.
+
+The organization should also consider **availability**.
+
+Availability asks:
+
+> What would happen if the information became unavailable when required?
+
+For example:
+
+```text
+Data:
+Customer Service Records
+
+Availability Impact:
+High
+```
+
+If the information is unavailable, customer service operations may be significantly disrupted.
+
+A useful approach is therefore:
+
+```text
+Confidentiality
+       +
+Integrity
+       +
+Availability
+       ↓
+Overall Information Risk
+       ↓
+Data Classification
+```
+
+The organization should also consider **regulatory sensitivity**.
+
+For example:
+
+```text
+Regulatory Sensitivity:
+
+GDPR
+Financial Regulation
+Healthcare Regulation
+Payment Card Requirements
+Employment Requirements
+Contractual Requirements
+```
+
+Information subject to specific regulatory requirements may require stronger protection.
+
+The organization should consider **privacy sensitivity** where personal information is involved.
+
+For example:
+
+```text
+Personal Data:
+Yes
+
+Special-Category / Highly Sensitive Data:
+Yes
+
+Privacy Sensitivity:
+High
+```
+
+Examples of potentially highly sensitive information include:
+
+```text
+Health Information
+Biometric Information
+Financial Information
+Authentication Information
+Government Identification
+Genetic Information
+```
+
+The exact classification should follow applicable legal and organizational requirements.
+
+The organization should assess the **business impact** of unauthorized disclosure, modification, or loss.
+
+For example:
+
+```text
+Business Impact:
+Severe
+```
+
+Potential impacts may include:
+
+```text
+Financial Loss
+Regulatory Penalties
+Operational Disruption
+Legal Exposure
+Customer Harm
+Reputational Damage
+Loss of Competitive Advantage
+```
+
+The classification decision should be based on the overall risk.
+
+For example:
+
+```text
+Data:
+Customer Payment Information
+
+Confidentiality:
+Very High
+
+Integrity:
+High
+
+Availability:
+High
+
+Regulatory Sensitivity:
+High
+
+Privacy Sensitivity:
+High
+
+Business Impact:
+Severe
+
+Classification:
+Restricted
+```
+
+The organization should document the **classification justification**.
+
+A weak justification would be:
+
+```text
+Sensitive information.
+```
+
+A stronger justification would be:
+
+```text
+The dataset contains customer financial and
+personal information. Unauthorized disclosure
+could result in customer harm, regulatory
+exposure, financial loss, and reputational damage.
+The information is therefore classified as Restricted.
+```
+
+This creates an auditable basis for the classification decision.
+
+The organization should define **handling requirements** for each classification level.
+
+For example:
+
+```text
+PUBLIC
+
+Access:
+No restriction
+
+Sharing:
+Publicly approved
+
+Encryption:
+Based on system requirements
+
+Printing:
+Permitted
+
+Disposal:
+Standard disposal
+```
+
+For Internal information:
+
+```text
+INTERNAL
+
+Access:
+Employees and authorized contractors
+
+Sharing:
+Internal business purposes
+
+Encryption:
+Based on risk and system requirements
+
+Printing:
+Controlled
+
+Disposal:
+Secure organizational disposal
+```
+
+For Confidential information:
+
+```text
+CONFIDENTIAL
+
+Access:
+Authorized personnel only
+
+Sharing:
+Business need and authorization
+
+Encryption:
+Required where appropriate
+
+Printing:
+Controlled
+
+Disposal:
+Secure disposal
+
+External Sharing:
+Requires authorization
+```
+
+For Restricted information:
+
+```text
+RESTRICTED
+
+Access:
+Strictly authorized personnel
+
+Sharing:
+Explicit authorization required
+
+Encryption:
+Required
+
+MFA:
+Required where applicable
+
+Printing:
+Strongly restricted
+
+Disposal:
+Secure destruction or approved deletion
+
+External Sharing:
+Formal authorization required
+```
+
+The organization should define **authorized users**.
+
+For example:
+
+```text
+Data:
+Employee Payroll Information
+
+Authorized Users:
+
+Payroll Team
+HR Management
+Finance
+Approved Payroll Provider
+```
+
+Access should follow least privilege.
+
+Not every employee in the HR department necessarily needs access to every payroll record.
+
+The template should define **access restrictions**.
+
+For example:
+
+```text
+Access Restrictions:
+
+Role-Based Access
+Least Privilege
+MFA
+Privileged Access Management
+Quarterly Access Review
+```
+
+Higher classifications should normally require stronger access controls.
+
+The organization should define **storage requirements**.
+
+For example:
+
+```text
+Restricted Data:
+
+Must be stored only in approved systems.
+Must not be stored on unauthorized personal
+devices or removable media.
+```
+
+The organization may also define approved storage locations.
+
+For example:
+
+```text
+Approved:
+
+Corporate File Platform
+Approved Cloud Storage
+Approved Business Applications
+
+Not Approved:
+
+Personal Cloud Storage
+Personal Email
+Unmanaged Devices
+Unauthorized USB Media
+```
+
+The template should address **transmission requirements**.
+
+For example:
+
+```text
+Public:
+No special restriction.
+
+Internal:
+Approved organizational communication channels.
+
+Confidential:
+Approved secure communication channels.
+
+Restricted:
+Encrypted transmission using approved mechanisms.
+```
+
+The organization should define **encryption requirements**.
+
+For example:
+
+```text
+Classification     At Rest      In Transit
+
+Public             Optional     Standard
+Internal           Risk-Based   Protected
+Confidential       Required     Encrypted
+Restricted         Required     Strong Encryption
+```
+
+The exact technical standards should be defined by the organization's security architecture.
+
+The template should define **sharing requirements**.
+
+For example:
+
+```text
+Public:
+Approved for public distribution.
+
+Internal:
+Internal business use.
+
+Confidential:
+Authorization required before external sharing.
+
+Restricted:
+Formal authorization and approved secure
+transfer mechanism required.
+```
+
+The organization should also consider **third-party sharing**.
+
+For example:
+
+```text
+Data:
+Customer Personal Data
+
+Third Party:
+Customer Support Provider
+
+Requirements:
+
+Approved Contract
+Data Processing Agreement
+Security Assessment
+Access Restrictions
+Secure Transfer
+Retention Requirements
+```
+
+This connects data classification with third-party risk management.
+
+The template should define **printing requirements**.
+
+For example:
+
+```text
+Public:
+No restriction.
+
+Internal:
+Controlled printing.
+
+Confidential:
+Secure printing and controlled distribution.
+
+Restricted:
+Printing should be minimized and strictly controlled.
+```
+
+The organization may also require secure disposal of printed materials.
+
+For example:
+
+```text
+Confidential / Restricted:
+
+Cross-cut shredding
+Secure document destruction
+Approved document disposal provider
+```
+
+The template should define **backup requirements**.
+
+For example:
+
+```text
+Restricted Data:
+
+Encrypted Backup
+Access-Controlled Backup
+Defined Retention
+Regular Recovery Testing
+Protection Against Unauthorized Deletion
+```
+
+Backup data should normally retain an appropriate level of protection consistent with the original information.
+
+The organization should define **retention requirements**.
+
+For example:
+
+```text
+Data:
+Employee Records
+
+Retention:
+According to applicable legal,
+regulatory, and organizational requirements.
+```
+
+Classification alone should not determine retention.
+
+Retention should be based on:
+
+```text
+Legal Requirements
+Regulatory Requirements
+Contractual Requirements
+Business Requirements
+Privacy Requirements
+Litigation Requirements
+```
+
+The template should define **disposal requirements**.
+
+For example:
+
+```text
+Public:
+Standard Disposal
+
+Internal:
+Approved Disposal
+
+Confidential:
+Secure Disposal
+
+Restricted:
+Secure Destruction or Approved Secure Deletion
+```
+
+Digital disposal may include:
+
+```text
+Secure Deletion
+Cryptographic Erasure
+Media Destruction
+System Decommissioning
+```
+
+The organization should document **third-party access**.
+
+For example:
+
+```text
+Data Classification:
+Confidential
+
+Third-Party Access:
+Allowed
+
+Conditions:
+
+Contractual Authorization
+Security Assessment
+Least Privilege
+MFA
+Monitoring
+Data Retention Controls
+```
+
+For Restricted data, additional approval may be required.
+
+The template should also identify **security monitoring**.
+
+For example:
+
+```text
+Restricted Data:
+
+Access Logging
+Privileged Activity Monitoring
+Security Alerting
+Data Loss Prevention
+Database Monitoring
+```
+
+Monitoring should be proportional to the sensitivity of the information.
+
+A practical classification decision may look like:
+
+```text
+DATA CLASSIFICATION RECORD
+
+Record ID:
+DC-2026-008
+
+Data Asset:
+Customer Payment Information
+
+Data Owner:
+Finance Director
+
+Data Steward:
+Payment Operations Manager
+
+Data Type:
+Financial / Personal Data
+
+Confidentiality:
+Very High
+
+Integrity:
+High
+
+Availability:
+High
+
+Regulatory Sensitivity:
+High
+
+Privacy Sensitivity:
+High
+
+Business Impact:
+Severe
+
+Classification:
+Restricted
+
+Justification:
+
+The data contains financial and personal
+information. Unauthorized disclosure or
+modification could result in customer harm,
+financial loss, regulatory consequences,
+and reputational damage.
+
+Authorized Users:
+Finance
+Payment Operations
+Approved Payment Provider
+
+Access Controls:
+RBAC
+MFA
+Privileged Access Management
+Quarterly Access Review
+
+Encryption:
+Required
+
+External Sharing:
+Restricted and authorized
+
+Retention:
+According to approved retention schedule
+
+Disposal:
+Secure deletion
+
+Review Frequency:
+Annual
+
+Status:
+Approved
+```
+
+Organizations should establish **classification labels** that are easy for employees and systems to recognize.
+
+For example:
+
+```text
+PUBLIC
+INTERNAL
+CONFIDENTIAL
+RESTRICTED
+```
+
+Labels may be displayed in:
+
+```text
+Documents
+Emails
+File Names
+Document Headers
+Document Footers
+Collaboration Platforms
+Data Repositories
+```
+
+For example:
+
+```text
+CONFIDENTIAL
+
+Customer Security Assessment
+ABC Corporation
+August 2026
+```
+
+The organization may also use automated labeling capabilities.
+
+For example:
+
+```text
+Data Discovery
+       ↓
+Sensitive Data Detection
+       ↓
+Classification Recommendation
+       ↓
+User / Data Owner Validation
+       ↓
+Classification Label
+       ↓
+Security Controls
+```
+
+Automation can help identify information that may require additional protection, but classification decisions should be governed appropriately.
+
+The organization should define **classification ownership**.
+
+A typical model could be:
+
+```text
+Data Owner:
+Determines and approves classification.
+
+Data Steward:
+Maintains classification operationally.
+
+Information Security:
+Defines security requirements.
+
+Privacy:
+Provides privacy requirements.
+
+GRC:
+Provides governance and oversight.
+
+IT:
+Implements technical controls.
+
+Users:
+Handle information according to classification.
+```
+
+The organization should provide clear instructions to employees.
+
+For example:
+
+```text
+If you create new information:
+
+1. Identify the data.
+2. Determine its sensitivity.
+3. Apply the appropriate classification.
+4. Store it in an approved location.
+5. Share it only with authorized recipients.
+6. Protect it according to classification.
+7. Retain it only as long as required.
+8. Dispose of it securely.
+```
+
+Classification should also apply to information received from third parties.
+
+For example:
+
+```text
+Supplier Information:
+Confidential
+
+Customer Contract:
+Confidential
+
+Security Assessment:
+Restricted
+```
+
+The organization should not assume that only internally generated information requires classification.
+
+Classification should also be considered during **system development and procurement**.
+
+Before implementing a new application, the organization should determine:
+
+```text
+What data will the system process?
+
+What classification will apply?
+
+Who will access it?
+
+Where will it be stored?
+
+Will it be shared externally?
+
+Will it cross borders?
+
+What security controls are required?
+```
+
+This allows classification to influence security architecture and procurement decisions.
+
+Classification should also connect to **access control**.
+
+For example:
+
+```text
+Classification
+      ↓
+Access Requirements
+      ↓
+Authentication Requirements
+      ↓
+Encryption Requirements
+      ↓
+Monitoring Requirements
+      ↓
+Retention Requirements
+      ↓
+Disposal Requirements
+```
+
+This makes classification an operational security mechanism rather than simply a label.
+
+The classification should be reviewed when significant changes occur.
+
+Triggers may include:
+
+```text
+New Data Elements
+New Business Purpose
+New System
+New Vendor
+New Data Location
+New Regulatory Requirement
+Change in Business Criticality
+Change in Data Sensitivity
+Security Incident
+Privacy Incident
+```
+
+For example:
+
+```text
+Original Classification:
+Internal
+
+Change:
+Customer personal information added.
+
+New Classification:
+Confidential
+```
+
+Classification may therefore increase or decrease over time.
+
+The organization should maintain a **classification review history**.
+
+For example:
+
+```text
+01 January 2026:
+Classification – Internal
+
+15 June 2026:
+Customer personal data added.
+
+15 June 2026:
+Classification changed to Confidential.
+
+Reviewer:
+Data Owner
+```
+
+This provides an auditable record.
+
+A mature classification process should connect:
+
+```text
+Data Inventory
+       ↓
+Data Classification
+       ↓
+Security Requirements
+       ↓
+Privacy Requirements
+       ↓
+Access Controls
+       ↓
+Third-Party Controls
+       ↓
+Retention
+       ↓
+Secure Disposal
+```
+
+The classification template can also be integrated with GRC platforms, data governance platforms, document management systems, and information protection technologies.
+
+For example:
+
+```text
+Data Asset
+     ↓
+Classification
+     ↓
+Risk Rating
+     ↓
+Control Requirements
+     ↓
+Evidence
+     ↓
+Compliance Assessment
+```
+
+The ultimate objective is not to classify every piece of information manually without purpose. The objective is to ensure that information receives **proportionate protection based on its sensitivity and business or regulatory impact**.
+
+The key principle is:
+
+> **Data classification provides the foundation for determining how information should be accessed, stored, transmitted, shared, monitored, retained, and securely disposed of based on its sensitivity, business value, regulatory requirements, and potential impact if compromised.**
+
+
 

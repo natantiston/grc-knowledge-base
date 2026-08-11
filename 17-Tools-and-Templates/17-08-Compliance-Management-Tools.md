@@ -3215,4 +3215,1147 @@ The key principle is:
 
 > **A Compliance Assessment Template provides a consistent and evidence-based method for determining whether applicable regulatory requirements are being satisfied, connecting assessment results to controls, evidence, risk, findings, and remediation rather than treating compliance as a simple checklist exercise.**
 
+**17.8 Compliance Management Tools**
+
+**Part 4 – Compliance Gap Analysis**
+
+Compliance Gap Analysis is the process of identifying the difference between the organization's current compliance position and the requirements that the organization is expected to satisfy.
+
+A compliance assessment determines whether a requirement is being met. Gap analysis goes one step further by identifying **what is missing, what is insufficient, why the gap exists, what risk it creates, and what needs to be done to close it**.
+
+The basic relationship is:
+
+```text
+Compliance Requirement
+        ↓
+Expected State
+        ↓
+Current State
+        ↓
+Gap Identification
+        ↓
+Risk Assessment
+        ↓
+Remediation
+        ↓
+Target State
+```
+
+A compliance gap does not necessarily mean that the organization has completely failed to meet a requirement.
+
+A gap may represent:
+
+```text
+Missing Control
+Incomplete Control
+Ineffective Control
+Insufficient Evidence
+Partial Coverage
+Process Deficiency
+Documentation Deficiency
+Ownership Deficiency
+Monitoring Deficiency
+Regulatory Interpretation Issue
+```
+
+For example, a regulatory requirement may require annual security awareness training for all employees.
+
+The organization may have a training program, but 8% of employees may not have completed the required training.
+
+The organization therefore has a **partial compliance gap** rather than a complete absence of a control.
+
+A practical Compliance Gap Analysis Template can contain:
+
+```text
+COMPLIANCE GAP ANALYSIS
+
+Gap ID:
+
+Assessment ID:
+
+Requirement ID:
+
+Regulation / Source:
+
+Requirement Reference:
+
+Requirement Description:
+
+Expected State:
+
+Current State:
+
+Gap Description:
+
+Gap Category:
+
+Affected Control:
+
+Control Owner:
+
+Evidence:
+
+Compliance Status:
+
+Risk Level:
+
+Risk Description:
+
+Root Cause:
+
+Business Impact:
+
+Regulatory Impact:
+
+Remediation Action:
+
+Remediation Owner:
+
+Target Date:
+
+Priority:
+
+Compensating Control:
+
+Management Response:
+
+Validation Method:
+
+Closure Evidence:
+
+Closure Date:
+
+Gap Status:
+
+Notes:
+```
+
+The first step is to establish the **expected state**.
+
+The expected state describes what the organization should have in place to satisfy the applicable requirement.
+
+For example:
+
+```text
+Requirement:
+Critical vulnerabilities must be remediated
+within the defined regulatory timeframe.
+
+Expected State:
+All critical vulnerabilities are identified,
+tracked, assigned, and remediated within
+15 calendar days unless an approved
+exception exists.
+```
+
+The expected state should be specific and measurable whenever possible.
+
+A vague expected state such as:
+
+> Vulnerabilities should be managed appropriately.
+
+is difficult to assess.
+
+A stronger statement is:
+
+> All critical vulnerabilities must be remediated within 15 days or covered by a formally approved exception.
+
+This provides a measurable basis for comparison.
+
+The next step is to document the **current state**.
+
+For example:
+
+```text
+Current State:
+
+The organization has implemented a vulnerability
+management process. Critical vulnerabilities are
+tracked through the vulnerability management
+platform. However, 14% of critical vulnerabilities
+during the assessment period exceeded the
+15-day remediation requirement.
+```
+
+The assessor can then compare:
+
+```text
+Expected State
+        vs.
+Current State
+```
+
+The difference represents the gap.
+
+```text
+Expected:
+100% within 15 days
+
+Current:
+86% within 15 days
+
+Gap:
+14% outside required timeframe
+```
+
+The gap should be described in factual and objective language.
+
+For example:
+
+> The organization has a vulnerability management process; however, 14% of critical vulnerabilities reviewed during the assessment period exceeded the required remediation timeframe.
+
+This is stronger than writing:
+
+> Vulnerability management is poor.
+
+The first statement identifies an observable condition.
+
+The second is subjective and does not provide sufficient evidence.
+
+A gap should also identify the **affected requirement**.
+
+For example:
+
+```text
+Gap ID:
+GAP-2026-014
+
+Requirement:
+NIS2 Cybersecurity Risk Management
+
+Control:
+Vulnerability Management
+
+Gap:
+Critical vulnerabilities exceeded the
+defined remediation timeframe.
+```
+
+This creates traceability between the gap and the compliance obligation.
+
+The gap should also be categorized.
+
+Common categories include:
+
+```text
+Governance Gap
+Policy Gap
+Process Gap
+Control Gap
+Technical Gap
+Documentation Gap
+Evidence Gap
+Monitoring Gap
+Training Gap
+Third-Party Gap
+Resource Gap
+Ownership Gap
+```
+
+For example:
+
+```text
+Gap:
+No formal annual review of supplier security
+requirements.
+
+Category:
+Governance / Process Gap
+```
+
+Another example:
+
+```text
+Gap:
+Encryption is implemented but evidence of
+key rotation is not retained.
+
+Category:
+Evidence Gap
+```
+
+Another:
+
+```text
+Gap:
+MFA is not technically implemented for a
+specific legacy application.
+
+Category:
+Technical Gap
+```
+
+Correct classification is important because the remediation approach depends on the type of gap.
+
+A documentation gap may require a document update.
+
+A technical gap may require system implementation.
+
+A governance gap may require changes to roles, responsibilities, or decision-making.
+
+A process gap may require redesigning the operational workflow.
+
+The analysis should also identify the **affected control**.
+
+For example:
+
+```text
+Requirement:
+Third-Party Risk Management
+
+Control:
+TPRM-03 Annual Supplier Security Assessment
+
+Gap:
+12 high-risk suppliers have not completed
+the required assessment.
+```
+
+The next step is to determine the **root cause**.
+
+A gap analysis should not stop at identifying the immediate problem.
+
+For example:
+
+```text
+Problem:
+Supplier assessments are overdue.
+
+Immediate Cause:
+Assessments were not completed.
+
+Root Cause:
+No automated workflow exists to trigger
+assessment requests and escalation.
+```
+
+The root cause may be:
+
+```text
+Insufficient Resources
+Unclear Ownership
+Weak Process
+Technology Limitation
+Lack of Training
+Inadequate Governance
+Poor Documentation
+Incomplete Integration
+Third-Party Dependency
+Management Decision
+```
+
+Root cause analysis helps prevent the organization from repeatedly treating symptoms instead of addressing the underlying problem.
+
+For example:
+
+```text
+Gap:
+Access reviews are frequently overdue.
+
+Weak Remediation:
+Remind managers to complete reviews.
+
+Better Root Cause:
+The IAM platform does not automatically
+notify managers or escalate overdue reviews.
+
+Better Remediation:
+Implement automated access review workflows
+with escalation.
+```
+
+The second approach addresses the underlying process weakness.
+
+The gap analysis should also evaluate the **risk created by the gap**.
+
+For example:
+
+```text
+Gap:
+Critical vulnerabilities remain unresolved.
+
+Likelihood:
+High
+
+Impact:
+High
+
+Risk:
+High
+```
+
+The risk assessment should consider:
+
+```text
+Regulatory Impact
+Security Impact
+Financial Impact
+Operational Impact
+Customer Impact
+Privacy Impact
+Reputational Impact
+Legal Impact
+```
+
+The GRC professional should avoid automatically assigning a high risk level to every compliance gap.
+
+Risk should be determined using the organization's approved risk methodology.
+
+For example:
+
+```text
+Low Compliance Gap
+        ↓
+Limited impact
+        ↓
+Low residual risk
+
+Critical Compliance Gap
+        ↓
+Significant regulatory exposure
+        ↓
+High residual risk
+```
+
+A small administrative documentation issue should not necessarily receive the same risk rating as a failure to comply with a critical regulatory reporting requirement.
+
+The analysis should also identify the **business impact**.
+
+For example:
+
+```text
+Business Impact:
+
+Failure to complete required supplier
+assessments may increase the organization's
+exposure to third-party cybersecurity risk
+and could affect contractual and regulatory
+compliance.
+```
+
+The **regulatory impact** should also be documented where applicable.
+
+For example:
+
+```text
+Regulatory Impact:
+
+Failure to meet the requirement may result
+in non-compliance with the applicable
+regulatory obligation and may expose the
+organization to regulatory scrutiny.
+```
+
+The GRC professional should avoid making unsupported claims about specific penalties.
+
+Where legal interpretation is required, the organization should involve legal or regulatory specialists.
+
+The gap analysis should then define the **remediation action**.
+
+For example:
+
+```text
+Gap:
+Incomplete privileged access reviews.
+
+Remediation:
+Integrate all cloud administrator accounts
+into the quarterly privileged access review
+process and validate review coverage.
+```
+
+The remediation should be specific.
+
+Weak remediation:
+
+> Improve access management.
+
+Better remediation:
+
+> Configure the IAM platform to include all privileged cloud accounts in the quarterly access review population and implement automated escalation for incomplete reviews.
+
+The second statement provides a clear action that can be tracked and validated.
+
+Every remediation should have an **owner**.
+
+For example:
+
+```text
+Remediation Owner:
+IAM Manager
+```
+
+The GRC function may coordinate the remediation, but the person accountable for fixing the underlying issue should be identified.
+
+The remediation should also have a **target date**.
+
+For example:
+
+```text
+Target Date:
+31 December 2026
+```
+
+A gap without an owner and target date can remain unresolved indefinitely.
+
+The analysis should also establish a **priority**.
+
+For example:
+
+```text
+Critical
+High
+Medium
+Low
+```
+
+Priority may consider:
+
+```text
+Risk
+Regulatory Deadline
+Business Criticality
+Customer Impact
+Audit Findings
+Management Commitments
+Remediation Complexity
+```
+
+For example:
+
+```text
+Gap:
+Failure to meet mandatory regulatory
+incident reporting timeframe.
+
+Risk:
+Critical
+
+Priority:
+Critical
+```
+
+Another gap may be:
+
+```text
+Gap:
+Minor formatting inconsistency in a
+security procedure.
+
+Risk:
+Low
+
+Priority:
+Low
+```
+
+The two issues should not receive the same remediation priority.
+
+The gap analysis may also identify **compensating controls**.
+
+For example:
+
+```text
+Primary Control:
+Multi-Factor Authentication
+
+Gap:
+MFA cannot currently be enabled on a
+legacy application.
+
+Compensating Controls:
+Network segmentation
+Enhanced monitoring
+Restricted access
+Privileged account monitoring
+```
+
+The compensating controls should be formally assessed and approved where required.
+
+They should not simply be listed as a justification for leaving a gap unresolved.
+
+The organization should determine whether the compensating controls sufficiently reduce the risk.
+
+The gap analysis should also identify whether the issue represents:
+
+```text
+Design Gap
+Implementation Gap
+Operating Effectiveness Gap
+Evidence Gap
+```
+
+For example:
+
+```text
+Design Gap:
+
+No formal process exists for reviewing
+third-party security requirements.
+```
+
+Implementation gap:
+
+```text
+The process exists but has not been
+implemented for all business units.
+```
+
+Operating effectiveness gap:
+
+```text
+The process exists and is implemented,
+but required reviews are not consistently
+performed.
+```
+
+Evidence gap:
+
+```text
+The review may have occurred, but sufficient
+evidence was not retained to demonstrate it.
+```
+
+This classification helps determine the appropriate remediation.
+
+A gap analysis should also consider **partial compliance**.
+
+For example:
+
+```text
+Requirement:
+All employees must complete security
+awareness training annually.
+
+Expected:
+100% completion.
+
+Current:
+96% completion.
+
+Gap:
+4% of employees have not completed training.
+```
+
+The organization may therefore conclude:
+
+```text
+Compliance:
+Partially Compliant
+
+Risk:
+Medium
+
+Remediation:
+Complete outstanding training and implement
+automated escalation.
+```
+
+The gap should remain open until the defined closure criteria are satisfied.
+
+A mature GRC program should define **closure criteria** before remediation begins.
+
+For example:
+
+```text
+Closure Criteria:
+
+1. All critical vulnerabilities are remediated
+   within the required timeframe.
+
+2. Evidence is available for the assessment period.
+
+3. Control testing confirms effectiveness.
+
+4. GRC validates remediation.
+
+5. Risk owner approves closure.
+```
+
+This prevents premature closure.
+
+The remediation lifecycle can be represented as:
+
+```text
+Gap Identified
+      ↓
+Gap Validated
+      ↓
+Risk Assessed
+      ↓
+Remediation Defined
+      ↓
+Owner Assigned
+      ↓
+Target Date Set
+      ↓
+Remediation Implemented
+      ↓
+Evidence Collected
+      ↓
+Validation Testing
+      ↓
+Risk Reassessed
+      ↓
+Closure Approved
+```
+
+The GRC team should distinguish between **remediation completion** and **gap closure**.
+
+For example:
+
+```text
+Technical Team:
+Remediation completed.
+
+GRC:
+Evidence reviewed.
+
+Control Testing:
+Effective.
+
+Risk Owner:
+Residual risk accepted.
+
+Result:
+Gap Closed.
+```
+
+The technical team's statement that remediation is complete does not automatically close the compliance gap.
+
+The GRC function should verify that the remediation actually addresses the identified requirement.
+
+A gap analysis should also track **overdue remediation**.
+
+For example:
+
+```text
+Open Gaps:
+32
+
+Overdue:
+7
+
+Due Within 30 Days:
+9
+
+Due Within 90 Days:
+10
+
+Long-Term:
+6
+```
+
+Management should receive visibility into overdue high-risk gaps.
+
+For example:
+
+```text
+High-Risk Gaps:
+8
+
+High-Risk Overdue:
+3
+```
+
+This provides a more meaningful management indicator than simply reporting the total number of open findings.
+
+The GRC team should also monitor **recurring gaps**.
+
+For example:
+
+```text
+2024:
+Supplier assessment gap
+
+2025:
+Supplier assessment gap
+
+2026:
+Supplier assessment gap
+```
+
+Repeated gaps may indicate that the remediation approach is not addressing the root cause.
+
+The organization may therefore need to perform a deeper root cause analysis.
+
+For example:
+
+```text
+Recurring Gap
+      ↓
+Root Cause Analysis
+      ↓
+Process Redesign
+      ↓
+Technology Improvement
+      ↓
+Ownership Clarification
+      ↓
+Monitoring
+```
+
+Gap analysis can also be used to compare different business units.
+
+For example:
+
+| Business Unit   | Requirements | Compliant | Partial | Non-Compliant | High-Risk Gaps |
+| --------------- | -----------: | --------: | ------: | ------------: | -------------: |
+| Business Unit A |           50 |        43 |       5 |             2 |              1 |
+| Business Unit B |           50 |        38 |       8 |             4 |              3 |
+| Business Unit C |           50 |        46 |       3 |             1 |              0 |
+
+This allows management to identify areas requiring additional support.
+
+However, comparisons should consider differences in business scope and risk.
+
+The gap analysis should also support **regulatory readiness assessments**.
+
+For example:
+
+```text
+New Regulation
+        ↓
+Applicability Assessment
+        ↓
+Requirement Mapping
+        ↓
+Current-State Assessment
+        ↓
+Gap Analysis
+        ↓
+Remediation Roadmap
+```
+
+This is particularly useful when organizations must prepare for new regulatory obligations.
+
+The same approach can be used for:
+
+```text
+NIS2
+DORA
+GDPR
+ISO 27001
+NIST CSF
+Customer Requirements
+Industry Regulations
+Internal Standards
+```
+
+The organization can create a consolidated gap register.
+
+For example:
+
+| Gap ID  | Requirement       | Gap                               | Risk   | Owner            | Target   | Status     |
+| ------- | ----------------- | --------------------------------- | ------ | ---------------- | -------- | ---------- |
+| GAP-001 | NIS2              | Supplier assessments incomplete   | High   | TPRM Manager     | Dec 2026 | Open       |
+| GAP-002 | GDPR              | Data retention reviews incomplete | Medium | Privacy Manager  | Nov 2026 | Open       |
+| GAP-003 | ISO 27001         | Evidence retention inconsistent   | Medium | GRC Manager      | Oct 2026 | Remediated |
+| GAP-004 | Customer Contract | Annual penetration test overdue   | High   | Security Manager | Sep 2026 | Open       |
+
+The gap register should be linked to the organization's issue and risk management processes.
+
+For example:
+
+```text
+Compliance Gap
+      ↓
+Issue Record
+      ↓
+Risk Record
+      ↓
+Remediation Plan
+      ↓
+Management Reporting
+```
+
+The organization may also identify **cross-framework gaps**.
+
+For example:
+
+```text
+Gap:
+Incomplete privileged access review
+
+Affects:
+ISO 27001
+NIS2
+GDPR
+Customer Security Requirements
+Internal Security Standard
+```
+
+One remediation may therefore address multiple compliance requirements.
+
+This creates an opportunity for efficient risk treatment.
+
+```text
+One Root Cause
+      ↓
+One Remediation
+      ↓
+Multiple Compliance Improvements
+```
+
+However, the GRC team should verify that the remediation completely addresses each mapped requirement.
+
+A compliance gap analysis should also support **management decision-making**.
+
+For example, management may need to decide whether to:
+
+```text
+Remediate Immediately
+Accept Risk
+Transfer Risk
+Implement Compensating Controls
+Defer Remediation
+Change the Business Process
+Retire the Affected System
+```
+
+These decisions should follow the organization's approved risk acceptance and governance processes.
+
+The gap analysis should not be used to automatically justify risk acceptance.
+
+For example:
+
+```text
+Gap:
+Critical regulatory requirement not satisfied.
+
+Management:
+Accepts the risk.
+
+GRC:
+Documents the decision.
+
+Legal / Compliance:
+Reviews regulatory implications.
+
+Risk Owner:
+Approves according to authority.
+
+Result:
+Risk acceptance does not necessarily
+eliminate the compliance gap.
+```
+
+This distinction is particularly important.
+
+A risk can sometimes be accepted by an authorized risk owner, but the organization may still have a legal or regulatory obligation that cannot simply be waived internally.
+
+The GRC professional must therefore distinguish between:
+
+```text
+Risk Acceptance
+        ≠
+Regulatory Exemption
+```
+
+A regulatory exemption or formal derogation, where available, may require approval from the relevant authority rather than internal management.
+
+The gap analysis should also identify **dependencies** that may affect remediation.
+
+For example:
+
+```text
+Gap:
+Legacy system does not support MFA.
+
+Remediation:
+Upgrade application.
+
+Dependency:
+Application replacement project.
+
+Target:
+Q2 2027
+```
+
+The GRC team should monitor the dependency because delays may extend the compliance gap.
+
+The analysis should also document **temporary measures**.
+
+For example:
+
+```text
+Temporary Control:
+Additional privileged access monitoring
+
+Duration:
+Until application upgrade
+
+Review:
+Monthly
+
+Owner:
+Security Operations
+```
+
+Temporary controls should have expiration or review dates.
+
+The GRC team should avoid allowing temporary measures to become permanent without formal review.
+
+The gap analysis can also be used to develop a **compliance improvement roadmap**.
+
+For example:
+
+```text
+Q3 2026
+Address Critical Gaps
+
+Q4 2026
+Address High-Risk Gaps
+
+Q1 2027
+Address Medium-Risk Gaps
+
+Q2 2027
+Optimize Control Environment
+```
+
+A more detailed roadmap may include:
+
+```text
+Gap
+ ↓
+Priority
+ ↓
+Remediation
+ ↓
+Dependency
+ ↓
+Owner
+ ↓
+Budget
+ ↓
+Target Date
+ ↓
+Expected Risk Reduction
+```
+
+This allows management to connect compliance improvements with investment decisions.
+
+The GRC team should also measure the effectiveness of remediation.
+
+Useful metrics include:
+
+```text
+Total Compliance Gaps
+Open Compliance Gaps
+Closed Compliance Gaps
+High-Risk Gaps
+Overdue Gaps
+Average Remediation Time
+Recurring Gaps
+Remediation Success Rate
+Compliance Coverage
+```
+
+For example:
+
+```text
+Total Gaps:
+60
+
+Closed:
+38
+
+Open:
+22
+
+High-Risk:
+6
+
+Overdue:
+4
+
+Average Remediation Time:
+74 Days
+```
+
+Trend analysis may show:
+
+```text
+Q1:
+72 Open Gaps
+
+Q2:
+61 Open Gaps
+
+Q3:
+48 Open Gaps
+
+Q4:
+35 Open Gaps
+```
+
+This provides management with an indication of improvement.
+
+However, the number of gaps alone does not determine compliance maturity.
+
+An organization may have fewer gaps because it has performed less assessment.
+
+Therefore, metrics should be interpreted alongside:
+
+```text
+Assessment Coverage
+Requirement Coverage
+Risk Profile
+Control Effectiveness
+Audit Results
+Regulatory Changes
+```
+
+A mature compliance gap analysis should ultimately provide a clear answer to five questions:
+
+```text
+1. What should we have?
+
+2. What do we actually have?
+
+3. What is missing or ineffective?
+
+4. What risk does the gap create?
+
+5. What must we do to close or manage the gap?
+```
+
+The complete process can therefore be represented as:
+
+```text
+Requirement
+     ↓
+Expected State
+     ↓
+Current State
+     ↓
+Gap
+     ↓
+Root Cause
+     ↓
+Risk
+     ↓
+Priority
+     ↓
+Remediation
+     ↓
+Owner
+     ↓
+Target Date
+     ↓
+Implementation
+     ↓
+Validation
+     ↓
+Closure
+```
+
+A well-managed Compliance Gap Analysis ensures that compliance assessments result in actionable improvements rather than simply producing a list of findings.
+
+The key principle is:
+
+> **Compliance Gap Analysis identifies the difference between required and actual compliance, determines the risk and root cause of the gap, and establishes a controlled path toward remediation, validation, and sustainable compliance.**
+
+
 

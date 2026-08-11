@@ -1324,5 +1324,1084 @@ The key principle is:
 
 > **A Vendor Risk Assessment Questionnaire should be risk-based and evidence-driven, using the vendor's business criticality, data access, system access, regulatory exposure, security controls, and dependencies to determine the level of due diligence and ongoing oversight required.**
 
+**Part 2 – Third-Party Due Diligence Checklist**
+
+Third-party due diligence is the process of validating the information provided by a vendor and determining whether the vendor can be trusted to meet the organization's security, privacy, compliance, operational, and resilience requirements.
+
+The Vendor Risk Assessment Questionnaire primarily collects information from the vendor. Due diligence goes a step further by independently reviewing available evidence, validating important claims, identifying gaps, and determining whether the vendor presents an acceptable level of risk.
+
+The due diligence process can be represented as:
+
+```text
+Vendor Identification
+        ↓
+Initial Risk Screening
+        ↓
+Questionnaire
+        ↓
+Evidence Collection
+        ↓
+Evidence Validation
+        ↓
+Security Due Diligence
+        ↓
+Privacy Due Diligence
+        ↓
+Compliance Due Diligence
+        ↓
+Operational Resilience Review
+        ↓
+Risk Analysis
+        ↓
+Approval / Conditions / Rejection
+        ↓
+Ongoing Monitoring
+```
+
+A practical Third-Party Due Diligence Checklist can contain:
+
+```text
+THIRD-PARTY DUE DILIGENCE CHECKLIST
+
+Vendor Name:
+
+Vendor ID:
+
+Assessment ID:
+
+Service:
+
+Business Owner:
+
+Procurement Owner:
+
+Vendor Contact:
+
+Assessment Date:
+
+Assessment Type:
+
+Vendor Classification:
+
+Business Criticality:
+
+Inherent Risk:
+
+Security Governance:
+
+Security Policies:
+
+Security Certification:
+
+Independent Assurance:
+
+Access Control:
+
+Privileged Access:
+
+Authentication:
+
+Data Protection:
+
+Encryption:
+
+Vulnerability Management:
+
+Security Monitoring:
+
+Incident Management:
+
+Business Continuity:
+
+Disaster Recovery:
+
+Privacy:
+
+Regulatory Compliance:
+
+Subcontractor Management:
+
+Security Testing:
+
+Physical Security:
+
+Secure Development:
+
+Change Management:
+
+Contractual Security Requirements:
+
+Audit Rights:
+
+Insurance:
+
+Financial Stability:
+
+Reputation:
+
+Security Incidents:
+
+Legal / Regulatory Issues:
+
+Known Exceptions:
+
+Evidence Reviewed:
+
+Evidence Gaps:
+
+Risk Findings:
+
+Required Remediation:
+
+Risk Decision:
+
+Risk Owner:
+
+Approval:
+
+Next Review Date:
+
+Reviewer:
+
+Review Status:
+```
+
+The first step is to confirm the **identity of the vendor**.
+
+The organization should verify that the legal entity being assessed is the same entity that will provide the service.
+
+For example:
+
+```text
+Vendor Legal Name:
+ABC Cloud Services Ltd.
+
+Trading Name:
+ABC Cloud
+
+Registered Entity:
+ABC Cloud Services Ltd.
+
+Contracting Entity:
+ABC Cloud Services Ltd.
+```
+
+This distinction is important because a brand name may represent multiple legal entities or subsidiaries.
+
+The organization should verify:
+
+```text
+Legal Name
+Registered Address
+Registration Information
+Ownership
+Parent Company
+Subsidiaries
+Contracting Entity
+Service Provider Entity
+```
+
+This helps prevent situations where the organization performs due diligence on one entity but signs a contract with another.
+
+The next step is to confirm the **service being provided**.
+
+For example:
+
+```text
+Service:
+Customer Relationship Management Platform
+
+Purpose:
+Customer Data Management
+
+Business Owner:
+Chief Customer Officer
+
+Criticality:
+High
+```
+
+The due diligence review should remain focused on the actual service.
+
+A vendor may have strong corporate security controls while a particular service has different risks or dependencies.
+
+The organization should determine the **business criticality** of the service.
+
+For example:
+
+```text
+Critical:
+Failure could significantly disrupt
+critical business operations.
+
+High:
+Failure could materially affect
+important business functions.
+
+Medium:
+Failure could cause manageable disruption.
+
+Low:
+Failure would have limited impact.
+```
+
+This classification determines how extensive the due diligence should be.
+
+The organization should also confirm the **inherent risk** before evaluating mitigating controls.
+
+For example:
+
+```text
+Data Sensitivity:
+High
+
+System Access:
+Privileged
+
+Business Criticality:
+Critical
+
+Regulatory Exposure:
+High
+
+Third-Party Dependency:
+High
+
+Inherent Risk:
+Critical
+```
+
+A high inherent risk does not automatically mean that the vendor is unacceptable. It means that stronger due diligence and stronger controls may be required.
+
+The checklist should verify the vendor's **security governance structure**.
+
+Questions may include:
+
+```text
+[ ] Formal information security program exists
+[ ] Security responsibilities are defined
+[ ] Security leadership is established
+[ ] Security policies are approved
+[ ] Security risks are reported to management
+[ ] Security performance is monitored
+```
+
+The organization should request appropriate evidence.
+
+For example:
+
+```text
+Evidence:
+
+Information Security Policy
+Security Governance Documentation
+Security Organization Structure
+Security Certification
+Independent Assurance Report
+```
+
+The evidence should be reviewed rather than simply marked as received.
+
+The organization should verify the vendor's **security certifications**.
+
+For example:
+
+```text
+[ ] ISO/IEC 27001 certificate reviewed
+[ ] Certificate is valid
+[ ] Certificate scope reviewed
+[ ] Relevant services included
+[ ] Relevant locations included
+[ ] Expiration date confirmed
+[ ] Certification body identified
+```
+
+A valid certification should not automatically result in a low-risk assessment.
+
+The organization should determine whether the certification scope actually covers the service being purchased.
+
+For example:
+
+```text
+Vendor:
+ABC Cloud
+
+ISO/IEC 27001 Scope:
+Corporate IT Services
+
+Contracted Service:
+Customer Cloud Platform
+
+Conclusion:
+Certification scope does not clearly cover
+the contracted service.
+
+Additional Assurance:
+Required.
+```
+
+The same principle applies to SOC reports and other independent assurance reports.
+
+The checklist should verify the **scope and coverage** of independent assurance.
+
+For example:
+
+```text
+[ ] Report obtained
+[ ] Reporting period confirmed
+[ ] Services covered
+[ ] Locations covered
+[ ] Controls covered
+[ ] Exceptions reviewed
+[ ] Complementary customer controls identified
+[ ] Report expiration / period confirmed
+```
+
+The organization should identify whether there are **control exceptions**.
+
+For example:
+
+```text
+SOC Report Exception:
+
+Access review control was not consistently
+performed during part of the assessment period.
+```
+
+The GRC professional should evaluate whether the exception affects the service being purchased.
+
+The due diligence checklist should assess **identity and access management**.
+
+For example:
+
+```text
+[ ] Unique user accounts
+[ ] Strong authentication
+[ ] MFA for privileged access
+[ ] Privileged access management
+[ ] Periodic access reviews
+[ ] Joiner / mover / leaver controls
+[ ] Service account controls
+[ ] Remote access controls
+[ ] Emergency access controls
+```
+
+The organization should request evidence proportional to the risk.
+
+For a critical vendor, evidence may include:
+
+```text
+Access Control Policy
+Privileged Access Procedure
+MFA Standard
+Access Review Evidence
+Privileged Access Management Evidence
+```
+
+The checklist should assess **data protection**.
+
+For example:
+
+```text
+[ ] Data classification implemented
+[ ] Data handling requirements defined
+[ ] Encryption at rest
+[ ] Encryption in transit
+[ ] Key management controls
+[ ] Data retention requirements
+[ ] Secure data deletion
+[ ] Backup protection
+```
+
+The organization should determine where the data will be stored and processed.
+
+For example:
+
+```text
+Primary Data Location:
+Germany
+
+Backup Data Location:
+Netherlands
+
+Support Access:
+United States
+
+Subprocessor:
+Ireland
+```
+
+Geographic information can be important for privacy, regulatory, contractual, and data transfer considerations.
+
+The checklist should assess **privacy requirements** where personal data is processed.
+
+For example:
+
+```text
+[ ] Data Processing Agreement required
+[ ] Data processing roles identified
+[ ] Processing purposes documented
+[ ] Data retention defined
+[ ] Subprocessors identified
+[ ] International transfers assessed
+[ ] Data subject support defined
+[ ] Data breach notification requirements defined
+[ ] Data deletion requirements defined
+```
+
+The organization should determine whether the vendor acts as:
+
+```text
+Controller
+Processor
+Joint Controller
+Independent Service Provider
+```
+
+The correct classification should be determined based on the actual processing relationship and applicable law.
+
+The checklist should assess **vulnerability management**.
+
+For example:
+
+```text
+[ ] Vulnerability management program exists
+[ ] Regular vulnerability scanning performed
+[ ] Critical vulnerabilities prioritized
+[ ] Remediation timelines defined
+[ ] Penetration testing performed
+[ ] Findings tracked to closure
+[ ] Exceptions formally managed
+```
+
+Evidence may include:
+
+```text
+Vulnerability Management Policy
+Penetration Test Summary
+Security Assessment
+Remediation Metrics
+Independent Assurance Report
+```
+
+The organization should avoid requesting unnecessarily sensitive technical information.
+
+For example, a penetration test executive summary may be sufficient where the complete technical report contains sensitive system information.
+
+The checklist should assess **security monitoring and logging**.
+
+For example:
+
+```text
+[ ] Security events monitored
+[ ] Privileged activity logged
+[ ] Authentication events logged
+[ ] Security alerts investigated
+[ ] Logs protected from unauthorized modification
+[ ] Log retention defined
+[ ] Monitoring responsibilities defined
+```
+
+For critical services, the organization may also verify whether monitoring is performed continuously.
+
+The checklist should assess the vendor's **incident management capability**.
+
+For example:
+
+```text
+[ ] Incident response plan exists
+[ ] Incident classification exists
+[ ] Security escalation process exists
+[ ] Customer notification process exists
+[ ] Regulatory notification responsibilities defined
+[ ] Incident exercises performed
+[ ] Lessons learned process exists
+```
+
+The organization should pay particular attention to contractual incident notification requirements.
+
+For example:
+
+```text
+Vendor Requirement:
+
+Notify the organization of a confirmed
+security incident affecting customer data
+within the contractual notification period.
+```
+
+The exact notification requirement should be established through the organization's legal, privacy, regulatory, and contractual requirements.
+
+The checklist should assess **business continuity**.
+
+For example:
+
+```text
+[ ] Business Continuity Plan exists
+[ ] Disaster Recovery Plan exists
+[ ] Critical services identified
+[ ] Recovery objectives defined
+[ ] Recovery testing performed
+[ ] Test results reviewed
+[ ] Corrective actions tracked
+```
+
+The organization should compare the vendor's recovery capabilities with its own requirements.
+
+For example:
+
+```text
+Organization Requirement:
+
+RTO:
+4 hours
+
+RPO:
+1 hour
+
+Vendor Capability:
+
+RTO:
+2 hours
+
+RPO:
+30 minutes
+
+Assessment:
+Meets requirement.
+```
+
+Another vendor may not meet the requirement:
+
+```text
+Organization Requirement:
+
+RTO:
+4 hours
+
+Vendor Capability:
+
+RTO:
+12 hours
+
+Assessment:
+Gap identified.
+
+Action:
+Remediation or risk acceptance required.
+```
+
+The checklist should also assess **subcontractor and fourth-party risk**.
+
+For example:
+
+```text
+[ ] Subcontractors identified
+[ ] Critical subcontractors identified
+[ ] Security requirements flow down
+[ ] Subcontractors assessed
+[ ] Subcontractor changes notified
+[ ] Material fourth parties identified
+[ ] Subcontractor incidents monitored
+```
+
+The organization should determine whether critical subcontractors are involved in:
+
+```text
+Data Processing
+Cloud Hosting
+Security Operations
+Customer Support
+Infrastructure
+Software Development
+Payment Processing
+```
+
+The checklist should also assess **secure software development** when the vendor develops software.
+
+For example:
+
+```text
+[ ] Secure SDLC exists
+[ ] Security requirements defined
+[ ] Code review performed
+[ ] Dependency management implemented
+[ ] Application security testing performed
+[ ] Vulnerability remediation process exists
+[ ] Security testing performed before release
+```
+
+The organization may request evidence such as:
+
+```text
+Secure Development Policy
+Application Security Standard
+Penetration Test Summary
+Software Security Assessment
+Vulnerability Management Evidence
+```
+
+The checklist should assess **change management**.
+
+For example:
+
+```text
+[ ] Formal change management process
+[ ] Security impact assessment
+[ ] Change approval
+[ ] Testing before production
+[ ] Emergency change process
+[ ] Post-implementation review
+```
+
+This is important for vendors that operate critical infrastructure or provide continuously changing technology services.
+
+The checklist should assess **physical security** where relevant.
+
+For example:
+
+```text
+[ ] Physical access controls
+[ ] Visitor management
+[ ] Security monitoring
+[ ] Environmental controls
+[ ] Fire protection
+[ ] Power protection
+[ ] Physical security incident management
+```
+
+For a cloud provider, the organization may rely on independent assurance reports rather than conducting its own physical inspection.
+
+The checklist should also assess **personnel security**.
+
+For example:
+
+```text
+[ ] Background screening
+[ ] Security awareness training
+[ ] Confidentiality agreements
+[ ] Security responsibilities
+[ ] Employee termination process
+[ ] Privileged personnel controls
+```
+
+Requirements should be proportional to the vendor's role and access.
+
+The checklist should assess **security awareness**.
+
+For example:
+
+```text
+[ ] Security awareness program
+[ ] Initial security training
+[ ] Periodic refresher training
+[ ] Phishing awareness
+[ ] Role-based security training
+[ ] Training completion monitoring
+```
+
+The organization may request training statistics or policy documentation as supporting evidence.
+
+The checklist should also evaluate **financial stability** where service continuity could be affected by the vendor's financial condition.
+
+For critical vendors, the organization may consider:
+
+```text
+[ ] Financial statements reviewed
+[ ] Credit assessment performed
+[ ] Financial risk identified
+[ ] Business dependency assessed
+[ ] Exit strategy available
+```
+
+Financial due diligence may be especially important when replacing the vendor would be difficult or expensive.
+
+The checklist should assess **reputation and external risk indicators**.
+
+Depending on the organization's methodology and applicable law, this may include:
+
+```text
+[ ] Material security incidents identified
+[ ] Regulatory enforcement identified
+[ ] Significant litigation identified
+[ ] Public security concerns reviewed
+[ ] Relevant adverse information reviewed
+```
+
+The objective is not to conduct unrestricted background investigations. The review should remain proportionate, lawful, relevant, and focused on third-party risk.
+
+The organization should also assess the vendor's **history of security incidents**.
+
+For example:
+
+```text
+[ ] Material incidents identified
+[ ] Incident history reviewed
+[ ] Root causes reviewed
+[ ] Corrective actions reviewed
+[ ] Recurring issues identified
+```
+
+A previous security incident does not automatically mean that the vendor is unacceptable.
+
+The key questions are:
+
+```text
+What happened?
+
+What was the root cause?
+
+How significant was the impact?
+
+How did the vendor respond?
+
+What corrective actions were implemented?
+
+Has the issue recurred?
+```
+
+The checklist should assess **contractual security requirements**.
+
+For example:
+
+```text
+[ ] Confidentiality requirements
+[ ] Security requirements
+[ ] Data protection requirements
+[ ] Incident notification
+[ ] Audit rights
+[ ] Security assessment rights
+[ ] Subcontractor requirements
+[ ] Data deletion
+[ ] Business continuity
+[ ] Exit requirements
+```
+
+The security requirements should reflect the vendor's risk.
+
+A critical vendor may require significantly more detailed contractual requirements than a low-risk supplier.
+
+The checklist should also assess **audit and assurance rights**.
+
+For example:
+
+```text
+[ ] Right to request security evidence
+[ ] Right to review assurance reports
+[ ] Right to conduct assessments
+[ ] Right to request remediation
+[ ] Right to audit where appropriate
+```
+
+The organization should ensure that contractual rights are practical and enforceable.
+
+The checklist should also assess **cybersecurity insurance** where relevant.
+
+For example:
+
+```text
+[ ] Cyber insurance exists
+[ ] Coverage verified
+[ ] Policy period verified
+[ ] Coverage appropriate to service risk
+```
+
+Insurance should be treated as a risk-transfer mechanism rather than a substitute for security controls.
+
+The checklist should record **evidence reviewed**.
+
+For example:
+
+```text
+Evidence Reviewed:
+
+ISO/IEC 27001 Certificate
+SOC 2 Type II Report
+Penetration Test Summary
+Business Continuity Test Report
+Information Security Policy
+Incident Response Plan
+Data Processing Agreement
+Cyber Insurance Certificate
+```
+
+The reviewer should record whether the evidence actually supports the vendor's claims.
+
+For example:
+
+```text
+Vendor Response:
+"We perform annual penetration testing."
+
+Evidence:
+Penetration Test Summary dated June 2026.
+
+Conclusion:
+Verified.
+```
+
+Another example:
+
+```text
+Vendor Response:
+"All privileged accounts use MFA."
+
+Evidence:
+MFA policy provided.
+
+Additional Validation:
+No technical evidence provided.
+
+Conclusion:
+Unable to independently verify.
+```
+
+This distinction is important.
+
+A policy describing a control does not necessarily demonstrate that the control is operating.
+
+The checklist should identify **evidence gaps**.
+
+For example:
+
+```text
+Evidence Gap:
+
+Vendor has not provided evidence demonstrating
+quarterly privileged access reviews.
+
+Risk Impact:
+Medium
+
+Required Action:
+Provide evidence or implement the required
+review process.
+```
+
+Evidence gaps should be tracked to resolution.
+
+The due diligence review should identify **security findings**.
+
+For example:
+
+```text
+Finding:
+
+Vendor does not currently require MFA for
+all privileged administrative access.
+
+Risk:
+High
+
+Required Remediation:
+Implement MFA for all privileged accounts.
+```
+
+The finding should be linked to the vendor risk record.
+
+The organization should then determine the **residual risk**.
+
+For example:
+
+```text
+Inherent Risk:
+High
+
+Controls:
+Strong
+
+Open Finding:
+Medium
+
+Residual Risk:
+Medium
+```
+
+The risk decision should be based on the organization's third-party risk methodology.
+
+Possible outcomes include:
+
+```text
+Approved
+Approved with Conditions
+Remediation Required
+Risk Acceptance Required
+Restricted Use
+Additional Due Diligence
+Not Approved
+```
+
+For example:
+
+```text
+Decision:
+Approved with Conditions
+
+Conditions:
+
+1. Implement privileged MFA within 60 days.
+
+2. Provide updated penetration test evidence
+within 90 days.
+
+3. Complete annual security assessment.
+```
+
+The conditions should be assigned to responsible owners and tracked.
+
+The checklist should identify the **risk owner**.
+
+For example:
+
+```text
+Risk Owner:
+Chief Information Security Officer
+```
+
+The risk owner should be someone with sufficient authority to accept the identified risk.
+
+The business owner may be responsible for the relationship, while the security or risk function may provide the independent risk assessment.
+
+The checklist should also establish the **next review date**.
+
+For example:
+
+```text
+Risk Tier:
+High
+
+Review Frequency:
+Annual
+
+Next Review:
+15 August 2027
+```
+
+Critical vendors may require more frequent monitoring.
+
+The review should also be triggered when significant changes occur.
+
+For example:
+
+```text
+[ ] Major Security Incident
+[ ] Change in Ownership
+[ ] New Service
+[ ] New Data Processing
+[ ] New Subcontractor
+[ ] Major Technology Change
+[ ] Regulatory Change
+[ ] Contract Renewal
+[ ] Significant Control Failure
+```
+
+A practical completed checklist may look like:
+
+```text
+Vendor:
+Enterprise Cloud Provider
+
+Service:
+Production Cloud Infrastructure
+
+Business Criticality:
+Critical
+
+Inherent Risk:
+Critical
+
+ISO/IEC 27001:
+Verified
+
+SOC 2 Type II:
+Verified
+
+MFA:
+Verified
+
+Privileged Access:
+Verified
+
+Encryption:
+Verified
+
+Vulnerability Management:
+Verified
+
+Incident Management:
+Verified
+
+Business Continuity:
+Verified
+
+Subcontractor Management:
+Verified
+
+Security Testing:
+Verified
+
+Open Finding:
+Legacy administrative interface does not
+support MFA.
+
+Compensating Controls:
+Network restrictions
+Enhanced monitoring
+
+Residual Risk:
+Medium
+
+Decision:
+Approved with Conditions
+
+Condition:
+Legacy interface must be removed within
+90 days.
+
+Risk Owner:
+CISO
+
+Next Review:
+12 Months
+```
+
+The final due diligence decision should be documented and approved according to the organization's governance process.
+
+A complete third-party due diligence record should create traceability between:
+
+```text
+Vendor
+   ↓
+Service
+   ↓
+Business Criticality
+   ↓
+Inherent Risk
+   ↓
+Questionnaire
+   ↓
+Evidence
+   ↓
+Due Diligence
+   ↓
+Findings
+   ↓
+Residual Risk
+   ↓
+Risk Decision
+   ↓
+Contract
+   ↓
+Remediation
+   ↓
+Ongoing Monitoring
+```
+
+A mature GRC function should not perform vendor due diligence only once at the beginning of a relationship. The assessment should form part of the vendor lifecycle and be refreshed when the vendor, service, technology, data, regulatory environment, or risk profile changes.
+
+The key principle is:
+
+> **Third-party due diligence validates vendor claims through evidence, independent review, and risk-based analysis so that the organization can make informed decisions about whether a vendor is suitable, what conditions should apply, and how the relationship should be monitored over time.**
+
 
 

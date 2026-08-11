@@ -3811,3 +3811,1138 @@ The key principle is:
 
 > **A Disaster Recovery Plan provides the structured technical and operational framework required to restore critical technology services, systems, applications, infrastructure, and data while maintaining security, meeting defined recovery objectives, validating the recovered environment, and supporting the return to normal business operations.**
 
+A Recovery Exercise and Testing Template provides a structured method for planning, conducting, documenting, and evaluating exercises designed to determine whether an organization's business continuity and disaster recovery capabilities can operate effectively during a disruption.
+
+Recovery exercises should demonstrate whether documented plans, procedures, people, technology, communication channels, recovery strategies, and dependencies work as expected.
+
+The exercise should not simply confirm that a plan exists. It should provide evidence that the organization can execute the plan and achieve its defined recovery objectives.
+
+A practical Recovery Exercise and Testing Template can contain:
+
+```text
+RECOVERY EXERCISE AND TESTING TEMPLATE
+
+Exercise ID:
+
+Exercise Name:
+
+Exercise Type:
+
+Exercise Sponsor:
+
+Exercise Owner:
+
+Exercise Coordinator:
+
+Date:
+
+Start Time:
+
+End Time:
+
+Location:
+
+Participating Teams:
+
+Participating Business Units:
+
+Scenario:
+
+Exercise Objectives:
+
+Scope:
+
+Systems and Services Covered:
+
+Business Processes Covered:
+
+Recovery Objectives:
+
+RTO:
+
+RPO:
+
+MTD:
+
+MBCO:
+
+Assumptions:
+
+Dependencies:
+
+Exercise Method:
+
+Exercise Activities:
+
+Communication Requirements:
+
+Success Criteria:
+
+Expected Recovery Sequence:
+
+Actual Recovery Sequence:
+
+Evidence Collected:
+
+Test Results:
+
+RTO Result:
+
+RPO Result:
+
+Business Continuity Result:
+
+Technical Recovery Result:
+
+Security Validation Result:
+
+Issues Identified:
+
+Control Failures:
+
+Gaps Identified:
+
+Risk Impact:
+
+Corrective Actions:
+
+Improvement Actions:
+
+Action Owner:
+
+Target Completion Date:
+
+Lessons Learned:
+
+Overall Exercise Result:
+
+Management Sign-Off:
+
+Review Date:
+
+Exercise History:
+```
+
+The organization should first define the **exercise type**.
+
+Common recovery exercise types include:
+
+```text
+Tabletop Exercise
+Walkthrough
+Communication Exercise
+Technical Recovery Test
+Backup Restoration Test
+Application Recovery Test
+Network Recovery Test
+Cloud Recovery Test
+Simulation Exercise
+Full Business Continuity Exercise
+Full Disaster Recovery Exercise
+```
+
+Each exercise type provides a different level of assurance.
+
+A **tabletop exercise** generally uses discussion to determine whether participants understand their roles and whether the documented procedures are practical.
+
+A **technical recovery test** goes further by actually performing selected recovery activities.
+
+A **full exercise** may involve multiple business units, technology teams, suppliers, management, communications, and other stakeholders.
+
+The organization should define the **exercise objectives** before the exercise begins.
+
+For example:
+
+```text
+Exercise Objectives:
+
+Validate the Disaster Recovery Plan.
+
+Validate recovery procedures.
+
+Test communication channels.
+
+Test recovery team responsibilities.
+
+Validate backup restoration.
+
+Measure recovery time.
+
+Identify gaps in recovery capability.
+
+Validate coordination between IT,
+cybersecurity, and business teams.
+```
+
+Objectives should be measurable wherever possible.
+
+For example:
+
+```text
+Objective:
+
+Demonstrate that the critical database
+can be restored within the defined RTO.
+
+Target:
+
+Recovery completed within 2 hours.
+```
+
+The exercise should define its **scope**.
+
+For example:
+
+```text
+Scope:
+
+The exercise will test recovery of the
+customer-facing application, supporting
+database, identity services, network
+connectivity, and security monitoring.
+```
+
+The organization should clearly define what is outside the scope.
+
+For example:
+
+```text
+Out of Scope:
+
+Non-critical internal applications.
+
+Secondary reporting systems.
+
+Development environments.
+```
+
+The exercise should identify the **systems and services covered**.
+
+For example:
+
+```text
+Systems:
+
+CRM
+Customer Portal
+Identity Platform
+Database
+Network Services
+Security Monitoring
+```
+
+The exercise should identify the **business processes covered**.
+
+For example:
+
+```text
+Customer Service
+Customer Account Management
+Payment Processing
+Incident Handling
+Service Requests
+```
+
+The exercise should document the relevant **recovery objectives**.
+
+For example:
+
+```text
+RTO:
+4 hours
+
+RPO:
+30 minutes
+
+MTD:
+12 hours
+
+MBCO:
+50% of normal service capacity
+```
+
+These values should be taken from approved business continuity and disaster recovery requirements.
+
+The exercise should document its **assumptions**.
+
+Examples include:
+
+```text
+Recovery Site Is Available
+
+Required Personnel Are Available
+
+Backup Data Is Available
+
+Network Connectivity Is Available
+
+Critical Suppliers Are Available
+
+Recovery Credentials Are Accessible
+```
+
+Assumptions should be challenged during exercises whenever possible.
+
+The exercise should identify **dependencies**.
+
+Examples include:
+
+```text
+Identity Services
+Network Connectivity
+DNS
+Cloud Services
+Database
+Storage
+Security Monitoring
+Third-Party Services
+```
+
+Dependencies should be tested in the appropriate recovery sequence.
+
+The exercise should define the **exercise method**.
+
+For example:
+
+```text
+Method:
+
+Scenario-based tabletop exercise combined
+with technical backup restoration testing.
+```
+
+The organization should define the **exercise scenario**.
+
+A scenario should be realistic and sufficiently challenging.
+
+For example:
+
+```text
+Scenario:
+
+A ransomware attack has encrypted critical
+production servers.
+
+The primary application environment is
+unavailable.
+
+Several administrator accounts may have
+been compromised.
+
+The organization must restore critical
+customer services using the disaster
+recovery environment.
+```
+
+The scenario should include enough information to test decision-making without making the outcome predetermined.
+
+The exercise may introduce additional events during execution.
+
+For example:
+
+```text
+Inject 1:
+
+Primary database is unavailable.
+
+Inject 2:
+
+One recovery administrator cannot be reached.
+
+Inject 3:
+
+Backup restoration takes longer than expected.
+
+Inject 4:
+
+Security monitoring detects suspicious
+activity in the recovery environment.
+```
+
+These additional events test whether participants can adapt to changing conditions.
+
+The exercise should define **participating teams**.
+
+For example:
+
+```text
+IT Infrastructure
+Network Engineering
+Cloud Engineering
+Database Administration
+Application Support
+Cybersecurity
+Business Continuity
+Risk and Compliance
+Business Operations
+Communications
+Management
+```
+
+The exercise should identify the **exercise sponsor**.
+
+The sponsor provides management support and ensures that the exercise receives appropriate organizational attention.
+
+The **exercise owner** is responsible for ensuring that the exercise is properly designed and conducted.
+
+The **exercise coordinator** manages the practical execution of the exercise.
+
+The exercise should define **roles and responsibilities**.
+
+For example:
+
+```text
+Exercise Sponsor:
+Provides executive sponsorship.
+
+Exercise Owner:
+Owns the exercise outcome.
+
+Exercise Coordinator:
+Coordinates execution.
+
+Technical Teams:
+Perform recovery activities.
+
+Business Representatives:
+Validate business functionality.
+
+Cybersecurity:
+Validate security requirements.
+
+Observers:
+Record actions and identify issues.
+```
+
+The exercise should establish **communication requirements**.
+
+Communication channels may include:
+
+```text
+Emergency Messaging
+Telephone
+Email
+Collaboration Platform
+Incident Management Platform
+Emergency Notification System
+```
+
+The organization should verify that communication channels remain available during a disruption.
+
+For example:
+
+```text
+Primary Communication:
+Collaboration Platform
+
+Secondary Communication:
+Telephone Conference
+
+Emergency Communication:
+SMS
+```
+
+The exercise should establish **success criteria**.
+
+Success criteria should be measurable.
+
+For example:
+
+```text
+Critical application restored within 4 hours.
+
+Data restored to within 30 minutes of
+the required recovery point.
+
+Business users can access the application.
+
+Security controls are operational.
+
+Required communication is completed.
+
+Recovery procedures are followed.
+
+Management receives required status updates.
+```
+
+The exercise should define the **expected recovery sequence**.
+
+For example:
+
+```text
+1. Incident Declaration
+2. Recovery Authorization
+3. Recovery Environment Validation
+4. Identity Recovery
+5. Network Recovery
+6. Security Monitoring Activation
+7. Database Recovery
+8. Application Recovery
+9. Business Validation
+10. Service Restoration
+```
+
+The expected sequence provides a baseline against which actual performance can be evaluated.
+
+The exercise should document the **actual recovery sequence**.
+
+For example:
+
+```text
+Actual Sequence:
+
+1. Incident Declaration
+2. Recovery Authorization
+3. Network Recovery
+4. Database Recovery
+5. Identity Recovery
+6. Application Recovery
+7. Security Monitoring
+8. Business Validation
+```
+
+The difference between the expected and actual sequence should be analyzed.
+
+A different sequence may reveal undocumented dependencies or weaknesses in the recovery plan.
+
+The exercise should collect **evidence**.
+
+Evidence may include:
+
+```text
+Screenshots
+System Logs
+Recovery Logs
+Backup Restoration Records
+Communication Records
+Exercise Attendance
+Incident Tickets
+System Availability Records
+Recovery Time Measurements
+Meeting Notes
+Observer Notes
+```
+
+Evidence should be retained according to the organization's evidence retention requirements.
+
+The exercise should record **test results**.
+
+For example:
+
+```text
+Test:
+
+Restore critical database from backup.
+
+Expected Result:
+
+Database restored within 60 minutes.
+
+Actual Result:
+
+Database restored within 48 minutes.
+
+Result:
+
+Pass
+```
+
+Each test should have a clearly defined expected result.
+
+The exercise should measure the actual **RTO result**.
+
+For example:
+
+```text
+Required RTO:
+4 hours
+
+Actual Recovery:
+3 hours 25 minutes
+
+Result:
+RTO Achieved
+```
+
+If the RTO is not achieved, the organization should document the reason.
+
+For example:
+
+```text
+Required RTO:
+4 hours
+
+Actual Recovery:
+5 hours 15 minutes
+
+Result:
+RTO Not Achieved
+
+Reason:
+
+Database restoration required additional
+manual processing.
+```
+
+The exercise should measure the **RPO result**.
+
+For example:
+
+```text
+Required RPO:
+30 minutes
+
+Actual Data Loss:
+20 minutes
+
+Result:
+RPO Achieved
+```
+
+Another example:
+
+```text
+Required RPO:
+30 minutes
+
+Actual Data Loss:
+55 minutes
+
+Result:
+RPO Not Achieved
+```
+
+The exercise should evaluate the **Business Continuity result**.
+
+For example:
+
+```text
+Critical customer service:
+
+Required capacity:
+50%
+
+Actual capacity:
+60%
+
+Result:
+Achieved
+```
+
+The exercise should evaluate the **technical recovery result**.
+
+This should consider:
+
+```text
+Infrastructure Recovery
+Network Recovery
+Identity Recovery
+Database Recovery
+Application Recovery
+Cloud Recovery
+Backup Restoration
+```
+
+The exercise should evaluate the **security validation result**.
+
+Security validation should confirm that recovered systems are adequately protected.
+
+For example:
+
+```text
+MFA:
+Passed
+
+Endpoint Protection:
+Passed
+
+Firewall:
+Passed
+
+Logging:
+Passed
+
+Security Monitoring:
+Passed
+
+Privileged Access:
+Passed
+```
+
+Following a cyber incident scenario, the exercise should also test:
+
+```text
+Credential Rotation
+Threat Hunting
+Malware Detection
+Backup Integrity
+Recovery Environment Isolation
+Compromise Assessment
+```
+
+The exercise should document **issues identified**.
+
+For example:
+
+```text
+Issue:
+
+The recovery team could not immediately
+access the required cloud recovery account.
+
+Impact:
+
+Recovery delayed by 35 minutes.
+
+Severity:
+
+High
+```
+
+The exercise should identify **control failures**.
+
+For example:
+
+```text
+Control:
+
+Backup Restoration Testing
+
+Expected:
+
+Monthly testing
+
+Actual:
+
+No documented test performed during
+the previous six months.
+
+Result:
+
+Control Failure
+```
+
+The exercise should document **gaps identified**.
+
+For example:
+
+```text
+Gap:
+
+The recovery plan does not define the
+sequence for restoring identity services.
+
+Impact:
+
+Application recovery may be delayed.
+
+Risk:
+
+High
+```
+
+Each significant gap should be assigned an owner and tracked through remediation.
+
+The exercise should assess the **risk impact** of identified issues.
+
+For example:
+
+```text
+Risk:
+
+Recovery credentials are dependent on the
+primary identity environment.
+
+Potential Impact:
+
+Recovery may not be possible if the
+primary identity platform is unavailable.
+
+Risk Rating:
+
+High
+```
+
+The exercise should define **corrective actions**.
+
+For example:
+
+```text
+Corrective Action:
+
+Create independent emergency recovery
+accounts protected by a separate
+privileged access management solution.
+
+Owner:
+
+Identity Management
+
+Priority:
+
+High
+
+Target Date:
+
+30 September 2026
+```
+
+The exercise should also define **improvement actions**.
+
+For example:
+
+```text
+Improvement:
+
+Automate database recovery procedures.
+
+Owner:
+
+Database Engineering
+
+Target:
+
+Q4 2026
+```
+
+The distinction between corrective and improvement actions is important.
+
+A corrective action addresses an identified weakness or failure.
+
+An improvement action increases resilience, efficiency, or maturity even when the existing capability is functioning.
+
+The exercise should assign an **action owner** to every significant finding.
+
+For example:
+
+```text
+Finding:
+
+Recovery documentation is outdated.
+
+Owner:
+
+Disaster Recovery Manager
+
+Priority:
+
+Medium
+
+Target Date:
+
+30 September 2026
+```
+
+Actions should not be considered complete until evidence demonstrates that the required improvement has been implemented.
+
+The exercise should document **lessons learned**.
+
+Examples include:
+
+```text
+Recovery procedures were technically accurate.
+
+Communication procedures were unclear.
+
+Recovery credentials required improvement.
+
+Database restoration took longer than expected.
+
+Business users required additional guidance.
+
+Security monitoring was activated too late.
+```
+
+Lessons learned should be converted into practical improvements.
+
+The exercise should produce an **overall exercise result**.
+
+For example:
+
+```text
+Overall Result:
+
+Partially Successful
+
+Critical applications were successfully
+recovered.
+
+RTO was achieved.
+
+RPO was not achieved.
+
+Communication procedures require improvement.
+
+Recovery credential management requires
+improvement.
+
+Additional technical recovery testing is
+required.
+```
+
+A simple rating model may be used:
+
+```text
+Effective
+Partially Effective
+Needs Improvement
+Ineffective
+```
+
+The rating should be supported by objective evidence.
+
+The exercise should include **management sign-off**.
+
+For example:
+
+```text
+Exercise Owner:
+Disaster Recovery Manager
+
+Business Owner:
+Operations Director
+
+Cybersecurity Review:
+CISO
+
+Management Approval:
+Approved
+
+Date:
+15 August 2026
+```
+
+The exercise should define a **follow-up review date**.
+
+For example:
+
+```text
+Follow-Up Review:
+
+30 September 2026
+```
+
+The follow-up should confirm whether corrective and improvement actions have been completed.
+
+The organization should maintain an **exercise history**.
+
+For example:
+
+```text
+Exercise ID:
+DR-2026-003
+
+Date:
+15 August 2026
+
+Scenario:
+Ransomware Recovery
+
+Result:
+Partially Successful
+
+Major Finding:
+RPO Not Achieved
+
+Follow-Up:
+Required
+```
+
+Recovery testing should occur at different levels.
+
+A mature program may use:
+
+```text
+Level 1 – Discussion
+
+Tabletop exercise to validate roles,
+responsibilities, decisions, and communication.
+
+Level 2 – Walkthrough
+
+Teams walk through documented procedures
+step by step.
+
+Level 3 – Component Test
+
+Individual recovery capabilities such as
+backup restoration or application recovery
+are tested.
+
+Level 4 – Integrated Test
+
+Multiple technology and business teams
+perform coordinated recovery activities.
+
+Level 5 – Full Exercise
+
+The organization conducts a realistic
+end-to-end recovery exercise.
+```
+
+The level selected should be appropriate to the organization's risk, maturity, regulatory requirements, and recovery objectives.
+
+Recovery exercises should also test **third-party dependencies**.
+
+For example:
+
+```text
+Cloud Provider
+Telecommunications Provider
+Managed Security Provider
+SaaS Provider
+Critical Software Vendor
+Data Centre Provider
+```
+
+The organization should confirm whether suppliers can meet their contractual recovery commitments.
+
+For example:
+
+```text
+Supplier RTO:
+4 hours
+
+Tested Supplier Recovery:
+7 hours
+
+Result:
+Supplier Recovery Requirement Not Achieved
+```
+
+This should be recorded as a third-party risk or supplier management issue where appropriate.
+
+Recovery exercises should test **communication and escalation** as well as technology.
+
+For example:
+
+```text
+Scenario:
+
+Critical application unavailable.
+
+Test:
+
+Notify business owner.
+
+Notify executive management.
+
+Notify cybersecurity.
+
+Notify affected supplier.
+
+Escalate when RTO is at risk.
+
+Result:
+
+All required notifications completed
+within defined timeframes.
+```
+
+The exercise should also test whether the organization can make appropriate decisions under pressure.
+
+For example:
+
+```text
+Decision:
+
+Continue recovery using the existing
+environment or activate the disaster
+recovery site?
+
+Decision Owner:
+
+Crisis Management Team
+
+Decision Basis:
+
+Estimated recovery time
+Business impact
+Security risk
+Customer impact
+```
+
+This helps demonstrate that the organization's recovery capability is not dependent solely on technical procedures.
+
+Recovery exercises should be integrated with the organization's broader resilience program.
+
+The relationship can be represented as:
+
+```text
+Business Impact Analysis
+        ↓
+Business Continuity Plan
+        ↓
+Disaster Recovery Plan
+        ↓
+Recovery Exercise
+        ↓
+Test Results
+        ↓
+Findings and Gaps
+        ↓
+Corrective Actions
+        ↓
+Improvement
+        ↓
+Updated Plans
+        ↓
+Next Recovery Exercise
+```
+
+The GRC professional should ensure that recovery exercises produce objective evidence that can be used for governance, risk management, compliance, audit, and management reporting.
+
+The GRC professional should verify that:
+
+```text
+Exercise objectives are defined.
+
+Exercise scope is documented.
+
+Scenarios are realistic.
+
+Critical systems are included.
+
+Critical business processes are included.
+
+RTOs are tested.
+
+RPOs are tested.
+
+Business continuity capabilities are tested.
+
+Technical recovery capabilities are tested.
+
+Security controls are validated.
+
+Communication procedures are tested.
+
+Third-party dependencies are considered.
+
+Evidence is collected.
+
+Results are documented.
+
+Failures are recorded.
+
+Gaps are risk assessed.
+
+Corrective actions are assigned.
+
+Improvement actions are assigned.
+
+Action owners are identified.
+
+Target dates are established.
+
+Management receives the results.
+
+Follow-up activities are tracked.
+
+Recovery plans are updated.
+```
+
+The key principle is:
+
+> **A recovery plan is only reliable when it has been tested. Recovery exercises provide evidence that people, processes, technology, communication channels, recovery strategies, and dependencies can operate effectively during disruption and that identified weaknesses are converted into measurable improvement actions.**
+

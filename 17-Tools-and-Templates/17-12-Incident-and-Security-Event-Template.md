@@ -2187,6 +2187,850 @@ The key principle is:
 
 > **Incident classification and severity assessment provide a consistent, risk-based mechanism for determining how a security event should be handled, ensuring that response activities, escalation, resources, and management attention are proportional to the actual and potential impact of the incident.**
 
+A Security Incident Response Checklist provides a structured sequence of activities that security, IT, GRC, privacy, legal, and business teams can use when responding to a confirmed or suspected security incident. The checklist helps ensure that critical response activities are not overlooked during a potentially stressful and time-sensitive situation.
+
+The checklist should support the complete incident lifecycle:
+
+```text id="w7t8s3"
+Preparation
+    ↓
+Identification
+    ↓
+Analysis
+    ↓
+Containment
+    ↓
+Eradication
+    ↓
+Recovery
+    ↓
+Post-Incident Review
+    ↓
+Improvement
+```
+
+A practical Security Incident Response Checklist can contain:
+
+```text id="q4r1zx"
+SECURITY INCIDENT RESPONSE CHECKLIST
+
+Incident ID:
+
+Incident Title:
+
+Incident Date:
+
+Incident Owner:
+
+Severity:
+
+Incident Category:
+
+Detection Time:
+
+Response Start Time:
+
+Affected Systems:
+
+Affected Users:
+
+Affected Data:
+
+Incident Response Team:
+
+PREPARATION
+☐ Incident response procedure available
+☐ Incident response team identified
+☐ Contact information available
+☐ Required tools available
+☐ Logging enabled
+☐ Backup availability confirmed
+☐ Evidence preservation process available
+
+IDENTIFICATION AND TRIAGE
+☐ Security event reviewed
+☐ Incident confirmed
+☐ Incident ID assigned
+☐ Initial classification completed
+☐ Initial severity assigned
+☐ Affected assets identified
+☐ Affected users identified
+☐ Potential data exposure assessed
+☐ Initial risk assessed
+☐ Incident owner assigned
+
+ANALYSIS AND INVESTIGATION
+☐ Initial indicators documented
+☐ Logs collected
+☐ Evidence preserved
+☐ Attack vector assessed
+☐ Scope determined
+☐ Threat actor assessed
+☐ Compromised accounts identified
+☐ Affected systems identified
+☐ Affected data identified
+☐ Root cause investigated
+
+CONTAINMENT
+☐ Immediate containment performed
+☐ Compromised accounts disabled
+☐ Malicious connections blocked
+☐ Affected endpoints isolated
+☐ Unauthorized access removed
+☐ Additional compromise prevented
+☐ Business impact assessed
+
+ERADICATION
+☐ Malware removed
+☐ Vulnerability remediated
+☐ Persistence mechanisms removed
+☐ Compromised credentials changed
+☐ Unauthorized accounts removed
+☐ Security configuration corrected
+
+RECOVERY
+☐ Systems restored
+☐ System integrity validated
+☐ Security controls validated
+☐ Monitoring increased
+☐ Business owner approval obtained
+☐ Services returned to normal operation
+
+COMMUNICATION AND ESCALATION
+☐ Incident manager notified
+☐ CISO notified if required
+☐ Business owner notified
+☐ Privacy team notified if required
+☐ Legal team notified if required
+☐ Compliance team notified if required
+☐ Third-party provider notified if required
+☐ Customer notification assessed
+☐ Regulatory notification assessed
+☐ Executive management notified if required
+
+POST-INCIDENT
+☐ Incident report completed
+☐ Root cause documented
+☐ Lessons learned documented
+☐ Corrective actions identified
+☐ Action owners assigned
+☐ Target dates established
+☐ Residual risk assessed
+☐ Risk register updated if required
+☐ Policies or procedures updated if required
+☐ Controls improved if required
+☐ Incident formally closed
+```
+
+The checklist should begin with **preparation activities**. Effective incident response depends on preparation before an incident occurs.
+
+The organization should maintain an approved incident response procedure that defines responsibilities, escalation requirements, communication channels, evidence handling, decision-making authority, and recovery requirements.
+
+The incident response team should be clearly identified.
+
+For example:
+
+```text id="6x2g5m"
+Incident Response Manager
+SOC
+Security Engineering
+IT Operations
+Network Security
+Cloud Security
+GRC
+Privacy
+Legal
+Communications
+Business Owner
+```
+
+Not every incident requires every function. The response team should be activated according to the incident's severity and characteristics.
+
+Contact information should be maintained and periodically validated.
+
+For example:
+
+```text id="a9z3kd"
+Primary Incident Manager:
+Available 24/7
+
+Security Operations:
+24/7
+
+CISO:
+Escalation Contact
+
+Privacy:
+Business Hours / Emergency Contact
+
+Legal:
+Emergency Contact
+```
+
+The organization should ensure that required technical tools are available before an incident occurs.
+
+Examples include:
+
+```text id="qz7y2k"
+SIEM
+EDR
+Network Monitoring
+Forensic Tools
+Threat Intelligence
+Ticketing Platform
+Secure Communication Platform
+Backup Systems
+Identity Management Tools
+```
+
+Logging should be enabled on critical systems and configured so that relevant security events can be investigated when required.
+
+The organization should also verify that backups are available and recoverable.
+
+A backup that exists but cannot be restored should not be considered an effective recovery control.
+
+The identification and triage stage begins when a suspicious event is detected.
+
+The analyst should determine whether the event represents a security incident.
+
+For example:
+
+```text id="z7o9kq"
+Security Alert
+      ↓
+Review Evidence
+      ↓
+False Positive?
+   ↙        ↘
+ Yes         No
+ ↓            ↓
+Close      Investigate
+```
+
+The analyst should assign an Incident ID once the event is determined to require formal incident management.
+
+For example:
+
+```text id="y7r1p3"
+Incident ID:
+INC-2026-154
+```
+
+The initial classification should identify the type of incident.
+
+For example:
+
+```text id="0l1z9a"
+Incident Category:
+Unauthorized Access
+
+Incident Type:
+Compromised Privileged Account
+```
+
+An initial severity rating should also be assigned.
+
+For example:
+
+```text id="0m9d5v"
+Initial Severity:
+High
+```
+
+The severity should be reassessed as the investigation develops.
+
+The response team should identify the affected assets.
+
+For example:
+
+```text id="u6r9by"
+Affected Assets:
+
+VPN Gateway
+Administrator Account
+Cloud Management Console
+Customer Database
+```
+
+The response team should identify affected users.
+
+For example:
+
+```text id="m0n9w3"
+Affected Users:
+
+3 Administrators
+12 Customer Service Users
+```
+
+The response team should determine whether sensitive information may have been affected.
+
+For example:
+
+```text id="p7c4am"
+Potential Data Exposure:
+
+Customer Personal Data
+Internal Credentials
+Security Configuration Information
+```
+
+The initial risk assessment should consider the potential impact even when the full scope is not yet known.
+
+For example:
+
+```text id="y0n4zk"
+Initial Risk:
+High
+
+Reason:
+Privileged access compromised and
+customer information may have been accessed.
+```
+
+An incident owner should then be assigned to coordinate the response.
+
+The analysis and investigation stage should establish what happened and determine the scope of the incident.
+
+The investigation should begin by documenting the initial indicators.
+
+Examples include:
+
+```text id="9y7z2q"
+Unusual Login
+Suspicious Process
+Malicious File
+Abnormal Network Traffic
+Unauthorized Configuration Change
+Large Data Transfer
+```
+
+Relevant logs should be collected.
+
+Examples include:
+
+```text id="8p5x7b"
+Authentication Logs
+Firewall Logs
+DNS Logs
+Proxy Logs
+EDR Logs
+Application Logs
+Database Logs
+Cloud Audit Logs
+Email Logs
+```
+
+Evidence should be preserved before systems are modified or rebuilt whenever possible.
+
+The organization should maintain evidence integrity and document who collected, transferred, analyzed, or stored significant evidence.
+
+For example:
+
+```text id="4b7m1s"
+Evidence ID:
+EV-2026-044
+
+Collected By:
+Security Analyst
+
+Collection Time:
+10 August 2026 – 09:15
+
+Source:
+Cloud Authentication Logs
+
+Storage:
+Approved Evidence Repository
+```
+
+The investigation should identify the likely attack vector.
+
+Examples include:
+
+```text id="r3k8f1"
+Phishing
+Credential Theft
+Exploited Vulnerability
+Weak Authentication
+Misconfiguration
+Malicious Insider
+Third-Party Compromise
+```
+
+The response team should determine the scope of compromise.
+
+For example:
+
+```text id="2q7h1v"
+Initial Scope:
+1 Account
+
+Confirmed Scope:
+1 Account
+4 Systems
+2 Cloud Resources
+```
+
+The investigation should identify compromised accounts.
+
+For example:
+
+```text id="p5w9ke"
+Compromised Account:
+admin01
+
+Privilege:
+Cloud Administrator
+```
+
+The team should identify affected systems and determine whether the attacker or malicious activity moved laterally.
+
+For example:
+
+```text id="j4k7y0"
+Initial Access:
+Email Account
+
+Lateral Movement:
+Cloud Management Console
+
+Potential Target:
+Customer Database
+```
+
+The team should determine whether sensitive information was accessed, modified, deleted, or exfiltrated.
+
+For example:
+
+```text id="c8y2pl"
+Data Assessment:
+
+Access:
+Confirmed
+
+Modification:
+Not Identified
+
+Deletion:
+Not Identified
+
+Exfiltration:
+Under Investigation
+```
+
+The investigation should attempt to determine the root cause.
+
+For example:
+
+```text id="1k4b8f"
+Root Cause:
+
+Compromised administrator credentials
+combined with insufficient privileged
+authentication controls.
+```
+
+If the root cause cannot yet be confirmed, it should be documented as under investigation rather than assumed.
+
+Containment activities should focus on preventing the incident from expanding.
+
+Depending on the incident, containment may include:
+
+```text id="q8x3pn"
+Disable Compromised Account
+Terminate Active Sessions
+Isolate Endpoint
+Block Malicious IP
+Block Malicious Domain
+Disable Network Access
+Restrict Cloud Permissions
+Quarantine Malware
+Suspend Third-Party Access
+```
+
+For example:
+
+```text id="8z6q1r"
+Containment Completed:
+
+Administrator account disabled.
+Active sessions terminated.
+Endpoint isolated.
+Malicious IP blocked.
+Cloud access restricted.
+```
+
+Containment decisions should consider business continuity.
+
+For example, immediately shutting down a critical production system may prevent further compromise but could create significant operational consequences.
+
+The response team should therefore consider:
+
+```text id="6f3r9w"
+Security Impact
+Business Impact
+Customer Impact
+Safety Impact
+Recovery Capability
+Legal Requirements
+```
+
+Eradication activities should remove the cause of the incident.
+
+Examples include:
+
+```text id="5u7m2x"
+Remove Malware
+Patch Vulnerability
+Remove Persistence
+Reset Credentials
+Remove Unauthorized Accounts
+Correct Misconfiguration
+Rebuild Compromised Systems
+Update Security Controls
+```
+
+Credential changes should include all credentials that may have been exposed.
+
+For example:
+
+```text id="d8q4y7"
+Password Reset
+MFA Reset
+API Key Rotation
+Service Account Credential Rotation
+Certificate Replacement
+Privileged Credential Rotation
+```
+
+Recovery activities should restore systems to normal and verify that they are secure before returning them to production.
+
+The response team should validate system integrity.
+
+For example:
+
+```text id="w4r8p2"
+System Validation:
+
+Operating System Integrity
+Application Integrity
+Configuration Integrity
+Security Tool Status
+Access Controls
+Logging
+Monitoring
+```
+
+Security controls should also be validated.
+
+For example:
+
+```text id="s7k5q2"
+MFA:
+Validated
+
+EDR:
+Operational
+
+Logging:
+Operational
+
+Privileged Access:
+Validated
+
+Network Controls:
+Validated
+```
+
+Monitoring should normally be increased after recovery.
+
+For example:
+
+```text id="c2n6x9"
+Post-Recovery Monitoring:
+
+Enhanced authentication monitoring
+for 14 days.
+
+Enhanced endpoint monitoring
+for 30 days.
+```
+
+The business owner should confirm that the affected service is ready to return to normal operation.
+
+Communication and escalation activities should be documented throughout the incident.
+
+The incident manager should determine which stakeholders need to be informed.
+
+For example:
+
+```text id="v5m8k2"
+Incident Manager
+CISO
+Business Owner
+Privacy
+Legal
+Compliance
+Communications
+Executive Management
+Third-Party Provider
+```
+
+The organization should avoid unnecessary disclosure of sensitive incident information.
+
+Communication should follow approved procedures and the principle of need-to-know.
+
+Where personal data may be affected, the privacy function should perform the required assessment.
+
+For example:
+
+```text id="p8r3m1"
+Security Incident
+       ↓
+Personal Data Potentially Affected
+       ↓
+Privacy Assessment
+       ↓
+Breach Determination
+       ↓
+Notification Decision
+```
+
+Regulatory notification should be assessed according to applicable laws and organizational procedures.
+
+Customer notification should also be assessed where appropriate.
+
+The response checklist should record the decision and responsible authority.
+
+For example:
+
+```text id="f7n2q5"
+Regulatory Notification:
+Required
+
+Decision Owner:
+Privacy / Legal
+
+Notification Status:
+Completed
+```
+
+The post-incident stage begins after the immediate response has been completed.
+
+The incident report should be finalized with the key facts established during the investigation.
+
+The root cause should be documented.
+
+For example:
+
+```text id="r6v9k1"
+Root Cause:
+
+Phishing attack resulted in credential
+compromise. Existing authentication controls
+did not provide sufficient phishing resistance.
+```
+
+Lessons learned should be documented.
+
+Examples include:
+
+```text id="m5x7c2"
+Detection worked as expected.
+
+Privileged authentication requires improvement.
+
+Email security controls should be strengthened.
+
+Incident escalation was effective.
+
+Third-party notification requirements
+need clearer procedures.
+```
+
+Corrective actions should be documented and assigned.
+
+For example:
+
+```text id="e4q8n6"
+Corrective Action:
+Implement phishing-resistant MFA
+
+Owner:
+Identity and Access Management
+
+Target Date:
+30 September 2026
+
+Status:
+Open
+```
+
+The organization should determine whether the incident exposed a new or changed risk.
+
+For example:
+
+```text id="n2v7k4"
+Incident:
+Compromised Privileged Account
+
+Risk Register Update:
+Required
+
+New Risk:
+Insufficient Protection of Privileged Accounts
+
+Risk Rating:
+High
+```
+
+Policies and procedures should be reviewed when the incident identifies governance weaknesses.
+
+For example:
+
+```text id="y6m3p8"
+Incident Finding:
+Incident escalation was delayed.
+
+Improvement:
+Update Incident Response Procedure
+and escalation matrix.
+```
+
+Security controls should also be reviewed.
+
+For example:
+
+```text id="k7q4x1"
+Control:
+Privileged Authentication
+
+Finding:
+Existing MFA was vulnerable to phishing.
+
+Improvement:
+Implement phishing-resistant MFA.
+```
+
+The incident should only be formally closed when the organization's closure criteria have been satisfied.
+
+A practical closure checklist may include:
+
+```text id="w8r2m5"
+☐ Threat contained
+☐ Root cause identified
+☐ Eradication completed
+☐ Systems recovered
+☐ Evidence preserved
+☐ Required notifications completed
+☐ Corrective actions assigned
+☐ Residual risk assessed
+☐ Management informed
+☐ Incident report completed
+☐ Lessons learned documented
+☐ Closure approved
+```
+
+The incident response checklist should also support evidence collection for audit purposes.
+
+Auditors may request evidence showing:
+
+```text id="c5n8q3"
+Incident Detection
+Incident Classification
+Severity Assessment
+Escalation
+Investigation
+Evidence Collection
+Containment
+Eradication
+Recovery
+Notification
+Corrective Actions
+Closure
+```
+
+The checklist can therefore demonstrate that the organization followed its approved incident response process.
+
+The GRC professional should periodically review completed checklists to identify recurring weaknesses.
+
+For example:
+
+```text id="j3v6p9"
+Observation:
+
+Several incidents lacked documented
+root cause analysis.
+
+Action:
+
+Require root cause documentation before
+incident closure unless formally exempted.
+```
+
+Another example:
+
+```text id="q5m8r2"
+Observation:
+
+Incident severity was frequently reassessed
+after significant delays.
+
+Action:
+
+Require formal severity reassessment
+during defined investigation milestones.
+```
+
+Incident response checklist data can also contribute to security metrics.
+
+Examples include:
+
+```text id="x7k2m4"
+Mean Time to Detect
+Mean Time to Respond
+Mean Time to Contain
+Mean Time to Recover
+Percentage of Incidents Closed on Time
+Percentage of Incidents With Root Cause Identified
+Number of Repeat Incidents
+Number of Overdue Corrective Actions
+```
+
+The checklist should be reviewed and improved after significant incidents.
+
+The organization should ask:
+
+```text id="p9r4v7"
+Were the correct people notified?
+
+Was escalation fast enough?
+
+Was the incident correctly classified?
+
+Was sufficient evidence collected?
+
+Was containment effective?
+
+Was the root cause identified?
+
+Were recovery procedures effective?
+
+Were regulatory requirements addressed?
+
+Were corrective actions completed?
+
+What should change in the response process?
+```
+
+The Security Incident Response Checklist should ultimately provide a practical bridge between the organization's incident response policy and its actual operational response.
+
+The key principle is:
+
+> **A Security Incident Response Checklist provides a consistent and auditable sequence of actions that helps ensure incidents are identified, investigated, contained, eradicated, recovered, communicated, and formally closed while supporting risk management, compliance, and continuous improvement.**
+
+
 
 
 

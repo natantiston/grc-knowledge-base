@@ -2630,3 +2630,1184 @@ The key principle is:
 
 > **A Business Continuity Plan converts the organization's business impact and resilience requirements into an actionable framework for maintaining critical operations during disruption, while establishing clear responsibilities, continuity strategies, communication procedures, recovery priorities, and requirements for returning to normal operations.**
 
+A Disaster Recovery Plan (DRP) is a documented framework that defines how an organization will restore critical technology services, systems, applications, infrastructure, data, and supporting capabilities following a major disruption.
+
+The Disaster Recovery Plan translates the recovery requirements identified through the Business Impact Analysis (BIA) and Business Continuity Plan (BCP) into technical and operational recovery procedures.
+
+The DRP should focus specifically on restoring technology capabilities that support critical business processes.
+
+A practical Disaster Recovery Plan Template can contain:
+
+```text id="r4q8v1"
+DISASTER RECOVERY PLAN
+
+Document ID:
+
+Business Unit:
+
+Technology / Service:
+
+Plan Owner:
+
+Technical Owner:
+
+Business Owner:
+
+Version:
+
+Effective Date:
+
+Review Date:
+
+Plan Classification:
+
+Purpose:
+
+Scope:
+
+Critical Services:
+
+Critical Systems:
+
+Critical Applications:
+
+Critical Infrastructure:
+
+Critical Data:
+
+Recovery Objectives:
+
+Recovery Time Objective (RTO):
+
+Recovery Point Objective (RPO):
+
+Maximum Tolerable Downtime (MTD):
+
+Recovery Priorities:
+
+Technology Dependencies:
+
+Network Dependencies:
+
+Identity Dependencies:
+
+Security Dependencies:
+
+Cloud Dependencies:
+
+Third-Party Dependencies:
+
+Backup Requirements:
+
+Backup Locations:
+
+Recovery Environment:
+
+Recovery Strategy:
+
+Recovery Procedures:
+
+Recovery Sequence:
+
+System Restoration Procedures:
+
+Data Restoration Procedures:
+
+Application Restoration Procedures:
+
+Network Restoration Procedures:
+
+Identity Restoration Procedures:
+
+Security Validation:
+
+Data Integrity Validation:
+
+Recovery Testing:
+
+Recovery Team:
+
+Roles and Responsibilities:
+
+Emergency Access:
+
+Communication Procedures:
+
+Escalation Procedures:
+
+Recovery Completion Criteria:
+
+Business Validation:
+
+Return to Production:
+
+Plan Deactivation:
+
+Post-Recovery Review:
+
+Known Gaps:
+
+Required Improvements:
+
+Approval:
+
+Review History:
+```
+
+The DRP should begin by defining its **purpose**.
+
+For example:
+
+```text id="w0p9cm"
+Purpose:
+
+This Disaster Recovery Plan establishes the
+procedures, responsibilities, technical
+requirements, and recovery sequence required
+to restore critical technology services
+following a major disruption.
+```
+
+The DRP should clearly define its **scope**.
+
+For example:
+
+```text id="g9z6v2"
+Scope:
+
+This plan covers the recovery of critical
+applications, databases, cloud infrastructure,
+network services, identity services, security
+capabilities, and supporting technology required
+to restore customer operations.
+```
+
+The scope should identify what is included and excluded from the recovery plan.
+
+The DRP should identify the **critical services** that depend on the technology environment.
+
+For example:
+
+```text id="v5q0an"
+Critical Services:
+
+Customer Portal
+Customer Support
+Payment Processing
+Identity Services
+Internal Business Applications
+Security Monitoring
+```
+
+The DRP should identify the **critical systems and applications** supporting these services.
+
+For example:
+
+```text id="6w7b4p"
+Critical Applications:
+
+CRM
+Customer Portal
+Payment Platform
+Identity Management
+Database Platform
+Email
+Security Monitoring Platform
+```
+
+Each critical application should have an identified technical owner and business owner.
+
+The DRP should identify **critical infrastructure**.
+
+Infrastructure may include:
+
+```text id="n7f6gc"
+Servers
+Virtual Machines
+Cloud Resources
+Databases
+Storage
+Network Devices
+Firewalls
+Load Balancers
+DNS
+Identity Infrastructure
+Backup Infrastructure
+Security Infrastructure
+```
+
+The DRP should identify **critical data**.
+
+Examples include:
+
+```text id="7m0nmx"
+Customer Data
+Transaction Data
+Application Data
+Configuration Data
+Authentication Data
+Security Logs
+Backup Data
+Operational Records
+```
+
+The DRP should document the required **recovery objectives**.
+
+These should be consistent with the BIA and BCP.
+
+For example:
+
+```text id="fd6m8k"
+RTO:
+4 hours
+
+RPO:
+30 minutes
+
+MTD:
+12 hours
+```
+
+The RTO defines how quickly the technology service must be restored.
+
+The RPO defines how much data loss can be tolerated.
+
+The MTD defines the maximum period before the disruption becomes unacceptable to the business.
+
+The DRP should identify **recovery priorities**.
+
+For example:
+
+```text id="k4t2qh"
+Priority 1:
+Identity Services
+
+Priority 2:
+Network Connectivity
+
+Priority 3:
+Security Monitoring
+
+Priority 4:
+Database Services
+
+Priority 5:
+Critical Applications
+
+Priority 6:
+Supporting Applications
+```
+
+Recovery priorities should reflect business dependencies rather than simply technical convenience.
+
+The DRP should document **technology dependencies**.
+
+For example:
+
+```text id="4m3d3n"
+Customer Portal
+      ↓
+Application Server
+      ↓
+Database
+      ↓
+Identity Services
+      ↓
+Network
+      ↓
+Cloud Infrastructure
+```
+
+The dependency chain should be understood before recovery begins.
+
+The DRP should identify **network dependencies**.
+
+These may include:
+
+```text id="8y2l2q"
+Internet Connectivity
+Internal Network
+DNS
+Routing
+Firewalls
+VPN
+Load Balancers
+Network Security Controls
+```
+
+A recovered application may remain unavailable if required network services have not been restored.
+
+The DRP should identify **identity dependencies**.
+
+Examples include:
+
+```text id="z2k4eg"
+Active Directory
+Cloud Identity Provider
+Privileged Access Management
+Multi-Factor Authentication
+Certificate Services
+```
+
+Identity services are particularly important because administrators may require privileged access to perform recovery activities.
+
+The DRP should identify **security dependencies**.
+
+These may include:
+
+```text id="j2m5f8"
+Security Monitoring
+Endpoint Protection
+Network Security
+Privileged Access Management
+Vulnerability Management
+Logging
+Security Information and Event Management
+```
+
+Security capabilities should be restored early enough to monitor and protect the recovery environment.
+
+The DRP should identify **cloud dependencies** where cloud services are used.
+
+For example:
+
+```text id="c9n3q0"
+Cloud Accounts
+Cloud Identity
+Virtual Networks
+Compute Resources
+Storage
+Databases
+Key Management
+Logging
+Monitoring
+Backup Services
+```
+
+Cloud recovery should consider dependencies between services and accounts.
+
+The DRP should identify **third-party dependencies**.
+
+Examples include:
+
+```text id="6n5m0x"
+Cloud Providers
+SaaS Providers
+Managed Service Providers
+Telecommunications Providers
+Security Service Providers
+Application Vendors
+Database Vendors
+```
+
+Third-party recovery capabilities should be aligned with organizational recovery requirements.
+
+The DRP should document **backup requirements**.
+
+For example:
+
+```text id="t8s6n1"
+Backup Frequency:
+Every 30 minutes
+
+Retention:
+30 days
+
+Encryption:
+Required
+
+Offline / Immutable Copy:
+Required
+
+Backup Integrity Testing:
+Monthly
+```
+
+Backup requirements should reflect the organization's RPO, regulatory requirements, security requirements, and recovery strategy.
+
+The DRP should identify **backup locations**.
+
+For example:
+
+```text id="r6h1bz"
+Primary Backup:
+Production Backup Repository
+
+Secondary Backup:
+Separate Geographic Location
+
+Additional Protection:
+Immutable Cloud Storage
+```
+
+For cybersecurity resilience, backups should be protected against unauthorized modification and ransomware.
+
+The DRP should identify the **recovery environment**.
+
+The recovery environment may be:
+
+```text id="2h4c7m"
+Secondary Data Centre
+Cloud Recovery Environment
+Disaster Recovery Site
+Active-Standby Environment
+Backup Infrastructure
+```
+
+The plan should document the capabilities available in the recovery environment.
+
+For example:
+
+```text id="p7m2wq"
+Compute Capacity:
+80% of Production
+
+Storage Capacity:
+100% of Required Data
+
+Network Capacity:
+100% of Required Recovery Capacity
+```
+
+The organization should determine whether the recovery environment is capable of meeting the defined RTO and MBCO requirements.
+
+The DRP should document the selected **recovery strategy**.
+
+Examples include:
+
+```text id="8g0wz4"
+Backup and Restore
+Warm Standby
+Hot Standby
+Active-Active
+Cloud Recovery
+Geographically Redundant Infrastructure
+Manual Recovery
+```
+
+The strategy should be selected according to business requirements, risk, cost, and technical feasibility.
+
+The DRP should document detailed **recovery procedures**.
+
+A recovery procedure should be sufficiently clear that trained personnel can execute it during a stressful event.
+
+For example:
+
+```text id="5y9f0j"
+Recovery Procedure:
+
+1. Confirm incident declaration.
+2. Confirm recovery authorization.
+3. Isolate affected environment.
+4. Validate recovery environment.
+5. Confirm administrator access.
+6. Validate backup availability.
+7. Restore infrastructure.
+8. Restore identity services.
+9. Restore databases.
+10. Restore applications.
+11. Validate security controls.
+12. Validate data integrity.
+13. Perform business validation.
+14. Restore service to users.
+15. Monitor the recovered environment.
+```
+
+The DRP should define the **recovery sequence**.
+
+Recovery should normally follow technical dependencies.
+
+For example:
+
+```text id="5w5k9s"
+1. Recovery Infrastructure
+2. Network
+3. Identity
+4. Security Services
+5. Storage
+6. Databases
+7. Middleware
+8. Applications
+9. Interfaces
+10. Business Services
+```
+
+The exact sequence will depend on the organization's architecture.
+
+The DRP should define **system restoration procedures**.
+
+For example:
+
+```text id="h2e5f8"
+System Restoration:
+
+1. Validate recovery infrastructure.
+2. Deploy required system resources.
+3. Apply approved configurations.
+4. Restore operating systems.
+5. Apply required security controls.
+6. Connect required storage.
+7. Validate system health.
+8. Enable required services.
+```
+
+System restoration should use approved configurations and controlled procedures.
+
+The DRP should define **data restoration procedures**.
+
+For example:
+
+```text id="8r4y3m"
+Data Restoration:
+
+1. Identify approved recovery point.
+2. Validate backup integrity.
+3. Restore backup data.
+4. Validate database integrity.
+5. Verify data completeness.
+6. Verify timestamps.
+7. Confirm recovery point.
+8. Obtain technical approval.
+```
+
+Data restoration should not rely solely on the assumption that backups are usable.
+
+Backups should be tested periodically.
+
+The DRP should define **application restoration procedures**.
+
+For example:
+
+```text id="x6v0y7"
+Application Restoration:
+
+1. Confirm infrastructure availability.
+2. Restore application components.
+3. Restore configuration.
+4. Restore required databases.
+5. Restore integrations.
+6. Validate application functionality.
+7. Validate authentication.
+8. Validate security controls.
+9. Conduct business testing.
+```
+
+The DRP should define **network restoration procedures**.
+
+For example:
+
+```text id="0m2j4p"
+Network Restoration:
+
+1. Restore network infrastructure.
+2. Validate routing.
+3. Restore DNS.
+4. Validate firewall rules.
+5. Restore load balancing.
+6. Validate connectivity.
+7. Validate segmentation.
+8. Validate monitoring.
+```
+
+Network security controls should remain enabled during recovery.
+
+The DRP should define **identity restoration procedures**.
+
+For example:
+
+```text id="b9n6c2"
+Identity Restoration:
+
+1. Restore identity infrastructure.
+2. Validate administrative accounts.
+3. Validate authentication.
+4. Validate MFA.
+5. Validate privileged access.
+6. Validate synchronization.
+7. Review emergency accounts.
+8. Enable required application access.
+```
+
+Identity recovery should receive appropriate priority because it can be a dependency for almost every other recovery activity.
+
+The DRP should include **security validation**.
+
+Security validation should confirm that the recovered environment has not been restored in an insecure condition.
+
+For example:
+
+```text id="s3f4j7"
+Security Validation:
+
+Endpoint Protection
+Firewall Configuration
+Access Control
+MFA
+Privileged Access
+Encryption
+Logging
+Monitoring
+Vulnerability Status
+Security Alerts
+```
+
+Following a cyber incident, additional validation may be required.
+
+For example:
+
+```text id="h7v8x2"
+Malware Eradication
+Compromise Assessment
+Credential Rotation
+Threat Hunting
+Persistence Detection
+Security Monitoring
+```
+
+The DRP should include **data integrity validation**.
+
+For example:
+
+```text id="v4q5w6"
+Data Integrity Validation:
+
+Database Consistency
+Record Completeness
+Transaction Integrity
+File Integrity
+Backup Integrity
+Application Data Validation
+```
+
+The business owner should participate in validating critical data where appropriate.
+
+The DRP should define **recovery testing requirements**.
+
+Testing may include:
+
+```text id="3k9m1d"
+Backup Restoration Test
+Application Recovery Test
+Database Recovery Test
+Network Recovery Test
+Cloud Recovery Test
+Full Disaster Recovery Exercise
+```
+
+Testing should demonstrate whether the organization can actually achieve its stated RTO and RPO.
+
+For example:
+
+```text id="q7p2r4"
+Required RTO:
+4 hours
+
+Tested Recovery Time:
+6 hours
+
+Result:
+RTO not achieved
+
+Required Action:
+Improve recovery capability.
+```
+
+The DRP should identify the **recovery team**.
+
+The team may include:
+
+```text id="a8b5c1"
+Disaster Recovery Manager
+Infrastructure Engineers
+Network Engineers
+Cloud Engineers
+Database Administrators
+Application Administrators
+Cybersecurity Team
+Identity Administrators
+Business Representatives
+```
+
+The DRP should define **roles and responsibilities**.
+
+For example:
+
+```text id="w6d3p2"
+DR Manager:
+Coordinates technical recovery.
+
+Infrastructure Team:
+Restores infrastructure.
+
+Network Team:
+Restores connectivity.
+
+Database Team:
+Restores databases.
+
+Application Team:
+Restores applications.
+
+Cybersecurity:
+Validates security and monitors recovery.
+
+Business Owner:
+Confirms business functionality.
+```
+
+The DRP should define **emergency access procedures**.
+
+Emergency access may be required when normal identity services are unavailable.
+
+For example:
+
+```text id="y4k8s2"
+Emergency Access:
+
+Break-glass accounts
+Secure credential storage
+Multi-factor authentication
+Privileged access monitoring
+Emergency authorization
+Post-use credential rotation
+```
+
+Emergency access should be tightly controlled and fully logged.
+
+The DRP should define **communication procedures**.
+
+Communication should occur throughout the recovery process.
+
+For example:
+
+```text id="n5q7m1"
+Initial Notification
+Recovery Activation
+Recovery Progress
+Major Recovery Issue
+Estimated Restoration
+Service Validation
+Recovery Completion
+```
+
+The DRP should identify who receives each communication.
+
+For example:
+
+```text id="r2t9v6"
+Executive Management
+Business Owners
+IT Teams
+Cybersecurity
+Employees
+Customers
+Suppliers
+Regulators
+```
+
+The DRP should define **escalation procedures**.
+
+For example:
+
+```text id="u8c4x3"
+Escalate when:
+
+RTO is at risk.
+
+Recovery fails.
+
+Critical data is corrupted.
+
+Security compromise is detected.
+
+Required resources are unavailable.
+
+Third-party recovery fails.
+```
+
+The DRP should define **recovery completion criteria**.
+
+Recovery should not be considered complete simply because servers are operational.
+
+Completion criteria may include:
+
+```text id="e7m2k9"
+Systems Available
+Applications Functional
+Data Integrity Confirmed
+Security Controls Operational
+Monitoring Operational
+Connectivity Confirmed
+Business Testing Completed
+RTO Achieved or Exception Approved
+```
+
+The DRP should include **business validation**.
+
+Business representatives should confirm that recovered services support required business operations.
+
+For example:
+
+```text id="x2n7v5"
+Business Validation:
+
+Customer login works.
+
+Customer records are available.
+
+Transactions can be processed.
+
+Customer service agents can access CRM.
+
+Reports are functioning.
+
+Security controls remain active.
+```
+
+The DRP should define **return to production** procedures.
+
+For example:
+
+```text id="m3v8q1"
+1. Confirm production environment is stable.
+2. Confirm security validation is complete.
+3. Confirm data synchronization.
+4. Confirm business approval.
+5. Plan service transition.
+6. Migrate traffic or users.
+7. Monitor production.
+8. Confirm service stability.
+```
+
+The organization should avoid returning to the original environment until the root cause has been addressed sufficiently.
+
+This is particularly important following cyber incidents.
+
+For example:
+
+```text id="k6z1p8"
+Cyber Incident:
+
+Original environment compromised.
+
+Requirement:
+
+Do not return production services until
+the environment has been investigated,
+remediated, validated, and approved.
+```
+
+The DRP should define **plan deactivation**.
+
+The plan may be deactivated when:
+
+```text id="p5r8w3"
+Critical Services Are Restored
+Business Validation Is Complete
+Security Validation Is Complete
+Normal Operations Are Stable
+Temporary Recovery Measures Are Removed
+Outstanding Issues Are Documented
+```
+
+The DRP should define the **post-recovery review**.
+
+The review should examine:
+
+```text id="j4q9n2"
+What happened?
+
+What caused the disruption?
+
+How long did recovery take?
+
+Was the RTO achieved?
+
+Was the RPO achieved?
+
+Were backups usable?
+
+Were dependencies correctly identified?
+
+Were recovery procedures effective?
+
+Were security controls maintained?
+
+What problems occurred?
+
+What improvements are required?
+```
+
+The DRP should document **known gaps**.
+
+For example:
+
+```text id="c8v5m7"
+Gap:
+
+Database recovery requires 5 hours.
+
+Required RTO:
+
+2 hours.
+
+Risk:
+
+Business service cannot meet its
+required recovery objective.
+```
+
+The DRP should document **required improvements**.
+
+For example:
+
+```text id="d6x2p9"
+Improvement:
+
+Implement automated database replication.
+
+Owner:
+
+Database Engineering
+
+Priority:
+
+High
+
+Target:
+
+Q4 2026
+```
+
+The DRP should be formally approved.
+
+Approval may include:
+
+```text id="z3m8q6"
+Technical Owner
+Business Owner
+Cybersecurity
+Business Continuity Manager
+Senior Management
+```
+
+The DRP should maintain a **review history**.
+
+For example:
+
+```text id="f7k2w4"
+Version:
+2.0
+
+Date:
+15 August 2026
+
+Change:
+Updated cloud recovery procedures.
+
+Approved By:
+IT Director
+```
+
+The DRP should be maintained as a controlled document.
+
+Access to sensitive recovery information should also be restricted.
+
+Recovery documentation may contain:
+
+```text id="r9c5x1"
+Infrastructure Details
+Network Information
+Recovery Configurations
+Emergency Accounts
+Supplier Contacts
+Backup Locations
+Security Architecture
+Recovery Procedures
+```
+
+Sensitive credentials should never be stored directly in the DRP.
+
+Instead, the DRP should reference an approved privileged access or secure credential management system.
+
+For example:
+
+```text id="b4n7m2"
+DRP:
+
+Emergency credentials are stored in the
+approved privileged access management system.
+
+Access requires emergency authorization.
+```
+
+The DRP should also consider **cyber recovery** separately from traditional disaster recovery.
+
+Traditional disaster recovery often assumes that systems are unavailable because of infrastructure failure.
+
+Cyber recovery must also consider the possibility that the systems, backups, identities, and recovery infrastructure themselves may have been compromised.
+
+For example:
+
+```text id="w8q3j5"
+Traditional Failure:
+
+Data Centre Failure
+        ↓
+Recover From Backup
+        ↓
+Restore Systems
+
+Cyber Incident:
+
+Ransomware
+        ↓
+Compromised Production
+        ↓
+Potentially Compromised Backups
+        ↓
+Compromised Credentials
+        ↓
+Validate Recovery Environment
+        ↓
+Recover From Trusted Data
+        ↓
+Security Validation
+        ↓
+Restore Services
+```
+
+The DRP should therefore address the security of the recovery environment.
+
+Important controls may include:
+
+```text id="h5v2k8"
+Immutable Backups
+Offline Backups
+Separate Recovery Credentials
+MFA
+Privileged Access Management
+Network Segmentation
+Security Monitoring
+Malware Scanning
+Backup Integrity Testing
+Recovery Environment Isolation
+```
+
+The DRP should also establish **clean recovery criteria** for cyber incidents.
+
+For example:
+
+```text id="q1m6r8"
+Clean Recovery Criteria:
+
+Malware Removed
+Compromised Accounts Identified
+Credentials Rotated
+Recovery Data Validated
+Security Controls Operational
+Monitoring Enabled
+Vulnerabilities Addressed
+Business Testing Completed
+```
+
+The DRP should be tested regularly.
+
+Testing should not focus only on whether technology can be restored.
+
+It should also determine whether the organization can recover within the required business objectives.
+
+For example:
+
+```text id="v3k7p5"
+Required RTO:
+4 hours
+
+Actual Recovery:
+3 hours 45 minutes
+
+Result:
+RTO Achieved
+```
+
+Another example:
+
+```text id="m9x4c2"
+Required RPO:
+30 minutes
+
+Actual Data Loss:
+45 minutes
+
+Result:
+RPO Not Achieved
+```
+
+Testing results should be recorded as evidence and linked to remediation activities.
+
+The relationship between the BIA, BCP, and DRP can be represented as:
+
+```text id="n8q2y6"
+Business Impact Analysis
+        ↓
+Identifies Business Requirements
+        ↓
+Business Continuity Plan
+        ↓
+Defines How Business Operations Continue
+        ↓
+Disaster Recovery Plan
+        ↓
+Defines How Technology Is Restored
+        ↓
+Recovery Testing
+        ↓
+Lessons Learned
+        ↓
+Continuous Improvement
+```
+
+The GRC professional should ensure that the DRP remains aligned with business requirements and organizational risk.
+
+The GRC professional should verify that:
+
+```text id="p6w3k9"
+Critical systems are identified.
+
+Critical applications are identified.
+
+Technology dependencies are documented.
+
+RTOs are documented.
+
+RPOs are documented.
+
+Recovery priorities are established.
+
+Backup requirements are defined.
+
+Recovery environments are identified.
+
+Recovery procedures are documented.
+
+Security requirements are included.
+
+Emergency access is controlled.
+
+Recovery responsibilities are assigned.
+
+Testing requirements are defined.
+
+Recovery results are documented.
+
+Gaps are tracked.
+
+Improvement actions are assigned.
+
+Management approval is maintained.
+```
+
+The key principle is:
+
+> **A Disaster Recovery Plan provides the structured technical and operational framework required to restore critical technology services, systems, applications, infrastructure, and data while maintaining security, meeting defined recovery objectives, validating the recovered environment, and supporting the return to normal business operations.**
+

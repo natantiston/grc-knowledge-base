@@ -2403,5 +2403,1139 @@ The key principle is:
 
 > **Third-party due diligence validates vendor claims through evidence, independent review, and risk-based analysis so that the organization can make informed decisions about whether a vendor is suitable, what conditions should apply, and how the relationship should be monitored over time.**
 
+**Part 3 – Supplier Security Requirements**
+
+Supplier Security Requirements define the minimum cybersecurity, information security, privacy, resilience, and compliance controls that a supplier must meet when providing products or services to an organization.
+
+These requirements are normally established before a supplier is onboarded and incorporated into appropriate procurement documents, contracts, statements of work, service agreements, or supplier security schedules.
+
+The purpose is to ensure that security expectations are clearly communicated before the supplier receives access to organizational information, systems, facilities, or customers.
+
+A practical supplier security requirements structure can include:
+
+```text
+SUPPLIER SECURITY REQUIREMENTS
+
+Supplier Name:
+
+Supplier Service:
+
+Business Owner:
+
+Supplier Risk Tier:
+
+Security Classification:
+
+Information Access:
+
+System Access:
+
+Security Requirements:
+
+Access Control:
+
+Authentication:
+
+Data Protection:
+
+Encryption:
+
+Vulnerability Management:
+
+Security Testing:
+
+Security Monitoring:
+
+Incident Management:
+
+Business Continuity:
+
+Disaster Recovery:
+
+Privacy:
+
+Subcontractor Management:
+
+Security Awareness:
+
+Personnel Security:
+
+Physical Security:
+
+Secure Development:
+
+Change Management:
+
+Audit and Assurance:
+
+Regulatory Compliance:
+
+Security Incident Notification:
+
+Data Retention and Deletion:
+
+Contract Termination:
+
+Security Exceptions:
+
+Compliance Evidence:
+
+Supplier Responsibilities:
+
+Organization Responsibilities:
+
+Review Frequency:
+
+Approval:
+```
+
+Supplier security requirements should be **risk-based**.
+
+Not every supplier requires the same level of security controls.
+
+For example:
+
+```text
+Low-Risk Supplier
+
+Office Supplies
+No System Access
+No Sensitive Data
+
+Security Requirements:
+Basic contractual security obligations
+```
+
+A higher-risk supplier may require:
+
+```text
+High-Risk Supplier
+
+Cloud Service Provider
+Customer Data
+Production System Access
+
+Security Requirements:
+ISO/IEC 27001
+MFA
+Encryption
+Security Monitoring
+Incident Notification
+Business Continuity
+Penetration Testing
+Audit Rights
+Subcontractor Controls
+```
+
+A critical supplier may require an even more comprehensive set of requirements.
+
+The organization should therefore classify suppliers before applying security requirements.
+
+A practical model may be:
+
+```text
+Tier 1 – Low Risk
+
+Limited business impact
+No sensitive data
+No privileged access
+
+Tier 2 – Moderate Risk
+
+Internal information
+Limited system access
+Moderate business dependency
+
+Tier 3 – High Risk
+
+Confidential or personal data
+Significant system access
+Important business service
+
+Tier 4 – Critical
+
+Critical business service
+Privileged access
+Sensitive information
+High regulatory or operational impact
+```
+
+The supplier's risk tier should determine the depth of the security requirements.
+
+One of the first requirements should address **information security governance**.
+
+For example:
+
+```text
+Supplier shall maintain an information
+security management program appropriate to
+the nature, scale, and risk of the services
+provided to the organization.
+```
+
+The supplier should maintain appropriate security policies, procedures, responsibilities, and governance processes.
+
+For higher-risk suppliers, the organization may require evidence of formal security governance.
+
+For example:
+
+```text
+Required Evidence:
+
+Information Security Policy
+Security Organization
+Security Certification
+Independent Assurance Report
+Risk Management Process
+```
+
+The supplier should also be required to comply with applicable organizational security requirements.
+
+For example:
+
+```text
+Supplier shall comply with the organization's
+applicable information security requirements
+identified in the contract, security schedule,
+statement of work, or other governing agreement.
+```
+
+This creates a contractual connection between supplier obligations and the organization's security framework.
+
+Supplier requirements should address **access control**.
+
+For example:
+
+```text
+Supplier shall restrict access to organizational
+systems and information to authorized personnel
+based on business need and least privilege.
+```
+
+Specific requirements may include:
+
+```text
+Unique User Accounts
+Least Privilege
+Role-Based Access
+Privileged Access Management
+Periodic Access Reviews
+Access Revocation
+Service Account Management
+Remote Access Controls
+```
+
+For example:
+
+```text
+Supplier personnel shall not receive privileged
+access unless explicitly authorized by the
+organization and shall use approved authentication
+mechanisms.
+```
+
+The supplier should also be required to protect privileged accounts.
+
+For example:
+
+```text
+Privileged access shall be:
+
+Authorized
+Individually Assigned
+Authenticated Using MFA
+Logged
+Monitored
+Periodically Reviewed
+```
+
+Supplier access should be removed promptly when personnel no longer require it.
+
+This is particularly important for:
+
+```text
+Managed Service Providers
+Cloud Providers
+IT Support Providers
+Security Operations Providers
+Application Support Providers
+```
+
+The requirements should address **authentication and MFA**.
+
+For example:
+
+```text
+Supplier personnel accessing organizational
+systems shall use multi-factor authentication
+where technically supported and required by
+the organization's security standards.
+```
+
+For privileged access:
+
+```text
+MFA shall be mandatory for privileged
+administrative access to organizational systems.
+```
+
+The organization should define exceptions through a formal risk acceptance process rather than allowing suppliers to determine their own exceptions.
+
+Supplier requirements should address **data protection**.
+
+For example:
+
+```text
+Supplier shall protect organizational information
+against unauthorized access, disclosure,
+modification, loss, destruction, or misuse.
+```
+
+The supplier should follow agreed data classification and handling requirements.
+
+For example:
+
+```text
+Supplier shall handle information according
+to the classification and security requirements
+specified by the organization.
+```
+
+Requirements should identify the types of information involved.
+
+For example:
+
+```text
+Public
+Internal
+Confidential
+Restricted
+Personal Data
+Sensitive Personal Data
+Customer Data
+```
+
+The requirements should address **encryption**.
+
+For example:
+
+```text
+Supplier shall protect sensitive information
+using appropriate encryption mechanisms during
+transmission and storage.
+```
+
+The organization may specify additional requirements for high-risk services.
+
+For example:
+
+```text
+Data in Transit:
+Approved Transport Encryption
+
+Data at Rest:
+Approved Encryption
+
+Encryption Keys:
+Protected and Access-Controlled
+```
+
+The exact technical standards should be defined by the organization's security architecture and applicable requirements.
+
+Supplier requirements should address **vulnerability management**.
+
+For example:
+
+```text
+Supplier shall maintain a vulnerability
+management process appropriate to the services
+provided.
+```
+
+Specific requirements may include:
+
+```text
+Regular Vulnerability Scanning
+Risk-Based Prioritization
+Critical Vulnerability Remediation
+Security Patch Management
+Exception Management
+Remediation Tracking
+```
+
+The organization may establish contractual remediation targets.
+
+For example:
+
+```text
+Critical Vulnerabilities:
+Remediate within agreed critical timeframe.
+
+High Vulnerabilities:
+Remediate within agreed high-risk timeframe.
+```
+
+The exact timelines should reflect the organization's risk appetite and service requirements.
+
+Supplier requirements should address **penetration testing and security testing** where appropriate.
+
+For example:
+
+```text
+Suppliers providing high-risk applications
+or infrastructure shall conduct security
+testing at defined intervals and after
+significant changes.
+```
+
+The organization may require:
+
+```text
+Penetration Testing
+Application Security Testing
+Vulnerability Assessment
+Configuration Assessment
+Cloud Security Assessment
+```
+
+The organization should not automatically require every supplier to provide detailed technical security reports.
+
+Evidence should be proportional to risk and appropriately protected.
+
+Supplier requirements should address **security monitoring and logging**.
+
+For example:
+
+```text
+Supplier shall maintain appropriate security
+logging and monitoring capabilities for systems
+supporting the contracted service.
+```
+
+Requirements may include:
+
+```text
+Authentication Logging
+Privileged Activity Logging
+Security Event Monitoring
+Log Protection
+Log Retention
+Security Alert Investigation
+```
+
+For critical services, the organization may require continuous monitoring or defined security monitoring coverage.
+
+Supplier requirements should address **security incident management**.
+
+For example:
+
+```text
+Supplier shall maintain documented processes
+for detecting, responding to, investigating,
+and recovering from information security incidents.
+```
+
+The supplier should notify the organization when an incident affects:
+
+```text
+Organizational Data
+Organizational Systems
+Customer Information
+Service Availability
+Confidentiality
+Integrity
+```
+
+The contract should define the notification requirements.
+
+For example:
+
+```text
+The supplier shall notify the organization
+without undue delay and within the contractual
+incident notification period after becoming
+aware of a security incident that materially
+affects the organization's information or services.
+```
+
+The exact notification period should be established based on applicable laws, regulations, contracts, and organizational requirements.
+
+The supplier should also cooperate with investigations.
+
+For example:
+
+```text
+Supplier shall provide reasonable cooperation
+during security incident investigations,
+including relevant information, timelines,
+impact assessments, and remediation actions.
+```
+
+Supplier requirements should address **business continuity and disaster recovery**.
+
+For example:
+
+```text
+Supplier shall maintain business continuity
+and disaster recovery capabilities appropriate
+to the criticality of the contracted service.
+```
+
+The organization may specify:
+
+```text
+RTO
+RPO
+Recovery Testing
+Backup Requirements
+Geographic Redundancy
+Crisis Management
+Recovery Communications
+```
+
+For example:
+
+```text
+Required RTO:
+4 hours
+
+Required RPO:
+1 hour
+```
+
+The supplier should demonstrate that its capabilities meet the agreed requirements.
+
+Supplier requirements should address **backup protection**.
+
+For example:
+
+```text
+Supplier shall maintain appropriate backup
+procedures for organizational data and systems
+where backup services form part of the contracted
+service.
+```
+
+Requirements may include:
+
+```text
+Backup Frequency
+Backup Integrity
+Encryption
+Access Control
+Retention
+Recovery Testing
+Protection Against Unauthorized Deletion
+```
+
+Supplier requirements should address **privacy and personal data protection** when applicable.
+
+For example:
+
+```text
+Supplier shall process personal data only for
+authorized purposes and in accordance with
+applicable data protection requirements and
+contractual instructions.
+```
+
+Additional requirements may include:
+
+```text
+Data Processing Agreement
+Subprocessor Controls
+International Data Transfers
+Data Subject Assistance
+Data Retention
+Data Deletion
+Privacy Incident Notification
+```
+
+The supplier should not introduce new subprocessors without following the agreed approval or notification process.
+
+Supplier requirements should address **subcontractors and fourth parties**.
+
+For example:
+
+```text
+Supplier shall maintain appropriate security
+requirements for subcontractors involved in
+the delivery of the contracted services.
+```
+
+For critical suppliers, the organization may require:
+
+```text
+Identification of Critical Subcontractors
+Security Due Diligence
+Security Requirements Flow-Down
+Incident Notification
+Material Change Notification
+Subcontractor Monitoring
+```
+
+The supplier should remain accountable for the security performance of its subcontractors where contractually appropriate.
+
+Supplier requirements should address **personnel security**.
+
+For example:
+
+```text
+Supplier shall implement personnel security
+controls appropriate to the roles and access
+levels of personnel supporting the contracted
+services.
+```
+
+Requirements may include:
+
+```text
+Background Screening
+Confidentiality Agreements
+Security Awareness
+Role-Based Training
+Access Authorization
+Termination Procedures
+```
+
+The specific requirements should comply with applicable employment and privacy laws.
+
+Supplier requirements should address **security awareness**.
+
+For example:
+
+```text
+Supplier personnel with access to organizational
+information or systems shall receive appropriate
+security awareness training.
+```
+
+For specialized roles, additional training may be required.
+
+Examples include:
+
+```text
+Privileged Administrators
+Security Operations Personnel
+Developers
+Privacy Personnel
+Incident Responders
+```
+
+Supplier requirements should address **physical security** where physical facilities support the service.
+
+For example:
+
+```text
+Supplier shall implement appropriate physical
+security controls for facilities used to store,
+process, or access organizational information.
+```
+
+Controls may include:
+
+```text
+Physical Access Control
+Visitor Management
+CCTV
+Environmental Protection
+Fire Protection
+Power Protection
+Physical Security Monitoring
+```
+
+The level of detail should depend on the service.
+
+Supplier requirements should address **secure software development** when the supplier develops or maintains software.
+
+For example:
+
+```text
+Supplier shall maintain a secure software
+development lifecycle appropriate to the
+services provided.
+```
+
+Requirements may include:
+
+```text
+Security Requirements
+Secure Coding
+Code Review
+Dependency Management
+Application Security Testing
+Vulnerability Management
+Security Testing Before Release
+```
+
+For high-risk applications, the organization may require evidence of security testing before major releases.
+
+Supplier requirements should address **change management**.
+
+For example:
+
+```text
+Supplier shall maintain a formal change
+management process for changes that could
+materially affect the security, availability,
+confidentiality, or integrity of the service.
+```
+
+Significant changes may include:
+
+```text
+Architecture Changes
+Hosting Location Changes
+Major Software Changes
+Security Control Changes
+Data Processing Changes
+Subcontractor Changes
+```
+
+The organization should establish notification requirements for material changes.
+
+Supplier requirements should address **security event and incident cooperation**.
+
+For example:
+
+```text
+Supplier shall cooperate with the organization
+in investigating security events affecting
+the contracted service.
+```
+
+This may include:
+
+```text
+Incident Timeline
+Affected Systems
+Affected Data
+Root Cause
+Containment Actions
+Remediation
+Lessons Learned
+```
+
+Supplier requirements should also address **audit and assurance**.
+
+For example:
+
+```text
+The organization may require reasonable
+evidence demonstrating the supplier's
+compliance with applicable security requirements.
+```
+
+Evidence may include:
+
+```text
+ISO/IEC 27001 Certificate
+SOC 2 Report
+Security Assessment
+Penetration Test Summary
+Business Continuity Test Results
+Security Policies
+Independent Audit Report
+```
+
+For critical suppliers, the organization may require contractual rights to perform or commission additional assessments.
+
+The requirements should define how audits are conducted without creating unnecessary operational disruption.
+
+Supplier requirements should address **regulatory compliance**.
+
+For example:
+
+```text
+Supplier shall comply with applicable legal,
+regulatory, and contractual requirements
+relevant to the services provided.
+```
+
+Depending on the service, this may include requirements related to:
+
+```text
+Data Protection
+Cybersecurity
+Operational Resilience
+Financial Services
+Payment Security
+Critical Infrastructure
+Industry-Specific Requirements
+```
+
+The exact requirements should be determined through the organization's legal and compliance assessment.
+
+Supplier requirements should address **security documentation**.
+
+For example:
+
+```text
+Supplier shall maintain documented security
+policies, procedures, and records necessary
+to demonstrate compliance with applicable
+security requirements.
+```
+
+The organization may request updated evidence periodically.
+
+Supplier requirements should also address **security metrics and reporting** where appropriate.
+
+For example:
+
+```text
+Supplier shall provide agreed security and
+service performance information upon request.
+```
+
+Metrics may include:
+
+```text
+Security Incidents
+Critical Vulnerabilities
+Patch Compliance
+Availability
+Recovery Testing
+Security Assessment Results
+Open Security Findings
+```
+
+Critical suppliers may be required to provide regular security reports.
+
+Supplier requirements should address **data retention and secure deletion**.
+
+For example:
+
+```text
+Upon expiration or termination of the service,
+the supplier shall return or securely delete
+organizational information in accordance with
+contractual and legal requirements.
+```
+
+The organization may require evidence of deletion.
+
+For example:
+
+```text
+Secure Deletion Confirmation
+Data Destruction Certificate
+System Decommissioning Record
+```
+
+The requirement should also address backup copies where technically and legally applicable.
+
+Supplier requirements should address **contract termination and exit**.
+
+For example:
+
+```text
+Supplier shall support an orderly transition
+of services upon contract termination and
+shall protect organizational information
+during the transition.
+```
+
+Exit requirements may include:
+
+```text
+Data Return
+Data Deletion
+Credential Revocation
+Access Removal
+Asset Return
+Knowledge Transfer
+Configuration Transfer
+Subcontractor Termination
+```
+
+Exit planning is particularly important for critical suppliers because supplier dependency can create significant operational risk.
+
+Supplier requirements should also address **security exceptions**.
+
+For example:
+
+```text
+Supplier shall not deviate materially from
+agreed security requirements without documented
+approval through the organization's security
+exception or risk acceptance process.
+```
+
+A supplier should not be permitted to unilaterally decide that a security requirement is unnecessary.
+
+An exception record may include:
+
+```text
+Requirement:
+MFA for Privileged Access
+
+Exception:
+Legacy administrative interface does not
+support MFA.
+
+Risk:
+High
+
+Compensating Control:
+Network Restriction
+
+Remediation Date:
+30 November 2026
+
+Risk Owner:
+CISO
+```
+
+Supplier requirements should also define **responsibilities between the organization and the supplier**.
+
+For example:
+
+```text
+Organization Responsibilities:
+
+Provide security requirements
+Authorize access
+Review supplier evidence
+Monitor supplier risk
+Manage risk decisions
+
+Supplier Responsibilities:
+
+Implement security controls
+Protect organizational information
+Report incidents
+Provide required evidence
+Manage subcontractor security
+Support audits
+Remediate identified deficiencies
+```
+
+This prevents ambiguity regarding who is responsible for a particular control.
+
+A useful tool is a **shared responsibility matrix**.
+
+For example:
+
+```text
+Control                    Organization   Supplier
+
+Identity Management        A              R
+
+Application Security       C              R
+
+Data Protection            A              R
+
+Incident Response          R              R
+
+Physical Security          C              R
+
+Business Continuity        A              R
+
+Subcontractor Management   C              R
+```
+
+The exact RACI or responsibility model should be adapted to the service.
+
+Supplier requirements should also define **security review frequency**.
+
+For example:
+
+```text
+Low Risk:
+Every 24 Months
+
+Medium Risk:
+Every 12–24 Months
+
+High Risk:
+Annual
+
+Critical:
+Annual + Continuous Monitoring
+```
+
+The organization should also reserve the right to reassess the supplier following significant changes.
+
+Supplier security requirements should be reviewed before contract execution.
+
+The review process can be:
+
+```text
+Business Requirement
+        ↓
+Supplier Risk Classification
+        ↓
+Security Requirements
+        ↓
+Supplier Negotiation
+        ↓
+Legal Review
+        ↓
+Security Review
+        ↓
+Risk Approval
+        ↓
+Contract Execution
+        ↓
+Supplier Onboarding
+        ↓
+Ongoing Monitoring
+```
+
+The security requirements should be incorporated into the appropriate contractual documents.
+
+They may appear in:
+
+```text
+Master Services Agreement
+Statement of Work
+Data Processing Agreement
+Security Schedule
+Supplier Security Addendum
+Service Level Agreement
+```
+
+The specific contractual structure depends on the organization's procurement and legal framework.
+
+A practical high-risk supplier security schedule may look like:
+
+```text
+SUPPLIER SECURITY SCHEDULE
+
+Supplier:
+ABC Cloud Services
+
+Service:
+Production Cloud Hosting
+
+Risk Tier:
+Critical
+
+1. Information Security Governance
+   Formal security program required.
+
+2. Access Control
+   Least privilege and privileged access
+   controls required.
+
+3. Authentication
+   MFA required for privileged access.
+
+4. Data Protection
+   Organizational data must be protected
+   according to agreed classification.
+
+5. Encryption
+   Sensitive data encrypted in transit
+   and at rest.
+
+6. Vulnerability Management
+   Critical vulnerabilities must be
+   remediated within agreed timeframes.
+
+7. Security Testing
+   Periodic security testing required.
+
+8. Incident Notification
+   Security incidents must be reported
+   within the agreed contractual period.
+
+9. Business Continuity
+   Agreed RTO and RPO requirements must
+   be maintained.
+
+10. Subcontractors
+    Material subcontractors must be
+    appropriately assessed and managed.
+
+11. Audit and Assurance
+    Appropriate security assurance evidence
+    must be provided.
+
+12. Data Deletion
+    Organizational data must be securely
+    deleted at contract termination.
+
+13. Security Exceptions
+    Exceptions require documented approval.
+
+14. Ongoing Monitoring
+    Supplier risk will be reviewed periodically.
+```
+
+The supplier should acknowledge these requirements before service commencement.
+
+The organization should then monitor compliance throughout the relationship.
+
+For example:
+
+```text
+Supplier Onboarding
+        ↓
+Contractual Security Requirements
+        ↓
+Initial Due Diligence
+        ↓
+Security Evidence
+        ↓
+Risk Approval
+        ↓
+Periodic Assessment
+        ↓
+Continuous Monitoring
+        ↓
+Issue Management
+        ↓
+Reassessment
+        ↓
+Renewal / Exit
+```
+
+Supplier security requirements should also be updated when the organization's risk environment changes.
+
+Examples include:
+
+```text
+New Regulation
+New Security Threat
+New Data Classification
+New Technology
+New Business Service
+Major Security Incident
+Supplier Acquisition
+New Subcontractor
+Change in Service Architecture
+```
+
+The organization should avoid using static supplier requirements that remain unchanged for many years despite major changes in the threat and regulatory environment.
+
+The final objective is to create a clear contractual and operational security baseline.
+
+A mature supplier security requirement framework should ensure that:
+
+```text
+Security Expectations Are Defined
+        ↓
+Responsibilities Are Clear
+        ↓
+Controls Are Contractually Established
+        ↓
+Evidence Is Required
+        ↓
+Compliance Is Monitored
+        ↓
+Exceptions Are Controlled
+        ↓
+Deficiencies Are Remediated
+        ↓
+Supplier Risk Is Reassessed
+```
+
+The key principle is:
+
+> **Supplier security requirements establish clear, risk-based, and enforceable security expectations that suppliers must meet throughout the relationship, from onboarding and service delivery through monitoring, remediation, renewal, and contract termination.**
+
+
 
 

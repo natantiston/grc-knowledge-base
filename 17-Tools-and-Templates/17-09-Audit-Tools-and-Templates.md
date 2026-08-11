@@ -2067,5 +2067,1133 @@ The key principle is:
 
 > **An Audit Checklist converts audit criteria into structured verification activities, helping auditors consistently evaluate controls, document evidence, identify deficiencies, and maintain a clear audit trail from requirements to conclusions.**
 
+**Part 3 – Audit Evidence Request List**
+
+An Audit Evidence Request List is a structured tool used to identify, organize, communicate, and track the evidence required to perform an audit.
+
+The purpose is to ensure that auditors receive sufficient, relevant, reliable, and appropriate evidence to evaluate the controls and requirements within the audit scope.
+
+An effective evidence request process should answer:
+
+```text
+What evidence is required?
+
+Why is the evidence required?
+
+Who owns the evidence?
+
+What period should the evidence cover?
+
+When is the evidence required?
+
+Where should the evidence be submitted?
+
+Has the evidence been received?
+
+Has the evidence been reviewed?
+
+Is additional evidence required?
+```
+
+The basic evidence request lifecycle is:
+
+```text
+Audit Scope
+      ↓
+Audit Criteria
+      ↓
+Control Requirements
+      ↓
+Evidence Identification
+      ↓
+Evidence Request
+      ↓
+Evidence Submission
+      ↓
+Evidence Review
+      ↓
+Follow-Up
+      ↓
+Evidence Validation
+      ↓
+Audit Conclusion
+```
+
+A practical Audit Evidence Request List can contain:
+
+```text
+AUDIT EVIDENCE REQUEST LIST
+
+Request ID:
+
+Audit ID:
+
+Audit Area:
+
+Requirement:
+
+Control ID:
+
+Evidence Description:
+
+Evidence Purpose:
+
+Evidence Owner:
+
+Evidence Period:
+
+Evidence Format:
+
+Requested Date:
+
+Due Date:
+
+Submission Date:
+
+Evidence Location:
+
+Evidence Status:
+
+Evidence Reviewed:
+
+Additional Information Required:
+
+Follow-Up Date:
+
+Evidence Reference:
+
+Confidentiality Classification:
+
+Retention Requirement:
+
+Auditor:
+
+Reviewer:
+
+Notes:
+```
+
+The first step is to identify the **audit requirement** that the evidence is intended to support.
+
+For example:
+
+```text
+Requirement:
+Privileged access must be periodically reviewed.
+
+Control:
+IAM-04 Quarterly Privileged Access Review
+
+Evidence Required:
+Q2 2026 privileged access review report.
+```
+
+This creates a direct connection between the evidence request and the audit objective.
+
+The auditor should avoid requesting evidence without knowing what audit requirement it supports.
+
+A weak request may say:
+
+> Please send all access management documents.
+
+This can result in excessive information that is difficult to review.
+
+A stronger request is:
+
+> Provide the Q2 2026 privileged access review report, including the population reviewed, reviewer approvals, identified exceptions, and remediation records.
+
+Specific requests make the audit process more efficient.
+
+The evidence request should also define the **purpose of the evidence**.
+
+For example:
+
+```text
+Evidence:
+Quarterly Access Review Report
+
+Purpose:
+Verify that privileged access was reviewed
+during the assessment period.
+```
+
+Another example:
+
+```text
+Evidence:
+Vulnerability Management Report
+
+Purpose:
+Verify identification, prioritization, and
+remediation of critical vulnerabilities.
+```
+
+This helps the evidence owner understand what is required.
+
+The request should identify the **evidence owner**.
+
+For example:
+
+```text
+Evidence:
+Privileged Access Review Report
+
+Evidence Owner:
+IAM Manager
+```
+
+Other evidence owners may include:
+
+```text
+Security Operations
+IT Operations
+HR
+Privacy
+Legal
+Procurement
+Third-Party Risk Management
+Business Continuity
+Cloud Operations
+Application Owners
+```
+
+Clearly identifying ownership prevents requests from being sent to inappropriate individuals.
+
+The evidence request should also define the **evidence period**.
+
+For example:
+
+```text
+Evidence Period:
+1 January 2026 – 30 June 2026
+```
+
+For recurring controls, the auditor may require evidence covering multiple periods.
+
+For example:
+
+```text
+Quarterly Access Reviews:
+
+Q1 2026
+Q2 2026
+Q3 2026
+Q4 2026
+```
+
+The evidence period should align with the audit objective and scope.
+
+The auditor should avoid requesting unnecessary historical information unless it is relevant to the audit.
+
+The evidence request should also specify the **required format** where necessary.
+
+For example:
+
+```text
+Preferred Format:
+
+PDF
+Excel
+CSV
+System Export
+Screenshot
+System Report
+Meeting Record
+Policy Document
+```
+
+The required format should depend on the type of evidence.
+
+For example, a system configuration may be better provided as a system export rather than a screenshot.
+
+A transaction population may be better provided in Excel or CSV format to support sampling and analysis.
+
+The evidence request should also specify the **due date**.
+
+For example:
+
+```text
+Requested:
+5 September 2026
+
+Due:
+10 September 2026
+```
+
+Evidence deadlines should provide sufficient time for the evidence owner to respond while allowing the audit team enough time to review the material.
+
+The request should also have a clear **status**.
+
+A practical status model is:
+
+```text
+Requested
+In Progress
+Submitted
+Under Review
+Additional Evidence Required
+Accepted
+Rejected
+Not Applicable
+Overdue
+Closed
+```
+
+For example:
+
+```text
+REQ-014
+
+Status:
+Additional Evidence Required
+```
+
+This means the original evidence was received but was not sufficient to complete the audit test.
+
+The auditor should explain what additional information is required.
+
+For example:
+
+```text
+Additional Evidence Required:
+
+The submitted access review report does not
+identify the reviewer for each account.
+
+Please provide the approval records or
+system audit trail demonstrating reviewer
+authorization.
+```
+
+This is more effective than simply stating:
+
+> More evidence required.
+
+The evidence request process should also distinguish between **evidence received** and **evidence accepted**.
+
+For example:
+
+```text
+Submitted:
+Yes
+
+Reviewed:
+Yes
+
+Accepted:
+No
+
+Reason:
+Evidence does not cover the full audit period.
+```
+
+Receipt does not mean sufficiency.
+
+Evidence must be evaluated for relevance, completeness, reliability, and adequacy.
+
+The auditor should consider whether the evidence:
+
+```text
+Is Relevant
+Is Complete
+Is Authentic
+Is Current
+Covers the Required Period
+Covers the Required Population
+Comes From a Reliable Source
+Supports the Audit Conclusion
+```
+
+For example:
+
+```text
+Requirement:
+Quarterly privileged access review.
+
+Evidence:
+One review report from January 2026.
+
+Audit Period:
+January–June 2026.
+
+Conclusion:
+Evidence is incomplete because it does not
+demonstrate the required review activity
+for the full assessment period.
+```
+
+The evidence request list should therefore support **evidence sufficiency assessment**.
+
+A practical evidence assessment may include:
+
+```text
+Relevance:
+Sufficient / Insufficient
+
+Completeness:
+Sufficient / Insufficient
+
+Reliability:
+Sufficient / Insufficient
+
+Period Coverage:
+Sufficient / Insufficient
+
+Population Coverage:
+Sufficient / Insufficient
+
+Conclusion Support:
+Sufficient / Insufficient
+```
+
+Evidence should also be traceable to the specific audit test.
+
+For example:
+
+```text
+Evidence ID:
+EVD-2026-045
+
+Audit Test:
+TEST-IAM-004
+
+Requirement:
+Privileged Access Review
+
+Control:
+IAM-04
+
+Evidence:
+Q2 2026 Access Review Report
+```
+
+This creates a relationship between:
+
+```text
+Requirement
+     ↓
+Control
+     ↓
+Audit Test
+     ↓
+Evidence
+     ↓
+Result
+```
+
+This traceability is particularly important for internal audits, external audits, certification audits, regulatory assessments, and investigations.
+
+The evidence request list should also identify **evidence sensitivity**.
+
+Audit evidence may contain:
+
+```text
+Personal Data
+Employee Information
+Customer Information
+Security Configurations
+System Credentials
+Network Information
+Incident Details
+Vendor Information
+Commercially Sensitive Information
+```
+
+The evidence request should therefore specify appropriate handling requirements.
+
+For example:
+
+```text
+Classification:
+Confidential
+
+Storage:
+Approved Audit Evidence Repository
+
+Access:
+Audit Team and Authorized Reviewers
+
+Transmission:
+Approved Secure File Transfer
+```
+
+Sensitive evidence should not be casually exchanged through unsecured channels.
+
+The evidence request process should also consider **data minimization**.
+
+The auditor should request only the information necessary to perform the audit.
+
+For example:
+
+```text
+Weak Request:
+Provide the complete employee database.
+
+Better Request:
+Provide a report containing employee ID,
+department, access role, account status,
+and termination date for the selected sample.
+```
+
+This reduces unnecessary exposure of personal information.
+
+The evidence request list should also identify whether evidence is **system-generated** or **manually produced**.
+
+For example:
+
+```text
+Evidence Source:
+IAM Platform
+
+Generation:
+System-generated
+
+Evidence:
+Access review completion report
+```
+
+Another example:
+
+```text
+Evidence Source:
+Control Owner
+
+Generation:
+Manual
+
+Evidence:
+Management review meeting minutes
+```
+
+System-generated evidence may provide stronger assurance in some circumstances, but the auditor should still evaluate how the report was generated and whether the underlying system data is reliable.
+
+For example:
+
+```text
+System Report:
+Access Review Completed
+
+Validation:
+Verify report configuration
+Verify population
+Verify reporting period
+Verify system source
+```
+
+A screenshot alone may not provide sufficient assurance.
+
+The auditor should consider whether the evidence can be independently validated.
+
+For example:
+
+```text
+Screenshot:
+MFA Enabled
+
+Additional Validation:
+IAM configuration
+System policy
+User sample
+Authentication logs
+```
+
+The strength of evidence should be evaluated based on the audit objective.
+
+The evidence request list should also support **sampling evidence**.
+
+For example:
+
+```text
+Population:
+2,500 users
+
+Audit Sample:
+40 users
+
+Evidence Requested:
+
+Authorization records
+Access provisioning records
+Manager approval
+Access review evidence
+Termination records
+```
+
+The auditor may first request the population and then identify the sample.
+
+The evidence lifecycle may therefore be:
+
+```text
+Request Population
+      ↓
+Receive Population
+      ↓
+Validate Population
+      ↓
+Select Sample
+      ↓
+Request Sample Evidence
+      ↓
+Receive Evidence
+      ↓
+Perform Testing
+```
+
+This prevents the auditor from allowing the control owner to select only favorable examples.
+
+The evidence request list can also support **walkthrough evidence**.
+
+For example:
+
+```text
+Process:
+Employee Onboarding
+
+Evidence:
+
+HR onboarding record
+Access request
+Manager approval
+IAM provisioning record
+System access confirmation
+```
+
+The auditor can then follow one transaction through the complete process.
+
+This provides a practical understanding of how the control operates.
+
+The evidence request list should also support **interview evidence**.
+
+For example:
+
+```text
+Interview:
+IAM Manager
+
+Topics:
+
+User provisioning
+Privileged access
+Emergency access
+Access reviews
+Exception management
+```
+
+Interview evidence should generally be supported by documentary or system evidence where the audit conclusion depends on the statement.
+
+For example:
+
+```text
+Interview Statement:
+"All privileged accounts are reviewed quarterly."
+
+Validation:
+Q1 and Q2 review reports
+Account population
+Approval records
+```
+
+This prevents reliance on unsupported assertions.
+
+The evidence request list should also track **follow-up requests**.
+
+For example:
+
+```text
+Original Request:
+Q2 Access Review Report
+
+Response:
+Submitted
+
+Review Result:
+Incomplete
+
+Follow-Up:
+Provide evidence of remediation for
+identified access exceptions.
+
+Follow-Up Status:
+Submitted
+```
+
+This creates a complete communication trail.
+
+The auditor should avoid losing follow-up requests in email conversations or informal messages.
+
+The GRC system or audit repository should retain the formal request and response history.
+
+The evidence request list should also track **overdue requests**.
+
+For example:
+
+```text
+Total Requests:
+85
+
+Received:
+71
+
+Under Review:
+6
+
+Additional Evidence Required:
+4
+
+Overdue:
+4
+```
+
+Management may need visibility into overdue evidence, particularly when delays could affect the audit schedule.
+
+A dashboard could show:
+
+```text
+Evidence Requests
+
+Submitted:
+84%
+
+Under Review:
+7%
+
+Additional Evidence:
+5%
+
+Overdue:
+4%
+```
+
+This allows the audit team to focus follow-up efforts.
+
+The auditor should distinguish between a genuine evidence delay and a control owner failing to provide evidence because the control was not performed.
+
+For example:
+
+```text
+Control Owner:
+"The report is unavailable."
+
+Auditor:
+Determine whether the report was not retained
+or whether the control was not performed.
+```
+
+This distinction can materially affect the audit conclusion.
+
+An absence of evidence does not automatically prove that a control did not operate, but where evidence is required to demonstrate operation, the lack of evidence may itself represent a control or evidence-retention deficiency.
+
+The evidence request list should also record **evidence exceptions**.
+
+For example:
+
+```text
+Requirement:
+Annual supplier security assessment.
+
+Evidence:
+Assessment report unavailable for
+three suppliers.
+
+Explanation:
+Supplier assessments were not completed.
+
+Result:
+Potential control failure.
+```
+
+This is different from:
+
+```text
+Evidence:
+Assessment completed but report was
+temporarily inaccessible.
+
+Result:
+Evidence retrieval issue.
+```
+
+The auditor should investigate the reason for missing evidence.
+
+The evidence request list can also support **third-party evidence**.
+
+For example:
+
+```text
+Third Party:
+Cloud Service Provider
+
+Evidence:
+Independent assurance report
+Penetration testing summary
+Security certification
+Incident notification process
+Business continuity testing
+```
+
+Third-party evidence should be evaluated for:
+
+```text
+Scope
+Period
+Independence
+Coverage
+Exceptions
+Complementary User Entity Controls
+```
+
+For example, an assurance report may cover only certain services or locations.
+
+The auditor should verify that the report actually covers the services relevant to the organization's audit.
+
+The evidence request list should also support **regulatory evidence**.
+
+For example:
+
+```text
+Requirement:
+Regulatory Incident Reporting
+
+Evidence:
+
+Incident records
+Notification records
+Regulator communications
+Internal escalation records
+Incident timeline
+Management approval
+```
+
+The evidence should demonstrate both the control and the outcome.
+
+The same principle applies to compliance assessments.
+
+For example:
+
+```text
+Requirement:
+Data Subject Request Process
+
+Evidence:
+
+Privacy procedure
+Request register
+Sample requests
+Response records
+Escalation records
+```
+
+The evidence should demonstrate that the process exists and operates.
+
+The evidence request list should also identify **evidence dependencies**.
+
+For example:
+
+```text
+Evidence:
+Cloud security configuration
+
+Dependency:
+Cloud provider access
+
+Status:
+Pending provider confirmation
+```
+
+Dependencies should be tracked so they do not become invisible causes of audit delays.
+
+The evidence request process should also define **retention requirements**.
+
+For example:
+
+```text
+Evidence:
+Audit Workpaper
+
+Retention:
+7 Years
+```
+
+The actual retention period should follow the organization's legal, regulatory, contractual, and internal requirements.
+
+The evidence repository should preserve the relationship between:
+
+```text
+Audit
+ ↓
+Request
+ ↓
+Evidence
+ ↓
+Test
+ ↓
+Finding
+ ↓
+Remediation
+```
+
+This creates an auditable record of how conclusions were reached.
+
+The evidence request list should also support **evidence version control**.
+
+For example:
+
+```text
+Evidence:
+Security Policy
+
+Version Submitted:
+2.0
+
+Effective Date:
+1 January 2026
+
+Superseded Version:
+1.5
+```
+
+The auditor should ensure that the evidence being assessed was effective during the audit period.
+
+For example:
+
+```text
+Audit Period:
+January–June 2026
+
+Policy Submitted:
+Version 3.0
+
+Effective Date:
+August 2026
+
+Conclusion:
+Policy was not effective during the
+audit period.
+```
+
+This prevents auditors from accidentally using future-state documentation as evidence of historical compliance.
+
+The same principle applies to system configurations.
+
+For example:
+
+```text
+Configuration Evidence:
+Captured August 2026
+
+Audit Period:
+January–June 2026
+```
+
+The auditor should determine whether the current configuration can demonstrate the historical condition or whether historical evidence is required.
+
+The evidence request list should also record **evidence limitations**.
+
+For example:
+
+```text
+Limitation:
+
+The system retains access review logs for
+only six months.
+
+Impact:
+
+Evidence for January 2026 could not be
+independently verified.
+```
+
+The auditor should evaluate whether the limitation affects the audit conclusion.
+
+The evidence request process should also be integrated with the audit checklist.
+
+For example:
+
+```text
+Audit Checklist Item:
+Verify quarterly access review.
+
+Evidence Request:
+Q1 and Q2 access review reports.
+
+Evidence Received:
+EVD-001
+EVD-002
+
+Testing:
+TEST-004
+
+Result:
+Effective
+```
+
+This provides end-to-end traceability.
+
+The evidence request list should also connect to audit findings.
+
+For example:
+
+```text
+Evidence Request
+       ↓
+Evidence Not Provided
+       ↓
+Control Testing
+       ↓
+Control Deficiency
+       ↓
+Audit Finding
+       ↓
+Corrective Action
+```
+
+This is particularly important when missing evidence indicates that the control may not have been operating or that evidence-retention requirements were not satisfied.
+
+A mature evidence request process should also define **escalation**.
+
+For example:
+
+```text
+Day 1:
+Evidence Requested
+
+Day 5:
+Reminder
+
+Day 7:
+Follow-Up
+
+Day 10:
+Control Owner Escalation
+
+Day 14:
+Management Escalation
+```
+
+The actual timeline should depend on the organization's audit methodology and urgency.
+
+High-risk evidence requests may require faster escalation.
+
+The evidence request list should also identify the person responsible for each request.
+
+For example:
+
+```text
+Request:
+REQ-023
+
+Evidence Owner:
+IAM Manager
+
+Auditor:
+GRC Auditor
+
+Reviewer:
+Audit Manager
+```
+
+This creates accountability.
+
+A practical evidence request record may look like:
+
+```text
+REQ-2026-023
+
+Audit:
+Enterprise Access Control Audit
+
+Requirement:
+Periodic access reviews
+
+Control:
+IAM-04
+
+Evidence:
+Q2 2026 privileged access review report
+
+Purpose:
+Verify quarterly review of privileged access.
+
+Evidence Owner:
+IAM Manager
+
+Requested:
+5 September 2026
+
+Due:
+10 September 2026
+
+Submitted:
+9 September 2026
+
+Evidence Reference:
+EVD-2026-045
+
+Review Result:
+Insufficient
+
+Reason:
+Cloud administrator accounts were not
+included in the submitted population.
+
+Follow-Up:
+Provide complete privileged account population.
+
+Status:
+Additional Evidence Required
+```
+
+This provides a clear record from request to follow-up.
+
+The evidence request list should also be used during the audit closeout.
+
+Before the audit is finalized, the audit team should confirm:
+
+```text
+All Critical Evidence Received
+All Evidence Reviewed
+Outstanding Requests Identified
+Evidence References Recorded
+Evidence Limitations Documented
+Findings Supported
+Workpapers Complete
+Retention Requirements Confirmed
+```
+
+A final evidence reconciliation may look like:
+
+```text
+Total Requests:
+120
+
+Received:
+116
+
+Accepted:
+108
+
+Additional Evidence:
+6
+
+Outstanding:
+2
+```
+
+Any outstanding evidence should be evaluated before the final audit conclusion is issued.
+
+The auditor should determine whether the missing evidence:
+
+```text
+Has No Material Impact
+Requires Additional Testing
+Creates an Evidence Gap
+Creates a Control Finding
+Limits the Audit Conclusion
+```
+
+The key principle is:
+
+> **An Audit Evidence Request List provides a controlled method for identifying, requesting, receiving, evaluating, tracking, and retaining the evidence needed to support objective and defensible audit conclusions.**
+
 
 

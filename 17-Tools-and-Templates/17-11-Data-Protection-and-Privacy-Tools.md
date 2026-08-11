@@ -2015,5 +2015,1176 @@ The key principle is:
 
 > **Data classification provides the foundation for determining how information should be accessed, stored, transmitted, shared, monitored, retained, and securely disposed of based on its sensitivity, business value, regulatory requirements, and potential impact if compromised.**
 
+**Part 3 – Privacy Impact Assessment (PIA/DPIA) Template**
+
+A Privacy Impact Assessment (PIA), commonly referred to as a Data Protection Impact Assessment (DPIA) in GDPR contexts, is a structured GRC assessment used to identify and evaluate privacy risks associated with the collection, use, storage, sharing, or other processing of personal data.
+
+A PIA/DPIA should be performed early in the design of a new system, process, product, service, or technology that may create significant privacy risks. It should not be treated as a document completed only after the technology has already been implemented.
+
+The assessment helps the organization determine:
+
+```text
+What personal data is being processed?
+
+Why is the data being processed?
+
+Who are the data subjects?
+
+What systems and third parties are involved?
+
+Where is the data stored and processed?
+
+What privacy risks could arise?
+
+What controls reduce those risks?
+
+Are residual risks acceptable?
+
+What additional actions are required?
+```
+
+A practical PIA/DPIA process can be represented as:
+
+```text
+New Processing Activity
+        ↓
+Initial Privacy Screening
+        ↓
+Determine Whether PIA/DPIA Is Required
+        ↓
+Describe Processing
+        ↓
+Identify Data and Data Subjects
+        ↓
+Assess Necessity and Proportionality
+        ↓
+Identify Privacy Risks
+        ↓
+Assess Risk
+        ↓
+Identify Controls
+        ↓
+Determine Residual Risk
+        ↓
+Define Remediation
+        ↓
+Approval
+        ↓
+Implementation
+        ↓
+Ongoing Review
+```
+
+A practical PIA/DPIA Template can contain:
+
+```text
+PRIVACY IMPACT ASSESSMENT / DPIA
+
+Assessment ID:
+
+Project / Processing Activity:
+
+Business Owner:
+
+Privacy Owner:
+
+Data Protection Officer:
+
+System / Application:
+
+Processing Description:
+
+Purpose of Processing:
+
+Data Subjects:
+
+Personal Data Categories:
+
+Special-Category / Sensitive Data:
+
+Data Sources:
+
+Data Recipients:
+
+Third Parties / Subprocessors:
+
+Data Locations:
+
+Processing Locations:
+
+International Transfers:
+
+Retention Period:
+
+Legal Basis:
+
+Data Subject Rights:
+
+Automated Decision-Making:
+
+Profiling:
+
+Technology Used:
+
+Processing Necessity:
+
+Processing Proportionality:
+
+Privacy Risks:
+
+Risk Likelihood:
+
+Risk Impact:
+
+Inherent Privacy Risk:
+
+Existing Controls:
+
+Additional Controls:
+
+Residual Privacy Risk:
+
+Risk Treatment:
+
+Action Owner:
+
+Target Date:
+
+DPO / Privacy Review:
+
+Management Approval:
+
+Regulatory Consultation Required:
+
+Assessment Status:
+
+Review Date:
+
+Next Review Date:
+
+Comments:
+```
+
+The first step is to identify the **project or processing activity** being assessed.
+
+For example:
+
+```text
+Project:
+AI-Powered Customer Support Platform
+
+Processing Activity:
+Use of customer information to provide
+automated customer support.
+```
+
+The assessment should describe the proposed processing clearly enough that someone outside the project team can understand what will happen to the personal data.
+
+The assessment should identify the **business owner**.
+
+For example:
+
+```text
+Business Owner:
+Director of Customer Operations
+```
+
+The business owner is responsible for explaining why the processing is required and how it supports the business objective.
+
+The assessment should identify the **privacy owner** or responsible privacy function.
+
+For example:
+
+```text
+Privacy Owner:
+Privacy Manager
+```
+
+Where applicable, the organization's **Data Protection Officer (DPO)** should be involved according to its privacy governance model and applicable legal requirements.
+
+The assessment should identify the **system or technology** involved.
+
+For example:
+
+```text
+System:
+Customer Support Platform
+
+Technology:
+Cloud SaaS
+
+Supporting Technology:
+AI Service
+CRM
+Identity Platform
+Analytics Platform
+```
+
+This is particularly important for new technologies such as artificial intelligence, biometrics, cloud services, monitoring technologies, and automated decision-making systems.
+
+The assessment should provide a clear **processing description**.
+
+For example:
+
+```text
+Customer information is collected through
+the organization's website and customer
+service channels. The information is stored
+in the customer management platform and
+used by authorized customer service personnel
+and an AI-enabled support service to respond
+to customer requests.
+```
+
+The description should explain the data lifecycle.
+
+For example:
+
+```text
+Collection
+   ↓
+Transmission
+   ↓
+Storage
+   ↓
+Processing
+   ↓
+Sharing
+   ↓
+Retention
+   ↓
+Deletion
+```
+
+The assessment should identify the **purpose of processing**.
+
+The purpose should be specific.
+
+For example:
+
+```text
+Purpose:
+
+To provide customer support, resolve service
+requests, maintain customer account information,
+and improve customer service operations.
+```
+
+A vague purpose such as "business operations" does not provide sufficient context for evaluating privacy risk.
+
+The assessment should identify the **data subjects**.
+
+Examples include:
+
+```text
+Customers
+Employees
+Job Applicants
+Children
+Suppliers
+Contractors
+Website Visitors
+Patients
+Students
+```
+
+The organization should pay particular attention to vulnerable or high-risk groups where applicable.
+
+The assessment should identify the **categories of personal data**.
+
+For example:
+
+```text
+Name
+Address
+Email Address
+Telephone Number
+Customer ID
+Account Information
+Transaction History
+Support Communications
+Technical Information
+```
+
+The organization should identify whether **special-category or highly sensitive information** is processed.
+
+For example:
+
+```text
+Health Information
+Biometric Data
+Genetic Data
+Religious Information
+Political Information
+Trade Union Information
+```
+
+The exact treatment depends on the applicable legal framework.
+
+The assessment should identify the **source of the data**.
+
+For example:
+
+```text
+Customer
+Website
+Mobile Application
+Call Center
+CRM System
+Third-Party Provider
+Public Source
+```
+
+Understanding the source helps establish whether the organization is collecting the data directly or receiving it from another party.
+
+The assessment should identify **data recipients**.
+
+For example:
+
+```text
+Internal:
+Customer Service
+Finance
+Security
+
+External:
+Cloud Provider
+Payment Processor
+Customer Support Provider
+AI Service Provider
+```
+
+Each recipient should have a defined business and legal purpose for receiving the information.
+
+The assessment should identify **third parties and subprocessors**.
+
+For example:
+
+```text
+Primary Vendor:
+Customer Support SaaS Provider
+
+Subprocessor:
+Cloud Infrastructure Provider
+
+Additional Provider:
+AI Processing Service
+```
+
+This information should align with the organization's third-party risk management process.
+
+The assessment should identify **data storage locations**.
+
+For example:
+
+```text
+Primary Storage:
+Germany
+
+Backup:
+Netherlands
+```
+
+The organization should also identify where the data is actually processed.
+
+For example:
+
+```text
+Storage:
+European Union
+
+Technical Support:
+United States
+
+AI Processing:
+European Union
+```
+
+Storage location and processing location may be different and should not automatically be treated as the same.
+
+The assessment should identify **international transfers**.
+
+For example:
+
+```text
+International Transfer:
+Yes
+
+Origin:
+Spain
+
+Destination:
+United States
+
+Purpose:
+Technical Support
+
+Transfer Mechanism:
+Applicable approved legal safeguards
+```
+
+The appropriate legal mechanism should be determined by the organization's privacy and legal functions.
+
+The assessment should document the **retention period**.
+
+For example:
+
+```text
+Customer Account Data:
+Duration of Customer Relationship
+
+Support Records:
+Defined Retention Period
+
+Security Logs:
+Defined Security Retention Period
+```
+
+Retention should be justified by legal, regulatory, contractual, and business requirements.
+
+The assessment should identify the **legal basis** where applicable.
+
+Examples may include:
+
+```text
+Contract
+Legal Obligation
+Legitimate Interests
+Consent
+Public Task
+Vital Interests
+```
+
+The organization should document why the selected legal basis applies to the specific processing activity.
+
+Where consent is used, the organization should also consider whether consent is freely given, specific, informed, and capable of being withdrawn where required by applicable law.
+
+The assessment should identify relevant **data subject rights**.
+
+For example:
+
+```text
+Right of Access
+Right to Rectification
+Right to Erasure
+Right to Restriction
+Right to Data Portability
+Right to Object
+Rights Related to Automated Decision-Making
+```
+
+The organization should determine how these rights will be supported operationally.
+
+For example:
+
+```text
+Customer Request
+       ↓
+Privacy Request Management
+       ↓
+Identity Verification
+       ↓
+Data Discovery
+       ↓
+Request Evaluation
+       ↓
+Response
+       ↓
+Record Retention
+```
+
+The assessment should determine whether the processing involves **automated decision-making**.
+
+For example:
+
+```text
+Automated Decision-Making:
+Yes
+
+Purpose:
+Automated eligibility assessment
+
+Impact:
+Potentially significant effect on individuals
+```
+
+Where applicable, the organization should assess the legal and ethical implications of automated decisions.
+
+The assessment should identify whether **profiling** occurs.
+
+For example:
+
+```text
+Profiling:
+Yes
+
+Purpose:
+Customer behavior analysis
+
+Data Used:
+Transaction History
+Interaction History
+Service Usage
+```
+
+Profiling may create additional privacy and fairness considerations depending on the purpose and impact.
+
+The assessment should identify the **technology used**.
+
+For example:
+
+```text
+Cloud Computing
+Artificial Intelligence
+Machine Learning
+Biometrics
+Facial Recognition
+Location Tracking
+Analytics
+Monitoring Technologies
+```
+
+Technology should be considered as part of the privacy risk assessment rather than separately from the processing activity.
+
+The organization should assess **necessity**.
+
+The key question is:
+
+> Is each category of personal data actually necessary to achieve the stated purpose?
+
+For example:
+
+```text
+Purpose:
+Customer Support
+
+Data Required:
+
+Customer ID       – Necessary
+Name              – Necessary
+Email             – Necessary
+Support History   – Necessary
+Date of Birth     – Not Required
+```
+
+If information is not necessary, the organization should consider removing it from the processing activity.
+
+The organization should also assess **proportionality**.
+
+The key question is:
+
+> Is the amount and type of processing proportionate to the business objective and associated privacy risk?
+
+For example:
+
+```text
+Business Purpose:
+Customer Service Improvement
+
+Proposed Processing:
+Record and analyze every customer interaction.
+
+Assessment:
+Potentially proportionate if appropriate
+controls, transparency, retention, and
+purpose limitations are implemented.
+```
+
+Another example:
+
+```text
+Business Purpose:
+Office Security
+
+Proposed Processing:
+Continuous biometric monitoring of all employees.
+
+Assessment:
+Requires significantly greater justification
+and privacy risk analysis.
+```
+
+The organization should document the reasoning behind the conclusion.
+
+The assessment should identify **privacy risks**.
+
+Examples include:
+
+```text
+Unauthorized Disclosure
+Unauthorized Access
+Excessive Data Collection
+Excessive Retention
+Unlawful Processing
+Lack of Transparency
+Inaccurate Information
+Unauthorized Secondary Use
+Uncontrolled Third-Party Access
+International Transfer Risk
+Profiling Risk
+Automated Decision Risk
+Data Subject Rights Failure
+```
+
+A strong risk description should explain the cause, event, and consequence.
+
+For example:
+
+```text
+Because customer information is shared with
+a third-party AI service, there is a risk that
+personal information could be processed beyond
+the organization's intended purpose, resulting
+in loss of privacy and potential regulatory exposure.
+```
+
+The organization should assess **privacy risk likelihood**.
+
+For example:
+
+```text
+1 – Rare
+2 – Unlikely
+3 – Possible
+4 – Likely
+5 – Almost Certain
+```
+
+The organization should assess **privacy risk impact**.
+
+For example:
+
+```text
+1 – Insignificant
+2 – Minor
+3 – Moderate
+4 – Major
+5 – Severe
+```
+
+A simple privacy risk calculation can be:
+
+```text
+Likelihood × Impact = Inherent Privacy Risk
+```
+
+For example:
+
+```text
+Likelihood:
+4 – Likely
+
+Impact:
+5 – Severe
+
+Inherent Risk:
+20 – Critical
+```
+
+The exact scoring methodology should align with the organization's approved risk framework.
+
+The assessment should identify **existing privacy and security controls**.
+
+For example:
+
+```text
+Data Minimization
+Purpose Limitation
+Access Control
+MFA
+Encryption
+Pseudonymization
+Data Retention Controls
+Privacy Notices
+Consent Management
+DLP
+Security Monitoring
+Third-Party Due Diligence
+```
+
+Controls should be evaluated for both design and operating effectiveness where appropriate.
+
+The assessment should identify **additional controls** required to reduce the identified privacy risks.
+
+For example:
+
+```text
+Risk:
+Excessive access to customer personal data.
+
+Additional Controls:
+
+Implement role-based access.
+Perform quarterly access reviews.
+Restrict privileged access.
+Enable enhanced monitoring.
+```
+
+Another example:
+
+```text
+Risk:
+Third-party AI provider may retain
+customer information beyond the intended purpose.
+
+Additional Controls:
+
+Contractual data-use restrictions.
+Data retention restrictions.
+Technical data minimization.
+Provider security assessment.
+Periodic compliance review.
+```
+
+The assessment should determine **residual privacy risk** after controls are considered.
+
+For example:
+
+```text
+Inherent Risk:
+Critical
+
+Existing Controls:
+Strong
+
+Additional Controls:
+Implemented
+
+Residual Risk:
+Medium
+```
+
+The organization should then determine whether the residual risk is acceptable.
+
+The assessment should document the **risk treatment**.
+
+Possible treatments include:
+
+```text
+Mitigate
+Avoid
+Transfer
+Accept
+```
+
+For example:
+
+```text
+Treatment:
+Mitigate
+
+Action:
+Reduce personal data sent to the
+third-party processing service.
+```
+
+The assessment should assign an **action owner**.
+
+For example:
+
+```text
+Action:
+Implement data minimization.
+
+Owner:
+Product Manager
+```
+
+Each action should have a defined **target date**.
+
+For example:
+
+```text
+Target Date:
+30 September 2026
+```
+
+The assessment should also identify whether **DPO or privacy review** is required.
+
+For example:
+
+```text
+DPO Review:
+Required
+
+DPO Assessment:
+Privacy risks identified and additional
+controls required before implementation.
+```
+
+Where applicable, the organization should determine whether **regulatory consultation** is required.
+
+The assessment should not assume that consultation is automatically required for every DPIA.
+
+The requirement depends on the applicable legal framework, residual risk, and circumstances of the processing activity.
+
+The organization should define the **approval process**.
+
+For example:
+
+```text
+Business Owner
+      ↓
+Information Security
+      ↓
+Privacy
+      ↓
+DPO
+      ↓
+Risk Owner
+      ↓
+Management Approval
+```
+
+The exact workflow should reflect the organization's governance structure.
+
+A practical completed assessment may look like:
+
+```text
+PRIVACY IMPACT ASSESSMENT
+
+Assessment ID:
+PIA-2026-012
+
+Project:
+AI Customer Support Platform
+
+Business Owner:
+Director of Customer Operations
+
+Privacy Owner:
+Privacy Manager
+
+Processing Purpose:
+Provide automated customer support and
+improve response times.
+
+Data Subjects:
+Customers
+
+Personal Data:
+Name
+Customer ID
+Email
+Support History
+Service Information
+
+Sensitive Data:
+No special-category data intentionally processed.
+
+Recipients:
+Customer Service
+AI Service Provider
+Cloud Provider
+
+Processing Location:
+European Union
+
+International Transfer:
+Potential technical support access outside
+the European Union.
+
+Retention:
+Defined customer relationship retention period.
+
+Legal Basis:
+To be determined and documented by Privacy.
+
+Automated Decision-Making:
+No significant automated decisions.
+
+Profiling:
+Limited analytics profiling.
+
+Privacy Risk:
+High
+
+Key Risks:
+
+Excessive data sent to AI processing service.
+Third-party access to customer information.
+Potential retention beyond business requirements.
+
+Existing Controls:
+
+Access Control
+Encryption
+Vendor Due Diligence
+Data Processing Agreement
+Security Monitoring
+
+Additional Controls:
+
+Data minimization
+Restricted AI data fields
+Defined provider retention limits
+Enhanced vendor monitoring
+
+Residual Risk:
+Medium
+
+Treatment:
+Mitigate
+
+Action Owner:
+Product Manager
+
+Target Date:
+30 September 2026
+
+DPO Review:
+Required
+
+Status:
+Open – Remediation Required
+```
+
+The assessment should include **privacy-by-design considerations**.
+
+Privacy should be incorporated into the design of the system rather than added after implementation.
+
+A practical approach is:
+
+```text
+Business Requirement
+        ↓
+Privacy Requirements
+        ↓
+Security Requirements
+        ↓
+System Design
+        ↓
+Privacy Risk Assessment
+        ↓
+Control Implementation
+        ↓
+Testing
+        ↓
+Approval
+        ↓
+Production
+```
+
+Privacy-by-design controls may include:
+
+```text
+Data Minimization
+Purpose Limitation
+Default Privacy Settings
+Pseudonymization
+Anonymization
+Access Restrictions
+Encryption
+Retention Automation
+Privacy Notices
+Consent Management
+```
+
+The PIA/DPIA should also be connected to the organization's **security risk assessment**.
+
+For example:
+
+```text
+Privacy Risk:
+Unauthorized disclosure of customer data
+
+Security Risk:
+Unauthorized access to CRM database
+
+Privacy Control:
+Data minimization
+
+Security Control:
+MFA and RBAC
+```
+
+The two assessments may address different aspects of the same underlying risk.
+
+The assessment should also connect to **third-party risk management** where external providers process personal data.
+
+For example:
+
+```text
+PIA/DPIA
+    ↓
+Third-Party Identification
+    ↓
+Vendor Risk Assessment
+    ↓
+Security Due Diligence
+    ↓
+Data Processing Agreement
+    ↓
+Supplier Security Requirements
+    ↓
+Ongoing Monitoring
+```
+
+This creates a consistent GRC process rather than treating privacy and supplier security as separate activities.
+
+The PIA/DPIA should also connect to **data classification**.
+
+For example:
+
+```text
+Data:
+Customer Financial Information
+
+Classification:
+Restricted
+
+Privacy Risk:
+High
+
+Required Controls:
+Encryption
+MFA
+Restricted Access
+Monitoring
+Retention Controls
+```
+
+Classification therefore becomes an input to the privacy risk assessment.
+
+The assessment should be reviewed when significant changes occur.
+
+Triggers may include:
+
+```text
+New Data Categories
+New Purpose
+New Technology
+New AI Capability
+New Vendor
+New Subprocessor
+New Country
+New Data Transfer
+Major System Change
+New Regulation
+Privacy Incident
+Security Incident
+Change in Risk Level
+```
+
+For example:
+
+```text
+Original Processing:
+Customer support
+
+New Processing:
+AI-based customer behavior profiling
+
+Action:
+Review and update PIA/DPIA.
+```
+
+The PIA/DPIA should not be considered permanently valid simply because it was approved once.
+
+The organization should maintain a **review history**.
+
+For example:
+
+```text
+10 August 2026:
+Initial PIA completed.
+
+20 September 2026:
+AI processing scope expanded.
+
+20 September 2026:
+PIA updated.
+
+15 October 2026:
+Additional privacy controls validated.
+```
+
+The assessment should maintain evidence supporting its conclusions.
+
+Examples include:
+
+```text
+Data Flow Diagram
+Privacy Notice
+Data Processing Agreement
+Vendor Assessment
+Security Assessment
+System Architecture
+Data Retention Schedule
+Access Control Design
+Security Testing Results
+Consent Records
+Risk Assessment
+```
+
+The evidence should be retained according to the organization's records management requirements.
+
+A mature PIA/DPIA process can be represented as:
+
+```text
+Data Inventory
+       ↓
+Data Classification
+       ↓
+Privacy Screening
+       ↓
+PIA / DPIA
+       ↓
+Privacy Risk Assessment
+       ↓
+Security Risk Assessment
+       ↓
+Control Requirements
+       ↓
+Third-Party Assessment
+       ↓
+Remediation
+       ↓
+Approval
+       ↓
+Implementation
+       ↓
+Ongoing Monitoring
+       ↓
+Periodic Review
+```
+
+The GRC professional should be able to use the PIA/DPIA to answer:
+
+```text
+What personal data is being processed?
+
+Why is it being processed?
+
+Is the processing necessary?
+
+Is the processing proportionate?
+
+Who can access the information?
+
+Where is the information processed?
+
+Who receives the information?
+
+Are third parties involved?
+
+Are international transfers involved?
+
+What privacy risks exist?
+
+What controls reduce those risks?
+
+What residual risk remains?
+
+Who accepted the risk?
+
+What actions remain outstanding?
+```
+
+The key principle is:
+
+> **A PIA/DPIA provides a structured method for identifying and managing privacy risks before and during personal-data processing, ensuring that data collection and use are necessary, proportionate, transparent, appropriately protected, and subject to accountable risk-based governance.**
+
+
 
 

@@ -1342,5 +1342,851 @@ The key principle is:
 
 > **A Security Incident Report provides a consistent, traceable, and auditable record of a security incident from detection through closure, enabling effective response, accountability, regulatory and compliance support, risk management, corrective action, and continuous improvement of the organization's cybersecurity controls.**
 
+Incident classification is the process of determining the nature, scope, and severity of a security event so that the organization can apply the appropriate response, escalation, resources, and management attention. A consistent classification approach prevents minor events from consuming disproportionate resources while ensuring that serious incidents receive immediate attention.
+
+A security event should first be evaluated to determine whether it represents an actual security incident.
+
+```text
+Security Event
+      ↓
+Initial Assessment
+      ↓
+Security Incident?
+   ↙        ↘
+ No          Yes
+ ↓            ↓
+Monitor     Classify
+              ↓
+           Assess Severity
+              ↓
+           Respond
+```
+
+A security event may be any observable occurrence within an information system or business environment.
+
+Examples include:
+
+```text
+Failed Login
+Successful Login
+Antivirus Alert
+Firewall Alert
+Suspicious Email
+Unusual Network Traffic
+Configuration Change
+Vulnerability Detection
+Password Reset
+```
+
+Not every security event represents a security incident.
+
+For example:
+
+```text
+Event:
+Five failed login attempts
+
+Assessment:
+Normal user behavior
+
+Classification:
+Security Event
+
+Action:
+Monitor
+```
+
+However:
+
+```text
+Event:
+500 failed login attempts against
+multiple privileged accounts
+
+Assessment:
+Potential brute-force attack
+
+Classification:
+Security Incident
+
+Action:
+Investigate and respond
+```
+
+The organization should establish clear criteria for determining when an event becomes an incident.
+
+Examples include:
+
+```text
+Confirmed Unauthorized Access
+Confirmed Malware Infection
+Confirmed Data Exposure
+Confirmed Security Control Bypass
+Confirmed Account Compromise
+Confirmed Service Disruption
+Confirmed Policy Violation
+Confirmed Exploitation
+```
+
+Once an event is determined to be an incident, it should be assigned an **incident category**.
+
+A practical classification structure may include:
+
+```text
+INCIDENT CATEGORIES
+
+1. Unauthorized Access
+2. Malware
+3. Phishing and Social Engineering
+4. Data Breach
+5. Denial of Service
+6. Vulnerability Exploitation
+7. Insider Threat
+8. Lost or Stolen Asset
+9. Security Misconfiguration
+10. Third-Party Security Incident
+11. Cloud Security Incident
+12. Policy Violation
+```
+
+Unauthorized access incidents may include:
+
+```text
+Compromised Credentials
+Account Takeover
+Privilege Escalation
+Unauthorized System Access
+Unauthorized Database Access
+Unauthorized Administrative Access
+```
+
+Malware incidents may include:
+
+```text
+Virus
+Trojan
+Worm
+Spyware
+Ransomware
+Remote Access Trojan
+Malicious Script
+Cryptominer
+```
+
+Phishing and social engineering incidents may include:
+
+```text
+Credential Phishing
+Business Email Compromise
+Malicious Attachment
+Malicious Link
+Impersonation
+Voice Phishing
+SMS Phishing
+```
+
+Data breach incidents may include:
+
+```text
+Unauthorized Disclosure
+Data Exfiltration
+Accidental Data Exposure
+Lost Personal Data
+Misconfigured Storage
+Unauthorized Data Access
+```
+
+Denial-of-service incidents may include:
+
+```text
+Distributed Denial of Service
+Application-Level Attack
+Network Flood
+Resource Exhaustion
+```
+
+Vulnerability exploitation incidents may include:
+
+```text
+Exploited Software Vulnerability
+Zero-Day Exploitation
+Unpatched System Exploitation
+Web Application Exploitation
+Remote Code Execution
+```
+
+Insider threat incidents may include:
+
+```text
+Malicious Insider
+Unauthorized Employee Activity
+Excessive Data Access
+Unauthorized Data Transfer
+Intentional Policy Violation
+```
+
+Lost or stolen asset incidents may include:
+
+```text
+Lost Laptop
+Stolen Mobile Device
+Lost Removable Media
+Stolen Corporate Equipment
+```
+
+Security misconfiguration incidents may include:
+
+```text
+Publicly Exposed Storage
+Incorrect Firewall Rule
+Excessive Permissions
+Weak Authentication Configuration
+Unsecured Cloud Resource
+```
+
+Third-party incidents may include:
+
+```text
+Supplier Breach
+Cloud Provider Incident
+Managed Service Provider Compromise
+Software Supply Chain Incident
+Third-Party Data Exposure
+```
+
+Cloud security incidents may include:
+
+```text
+Compromised Cloud Account
+Unauthorized Cloud Resource
+Exposed Storage
+Cloud Privilege Escalation
+Cloud Configuration Error
+```
+
+Policy violations may include:
+
+```text
+Unauthorized Software
+Unauthorized Data Transfer
+Security Procedure Violation
+Acceptable Use Violation
+Unauthorized Device Usage
+```
+
+After classification, the organization should determine the **severity** of the incident.
+
+A practical severity matrix can use four levels:
+
+```text
+Critical
+High
+Medium
+Low
+```
+
+Some organizations may use five levels:
+
+```text
+Severity 1 – Critical
+Severity 2 – High
+Severity 3 – Medium
+Severity 4 – Low
+Severity 5 – Informational
+```
+
+The organization should define objective criteria for each level.
+
+A Critical incident may involve:
+
+```text
+Widespread Business Disruption
+Major Customer Impact
+Major Data Breach
+Critical Infrastructure Impact
+Compromise of Critical Systems
+Significant Regulatory Exposure
+Active Ransomware Across Critical Systems
+Major Financial Impact
+```
+
+A High incident may involve:
+
+```text
+Compromise of Privileged Account
+Significant Data Exposure
+Multiple Systems Affected
+Material Business Disruption
+Confirmed Exploitation
+Significant Customer Impact
+High-Value Asset Compromise
+```
+
+A Medium incident may involve:
+
+```text
+Limited System Impact
+Limited Data Exposure
+Single User Compromise
+Contained Malware
+Security Policy Violation
+Limited Business Disruption
+```
+
+A Low incident may involve:
+
+```text
+Single Endpoint Alert
+Suspicious Activity With No Confirmed Impact
+Minor Policy Violation
+Blocked Phishing Attempt
+Low-Risk Security Event
+```
+
+Severity should not be determined solely by the technical characteristics of the incident. The organization should consider business impact, regulatory requirements, data sensitivity, operational impact, and potential harm.
+
+A practical severity assessment can consider:
+
+```text
+Confidentiality Impact
+Integrity Impact
+Availability Impact
+Data Sensitivity
+Number of Users Affected
+Number of Systems Affected
+Business Criticality
+Financial Impact
+Regulatory Impact
+Customer Impact
+Reputational Impact
+Threat Actor Capability
+Scope of Compromise
+Duration
+Recoverability
+```
+
+The relationship can be represented as:
+
+```text
+Incident
+   ↓
+Scope
+   +
+Business Impact
+   +
+Data Sensitivity
+   +
+Security Impact
+   +
+Regulatory Impact
+   +
+Threat Capability
+   ↓
+Severity Rating
+```
+
+For example, consider a compromised employee account.
+
+```text
+Incident:
+Employee Account Compromise
+
+Affected User:
+1
+
+System:
+Corporate Email
+
+Data:
+Internal Information
+
+Business Impact:
+Low
+
+Regulatory Impact:
+None
+
+Severity:
+Medium
+```
+
+Now consider a compromised privileged administrator account.
+
+```text
+Incident:
+Privileged Account Compromise
+
+Affected User:
+1 Administrator
+
+Systems:
+Multiple Critical Systems
+
+Data:
+Confidential and Restricted
+
+Business Impact:
+High
+
+Regulatory Impact:
+Potential
+
+Severity:
+High
+```
+
+The same type of event can therefore receive different severity ratings depending on its circumstances.
+
+The organization should also distinguish between **incident category** and **incident severity**.
+
+For example:
+
+```text
+Incident Category:
+Phishing
+
+Incident Severity:
+Low
+```
+
+Another phishing incident may be:
+
+```text
+Incident Category:
+Phishing
+
+Incident Severity:
+Critical
+```
+
+The first may involve an employee reporting a suspicious email before interacting with it.
+
+The second may involve a successful business email compromise that results in unauthorized access to financial systems and sensitive information.
+
+The classification process should therefore evaluate both **what happened** and **how serious the consequences are**.
+
+A practical Incident Classification and Severity Matrix may look like:
+
+| Severity | Typical Impact                          | Example                                | Response                       |
+| -------- | --------------------------------------- | -------------------------------------- | ------------------------------ |
+| Critical | Major organizational impact             | Ransomware affecting critical services | Immediate executive escalation |
+| High     | Significant business or security impact | Privileged account compromise          | Urgent incident response       |
+| Medium   | Limited but confirmed impact            | Single endpoint malware infection      | Standard incident response     |
+| Low      | Minimal impact                          | Blocked phishing attempt               | Monitor and document           |
+
+The organization should establish **escalation requirements** for each severity level.
+
+For example:
+
+```text
+Critical:
+SOC → Incident Manager → CISO → Executive Management
+        → Legal → Privacy → Business Leadership
+
+High:
+SOC → Incident Manager → CISO
+      → Relevant Business Owner
+
+Medium:
+SOC → Incident Response Team
+      → System Owner
+
+Low:
+SOC → Security Operations
+      → Routine Monitoring
+```
+
+The exact escalation path should be customized to the organization's governance structure.
+
+Critical incidents should generally trigger immediate escalation.
+
+For example:
+
+```text
+Critical Incident Detected
+        ↓
+Immediate Incident Manager Notification
+        ↓
+CISO Notification
+        ↓
+Executive Management Notification
+        ↓
+Legal / Privacy Assessment
+        ↓
+Business Continuity Activation if Required
+```
+
+The classification process should define **response time targets**.
+
+For example:
+
+```text
+Critical:
+Immediate response
+
+High:
+Response within 15 minutes
+
+Medium:
+Response within 1 hour
+
+Low:
+Response within 1 business day
+```
+
+These targets should align with the organization's incident response policy and operational capabilities.
+
+The organization should also define **containment expectations**.
+
+For example:
+
+```text
+Critical:
+Immediate containment
+
+High:
+Urgent containment
+
+Medium:
+Containment according to incident response procedure
+
+Low:
+Containment when operationally appropriate
+```
+
+The severity matrix should also define when additional functions must be involved.
+
+For example:
+
+```text
+Privacy:
+Personal data potentially affected
+
+Legal:
+Potential legal or contractual exposure
+
+Compliance:
+Regulatory requirement potentially triggered
+
+Communications:
+Significant customer or public impact
+
+Finance:
+Financial loss or fraud
+
+Business Continuity:
+Critical service disruption
+```
+
+The classification process should also consider **data sensitivity**.
+
+For example:
+
+```text
+Public Data:
+Low additional impact
+
+Internal Data:
+Low to Medium
+
+Confidential Data:
+Medium to High
+
+Restricted / Highly Sensitive Data:
+High to Critical
+```
+
+However, data classification should not automatically determine incident severity. The organization should consider the actual circumstances and potential impact.
+
+The number of affected individuals should also be considered.
+
+For example:
+
+```text
+Affected Users:
+1
+
+Potential Severity:
+Low / Medium
+```
+
+Compared with:
+
+```text
+Affected Users:
+500,000
+
+Potential Severity:
+High / Critical
+```
+
+The business criticality of affected systems is another important factor.
+
+For example:
+
+```text
+System:
+Internal Training Portal
+
+Criticality:
+Low
+```
+
+Compared with:
+
+```text
+System:
+Core Banking Platform
+
+Criticality:
+Critical
+```
+
+An identical technical failure could therefore produce very different business consequences.
+
+The organization should also consider the **duration of disruption**.
+
+For example:
+
+```text
+Service Disruption:
+5 minutes
+
+Potential Severity:
+Low
+```
+
+Compared with:
+
+```text
+Service Disruption:
+48 hours
+
+Potential Severity:
+High / Critical
+```
+
+The ability to recover should also be considered.
+
+A system with a validated backup and tested recovery procedure may have a lower operational impact than a system with no viable recovery capability.
+
+The severity matrix should also consider **regulatory and contractual obligations**.
+
+For example:
+
+```text
+Incident:
+Personal Data Exposure
+
+Regulatory Requirement:
+Potential notification obligation
+
+Severity:
+High
+```
+
+Another incident involving the same amount of data may have a different severity depending on the nature of the information, jurisdiction, affected individuals, and potential harm.
+
+The organization should maintain documented criteria for **severity reassessment**.
+
+An incident may initially be classified as Medium:
+
+```text
+Initial Severity:
+Medium
+```
+
+During investigation, the organization may discover that sensitive data was accessed:
+
+```text
+New Finding:
+Restricted customer information accessed
+
+Updated Severity:
+High
+```
+
+Later, the organization may determine that a large number of records were exfiltrated:
+
+```text
+New Finding:
+Confirmed large-scale data exfiltration
+
+Updated Severity:
+Critical
+```
+
+Severity should therefore be treated as a dynamic assessment rather than a permanent classification assigned at the beginning of the incident.
+
+The incident record should maintain a history of severity changes.
+
+For example:
+
+```text
+Severity History
+
+10 Aug 08:50:
+Medium – Initial assessment
+
+10 Aug 10:15:
+High – Privileged access confirmed
+
+10 Aug 14:30:
+Critical – Data exfiltration confirmed
+```
+
+This provides an important audit trail.
+
+The organization should also record **who approved or assigned the severity**.
+
+For example:
+
+```text
+Initial Classification:
+SOC Analyst
+
+High Severity Confirmation:
+Incident Manager
+
+Critical Severity Confirmation:
+CISO
+```
+
+This creates accountability for significant classification decisions.
+
+The severity matrix should be periodically reviewed to determine whether it remains appropriate.
+
+The organization should analyze historical incidents to identify whether classifications were consistently applied.
+
+For example:
+
+```text
+Incident Review:
+
+20 incidents classified as Medium
+8 incidents classified as High
+2 incidents classified as Critical
+
+Observation:
+
+Several Medium incidents had significant
+business impact but were initially
+under-classified.
+```
+
+The organization can then refine its severity criteria.
+
+The GRC professional should ensure that incident classification is aligned with the organization's:
+
+```text
+Incident Response Policy
+Risk Management Framework
+Business Continuity Plan
+Data Protection Requirements
+Regulatory Obligations
+Third-Party Risk Requirements
+Crisis Management Procedures
+```
+
+The Incident Classification and Severity Matrix should also support management reporting.
+
+For example:
+
+```text
+Monthly Security Incidents
+
+Critical:
+2
+
+High:
+7
+
+Medium:
+24
+
+Low:
+51
+```
+
+Management can then identify whether the organization's incident risk is increasing or decreasing.
+
+Trend analysis may show:
+
+```text
+Critical Incidents:
+↑ Increasing
+
+High Incidents:
+→ Stable
+
+Phishing Incidents:
+↑ Increasing
+
+Malware Incidents:
+↓ Decreasing
+```
+
+This information can be used to prioritize security investments and corrective actions.
+
+The classification matrix should also be connected with the organization's risk register.
+
+For example:
+
+```text
+Incident:
+Repeated Phishing Compromise
+
+Observation:
+Weak User Authentication
+
+Risk:
+Credential Compromise
+
+Risk Rating:
+High
+
+Treatment:
+Implement phishing-resistant MFA
+```
+
+The incident classification process can therefore become a source of risk intelligence rather than simply an operational activity.
+
+A mature Incident Classification and Severity Matrix should enable the organization to answer:
+
+```text
+What type of incident occurred?
+
+Is this a security incident?
+
+How severe is the incident?
+
+What systems are affected?
+
+What data is affected?
+
+How many users are affected?
+
+What is the business impact?
+
+What is the security impact?
+
+Is there regulatory exposure?
+
+Who must be notified?
+
+How quickly must the organization respond?
+
+What resources are required?
+
+When should management be escalated?
+
+When should severity be reassessed?
+```
+
+The key principle is:
+
+> **Incident classification and severity assessment provide a consistent, risk-based mechanism for determining how a security event should be handled, ensuring that response activities, escalation, resources, and management attention are proportional to the actual and potential impact of the incident.**
+
+
 
 

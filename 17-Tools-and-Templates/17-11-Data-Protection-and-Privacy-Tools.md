@@ -3185,6 +3185,1443 @@ The key principle is:
 
 > **A PIA/DPIA provides a structured method for identifying and managing privacy risks before and during personal-data processing, ensuring that data collection and use are necessary, proportionate, transparent, appropriately protected, and subject to accountable risk-based governance.**
 
+**Part 4 – Data Breach Assessment Template**
+
+A Data Breach Assessment Template is a practical GRC tool used to evaluate suspected or confirmed incidents involving the unauthorized disclosure, access, alteration, loss, destruction, or unavailability of personal or sensitive information.
+
+The purpose of the assessment is to establish what happened, what information was affected, who may be affected, what the potential consequences are, what containment actions have been taken, and whether notification or escalation requirements apply.
+
+A data breach assessment should begin as soon as a potentially reportable privacy or security incident is identified.
+
+A practical assessment process can be represented as:
+
+```text
+Potential Data Breach
+        ↓
+Initial Triage
+        ↓
+Confirm Whether Personal Data Is Involved
+        ↓
+Containment
+        ↓
+Establish What Happened
+        ↓
+Identify Affected Data
+        ↓
+Identify Affected Individuals
+        ↓
+Assess Potential Consequences
+        ↓
+Assess Likelihood of Harm
+        ↓
+Determine Overall Risk
+        ↓
+Determine Notification Requirements
+        ↓
+Management / DPO Decision
+        ↓
+Remediation
+        ↓
+Documentation
+        ↓
+Lessons Learned
+```
+
+A practical Data Breach Assessment Template can contain:
+
+```text
+DATA BREACH ASSESSMENT
+
+Assessment ID:
+
+Incident ID:
+
+Date and Time Detected:
+
+Date and Time of Incident:
+
+Incident Reporter:
+
+Incident Owner:
+
+Privacy Owner:
+
+Data Protection Officer:
+
+Business Owner:
+
+Description of Incident:
+
+Incident Type:
+
+Systems / Applications Affected:
+
+Data Assets Affected:
+
+Personal Data Involved:
+
+Sensitive / Special-Category Data:
+
+Number of Records Affected:
+
+Number of Data Subjects Affected:
+
+Data Subjects:
+
+Data Classification:
+
+Data Location:
+
+Data Recipients:
+
+Third Parties Involved:
+
+Cause:
+
+Attack / Incident Method:
+
+Data Accessed:
+
+Data Disclosed:
+
+Data Modified:
+
+Data Lost:
+
+Data Destroyed:
+
+Data Exfiltrated:
+
+Containment Actions:
+
+Recovery Actions:
+
+Security Controls in Place:
+
+Likelihood of Harm:
+
+Severity of Consequences:
+
+Overall Breach Risk:
+
+Potential Regulatory Impact:
+
+Potential Financial Impact:
+
+Potential Reputational Impact:
+
+Potential Individual Harm:
+
+Notification Required:
+
+DPO Assessment:
+
+Regulatory Notification:
+
+Data Subject Notification:
+
+Contractual Notification:
+
+Management Notification:
+
+Risk Treatment:
+
+Corrective Actions:
+
+Action Owner:
+
+Target Date:
+
+Evidence:
+
+Assessment Decision:
+
+Closure Date:
+
+Lessons Learned:
+
+Review Date:
+
+Status:
+```
+
+The first step is to assign a unique **Assessment ID**.
+
+For example:
+
+```text
+BRT-2026-001
+BRT-2026-002
+BRT-2026-003
+```
+
+The assessment should also reference the organization's **Incident ID**.
+
+For example:
+
+```text
+Incident ID:
+INC-2026-145
+
+Breach Assessment:
+BRT-2026-021
+```
+
+This creates traceability between the security incident management process and the privacy breach assessment.
+
+The assessment should record **when the incident was detected**.
+
+For example:
+
+```text
+Date Detected:
+10 August 2026
+
+Time Detected:
+09:35
+```
+
+Where known, the organization should also record the **date and time the breach occurred**.
+
+For example:
+
+```text
+Incident Occurred:
+09 August 2026
+22:15
+
+Incident Detected:
+10 August 2026
+09:35
+```
+
+The difference between occurrence and detection can be important when determining the scope and duration of the incident.
+
+The assessment should identify the **incident reporter**.
+
+For example:
+
+```text
+Incident Reporter:
+Security Operations Analyst
+```
+
+The assessment should identify the **incident owner**.
+
+For example:
+
+```text
+Incident Owner:
+Cybersecurity Incident Manager
+```
+
+The assessment should identify the **privacy owner** and, where applicable, the **Data Protection Officer**.
+
+For example:
+
+```text
+Privacy Owner:
+Privacy Manager
+
+DPO:
+Data Protection Officer
+```
+
+The assessment should identify the **business owner** responsible for the affected service or information.
+
+For example:
+
+```text
+Business Owner:
+Customer Operations Director
+```
+
+The assessment should provide a clear **description of the incident**.
+
+A weak description would be:
+
+```text
+Customer data was leaked.
+```
+
+A stronger description would be:
+
+```text
+A customer support employee accidentally sent
+a spreadsheet containing customer contact
+information to an unauthorized external recipient.
+The email was identified approximately 20 minutes
+after transmission and the recipient was contacted
+to request immediate deletion.
+```
+
+The description should explain:
+
+```text
+What happened?
+How did it happen?
+When did it happen?
+What information was involved?
+Who received or accessed the information?
+What actions were taken?
+```
+
+The assessment should classify the **incident type**.
+
+Examples include:
+
+```text
+Unauthorized Disclosure
+Unauthorized Access
+Lost Device
+Stolen Device
+Phishing
+Malware
+Ransomware
+Misconfiguration
+Accidental Disclosure
+Insider Activity
+Third-Party Breach
+Hacking
+Data Exfiltration
+Improper Disposal
+```
+
+Multiple categories may apply.
+
+The assessment should identify the **affected systems and applications**.
+
+For example:
+
+```text
+CRM Platform
+Email System
+File Storage
+HR System
+Customer Portal
+Database
+Cloud Storage
+```
+
+The assessment should identify the **affected data assets**.
+
+For example:
+
+```text
+Customer Database
+Employee Records
+Financial Records
+Security Logs
+Authentication Information
+```
+
+The assessment should determine whether **personal data was involved**.
+
+For example:
+
+```text
+Personal Data:
+Yes
+```
+
+The assessment should identify the specific categories.
+
+For example:
+
+```text
+Names
+Email Addresses
+Telephone Numbers
+Customer IDs
+Account Information
+Transaction Information
+```
+
+The assessment should determine whether **sensitive or special-category data** was involved.
+
+For example:
+
+```text
+Special-Category Data:
+No
+```
+
+Or:
+
+```text
+Special-Category Data:
+Yes
+
+Type:
+Health Information
+```
+
+This distinction may significantly affect the assessment of potential harm and notification requirements.
+
+The assessment should estimate the **number of records affected**.
+
+For example:
+
+```text
+Estimated Records:
+12,500
+```
+
+If the exact number is initially unknown, the assessment should document an estimate and update it as the investigation progresses.
+
+For example:
+
+```text
+Initial Estimate:
+Approximately 10,000–15,000 records
+
+Confirmed:
+12,438 records
+```
+
+The assessment should determine the **number of affected data subjects**.
+
+This may be different from the number of records.
+
+For example:
+
+```text
+Records:
+25,000
+
+Affected Individuals:
+18,000
+```
+
+The assessment should identify the affected **data subject categories**.
+
+Examples include:
+
+```text
+Customers
+Employees
+Job Applicants
+Children
+Patients
+Suppliers
+Contractors
+```
+
+The organization should consider whether certain groups may be particularly vulnerable.
+
+The assessment should identify the **data classification**.
+
+For example:
+
+```text
+Data Classification:
+Restricted
+```
+
+Classification provides an important input into the breach risk assessment.
+
+The assessment should identify the **data location**.
+
+For example:
+
+```text
+System:
+Customer CRM
+
+Location:
+European Union
+```
+
+The assessment should identify **data recipients** if the information was disclosed.
+
+For example:
+
+```text
+Unauthorized Recipient:
+External Email Address
+
+Recipient Type:
+Unknown Third Party
+```
+
+The assessment should identify **third parties involved**.
+
+For example:
+
+```text
+Cloud Provider
+Managed Service Provider
+Payment Processor
+Customer Support Provider
+Software Provider
+```
+
+The assessment should determine the **cause of the breach**.
+
+Examples include:
+
+```text
+Human Error
+Weak Authentication
+Compromised Credentials
+Misconfiguration
+Software Vulnerability
+Insider Misuse
+Lost Device
+Third-Party Failure
+Malware
+Phishing
+```
+
+For example:
+
+```text
+Cause:
+Misconfigured cloud storage permissions
+```
+
+The assessment should document the **attack or incident method**.
+
+For example:
+
+```text
+Attack Method:
+Compromised employee credentials
+
+Initial Access:
+Phishing email
+
+Affected Account:
+Customer Support Administrator
+```
+
+Where the incident is accidental rather than malicious, the assessment should document that clearly.
+
+For example:
+
+```text
+Method:
+Accidental email disclosure
+```
+
+The assessment should determine whether data was **accessed**.
+
+For example:
+
+```text
+Data Accessed:
+Yes
+
+Evidence:
+Authentication logs show successful
+access from an unauthorized IP address.
+```
+
+The assessment should determine whether data was **disclosed**.
+
+For example:
+
+```text
+Data Disclosed:
+Yes
+
+Recipient:
+Unauthorized external party
+```
+
+The assessment should determine whether data was **modified**.
+
+For example:
+
+```text
+Data Modified:
+No
+```
+
+The assessment should determine whether information was **lost**.
+
+For example:
+
+```text
+Data Lost:
+No
+```
+
+The assessment should determine whether information was **destroyed**.
+
+For example:
+
+```text
+Data Destroyed:
+No
+```
+
+The assessment should determine whether data was **exfiltrated**.
+
+For example:
+
+```text
+Data Exfiltration:
+Confirmed
+
+Estimated Volume:
+Approximately 2 GB
+```
+
+If exfiltration cannot be confirmed:
+
+```text
+Data Exfiltration:
+Not Confirmed
+
+Evidence:
+No confirmed outbound transfer identified.
+Investigation continues.
+```
+
+The assessment should document **containment actions**.
+
+Examples include:
+
+```text
+Disable Compromised Account
+Revoke Credentials
+Block IP Address
+Remove Public Access
+Isolate System
+Disable Integration
+Recall Email
+Contact Unauthorized Recipient
+Suspend Vendor Access
+```
+
+For example:
+
+```text
+Containment:
+
+Compromised account disabled.
+Active sessions terminated.
+Password reset completed.
+MFA re-enrollment required.
+Unauthorized access blocked.
+```
+
+The assessment should document **recovery actions**.
+
+Examples include:
+
+```text
+Restore Systems
+Reset Credentials
+Rebuild Compromised Hosts
+Restore Secure Configuration
+Validate Data Integrity
+Monitor Affected Accounts
+```
+
+The assessment should identify the **security controls that were already in place**.
+
+For example:
+
+```text
+MFA
+Endpoint Protection
+DLP
+Email Security
+Access Control
+Logging
+SIEM Monitoring
+Encryption
+Data Classification
+```
+
+The assessment should determine whether those controls operated effectively.
+
+For example:
+
+```text
+Control:
+MFA
+
+Effectiveness:
+Effective
+
+Control:
+DLP
+
+Effectiveness:
+Partially Effective
+```
+
+The organization should assess the **likelihood of harm** to affected individuals.
+
+A practical scale may be:
+
+```text
+1 – Very Low
+2 – Low
+3 – Moderate
+4 – High
+5 – Very High
+```
+
+Factors may include:
+
+```text
+Nature of the Data
+Sensitivity of the Data
+Number of Individuals
+Potential Recipient
+Malicious Intent
+Possibility of Identity Theft
+Possibility of Financial Fraud
+Potential Discrimination
+Potential Physical Harm
+Potential Reputational Harm
+```
+
+The assessment should evaluate the **severity of consequences**.
+
+For example:
+
+```text
+1 – Insignificant
+2 – Minor
+3 – Moderate
+4 – Major
+5 – Severe
+```
+
+The organization can then calculate an overall breach risk.
+
+For example:
+
+```text
+Likelihood of Harm × Severity of Consequences
+= Overall Breach Risk
+```
+
+Example:
+
+```text
+Likelihood:
+4 – High
+
+Severity:
+5 – Severe
+
+Overall Risk:
+20 – Critical
+```
+
+The exact scoring model should be aligned with the organization's approved privacy and risk methodology.
+
+The assessment should consider **potential regulatory impact**.
+
+For example:
+
+```text
+Regulatory Impact:
+
+Potential Privacy Regulation Breach
+Potential Notification Requirement
+Potential Regulatory Investigation
+Potential Enforcement Action
+```
+
+The assessment should not automatically conclude that a regulatory violation occurred. The purpose of the assessment is to determine whether applicable obligations may have been triggered.
+
+The assessment should consider **potential financial impact**.
+
+For example:
+
+```text
+Financial Impact:
+
+Fraud Risk
+Incident Response Costs
+Customer Support Costs
+Legal Costs
+Regulatory Exposure
+Business Interruption
+Remediation Costs
+```
+
+The assessment should consider **potential reputational impact**.
+
+For example:
+
+```text
+Reputational Impact:
+High
+
+Potential Consequences:
+
+Loss of Customer Trust
+Negative Publicity
+Customer Complaints
+Business Loss
+Partner Concerns
+```
+
+The assessment should specifically consider **potential harm to individuals**.
+
+For example:
+
+```text
+Potential Individual Harm:
+
+Identity Theft
+Financial Fraud
+Loss of Confidentiality
+Discrimination
+Embarrassment
+Reputational Damage
+Physical Safety Risk
+Psychological Harm
+```
+
+The organization should document the reasoning rather than simply selecting a risk score.
+
+For example:
+
+```text
+The affected information includes names,
+addresses, account identifiers, and financial
+information. The information could potentially
+be used for identity theft or targeted fraud.
+The affected population is significant and
+unauthorized access cannot currently be excluded.
+```
+
+The assessment should determine whether **notification is required**.
+
+For example:
+
+```text
+Notification Required:
+Under Assessment
+```
+
+The assessment should distinguish between different notification obligations.
+
+For example:
+
+```text
+Regulatory Authority Notification
+Data Subject Notification
+Contractual Notification
+Customer Notification
+Insurance Notification
+Management Notification
+```
+
+The organization should not treat all notification types as equivalent.
+
+The assessment should document the **DPO or privacy decision**.
+
+For example:
+
+```text
+DPO Assessment:
+
+The incident involves personal data and
+requires formal assessment of potential
+risk to affected individuals.
+```
+
+The assessment should document whether **regulatory notification** is required.
+
+For example:
+
+```text
+Regulatory Notification:
+Required
+
+Decision Basis:
+Risk assessment indicates that notification
+requirements are triggered under applicable
+privacy requirements.
+```
+
+The organization should document the actual legal basis for the decision through its privacy or legal function.
+
+The assessment should determine whether **data subject notification** is required.
+
+For example:
+
+```text
+Data Subject Notification:
+Required
+```
+
+The decision should be supported by the organization's legal and privacy assessment.
+
+The assessment should also identify **contractual notification requirements**.
+
+For example:
+
+```text
+Third-Party Contract:
+Security incident notification required.
+
+Supplier Notification:
+Completed.
+```
+
+Third-party contracts may contain specific incident notification requirements.
+
+The assessment should document **management notification**.
+
+For example:
+
+```text
+Management Notification:
+
+CISO
+Chief Privacy Officer
+Business Owner
+Executive Management
+```
+
+The escalation level should depend on severity and organizational governance requirements.
+
+The assessment should identify the **risk treatment**.
+
+Possible treatments include:
+
+```text
+Mitigate
+Accept
+Transfer
+Avoid
+```
+
+For a data breach, mitigation will generally include both immediate containment and longer-term corrective actions.
+
+The assessment should document **corrective actions**.
+
+For example:
+
+```text
+Corrective Actions:
+
+Implement stronger email DLP controls.
+Provide additional employee training.
+Restrict external forwarding.
+Perform access review.
+Update data handling procedures.
+```
+
+Each action should have an **owner**.
+
+For example:
+
+```text
+Action:
+Implement DLP policy.
+
+Owner:
+Information Security Manager
+```
+
+Each action should have a **target date**.
+
+For example:
+
+```text
+Target Date:
+30 September 2026
+```
+
+The organization should retain appropriate **evidence**.
+
+Examples include:
+
+```text
+Incident Report
+System Logs
+SIEM Alerts
+Email Records
+Access Logs
+Forensic Evidence
+Data Inventory
+Data Classification Record
+DPO Assessment
+Notification Decision
+Regulatory Correspondence
+Affected Data Analysis
+Remediation Evidence
+Management Approval
+```
+
+Evidence should be protected because breach investigations may contain sensitive security and personal information.
+
+The assessment should document the **final decision**.
+
+For example:
+
+```text
+Assessment Decision:
+
+Personal data breach confirmed.
+
+Risk to affected individuals assessed as high.
+
+Regulatory notification required.
+
+Data subject notification required.
+
+Corrective actions initiated.
+```
+
+The assessment should include a **closure date** once the investigation and required actions have been completed or formally transitioned to ongoing remediation.
+
+The organization should also document **lessons learned**.
+
+For example:
+
+```text
+Lessons Learned:
+
+External email controls were insufficient.
+Sensitive data was not adequately restricted.
+Employees required additional awareness training.
+Data minimization should be strengthened.
+```
+
+The assessment should identify whether the incident requires updates to:
+
+```text
+Security Controls
+Privacy Procedures
+Data Classification
+Access Controls
+Security Awareness
+Vendor Requirements
+Incident Response Procedures
+Business Continuity
+Risk Assessments
+PIA / DPIA
+```
+
+A practical completed assessment may look like:
+
+```text
+DATA BREACH ASSESSMENT
+
+Assessment ID:
+BRT-2026-024
+
+Incident ID:
+INC-2026-145
+
+Incident Type:
+Unauthorized Disclosure
+
+Date Detected:
+10 August 2026
+
+Business Owner:
+Customer Operations Director
+
+Privacy Owner:
+Privacy Manager
+
+Data Protection Officer:
+DPO
+
+Affected System:
+Customer Support Platform
+
+Affected Data:
+Customer Name
+Email Address
+Telephone Number
+Customer ID
+Support History
+
+Data Classification:
+Confidential
+
+Number of Records:
+12,438
+
+Affected Data Subjects:
+Approximately 11,900 Customers
+
+Cause:
+Employee accidentally sent a customer
+export file to an unauthorized external
+recipient.
+
+Data Accessed:
+Yes
+
+Data Disclosed:
+Yes
+
+Data Modified:
+No
+
+Data Lost:
+No
+
+Data Exfiltrated:
+Not Applicable
+
+Containment:
+
+Recipient contacted.
+Deletion requested.
+Access to export functionality restricted.
+Employee account reviewed.
+
+Security Controls:
+
+Access Control – Effective
+DLP – Partially Effective
+Email Security – Partially Effective
+
+Likelihood of Harm:
+3 – Moderate
+
+Severity:
+4 – Major
+
+Overall Risk:
+12 – High
+
+Potential Individual Harm:
+
+Targeted phishing
+Fraud attempts
+Loss of confidentiality
+
+Regulatory Impact:
+Under Assessment
+
+Regulatory Notification:
+Required / Pending Privacy Confirmation
+
+Data Subject Notification:
+Under Assessment
+
+Corrective Actions:
+
+Strengthen DLP controls.
+Restrict customer data exports.
+Provide targeted security awareness training.
+Review customer support access permissions.
+
+Action Owner:
+Customer Security Manager
+
+Target Date:
+30 September 2026
+
+Status:
+Remediation in Progress
+```
+
+The assessment should be updated when additional facts become available.
+
+For example:
+
+```text
+Initial Assessment:
+12,438 records potentially affected.
+
+Investigation:
+8,742 records confirmed affected.
+
+Final Assessment:
+8,742 affected records.
+```
+
+This demonstrates why the assessment should be treated as a living record during an investigation.
+
+A mature breach assessment process should distinguish between **facts, assumptions, and decisions**.
+
+For example:
+
+```text
+FACT:
+12,438 records were contained in the file.
+
+CONFIRMED:
+The file was sent to one external recipient.
+
+UNKNOWN:
+Whether the recipient opened the file.
+
+DECISION:
+Privacy team will assess notification
+requirements based on available evidence.
+```
+
+This prevents assumptions from being presented as confirmed findings.
+
+The organization should also maintain a clear **timeline**.
+
+For example:
+
+```text
+09 Aug 2026 – 22:15
+Unauthorized disclosure occurred.
+
+10 Aug 2026 – 09:35
+Incident detected.
+
+10 Aug 2026 – 09:50
+Account access restricted.
+
+10 Aug 2026 – 10:20
+Recipient contacted.
+
+10 Aug 2026 – 12:00
+Initial data assessment completed.
+
+10 Aug 2026 – 15:00
+Privacy assessment initiated.
+
+11 Aug 2026 – 10:00
+Notification decision completed.
+```
+
+A timeline provides valuable evidence for management, auditors, regulators, and post-incident reviews.
+
+The GRC professional should also ensure that the breach assessment connects with the organization's other GRC processes.
+
+```text
+Security Incident
+        ↓
+Data Breach Assessment
+        ↓
+Data Inventory
+        ↓
+Data Classification
+        ↓
+Privacy Risk Assessment
+        ↓
+Regulatory Assessment
+        ↓
+Third-Party Risk
+        ↓
+Corrective Action
+        ↓
+Risk Register
+        ↓
+Audit Evidence
+```
+
+A data breach may also trigger an update to the organization's risk register.
+
+For example:
+
+```text
+Existing Risk:
+Medium
+
+Breach Occurs
+
+Risk Reassessment:
+High
+
+Treatment:
+Additional Security Controls
+
+Risk Owner:
+CISO
+```
+
+The breach assessment should also be connected to the **PIA/DPIA**.
+
+If a breach reveals that the original privacy assessment underestimated a particular risk, the organization should update the assessment.
+
+For example:
+
+```text
+Original DPIA:
+Third-party data access – Medium Risk
+
+Breach:
+Unauthorized third-party access identified
+
+Updated DPIA:
+Third-party access – High Risk
+
+Additional Control:
+Enhanced third-party monitoring
+```
+
+The organization should periodically analyze breach records for recurring patterns.
+
+For example:
+
+```text
+2026 Breach Analysis
+
+Human Error:
+35%
+
+Phishing:
+25%
+
+Misconfiguration:
+20%
+
+Third-Party Incident:
+10%
+
+Lost Devices:
+5%
+
+Other:
+5%
+```
+
+These results can inform the organization's cybersecurity and privacy improvement programs.
+
+The organization can also identify recurring control weaknesses.
+
+For example:
+
+```text
+Repeated Issue:
+Excessive Data Access
+
+Recommended Action:
+Strengthen RBAC and access reviews.
+```
+
+Or:
+
+```text
+Repeated Issue:
+Employees sending sensitive data
+to external recipients.
+
+Recommended Action:
+Improve DLP and security awareness.
+```
+
+This transforms individual incidents into organizational risk intelligence.
+
+The breach assessment can also provide inputs to management reporting.
+
+For example:
+
+```text
+Total Privacy Incidents:
+24
+
+Confirmed Personal Data Breaches:
+8
+
+High-Risk Breaches:
+2
+
+Average Time to Containment:
+3.2 Hours
+
+Overdue Corrective Actions:
+4
+```
+
+The GRC team can use these metrics to identify trends and communicate privacy risk to management.
+
+The organization should ensure that breach assessment records themselves are appropriately protected.
+
+They may contain:
+
+```text
+Personal Information
+Security Information
+Forensic Findings
+Legal Advice
+Incident Details
+Vulnerability Information
+Employee Information
+```
+
+Access should therefore be restricted to authorized personnel.
+
+A mature Data Breach Assessment process can be represented as:
+
+```text
+Detection
+   ↓
+Triage
+   ↓
+Containment
+   ↓
+Investigation
+   ↓
+Data Identification
+   ↓
+Impact Assessment
+   ↓
+Privacy Risk Assessment
+   ↓
+Notification Decision
+   ↓
+Remediation
+   ↓
+Documentation
+   ↓
+Lessons Learned
+   ↓
+Risk Improvement
+```
+
+The GRC professional should be able to use the Data Breach Assessment Template to answer:
+
+```text
+What happened?
+
+When did it happen?
+
+When was it detected?
+
+What information was affected?
+
+How sensitive was the information?
+
+How many individuals were affected?
+
+Was the information accessed or disclosed?
+
+Was the information modified or destroyed?
+
+Who received or accessed the information?
+
+What controls were in place?
+
+Did those controls operate effectively?
+
+What harm could result?
+
+What is the overall risk?
+
+Is notification required?
+
+Who made the notification decision?
+
+What corrective actions are required?
+
+Who owns those actions?
+
+When will they be completed?
+
+What lessons were learned?
+```
+
+The key principle is:
+
+> **A Data Breach Assessment provides a structured and auditable method for determining the nature, scope, impact, and risk of a personal data breach, supporting timely containment, informed notification decisions, accountable remediation, regulatory compliance, and continuous improvement of the organization's privacy and security controls.**
+
 
 
 

@@ -1483,5 +1483,1265 @@ The key principle is:
 
 > **A security awareness training plan should provide a structured, risk-based approach for educating personnel, measuring security knowledge and behavior, addressing identified weaknesses, and continuously improving the organization's human security posture.**
 
+## Part 2 – Phishing Simulation Template
+
+A Phishing Simulation Template provides a structured method for planning, conducting, measuring, and improving phishing awareness simulations. The purpose is to evaluate whether employees can recognize and appropriately respond to simulated phishing attempts and to identify areas where additional security awareness training may be required.
+
+Phishing simulations should be designed as an awareness and risk-management activity rather than as a punitive exercise. Results should be used to improve employee awareness, identify trends, strengthen reporting behavior, and reduce the likelihood of successful phishing attacks.
+
+A practical Phishing Simulation Template can contain:
+
+```text
+PHISHING SIMULATION TEMPLATE
+
+Simulation ID:
+
+Campaign Name:
+
+Campaign Owner:
+
+Security Awareness Owner:
+
+Reporting Period:
+
+Simulation Objective:
+
+Related Risk:
+
+Target Population:
+
+Excluded Population:
+
+Simulation Type:
+
+Phishing Scenario:
+
+Email Characteristics:
+
+Simulation Date:
+
+Simulation Duration:
+
+Expected Employee Behavior:
+
+Reporting Mechanism:
+
+Training Message:
+
+Success Criteria:
+
+Employees Targeted:
+
+Emails Delivered:
+
+Emails Opened:
+
+Links Clicked:
+
+Attachments Opened:
+
+Credentials Submitted:
+
+Phishing Emails Reported:
+
+Reporting Rate:
+
+Click Rate:
+
+Credential Submission Rate:
+
+Repeat Failure Rate:
+
+Department Results:
+
+Role-Based Results:
+
+Risk Rating:
+
+Key Findings:
+
+Lessons Learned:
+
+Remediation Actions:
+
+Additional Training Required:
+
+Action Owner:
+
+Target Completion Date:
+
+Evidence Location:
+
+Management Reporting:
+
+Review Date:
+
+Approval:
+```
+
+The simulation should have a unique **simulation ID**.
+
+For example:
+
+```text
+Simulation ID:
+
+PHISH-2026-007
+```
+
+The simulation should have a clear **campaign name**.
+
+For example:
+
+```text
+Campaign Name:
+
+Quarter 3 Phishing Awareness Simulation
+```
+
+The organization should identify the **campaign owner**.
+
+For example:
+
+```text
+Campaign Owner:
+
+Security Awareness Program Manager
+```
+
+The **security awareness owner** should also be identified.
+
+```text
+Security Awareness Owner:
+
+Cybersecurity GRC Manager
+```
+
+The simulation should identify the **reporting period**.
+
+```text
+Reporting Period:
+
+July – September 2026
+```
+
+The simulation should define its **objective**.
+
+For example:
+
+```text
+Simulation Objective:
+
+Evaluate employee ability to identify
+and report simulated phishing emails
+and measure changes in phishing-related
+security behavior.
+```
+
+The simulation should identify the **related cybersecurity risk**.
+
+For example:
+
+```text
+Related Risk:
+
+Credential compromise through
+phishing and social engineering.
+```
+
+Other related risks may include:
+
+```text
+Malware Infection
+
+Business Email Compromise
+
+Unauthorized Access
+
+Data Disclosure
+
+Financial Fraud
+
+Account Takeover
+```
+
+The organization should define the **target population**.
+
+For example:
+
+```text
+Target Population:
+
+All employees and contractors with
+corporate email accounts.
+```
+
+The organization may also conduct targeted simulations.
+
+For example:
+
+```text
+Target Population:
+
+Finance Department
+
+Accounts Payable Team
+
+Executive Assistants
+```
+
+Targeted campaigns can be appropriate when a particular group has elevated exposure to a specific threat.
+
+The organization should define an **excluded population** where appropriate.
+
+For example:
+
+```text
+Excluded Population:
+
+Security Operations Team
+
+Employees on approved extended leave
+
+Test Accounts
+```
+
+Exclusions should be documented and approved.
+
+The simulation should identify the **simulation type**.
+
+Examples include:
+
+```text
+Credential Phishing
+
+Malicious Attachment
+
+Malicious Link
+
+Business Email Compromise
+
+Executive Impersonation
+
+Password Reset Scam
+
+Cloud Service Notification
+
+Invoice Fraud
+
+Delivery Notification
+
+HR Notification
+
+Multi-Factor Authentication Prompt
+```
+
+The selected scenario should be appropriate for the organization's threat environment.
+
+The simulation should define the **phishing scenario**.
+
+For example:
+
+```text
+Phishing Scenario:
+
+Simulated Microsoft 365 password
+expiration notification requesting
+the user to verify their account.
+```
+
+The scenario should resemble realistic threats without unnecessarily exposing employees to harmful content.
+
+The simulation should document relevant **email characteristics**.
+
+For example:
+
+```text
+Email Characteristics:
+
+Sender:
+
+Simulated Corporate IT Department
+
+Subject:
+
+Your Password Will Expire
+
+Call to Action:
+
+Verify Account
+
+Simulation Link:
+
+Controlled Internal Simulation Environment
+```
+
+The simulation should never direct employees to real malicious infrastructure.
+
+The organization should define the **simulation date**.
+
+```text
+Simulation Date:
+
+15 August 2026
+```
+
+The organization should define the **simulation duration**.
+
+For example:
+
+```text
+Simulation Duration:
+
+72 Hours
+```
+
+The simulation should define the **expected employee behavior**.
+
+For example:
+
+```text
+Expected Employee Behavior:
+
+Do not click the simulated phishing link.
+
+Report the message using the approved
+phishing reporting mechanism.
+
+Delete the suspicious message after reporting.
+```
+
+The organization should define the **reporting mechanism**.
+
+Examples include:
+
+```text
+Report Phishing Button
+
+Security Operations Portal
+
+Security Awareness Platform
+
+Security Email Address
+
+Incident Reporting System
+```
+
+For example:
+
+```text
+Reporting Mechanism:
+
+Report Phishing button integrated
+with the corporate email platform.
+```
+
+The simulation should provide an appropriate **training message**.
+
+For example:
+
+```text
+Training Message:
+
+This was a simulated phishing exercise.
+
+The purpose of the exercise is to help
+employees recognize suspicious messages.
+
+Remember to verify unexpected requests,
+avoid suspicious links and attachments,
+and report suspected phishing through
+the approved reporting mechanism.
+```
+
+The organization should define **success criteria**.
+
+For example:
+
+```text
+Success Criteria:
+
+Employees do not interact with the
+simulated malicious content.
+
+Employees report the simulated phishing
+message through the approved mechanism.
+```
+
+The simulation should record the number of **employees targeted**.
+
+```text
+Employees Targeted:
+
+4,500
+```
+
+The number of **emails delivered** should be recorded.
+
+```text
+Emails Delivered:
+
+4,470
+```
+
+The difference between targeted and delivered messages should be investigated where material.
+
+The simulation should record **emails opened** where the platform supports reliable measurement.
+
+```text
+Emails Opened:
+
+2,900
+```
+
+Open rates should be interpreted carefully because technical factors can affect email-open measurements.
+
+The simulation should record **links clicked**.
+
+```text
+Links Clicked:
+
+180
+```
+
+The organization can calculate the click rate.
+
+```text
+Click Rate:
+
+180 ÷ 4,470 × 100
+
+= 4.03%
+```
+
+The simulation should record **attachments opened** where applicable.
+
+```text
+Attachments Opened:
+
+35
+```
+
+The simulation should record **credential submissions** if the simulation includes a controlled credential-entry page.
+
+```text
+Credentials Submitted:
+
+24
+```
+
+The organization should never collect real employee passwords during a phishing simulation.
+
+A safe simulation should use a controlled mechanism that records only that a simulated submission occurred.
+
+The simulation should record **phishing emails reported**.
+
+```text
+Phishing Emails Reported:
+
+2,970
+```
+
+The organization should calculate the **phishing reporting rate**.
+
+```text
+Reporting Rate:
+
+2,970 ÷ 4,470 × 100
+
+= 66.44%
+```
+
+The reporting rate is often an important indicator because identifying and reporting phishing can help security teams respond before other employees are affected.
+
+The simulation should calculate the **click rate**.
+
+```text
+Click Rate:
+
+Emails Clicked
+÷
+Emails Delivered
+× 100
+```
+
+For example:
+
+```text
+180 ÷ 4,470 × 100
+
+= 4.03%
+```
+
+The simulation should calculate the **credential submission rate** where applicable.
+
+```text
+Credential Submission Rate:
+
+Credentials Submitted
+÷
+Emails Delivered
+× 100
+```
+
+For example:
+
+```text
+24 ÷ 4,470 × 100
+
+= 0.54%
+```
+
+The organization should monitor the **repeat failure rate**.
+
+A repeat failure occurs when an employee repeatedly interacts with simulated phishing attempts over multiple campaigns.
+
+For example:
+
+```text
+Repeat Failure Rate:
+
+Employees Who Failed Multiple Simulations
+÷
+Employees Tested
+× 100
+```
+
+For example:
+
+```text
+42 ÷ 4,500 × 100
+
+= 0.93%
+```
+
+Repeat failures may indicate the need for targeted awareness or additional training.
+
+The organization should analyze **department-level results**.
+
+For example:
+
+```text
+DEPARTMENT RESULTS
+
+Finance:
+
+Click Rate:
+7%
+
+Reporting Rate:
+58%
+
+Status:
+Needs Improvement
+
+Human Resources:
+
+Click Rate:
+3%
+
+Reporting Rate:
+72%
+
+Status:
+Acceptable
+
+IT:
+
+Click Rate:
+1%
+
+Reporting Rate:
+89%
+
+Status:
+Strong
+```
+
+Department-level results should be used to identify areas requiring additional support rather than to publicly shame employees.
+
+The organization should analyze **role-based results**.
+
+For example:
+
+```text
+ROLE-BASED RESULTS
+
+Executives:
+
+Click Rate:
+2%
+
+Reporting Rate:
+81%
+
+Finance:
+
+Click Rate:
+7%
+
+Reporting Rate:
+58%
+
+Privileged Administrators:
+
+Click Rate:
+1%
+
+Reporting Rate:
+92%
+```
+
+Role-based analysis can help identify groups with elevated risk exposure.
+
+The simulation should assign an appropriate **risk rating**.
+
+For example:
+
+```text
+Risk Rating:
+
+Medium
+
+Reason:
+
+Overall click rate remains above the
+organization's target but has improved
+from the previous campaign.
+```
+
+The simulation should document **key findings**.
+
+For example:
+
+```text
+KEY FINDINGS
+
+1. Overall phishing click rate decreased
+   from 7% to 4%.
+
+2. Phishing reporting rate increased
+   from 51% to 66%.
+
+3. Finance remains the highest-risk
+   department.
+
+4. Forty-two employees failed multiple
+   simulations.
+
+5. Credential submission rate decreased
+   compared with the previous campaign.
+```
+
+The simulation should document **lessons learned**.
+
+For example:
+
+```text
+LESSONS LEARNED
+
+Employees responded well to the
+phishing reporting mechanism.
+
+Additional awareness is required
+for finance-related phishing scenarios.
+
+Repeat failures require targeted
+follow-up training.
+```
+
+The organization should define **remediation actions**.
+
+For example:
+
+```text
+REMEDIATION ACTIONS
+
+1. Provide targeted phishing training
+   to Finance.
+
+2. Assign remedial awareness training
+   to repeat failures.
+
+3. Conduct an additional phishing
+   simulation within 90 days.
+
+4. Reinforce phishing reporting
+   procedures.
+```
+
+Each action should have an **action owner**.
+
+```text
+Action Owner:
+
+Security Awareness Program Manager
+```
+
+The organization should establish a **target completion date**.
+
+```text
+Target Completion Date:
+
+30 September 2026
+```
+
+The simulation should identify whether **additional training is required**.
+
+For example:
+
+```text
+Additional Training Required:
+
+Yes
+
+Target Group:
+
+Employees with repeated simulation
+failures and Finance personnel.
+```
+
+The organization should retain **evidence**.
+
+Examples include:
+
+```text
+Simulation Configuration
+
+Campaign Approval
+
+Target Population
+
+Training Materials
+
+Simulation Results
+
+Reporting Statistics
+
+Remediation Records
+
+Management Reports
+```
+
+For example:
+
+```text
+Evidence Location:
+
+Security Awareness Platform
+
+GRC Repository
+
+Campaign ID:
+PHISH-2026-007
+```
+
+The simulation should define **management reporting**.
+
+For example:
+
+```text
+Management Reporting:
+
+Summary included in the monthly
+Cybersecurity GRC Dashboard.
+
+Material findings escalated to
+the CISO.
+```
+
+The simulation should have a **review date**.
+
+```text
+Review Date:
+
+30 September 2026
+```
+
+The campaign should also have appropriate approval.
+
+```text
+Prepared By:
+
+Security Awareness Program Manager
+
+Reviewed By:
+
+Cybersecurity GRC Manager
+
+Approved By:
+
+Chief Information Security Officer
+```
+
+Phishing simulations should be aligned with the organization's **security awareness program**.
+
+The relationship can be represented as:
+
+```text
+Security Risk
+      ↓
+Phishing Threat
+      ↓
+Simulation Design
+      ↓
+Phishing Campaign
+      ↓
+Employee Behavior
+      ↓
+Measurement
+      ↓
+Risk Analysis
+      ↓
+Targeted Training
+      ↓
+Repeat Measurement
+      ↓
+Program Improvement
+```
+
+The GRC professional should ensure that simulations are based on realistic organizational risks.
+
+For example:
+
+```text
+Risk:
+
+Business Email Compromise
+
+Simulation:
+
+Executive impersonation requesting
+urgent financial action.
+```
+
+```text
+Risk:
+
+Credential Theft
+
+Simulation:
+
+Fake password expiration notification.
+```
+
+```text
+Risk:
+
+Malware Infection
+
+Simulation:
+
+Simulated malicious attachment.
+```
+
+```text
+Risk:
+
+Cloud Account Compromise
+
+Simulation:
+
+Fake cloud security alert requesting
+account verification.
+```
+
+The organization should periodically change simulation scenarios.
+
+Repeatedly using the same type of phishing email can reduce the value of the exercise because employees may learn to recognize the simulation pattern rather than developing broader phishing awareness.
+
+A campaign sequence may look like:
+
+```text
+Campaign 1:
+
+Password Reset
+
+Campaign 2:
+
+Invoice Fraud
+
+Campaign 3:
+
+Cloud Security Alert
+
+Campaign 4:
+
+Executive Impersonation
+```
+
+The organization should also consider **difficulty levels**.
+
+For example:
+
+```text
+Level 1:
+
+Obvious phishing indicators
+
+Level 2:
+
+Moderate social engineering
+
+Level 3:
+
+Highly realistic business scenario
+
+Level 4:
+
+Role-specific targeted simulation
+```
+
+Difficulty should increase gradually as the organization's awareness maturity improves.
+
+The simulation should measure both **negative and positive behaviors**.
+
+Negative behaviors include:
+
+```text
+Clicking Suspicious Links
+
+Opening Suspicious Attachments
+
+Submitting Simulated Credentials
+```
+
+Positive behaviors include:
+
+```text
+Reporting Phishing
+
+Deleting Suspicious Messages
+
+Verifying Requests Through Another Channel
+
+Following Security Procedures
+```
+
+A mature program should therefore avoid using click rate as the only measure of effectiveness.
+
+For example:
+
+```text
+Campaign Results:
+
+Click Rate:
+4%
+
+Reporting Rate:
+66%
+
+Repeat Failure Rate:
+0.9%
+
+Assessment:
+
+Awareness behavior is improving,
+but phishing reporting should continue
+to be strengthened.
+```
+
+The organization should compare results across multiple campaigns.
+
+For example:
+
+```text
+PHISHING TREND
+
+Campaign 1:
+
+Click Rate:
+12%
+
+Campaign 2:
+
+Click Rate:
+9%
+
+Campaign 3:
+
+Click Rate:
+6%
+
+Campaign 4:
+
+Click Rate:
+4%
+```
+
+This provides evidence of whether awareness efforts are producing sustained improvement.
+
+The organization should also monitor reporting behavior.
+
+```text
+REPORTING TREND
+
+Campaign 1:
+38%
+
+Campaign 2:
+47%
+
+Campaign 3:
+58%
+
+Campaign 4:
+66%
+```
+
+A successful awareness program should generally aim to reduce unsafe behavior while increasing appropriate reporting.
+
+Phishing simulation results should be incorporated into the organization's **risk management process**.
+
+For example:
+
+```text
+Simulation Result:
+
+Finance click rate:
+7%
+
+        ↓
+
+Risk Assessment
+
+        ↓
+
+Human-Related Risk Increased
+
+        ↓
+
+Targeted Training
+
+        ↓
+
+Additional Simulation
+
+        ↓
+
+Risk Reassessment
+```
+
+Significant simulation results may also be incorporated into the organization's **Key Risk Indicators**.
+
+For example:
+
+```text
+KRI:
+
+Phishing Simulation Failure Rate
+
+Threshold:
+
+≤ 5%
+
+Current:
+
+7%
+
+Status:
+
+RED
+```
+
+The organization should define thresholds according to its risk appetite and awareness objectives.
+
+The GRC professional should also ensure that simulation results are handled appropriately.
+
+Simulation data should be protected because individual-level results may constitute sensitive employee information within the organization's internal environment.
+
+Access should therefore be restricted to authorized personnel.
+
+Individual results should generally be used for legitimate security awareness, training, and risk-management purposes rather than unnecessary public disclosure.
+
+The organization should define who can access detailed simulation results.
+
+For example:
+
+```text
+Detailed Results:
+
+Security Awareness Team
+
+Cybersecurity GRC
+
+Authorized Management
+
+HR where appropriate and legally permitted
+```
+
+Executive reporting should generally use aggregated information.
+
+For example:
+
+```text
+Executive Report:
+
+Overall Click Rate:
+4%
+
+Reporting Rate:
+66%
+
+Repeat Failure Rate:
+0.9%
+
+Highest-Risk Department:
+Finance
+```
+
+Rather than:
+
+```text
+Employee A:
+Clicked
+
+Employee B:
+Clicked
+
+Employee C:
+Submitted Credentials
+```
+
+The organization should establish rules for **remedial training**.
+
+For example:
+
+```text
+Remedial Training Required When:
+
+Employee submits simulated credentials.
+
+Employee repeatedly fails simulations.
+
+Employee fails a designated high-risk
+role-based simulation.
+
+Employee demonstrates repeated failure
+to report suspicious messages.
+```
+
+Remedial training should be proportionate to the risk.
+
+The organization should also provide positive reinforcement.
+
+For example:
+
+```text
+Awareness Message:
+
+Thank you for reporting the simulated
+phishing message.
+
+Your report helps the security team
+identify potential threats earlier.
+```
+
+The purpose is to encourage a culture in which employees act as an additional layer of defense.
+
+The GRC professional should review the phishing simulation program periodically.
+
+The review should consider:
+
+```text
+Campaign Frequency
+
+Scenario Relevance
+
+Target Population
+
+Click Rate
+
+Reporting Rate
+
+Credential Submission Rate
+
+Repeat Failure Rate
+
+Department Trends
+
+Role-Based Trends
+
+Training Effectiveness
+
+Security Incident Trends
+
+Threat Intelligence
+
+Employee Feedback
+```
+
+Simulation scenarios should be updated when:
+
+```text
+New Threats Emerge
+
+Major Phishing Campaigns Are Observed
+
+Security Incidents Occur
+
+Business Processes Change
+
+Technology Changes
+
+New Collaboration Platforms Are Introduced
+
+Employee Behavior Shows New Weaknesses
+```
+
+The GRC professional should verify that:
+
+```text
+Simulation Objectives Are Defined
+
+Related Risks Are Identified
+
+Target Population Is Defined
+
+Excluded Population Is Documented
+
+Scenario Is Approved
+
+Simulation Date Is Defined
+
+Expected Behavior Is Defined
+
+Reporting Mechanism Is Available
+
+Safe Simulation Infrastructure Is Used
+
+Real Credentials Are Not Collected
+
+Click Rate Is Measured
+
+Reporting Rate Is Measured
+
+Credential Submission Is Measured Where Applicable
+
+Repeat Failures Are Monitored
+
+Department Trends Are Analyzed
+
+Role-Based Trends Are Analyzed
+
+Results Are Protected
+
+Remediation Actions Are Assigned
+
+Additional Training Is Provided Where Required
+
+Evidence Is Retained
+
+Management Reporting Is Completed
+
+Campaign Effectiveness Is Reviewed
+
+Simulation Scenarios Are Updated
+```
+
+The key principle is:
+
+> **A phishing simulation should measure and improve the organization's ability to recognize, report, and resist phishing threats while providing measurable evidence of changes in employee security behavior and human-related cybersecurity risk.**
+
 
 

@@ -4043,5 +4043,1379 @@ The key principle is:
 
 > **A security awareness campaign should transform a specific cybersecurity risk into a focused behavioral objective, deliver clear and relevant security messages, measure employee engagement and behavior, and use the results to continuously strengthen the organization's security culture and reduce human-related risk.**
 
+## Part 4 – Security Awareness Metrics Dashboard
+
+A Security Awareness Metrics Dashboard provides management and security teams with a consolidated view of the organization's security awareness performance. The dashboard should transform training, phishing simulation, employee behavior, incident reporting, and awareness campaign data into measurable indicators that support risk-based decision-making.
+
+The dashboard should not focus only on training completion. A mature dashboard should show whether employees understand security requirements, demonstrate appropriate security behavior, report suspicious activity, and contribute to reducing human-related cybersecurity risk.
+
+A practical Security Awareness Metrics Dashboard can contain:
+
+```text
+SECURITY AWARENESS METRICS DASHBOARD
+
+Reporting Period:
+
+Dashboard Owner:
+
+Reporting Date:
+
+Executive Sponsor:
+
+Overall Awareness Status:
+
+Training Completion Rate:
+
+Mandatory Training Completion:
+
+Average Assessment Score:
+
+Training Failure Rate:
+
+Phishing Click Rate:
+
+Phishing Reporting Rate:
+
+Credential Submission Rate:
+
+Repeat Phishing Failure Rate:
+
+Security Incident Reporting Rate:
+
+Security Awareness Campaign Participation:
+
+Policy Acknowledgment Rate:
+
+Role-Based Training Completion:
+
+New Employee Training Completion:
+
+Overdue Training:
+
+High-Risk User Training Status:
+
+Human-Related Security Incidents:
+
+Security Awareness Risk Rating:
+
+Key Trends:
+
+Key Findings:
+
+Top Risks:
+
+Improvement Actions:
+
+Action Owner:
+
+Target Completion Date:
+
+Management Decisions Required:
+
+Evidence Repository:
+
+Next Review Date:
+
+Approval:
+```
+
+The dashboard should have a defined **reporting period**.
+
+For example:
+
+```text
+Reporting Period:
+
+July 2026
+```
+
+A dashboard may also provide quarterly or annual reporting.
+
+```text
+Reporting Period:
+
+Q3 2026
+```
+
+The dashboard should identify the **dashboard owner**.
+
+```text
+Dashboard Owner:
+
+Cybersecurity GRC Manager
+```
+
+The dashboard should identify the **reporting date**.
+
+```text
+Reporting Date:
+
+31 July 2026
+```
+
+The dashboard should identify the **executive sponsor**.
+
+```text
+Executive Sponsor:
+
+Chief Information Security Officer
+```
+
+The dashboard should provide an **overall awareness status**.
+
+For example:
+
+```text
+Overall Awareness Status:
+
+AMBER
+```
+
+The status should be based on defined thresholds and not simply on management judgment.
+
+For example:
+
+```text
+GREEN:
+
+Awareness objectives are being achieved.
+
+AMBER:
+
+Some indicators require management attention.
+
+RED:
+
+Significant weaknesses require immediate
+corrective action.
+```
+
+The organization should define the thresholds used to determine each status.
+
+The dashboard should include the **mandatory training completion rate**.
+
+For example:
+
+```text
+Mandatory Training Completion:
+
+Required:
+4,500
+
+Completed:
+4,410
+
+Completion Rate:
+98%
+
+Target:
+≥ 98%
+
+Status:
+GREEN
+```
+
+The dashboard should distinguish between employees who are required to complete training and employees who have valid approved exemptions.
+
+The dashboard should track the **average assessment score**.
+
+For example:
+
+```text
+Average Assessment Score:
+
+91%
+
+Target:
+
+≥ 80%
+
+Status:
+
+GREEN
+```
+
+The organization should also track the **training failure rate**.
+
+```text
+Training Failure Rate:
+
+Employees Failing Assessment
+÷
+Employees Assessed
+× 100
+```
+
+For example:
+
+```text
+Training Failure Rate:
+
+180 ÷ 4,500 × 100
+
+= 4%
+```
+
+The dashboard should track the **phishing click rate**.
+
+```text
+Phishing Click Rate:
+
+Employees Clicking Simulated
+Phishing Links
+÷
+Employees Targeted
+× 100
+```
+
+For example:
+
+```text
+Phishing Click Rate:
+
+180 ÷ 4,500 × 100
+
+= 4%
+```
+
+The organization should establish a target based on its risk appetite.
+
+For example:
+
+```text
+Target:
+
+≤ 5%
+
+Current:
+
+4%
+
+Status:
+
+GREEN
+```
+
+The dashboard should track the **phishing reporting rate**.
+
+```text
+Phishing Reporting Rate:
+
+Employees Reporting Simulated
+Phishing
+÷
+Employees Receiving Simulation
+× 100
+```
+
+For example:
+
+```text
+Phishing Reporting Rate:
+
+2,970 ÷ 4,500 × 100
+
+= 66%
+```
+
+A higher reporting rate may indicate stronger employee security behavior, although the metric should be interpreted together with other indicators.
+
+The dashboard should track the **credential submission rate** when simulations include controlled credential-entry scenarios.
+
+```text
+Credential Submission Rate:
+
+Employees Submitting Simulated Credentials
+÷
+Employees Targeted
+× 100
+```
+
+For example:
+
+```text
+Credential Submission Rate:
+
+24 ÷ 4,500 × 100
+
+= 0.53%
+```
+
+Real employee passwords should never be collected during phishing simulations.
+
+The dashboard should track the **repeat phishing failure rate**.
+
+For example:
+
+```text
+Repeat Phishing Failure Rate:
+
+Employees Failing Multiple Simulations
+÷
+Employees Tested
+× 100
+```
+
+Example:
+
+```text
+Repeat Phishing Failure Rate:
+
+42 ÷ 4,500 × 100
+
+= 0.93%
+```
+
+Repeat failures may indicate the need for targeted training or additional security controls.
+
+The dashboard should track the **security incident reporting rate**.
+
+For example:
+
+```text
+Security Incident Reporting Rate:
+
+Reported Security Events
+÷
+Total Relevant Security Events
+× 100
+```
+
+Where reliable data is available, this can help determine whether employees are identifying and reporting suspicious activity.
+
+The dashboard should track **security awareness campaign participation**.
+
+For example:
+
+```text
+Campaign Participation:
+
+Employees Targeted:
+4,500
+
+Employees Participating:
+4,120
+
+Participation Rate:
+91.6%
+
+Target:
+≥ 90%
+
+Status:
+GREEN
+```
+
+The dashboard should track the **policy acknowledgment rate**.
+
+For example:
+
+```text
+Policy Acknowledgment:
+
+Employees Required:
+4,500
+
+Employees Completed:
+4,410
+
+Acknowledgment Rate:
+98%
+
+Status:
+GREEN
+```
+
+Relevant policies may include:
+
+```text
+Information Security Policy
+
+Acceptable Use Policy
+
+Data Protection Policy
+
+Incident Reporting Policy
+
+Remote Working Policy
+
+AI Acceptable Use Policy
+```
+
+The dashboard should track **role-based training completion**.
+
+For example:
+
+```text
+ROLE-BASED TRAINING
+
+Privileged Administrators:
+100%
+
+Developers:
+96%
+
+Finance:
+94%
+
+Executives:
+100%
+
+Security Personnel:
+100%
+```
+
+Role-based metrics are particularly important where specific groups have elevated cybersecurity responsibilities or risk exposure.
+
+The dashboard should track **new employee training completion**.
+
+For example:
+
+```text
+NEW EMPLOYEE TRAINING
+
+New Employees:
+120
+
+Completed:
+117
+
+Completion Rate:
+97.5%
+
+Target:
+≥ 95%
+
+Status:
+GREEN
+```
+
+The dashboard should monitor **overdue training**.
+
+For example:
+
+```text
+OVERDUE TRAINING
+
+Total Overdue:
+90
+
+Critical Roles Overdue:
+5
+
+Management Escalations:
+3
+
+Status:
+AMBER
+```
+
+Overdue training involving privileged users, executives, or other high-risk personnel may require additional management attention.
+
+The dashboard should include **high-risk user training status**.
+
+For example:
+
+```text
+HIGH-RISK USERS
+
+Privileged Users:
+250
+
+Training Completed:
+248
+
+Completion:
+99.2%
+
+Users Requiring Remediation:
+2
+```
+
+The dashboard should monitor **human-related security incidents**.
+
+For example:
+
+```text
+HUMAN-RELATED SECURITY INCIDENTS
+
+Phishing:
+11
+
+Accidental Data Disclosure:
+4
+
+Credential Misuse:
+2
+
+Unauthorized Sharing:
+3
+
+Total:
+20
+```
+
+The organization should monitor trends rather than relying only on the current reporting period.
+
+For example:
+
+```text
+HUMAN-RELATED INCIDENT TREND
+
+Q1:
+34
+
+Q2:
+27
+
+Q3:
+20
+
+Trend:
+
+Improving
+```
+
+The dashboard should provide a **security awareness risk rating**.
+
+For example:
+
+```text
+Security Awareness Risk:
+
+MEDIUM
+```
+
+The rating should consider multiple indicators.
+
+For example:
+
+```text
+Training Completion:
+98%
+
+Assessment Score:
+91%
+
+Phishing Click Rate:
+4%
+
+Phishing Reporting Rate:
+66%
+
+Human-Related Incidents:
+Declining
+
+Overall Risk:
+
+MEDIUM
+```
+
+The organization should define the methodology used to calculate the overall rating.
+
+The dashboard should show **key trends**.
+
+For example:
+
+```text
+KEY TRENDS
+
+Training Completion:
+↑ Improving
+
+Assessment Scores:
+↑ Improving
+
+Phishing Click Rate:
+↓ Improving
+
+Phishing Reporting:
+↑ Improving
+
+Human-Related Incidents:
+↓ Improving
+```
+
+Trend indicators should be clearly defined so that management understands whether an increase or decrease represents an improvement.
+
+The dashboard should identify **key findings**.
+
+For example:
+
+```text
+KEY FINDINGS
+
+1. Mandatory training completion
+   remains above target.
+
+2. Phishing click rate decreased
+   compared with the previous quarter.
+
+3. Phishing reporting increased.
+
+4. Finance remains the highest-risk
+   department.
+
+5. Repeat phishing failures require
+   targeted remediation.
+```
+
+The dashboard should identify **top risks**.
+
+For example:
+
+```text
+TOP AWARENESS RISKS
+
+1. Business Email Compromise
+
+2. Phishing
+
+3. Accidental Data Disclosure
+
+4. Unsafe Use of AI Tools
+
+5. Credential Theft
+```
+
+The organization should rank these risks according to its established risk methodology.
+
+The dashboard should identify **improvement actions**.
+
+For example:
+
+```text
+IMPROVEMENT ACTIONS
+
+1. Provide targeted phishing training
+   to Finance.
+
+2. Launch an AI security awareness
+   campaign.
+
+3. Provide remedial training to
+   repeat phishing failures.
+
+4. Increase phishing simulations
+   for high-risk departments.
+```
+
+Each action should have an **action owner**.
+
+```text
+Action Owner:
+
+Security Awareness Program Manager
+```
+
+The organization should establish a **target completion date**.
+
+```text
+Target Completion Date:
+
+31 October 2026
+```
+
+The dashboard should identify **management decisions required**.
+
+For example:
+
+```text
+MANAGEMENT DECISIONS REQUIRED
+
+Approve additional role-based training.
+
+Approve increased phishing simulation
+frequency for high-risk departments.
+
+Approve additional security awareness
+resources.
+```
+
+This makes the dashboard more useful to management because it connects metrics to decisions.
+
+The dashboard should maintain an **evidence repository**.
+
+Examples include:
+
+```text
+Training Completion Reports
+
+Assessment Results
+
+Phishing Simulation Results
+
+Campaign Participation Reports
+
+Policy Acknowledgments
+
+Incident Reports
+
+Security Awareness Campaign Records
+
+Remediation Records
+```
+
+For example:
+
+```text
+Evidence Repository:
+
+GRC Platform
+
+Learning Management System
+
+Security Awareness Platform
+
+Security Incident Management System
+```
+
+The dashboard should have a **next review date**.
+
+```text
+Next Review Date:
+
+31 August 2026
+```
+
+The dashboard should also identify appropriate approval.
+
+```text
+Prepared By:
+
+Security Awareness Program Manager
+
+Reviewed By:
+
+Cybersecurity GRC Manager
+
+Approved By:
+
+Chief Information Security Officer
+```
+
+A mature Security Awareness Metrics Dashboard should distinguish between **leading indicators** and **lagging indicators**.
+
+Leading indicators provide information about activities or behaviors that may influence future security outcomes.
+
+Examples include:
+
+```text
+Training Completion
+
+Campaign Participation
+
+Assessment Scores
+
+Phishing Reporting Rate
+
+Security Awareness Engagement
+
+Policy Acknowledgment
+```
+
+Lagging indicators reflect security outcomes that have already occurred.
+
+Examples include:
+
+```text
+Phishing-Related Incidents
+
+Credential Compromise
+
+Data Disclosure Incidents
+
+Human-Related Security Events
+
+Security Policy Violations
+```
+
+The dashboard can therefore present:
+
+```text
+LEADING INDICATORS
+
+Training Completion:
+98%
+
+Assessment Score:
+91%
+
+Phishing Reporting:
+66%
+
+Campaign Participation:
+92%
+```
+
+```text
+LAGGING INDICATORS
+
+Phishing Incidents:
+11
+
+Data Disclosure Incidents:
+4
+
+Human-Related Incidents:
+20
+```
+
+This distinction helps management understand both current awareness activity and actual security outcomes.
+
+The dashboard should also distinguish between **activity metrics** and **effectiveness metrics**.
+
+Activity metrics measure what the organization did.
+
+Examples include:
+
+```text
+Number of Training Sessions
+
+Number of Campaigns
+
+Number of Employees Trained
+
+Number of Awareness Messages
+```
+
+Effectiveness metrics measure whether the activity produced meaningful improvement.
+
+Examples include:
+
+```text
+Phishing Click Rate
+
+Phishing Reporting Rate
+
+Repeat Failure Rate
+
+Security Incident Trends
+
+Behavioral Improvement
+```
+
+For example:
+
+```text
+ACTIVITY
+
+Security Awareness Campaigns:
+
+4
+
+Training Sessions:
+
+12
+
+Employees Trained:
+
+4,500
+```
+
+```text
+EFFECTIVENESS
+
+Phishing Click Rate:
+
+4%
+
+Phishing Reporting Rate:
+
+66%
+
+Human-Related Incidents:
+
+Down 18%
+```
+
+This prevents the organization from considering a high volume of training activity as proof that the awareness program is effective.
+
+The dashboard should support **trend analysis**.
+
+For example:
+
+```text
+PHISHING CLICK RATE
+
+Q1:
+12%
+
+Q2:
+8%
+
+Q3:
+6%
+
+Q4:
+4%
+```
+
+```text
+PHISHING REPORTING RATE
+
+Q1:
+38%
+
+Q2:
+47%
+
+Q3:
+58%
+
+Q4:
+66%
+```
+
+The organization can use these trends to evaluate whether awareness interventions are producing sustained improvements.
+
+The dashboard should support **department comparison** where appropriate.
+
+For example:
+
+```text
+DEPARTMENT PERFORMANCE
+
+Finance:
+Click Rate 7%
+
+Human Resources:
+Click Rate 3%
+
+IT:
+Click Rate 1%
+
+Operations:
+Click Rate 4%
+```
+
+Department comparison should be used to identify areas requiring support and should not become a mechanism for publicly shaming individual employees.
+
+The dashboard should also support **role-based analysis**.
+
+For example:
+
+```text
+ROLE PERFORMANCE
+
+Executives:
+2% Click Rate
+
+Finance:
+7% Click Rate
+
+Privileged Administrators:
+1% Click Rate
+
+Developers:
+3% Click Rate
+```
+
+The organization should pay particular attention to roles with elevated access, sensitive information, or high financial exposure.
+
+The dashboard should incorporate **risk-based thresholds**.
+
+For example:
+
+```text
+METRIC:
+
+Phishing Click Rate
+
+GREEN:
+≤ 5%
+
+AMBER:
+> 5% and ≤ 10%
+
+RED:
+> 10%
+```
+
+Another example:
+
+```text
+METRIC:
+
+Mandatory Training Completion
+
+GREEN:
+≥ 98%
+
+AMBER:
+95%–97.9%
+
+RED:
+< 95%
+```
+
+Thresholds should be approved and periodically reviewed.
+
+The dashboard should support **management-level reporting**.
+
+A management summary could appear as:
+
+```text
+SECURITY AWARENESS EXECUTIVE SUMMARY
+
+Overall Status:
+AMBER
+
+Training Completion:
+98% — GREEN
+
+Assessment Score:
+91% — GREEN
+
+Phishing Click Rate:
+6% — AMBER
+
+Phishing Reporting Rate:
+58% — AMBER
+
+Human-Related Incidents:
+20 — AMBER
+
+Top Risk:
+
+Business Email Compromise
+
+Priority Action:
+
+Targeted Finance Awareness Campaign
+```
+
+The dashboard should avoid presenting excessive technical detail to executives.
+
+Instead, it should answer:
+
+```text
+What is the current awareness risk?
+
+Is the organization improving?
+
+Where are the biggest weaknesses?
+
+What risks require management attention?
+
+What actions are being taken?
+
+What decisions are required?
+```
+
+The dashboard can provide additional detail to the GRC and security teams.
+
+For example:
+
+```text
+SECURITY AWARENESS OPERATIONAL VIEW
+
+Training Completion:
+98%
+
+Overdue:
+90
+
+Phishing Click Rate:
+4%
+
+Reporting Rate:
+66%
+
+Repeat Failures:
+42
+
+Finance Click Rate:
+7%
+
+HR Click Rate:
+3%
+
+IT Click Rate:
+1%
+
+Open Remediation Actions:
+4
+```
+
+The dashboard should connect awareness metrics to the **risk register** where appropriate.
+
+For example:
+
+```text
+Risk ID:
+
+RISK-HUM-004
+
+Risk:
+
+Employee susceptibility to phishing
+
+Inherent Risk:
+
+High
+
+Current Risk:
+
+Medium
+
+Key Risk Indicator:
+
+Phishing Click Rate
+
+Current Value:
+
+4%
+
+Target:
+
+≤ 5%
+
+Status:
+
+GREEN
+```
+
+This creates a direct connection between security awareness and enterprise risk management.
+
+The dashboard should also support **risk treatment monitoring**.
+
+For example:
+
+```text
+Risk Treatment:
+
+Improve employee phishing awareness.
+
+Treatment Actions:
+
+Quarterly phishing simulations
+
+Targeted Finance training
+
+Monthly awareness communications
+
+Status:
+
+In Progress
+```
+
+The GRC professional should ensure that awareness metrics are aligned with organizational objectives.
+
+For example:
+
+```text
+Business Objective:
+
+Reduce cyber-related business disruption.
+
+Security Objective:
+
+Reduce successful phishing attacks.
+
+Awareness Objective:
+
+Improve phishing recognition and reporting.
+
+Metrics:
+
+Click Rate
+
+Reporting Rate
+
+Phishing Incidents
+
+Training Effectiveness
+```
+
+The dashboard should also support **continuous improvement**.
+
+The improvement cycle can be represented as:
+
+```text
+Measure
+   ↓
+Analyze
+   ↓
+Identify Weakness
+   ↓
+Assess Risk
+   ↓
+Implement Improvement
+   ↓
+Measure Again
+```
+
+For example:
+
+```text
+Measurement:
+
+Phishing Click Rate = 9%
+
+        ↓
+
+Analysis:
+
+Finance has highest click rate.
+
+        ↓
+
+Risk:
+
+High exposure to business
+email compromise.
+
+        ↓
+
+Improvement:
+
+Targeted Finance training.
+
+        ↓
+
+Measurement:
+
+Phishing Click Rate = 5%
+
+        ↓
+
+Reassessment:
+
+Risk reduced.
+```
+
+The dashboard should be reviewed regularly.
+
+The review frequency may be:
+
+```text
+Monthly:
+
+Operational monitoring
+
+Quarterly:
+
+Management reporting
+
+Annually:
+
+Program effectiveness review
+```
+
+The dashboard should be updated when:
+
+```text
+New Threats Emerge
+
+Security Incidents Increase
+
+Awareness Campaigns Are Conducted
+
+Training Requirements Change
+
+Policies Change
+
+Technology Changes
+
+Regulatory Requirements Change
+
+Risk Appetite Changes
+```
+
+The GRC professional should verify that:
+
+```text
+Reporting Period Is Defined
+
+Dashboard Owner Is Assigned
+
+Executive Sponsor Is Identified
+
+Overall Status Is Defined
+
+Training Completion Is Measured
+
+Assessment Scores Are Measured
+
+Phishing Click Rate Is Measured
+
+Phishing Reporting Rate Is Measured
+
+Credential Submission Rate Is Measured Where Applicable
+
+Repeat Failure Rate Is Measured
+
+Incident Reporting Is Monitored
+
+Campaign Participation Is Measured
+
+Policy Acknowledgment Is Measured
+
+Role-Based Training Is Monitored
+
+New Employee Training Is Monitored
+
+Overdue Training Is Monitored
+
+High-Risk Users Are Monitored
+
+Human-Related Incidents Are Tracked
+
+Leading Indicators Are Identified
+
+Lagging Indicators Are Identified
+
+Activity Metrics Are Distinguished From Effectiveness Metrics
+
+Trends Are Analyzed
+
+Risk-Based Thresholds Are Defined
+
+Key Findings Are Documented
+
+Top Risks Are Identified
+
+Improvement Actions Are Assigned
+
+Management Decisions Are Identified
+
+Evidence Is Retained
+
+Dashboard Results Are Reported
+
+Metrics Are Reviewed Periodically
+
+Metrics Are Updated Based on Risk
+```
+
+The Security Awareness Metrics Dashboard should ultimately provide a clear connection between **awareness activities, employee behavior, cybersecurity risk, and business outcomes**.
+
+A mature dashboard can be represented as:
+
+```text
+Security Awareness Activity
+        ↓
+Employee Knowledge
+        ↓
+Employee Behavior
+        ↓
+Security Events
+        ↓
+Risk Indicators
+        ↓
+Cybersecurity Risk
+        ↓
+Management Decision
+        ↓
+Improvement Action
+        ↓
+Improved Security Behavior
+```
+
+The key principle is:
+
+> **A security awareness metrics dashboard should provide measurable evidence of whether awareness activities are improving employee knowledge and behavior, reducing human-related cybersecurity risk, and supporting informed management decisions.**
+
 
 

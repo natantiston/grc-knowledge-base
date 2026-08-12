@@ -2282,5 +2282,1142 @@ The key principle is:
 
 > **A cybersecurity KRI should provide management with an early and measurable indication of changing risk exposure, allowing the organization to identify when risk is approaching or exceeding defined tolerance and take appropriate action before the risk results in significant business impact.**
 
+**Part 3 – GRC Dashboard Template**
+
+A GRC Dashboard provides a structured view of governance, risk, compliance, cybersecurity, audit, and control information. Its purpose is to transform detailed GRC data into a concise management view that supports decision-making, prioritization, escalation, and oversight.
+
+A GRC dashboard should not simply display large amounts of data. It should highlight the organization's most important risks, control weaknesses, compliance issues, remediation activities, and performance trends.
+
+A practical GRC Dashboard Template can contain:
+
+```text
+GRC DASHBOARD TEMPLATE
+
+Dashboard Name:
+
+Reporting Period:
+
+Dashboard Owner:
+
+Report Date:
+
+Executive Sponsor:
+
+Overall GRC Status:
+
+Overall Risk Status:
+
+Overall Compliance Status:
+
+Overall Control Status:
+
+Overall Audit Status:
+
+Key Risk Indicators:
+
+Key Performance Indicators:
+
+Top Risks:
+
+Risk Trend:
+
+Open High-Risk Issues:
+
+Open Critical Findings:
+
+Overdue Risk Treatment Actions:
+
+Overdue Audit Findings:
+
+Compliance Exceptions:
+
+Control Effectiveness:
+
+Third-Party Risk:
+
+Security Incident Status:
+
+Business Continuity Status:
+
+Regulatory Status:
+
+Management Actions:
+
+Decisions Required:
+
+Escalations:
+
+Key Changes Since Previous Period:
+
+Management Commentary:
+
+Evidence Sources:
+
+Dashboard Review Date:
+
+Approval:
+```
+
+The dashboard should begin with a clear **dashboard name**.
+
+For example:
+
+```text
+Dashboard Name:
+
+Enterprise Cybersecurity and GRC Dashboard
+```
+
+The dashboard should identify the **reporting period**.
+
+For example:
+
+```text
+Reporting Period:
+
+July 2026
+```
+
+The dashboard should identify the **dashboard owner**.
+
+For example:
+
+```text
+Dashboard Owner:
+
+Cybersecurity GRC Manager
+```
+
+The dashboard should include the **report date**.
+
+For example:
+
+```text
+Report Date:
+
+15 August 2026
+```
+
+The dashboard should identify the **executive sponsor**.
+
+For example:
+
+```text
+Executive Sponsor:
+
+Chief Information Security Officer
+```
+
+The dashboard should provide an **overall GRC status**.
+
+For example:
+
+```text
+Overall GRC Status:
+
+AMBER
+```
+
+The overall status should be based on defined criteria rather than subjective judgment.
+
+For example:
+
+```text
+GREEN:
+
+GRC objectives are generally being achieved
+and no significant unresolved issues exist.
+
+AMBER:
+
+Some significant issues require management
+attention but overall objectives remain
+substantially achievable.
+
+RED:
+
+Significant risk, compliance, control, or
+governance issues require immediate
+management intervention.
+```
+
+The dashboard should provide an **overall risk status**.
+
+For example:
+
+```text
+Overall Risk Status:
+
+AMBER
+
+High and critical risks remain under
+active treatment.
+```
+
+The dashboard should provide an **overall compliance status**.
+
+For example:
+
+```text
+Overall Compliance Status:
+
+GREEN
+
+No critical regulatory compliance issues
+identified during the reporting period.
+```
+
+The dashboard should provide an **overall control status**.
+
+For example:
+
+```text
+Overall Control Status:
+
+AMBER
+
+Several controls require improvement
+following recent assessments.
+```
+
+The dashboard should provide an **overall audit status**.
+
+For example:
+
+```text
+Overall Audit Status:
+
+AMBER
+
+Seven high-risk findings remain open,
+including two that are overdue.
+```
+
+The dashboard should include relevant **Key Risk Indicators**.
+
+For example:
+
+```text
+KEY RISK INDICATORS
+
+Critical Vulnerabilities Above SLA:
+14 — RED
+
+Critical Suppliers Without Current
+Security Assessment:
+3 — RED
+
+Privileged Accounts Without Completed Review:
+4.5% — RED
+
+High-Severity Incidents Above SLA:
+2 — AMBER
+```
+
+The dashboard should include relevant **Key Performance Indicators**.
+
+For example:
+
+```text
+KEY PERFORMANCE INDICATORS
+
+Critical Vulnerability Remediation:
+92% — AMBER
+
+Security Training Completion:
+98% — GREEN
+
+Access Review Completion:
+100% — GREEN
+
+Audit Finding Closure:
+91% — AMBER
+```
+
+The dashboard should identify the organization's **top risks**.
+
+For example:
+
+```text
+TOP RISKS
+
+1. Ransomware
+   Risk Rating: Critical
+   Trend: Increasing
+
+2. Third-Party Security Risk
+   Risk Rating: High
+   Trend: Stable
+
+3. Privileged Access Abuse
+   Risk Rating: High
+   Trend: Increasing
+
+4. Data Protection Risk
+   Risk Rating: High
+   Trend: Stable
+```
+
+Top risks should normally be determined from the organization's approved risk assessment and risk register.
+
+The dashboard should show the **risk trend**.
+
+For example:
+
+```text
+RISK TREND
+
+Critical Risks:
+3 → 4
+
+High Risks:
+12 → 10
+
+Medium Risks:
+27 → 25
+
+Overall Trend:
+
+Slightly Increasing Risk
+```
+
+The dashboard should identify **open high-risk issues**.
+
+For example:
+
+```text
+OPEN HIGH-RISK ISSUES
+
+Total:
+18
+
+New This Period:
+4
+
+Closed This Period:
+6
+
+Overdue:
+5
+```
+
+The dashboard should identify **open critical findings**.
+
+For example:
+
+```text
+OPEN CRITICAL FINDINGS
+
+Total:
+3
+
+Overdue:
+1
+
+New This Period:
+1
+```
+
+Critical findings should be clearly linked to their source.
+
+For example:
+
+```text
+Source:
+
+Internal Audit
+External Audit
+Control Assessment
+Compliance Assessment
+Security Assessment
+Third-Party Assessment
+```
+
+The dashboard should track **overdue risk treatment actions**.
+
+For example:
+
+```text
+OVERDUE RISK TREATMENT ACTIONS
+
+Total:
+11
+
+Critical:
+2
+
+High:
+6
+
+Medium:
+3
+```
+
+The dashboard should show the status of **audit findings**.
+
+For example:
+
+```text
+AUDIT FINDINGS
+
+Critical:
+1
+
+High:
+7
+
+Medium:
+14
+
+Low:
+9
+
+Total Open:
+31
+
+Overdue:
+7
+```
+
+The dashboard should identify **compliance exceptions**.
+
+For example:
+
+```text
+COMPLIANCE EXCEPTIONS
+
+Open Exceptions:
+8
+
+High-Risk Exceptions:
+2
+
+Overdue:
+1
+
+New This Period:
+3
+```
+
+The dashboard should provide a summary of **control effectiveness**.
+
+For example:
+
+```text
+CONTROL EFFECTIVENESS
+
+Effective:
+82%
+
+Partially Effective:
+14%
+
+Ineffective:
+4%
+```
+
+Control effectiveness should be supported by control assessment and testing results.
+
+The dashboard should provide visibility into **third-party risk**.
+
+For example:
+
+```text
+THIRD-PARTY RISK
+
+Critical Suppliers:
+42
+
+Current Assessments:
+39
+
+Overdue Assessments:
+3
+
+High-Risk Suppliers:
+5
+
+Suppliers Without Current
+Security Assessment:
+3
+```
+
+The dashboard should include **security incident status**.
+
+For example:
+
+```text
+SECURITY INCIDENTS
+
+Critical:
+0
+
+High:
+3
+
+Medium:
+17
+
+Low:
+42
+
+Open:
+8
+
+Average Response Time:
+42 minutes
+
+SLA Compliance:
+96%
+```
+
+The dashboard should include **business continuity and disaster recovery status** where relevant.
+
+For example:
+
+```text
+BUSINESS CONTINUITY AND DR
+
+Critical Services:
+24
+
+Services With Current BIA:
+24
+
+Services With Current Recovery Plan:
+23
+
+Recovery Tests Completed:
+21
+
+Recovery Tests Overdue:
+3
+
+RTO Failures:
+1
+
+RPO Failures:
+2
+```
+
+The dashboard should include **regulatory status**.
+
+For example:
+
+```text
+REGULATORY STATUS
+
+Applicable Requirements:
+146
+
+Compliant:
+132
+
+Partially Compliant:
+11
+
+Non-Compliant:
+3
+
+Open Regulatory Actions:
+8
+```
+
+The dashboard should identify **management actions**.
+
+For example:
+
+```text
+MANAGEMENT ACTIONS
+
+Actions Open:
+14
+
+Actions Due This Month:
+8
+
+Actions Overdue:
+3
+
+Actions Completed:
+11
+```
+
+The dashboard should identify **decisions required**.
+
+This is one of the most important elements of an executive GRC dashboard.
+
+For example:
+
+```text
+DECISIONS REQUIRED
+
+1. Approve additional resources for
+   critical vulnerability remediation.
+
+2. Determine treatment strategy for
+   high-risk third-party exposure.
+
+3. Approve extension for two overdue
+   audit remediation actions.
+```
+
+A dashboard should distinguish information from decisions.
+
+For example:
+
+```text
+Information:
+
+Critical vulnerabilities increased
+from 9 to 14.
+
+Decision Required:
+
+Approve accelerated remediation
+resources for affected systems.
+```
+
+The dashboard should identify **escalations**.
+
+For example:
+
+```text
+ESCALATIONS
+
+Critical supplier security assessment
+overdue by 45 days.
+
+High-risk audit finding overdue by
+30 days.
+
+Two critical vulnerabilities remain
+unremediated beyond approved tolerance.
+```
+
+The dashboard should identify **key changes since the previous reporting period**.
+
+For example:
+
+```text
+KEY CHANGES
+
+Critical risks increased from 3 to 4.
+
+Two high-risk findings were closed.
+
+Three new compliance exceptions were
+identified.
+
+Third-party assessment completion
+decreased from 97% to 93%.
+```
+
+This allows management to focus on what has changed rather than reviewing every metric from the beginning.
+
+The dashboard should include **management commentary**.
+
+For example:
+
+```text
+MANAGEMENT COMMENTARY
+
+Overall GRC performance remains stable.
+However, third-party risk and critical
+vulnerability exposure have increased.
+
+Management attention is required to ensure
+that overdue remediation activities are
+completed within approved risk tolerance.
+```
+
+The dashboard should identify **evidence sources**.
+
+For example:
+
+```text
+EVIDENCE SOURCES
+
+Risk Register
+GRC Platform
+Audit Management System
+Vulnerability Management Platform
+Security Incident Management System
+Third-Party Risk Platform
+Compliance Register
+Control Assessment Records
+Business Continuity Records
+```
+
+The dashboard should include a **review date**.
+
+For example:
+
+```text
+Dashboard Review Date:
+
+15 August 2026
+```
+
+The dashboard should also include appropriate **approval**.
+
+For example:
+
+```text
+Prepared By:
+
+Cybersecurity GRC Manager
+
+Reviewed By:
+
+CISO
+
+Approved By:
+
+Chief Risk Officer
+
+Approval Date:
+
+18 August 2026
+```
+
+A GRC dashboard should be structured around management questions.
+
+For example:
+
+```text
+Question:
+
+What are our most significant risks?
+
+Dashboard Section:
+
+Top Risks
+```
+
+```text
+Question:
+
+Are risks increasing or decreasing?
+
+Dashboard Section:
+
+Risk Trends
+```
+
+```text
+Question:
+
+Are controls working?
+
+Dashboard Section:
+
+Control Effectiveness
+```
+
+```text
+Question:
+
+Are compliance obligations being met?
+
+Dashboard Section:
+
+Compliance Status
+```
+
+```text
+Question:
+
+Are audit findings being remediated?
+
+Dashboard Section:
+
+Audit Findings
+```
+
+```text
+Question:
+
+Where is management intervention required?
+
+Dashboard Section:
+
+Decisions Required
+```
+
+This approach prevents dashboards from becoming collections of unrelated metrics.
+
+The dashboard should provide appropriate **levels of detail** for different audiences.
+
+An operational dashboard may contain detailed information such as:
+
+```text
+Risk ID
+Control ID
+Finding ID
+System Name
+Asset
+Owner
+Due Date
+KPI
+KRI
+Evidence
+```
+
+An executive dashboard should focus on:
+
+```text
+Top Risks
+Risk Trends
+Major Control Weaknesses
+Compliance Status
+Significant Audit Findings
+KPI/KRI Trends
+Management Actions
+Decisions Required
+```
+
+The same underlying GRC data may therefore be presented differently depending on the audience.
+
+The dashboard should use consistent **status definitions**.
+
+For example:
+
+```text
+GREEN:
+
+Within approved target, tolerance,
+or risk appetite.
+
+AMBER:
+
+Approaching threshold or requiring
+management attention.
+
+RED:
+
+Threshold exceeded or significant
+management intervention required.
+```
+
+These definitions should be documented and applied consistently.
+
+The dashboard should use consistent **risk terminology**.
+
+For example:
+
+```text
+Risk Rating:
+
+Critical
+High
+Medium
+Low
+```
+
+The organization should not use different meanings for these ratings in different dashboards unless the differences are explicitly documented.
+
+A GRC dashboard should also provide **trend information**.
+
+For example:
+
+```text
+Metric:
+
+High-Risk Findings
+
+April:
+18
+
+May:
+17
+
+June:
+14
+
+July:
+11
+
+Trend:
+Improving
+```
+
+Trend information is often more useful than a single current value.
+
+The dashboard should also distinguish between **current status and historical performance**.
+
+For example:
+
+```text
+Current Status:
+
+AMBER
+
+Three high-risk findings remain overdue.
+
+Historical Trend:
+
+Overdue findings decreased from
+12 to 3 during the last six months.
+```
+
+This provides appropriate context.
+
+The dashboard should include **risk-based prioritization**.
+
+Not every issue should receive equal visual prominence.
+
+For example:
+
+```text
+Priority 1:
+
+Critical Risks
+
+Priority 2:
+
+High Risks
+
+Priority 3:
+
+Material Compliance Issues
+
+Priority 4:
+
+Significant Control Weaknesses
+
+Priority 5:
+
+Operational Metrics
+```
+
+This helps management focus attention where it can have the greatest impact.
+
+The GRC dashboard should maintain **traceability**.
+
+A management-level number should be traceable back to the underlying GRC records.
+
+For example:
+
+```text
+Executive Dashboard:
+
+High-Risk Findings:
+7
+
+        ↓
+
+Audit Findings Register
+
+        ↓
+
+Finding IDs:
+AUD-024
+AUD-031
+AUD-045
+AUD-052
+AUD-061
+AUD-074
+AUD-081
+
+        ↓
+
+Evidence and Remediation Records
+```
+
+Traceability is particularly important for audits and regulatory examinations.
+
+The dashboard should also identify **data quality issues**.
+
+For example:
+
+```text
+DATA QUALITY WARNING
+
+Third-Party Risk Data:
+
+93% complete
+
+7% of supplier records require
+data validation.
+
+Overall dashboard result should be
+interpreted with caution.
+```
+
+A dashboard should never hide material data limitations.
+
+The GRC professional should establish a defined **dashboard production process**.
+
+For example:
+
+```text
+Collect GRC Data
+        ↓
+Validate Data
+        ↓
+Calculate KPIs/KRIs
+        ↓
+Review Exceptions
+        ↓
+Update Risk and Compliance Information
+        ↓
+Prepare Dashboard
+        ↓
+GRC Quality Review
+        ↓
+Management Review
+        ↓
+Executive Reporting
+        ↓
+Record Decisions and Actions
+```
+
+The GRC professional should ensure that dashboard data is reviewed before distribution.
+
+The review should verify:
+
+```text
+Data Accuracy
+
+Data Completeness
+
+Metric Calculations
+
+Risk Ratings
+
+Thresholds
+
+Trend Calculations
+
+Open Findings
+
+Overdue Actions
+
+Compliance Status
+
+Management Commentary
+
+Required Decisions
+```
+
+The dashboard should be periodically reviewed to ensure that it remains useful.
+
+A dashboard may need to be changed when:
+
+```text
+Business Objectives Change
+
+Risk Profile Changes
+
+Regulatory Requirements Change
+
+New Security Risks Emerge
+
+Security Strategy Changes
+
+Management Reporting Requirements Change
+
+Existing Metrics No Longer Support Decisions
+```
+
+The GRC professional should avoid **dashboard overload**.
+
+A dashboard containing dozens or hundreds of indicators may make it more difficult for management to identify the most important issues.
+
+A useful executive dashboard should answer:
+
+```text
+What is our current risk position?
+
+What has changed?
+
+Where are we outside tolerance?
+
+What controls require attention?
+
+What compliance issues exist?
+
+What actions are overdue?
+
+What decisions are required?
+```
+
+The relationship between GRC data and executive decision-making can be represented as:
+
+```text
+GRC Data
+    ↓
+Validation
+    ↓
+KPIs + KRIs + Risk Information
+    ↓
+Dashboard
+    ↓
+Trend and Exception Analysis
+    ↓
+Management Interpretation
+    ↓
+Decision
+    ↓
+Action
+    ↓
+Risk Reduction / Improved Performance
+```
+
+A mature GRC dashboard should therefore function as a **decision-support mechanism**, not simply as a reporting screen.
+
+The GRC professional should verify that:
+
+```text
+Dashboard Purpose Is Defined
+
+Reporting Period Is Defined
+
+Dashboard Owner Is Assigned
+
+Data Sources Are Documented
+
+KPIs Are Included Where Relevant
+
+KRIs Are Included Where Relevant
+
+Top Risks Are Identified
+
+Risk Trends Are Visible
+
+Control Effectiveness Is Reported
+
+Compliance Status Is Reported
+
+Audit Findings Are Reported
+
+Third-Party Risk Is Considered
+
+Security Incidents Are Considered
+
+Business Continuity Is Considered
+
+Overdue Actions Are Highlighted
+
+Threshold Breaches Are Escalated
+
+Management Decisions Are Identified
+
+Data Quality Is Validated
+
+Evidence Is Traceable
+
+Management Commentary Is Included
+
+Dashboard Results Are Reviewed
+
+Dashboard Definitions Are Maintained
+```
+
+The key principle is:
+
+> **A GRC dashboard should transform complex governance, risk, compliance, cybersecurity, control, and audit information into a clear management view that highlights risk, performance, trends, exceptions, accountability, and decisions requiring action.**
+
 
 

@@ -1359,5 +1359,1249 @@ The key principle is:
 
 > **A GRC template library should standardize recurring GRC activities without unnecessarily restricting organizational flexibility, providing controlled, reusable, traceable, and continuously improved tools that support effective governance, risk management, and compliance.**
 
+# 17.19 Building a GRC Toolkit
+
+## Part 2 – Template Version Control and Ownership
+
+Template version control and ownership ensure that GRC templates remain accurate, approved, current, traceable, and consistently used across the organization.
+
+A GRC template should be treated as a controlled organizational asset.
+
+Without proper ownership and version control, multiple versions of the same template may exist across different departments.
+
+For example:
+
+```text
+Risk Assessment v1.0
+Risk Assessment v2.0
+Risk Assessment FINAL
+Risk Assessment FINAL2
+Risk Assessment NEW
+Risk Assessment NEW FINAL
+```
+
+This creates uncertainty about which document is officially approved.
+
+A controlled approach should instead establish:
+
+```text
+One Approved Template
+        ↓
+Defined Owner
+        ↓
+Controlled Version
+        ↓
+Approved Release
+        ↓
+Controlled Distribution
+        ↓
+Periodic Review
+```
+
+Every important GRC template should have an identified owner.
+
+The owner is accountable for ensuring that the template remains:
+
+```text
+Accurate
+
+Relevant
+
+Current
+
+Compliant
+
+Usable
+
+Approved
+
+Maintained
+```
+
+Template ownership should normally be assigned to the function responsible for the underlying GRC process.
+
+Examples:
+
+| Template                 | Typical Owner               |
+| ------------------------ | --------------------------- |
+| Risk Assessment          | Risk Manager                |
+| Risk Register            | Risk Manager                |
+| Compliance Assessment    | Compliance Manager          |
+| Control Assessment       | GRC Manager                 |
+| Audit Checklist          | Internal Audit              |
+| Vendor Risk Assessment   | Third-Party Risk Manager    |
+| DPIA                     | Privacy Officer             |
+| Incident Report          | Security Operations         |
+| Business Impact Analysis | Business Continuity Manager |
+| Security KPI Template    | Security Governance / GRC   |
+| GRC Project Charter      | GRC Program Manager         |
+
+Ownership should not be confused with approval authority.
+
+For example:
+
+```text
+Template Owner:
+
+GRC Manager
+
+Approver:
+
+CISO
+```
+
+The owner manages the template.
+
+The approver provides formal authorization for its use.
+
+The GRC professional should define the responsibilities of each role.
+
+A typical model is:
+
+```text
+Template Owner
+      ↓
+Maintains Template
+      ↓
+Coordinates Review
+      ↓
+Proposes Changes
+      ↓
+Obtains Approval
+      ↓
+Publishes Version
+```
+
+The approval authority determines whether the updated template can become the official organizational version.
+
+A RACI model can be used.
+
+| Activity         | Template Owner | GRC Manager | CISO | Users |
+| ---------------- | -------------- | ----------- | ---- | ----- |
+| Create Template  | R              | A           | C    | C     |
+| Review Template  | R              | A           | C    | C     |
+| Approve Template | C              | R           | A    | I     |
+| Publish Template | R              | A           | I    | I     |
+| Use Template     | I              | C           | I    | R     |
+| Periodic Review  | R              | A           | C    | C     |
+| Retire Template  | R              | A           | C    | I     |
+
+The exact responsibilities should reflect the organization's governance structure.
+
+Version control should use a defined numbering methodology.
+
+A common approach is:
+
+```text
+Major.Minor
+```
+
+For example:
+
+```text
+1.0
+1.1
+1.2
+2.0
+```
+
+A major version normally represents a significant change.
+
+Examples:
+
+```text
+1.0 → 2.0
+```
+
+Major changes may include:
+
+```text
+New Assessment Methodology
+
+Major Regulatory Changes
+
+Significant Structural Changes
+
+New Risk Scoring Model
+
+Major Changes to Control Requirements
+```
+
+Minor versions can represent smaller changes.
+
+Examples:
+
+```text
+1.0 → 1.1
+
+1.1 → 1.2
+```
+
+Minor changes may include:
+
+```text
+Clarification
+
+Formatting Improvement
+
+Minor Field Addition
+
+Typographical Correction
+
+Instruction Improvement
+```
+
+The organization should define exactly what constitutes a major or minor change.
+
+A template should contain version information.
+
+Example:
+
+```text
+Document Title:
+
+Enterprise Risk Assessment
+
+Document ID:
+
+GRC-RISK-002
+
+Version:
+
+3.0
+
+Status:
+
+Approved
+
+Owner:
+
+Risk Manager
+
+Approved By:
+
+CISO
+
+Effective Date:
+
+01 January 2027
+
+Next Review:
+
+01 January 2028
+```
+
+A change history should also be included.
+
+Example:
+
+| Version | Date     | Change                   | Author          | Approver |
+| ------- | -------- | ------------------------ | --------------- | -------- |
+| 1.0     | Jan 2025 | Initial release          | GRC             | CISO     |
+| 2.0     | Jan 2026 | Updated risk methodology | GRC             | CISO     |
+| 3.0     | Jan 2027 | New scoring model        | Risk Management | CISO     |
+
+This creates traceability.
+
+The change history should explain why the template changed.
+
+For example:
+
+```text
+Change:
+
+Added regulatory impact assessment.
+
+Reason:
+
+New regulatory obligations require
+explicit assessment of compliance impact.
+```
+
+A change should have a documented rationale.
+
+The template lifecycle should be controlled.
+
+A typical lifecycle is:
+
+```text
+Draft
+  ↓
+Review
+  ↓
+Approval
+  ↓
+Published
+  ↓
+Active
+  ↓
+Under Review
+  ↓
+Updated
+  ↓
+Superseded
+  ↓
+Archived
+```
+
+A template should not be treated as officially available while it is still in draft status.
+
+The GRC professional should clearly distinguish between:
+
+```text
+Draft
+
+Approved
+
+Active
+
+Superseded
+
+Retired
+```
+
+For example:
+
+```text
+GRC-RISK-002 v2.0
+
+Status:
+
+Superseded
+
+Replaced By:
+
+GRC-RISK-002 v3.0
+```
+
+Users should be directed to the current version.
+
+The organization should establish a **single source of truth**.
+
+For example:
+
+```text
+Approved GRC Repository
+        ↓
+Current Templates
+        ↓
+Controlled Access
+        ↓
+Authorized Users
+```
+
+This is preferable to allowing templates to be distributed through:
+
+```text
+Email Attachments
+
+Personal Drives
+
+Local Computers
+
+Uncontrolled Shared Folders
+
+Old Project Folders
+```
+
+Users should retrieve templates from the approved repository.
+
+The repository may be:
+
+```text
+Document Management System
+
+SharePoint
+
+GRC Platform
+
+Controlled File Repository
+
+Enterprise Knowledge Management Platform
+```
+
+The technology is less important than the governance surrounding it.
+
+The repository should restrict modification of approved templates.
+
+For example:
+
+```text
+Users:
+
+Read / Download
+
+Template Owners:
+
+Create / Modify Draft
+
+GRC Manager:
+
+Review / Approve
+
+Administrator:
+
+Publish / Archive
+```
+
+This reduces unauthorized changes.
+
+The organization should prevent users from accidentally modifying the master template.
+
+For example:
+
+```text
+MASTER TEMPLATE
+      ↓
+Read-Only
+      ↓
+User Creates Working Copy
+      ↓
+Completed Assessment
+```
+
+The master template should remain unchanged.
+
+Completed assessments should be stored separately.
+
+Example:
+
+```text
+Templates
+│
+├── Risk Assessment v3.0
+├── Risk Register v2.0
+└── Compliance Assessment v2.1
+
+Completed Records
+│
+├── 2027 Enterprise Risk Assessment
+├── 2027 Vendor Assessment
+└── 2027 Compliance Assessment
+```
+
+This provides clear separation between templates and records.
+
+The GRC professional should establish **template review frequency**.
+
+For example:
+
+```text
+Annual Review
+
+or
+
+Review Upon Significant Change
+```
+
+Certain templates may require more frequent review.
+
+For example:
+
+```text
+Regulatory Compliance Template:
+
+Review whenever applicable regulations change.
+
+Incident Template:
+
+Review after major incidents.
+
+Risk Assessment:
+
+Review at least annually or when methodology changes.
+```
+
+A review should determine whether the template remains fit for purpose.
+
+The review should consider:
+
+```text
+Regulatory Changes
+
+Framework Updates
+
+Audit Findings
+
+Risk Methodology Changes
+
+Business Process Changes
+
+Technology Changes
+
+Organizational Changes
+
+User Feedback
+
+Lessons Learned
+```
+
+The owner should document the review outcome.
+
+Example:
+
+```text
+Template:
+
+Vendor Risk Assessment
+
+Review Date:
+
+15 January 2027
+
+Review Result:
+
+No Major Changes Required
+
+Minor Update:
+
+Added cloud service provider question
+
+Next Review:
+
+January 2028
+```
+
+The organization should establish **change triggers**.
+
+A template should be reviewed when:
+
+```text
+New Regulation Is Introduced
+
+Existing Regulation Changes
+
+Framework Is Updated
+
+New Business Process Is Introduced
+
+Major Technology Is Implemented
+
+Audit Identifies a Template Weakness
+
+Control Failure Occurs
+
+Risk Methodology Changes
+
+Security Incident Reveals a Gap
+```
+
+For example:
+
+```text
+New Regulation
+      ↓
+Compliance Requirement Changes
+      ↓
+Compliance Template Reviewed
+      ↓
+New Fields Added
+      ↓
+Template Approved
+      ↓
+New Version Published
+```
+
+Template changes should be evaluated for impact.
+
+A simple change-impact assessment may include:
+
+```text
+Does the change affect:
+
+Risk Scoring?
+
+Compliance Requirements?
+
+Control Testing?
+
+Evidence Requirements?
+
+Approval Requirements?
+
+Reporting?
+
+Existing Records?
+```
+
+If existing assessments are affected, the owner should determine whether they need to be reassessed.
+
+For example:
+
+```text
+Template v2.0
+
+Assessment Completed:
+
+January 2027
+
+Template v3.0 released:
+
+March 2027
+
+New Requirement:
+
+Critical regulatory control
+
+Decision:
+
+January assessment must be reassessed.
+```
+
+Not every template update requires reassessment of historical records.
+
+The decision should be documented.
+
+The organization should maintain a **template change request**.
+
+Example:
+
+```text
+TEMPLATE CHANGE REQUEST
+
+Template ID:
+
+________________________
+
+Current Version:
+
+________________________
+
+Requested Change:
+
+________________________
+
+Reason:
+
+________________________
+
+Regulatory / Business Driver:
+
+________________________
+
+Impact:
+
+________________________
+
+Requested By:
+
+________________________
+
+Date:
+
+________________________
+```
+
+The owner should evaluate the request.
+
+The change can then be classified:
+
+```text
+No Change Required
+
+Minor Update
+
+Major Update
+
+New Template Required
+
+Template Retirement
+```
+
+A major change should normally require formal review and approval.
+
+The GRC professional should maintain a **template register**.
+
+Example:
+
+| Template ID  | Template              | Owner              | Version | Status | Effective Date | Review Date |
+| ------------ | --------------------- | ------------------ | ------- | ------ | -------------- | ----------- |
+| GRC-RISK-001 | Risk Register         | Risk Manager       | 2.0     | Active | Jan 2027       | Jan 2028    |
+| GRC-RISK-002 | Risk Assessment       | Risk Manager       | 3.0     | Active | Jan 2027       | Jan 2028    |
+| GRC-COMP-001 | Compliance Assessment | Compliance Manager | 2.1     | Active | Feb 2027       | Feb 2028    |
+| GRC-AUD-001  | Audit Checklist       | Internal Audit     | 1.5     | Active | Mar 2027       | Mar 2028    |
+
+The register should identify overdue reviews.
+
+For example:
+
+```text
+Template:
+
+GRC-TPRM-001
+
+Review Date:
+
+01 March 2027
+
+Current Date:
+
+15 April 2027
+
+Status:
+
+Review Overdue
+```
+
+The owner should receive a notification or escalation.
+
+The organization should establish review escalation.
+
+Example:
+
+```text
+Review Due
+      ↓
+Owner Notification
+      ↓
+Reminder
+      ↓
+Manager Escalation
+      ↓
+Governance Escalation
+```
+
+Templates that are overdue for review should not automatically become invalid unless organizational policy requires that behavior.
+
+However, their review status should be visible.
+
+The GRC professional should maintain **document history**.
+
+The history should show:
+
+```text
+Previous Version
+
+Current Version
+
+Change Date
+
+Change Description
+
+Author
+
+Reviewer
+
+Approver
+```
+
+This is particularly important when templates support regulated or audited processes.
+
+For example, an auditor may ask:
+
+> Which version of the risk assessment methodology was used when this risk was assessed?
+
+The organization should be able to demonstrate:
+
+```text
+Assessment:
+
+Risk-2027-001
+
+Template:
+
+GRC-RISK-002
+
+Version:
+
+3.0
+
+Effective Date:
+
+01 January 2027
+
+Approved By:
+
+CISO
+```
+
+This provides evidence of controlled methodology.
+
+Version control should also prevent accidental deletion of historical versions.
+
+For example:
+
+```text
+v1.0 → Archived
+v2.0 → Archived
+v3.0 → Active
+```
+
+Historical versions should remain available according to the organization's retention requirements.
+
+The organization should establish **retention requirements**.
+
+Retention may depend on:
+
+```text
+Regulatory Requirements
+
+Legal Requirements
+
+Audit Requirements
+
+Contractual Requirements
+
+Corporate Policy
+
+Record Classification
+```
+
+The GRC professional should avoid keeping every version indefinitely without a defined retention policy.
+
+The template repository should also apply appropriate information classification.
+
+For example:
+
+```text
+Public
+
+Internal
+
+Confidential
+
+Restricted
+```
+
+A GRC methodology document may contain internal information that should not be publicly distributed.
+
+Templates containing sensitive assessment criteria or organizational security information may require stronger protection.
+
+Ownership should include responsibility for information classification.
+
+The template owner should ensure that:
+
+```text
+Classification Is Defined
+
+Access Is Appropriate
+
+Sensitive Information Is Protected
+
+Distribution Is Controlled
+```
+
+The library should also define who can create new templates.
+
+Without governance, users may create unofficial templates that duplicate existing tools.
+
+A controlled process is:
+
+```text
+Need Identified
+      ↓
+Existing Template Reviewed
+      ↓
+Can Existing Template Be Reused?
+      ↓
+Yes → Customize Existing Template
+      ↓
+No → New Template Request
+      ↓
+Design
+      ↓
+Review
+      ↓
+Approval
+      ↓
+Publication
+```
+
+Before creating a new template, the GRC professional should ask:
+
+```text
+Does an existing template already solve the requirement?
+
+Can an existing template be modified?
+
+Can a common template support multiple frameworks?
+
+Would a new template create unnecessary duplication?
+```
+
+This helps maintain a lean toolkit.
+
+The organization should distinguish between **template customization** and **template modification**.
+
+Customization:
+
+```text
+Using approved fields for organization-specific
+requirements.
+```
+
+Modification:
+
+```text
+Changing the approved structure or methodology.
+```
+
+For example:
+
+```text
+Approved Template:
+
+Risk Assessment
+
+Organization-specific fields:
+
+Business Unit
+Application Name
+System Owner
+```
+
+This may be acceptable customization.
+
+However:
+
+```text
+Changing the approved risk scoring methodology
+```
+
+would normally require formal template governance.
+
+The GRC professional should maintain a **standard core template**.
+
+Example:
+
+```text
+CORE RISK ASSESSMENT
+        ↓
+Organization-Specific Configuration
+        ↓
+Business Unit Assessment
+```
+
+This allows flexibility without losing governance.
+
+Template ownership should also cover **quality assurance**.
+
+The owner should periodically verify:
+
+```text
+Fields Work Correctly
+
+Scoring Works Correctly
+
+Instructions Are Clear
+
+References Are Current
+
+Required Fields Are Present
+
+Outputs Are Accurate
+
+Reports Are Correct
+```
+
+For automated templates, testing should include:
+
+```text
+Calculation Testing
+
+Workflow Testing
+
+Validation Testing
+
+Access Testing
+
+Integration Testing
+```
+
+For example, if a risk calculator automatically calculates:
+
+```text
+Likelihood × Impact = Risk Score
+```
+
+the calculation should be tested before release.
+
+A GRC professional should not assume that a spreadsheet formula is correct simply because it produces a result.
+
+The library should establish **release management**.
+
+A release process may be:
+
+```text
+Draft Version
+      ↓
+Quality Review
+      ↓
+Business Review
+      ↓
+Approval
+      ↓
+Publication
+      ↓
+User Notification
+      ↓
+Old Version Archived
+```
+
+Users should be informed when important templates change.
+
+The communication should identify:
+
+```text
+What Changed
+
+Why It Changed
+
+Effective Date
+
+Who Is Affected
+
+What Users Need to Do
+```
+
+Example:
+
+```text
+Template:
+
+Compliance Assessment v2.0
+
+Change:
+
+Added regulatory obligation assessment.
+
+Effective:
+
+01 April 2027
+
+Action:
+
+All new compliance assessments must use v2.0.
+```
+
+The organization should avoid releasing new versions without notifying affected users.
+
+Training may be required for significant changes.
+
+For example:
+
+```text
+New Risk Scoring Methodology
+      ↓
+Template Updated
+      ↓
+GRC Team Training
+      ↓
+New Assessment Cycle
+```
+
+The GRC professional should monitor adoption.
+
+Useful metrics include:
+
+```text
+Percentage of Assessments Using Current Template
+
+Number of Assessments Using Obsolete Templates
+
+Number of Overdue Template Reviews
+
+Number of Template Change Requests
+
+Average Template Approval Time
+
+Number of Duplicate Templates
+
+Number of Retired Templates
+```
+
+Example:
+
+```text
+Current Template Usage:
+
+96%
+
+Obsolete Template Usage:
+
+4%
+```
+
+The objective should be to eliminate uncontrolled use of obsolete templates.
+
+The GRC professional should investigate why obsolete versions are being used.
+
+Possible causes include:
+
+```text
+Poor Repository Design
+
+Users Have Local Copies
+
+Insufficient Communication
+
+Old Links
+
+Poor Access Controls
+
+Lack of Training
+```
+
+The solution should address the underlying cause.
+
+A mature template governance model should establish:
+
+```text
+Template Owner
+
+Process Owner
+
+Reviewer
+
+Approver
+
+Repository Owner
+
+Users
+
+Records Manager
+```
+
+Each role should have clearly defined responsibilities.
+
+The governance model can be represented as:
+
+```text
+Template Owner
+      ↓
+Maintains Content
+
+GRC Governance
+      ↓
+Ensures Consistency
+
+Approver
+      ↓
+Authorizes Release
+
+Repository Administrator
+      ↓
+Controls Publication
+
+Users
+      ↓
+Use Approved Version
+```
+
+The GRC professional should verify that:
+
+```text
+Every Critical Template Has an Owner
+
+Approval Authority Is Defined
+
+Version Numbering Is Standardized
+
+Change History Is Maintained
+
+Effective Dates Are Defined
+
+Review Dates Are Defined
+
+Template Status Is Visible
+
+Current Version Is Identifiable
+
+Historical Versions Are Archived
+
+Master Templates Are Protected
+
+Completed Records Are Separate
+
+Change Requests Are Controlled
+
+Major Changes Are Formally Reviewed
+
+Regulatory Changes Trigger Reviews
+
+Users Are Notified of Important Changes
+
+Template Usage Is Monitored
+
+Obsolete Templates Are Removed From Active Use
+
+Access Is Appropriately Controlled
+
+Retention Requirements Are Defined
+
+Template Quality Is Periodically Tested
+```
+
+Common mistakes include:
+
+```text
+No Template Owner
+
+Multiple Uncontrolled Versions
+
+No Change History
+
+No Approval Process
+
+No Review Schedule
+
+Allowing Users to Modify Master Templates
+
+Keeping Old Templates Available
+
+Creating Duplicate Templates
+
+Changing Risk Methodology Without Approval
+
+Failing to Notify Users
+
+Failing to Archive Historical Versions
+
+Failing to Track Which Version Was Used
+
+Ignoring Regulatory Changes
+
+No Repository Governance
+
+No Access Controls
+
+No Retention Requirements
+```
+
+A mature GRC organization treats templates as controlled components of its governance system rather than ordinary documents.
+
+The lifecycle should therefore be:
+
+```text
+Design
+   ↓
+Assign Ownership
+   ↓
+Review
+   ↓
+Approve
+   ↓
+Publish
+   ↓
+Use
+   ↓
+Monitor
+   ↓
+Review
+   ↓
+Update
+   ↓
+Approve
+   ↓
+Republish
+   ↓
+Archive Previous Version
+```
+
+The key principle is:
+
+> **Every important GRC template should have clear ownership, controlled versioning, defined approval, periodic review, traceable change history, and a single authoritative source so that GRC activities are performed consistently using current and approved methodologies.**
+
+
 
 

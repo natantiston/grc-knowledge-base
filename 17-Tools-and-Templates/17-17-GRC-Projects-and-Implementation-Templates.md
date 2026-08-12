@@ -3294,6 +3294,923 @@ The key principle is:
 
 > **A GRC implementation roadmap translates the organization's current-state gaps and strategic objectives into a prioritized, measurable, and governed sequence of initiatives that moves GRC capabilities toward the desired target state.**
 
+# 17.17 GRC Project and Implementation Templates
+
+## Part 3 – RACI Matrix
+
+A RACI matrix is a responsibility assignment tool used to clearly define who performs, owns, provides input to, and receives information about activities within a GRC project or process.
+
+RACI stands for:
+
+```text
+R – Responsible
+A – Accountable
+C – Consulted
+I – Informed
+```
+
+The RACI matrix helps prevent unclear ownership, duplicated responsibilities, missed activities, and decision-making delays.
+
+In GRC, unclear responsibility can create significant problems.
+
+For example, an organization may identify a high-risk control deficiency but be unable to determine who is responsible for remediation.
+
+A RACI matrix addresses this problem by explicitly assigning roles.
+
+## R – Responsible
+
+**Responsible** identifies the person or team that performs the work.
+
+There can be more than one Responsible party for an activity when necessary.
+
+For example:
+
+```text
+Activity:
+
+Perform Security Control Assessment
+
+Responsible:
+
+GRC Assessment Team
+```
+
+The Responsible party performs the actual activity.
+
+Examples include:
+
+```text
+Conducting Risk Assessments
+
+Collecting Evidence
+
+Testing Controls
+
+Updating the Risk Register
+
+Mapping Regulatory Requirements
+
+Preparing Audit Documentation
+
+Implementing Security Controls
+```
+
+## A – Accountable
+
+**Accountable** identifies the person who ultimately owns the outcome and is answerable for completion.
+
+There should normally be **one Accountable party for each activity**.
+
+For example:
+
+```text
+Activity:
+
+Approve Enterprise Risk Assessment
+
+Accountable:
+
+Chief Information Security Officer
+```
+
+The Accountable person does not necessarily perform the work.
+
+The important distinction is:
+
+```text
+Responsible:
+Does the work.
+
+Accountable:
+Owns the outcome.
+```
+
+For example:
+
+```text
+GRC Analyst
+     ↓
+Responsible for preparing assessment
+
+GRC Manager
+     ↓
+Accountable for assessment completion
+```
+
+Multiple Accountable parties can create ambiguity and should generally be avoided.
+
+## C – Consulted
+
+**Consulted** identifies people who provide knowledge, expertise, advice, or feedback before an activity or decision is completed.
+
+Communication with Consulted parties is generally two-way.
+
+For example:
+
+```text
+Activity:
+
+Develop Data Classification Policy
+
+Responsible:
+
+GRC Team
+
+Accountable:
+
+CISO
+
+Consulted:
+
+Privacy
+
+Legal
+
+Data Owners
+
+IT
+```
+
+The Consulted parties provide relevant expertise.
+
+Examples include:
+
+```text
+Legal
+
+Privacy
+
+Cybersecurity Architecture
+
+IT Operations
+
+Business Owners
+
+Compliance
+
+Internal Audit
+```
+
+## I – Informed
+
+**Informed** identifies stakeholders who need to receive information about the activity or outcome.
+
+Communication with Informed parties is generally one-way.
+
+For example:
+
+```text
+Activity:
+
+Complete Enterprise Risk Assessment
+
+Responsible:
+
+GRC Team
+
+Accountable:
+
+CRO
+
+Consulted:
+
+Business Risk Owners
+
+CISO
+
+Informed:
+
+Executive Management
+```
+
+Informed stakeholders do not normally participate directly in the activity.
+
+They receive relevant updates or decisions.
+
+The four RACI roles can therefore be summarized as:
+
+```text
+R – Responsible
+Who performs the work?
+
+A – Accountable
+Who owns the outcome?
+
+C – Consulted
+Who provides input?
+
+I – Informed
+Who needs to know?
+```
+
+A RACI matrix normally places **activities or deliverables in rows** and **organizational roles in columns**.
+
+Example:
+
+| GRC Activity        | CISO | GRC Manager | GRC Analyst | Risk Owner | IT | Internal Audit |
+| ------------------- | ---- | ----------- | ----------- | ---------- | -- | -------------- |
+| Risk Assessment     | A    | R           | R           | C          | C  | I              |
+| Risk Treatment      | A    | R           | R           | A          | R  | I              |
+| Control Assessment  | A    | R           | R           | C          | R  | I              |
+| Compliance Mapping  | A    | R           | R           | C          | C  | I              |
+| Internal Audit      | I    | C           | C           | C          | C  | A/R            |
+| Executive Reporting | A    | R           | R           | C          | I  | I              |
+
+The matrix should be customized to the organization's structure.
+
+The GRC professional should avoid using individual employee names where possible.
+
+Roles are generally more sustainable than names.
+
+For example, use:
+
+```text
+GRC Manager
+```
+
+instead of:
+
+```text
+John Smith
+```
+
+This allows the RACI matrix to remain valid when employees change positions.
+
+The RACI matrix should be created during project planning rather than after implementation problems occur.
+
+A typical process is:
+
+```text
+Identify Activities
+        ↓
+Identify Roles
+        ↓
+Assign R
+        ↓
+Assign A
+        ↓
+Assign C
+        ↓
+Assign I
+        ↓
+Validate With Stakeholders
+        ↓
+Approve RACI
+        ↓
+Communicate Responsibilities
+```
+
+The first step is to identify the **activities or deliverables**.
+
+For a cybersecurity GRC project, activities may include:
+
+```text
+Project Charter
+
+Risk Assessment
+
+Risk Treatment
+
+Policy Development
+
+Control Design
+
+Control Implementation
+
+Control Assessment
+
+Compliance Mapping
+
+Evidence Collection
+
+Audit Preparation
+
+Audit Remediation
+
+Executive Reporting
+```
+
+The second step is to identify the relevant **organizational roles**.
+
+Examples include:
+
+```text
+Executive Sponsor
+
+CISO
+
+GRC Director
+
+GRC Manager
+
+GRC Analyst
+
+Risk Owner
+
+Control Owner
+
+IT Operations
+
+Security Operations
+
+Compliance
+
+Privacy
+
+Legal
+
+Procurement
+
+Internal Audit
+
+Business Unit Manager
+```
+
+The third step is to assign the **Responsible** role.
+
+Ask:
+
+> Who actually performs this activity?
+
+For example:
+
+```text
+Activity:
+
+Collect Control Evidence
+
+Responsible:
+
+Control Owner / GRC Analyst
+```
+
+The fourth step is to assign the **Accountable** role.
+
+Ask:
+
+> Who ultimately owns the outcome?
+
+For example:
+
+```text
+Activity:
+
+Approve Risk Treatment
+
+Accountable:
+
+Risk Owner
+```
+
+The fifth step is to identify **Consulted** stakeholders.
+
+Ask:
+
+> Whose expertise or input is required before completing the activity?
+
+For example:
+
+```text
+Activity:
+
+Develop Data Retention Standard
+
+Consulted:
+
+Privacy
+
+Legal
+
+Data Owners
+
+IT
+```
+
+The sixth step is to identify **Informed** stakeholders.
+
+Ask:
+
+> Who needs to know about the activity, decision, or outcome?
+
+For example:
+
+```text
+Activity:
+
+Close Critical Audit Finding
+
+Informed:
+
+CISO
+
+Executive Management
+
+Internal Audit
+```
+
+The RACI matrix should be reviewed with the people who are assigned responsibilities.
+
+This is important because an organization may assign a responsibility to a role that does not have the necessary authority, resources, or expertise.
+
+The RACI matrix should therefore be validated.
+
+A validation process can include:
+
+```text
+Draft RACI
+     ↓
+Review With Process Owners
+     ↓
+Review With Management
+     ↓
+Resolve Conflicts
+     ↓
+Approve
+     ↓
+Publish
+```
+
+The RACI matrix should identify **one clear Accountable owner** for each major activity.
+
+For example:
+
+```text
+Correct:
+
+Risk Assessment → A = Risk Owner
+```
+
+Avoid:
+
+```text
+Risk Assessment → A = CISO + CRO + GRC Manager
+```
+
+Multiple Accountable parties can make it unclear who has final decision authority.
+
+The organization should distinguish between **Accountability and Responsibility**.
+
+For example:
+
+```text
+Activity:
+
+Implement Security Control
+
+Responsible:
+
+IT Security Team
+
+Accountable:
+
+Control Owner
+```
+
+The IT Security Team performs the implementation.
+
+The Control Owner remains accountable for ensuring that the control achieves its intended objective.
+
+Another example:
+
+```text
+Activity:
+
+Risk Assessment
+
+Responsible:
+
+GRC Analyst
+
+Accountable:
+
+Risk Owner
+```
+
+The GRC Analyst facilitates and documents the assessment.
+
+The Risk Owner remains accountable for the business risk.
+
+This distinction is especially important in risk management.
+
+The RACI matrix should also avoid assigning **R and A automatically to the same person**.
+
+It is acceptable for one person to be both Responsible and Accountable when appropriate.
+
+For example:
+
+```text
+Small Organization:
+
+GRC Manager = R/A
+```
+
+However, in larger organizations, separating execution and accountability may provide stronger governance.
+
+The RACI matrix should also avoid excessive use of **C**.
+
+If every activity has many Consulted stakeholders, decision-making can become slow.
+
+For example:
+
+```text
+Poor:
+
+R = GRC
+
+A = CISO
+
+C = Legal, Privacy, HR, IT, Finance,
+    Procurement, Operations, Audit,
+    Business, Architecture, Compliance
+
+I = Everyone Else
+```
+
+A better approach is to identify only stakeholders whose input is genuinely required.
+
+The same principle applies to **Informed** stakeholders.
+
+Not every person needs to receive every update.
+
+Information should be distributed according to business relevance.
+
+The RACI matrix should therefore support efficient governance rather than create unnecessary bureaucracy.
+
+A GRC RACI matrix can be organized by capability.
+
+### Risk Management RACI
+
+| Activity                | CISO | GRC | Risk Owner | Control Owner | IT | Internal Audit |
+| ----------------------- | ---- | --- | ---------- | ------------- | -- | -------------- |
+| Define Risk Methodology | A    | R   | C          | C             | C  | C              |
+| Identify Risk           | A    | R   | R          | C             | C  | I              |
+| Assess Risk             | C    | R   | A          | C             | C  | I              |
+| Select Risk Treatment   | C    | R   | A          | C             | R  | I              |
+| Accept Risk             | I    | C   | A          | C             | I  | I              |
+| Monitor Risk            | A    | R   | R          | C             | C  | I              |
+
+### Control Management RACI
+
+| Activity              | CISO | GRC | Control Owner | IT | Internal Audit |
+| --------------------- | ---- | --- | ------------- | -- | -------------- |
+| Define Control        | A    | R   | C             | C  | C              |
+| Implement Control     | I    | C   | A             | R  | I              |
+| Test Control          | A    | R   | C             | C  | I              |
+| Remediate Control Gap | A    | R   | A             | R  | I              |
+| Validate Remediation  | I    | R   | C             | C  | A/C            |
+
+The exact assignment should reflect the organization's governance model.
+
+### Compliance Management RACI
+
+| Activity                 | Compliance | GRC | Legal | Business Owner | Control Owner | Internal Audit |
+| ------------------------ | ---------- | --- | ----- | -------------- | ------------- | -------------- |
+| Identify Regulation      | A/R        | C   | C     | I              | I             | I              |
+| Interpret Requirement    | R          | C   | A/C   | I              | I             | I              |
+| Map Requirement          | A          | R   | C     | C              | C             | I              |
+| Assess Compliance        | A          | R   | C     | R              | R             | I              |
+| Remediate Gap            | C          | R   | C     | A              | R             | I              |
+| Report Compliance Status | A          | R   | C     | I              | I             | I              |
+
+The matrix should be integrated with other GRC governance documents.
+
+Relevant documents include:
+
+```text
+GRC Policy
+
+Risk Management Policy
+
+Control Framework
+
+Governance Charter
+
+Committee Terms of Reference
+
+Process Documentation
+
+Job Descriptions
+
+GRC Project Charter
+
+Implementation Roadmap
+```
+
+The RACI matrix should not contradict these documents.
+
+The RACI matrix can also be used for **regulatory compliance programs**.
+
+For example:
+
+```text
+Regulatory Requirement
+
+       ↓
+
+Compliance
+
+       ↓
+
+Requirement Interpretation
+
+       ↓
+
+GRC
+
+       ↓
+
+Control Mapping
+
+       ↓
+
+Control Owner
+
+       ↓
+
+Implementation
+
+       ↓
+
+Testing
+
+       ↓
+
+Internal Audit
+```
+
+RACI assignments can clarify ownership at every stage.
+
+The RACI matrix is particularly useful for **third-party risk management**.
+
+Example:
+
+| Activity                       | Procurement | GRC | Security | Business Owner | Legal |
+| ------------------------------ | ----------- | --- | -------- | -------------- | ----- |
+| Vendor Selection               | A/R         | C   | C        | A              | C     |
+| Vendor Risk Assessment         | C           | A/R | R        | C              | C     |
+| Security Due Diligence         | C           | A   | R        | C              | I     |
+| Contract Security Requirements | R           | C   | C        | A              | R     |
+| Vendor Monitoring              | C           | A/R | R        | C              | C     |
+| Vendor Offboarding             | A/R         | C   | C        | A              | C     |
+
+The RACI matrix can also be used for **audit management**.
+
+Example:
+
+| Audit Activity      | Internal Audit | GRC | Control Owner | Business Owner | CISO |
+| ------------------- | -------------- | --- | ------------- | -------------- | ---- |
+| Audit Planning      | A/R            | C   | C             | C              | I    |
+| Evidence Request    | A/R            | C   | R             | C              | I    |
+| Control Testing     | A/R            | C   | C             | I              | I    |
+| Finding Validation  | A/R            | C   | R             | A              | I    |
+| Remediation         | I              | C   | R             | A              | I    |
+| Finding Closure     | A              | C   | R             | A              | I    |
+| Executive Reporting | A/R            | C   | I             | I              | I    |
+
+The RACI matrix can also be used in **GRC platform implementation**.
+
+Example:
+
+| Activity        | GRC | IT  | Security | Vendor | Business |
+| --------------- | --- | --- | -------- | ------ | -------- |
+| Requirements    | A/R | C   | C        | C      | C        |
+| Platform Design | A   | R   | C        | R      | C        |
+| Configuration   | A   | R   | C        | R      | I        |
+| Integration     | C   | A/R | C        | R      | I        |
+| User Testing    | A   | C   | C        | C      | R        |
+| Training        | A/R | C   | C        | C      | C        |
+| Go-Live         | A   | R   | C        | R      | I        |
+
+The RACI matrix should be reviewed when organizational responsibilities change.
+
+Triggers for review include:
+
+```text
+Organizational Restructuring
+
+New Regulations
+
+New GRC Platform
+
+Major New Project
+
+Change in Risk Ownership
+
+Change in Control Ownership
+
+New Business Unit
+
+New Technology
+
+Audit Findings
+
+Major Security Incident
+
+Changes to Governance
+```
+
+The RACI matrix should have its own **document governance**.
+
+A practical template includes:
+
+```text
+Document Owner:
+
+GRC Function
+
+Approver:
+
+CISO
+
+Version:
+
+1.0
+
+Effective Date:
+
+01 January 2027
+
+Review Frequency:
+
+Annual
+
+Classification:
+
+Internal
+```
+
+Changes should be tracked through version control.
+
+A practical RACI matrix template can be structured as:
+
+```text
+GRC RACI MATRIX
+
+Project / Process:
+
+________________________
+
+Version:
+
+________________________
+
+Effective Date:
+
+________________________
+
+Owner:
+
+________________________
+
+Approver:
+
+________________________
+```
+
+Then:
+
+| Activity / Deliverable | Role 1 | Role 2 | Role 3 | Role 4 | Role 5 |
+| ---------------------- | ------ | ------ | ------ | ------ | ------ |
+| Activity 1             |        |        |        |        |        |
+| Activity 2             |        |        |        |        |        |
+| Activity 3             |        |        |        |        |        |
+| Activity 4             |        |        |        |        |        |
+| Activity 5             |        |        |        |        |        |
+
+The following rules should be applied:
+
+```text
+R = Responsible
+
+A = Accountable
+
+C = Consulted
+
+I = Informed
+```
+
+The GRC professional should verify:
+
+```text
+Every Major Activity Has an Owner
+
+Every Major Activity Has an Accountable Party
+
+Accountability Is Clearly Assigned
+
+Responsible Parties Have the Capability to Perform the Work
+
+Consulted Parties Are Limited to Necessary Stakeholders
+
+Informed Parties Receive Appropriate Information
+
+Decision Authority Is Clear
+
+No Major Responsibility Is Unassigned
+
+There Is No Unnecessary Duplication
+
+RACI Does Not Conflict With Governance Documents
+
+RACI Is Approved by Appropriate Management
+
+RACI Is Communicated to Stakeholders
+
+RACI Is Reviewed Periodically
+```
+
+Common RACI mistakes include:
+
+```text
+No Accountable Owner
+
+Multiple Accountable Owners
+
+Too Many Consulted Stakeholders
+
+Everyone Marked as Informed
+
+Responsibilities Assigned Without Authority
+
+Responsibilities Assigned Without Resources
+
+Using Individual Names Instead of Roles
+
+RACI Not Updated After Organizational Changes
+
+RACI Created but Never Communicated
+
+RACI Not Aligned With Actual Processes
+```
+
+A RACI matrix should reflect **how the organization actually operates**, not simply how management wishes it operated.
+
+If the RACI shows that the GRC team is Responsible for implementing every security control, but the organization's governance model states that business and technology owners own their controls, the RACI is incorrect.
+
+A mature GRC model normally separates:
+
+```text
+GRC
+→ Governance, Methodology, Coordination, Oversight
+
+Risk Owner
+→ Risk Decision and Acceptance
+
+Control Owner
+→ Control Operation and Effectiveness
+
+IT / Security
+→ Technical Implementation
+
+Compliance
+→ Regulatory Oversight
+
+Internal Audit
+→ Independent Assurance
+```
+
+This separation supports the principle that GRC should provide governance and oversight without unnecessarily taking ownership of operational activities.
+
+The RACI matrix should therefore reinforce the organization's **three lines model** where applicable:
+
+```text
+First Line
+→ Owns and Manages Risks
+
+Second Line
+→ Provides Risk, Compliance, and Oversight Functions
+
+Third Line
+→ Provides Independent Assurance
+```
+
+For example:
+
+```text
+First Line:
+
+Control Owner
+Business Owner
+IT Operations
+
+Second Line:
+
+GRC
+Risk
+Compliance
+Information Security Governance
+
+Third Line:
+
+Internal Audit
+```
+
+The exact structure may vary by organization.
+
+The key principle is:
+
+> **A RACI matrix establishes clear accountability and responsibility by defining who performs the work, who owns the outcome, who provides input, and who must be informed, thereby reducing ambiguity and strengthening GRC governance.**
+
 
 
 

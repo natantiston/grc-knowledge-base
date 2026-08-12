@@ -3419,5 +3419,1372 @@ The key principle is:
 
 > **A GRC dashboard should transform complex governance, risk, compliance, cybersecurity, control, and audit information into a clear management view that highlights risk, performance, trends, exceptions, accountability, and decisions requiring action.**
 
+# 17.14 Security Metrics and Reporting Templates
+
+## Part 4 – Executive Security Reporting Template
+
+Executive security reporting provides senior management, executive committees, and the board with a concise view of the organization's cybersecurity risk, security performance, compliance position, significant incidents, control effectiveness, and areas requiring management attention.
+
+Executive reporting should not reproduce operational security reports. Senior decision-makers generally need summarized information that explains **what has changed, why it matters to the business, what is being done, and what decisions or support are required**.
+
+A practical Executive Security Reporting Template can contain:
+
+```text
+EXECUTIVE SECURITY REPORT
+
+Report Title:
+
+Reporting Period:
+
+Report Date:
+
+Prepared By:
+
+Reviewed By:
+
+Executive Sponsor:
+
+Overall Security Status:
+
+Overall Cybersecurity Risk:
+
+Overall Compliance Status:
+
+Overall Control Effectiveness:
+
+Executive Summary:
+
+Key Security Developments:
+
+Top Cybersecurity Risks:
+
+Risk Trend:
+
+Key Risk Indicators:
+
+Key Performance Indicators:
+
+Major Security Incidents:
+
+Security Control Status:
+
+Compliance and Regulatory Status:
+
+Audit and Assessment Status:
+
+Third-Party Security Risk:
+
+Business Continuity and Disaster Recovery:
+
+Security Program Progress:
+
+Open High-Risk Issues:
+
+Overdue Remediation:
+
+Emerging Cybersecurity Threats:
+
+Management Actions:
+
+Decisions Required:
+
+Resources Required:
+
+Key Changes Since Previous Report:
+
+Management Commentary:
+
+Evidence Sources:
+
+Next Reporting Period:
+
+Approval:
+```
+
+The report should begin with a clear **report title**.
+
+For example:
+
+```text
+Report Title:
+
+Executive Cybersecurity and Information
+Security Report
+```
+
+The report should identify the **reporting period**.
+
+For example:
+
+```text
+Reporting Period:
+
+July 2026
+```
+
+The **report date** should identify when the report was prepared.
+
+```text
+Report Date:
+
+15 August 2026
+```
+
+The report should identify the **preparer**.
+
+```text
+Prepared By:
+
+Cybersecurity GRC Manager
+```
+
+The report should identify the person responsible for reviewing the report.
+
+```text
+Reviewed By:
+
+Chief Information Security Officer
+```
+
+The report should identify the **executive sponsor**.
+
+```text
+Executive Sponsor:
+
+Chief Risk Officer
+```
+
+The report should begin with an **overall security status**.
+
+For example:
+
+```text
+Overall Security Status:
+
+AMBER
+
+Security operations remain stable.
+However, critical vulnerabilities,
+third-party security exposure, and
+overdue remediation require management
+attention.
+```
+
+The status should be supported by defined criteria.
+
+```text
+GREEN:
+
+Security objectives are generally being
+achieved and no material unresolved
+issues require executive intervention.
+
+AMBER:
+
+Material issues exist and require
+management attention, but the overall
+security program remains manageable.
+
+RED:
+
+Significant cybersecurity risk,
+control failure, compliance exposure,
+or security incidents require immediate
+executive intervention.
+```
+
+The report should provide an **overall cybersecurity risk position**.
+
+For example:
+
+```text
+Overall Cybersecurity Risk:
+
+AMBER
+
+Critical Risks:
+3
+
+High Risks:
+11
+
+Medium Risks:
+26
+
+Risk Trend:
+
+Increasing
+```
+
+The report should provide an **overall compliance status**.
+
+For example:
+
+```text
+Overall Compliance Status:
+
+GREEN
+
+Critical Compliance Issues:
+0
+
+High-Risk Compliance Issues:
+2
+
+Overdue Compliance Actions:
+1
+```
+
+The report should provide an **overall control effectiveness status**.
+
+For example:
+
+```text
+Overall Control Effectiveness:
+
+AMBER
+
+Effective:
+82%
+
+Partially Effective:
+14%
+
+Ineffective:
+4%
+```
+
+The report should contain an **executive summary**.
+
+The executive summary should focus on the most important developments during the reporting period.
+
+For example:
+
+```text
+Executive Summary:
+
+The cybersecurity program remains
+operationally stable. Critical
+vulnerability exposure increased
+during the reporting period, primarily
+due to legacy infrastructure.
+
+Security awareness completion remains
+above target.
+
+Three critical suppliers have overdue
+security assessments.
+
+No critical security incidents were
+recorded during the reporting period.
+
+Management attention is required for
+vulnerability remediation and third-party
+security risk.
+```
+
+The executive summary should be concise and should avoid unnecessary technical detail.
+
+The report should identify **key security developments**.
+
+Examples include:
+
+```text
+Key Security Developments:
+
+Completed privileged access review.
+
+Implemented enhanced vulnerability
+monitoring.
+
+Completed annual disaster recovery test.
+
+Updated information security policy.
+
+Completed third-party assessments for
+critical suppliers.
+
+Implemented additional security monitoring
+for cloud environments.
+```
+
+The report should identify the organization's **top cybersecurity risks**.
+
+For example:
+
+```text
+TOP CYBERSECURITY RISKS
+
+1. Ransomware
+   Rating: Critical
+   Trend: Increasing
+
+2. Third-Party Security Risk
+   Rating: High
+   Trend: Increasing
+
+3. Privileged Access Abuse
+   Rating: High
+   Trend: Stable
+
+4. Data Protection Risk
+   Rating: High
+   Trend: Stable
+```
+
+The report should provide a **risk trend**.
+
+For example:
+
+```text
+RISK TREND
+
+Critical Risks:
+
+Previous Period:
+2
+
+Current Period:
+3
+
+Trend:
+Increasing
+```
+
+The report should explain significant changes rather than simply displaying numbers.
+
+For example:
+
+```text
+Risk Change:
+
+Critical cybersecurity risks increased
+from two to three due to increased
+third-party exposure.
+
+Management Response:
+
+Additional supplier security assessments
+are being prioritized.
+```
+
+The report should include important **Key Risk Indicators**.
+
+For example:
+
+```text
+KEY RISK INDICATORS
+
+Critical Vulnerabilities Above SLA:
+14 — RED
+
+Critical Suppliers Without Current
+Security Assessment:
+3 — RED
+
+Privileged Accounts Without Completed Review:
+4.5% — RED
+
+High-Severity Incidents Above SLA:
+2 — AMBER
+```
+
+The report should include relevant **Key Performance Indicators**.
+
+For example:
+
+```text
+KEY PERFORMANCE INDICATORS
+
+Critical Vulnerability Remediation:
+92% — AMBER
+
+Security Awareness Completion:
+98% — GREEN
+
+Access Review Completion:
+100% — GREEN
+
+Security Incident Response SLA:
+96% — GREEN
+
+Audit Finding Closure:
+91% — AMBER
+```
+
+KPIs and KRIs should be presented together when doing so provides a clearer picture of security performance and risk exposure.
+
+The report should provide information about **major security incidents**.
+
+For example:
+
+```text
+MAJOR SECURITY INCIDENTS
+
+Critical Incidents:
+0
+
+High-Severity Incidents:
+3
+
+Medium-Severity Incidents:
+17
+
+Low-Severity Incidents:
+42
+
+Major Incidents Requiring Executive
+Escalation:
+1
+```
+
+Where a significant incident occurred, the report should provide a concise business-focused summary.
+
+```text
+Incident:
+
+Ransomware Event
+
+Date:
+
+20 July 2026
+
+Business Impact:
+
+Customer-facing service unavailable
+for 45 minutes.
+
+Current Status:
+
+Resolved.
+
+Root Cause:
+
+Compromised administrative credentials.
+
+Corrective Actions:
+
+Credential rotation completed.
+
+Privileged access controls strengthened.
+
+Additional monitoring implemented.
+```
+
+The report should avoid unnecessary technical details unless they are relevant to an executive decision.
+
+The report should provide **security control status**.
+
+For example:
+
+```text
+SECURITY CONTROL STATUS
+
+Controls Assessed:
+245
+
+Effective:
+201
+
+Partially Effective:
+34
+
+Ineffective:
+10
+
+Critical Control Failures:
+2
+```
+
+Significant control failures should be explained.
+
+```text
+Critical Control Failure:
+
+Privileged Access Review
+
+Issue:
+
+Two critical systems did not complete
+the required quarterly access review.
+
+Risk:
+
+Unauthorized privileged access may remain
+undetected.
+
+Action:
+
+Immediate review initiated.
+
+Owner:
+
+Identity Management
+```
+
+The report should provide **compliance and regulatory status**.
+
+For example:
+
+```text
+COMPLIANCE AND REGULATORY STATUS
+
+Applicable Requirements:
+146
+
+Compliant:
+132
+
+Partially Compliant:
+11
+
+Non-Compliant:
+3
+
+High-Risk Compliance Issues:
+2
+
+Overdue Regulatory Actions:
+1
+```
+
+The report should identify significant regulatory developments where applicable.
+
+For example:
+
+```text
+Regulatory Development:
+
+New regulatory requirements require
+additional cybersecurity controls
+for critical services.
+
+Management Impact:
+
+Additional compliance resources may
+be required during the next reporting
+period.
+```
+
+The report should provide **audit and assessment status**.
+
+For example:
+
+```text
+AUDIT AND ASSESSMENT STATUS
+
+Open Findings:
+31
+
+Critical:
+1
+
+High:
+7
+
+Medium:
+14
+
+Low:
+9
+
+Overdue High-Risk Findings:
+2
+
+Findings Closed This Period:
+6
+```
+
+The report should highlight material audit issues.
+
+```text
+Material Audit Finding:
+
+Finding:
+
+Third-party security assessments were
+not completed within the required period
+for three critical suppliers.
+
+Risk:
+
+Increased third-party security exposure.
+
+Status:
+
+Remediation in progress.
+
+Target Completion:
+
+30 September 2026.
+```
+
+The report should provide visibility into **third-party security risk**.
+
+For example:
+
+```text
+THIRD-PARTY SECURITY RISK
+
+Critical Suppliers:
+42
+
+Current Assessments:
+39
+
+Overdue Assessments:
+3
+
+High-Risk Suppliers:
+5
+
+Critical Suppliers Without Current
+Security Assessment:
+3
+```
+
+Significant third-party risks should be linked to management actions.
+
+The report should provide **business continuity and disaster recovery status**.
+
+For example:
+
+```text
+BUSINESS CONTINUITY AND DISASTER RECOVERY
+
+Critical Services:
+24
+
+Current BIA:
+24
+
+Current Recovery Plans:
+23
+
+Recovery Tests Completed:
+21
+
+Overdue Recovery Tests:
+3
+
+RTO Failures:
+1
+
+RPO Failures:
+2
+```
+
+A significant recovery testing failure should be explained.
+
+```text
+Recovery Test Finding:
+
+Critical application exceeded the
+approved RPO during the latest test.
+
+Required Action:
+
+Review backup frequency and recovery
+architecture.
+
+Owner:
+
+Infrastructure Engineering
+
+Target:
+
+30 September 2026.
+```
+
+The report should provide **security program progress**.
+
+For example:
+
+```text
+SECURITY PROGRAM PROGRESS
+
+Initiatives:
+
+ISO 27001 ISMS Improvement:
+85% Complete
+
+Privileged Access Management:
+75% Complete
+
+Third-Party Risk Enhancement:
+60% Complete
+
+Security Monitoring Improvement:
+90% Complete
+
+Business Continuity Enhancement:
+80% Complete
+```
+
+Program progress should be connected to business or security objectives.
+
+The report should identify **open high-risk issues**.
+
+For example:
+
+```text
+OPEN HIGH-RISK ISSUES
+
+Total:
+18
+
+Critical:
+3
+
+High:
+15
+
+Overdue:
+5
+
+New This Period:
+4
+
+Closed This Period:
+6
+```
+
+The report should identify **overdue remediation activities**.
+
+For example:
+
+```text
+OVERDUE REMEDIATION
+
+Risk Treatment Actions:
+11
+
+Audit Actions:
+7
+
+Compliance Actions:
+3
+
+Security Control Actions:
+5
+
+Total:
+26
+```
+
+The report should identify the most significant overdue actions rather than presenting every operational task.
+
+The report should include **emerging cybersecurity threats**.
+
+For example:
+
+```text
+EMERGING THREATS
+
+Threat:
+
+Increase in ransomware activity targeting
+organizations within the sector.
+
+Potential Impact:
+
+Service disruption and data compromise.
+
+Current Exposure:
+
+Medium
+
+Management Response:
+
+Enhanced monitoring and accelerated
+vulnerability remediation.
+```
+
+Threat information should be connected to organizational exposure.
+
+The report should not include threat intelligence simply because it is interesting. It should explain why the threat matters to the organization.
+
+The report should identify **management actions**.
+
+For example:
+
+```text
+MANAGEMENT ACTIONS
+
+1. Accelerate remediation of critical
+   vulnerabilities.
+
+2. Complete overdue critical supplier
+   security assessments.
+
+3. Approve additional resources for
+   identity security improvements.
+
+4. Review recovery capabilities for
+   systems failing RPO requirements.
+```
+
+The report should clearly identify **decisions required**.
+
+This section is particularly important for executive reporting.
+
+For example:
+
+```text
+DECISIONS REQUIRED
+
+Decision 1:
+
+Approve additional resources for
+critical vulnerability remediation.
+
+Decision 2:
+
+Approve risk treatment strategy for
+three high-risk suppliers.
+
+Decision 3:
+
+Approve funding for improved backup
+and recovery capabilities.
+```
+
+The report should identify **resources required**.
+
+For example:
+
+```text
+RESOURCES REQUIRED
+
+Additional Security Engineering:
+2 FTE
+
+Third-Party Risk Resources:
+1 FTE
+
+Security Monitoring Platform:
+Additional Budget Required
+
+Disaster Recovery Improvement:
+Capital Investment Required
+```
+
+Resource requests should explain the relationship between the requested investment and the risk or business objective.
+
+For example:
+
+```text
+Request:
+
+Additional Security Engineering Resource
+
+Purpose:
+
+Accelerate remediation of critical
+vulnerabilities.
+
+Risk Addressed:
+
+Critical vulnerability exploitation.
+
+Expected Outcome:
+
+Reduce vulnerabilities exceeding SLA
+from 14 to fewer than 5.
+```
+
+The report should identify **key changes since the previous reporting period**.
+
+For example:
+
+```text
+KEY CHANGES SINCE PREVIOUS REPORT
+
+Critical Risks:
+2 → 3
+
+High-Risk Findings:
+12 → 11
+
+Critical Vulnerabilities Above SLA:
+9 → 14
+
+Security Training Completion:
+97% → 98%
+
+Critical Supplier Assessments:
+97% → 93%
+```
+
+The report should include **management commentary**.
+
+For example:
+
+```text
+MANAGEMENT COMMENTARY:
+
+Overall cybersecurity performance remains
+stable. However, risk exposure associated
+with critical vulnerabilities and third-party
+security assessments has increased.
+
+Management intervention is recommended
+to accelerate remediation and supplier
+assessment activities.
+```
+
+The report should identify **evidence sources**.
+
+For example:
+
+```text
+EVIDENCE SOURCES
+
+Enterprise Risk Register
+
+GRC Platform
+
+Security Incident Management Platform
+
+Vulnerability Management Platform
+
+Audit Management System
+
+Compliance Register
+
+Third-Party Risk Platform
+
+Security Control Assessment Records
+
+Business Continuity Records
+
+Security Metrics Repository
+```
+
+Executive reporting should maintain traceability to the underlying records.
+
+For example:
+
+```text
+Executive Report:
+
+High-Risk Cybersecurity Risks:
+11
+
+        ↓
+
+Enterprise Risk Register
+
+        ↓
+
+Risk IDs:
+
+CYB-001
+CYB-007
+CYB-012
+CYB-018
+CYB-021
+...
+```
+
+This ensures that reported information can be validated when required.
+
+The report should identify the **next reporting period**.
+
+```text
+Next Reporting Period:
+
+August 2026
+```
+
+The report should include appropriate **approval**.
+
+```text
+Prepared By:
+
+Cybersecurity GRC Manager
+
+Reviewed By:
+
+CISO
+
+Approved By:
+
+Chief Risk Officer
+
+Approval Date:
+
+18 August 2026
+```
+
+Executive security reporting should follow a consistent reporting cycle.
+
+A practical process is:
+
+```text
+Collect Security Data
+        ↓
+Validate Data
+        ↓
+Review Risks and Exceptions
+        ↓
+Update KPIs and KRIs
+        ↓
+Review Security Incidents
+        ↓
+Review Compliance and Audit Status
+        ↓
+Identify Significant Changes
+        ↓
+Prepare Executive Report
+        ↓
+GRC Quality Review
+        ↓
+CISO Review
+        ↓
+Executive / Board Reporting
+        ↓
+Management Decisions
+        ↓
+Actions and Follow-Up
+```
+
+The GRC professional should ensure that executive reports focus on **materiality and business impact**.
+
+For example, instead of reporting:
+
+```text
+Technical Issue:
+
+Firewall rule 1047 was incorrectly configured.
+```
+
+The executive report should communicate:
+
+```text
+Business Risk:
+
+A firewall configuration weakness increased
+the exposure of a critical customer-facing
+system.
+
+Current Status:
+
+Corrected.
+
+Management Impact:
+
+No customer impact identified.
+```
+
+This allows executives to understand why the issue matters without requiring them to understand the underlying technical configuration.
+
+Executive reporting should also distinguish between **information, risk, and decisions**.
+
+For example:
+
+```text
+Information:
+
+14 critical vulnerabilities exceed SLA.
+
+Risk:
+
+Continued exposure increases the likelihood
+of exploitation.
+
+Decision:
+
+Approve accelerated remediation resources.
+```
+
+This structure makes the report more actionable.
+
+The GRC professional should also ensure that the report does not create a false impression of security.
+
+For example:
+
+```text
+Security KPI:
+
+98% Patch Compliance
+```
+
+This does not necessarily mean that the organization has low vulnerability risk.
+
+The report should provide additional context:
+
+```text
+Patch Compliance:
+
+98%
+
+Critical Vulnerabilities Above SLA:
+
+14
+
+Risk Interpretation:
+
+Overall patch performance is strong, but
+14 critical vulnerabilities remain outside
+the approved remediation period.
+```
+
+Executive reports should therefore combine:
+
+```text
+Performance
++
+Risk
++
+Control Effectiveness
++
+Compliance
++
+Threat Environment
++
+Business Impact
++
+Management Action
+```
+
+The report should also identify **security trends**.
+
+For example:
+
+```text
+SIX-MONTH SECURITY TREND
+
+Critical Risks:
+
+January:
+2
+
+February:
+2
+
+March:
+3
+
+April:
+2
+
+May:
+3
+
+June:
+3
+
+Trend:
+
+Stable at an elevated level.
+```
+
+Trend information allows management to determine whether the security program is improving over time.
+
+The report should highlight **significant positive developments** as well as negative developments.
+
+For example:
+
+```text
+POSITIVE DEVELOPMENTS
+
+Security awareness completion increased
+from 94% to 98%.
+
+Access review completion reached 100%.
+
+Six high-risk audit findings were closed.
+
+Recovery testing coverage increased
+from 82% to 91%.
+```
+
+Balanced reporting provides a more accurate representation of the security program.
+
+The GRC professional should also report **material negative developments**.
+
+For example:
+
+```text
+AREAS REQUIRING ATTENTION
+
+Critical vulnerability exposure increased.
+
+Three critical supplier assessments
+became overdue.
+
+Two recovery tests failed to meet
+defined RPO requirements.
+
+One high-risk audit finding exceeded
+its approved remediation deadline.
+```
+
+The report should prioritize these issues according to their business impact.
+
+Executive security reporting should also support **governance accountability**.
+
+For example:
+
+```text
+Risk Owner:
+
+CISO
+
+Business Owner:
+
+COO
+
+Action Owner:
+
+Infrastructure Security Manager
+
+Management Decision:
+
+Executive Risk Committee
+```
+
+This makes responsibilities clear.
+
+The GRC professional should ensure that management decisions are recorded and tracked after the report is presented.
+
+For example:
+
+```text
+Executive Decision:
+
+Accelerate remediation of critical
+vulnerabilities.
+
+Decision Date:
+
+18 August 2026
+
+Decision Owner:
+
+CISO
+
+Action Owner:
+
+Infrastructure Security Manager
+
+Target:
+
+30 September 2026
+
+Follow-Up:
+
+October Executive Security Report
+```
+
+This creates a closed governance loop:
+
+```text
+Reporting
+    ↓
+Management Review
+    ↓
+Decision
+    ↓
+Action
+    ↓
+Risk Reduction
+    ↓
+Measurement
+    ↓
+Next Report
+```
+
+A mature executive security reporting process should allow management to determine:
+
+```text
+What Is Our Current Security Position?
+
+What Has Changed?
+
+What Are Our Most Significant Risks?
+
+Are We Within Risk Appetite?
+
+Are Controls Effective?
+
+Are Compliance Requirements Being Met?
+
+Are Audit Issues Being Remediated?
+
+Are Security Investments Producing Results?
+
+What Requires Management Attention?
+
+What Decisions Are Required?
+
+What Resources Are Needed?
+
+Who Is Accountable?
+
+When Will the Issue Be Resolved?
+```
+
+The GRC professional should verify that:
+
+```text
+Report Purpose Is Defined
+
+Reporting Period Is Defined
+
+Report Owner Is Assigned
+
+Overall Security Status Is Provided
+
+Cybersecurity Risk Position Is Provided
+
+Compliance Status Is Provided
+
+Control Effectiveness Is Reported
+
+Top Risks Are Identified
+
+Risk Trends Are Included
+
+KPIs Are Reported
+
+KRIs Are Reported
+
+Major Incidents Are Reported
+
+Audit Findings Are Reported
+
+Third-Party Risk Is Considered
+
+Business Continuity Is Considered
+
+Emerging Threats Are Considered
+
+Overdue Actions Are Highlighted
+
+Management Decisions Are Identified
+
+Resource Requirements Are Identified
+
+Business Impact Is Explained
+
+Positive Developments Are Reported
+
+Negative Developments Are Reported
+
+Evidence Is Traceable
+
+Management Actions Are Assigned
+
+Follow-Up Is Defined
+
+Executive Approval Is Documented
+```
+
+The key principle is:
+
+> **An executive security report should convert complex cybersecurity, risk, compliance, control, audit, and resilience information into a concise, business-focused view that enables senior management to understand the organization's security position, recognize material changes and risks, and make informed decisions about priorities, resources, and risk treatment.**
+
 
 

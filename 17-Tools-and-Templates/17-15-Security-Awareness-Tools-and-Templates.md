@@ -2743,5 +2743,1305 @@ The key principle is:
 
 > **A phishing simulation should measure and improve the organization's ability to recognize, report, and resist phishing threats while providing measurable evidence of changes in employee security behavior and human-related cybersecurity risk.**
 
+## Part 3 – Security Awareness Campaign Template
+
+A Security Awareness Campaign Template provides a structured approach for planning, delivering, measuring, and improving focused cybersecurity awareness campaigns. Unlike annual security training, which provides broad baseline education, an awareness campaign addresses a specific security topic, risk, behavior, threat, policy requirement, or organizational event.
+
+A campaign may focus on phishing, ransomware, password security, data protection, physical security, remote working, social engineering, artificial intelligence security, incident reporting, or another identified security risk.
+
+A practical Security Awareness Campaign Template can contain:
+
+```text
+SECURITY AWARENESS CAMPAIGN
+
+Campaign ID:
+
+Campaign Name:
+
+Campaign Owner:
+
+Security Awareness Owner:
+
+Reporting Period:
+
+Campaign Objective:
+
+Business Objective:
+
+Security Objective:
+
+Related Risk:
+
+Risk Rating:
+
+Target Audience:
+
+Campaign Scope:
+
+Campaign Theme:
+
+Key Message:
+
+Behavioral Objective:
+
+Related Policies:
+
+Related Standards or Frameworks:
+
+Campaign Duration:
+
+Campaign Start Date:
+
+Campaign End Date:
+
+Communication Channels:
+
+Campaign Activities:
+
+Training Materials:
+
+Awareness Materials:
+
+Management Participation:
+
+Employee Engagement:
+
+Campaign Metrics:
+
+Participation Rate:
+
+Knowledge Assessment Results:
+
+Behavioral Results:
+
+Security Incident Trend:
+
+Feedback:
+
+Key Findings:
+
+Lessons Learned:
+
+Improvement Actions:
+
+Action Owner:
+
+Target Completion Date:
+
+Evidence Repository:
+
+Management Reporting:
+
+Campaign Effectiveness:
+
+Review Date:
+
+Approval:
+```
+
+The campaign should have a unique **campaign ID**.
+
+For example:
+
+```text
+Campaign ID:
+
+AWARE-2026-008
+```
+
+The campaign should have a clear **campaign name**.
+
+For example:
+
+```text
+Campaign Name:
+
+Recognize and Report Phishing
+Awareness Campaign
+```
+
+The organization should identify the **campaign owner**.
+
+```text
+Campaign Owner:
+
+Security Awareness Program Manager
+```
+
+The **security awareness owner** should also be identified.
+
+```text
+Security Awareness Owner:
+
+Cybersecurity GRC Manager
+```
+
+The campaign should identify the **reporting period**.
+
+```text
+Reporting Period:
+
+September 2026
+```
+
+The campaign should define a specific **campaign objective**.
+
+For example:
+
+```text
+Campaign Objective:
+
+Increase employee ability to identify
+and report suspicious emails and reduce
+successful phishing interactions.
+```
+
+The campaign should identify the relevant **business objective**.
+
+For example:
+
+```text
+Business Objective:
+
+Reduce business disruption, financial
+loss, and operational impact associated
+with successful phishing attacks.
+```
+
+The campaign should identify the **security objective**.
+
+```text
+Security Objective:
+
+Improve employee phishing awareness,
+increase suspicious-email reporting,
+and reduce human-related security risk.
+```
+
+The campaign should identify the **related risk**.
+
+For example:
+
+```text
+Related Risk:
+
+Phishing and Social Engineering
+
+Potential Impact:
+
+Credential compromise, malware infection,
+data disclosure, financial fraud, and
+unauthorized access.
+```
+
+The organization should assign an appropriate **risk rating**.
+
+```text
+Risk Rating:
+
+High
+```
+
+The rating should be based on the organization's established risk assessment methodology.
+
+The campaign should define the **target audience**.
+
+For example:
+
+```text
+Target Audience:
+
+All Employees
+
+Contractors
+
+Temporary Staff
+```
+
+A targeted campaign may instead focus on:
+
+```text
+Target Audience:
+
+Finance Department
+
+Executive Management
+
+Privileged Administrators
+
+Developers
+
+Customer Service Personnel
+```
+
+The campaign should define its **scope**.
+
+For example:
+
+```text
+Campaign Scope:
+
+The campaign covers phishing awareness,
+suspicious email identification, reporting
+procedures, and business email compromise.
+```
+
+The campaign should define a clear **theme**.
+
+Examples include:
+
+```text
+Phishing Awareness
+
+Ransomware Prevention
+
+Protect Your Password
+
+Data Protection
+
+Secure Remote Working
+
+Report Security Incidents
+
+Artificial Intelligence Security
+
+Social Engineering Awareness
+
+Mobile Device Security
+
+Clean Desk and Clear Screen
+
+Secure Use of Cloud Services
+```
+
+For example:
+
+```text
+Campaign Theme:
+
+Stop. Think. Report.
+```
+
+The campaign should establish a concise **key message**.
+
+For example:
+
+```text
+Key Message:
+
+Stop before clicking.
+
+Check the sender, link, attachment,
+and request.
+
+When in doubt, report the message
+to the Security Team.
+```
+
+The campaign should define the desired **behavioral objective**.
+
+For example:
+
+```text
+Behavioral Objective:
+
+Employees should verify suspicious
+requests and report suspected phishing
+rather than clicking links or opening
+attachments.
+```
+
+This is important because awareness campaigns should aim to change behavior, not simply distribute information.
+
+The campaign should identify relevant **policies**.
+
+For example:
+
+```text
+Related Policies:
+
+Information Security Policy
+
+Acceptable Use Policy
+
+Incident Reporting Policy
+
+Data Protection Policy
+
+Remote Working Security Policy
+```
+
+The campaign should identify relevant **standards or frameworks**.
+
+For example:
+
+```text
+Related Standards or Frameworks:
+
+ISO/IEC 27001
+
+NIST Cybersecurity Framework
+
+Applicable Regulatory Requirements
+```
+
+The campaign should define its **duration**.
+
+For example:
+
+```text
+Campaign Duration:
+
+Four Weeks
+```
+
+The campaign should identify the **start date**.
+
+```text
+Campaign Start Date:
+
+1 September 2026
+```
+
+The campaign should identify the **end date**.
+
+```text
+Campaign End Date:
+
+30 September 2026
+```
+
+The organization should identify the **communication channels**.
+
+Examples include:
+
+```text
+Corporate Email
+
+Intranet
+
+Learning Management System
+
+Collaboration Platform
+
+Digital Signage
+
+Posters
+
+Security Newsletter
+
+Internal Social Network
+
+Webinars
+
+Town Hall Meetings
+
+Manager Communications
+```
+
+The campaign should use multiple channels where appropriate.
+
+For example:
+
+```text
+Communication Channels:
+
+Email
+
+Intranet
+
+Microsoft Teams
+
+Security Newsletter
+
+Digital Signage
+```
+
+The campaign should define specific **campaign activities**.
+
+For example:
+
+```text
+Week 1:
+
+Campaign Launch
+
+Security Awareness Email
+
+Intranet Article
+
+Week 2:
+
+Phishing Awareness Video
+
+Phishing Simulation
+
+Week 3:
+
+Interactive Quiz
+
+Manager Awareness Briefing
+
+Week 4:
+
+Security Reminder
+
+Results Communication
+
+Lessons Learned
+```
+
+Campaign activities should reinforce the same behavioral objective.
+
+The organization should prepare appropriate **training materials**.
+
+Examples include:
+
+```text
+Online Training Module
+
+Short Video
+
+Knowledge Assessment
+
+Interactive Exercise
+
+Scenario-Based Training
+
+Role-Based Training
+```
+
+The campaign should also include **awareness materials**.
+
+Examples include:
+
+```text
+Posters
+
+Infographics
+
+Email Banners
+
+Security Tips
+
+Quick Reference Guides
+
+Screensavers
+
+Intranet Articles
+
+Frequently Asked Questions
+```
+
+The organization should avoid overwhelming employees with excessive communications.
+
+A campaign should have a consistent message and clear calls to action.
+
+For example:
+
+```text
+Campaign Message:
+
+Think Before You Click
+
+Action:
+
+Report Suspicious Emails
+```
+
+The campaign should include appropriate **management participation**.
+
+For example:
+
+```text
+Management Participation:
+
+CISO launches campaign.
+
+Business Unit Leaders communicate
+campaign objectives.
+
+Managers reinforce key behaviors
+during team meetings.
+```
+
+Management participation can increase the visibility and credibility of the campaign.
+
+The campaign should measure **employee engagement**.
+
+Examples include:
+
+```text
+Email Engagement
+
+Training Participation
+
+Video Views
+
+Quiz Participation
+
+Intranet Visits
+
+Security Resource Downloads
+
+Phishing Reports
+
+Campaign Feedback
+```
+
+For example:
+
+```text
+Employee Engagement:
+
+Campaign Email Recipients:
+4,500
+
+Training Participants:
+4,120
+
+Quiz Participants:
+3,980
+
+Intranet Views:
+5,200
+```
+
+The organization should define **campaign metrics** before launching the campaign.
+
+Examples include:
+
+```text
+Participation Rate
+
+Training Completion Rate
+
+Knowledge Assessment Score
+
+Phishing Reporting Rate
+
+Security Incident Reporting Rate
+
+Policy Compliance
+
+Behavioral Change
+
+Repeat Failure Rate
+```
+
+The campaign should calculate the **participation rate**.
+
+```text
+Participation Rate:
+
+Employees Participating
+÷
+Employees Targeted
+× 100
+```
+
+For example:
+
+```text
+4,120 ÷ 4,500 × 100
+
+= 91.56%
+```
+
+The organization should establish a target.
+
+```text
+Participation Target:
+
+≥ 90%
+```
+
+The campaign should measure **knowledge assessment results**.
+
+For example:
+
+```text
+Knowledge Assessment:
+
+Employees Tested:
+3,980
+
+Average Score:
+92%
+
+Passing Score:
+80%
+
+Pass Rate:
+96%
+```
+
+Knowledge scores should be interpreted alongside behavioral metrics.
+
+A high assessment score does not necessarily mean that employees will behave securely in real situations.
+
+The campaign should measure **behavioral results**.
+
+For example:
+
+```text
+Behavioral Results:
+
+Phishing Reporting Rate:
+
+Before Campaign:
+52%
+
+After Campaign:
+71%
+
+Change:
++19 percentage points
+```
+
+The campaign should compare relevant security behavior before and after the campaign where reliable data is available.
+
+The organization should also examine **security incident trends**.
+
+For example:
+
+```text
+Security Incident Trend:
+
+Phishing-Related Incidents
+
+Before Campaign:
+18 per month
+
+After Campaign:
+11 per month
+
+Observed Change:
+Reduction of 39%
+```
+
+The GRC professional should avoid claiming that the campaign alone caused the reduction unless sufficient evidence exists.
+
+The campaign should collect **employee feedback**.
+
+For example:
+
+```text
+Employee Feedback:
+
+Employees found the phishing examples
+relevant to their daily work.
+
+Employees requested additional examples
+of business email compromise.
+
+Employees requested clearer guidance
+on reporting suspicious messages.
+```
+
+Feedback should be used to improve future campaigns.
+
+The campaign should document **key findings**.
+
+For example:
+
+```text
+KEY FINDINGS
+
+1. Campaign participation exceeded
+   the 90% target.
+
+2. Knowledge assessment results
+   improved compared with the previous
+   campaign.
+
+3. Phishing reporting increased
+   significantly.
+
+4. Finance employees continue to show
+   higher exposure to business email
+   compromise.
+
+5. Employees requested additional
+   role-based examples.
+```
+
+The campaign should document **lessons learned**.
+
+For example:
+
+```text
+LESSONS LEARNED
+
+Short, practical awareness messages
+generated greater engagement than
+long-form communications.
+
+Realistic scenarios improved employee
+understanding.
+
+Manager participation increased campaign
+visibility.
+
+Additional role-specific content is
+required for Finance and Executive teams.
+```
+
+The campaign should identify **improvement actions**.
+
+For example:
+
+```text
+IMPROVEMENT ACTIONS
+
+1. Develop additional Finance-specific
+   phishing awareness content.
+
+2. Conduct an executive business email
+   compromise campaign.
+
+3. Increase phishing simulations.
+
+4. Add short security awareness videos
+   to future campaigns.
+```
+
+Each improvement action should have an **action owner**.
+
+```text
+Action Owner:
+
+Security Awareness Program Manager
+```
+
+The organization should establish a **target completion date**.
+
+```text
+Target Completion Date:
+
+31 October 2026
+```
+
+The campaign should maintain an **evidence repository**.
+
+Examples include:
+
+```text
+Campaign Plan
+
+Campaign Approval
+
+Training Materials
+
+Awareness Emails
+
+Posters
+
+Videos
+
+Participation Reports
+
+Assessment Results
+
+Phishing Simulation Results
+
+Employee Feedback
+
+Management Reports
+
+Improvement Actions
+```
+
+For example:
+
+```text
+Evidence Repository:
+
+Security Awareness Platform
+
+GRC Repository
+
+Learning Management System
+```
+
+The campaign should define **management reporting**.
+
+For example:
+
+```text
+Management Reporting:
+
+Campaign results will be included in
+the monthly Cybersecurity GRC Report.
+
+Material security awareness weaknesses
+will be escalated to the CISO.
+```
+
+The organization should assess **campaign effectiveness**.
+
+For example:
+
+```text
+CAMPAIGN EFFECTIVENESS
+
+Participation:
+92% — GREEN
+
+Knowledge Assessment:
+94% — GREEN
+
+Phishing Reporting:
+71% — GREEN
+
+Behavioral Improvement:
+Positive
+
+Overall Campaign Effectiveness:
+Effective
+```
+
+Effectiveness should consider multiple indicators rather than participation alone.
+
+A campaign with 100% participation but no measurable improvement in security behavior should not automatically be considered successful.
+
+The organization should compare campaign results with previous campaigns.
+
+For example:
+
+```text
+CAMPAIGN TREND
+
+Campaign 1:
+
+Participation:
+84%
+
+Reporting Rate:
+43%
+
+Campaign 2:
+
+Participation:
+88%
+
+Reporting Rate:
+55%
+
+Campaign 3:
+
+Participation:
+92%
+
+Reporting Rate:
+71%
+```
+
+Trend analysis helps determine whether the awareness program is producing sustained improvement.
+
+The campaign should also distinguish between **awareness, knowledge, and behavior**.
+
+```text
+Awareness:
+
+Employee received the security message.
+
+Knowledge:
+
+Employee understands the security
+requirement.
+
+Behavior:
+
+Employee applies the security
+requirement correctly.
+```
+
+For example:
+
+```text
+Awareness:
+
+Employee knows phishing exists.
+
+Knowledge:
+
+Employee can identify common phishing
+indicators.
+
+Behavior:
+
+Employee reports a suspicious email
+without clicking it.
+```
+
+This distinction is important when evaluating campaign effectiveness.
+
+Security awareness campaigns should be connected to the organization's **risk management process**.
+
+For example:
+
+```text
+Security Risk
+      ↓
+Identify Human-Related Risk
+      ↓
+Define Awareness Objective
+      ↓
+Design Campaign
+      ↓
+Deliver Campaign
+      ↓
+Measure Awareness
+      ↓
+Measure Behavior
+      ↓
+Evaluate Risk
+      ↓
+Improve Campaign
+```
+
+Campaign topics should be selected based on organizational risk.
+
+For example:
+
+```text
+Risk:
+
+High ransomware exposure
+
+Campaign:
+
+Ransomware Prevention Awareness
+```
+
+```text
+Risk:
+
+Frequent accidental data disclosure
+
+Campaign:
+
+Data Protection and Classification
+Awareness
+```
+
+```text
+Risk:
+
+Business Email Compromise
+
+Campaign:
+
+Stop Payment Fraud and Verify
+Financial Requests
+```
+
+```text
+Risk:
+
+Unsafe use of generative AI
+
+Campaign:
+
+Secure and Responsible Use of AI
+```
+
+The organization should also use campaigns to reinforce **security policies**.
+
+For example:
+
+```text
+Policy:
+
+Incident Reporting Policy
+
+Campaign:
+
+See Something Suspicious?
+Report It.
+
+Required Behavior:
+
+Report suspected security incidents
+through the approved reporting channel.
+```
+
+The campaign should provide clear instructions.
+
+For example:
+
+```text
+IF YOU RECEIVE A SUSPICIOUS EMAIL:
+
+1. Do not click links.
+
+2. Do not open unexpected attachments.
+
+3. Do not provide credentials.
+
+4. Verify unusual requests.
+
+5. Report the message.
+
+6. Follow Security Team instructions.
+```
+
+Campaigns should be adapted to the organization's technology environment.
+
+For example, if the organization uses cloud collaboration platforms, awareness may include:
+
+```text
+Cloud Account Security
+
+Suspicious Collaboration Invitations
+
+External File Sharing
+
+Cloud Phishing
+
+MFA Fatigue
+
+Unauthorized Application Consent
+```
+
+If employees frequently use artificial intelligence tools, awareness may include:
+
+```text
+AI Data Protection
+
+Confidential Information
+
+Sensitive Information
+
+Approved AI Tools
+
+Prompt Security
+
+AI-Generated Phishing
+
+Verification of AI-Generated Content
+```
+
+Campaigns should also address emerging threats when they become relevant to the organization.
+
+The GRC professional should maintain a campaign calendar.
+
+For example:
+
+```text
+JANUARY:
+
+Password and Authentication Security
+
+FEBRUARY:
+
+Data Protection
+
+MARCH:
+
+Phishing Awareness
+
+APRIL:
+
+Remote Working Security
+
+MAY:
+
+Incident Reporting
+
+JUNE:
+
+Social Engineering
+
+JULY:
+
+Cloud Security
+
+AUGUST:
+
+Mobile Security
+
+SEPTEMBER:
+
+Ransomware Awareness
+
+OCTOBER:
+
+Cybersecurity Awareness Campaign
+
+NOVEMBER:
+
+Artificial Intelligence Security
+
+DECEMBER:
+
+Security Awareness Refresher
+```
+
+The campaign calendar should be flexible enough to respond to emerging risks and significant security events.
+
+For example:
+
+```text
+Emerging Threat:
+
+Major increase in QR-code phishing.
+
+Response:
+
+Launch targeted QR-code phishing
+awareness campaign.
+```
+
+The campaign should also support **security culture development**.
+
+A mature awareness program should encourage employees to view cybersecurity as a shared responsibility.
+
+For example:
+
+```text
+Security Culture Message:
+
+Cybersecurity is not only the
+responsibility of the Security Team.
+
+Every employee has a role in protecting
+organizational information, systems,
+customers, and services.
+```
+
+The organization should recognize positive security behavior.
+
+For example:
+
+```text
+Positive Security Behavior:
+
+Employee correctly identified and
+reported a sophisticated phishing email.
+
+Recognition:
+
+Security awareness acknowledgment
+or internal recognition.
+```
+
+Recognition should be used appropriately and should not discourage employees from reporting mistakes or incidents.
+
+The GRC professional should periodically review the campaign program.
+
+The review should consider:
+
+```text
+Campaign Relevance
+
+Risk Alignment
+
+Participation
+
+Knowledge
+
+Behavior
+
+Security Incidents
+
+Employee Feedback
+
+Threat Landscape
+
+Policy Changes
+
+Technology Changes
+
+Regulatory Requirements
+```
+
+The campaign should be updated when:
+
+```text
+New Threats Emerge
+
+Security Incidents Occur
+
+Policies Change
+
+Technology Changes
+
+Business Processes Change
+
+New Regulations Apply
+
+Risk Assessments Identify New Human Risks
+
+Campaign Results Show Knowledge Gaps
+```
+
+The GRC professional should verify that:
+
+```text
+Campaign Objective Is Defined
+
+Business Objective Is Defined
+
+Security Objective Is Defined
+
+Related Risk Is Identified
+
+Target Audience Is Defined
+
+Campaign Scope Is Defined
+
+Key Message Is Defined
+
+Behavioral Objective Is Defined
+
+Related Policies Are Identified
+
+Campaign Duration Is Defined
+
+Communication Channels Are Defined
+
+Campaign Activities Are Defined
+
+Training Materials Are Prepared
+
+Awareness Materials Are Prepared
+
+Management Participation Is Defined
+
+Engagement Is Measured
+
+Participation Is Measured
+
+Knowledge Is Measured
+
+Behavior Is Measured
+
+Security Trends Are Considered
+
+Employee Feedback Is Collected
+
+Key Findings Are Documented
+
+Lessons Learned Are Documented
+
+Improvement Actions Are Assigned
+
+Evidence Is Retained
+
+Management Reporting Is Completed
+
+Campaign Effectiveness Is Evaluated
+
+Campaign Results Are Reviewed
+
+Future Campaigns Are Improved
+```
+
+The key principle is:
+
+> **A security awareness campaign should transform a specific cybersecurity risk into a focused behavioral objective, deliver clear and relevant security messages, measure employee engagement and behavior, and use the results to continuously strengthen the organization's security culture and reduce human-related risk.**
+
 
 

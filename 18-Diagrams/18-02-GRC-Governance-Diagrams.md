@@ -691,4 +691,650 @@ Independent Assurance
 
 A well-designed Enterprise GRC Governance Model therefore provides a common visual language for understanding **authority, accountability, responsibility, risk ownership, control ownership, assurance, escalation, and decision-making** across the organization.
 
+The Three Lines Model provides a practical way to visualize how an organization manages risk and provides assurance. It helps distinguish between operational management, risk and compliance oversight, and independent assurance.
+
+The model begins with the governing body.
+
+```text
+Governing Body
+      ↓
+Oversight
+      ↓
+Management
+      ↓
+First Line + Second Line
+      ↓
+Third Line
+      ↓
+Independent Assurance
+```
+
+The governing body, normally the Board or an equivalent oversight body, is responsible for ensuring that appropriate governance and oversight arrangements exist.
+
+Its responsibilities may include:
+
+* Setting expectations for governance.
+* Approving or overseeing risk appetite.
+* Monitoring significant risks.
+* Challenging management.
+* Overseeing internal controls.
+* Receiving independent assurance.
+
+The Board does not normally operate individual controls.
+
+Instead:
+
+```text
+Board
+  ↓
+Oversight
+  ↓
+Management
+  ↓
+Risk Management
+  ↓
+Operations
+```
+
+Management is responsible for achieving organizational objectives while managing risks within approved boundaries.
+
+The Three Lines Model can be represented as:
+
+```text
+                 GOVERNING BODY
+                       │
+                       ↓
+                  MANAGEMENT
+                       │
+        ┌──────────────┼──────────────┐
+        ↓              ↓              ↓
+    FIRST LINE     SECOND LINE    THIRD LINE
+    Operations     Risk / GRC    Internal Audit
+        │              │              │
+        ↓              ↓              ↓
+    Own Risk       Monitor /      Independent
+    & Controls      Challenge       Assurance
+```
+
+The **First Line** represents functions that directly own and manage risks as part of their operations.
+
+Examples include:
+
+* Business operations
+* IT operations
+* Security operations
+* Finance
+* Human resources
+* Procurement
+* Engineering
+* Customer operations
+
+The First Line is closest to the actual business activity.
+
+For example:
+
+```text
+Business Process
+      ↓
+Operational Risk
+      ↓
+First Line
+      ↓
+Controls
+      ↓
+Risk Management
+```
+
+The First Line is therefore responsible for managing risk rather than simply reporting risk.
+
+A cybersecurity example is:
+
+```text
+Security Operations
+      ↓
+Operate Security Controls
+      ↓
+Monitor Security Events
+      ↓
+Respond to Incidents
+      ↓
+Manage Operational Risk
+```
+
+The First Line may operate:
+
+* Access controls
+* Endpoint security
+* Network security
+* Backup controls
+* Vulnerability management
+* Security monitoring
+* Incident response
+
+The First Line is generally accountable for ensuring that controls operate effectively within its area of responsibility.
+
+The **Second Line** provides specialized expertise, support, monitoring, challenge, and oversight.
+
+Examples include:
+
+* Enterprise Risk Management
+* Cybersecurity GRC
+* Compliance
+* Privacy
+* Information Security Governance
+* Regulatory Risk
+* Third-Party Risk
+* Business Continuity
+* Quality and Control Functions
+
+A simplified model is:
+
+```text
+FIRST LINE
+Operations
+    ↓
+Own and Manage Risk
+    ↓
+SECOND LINE
+Risk / Compliance / GRC
+    ↓
+Monitor / Challenge / Advise
+```
+
+The Second Line does not normally take over the First Line's responsibility for managing the risk.
+
+For example:
+
+```text
+IT
+ ↓
+Operates Access Controls
+
+Cybersecurity GRC
+ ↓
+Defines Requirements
+ ↓
+Monitors Compliance
+ ↓
+Assesses Control Effectiveness
+ ↓
+Reports Findings
+```
+
+The Second Line may therefore establish:
+
+* Policies
+* Standards
+* Risk methodologies
+* Control requirements
+* Compliance requirements
+* Assessment methodologies
+* Monitoring procedures
+* Reporting requirements
+
+The Second Line may also challenge the First Line.
+
+For example:
+
+```text
+First Line:
+"Access reviews are operating effectively."
+
+Second Line:
+"Provide evidence demonstrating effectiveness."
+
+First Line:
+"Evidence provided."
+
+Second Line:
+"Testing identifies exceptions."
+
+Second Line:
+"Finding raised."
+```
+
+This challenge function is a fundamental part of effective GRC.
+
+The **Third Line** is Internal Audit.
+
+Internal Audit provides independent and objective assurance over governance, risk management, and controls.
+
+A simplified representation is:
+
+```text
+Third Line
+    ↓
+Internal Audit
+    ↓
+Independent Assessment
+    ↓
+Governance
+Risk Management
+Internal Controls
+```
+
+Internal Audit may assess whether:
+
+```text
+Governance is effective
+
+Risks are appropriately managed
+
+Controls are properly designed
+
+Controls operate effectively
+
+Management processes are working
+```
+
+Internal Audit should maintain appropriate independence from the activities it audits.
+
+For example, Internal Audit should generally not:
+
+```text
+Own the Security Control
+       ↓
+Operate the Security Control
+       ↓
+Then Audit the Same Control
+```
+
+Instead:
+
+```text
+First Line
+     ↓
+Owns / Operates Control
+
+Second Line
+     ↓
+Monitors / Challenges
+
+Third Line
+     ↓
+Independently Assesses
+```
+
+The Three Lines Model therefore establishes an important separation between **ownership, oversight, and assurance**.
+
+A cybersecurity example can be represented as:
+
+```text
+                         BOARD
+                           │
+                           ↓
+                     MANAGEMENT
+                           │
+          ┌────────────────┼────────────────┐
+          ↓                ↓                ↓
+     FIRST LINE       SECOND LINE      THIRD LINE
+          │                │                │
+   Security Ops       Cyber GRC       Internal Audit
+          │                │                │
+          ↓                ↓                ↓
+ Operate Controls     Monitor /       Independent
+ Manage Risks         Challenge       Assurance
+```
+
+Consider vulnerability management.
+
+The First Line may be:
+
+```text
+Security Operations
+        ↓
+Scan Systems
+        ↓
+Identify Vulnerabilities
+        ↓
+Prioritize
+        ↓
+Remediate
+        ↓
+Verify
+```
+
+The Second Line may be:
+
+```text
+Cybersecurity GRC
+        ↓
+Define Vulnerability Requirements
+        ↓
+Monitor Compliance
+        ↓
+Review Metrics
+        ↓
+Challenge Exceptions
+        ↓
+Report Risk
+```
+
+The Third Line may be:
+
+```text
+Internal Audit
+        ↓
+Review Vulnerability Management
+        ↓
+Test Governance
+        ↓
+Test Controls
+        ↓
+Evaluate Effectiveness
+        ↓
+Issue Audit Findings
+```
+
+This creates clear separation.
+
+The same principle applies to access management.
+
+```text
+FIRST LINE
+IAM / IT
+    ↓
+Create / Modify / Remove Access
+    ↓
+Perform Access Reviews
+
+SECOND LINE
+Cybersecurity GRC
+    ↓
+Define Access Control Requirements
+    ↓
+Monitor Compliance
+    ↓
+Assess Exceptions
+
+THIRD LINE
+Internal Audit
+    ↓
+Independently Test Access Management
+    ↓
+Report Assurance Results
+```
+
+The Three Lines Model can also be applied to third-party risk.
+
+```text
+FIRST LINE
+Business / Procurement
+    ↓
+Select Supplier
+    ↓
+Manage Supplier
+    ↓
+Monitor Performance
+
+SECOND LINE
+Third-Party Risk / GRC
+    ↓
+Define Requirements
+    ↓
+Assess Risk
+    ↓
+Monitor Compliance
+    ↓
+Challenge Exceptions
+
+THIRD LINE
+Internal Audit
+    ↓
+Audit Third-Party Risk Management
+```
+
+Another important concept is that the Three Lines Model is **not necessarily three separate departments**.
+
+An organization may have different organizational structures.
+
+For example, in a smaller organization:
+
+```text
+First Line
+Business / IT
+
+Second Line
+Part-time GRC / Compliance
+
+Third Line
+Outsourced Internal Audit
+```
+
+A larger enterprise may have:
+
+```text
+First Line
+Business + IT + Security Operations
+
+Second Line
+Enterprise Risk
+Cybersecurity GRC
+Compliance
+Privacy
+Third-Party Risk
+
+Third Line
+Internal Audit
+```
+
+The organizational structure can vary while the underlying responsibilities remain distinguishable.
+
+A useful responsibility model is:
+
+| Activity              | First Line          | Second Line         | Third Line             |
+| --------------------- | ------------------- | ------------------- | ---------------------- |
+| Own Risk              | Yes                 | Support / Challenge | Assess                 |
+| Operate Controls      | Yes                 | Normally No         | No                     |
+| Define Requirements   | Input               | Yes                 | Independent View       |
+| Monitor Risk          | Yes                 | Yes                 | Independent Assessment |
+| Compliance Monitoring | Operational Input   | Yes                 | Assess                 |
+| Control Testing       | Operational Testing | Oversight Testing   | Independent Testing    |
+| Risk Reporting        | Yes                 | Yes                 | Assurance Reporting    |
+| Independent Assurance | No                  | No                  | Yes                    |
+
+The exact division of responsibilities should be defined by the organization's governance model.
+
+A critical distinction is:
+
+```text
+First Line
+"What are we doing?"
+
+Second Line
+"Are we managing risk according to requirements?"
+
+Third Line
+"Is the overall system working effectively?"
+```
+
+The First Line is focused on **execution**.
+
+The Second Line is focused on **oversight and challenge**.
+
+The Third Line is focused on **independent assurance**.
+
+This can be summarized as:
+
+```text
+FIRST LINE
+DO
+
+SECOND LINE
+CHECK / CHALLENGE / ADVISE
+
+THIRD LINE
+INDEPENDENTLY ASSURE
+```
+
+However, "check" should not be interpreted as meaning that the Second Line replaces operational management.
+
+The First Line remains responsible for managing its risks.
+
+For example:
+
+```text
+Business
+    ↓
+Owns Risk
+
+GRC
+    ↓
+Challenges Risk Management
+
+Internal Audit
+    ↓
+Provides Independent Assurance
+```
+
+This separation becomes especially important when dealing with high-risk cybersecurity environments.
+
+For example:
+
+```text
+Critical Vulnerability
+        ↓
+Security Operations
+        ↓
+Remediation
+        ↓
+Cybersecurity GRC
+        ↓
+Monitoring / Escalation
+        ↓
+Management
+        ↓
+Risk Decision
+        ↓
+Internal Audit
+        ↓
+Independent Assurance
+```
+
+The Three Lines Model can therefore be integrated into the broader Enterprise GRC Governance Model:
+
+```text
+                         BOARD
+                           │
+                           ↓
+                    EXECUTIVE MANAGEMENT
+                           │
+              ┌────────────┴────────────┐
+              ↓                         ↓
+         FIRST LINE                 SECOND LINE
+       Business / IT /           Risk / Compliance /
+       Security Operations       Cybersecurity GRC
+              │                         │
+              └────────────┬────────────┘
+                           ↓
+                    Risk Management
+                           │
+                           ↓
+                      Controls
+                           │
+                           ↓
+                       Evidence
+                           │
+                           ↓
+                     GRC Reporting
+                           │
+                           ↓
+                    THIRD LINE
+                  Internal Audit
+                           │
+                           ↓
+               Independent Assurance
+                           │
+                           ↓
+                         BOARD
+```
+
+The model creates a continuous governance loop:
+
+```text
+Governance
+    ↓
+Risk Ownership
+    ↓
+Control Operation
+    ↓
+Risk / Compliance Oversight
+    ↓
+Monitoring
+    ↓
+Independent Assurance
+    ↓
+Management Action
+    ↓
+Governance Improvement
+```
+
+For a GRC professional, understanding the Three Lines Model is essential because many governance failures occur when responsibilities become blurred.
+
+Common weaknesses include:
+
+```text
+GRC Owns Business Risk
+        ↓
+Business Stops Taking Responsibility
+```
+
+or:
+
+```text
+Internal Audit Designs Controls
+        ↓
+Independence Is Reduced
+```
+
+or:
+
+```text
+Security Operations Assumes GRC
+Responsibilities
+        ↓
+Independent Oversight Becomes Weak
+```
+
+A mature model instead establishes:
+
+```text
+Business
+    ↓
+Owns Risk
+
+Operations
+    ↓
+Operates Controls
+
+GRC / Risk / Compliance
+    ↓
+Monitors / Advises / Challenges
+
+Internal Audit
+    ↓
+Independently Assures
+
+Board
+    ↓
+Provides Oversight
+```
+
+The Three Lines Model should therefore be viewed as a **governance and accountability framework**, not merely an organizational chart.
+
+Its primary value is creating clarity around who:
+
+* Owns risk.
+* Operates controls.
+* Provides oversight.
+* Challenges management.
+* Performs monitoring.
+* Provides independent assurance.
+* Escalates significant issues.
+* Makes risk decisions.
+* Reports to governing bodies.
+
+A strong GRC diagram makes these relationships visible so that responsibility does not disappear between organizational functions.
+
+
 

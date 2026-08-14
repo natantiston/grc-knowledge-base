@@ -1533,4 +1533,913 @@ Continuous Improvement
 
 This connected architecture becomes the foundation for **GRC integration, automation, dashboards, risk intelligence, auditability, and enterprise-wide governance**.
 
+# 18.6 GRC Architecture and Integration Diagrams
+
+## Part 3 – GRC Integration and Data Flow Diagrams
+
+A **GRC Integration Diagram** shows how the GRC environment connects with other organizational systems and how information moves between them.
+
+The purpose is to ensure that GRC activities are not isolated from the systems where business, technology, security, identity, asset, and operational information actually exists.
+
+A basic integration model is:
+
+```text
+Source Systems
+      ↓
+Data Collection
+      ↓
+Integration Layer
+      ↓
+GRC Platform
+      ↓
+Risk / Compliance Analysis
+      ↓
+Workflow
+      ↓
+Action
+      ↓
+Operational Systems
+```
+
+A modern GRC environment may connect to:
+
+```text
+HR
+ITSM
+CMDB
+IAM
+SIEM
+Vulnerability Management
+Cloud Platforms
+ERP
+Procurement
+Vendor Management
+Security Tools
+Audit Systems
+Business Applications
+```
+
+These systems provide different types of information.
+
+```text
+HR
+ ↓
+Employees / Roles / Managers
+
+CMDB
+ ↓
+Assets / Applications / Services
+
+IAM
+ ↓
+Users / Access / Privileges
+
+SIEM
+ ↓
+Security Events / Alerts
+
+ITSM
+ ↓
+Incidents / Changes / Service Requests
+
+Procurement
+ ↓
+Vendors / Contracts
+
+Cloud
+ ↓
+Cloud Assets / Configurations
+
+GRC
+ ↓
+Risks / Controls / Compliance / Findings
+```
+
+The GRC platform brings these different sources together.
+
+```text
+                    HR
+                     ↓
+                    ┌───┐
+ITSM ──────────────→ │   │ ←──────────── IAM
+                    │ G │
+CMDB ──────────────→│ R │←──────────── SIEM
+                    │ C │
+ERP ───────────────→│   │←─────────── Cloud
+                    └───┘
+                     ↓
+                 Reporting
+                     ↓
+                Management
+```
+
+The important concept is that the GRC platform should not necessarily become the **source of truth for everything**.
+
+Instead, each system should generally remain the authoritative source for the information it owns.
+
+For example:
+
+```text
+Employee Data
+      ↓
+HR System
+      ↓
+System of Record
+
+Asset Data
+      ↓
+CMDB
+      ↓
+System of Record
+
+Identity Data
+      ↓
+IAM
+      ↓
+System of Record
+
+Risk Data
+      ↓
+GRC Platform
+      ↓
+System of Record
+```
+
+This prevents unnecessary duplication and conflicting information.
+
+A GRC architecture therefore requires **data ownership**.
+
+```text
+Data
+ ↓
+Data Owner
+ ↓
+Source System
+ ↓
+Integration
+ ↓
+GRC
+```
+
+The integration process can be represented as:
+
+```text
+Source Data
+    ↓
+Extract
+    ↓
+Transform
+    ↓
+Validate
+    ↓
+Map
+    ↓
+Load
+    ↓
+GRC
+```
+
+For example, an asset integration may look like:
+
+```text
+CMDB
+ ↓
+Asset Information
+ ↓
+Data Validation
+ ↓
+Criticality Mapping
+ ↓
+Business Service Mapping
+ ↓
+GRC
+```
+
+The GRC platform can then use that information for risk analysis.
+
+```text
+Asset
+ ↓
+Criticality
+ ↓
+Business Impact
+ ↓
+Risk
+ ↓
+Control Requirements
+```
+
+### GRC and ITSM Integration
+
+One of the most valuable integrations is between GRC and IT Service Management.
+
+```text
+GRC
+ ↓
+Remediation Task
+ ↓
+ITSM
+ ↓
+Service Ticket
+ ↓
+Technical Team
+ ↓
+Remediation
+ ↓
+Ticket Closure
+ ↓
+GRC
+```
+
+This creates a closed-loop process.
+
+For example:
+
+```text
+Control Finding
+      ↓
+GRC
+      ↓
+Remediation Task
+      ↓
+ITSM Ticket
+      ↓
+Technical Team
+      ↓
+Fix Implemented
+      ↓
+Evidence
+      ↓
+GRC Validation
+      ↓
+Finding Closed
+```
+
+This eliminates the need for GRC teams to manually track every technical remediation.
+
+### GRC and CMDB Integration
+
+A CMDB provides information about technology assets and their relationships.
+
+```text
+CMDB
+ ↓
+Asset
+ ↓
+Application
+ ↓
+Business Service
+ ↓
+Business Owner
+ ↓
+Criticality
+```
+
+This information can improve risk assessments.
+
+For example:
+
+```text
+Asset A
+ ↓
+Critical Production System
+ ↓
+High Business Impact
+ ↓
+High Risk
+ ↓
+Enhanced Controls
+```
+
+While:
+
+```text
+Asset B
+ ↓
+Development Environment
+ ↓
+Lower Business Impact
+ ↓
+Lower Risk
+ ↓
+Standard Controls
+```
+
+Therefore:
+
+```text
+Asset Criticality
+       +
+Business Impact
+       ↓
+Risk Prioritization
+```
+
+### GRC and IAM Integration
+
+Identity and access management information can support access governance.
+
+```text
+IAM
+ ↓
+User
+ ↓
+Role
+ ↓
+Privilege
+ ↓
+System Access
+ ↓
+GRC
+```
+
+A typical access certification process is:
+
+```text
+IAM
+ ↓
+Access Data
+ ↓
+GRC
+ ↓
+Access Review
+ ↓
+Manager Certification
+ ↓
+Approve / Revoke
+ ↓
+IAM
+```
+
+This creates another closed loop.
+
+```text
+IAM
+ ↕
+GRC
+ ↕
+Manager
+```
+
+For example:
+
+```text
+Privileged Access
+       ↓
+High-Risk Access
+       ↓
+Periodic Review
+       ↓
+Manager Approval
+       ↓
+Access Retained / Removed
+```
+
+### GRC and SIEM Integration
+
+Security monitoring systems can provide information that supports risk management.
+
+```text
+SIEM
+ ↓
+Security Event
+ ↓
+Correlation
+ ↓
+Alert
+ ↓
+Incident
+ ↓
+GRC
+```
+
+However, not every security event should automatically become a GRC risk.
+
+A decision process is required:
+
+```text
+Security Event
+      ↓
+Severity
+      ↓
+Business Impact
+      ↓
+Threshold
+      ↓
+GRC Relevant?
+   ↙          ↘
+ No            Yes
+ ↓              ↓
+Monitor       Create Risk /
+              Issue / Finding
+```
+
+This prevents the GRC platform from being overwhelmed by operational security events.
+
+### GRC and Vulnerability Management
+
+Vulnerability information can also be integrated.
+
+```text
+Vulnerability Scanner
+        ↓
+Vulnerability
+        ↓
+Severity
+        ↓
+Affected Asset
+        ↓
+Asset Criticality
+        ↓
+Business Impact
+        ↓
+GRC Risk
+```
+
+The same technical vulnerability may have different business risk depending on the affected asset.
+
+```text
+Vulnerability
+      +
+Asset Criticality
+      +
+Business Context
+      ↓
+Risk
+```
+
+This is an important GRC principle:
+
+> **Technical severity does not automatically equal business risk.**
+
+### GRC and HR Integration
+
+HR information can support ownership, training, policy assignment, and access governance.
+
+```text
+HR
+ ↓
+Employee
+ ↓
+Department
+ ↓
+Manager
+ ↓
+Role
+ ↓
+GRC
+```
+
+For example:
+
+```text
+New Employee
+      ↓
+HR
+      ↓
+GRC
+      ↓
+Policy Assignment
+      ↓
+Security Training
+      ↓
+Completion Tracking
+```
+
+When an employee leaves:
+
+```text
+Employee Departure
+      ↓
+HR
+      ↓
+IAM
+      ↓
+Access Revocation
+      ↓
+GRC Monitoring
+```
+
+This allows GRC to monitor whether the required control operated successfully.
+
+### GRC and Procurement
+
+Procurement information can trigger third-party risk processes.
+
+```text
+New Vendor
+     ↓
+Procurement
+     ↓
+Vendor Classification
+     ↓
+GRC
+     ↓
+Risk Assessment
+```
+
+The process may continue:
+
+```text
+Vendor
+ ↓
+Risk Tier
+ ↓
+Due Diligence
+ ↓
+Security Assessment
+ ↓
+Privacy Assessment
+ ↓
+Approval
+ ↓
+Contract
+ ↓
+Onboarding
+```
+
+This creates a relationship between procurement and GRC.
+
+```text
+Procurement
+      ↕
+     GRC
+      ↕
+Security / Privacy
+      ↕
+Legal
+```
+
+### GRC and Cloud Platforms
+
+Modern organizations may integrate GRC with cloud environments.
+
+```text
+Cloud Platform
+      ↓
+Cloud Assets
+      ↓
+Configuration
+      ↓
+Security Findings
+      ↓
+GRC
+```
+
+For example:
+
+```text
+Cloud Asset
+     ↓
+Misconfiguration
+     ↓
+Security Finding
+     ↓
+Risk Assessment
+     ↓
+Remediation
+     ↓
+Cloud Platform
+```
+
+This can support continuous cloud risk monitoring.
+
+### GRC and Compliance Frameworks
+
+GRC platforms may contain multiple frameworks.
+
+```text
+ISO 27001
+NIST
+NIS2
+GDPR
+DORA
+SOC 2
+Customer Requirements
+Internal Policies
+       ↓
+Common Control Framework
+       ↓
+GRC Platform
+```
+
+Instead of managing every framework independently:
+
+```text
+ISO 27001 ──┐
+NIST ───────┤
+NIS2 ───────┤
+GDPR ───────┼──→ Common Control
+DORA ───────┤
+SOC 2 ──────┘
+```
+
+One control may satisfy multiple requirements.
+
+For example:
+
+```text
+Access Control
+      ↓
+Evidence
+ ┌────┼────┬────┐
+ ↓    ↓    ↓    ↓
+ISO  NIST  GDPR Customer
+```
+
+This is one of the major benefits of an integrated GRC architecture.
+
+### API Integration
+
+Modern GRC integrations frequently use APIs.
+
+A basic API flow is:
+
+```text
+System A
+   ↓
+API Request
+   ↓
+Integration Layer
+   ↓
+GRC API
+   ↓
+GRC Record
+```
+
+The reverse direction can also occur:
+
+```text
+GRC
+ ↓
+API
+ ↓
+ITSM
+ ↓
+Ticket
+```
+
+APIs can support:
+
+```text
+Data Synchronization
+Workflow Automation
+Record Creation
+Status Updates
+Evidence Collection
+Risk Updates
+Task Assignment
+```
+
+### Event-Based Integration
+
+Some integrations can be triggered by events.
+
+```text
+Event
+ ↓
+Integration Trigger
+ ↓
+GRC Workflow
+ ↓
+Action
+```
+
+For example:
+
+```text
+Critical Vulnerability Detected
+          ↓
+Event Trigger
+          ↓
+GRC Risk Created
+          ↓
+Risk Owner Assigned
+          ↓
+Remediation
+```
+
+Another example:
+
+```text
+Employee Terminated
+       ↓
+HR Event
+       ↓
+IAM Access Revocation
+       ↓
+GRC Verification
+```
+
+### Integration Data Quality
+
+GRC integration must also address data quality.
+
+```text
+Source Data
+     ↓
+Validation
+     ↓
+Complete?
+   ↙       ↘
+ Yes        No
+ ↓           ↓
+Process    Reject / Correct
+```
+
+Poor data quality can produce:
+
+```text
+Incorrect Data
+      ↓
+Incorrect GRC Record
+      ↓
+Incorrect Risk Assessment
+      ↓
+Incorrect Dashboard
+      ↓
+Poor Management Decision
+```
+
+Therefore:
+
+> **Reliable GRC reporting depends on reliable source data.**
+
+Important data-quality controls include:
+
+```text
+Completeness
+Accuracy
+Consistency
+Timeliness
+Uniqueness
+Validity
+```
+
+### Data Lineage
+
+Data lineage explains where information came from and how it was transformed.
+
+For example:
+
+```text
+CMDB
+ ↓
+Asset Record
+ ↓
+GRC Asset
+ ↓
+Risk Assessment
+ ↓
+Risk Dashboard
+ ↓
+Executive Report
+```
+
+An auditor should ideally be able to trace a reported risk back to its underlying evidence.
+
+```text
+Executive Report
+       ↓
+Risk
+       ↓
+Assessment
+       ↓
+Control
+       ↓
+Evidence
+       ↓
+Source System
+```
+
+This creates **traceability and auditability**.
+
+### Integration Monitoring
+
+The integration itself must be monitored.
+
+```text
+Source
+  ↓
+Integration
+  ↓
+GRC
+```
+
+The organization should know whether the data transfer succeeded.
+
+```text
+Synchronization
+      ↓
+Successful?
+   ↙        ↘
+ Yes         No
+  ↓           ↓
+Continue     Alert
+              ↓
+          Investigation
+```
+
+Useful integration metrics include:
+
+```text
+Successful Transactions
+Failed Transactions
+Data Latency
+API Availability
+Data Quality
+Duplicate Records
+Missing Records
+Integration Errors
+```
+
+For example:
+
+```text
+Expected Records: 10,000
+Received:          9,850
+Missing:              150
+
+        ↓
+
+Data Quality Alert
+```
+
+### Closed-Loop GRC Integration
+
+The most mature architecture does not simply send information **into** GRC.
+
+It also sends decisions and tasks **back into operational systems**.
+
+```text
+Operational System
+       ↓
+       GRC
+       ↓
+Risk / Compliance Decision
+       ↓
+Workflow
+       ↓
+Operational Action
+       ↓
+Operational System
+       ↓
+Result
+       ↓
+GRC
+```
+
+The complete model is:
+
+```text
+SOURCE
+  ↓
+DATA
+  ↓
+INTEGRATION
+  ↓
+GRC
+  ↓
+ANALYSIS
+  ↓
+DECISION
+  ↓
+WORKFLOW
+  ↓
+ACTION
+  ↓
+VALIDATION
+  ↓
+GRC
+  ↺
+```
+
+The key principle is:
+
+> **GRC integration should connect the organization's operational reality with its governance and risk decisions. Data should flow into GRC to provide context, while decisions and remediation activities should flow back into operational systems to produce measurable action.**
+
+A mature GRC professional should therefore ask:
+
+```text
+Where does the data originate?
+        ↓
+Who owns it?
+        ↓
+How is it integrated?
+        ↓
+How is it validated?
+        ↓
+How is it used by GRC?
+        ↓
+What decision does it support?
+        ↓
+What action does it generate?
+        ↓
+How is the result returned?
+        ↓
+How is the outcome validated?
+```
+
+This transforms GRC from a **static repository of risks and controls** into an **integrated enterprise capability connecting governance, technology, operations, security, compliance, and business decision-making**.
+
 

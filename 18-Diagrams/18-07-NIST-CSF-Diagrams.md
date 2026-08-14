@@ -3523,5 +3523,1549 @@ The key GRC principle is:
 
 This makes the Profile particularly valuable for **GRC, risk management, cybersecurity strategy, executive reporting, audit, compliance, and security transformation planning**.
 
+# 18.7 NIST Cybersecurity Framework Diagrams
+
+### Part 4 – Current Profile-to-Target Profile Gap Model
+
+The **Current Profile-to-Target Profile Gap Model** provides a structured way to identify the difference between an organization's existing cybersecurity posture and its desired future state.
+
+In practical GRC terms, it answers four fundamental questions:
+
+```text
+Where are we now?
+        ↓
+Where do we need to be?
+        ↓
+What is the gap?
+        ↓
+What should we do about it?
+```
+
+A simplified model is:
+
+```text
+CURRENT PROFILE
+      ↓
+Current Outcomes
+      ↓
+Gap Analysis
+      ↓
+Risk-Based Prioritization
+      ↓
+TARGET PROFILE
+      ↓
+Improvement Roadmap
+      ↓
+Implementation
+      ↓
+Measurement
+      ↺
+```
+
+---
+
+# 1. What Is a Profile Gap?
+
+A **profile gap** exists when the cybersecurity outcomes currently achieved by an organization do not meet the desired outcomes defined in its Target Profile.
+
+For example:
+
+```text
+Current:
+80% of critical systems monitored
+
+Target:
+100% of critical systems monitored
+
+Gap:
+20%
+```
+
+The gap is not automatically a problem requiring immediate action.
+
+It needs to be evaluated against:
+
+```text
+Risk
+Business Impact
+Regulatory Requirements
+Threat Environment
+Cost
+Resource Availability
+Strategic Priorities
+```
+
+---
+
+# 2. Current Profile
+
+The Current Profile describes the organization's present cybersecurity outcomes.
+
+```text
+                 CURRENT PROFILE
+                        ↓
+        ┌───────────────┼───────────────┐
+        ↓               ↓               ↓
+      GOVERN          IDENTIFY         PROTECT
+        ↓               ↓               ↓
+      DETECT          RESPOND         RECOVER
+        ↓               ↓               ↓
+        └───────────────┼───────────────┘
+                        ↓
+              Current Cybersecurity
+                     Posture
+```
+
+The Current Profile should be supported by objective information.
+
+Examples include:
+
+```text
+Risk Assessments
+Control Assessments
+Audit Findings
+Security Metrics
+Incident Records
+Technical Assessments
+Policies
+Procedures
+Evidence
+```
+
+---
+
+# 3. Target Profile
+
+The Target Profile describes the cybersecurity outcomes the organization wants to achieve.
+
+```text
+                  TARGET PROFILE
+                         ↓
+        ┌────────────────┼────────────────┐
+        ↓                ↓                ↓
+      GOVERN           IDENTIFY         PROTECT
+        ↓                ↓                ↓
+      DETECT           RESPOND          RECOVER
+        ↓                ↓                ↓
+        └────────────────┼────────────────┘
+                         ↓
+                Desired Cybersecurity
+                       Posture
+```
+
+The Target Profile should reflect organizational priorities rather than simply attempting to maximize every possible security capability.
+
+---
+
+# 4. Current-to-Target Relationship
+
+The fundamental relationship is:
+
+```text
+CURRENT PROFILE
+      ↓
+   Where we are
+      ↓
+   GAP ANALYSIS
+      ↓
+   Where we need improvement
+      ↓
+TARGET PROFILE
+      ↓
+   Where we want to be
+```
+
+A more complete model is:
+
+```text
+Current State
+     ↓
+Assessment
+     ↓
+Gap
+     ↓
+Risk Evaluation
+     ↓
+Priority
+     ↓
+Action
+     ↓
+Target State
+```
+
+---
+
+# 5. Six Core Functions Gap Model
+
+The comparison can be performed across all six CSF Functions.
+
+```text
+                    PROFILE GAP ANALYSIS
+                            ↓
+        ┌───────────────┬──┴──┬───────────────┐
+        ↓               ↓     ↓               ↓
+      GOVERN         IDENTIFY PROTECT       DETECT
+        ↓               ↓     ↓               ↓
+      RESPOND         RECOVER
+        ↓               ↓
+        └───────────────┼─────────────────────┘
+                        ↓
+                Prioritized Gaps
+```
+
+For each Function, the organization can compare:
+
+```text
+Current Outcome
+Target Outcome
+Gap
+Risk
+Priority
+Action
+```
+
+---
+
+# 6. Govern Gap
+
+A governance gap might look like:
+
+```text
+CURRENT
+Cybersecurity policies exist
+        ↓
+GAP
+Limited executive oversight
+        ↓
+TARGET
+Formal cybersecurity governance
+and management oversight
+```
+
+Potential improvement activities may include:
+
+```text
+Governance Committee
+Risk Reporting
+Policy Governance
+Risk Appetite
+Management Oversight
+Accountability
+```
+
+---
+
+# 7. Identify Gap
+
+An Identify gap might involve incomplete asset visibility.
+
+```text
+CURRENT
+85% of critical assets identified
+        ↓
+GAP
+15% unknown or insufficiently classified
+        ↓
+TARGET
+100% of critical assets identified
+```
+
+Potential actions:
+
+```text
+Asset Discovery
+Asset Inventory
+Classification
+Business Ownership
+Dependency Mapping
+Risk Assessment
+```
+
+---
+
+# 8. Protect Gap
+
+A Protect gap could involve identity security.
+
+```text
+CURRENT
+MFA deployed to 80% of users
+        ↓
+GAP
+20% remain outside the target scope
+        ↓
+TARGET
+MFA coverage aligned with organizational requirements
+```
+
+Potential actions:
+
+```text
+MFA Expansion
+Privileged Access Management
+Access Reviews
+Identity Governance
+Authentication Improvements
+```
+
+The exact target should be based on risk and organizational requirements.
+
+---
+
+# 9. Detect Gap
+
+A Detect gap could involve monitoring coverage.
+
+```text
+CURRENT
+Critical systems partially monitored
+        ↓
+GAP
+Monitoring coverage does not meet target
+        ↓
+TARGET
+Required critical systems continuously monitored
+```
+
+Potential actions:
+
+```text
+SIEM Expansion
+EDR Deployment
+Cloud Monitoring
+Log Integration
+Detection Engineering
+Threat Intelligence
+```
+
+---
+
+# 10. Respond Gap
+
+A Respond gap could involve incident-management capability.
+
+```text
+CURRENT
+Incident response plan exists
+        ↓
+GAP
+Limited testing and inconsistent escalation
+        ↓
+TARGET
+Tested and operational incident response capability
+```
+
+Potential actions:
+
+```text
+Incident Playbooks
+Escalation Procedures
+Tabletop Exercises
+Incident Communications
+Response Automation
+Incident Metrics
+```
+
+---
+
+# 11. Recover Gap
+
+A Recover gap could involve restoration capability.
+
+```text
+CURRENT
+Backups exist
+        ↓
+GAP
+Recovery testing is limited
+        ↓
+TARGET
+Recovery capabilities regularly tested
+```
+
+Potential actions:
+
+```text
+Recovery Testing
+Backup Validation
+Disaster Recovery Exercises
+Business Continuity Testing
+System Restoration Procedures
+Recovery Metrics
+```
+
+---
+
+# 12. Gap Analysis Process
+
+A practical gap analysis can follow:
+
+```text
+1. Define Business Context
+          ↓
+2. Establish Current Profile
+          ↓
+3. Define Target Profile
+          ↓
+4. Compare Current vs Target
+          ↓
+5. Identify Gaps
+          ↓
+6. Assess Risk
+          ↓
+7. Prioritize
+          ↓
+8. Define Actions
+          ↓
+9. Implement
+          ↓
+10. Measure Progress
+```
+
+This makes the Profile useful as a management process rather than simply a documentation exercise.
+
+---
+
+# 13. Evidence-Based Current Profile
+
+The Current Profile should not be based solely on assumptions.
+
+A strong assessment uses evidence.
+
+```text
+                 CURRENT PROFILE
+                        ↓
+                     Evidence
+                        ↓
+        ┌───────────────┼───────────────┐
+        ↓               ↓               ↓
+      Audit           Testing         Metrics
+        ↓               ↓               ↓
+        └───────────────┼───────────────┘
+                        ↓
+                Current Outcome
+```
+
+Examples of evidence:
+
+```text
+Configuration Reports
+Audit Reports
+Risk Assessments
+Security Dashboards
+Incident Records
+Control Test Results
+Penetration Tests
+Vulnerability Assessments
+Policy Reviews
+```
+
+---
+
+# 14. Defining the Target Profile
+
+The Target Profile should be based on organizational needs.
+
+```text
+Business Strategy
+       ↓
+Risk Appetite
+       ↓
+Threat Environment
+       ↓
+Regulatory Requirements
+       ↓
+Customer Requirements
+       ↓
+Technology Strategy
+       ↓
+TARGET PROFILE
+```
+
+This prevents the target from becoming an arbitrary list of security improvements.
+
+---
+
+# 15. Target Profile and Risk Appetite
+
+Risk appetite can influence how ambitious the Target Profile should be.
+
+```text
+Higher Risk Sensitivity
+        ↓
+Stronger Security Requirements
+        ↓
+Higher Target Outcomes
+```
+
+For example:
+
+```text
+Critical Payment System
+        ↓
+Low Tolerance for Security Failure
+        ↓
+High Security Target
+```
+
+Whereas:
+
+```text
+Low-Criticality Internal Application
+        ↓
+Lower Business Impact
+        ↓
+Proportionate Security Target
+```
+
+The target should therefore remain risk-based.
+
+---
+
+# 16. Gap Does Not Always Mean Failure
+
+An important GRC principle is:
+
+> **A gap is not automatically a deficiency.**
+
+For example:
+
+```text
+Current:
+Monitoring = 90%
+
+Target:
+Monitoring = 100%
+
+Gap:
+10%
+```
+
+The organization might determine that the remaining 10% represents low-risk systems where additional investment would not be justified.
+
+Therefore:
+
+```text
+Gap
+ ↓
+Risk Evaluation
+ ↓
+Business Impact
+ ↓
+Cost / Benefit
+ ↓
+Management Decision
+```
+
+A formally accepted risk may be an appropriate outcome.
+
+---
+
+# 17. Risk-Based Gap Prioritization
+
+Not all gaps have equal importance.
+
+A simple prioritization model is:
+
+```text
+                 IDENTIFIED GAPS
+                        ↓
+        ┌───────────────┼───────────────┐
+        ↓               ↓               ↓
+      High            Medium            Low
+       ↓                ↓                ↓
+   Immediate         Planned          Monitor
+   Action            Action
+```
+
+Prioritization can consider:
+
+```text
+Risk Severity
+Business Criticality
+Regulatory Exposure
+Threat Likelihood
+Potential Impact
+Control Effectiveness
+Implementation Effort
+Cost
+Dependencies
+```
+
+---
+
+# 18. Gap Scoring
+
+Organizations may assign a score to each gap.
+
+For example:
+
+```text
+Gap Score =
+Risk Impact × Likelihood × Business Criticality
+```
+
+A simplified scoring table might be:
+
+| Gap                             | Risk   | Business Impact | Priority  |
+| ------------------------------- | ------ | --------------- | --------- |
+| Critical asset visibility       | High   | High            | Immediate |
+| MFA coverage                    | High   | High            | Immediate |
+| Security awareness              | Medium | Medium          | Planned   |
+| Low-risk application monitoring | Low    | Low             | Monitor   |
+
+The exact scoring methodology should be defined by the organization's risk-management process.
+
+---
+
+# 19. Gap Register
+
+A GRC platform can maintain a Profile Gap Register.
+
+```text
+Profile Gap
+     ↓
+Risk
+     ↓
+Owner
+     ↓
+Priority
+     ↓
+Action
+     ↓
+Due Date
+     ↓
+Status
+     ↓
+Evidence
+```
+
+Example:
+
+```text
+Gap:
+Incomplete cloud asset inventory
+
+Risk:
+Unknown cloud exposure
+
+Owner:
+Cloud Security
+
+Priority:
+High
+
+Action:
+Implement automated discovery
+
+Status:
+In Progress
+```
+
+This turns Profile analysis into an actionable GRC process.
+
+---
+
+# 20. Gap-to-Action Traceability
+
+Every significant gap should ideally have a traceable action.
+
+```text
+CURRENT OUTCOME
+      ↓
+IDENTIFIED GAP
+      ↓
+RISK
+      ↓
+REMEDIATION ACTION
+      ↓
+CONTROL / CAPABILITY
+      ↓
+EVIDENCE
+      ↓
+VALIDATION
+      ↓
+UPDATED PROFILE
+```
+
+This provides strong auditability.
+
+---
+
+# 21. Gap-to-Control Mapping
+
+A GRC implementation may map gaps to controls.
+
+```text
+CSF Outcome
+     ↓
+Current Gap
+     ↓
+Control Requirement
+     ↓
+Control
+     ↓
+Implementation
+     ↓
+Evidence
+     ↓
+Assessment
+```
+
+For example:
+
+```text
+Target:
+Strong privileged access protection
+
+        ↓
+
+Gap:
+Privileged accounts lack MFA
+
+        ↓
+
+Control:
+Privileged Access MFA
+
+        ↓
+
+Evidence:
+Authentication Configuration
+
+        ↓
+
+Assessment:
+Effective
+```
+
+---
+
+# 22. Gap-to-Risk Mapping
+
+The same gap should also be connected to risk.
+
+```text
+Gap
+ ↓
+Threat
+ ↓
+Vulnerability
+ ↓
+Potential Impact
+ ↓
+Risk
+ ↓
+Treatment Decision
+```
+
+Example:
+
+```text
+Gap:
+No centralized monitoring
+
+        ↓
+
+Threat:
+Undetected attacker activity
+
+        ↓
+
+Vulnerability:
+Limited visibility
+
+        ↓
+
+Impact:
+Delayed incident response
+
+        ↓
+
+Risk:
+High
+```
+
+This prevents organizations from treating all gaps as equally important.
+
+---
+
+# 23. Gap-to-Regulation Mapping
+
+Gaps may also be associated with regulatory obligations.
+
+```text
+Regulatory Requirement
+        ↓
+Expected Security Outcome
+        ↓
+Current Outcome
+        ↓
+Gap
+        ↓
+Compliance Risk
+        ↓
+Remediation
+```
+
+This is particularly valuable for GRC teams managing multiple regulatory requirements.
+
+---
+
+# 24. Gap-to-Evidence Mapping
+
+Evidence provides support for the assessment.
+
+```text
+Target Outcome
+       ↓
+Expected Condition
+       ↓
+Evidence Requirement
+       ↓
+Evidence Collection
+       ↓
+Assessment
+       ↓
+Gap Determination
+```
+
+For example:
+
+```text
+Target:
+Critical systems continuously monitored
+
+Evidence:
+SIEM Coverage Report
+
+Assessment:
+92% coverage
+
+Gap:
+8%
+```
+
+---
+
+# 25. Gap-to-Metric Mapping
+
+Metrics can track whether the gap is closing.
+
+```text
+Current
+   ↓
+Baseline Metric
+   ↓
+Target Metric
+   ↓
+Gap
+   ↓
+Improvement
+   ↓
+New Measurement
+```
+
+Example:
+
+```text
+MFA Coverage
+
+Baseline:
+72%
+
+Target:
+100%
+
+Current:
+88%
+
+Remaining Gap:
+12%
+```
+
+This provides a measurable view of progress.
+
+---
+
+# 26. Gap Closure Lifecycle
+
+A gap can be managed through a lifecycle:
+
+```text
+Gap Identified
+      ↓
+Validated
+      ↓
+Risk Assessed
+      ↓
+Prioritized
+      ↓
+Action Assigned
+      ↓
+Remediation
+      ↓
+Evidence Collected
+      ↓
+Validation
+      ↓
+Gap Closed
+```
+
+If the gap cannot or should not be remediated:
+
+```text
+Gap
+ ↓
+Risk Assessment
+ ↓
+Risk Acceptance
+ ↓
+Management Approval
+ ↓
+Monitoring
+```
+
+This is an important GRC distinction.
+
+---
+
+# 27. Profile Gap and Risk Acceptance
+
+Some gaps may be formally accepted.
+
+```text
+Gap Identified
+      ↓
+Risk Assessment
+      ↓
+Treatment Options
+      ↓
+┌─────┼─────────┬──────────┐
+↓     ↓         ↓          ↓
+Treat Transfer Avoid    Accept
+```
+
+If accepted:
+
+```text
+Risk Acceptance
+      ↓
+Appropriate Approval
+      ↓
+Document Rationale
+      ↓
+Define Review Date
+      ↓
+Monitor Risk
+```
+
+This ensures that unresolved gaps are not simply forgotten.
+
+---
+
+# 28. Gap Remediation Roadmap
+
+The prioritized gaps can become a cybersecurity roadmap.
+
+```text
+PROFILE GAP
+     ↓
+PRIORITY
+     ↓
+INITIATIVE
+     ↓
+PROJECT
+     ↓
+IMPLEMENTATION
+     ↓
+VALIDATION
+     ↓
+PROFILE IMPROVEMENT
+```
+
+Example:
+
+```text
+Gap:
+Limited cloud monitoring
+
+        ↓
+
+Priority:
+High
+
+        ↓
+
+Initiative:
+Cloud Security Monitoring
+
+        ↓
+
+Project:
+SIEM Integration
+
+        ↓
+
+Implementation
+
+        ↓
+
+Validation
+
+        ↓
+
+Target Outcome Achieved
+```
+
+---
+
+# 29. Short-Term and Long-Term Gaps
+
+Not every gap can be closed immediately.
+
+```text
+              PROFILE GAPS
+                    ↓
+       ┌────────────┼────────────┐
+       ↓            ↓            ↓
+    0–3 Months   3–12 Months   12+ Months
+       ↓            ↓            ↓
+   Quick Wins     Projects     Strategic
+```
+
+This allows management to balance immediate risk reduction with long-term transformation.
+
+---
+
+# 30. Gap Dependencies
+
+Some improvements depend on others.
+
+```text
+Asset Inventory
+      ↓
+Asset Classification
+      ↓
+Risk Assessment
+      ↓
+Control Prioritization
+      ↓
+Control Implementation
+      ↓
+Monitoring
+```
+
+For example, an organization may need accurate asset information before it can determine complete security-monitoring coverage.
+
+Therefore, roadmap sequencing matters.
+
+---
+
+# 31. Current-to-Target Heat Map
+
+A heat map can provide an executive representation.
+
+```text
+                    TARGET
+              Low   Medium   High
+CURRENT
+Low           🟢      🟡       🟠
+
+Medium        🟡      🟠       🔴
+
+High          🟠      🔴       🔴
+```
+
+A more GRC-oriented version can compare current capability against desired capability:
+
+```text
+Function       Current       Target       Gap
+------------------------------------------------
+Govern          Medium        High        Medium
+Identify        Medium        High        High
+Protect         High          High        Low
+Detect          Medium        High        High
+Respond         Medium        High        Medium
+Recover         Low           High        High
+```
+
+This provides a quick executive view of where attention is required.
+
+---
+
+# 32. CSF Function-Level Gap Dashboard
+
+A dashboard could show:
+
+```text
+NIST CSF PROFILE GAP
+
+GOVERN      ████████░░  80%
+IDENTIFY    ███████░░░  70%
+PROTECT     █████████░  90%
+DETECT      ██████░░░░  60%
+RESPOND     ███████░░░  70%
+RECOVER     █████░░░░░  50%
+```
+
+The percentages are illustrative only.
+
+A mature implementation should define exactly how capability or outcome achievement is measured.
+
+---
+
+# 33. Gap Analysis and Executive Decisions
+
+The Profile Gap Model helps management answer:
+
+```text
+What are our biggest cybersecurity gaps?
+             ↓
+Which gaps create the greatest risk?
+             ↓
+Which gaps require investment?
+             ↓
+Which gaps can be accepted?
+             ↓
+What should we prioritize?
+             ↓
+Are we improving?
+```
+
+This turns cybersecurity assessment into a decision-support mechanism.
+
+---
+
+# 34. Profile Gap and Investment Prioritization
+
+A practical decision model can be:
+
+```text
+Gap
+ ↓
+Risk
+ ↓
+Business Impact
+ ↓
+Regulatory Exposure
+ ↓
+Remediation Cost
+ ↓
+Implementation Complexity
+ ↓
+Priority
+```
+
+For example:
+
+```text
+High Risk
++
+High Business Impact
++
+Regulatory Exposure
++
+Reasonable Remediation Cost
+        ↓
+HIGH PRIORITY
+```
+
+This supports rational allocation of cybersecurity resources.
+
+---
+
+# 35. Profile Gap and Program Management
+
+A cybersecurity program can use the Profile Gap Model to track initiatives.
+
+```text
+Profile Gap
+     ↓
+Program Initiative
+     ↓
+Project
+     ↓
+Milestones
+     ↓
+Deliverables
+     ↓
+Evidence
+     ↓
+Outcome Validation
+```
+
+This creates traceability between strategic objectives and operational implementation.
+
+---
+
+# 36. Profile Gap and Internal Audit
+
+Internal audit can use the model to evaluate whether identified gaps are being appropriately managed.
+
+```text
+Target Outcome
+      ↓
+Current Condition
+      ↓
+Gap
+      ↓
+Risk
+      ↓
+Management Action
+      ↓
+Evidence
+      ↓
+Audit Validation
+```
+
+This helps distinguish between:
+
+```text
+Known and Managed Gap
+```
+
+and:
+
+```text
+Unknown or Unmanaged Gap
+```
+
+The latter presents a significantly greater governance concern.
+
+---
+
+# 37. Profile Gap and Continuous Improvement
+
+The gap model creates a continuous improvement cycle.
+
+```text
+       CURRENT PROFILE
+              ↓
+          GAP ANALYSIS
+              ↓
+        IMPROVEMENT PLAN
+              ↓
+         IMPLEMENTATION
+              ↓
+           MEASUREMENT
+              ↓
+        UPDATED PROFILE
+              ↓
+        NEW GAP ANALYSIS
+              ↺
+```
+
+The organization's cybersecurity posture should therefore evolve as risks and business requirements change.
+
+---
+
+# 38. Major Events That Trigger Reassessment
+
+The Profile should be reassessed when significant changes occur.
+
+Examples include:
+
+```text
+Major Cybersecurity Incident
+New Regulation
+New Threat
+Cloud Migration
+AI Adoption
+Merger or Acquisition
+Major Technology Change
+New Business Service
+Critical Supplier Change
+Significant Audit Finding
+```
+
+A simplified model is:
+
+```text
+Business / Risk Change
+        ↓
+Profile Review
+        ↓
+Current State Update
+        ↓
+Target State Review
+        ↓
+Gap Reassessment
+        ↓
+Updated Roadmap
+```
+
+---
+
+# 39. Example – ISO 27001 Alignment
+
+An organization implementing ISO 27001 may use the Profile Gap Model.
+
+```text
+Current Profile
+       ↓
+ISO 27001 ISMS Assessment
+       ↓
+Control / Risk Gaps
+       ↓
+Risk Treatment
+       ↓
+Target Profile
+       ↓
+Implementation
+       ↓
+Evidence
+       ↓
+Validation
+```
+
+The CSF Profile does not replace the ISO 27001 ISMS, but it can provide a useful cybersecurity posture and communication model alongside it.
+
+---
+
+# 40. Example – NIS2 Environment
+
+In an environment subject to NIS2 requirements, the organization may consider areas such as:
+
+```text
+Risk Management
+Incident Handling
+Business Continuity
+Supply Chain Security
+Access Control
+Cryptography
+Vulnerability Management
+Training
+```
+
+The conceptual process is:
+
+```text
+Regulatory Requirement
+        ↓
+Expected Cybersecurity Outcome
+        ↓
+Current Profile
+        ↓
+Gap
+        ↓
+Risk
+        ↓
+Remediation
+        ↓
+Evidence
+        ↓
+Target Profile
+```
+
+This demonstrates how regulatory obligations can influence the Target Profile.
+
+---
+
+# 41. Example – Third-Party Security
+
+Suppose the organization has inadequate supplier security monitoring.
+
+```text
+CURRENT PROFILE
+Limited supplier monitoring
+        ↓
+GAP
+Insufficient visibility into critical suppliers
+        ↓
+RISK
+Third-party compromise
+        ↓
+TARGET PROFILE
+Risk-based supplier monitoring
+        ↓
+ACTION
+Third-party monitoring program
+```
+
+The Profile therefore provides a strategic representation of the desired capability.
+
+---
+
+# 42. Example – AI Governance
+
+For an organization adopting AI:
+
+```text
+Business Objective
+       ↓
+AI Adoption
+       ↓
+New Cybersecurity / AI Risks
+       ↓
+Current Profile
+       ↓
+Gap Analysis
+       ↓
+Target Outcomes
+       ↓
+AI Security and Governance Controls
+```
+
+Potential areas include:
+
+```text
+AI Asset Inventory
+Data Protection
+Access Control
+Third-Party AI Risk
+Model Security
+Monitoring
+Incident Response
+```
+
+The Profile can therefore evolve with emerging technologies.
+
+---
+
+# 43. Complete Current-to-Target Model
+
+The integrated model can be represented as:
+
+```text
+                       BUSINESS CONTEXT
+                              ↓
+                       RISK ENVIRONMENT
+                              ↓
+                    ┌─────────┴─────────┐
+                    ↓                   ↓
+             CURRENT PROFILE       TARGET PROFILE
+                    ↓                   ↑
+                    └─────────┬─────────┘
+                              ↓
+                         GAP ANALYSIS
+                              ↓
+                        RISK ASSESSMENT
+                              ↓
+                       PRIORITIZATION
+                              ↓
+                     REMEDIATION PLAN
+                              ↓
+                         IMPLEMENTATION
+                              ↓
+                          VALIDATION
+                              ↓
+                          MEASUREMENT
+                              ↓
+                    UPDATED CURRENT PROFILE
+                              ↓
+                         REASSESSMENT
+                              ↺
+```
+
+---
+
+# 44. End-to-End GRC Traceability
+
+For a mature GRC environment, the Profile Gap Model can connect strategy to evidence:
+
+```text
+Business Objective
+        ↓
+Risk
+        ↓
+NIST CSF Outcome
+        ↓
+Target Profile
+        ↓
+Current Profile
+        ↓
+Gap
+        ↓
+Control Requirement
+        ↓
+Control
+        ↓
+Evidence
+        ↓
+Assessment
+        ↓
+Remediation
+        ↓
+Validation
+        ↓
+Updated Profile
+```
+
+This is one of the most valuable applications of the Organizational Profile for GRC professionals.
+
+---
+
+# 45. Executive View
+
+The entire concept can be reduced to:
+
+```text
+             WHERE ARE WE?
+                   ↓
+            CURRENT PROFILE
+                   ↓
+              GAP ANALYSIS
+                   ↓
+             WHAT MATTERS?
+                   ↓
+            RISK PRIORITY
+                   ↓
+            WHERE DO WE WANT
+                 TO BE?
+                   ↓
+             TARGET PROFILE
+                   ↓
+             WHAT SHOULD WE
+                  DO?
+                   ↓
+           ACTION ROADMAP
+                   ↓
+            ARE WE IMPROVING?
+                   ↓
+               METRICS
+                   ↓
+          UPDATED PROFILE
+                   ↺
+```
+
+This makes the model easy to communicate to executives, risk committees, auditors, and cybersecurity leadership.
+
+---
+
+# 46. The GRC Perspective
+
+From a GRC perspective, the Current Profile-to-Target Profile model provides a structured bridge between **assessment and action**.
+
+It connects:
+
+```text
+Strategy
+   ↓
+Risk
+   ↓
+Cybersecurity Outcomes
+   ↓
+Current State
+   ↓
+Gap
+   ↓
+Treatment
+   ↓
+Controls
+   ↓
+Evidence
+   ↓
+Assurance
+   ↓
+Improvement
+```
+
+The most important principle is:
+
+> **A cybersecurity profile should not merely describe where an organization is. It should help management understand where the organization needs to be, why the difference matters, and what actions are necessary to close the most important gaps.**
+
+A mature GRC implementation therefore treats the Profile as a **living management instrument** that supports risk-based prioritization, investment decisions, control improvement, compliance, assurance, and continual cybersecurity improvement.
+
 
 

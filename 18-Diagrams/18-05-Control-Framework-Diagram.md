@@ -3308,4 +3308,1091 @@ The key principle is that **preventive, detective, and corrective controls shoul
 
 A strong GRC control framework seeks to prevent important events where possible, detect failures quickly when prevention is unsuccessful, and correct or recover from those failures while reducing the likelihood of recurrence.
 
+# 18.5 Control Framework Diagrams
+
+### Part 4 – Control Effectiveness Model
+
+A control is not effective simply because it exists, has an assigned owner, or is documented in a policy.
+
+Control effectiveness requires the organization to determine whether the control is **appropriately designed, properly implemented, operating as intended, and producing the expected risk-reduction outcome**.
+
+A simplified control effectiveness model is:
+
+```text
+Risk / Requirement
+        ↓
+Control Objective
+        ↓
+Control Design
+        ↓
+Control Implementation
+        ↓
+Control Operation
+        ↓
+Evidence
+        ↓
+Control Testing
+        ↓
+Effectiveness Assessment
+        ↓
+Risk / Compliance Outcome
+```
+
+The fundamental question is:
+
+> **Does the control actually achieve its intended purpose and reduce the risk to an acceptable level?**
+
+---
+
+## What Is Control Effectiveness?
+
+Control effectiveness is the degree to which a control successfully performs its intended function.
+
+For example:
+
+```text
+Risk:
+Unauthorized privileged access
+
+        ↓
+
+Control:
+Monthly privileged-access review
+
+        ↓
+
+Question:
+Does the review consistently identify
+and address inappropriate access?
+
+        ↓
+
+Effectiveness Assessment
+```
+
+A control may be documented and implemented but still fail to provide adequate protection.
+
+---
+
+# Control Effectiveness Dimensions
+
+A practical model evaluates several dimensions:
+
+```text
+                 CONTROL EFFECTIVENESS
+                         ↓
+       ┌─────────────────┼─────────────────┐
+       ↓                 ↓                 ↓
+    Design           Operation          Outcome
+ Effectiveness     Effectiveness     Effectiveness
+       ↓                 ↓                 ↓
+ Is the control      Does it operate   Does it reduce
+ appropriately       as intended?       the intended
+ designed?                              risk?
+```
+
+These dimensions provide a more complete assessment than simply asking whether a control exists.
+
+---
+
+# 1. Design Effectiveness
+
+Design effectiveness asks:
+
+> **Is the control appropriately designed to address the identified risk or requirement?**
+
+The basic model is:
+
+```text
+Risk
+ ↓
+Control Objective
+ ↓
+Control Design
+ ↓
+Does the control address the risk?
+```
+
+For example:
+
+```text
+Risk:
+Unauthorized access
+
+Control:
+Quarterly access review
+```
+
+The organization should determine whether a quarterly review is actually capable of identifying and addressing the relevant access risk.
+
+If privileged access changes frequently, a quarterly review might not provide sufficient protection.
+
+The control may therefore be **poorly designed**, even if every quarterly review is performed perfectly.
+
+---
+
+# 2. Operating Effectiveness
+
+Operating effectiveness asks:
+
+> **Does the control operate consistently and as designed?**
+
+The model is:
+
+```text
+Control
+   ↓
+Execution
+   ↓
+Evidence
+   ↓
+Testing
+   ↓
+Operating Effectiveness
+```
+
+For example:
+
+```text
+Control:
+Monthly access review
+
+Required:
+12 reviews per year
+
+Actual:
+8 reviews completed
+
+        ↓
+
+Operating Effectiveness Issue
+```
+
+The control may be well designed but not consistently operated.
+
+---
+
+# Design vs Operating Effectiveness
+
+These two concepts should be clearly separated.
+
+```text
+                  CONTROL
+                     ↓
+          ┌──────────┴──────────┐
+          ↓                     ↓
+       DESIGN                OPERATION
+          ↓                     ↓
+ Is it capable of         Does it operate
+ addressing the risk?       as intended?
+```
+
+A control can therefore have four possible combinations:
+
+| Design      | Operation   | General Assessment   |
+| ----------- | ----------- | -------------------- |
+| Effective   | Effective   | Strong               |
+| Effective   | Ineffective | Operational weakness |
+| Ineffective | Effective   | Design weakness      |
+| Ineffective | Ineffective | Significant weakness |
+
+This is an important distinction in audit and GRC assessments.
+
+---
+
+# Control Effectiveness Testing
+
+Testing provides the evidence needed to assess effectiveness.
+
+A simplified process is:
+
+```text
+Control
+   ↓
+Testing Objective
+   ↓
+Testing Procedure
+   ↓
+Evidence Collection
+   ↓
+Sample / Population Review
+   ↓
+Exceptions Identified
+   ↓
+Test Conclusion
+```
+
+For example:
+
+```text
+Control:
+Privileged access reviewed monthly
+
+Testing:
+Select six months
+
+Check:
+Was the review performed?
+Was it approved?
+Were exceptions identified?
+Were exceptions resolved?
+```
+
+The tester then documents the result.
+
+---
+
+# Testing Population and Sampling
+
+Controls may operate over a large population.
+
+For example:
+
+```text
+10,000 User Accounts
+       ↓
+Monthly Access Review
+       ↓
+10,000 Records
+       ↓
+Testing Sample
+       ↓
+Selected Records
+```
+
+Testing may use sampling methodologies appropriate to the organization's assurance requirements.
+
+The objective is to obtain sufficient evidence to support a reasonable conclusion about control performance.
+
+---
+
+# Evidence Evaluation
+
+Testing should consider whether evidence is sufficient and appropriate.
+
+```text
+Evidence
+   ↓
+Authentic?
+   ↓
+Complete?
+   ↓
+Accurate?
+   ↓
+Relevant?
+   ↓
+Timely?
+   ↓
+Traceable?
+   ↓
+Sufficient for Conclusion?
+```
+
+Weak evidence can make it difficult to establish control effectiveness.
+
+For example:
+
+```text
+Control:
+Monthly access review
+
+Evidence:
+One screenshot from December
+```
+
+This may not demonstrate that the control operated throughout the year.
+
+---
+
+# Control Effectiveness Criteria
+
+Organizations should establish defined criteria for determining effectiveness.
+
+For example:
+
+```text
+Effective
+    ↓
+Control meets defined requirements
+
+Partially Effective
+    ↓
+Control generally operates but has weaknesses
+
+Ineffective
+    ↓
+Control does not adequately address the risk
+
+Not Tested
+    ↓
+Insufficient testing performed
+```
+
+The exact terminology and thresholds should be defined by the organization's GRC methodology.
+
+---
+
+# Control Effectiveness Scoring
+
+Organizations may also use numerical scoring.
+
+For example:
+
+```text
+5 = Highly Effective
+4 = Effective
+3 = Partially Effective
+2 = Weak
+1 = Ineffective
+```
+
+A score might consider:
+
+```text
+Design
++
+Implementation
++
+Operating Performance
++
+Evidence
++
+Exceptions
++
+Risk Coverage
+```
+
+For example:
+
+```text
+Control Score
+      ↓
+Design             5
+Implementation     5
+Operation          4
+Evidence           4
+Risk Coverage      5
+      ↓
+Overall Assessment
+      ↓
+Effective
+```
+
+The scoring methodology should be consistently applied.
+
+---
+
+# Control Exceptions
+
+An exception occurs when the control does not operate according to its defined requirements.
+
+For example:
+
+```text
+Required:
+Monthly review
+
+Actual:
+Review completed late
+```
+
+Or:
+
+```text
+Required:
+All privileged accounts reviewed
+
+Actual:
+95% reviewed
+5% not reviewed
+```
+
+The exception should be evaluated based on:
+
+```text
+Frequency
+Severity
+Duration
+Impact
+Root Cause
+Risk Exposure
+```
+
+Not every exception necessarily means that the entire control is ineffective.
+
+---
+
+# Control Failure vs Control Exception
+
+These concepts should be distinguished.
+
+### Control Exception
+
+A specific deviation from the control requirement.
+
+```text
+Control
+ ↓
+Single Exception
+ ↓
+Investigate
+ ↓
+Determine Impact
+```
+
+### Control Failure
+
+A broader or significant inability of the control to perform its intended function.
+
+```text
+Control
+ ↓
+Repeated / Significant Exceptions
+ ↓
+Control Failure
+ ↓
+Remediation
+```
+
+For example:
+
+```text
+One missed monthly review
+        ↓
+Exception
+```
+
+while:
+
+```text
+No access reviews performed for an entire year
+        ↓
+Potential Control Failure
+```
+
+The final classification depends on the organization's methodology and risk assessment.
+
+---
+
+# Root Cause Analysis
+
+When a control is ineffective, the organization should understand **why**.
+
+A simplified model is:
+
+```text
+Control Failure
+      ↓
+Root Cause Analysis
+      ↓
+Why did the control fail?
+      ↓
+Identify Root Cause
+      ↓
+Corrective Action
+```
+
+Potential causes include:
+
+```text
+Poor Control Design
+Insufficient Resources
+Lack of Training
+Incorrect Configuration
+Process Failure
+Technology Failure
+Unclear Ownership
+Inadequate Monitoring
+Poor Documentation
+Organizational Change
+```
+
+Addressing only the immediate symptom may not resolve the underlying problem.
+
+---
+
+# Control Effectiveness and Risk
+
+Control effectiveness should ultimately be connected to risk.
+
+```text
+Inherent Risk
+      ↓
+Controls
+      ↓
+Control Effectiveness
+      ↓
+Residual Risk
+```
+
+For example:
+
+```text
+High Inherent Risk
+       ↓
+Strong Controls
+       ↓
+Effective Control Operation
+       ↓
+Lower Residual Risk
+```
+
+But:
+
+```text
+High Inherent Risk
+       ↓
+Weak Controls
+       ↓
+Control Deficiencies
+       ↓
+High Residual Risk
+```
+
+This connection makes control assessment more meaningful to management.
+
+---
+
+# Control Effectiveness and Residual Risk
+
+A simplified relationship is:
+
+```text
+                INHERENT RISK
+                      ↓
+                Control Design
+                      ↓
+              Control Operation
+                      ↓
+             Control Effectiveness
+                      ↓
+                RESIDUAL RISK
+```
+
+Control effectiveness therefore contributes to the organization's understanding of how much risk remains after controls are applied.
+
+---
+
+# Effective Control Does Not Mean Zero Risk
+
+An important GRC principle is:
+
+> **An effective control does not necessarily eliminate risk.**
+
+For example:
+
+```text
+Risk:
+Phishing Attack
+
+Control:
+Email Security Gateway
+
+        ↓
+
+Many malicious emails blocked
+
+        ↓
+
+Some sophisticated attacks may remain
+
+        ↓
+
+Residual Risk
+```
+
+The objective of controls is generally to reduce risk to an acceptable level, not necessarily to eliminate every possible threat.
+
+---
+
+# Control Effectiveness and Risk Appetite
+
+Management should consider whether the remaining risk is acceptable.
+
+```text
+Control
+   ↓
+Risk Reduction
+   ↓
+Residual Risk
+   ↓
+Compare with Risk Appetite
+      ↙          ↘
+ Acceptable    Unacceptable
+     ↓              ↓
+ Monitor        Remediate /
+                Additional Controls
+```
+
+This connects control effectiveness with executive risk decisions.
+
+---
+
+# Layered Control Effectiveness
+
+Organizations should evaluate controls as part of the broader control environment.
+
+```text
+                    RISK
+                     ↓
+          ┌──────────┴──────────┐
+          ↓                     ↓
+      Preventive             Detective
+        Controls               Controls
+          ↓                     ↓
+          └──────────┬──────────┘
+                     ↓
+                  Event
+                     ↓
+               Corrective
+                 Controls
+                     ↓
+                  Recovery
+```
+
+A weakness in one control may sometimes be compensated for by another control.
+
+However, organizations should not assume that multiple controls automatically provide adequate protection. Their combined effectiveness should be assessed.
+
+---
+
+# Compensating Control Effectiveness
+
+When a primary control cannot operate, a compensating control may reduce the associated risk.
+
+```text
+Primary Control
+      ↓
+     Fails
+      ↓
+Risk Exposure
+      ↓
+Compensating Control
+      ↓
+Risk Reduction
+      ↓
+Residual Risk
+```
+
+The organization should evaluate whether the compensating control provides sufficient protection.
+
+---
+
+# Control Effectiveness and Automation
+
+Automation can improve control consistency, but automation alone does not guarantee effectiveness.
+
+For example:
+
+```text
+Automated Control
+      ↓
+Configuration
+      ↓
+Execution
+      ↓
+Monitoring
+      ↓
+Testing
+```
+
+An incorrectly configured automated control can consistently perform the wrong action.
+
+For example:
+
+```text
+Automated Firewall Rule
+        ↓
+Incorrect Configuration
+        ↓
+Repeated Incorrect Enforcement
+```
+
+Therefore, automated controls still require appropriate governance and testing.
+
+---
+
+# Continuous Control Monitoring
+
+Modern GRC programs increasingly use continuous monitoring.
+
+Instead of testing a control only periodically:
+
+```text
+Periodic Testing
+      ↓
+Quarterly / Annual
+```
+
+organizations may monitor control conditions continuously:
+
+```text
+System
+  ↓
+Continuous Monitoring
+  ↓
+Control Condition
+  ↓
+Exception
+  ↓
+Alert
+  ↓
+Investigation
+```
+
+For example:
+
+```text
+Privileged Account
+       ↓
+Continuous Monitoring
+       ↓
+Unexpected Privilege Change
+       ↓
+Alert
+       ↓
+Investigation
+```
+
+This can improve the speed at which control deficiencies are identified.
+
+---
+
+# Key Control Effectiveness Indicators
+
+Organizations can monitor indicators such as:
+
+```text
+Control Failure Rate
+Control Exception Rate
+Overdue Control Activities
+Evidence Completion Rate
+Testing Pass Rate
+Remediation Aging
+Repeat Findings
+Control Coverage
+Automated Control Coverage
+```
+
+For example:
+
+```text
+Control Testing Results
+
+100 Controls Tested
+        ↓
+90 Effective
+7 Partially Effective
+3 Ineffective
+        ↓
+Overall Control Effectiveness
+```
+
+Metrics should be interpreted in context rather than treated as isolated numbers.
+
+---
+
+# Repeat Findings
+
+A particularly important indicator is the presence of repeat findings.
+
+```text
+Finding
+   ↓
+Remediation
+   ↓
+Retesting
+   ↓
+Finding Reappears
+   ↓
+Repeat Finding
+```
+
+Repeated failures may indicate:
+
+```text
+Weak Root Cause Analysis
+Ineffective Remediation
+Poor Ownership
+Insufficient Resources
+Poor Control Design
+```
+
+A mature organization should pay particular attention to recurring deficiencies.
+
+---
+
+# Control Remediation
+
+When a control is ineffective, remediation should follow a structured process.
+
+```text
+Deficiency
+    ↓
+Risk Assessment
+    ↓
+Root Cause
+    ↓
+Corrective Action
+    ↓
+Owner
+    ↓
+Due Date
+    ↓
+Implementation
+    ↓
+Validation
+    ↓
+Retesting
+    ↓
+Closure
+```
+
+Closure should be supported by evidence.
+
+Simply marking a remediation task as "completed" does not necessarily demonstrate that the underlying control is effective.
+
+---
+
+# Control Effectiveness Lifecycle
+
+The complete lifecycle can be represented as:
+
+```text
+                 CONTROL
+                    ↓
+              DESIGN REVIEW
+                    ↓
+              IMPLEMENTATION
+                    ↓
+                OPERATION
+                    ↓
+                 EVIDENCE
+                    ↓
+                 TESTING
+                    ↓
+          EFFECTIVENESS ASSESSMENT
+                    ↓
+             ┌──────┴──────┐
+             ↓             ↓
+         EFFECTIVE      DEFICIENT
+             ↓             ↓
+          MONITOR      ROOT CAUSE
+                           ↓
+                       REMEDIATION
+                           ↓
+                         RETEST
+                           ↓
+                      EFFECTIVE?
+                       ↙       ↘
+                     YES        NO
+                      ↓          ↓
+                   CLOSE      REWORK
+                      ↓          │
+                      └──────────┘
+```
+
+This creates a continuous feedback loop between control performance and control improvement.
+
+---
+
+# Practical Example – Privileged Access
+
+Consider a privileged-access control.
+
+### Risk
+
+```text
+Unauthorized privileged access
+```
+
+### Control Objective
+
+```text
+Ensure privileged access is appropriately authorized,
+reviewed, and removed when no longer required.
+```
+
+### Control
+
+```text
+Monthly privileged-access review
+```
+
+### Testing
+
+```text
+Select six months
+        ↓
+Review evidence
+        ↓
+Check approvals
+        ↓
+Check exceptions
+        ↓
+Check remediation
+```
+
+### Results
+
+```text
+6 Reviews Required
+        ↓
+6 Reviews Completed
+        ↓
+1 Exception Identified
+        ↓
+Exception Remediated
+        ↓
+Control Operating Effectively
+```
+
+The control can therefore be considered effective even though an exception occurred, provided the exception was appropriately identified, addressed, and did not demonstrate a fundamental failure of the control.
+
+---
+
+# Practical Example – Vulnerability Management
+
+```text
+Risk
+ ↓
+Exploitation of known vulnerabilities
+ ↓
+Control Objective
+ ↓
+Identify and remediate vulnerabilities
+ ↓
+Control
+ ↓
+Monthly vulnerability scanning
+ ↓
+Evidence
+ ↓
+Scan reports
+ ↓
+Testing
+ ↓
+Review scan coverage and remediation
+ ↓
+Finding
+ ↓
+Critical vulnerabilities remain unresolved
+ ↓
+Control Effectiveness Assessment
+ ↓
+Partially Effective / Ineffective
+```
+
+The assessment should consider why the vulnerabilities remained unresolved and whether compensating measures were in place.
+
+---
+
+# Practical Example – Backup and Recovery
+
+```text
+Risk
+ ↓
+Loss of critical data
+ ↓
+Control Objective
+ ↓
+Ensure critical data can be recovered
+ ↓
+Control
+ ↓
+Backup and restoration testing
+ ↓
+Evidence
+ ↓
+Backup logs
++
+Restoration test reports
+ ↓
+Testing
+ ↓
+Review recovery results
+ ↓
+Result
+ ↓
+Effective / Deficient
+```
+
+Importantly, successful backup completion alone may not demonstrate recovery effectiveness.
+
+The organization may also need to demonstrate that the backup can actually be restored within the required recovery parameters.
+
+---
+
+# Executive Control Effectiveness Model
+
+At the executive level, the detailed control information can be summarized as:
+
+```text
+                BUSINESS RISK
+                     ↓
+              CONTROL COVERAGE
+                     ↓
+            CONTROL EFFECTIVENESS
+                     ↓
+                RESIDUAL RISK
+                     ↓
+             RISK APPETITE
+                     ↓
+              MANAGEMENT ACTION
+```
+
+This gives executives a more meaningful view than simply reporting:
+
+```text
+"95% of controls are compliant."
+```
+
+A stronger executive question is:
+
+> **Are our critical controls effective enough to keep our most important risks within acceptable levels?**
+
+---
+
+# Integrated Control Effectiveness Model
+
+The complete model can be represented as:
+
+```text
+                         RISK
+                          ↓
+                  CONTROL OBJECTIVE
+                          ↓
+                     CONTROL DESIGN
+                          ↓
+                  IMPLEMENTATION
+                          ↓
+                      OPERATION
+                          ↓
+                       EVIDENCE
+                          ↓
+                       TESTING
+                          ↓
+               EFFECTIVENESS ASSESSMENT
+                          ↓
+                ┌─────────┴─────────┐
+                ↓                   ↓
+             EFFECTIVE          DEFICIENT
+                ↓                   ↓
+             MONITOR            ROOT CAUSE
+                                    ↓
+                                REMEDIATION
+                                    ↓
+                                  RETEST
+                                    ↓
+                               VALIDATION
+                                    ↓
+                           CONTROL IMPROVEMENT
+                                    ↺
+```
+
+The most important principle is:
+
+> **Control effectiveness should be demonstrated through evidence and testing, connected to the risk the control is intended to address, and continuously reassessed as the organization's risks, technologies, processes, and regulatory obligations change.**
+
+A mature GRC program therefore moves beyond asking **"Do we have a control?"** and instead asks **"Is the control appropriately designed, operating as intended, supported by reliable evidence, and actually reducing the relevant risk to an acceptable level?"**
 

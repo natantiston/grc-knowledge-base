@@ -3500,4 +3500,3639 @@ Management Decision
 Documented Assurance
 ```
 
+# 18.12 Third-Party Risk Management Diagrams
+
+## Part 3 – Third-Party Risk Assessment Model
+
+Third-party risk assessment is the process of determining the level of risk created by an external supplier, service provider, partner, or other third party.
+
+While due diligence focuses primarily on **collecting and validating information**, the risk assessment process uses that information to determine:
+
+```text
+What can go wrong?
+        ↓
+How likely is it?
+        ↓
+What would be the impact?
+        ↓
+What controls exist?
+        ↓
+How effective are those controls?
+        ↓
+What risk remains?
+        ↓
+Is the remaining risk acceptable?
+```
+
+A mature third-party risk assessment therefore connects **business criticality, data exposure, access, threats, vulnerabilities, controls, and residual risk** into a structured decision-making model.
+
+---
+
+# 1. Purpose of Third-Party Risk Assessment
+
+The primary purpose is to determine whether a supplier relationship creates a level of risk that the organization can accept and manage.
+
+The assessment should help answer:
+
+```text
+Who is the third party?
+        ↓
+What does the third party provide?
+        ↓
+What does the third party have access to?
+        ↓
+What could go wrong?
+        ↓
+What controls are available?
+        ↓
+How effective are those controls?
+        ↓
+What risk remains?
+```
+
+The output should be a **documented risk decision**, not simply a questionnaire score.
+
+---
+
+# 2. Third-Party Risk Assessment in the TPRM Lifecycle
+
+The assessment typically occurs after supplier due diligence.
+
+```text
+Supplier Identification
+        ↓
+Risk Screening
+        ↓
+Due Diligence
+        ↓
+Third-Party Risk Assessment
+        ↓
+Risk Treatment
+        ↓
+Approval
+        ↓
+Contracting
+        ↓
+Onboarding
+        ↓
+Monitoring
+```
+
+The assessment converts information gathered during due diligence into a structured risk view.
+
+---
+
+# 3. Core Third-Party Risk Assessment Model
+
+A simplified model is:
+
+```text
+              BUSINESS CONTEXT
+                     ↓
+              SUPPLIER EXPOSURE
+                     ↓
+              THREAT / VULNERABILITY
+                     ↓
+                INHERENT RISK
+                     ↓
+               SUPPLIER CONTROLS
+                     ↓
+             CONTROL EFFECTIVENESS
+                     ↓
+                RESIDUAL RISK
+                     ↓
+              RISK APPETITE TEST
+                     ↓
+              MANAGEMENT DECISION
+```
+
+This model should be applied consistently across suppliers while allowing the depth of assessment to vary according to risk.
+
+---
+
+# 4. Business Context
+
+The first step is understanding why the supplier exists and what business service it supports.
+
+Key information includes:
+
+```text
+Business Service
+Supplier Service
+Business Owner
+Criticality
+Contract Value
+Contract Duration
+Users
+Systems
+Data
+Locations
+Dependencies
+```
+
+Without business context, it is difficult to determine whether a particular supplier control weakness is actually material.
+
+---
+
+# 5. Supplier Exposure
+
+Supplier exposure describes how closely the third party is connected to the organization.
+
+Potential exposure includes:
+
+```text
+Data Access
+System Access
+Privileged Access
+Network Connectivity
+API Connectivity
+Physical Access
+Remote Access
+Operational Dependency
+Regulatory Dependency
+```
+
+A supplier with no access to organizational systems presents a very different exposure profile from a supplier operating a critical cloud environment.
+
+---
+
+# 6. Data Exposure
+
+Data sensitivity is a major factor in third-party risk.
+
+A simplified hierarchy is:
+
+```text
+Public
+   ↓
+Internal
+   ↓
+Confidential
+   ↓
+Sensitive
+   ↓
+Highly Sensitive / Regulated
+```
+
+The assessment should consider:
+
+```text
+Type of Data
+Volume of Data
+Data Subjects
+Processing Activities
+Storage
+Transmission
+Retention
+Deletion
+```
+
+---
+
+# 7. System Access
+
+The level of access granted to a supplier should be explicitly considered.
+
+```text
+No Access
+    ↓
+Application Access
+    ↓
+System Access
+    ↓
+Remote Access
+    ↓
+Administrative Access
+    ↓
+Privileged Access
+```
+
+Greater access generally increases potential impact if the supplier is compromised.
+
+---
+
+# 8. Business Criticality
+
+The organization should determine how important the supplier is to business operations.
+
+For example:
+
+```text
+Low Criticality
+      ↓
+Important Service
+      ↓
+Business-Critical Service
+      ↓
+Mission-Critical Service
+```
+
+A supplier supporting a critical customer platform may therefore require substantially stronger assurance than a supplier providing a non-critical administrative service.
+
+---
+
+# 9. Operational Dependency
+
+Risk is also affected by how dependent the organization is on the supplier.
+
+Consider:
+
+```text
+Can the supplier be replaced quickly?
+
+Are alternative suppliers available?
+
+How long would migration take?
+
+Is the organization technically dependent on the supplier?
+
+Does the supplier provide a unique capability?
+```
+
+A supplier that cannot easily be replaced may create significant dependency risk.
+
+---
+
+# 10. Regulatory Exposure
+
+The assessment should identify whether the supplier relationship affects regulatory obligations.
+
+Potential areas include:
+
+```text
+Data Protection
+Cybersecurity
+Financial Regulation
+Operational Resilience
+Telecommunications
+Healthcare
+Critical Infrastructure
+Contractual Compliance
+```
+
+The assessment should identify which obligations are relevant to the specific relationship.
+
+---
+
+# 11. Geographic Exposure
+
+Geography can influence third-party risk.
+
+Consider:
+
+```text
+Supplier Headquarters
+Data Center Location
+Processing Location
+Support Location
+Subcontractor Location
+Data Transfer Locations
+```
+
+Potential risks include:
+
+```text
+Regulatory Conflict
+Data Transfer Restrictions
+Geopolitical Risk
+Operational Disruption
+Legal Jurisdiction
+```
+
+---
+
+# 12. Subcontractor Exposure
+
+Third-party risk may extend beyond the primary supplier.
+
+```text
+Organization
+      ↓
+Supplier
+      ↓
+Subcontractor
+      ↓
+Fourth Party
+```
+
+The assessment should consider whether important services or sensitive data depend on downstream providers.
+
+---
+
+# 13. Threat Assessment
+
+The organization should identify relevant threats.
+
+Examples include:
+
+```text
+Cyberattack
+Ransomware
+Insider Threat
+Credential Theft
+Supply Chain Attack
+Data Breach
+Service Outage
+Fraud
+Natural Disaster
+Geopolitical Event
+Financial Failure
+```
+
+Threats should be relevant to the supplier's actual service and exposure.
+
+---
+
+# 14. Vulnerability Assessment
+
+Threats alone do not determine risk.
+
+The organization should also consider vulnerabilities.
+
+Examples include:
+
+```text
+Weak Authentication
+Excessive Privileges
+Poor Patch Management
+Insufficient Monitoring
+Weak Encryption
+Inadequate Backup
+Poor Incident Response
+Insufficient Segmentation
+Weak Supplier Governance
+```
+
+A simplified relationship is:
+
+```text
+Threat
+   +
+Vulnerability
+   ↓
+Potential Risk Event
+```
+
+---
+
+# 15. Threat–Vulnerability–Impact Model
+
+A useful third-party risk model is:
+
+```text
+Threat
+  ↓
+Vulnerability
+  ↓
+Risk Event
+  ↓
+Impact
+```
+
+For example:
+
+```text
+Cyberattacker
+      ↓
+Weak Supplier MFA
+      ↓
+Supplier Account Compromise
+      ↓
+Unauthorized Access
+      ↓
+Customer Data Exposure
+      ↓
+Financial / Regulatory / Reputational Impact
+```
+
+This provides a more meaningful assessment than simply assigning a generic supplier score.
+
+---
+
+# 16. Impact Assessment
+
+Impact describes the consequences if the risk materializes.
+
+Potential impact categories include:
+
+```text
+Confidentiality
+Integrity
+Availability
+Privacy
+Financial
+Regulatory
+Legal
+Operational
+Reputational
+Strategic
+```
+
+A single supplier event can affect several categories simultaneously.
+
+---
+
+# 17. Impact Scale
+
+An organization may use a scale such as:
+
+```text
+1 – Insignificant
+2 – Minor
+3 – Moderate
+4 – Major
+5 – Severe
+```
+
+For example:
+
+```text
+Customer Data Breach
+        ↓
+Privacy Impact = 5
+Regulatory Impact = 5
+Reputational Impact = 4
+Financial Impact = 4
+Operational Impact = 3
+```
+
+The actual scoring criteria should be defined within the organization's risk methodology.
+
+---
+
+# 18. Likelihood Assessment
+
+Likelihood estimates how probable it is that the risk event will occur.
+
+A simple scale may be:
+
+```text
+1 – Rare
+2 – Unlikely
+3 – Possible
+4 – Likely
+5 – Almost Certain
+```
+
+Factors may include:
+
+```text
+Threat Activity
+Supplier Exposure
+Control Weaknesses
+Historical Incidents
+Attack Surface
+Industry Threats
+Supplier Security Maturity
+```
+
+---
+
+# 19. Inherent Risk
+
+Inherent risk represents the risk **before considering mitigating controls**.
+
+A simplified representation is:
+
+```text
+Threat
+   +
+Exposure
+   +
+Vulnerability
+   +
+Impact
+   ↓
+INHERENT RISK
+```
+
+For example:
+
+```text
+Critical Supplier
++
+Sensitive Customer Data
++
+Privileged Access
++
+External Connectivity
+        ↓
+High Inherent Risk
+```
+
+This provides a baseline against which control effectiveness can be evaluated.
+
+---
+
+# 20. Inherent Risk Scoring
+
+A common conceptual model is:
+
+```text
+Inherent Risk = Likelihood × Impact
+```
+
+For example:
+
+```text
+Likelihood = 4
+Impact = 5
+
+Inherent Risk = 4 × 5 = 20
+```
+
+The resulting score would then be mapped to the organization's defined risk categories.
+
+---
+
+# 21. Supplier Control Assessment
+
+Once inherent risk is established, the organization evaluates the controls implemented by the supplier.
+
+Examples include:
+
+```text
+MFA
+Privileged Access Management
+Encryption
+Network Segmentation
+Vulnerability Management
+Security Monitoring
+Incident Response
+Backup
+Disaster Recovery
+Security Awareness
+Access Reviews
+```
+
+The key question is:
+
+> **Are the supplier's controls sufficient to reduce the identified risks?**
+
+---
+
+# 22. Control Effectiveness
+
+Controls should not simply be recorded as present or absent.
+
+A more useful assessment considers:
+
+```text
+Control Design
+      ↓
+Control Implementation
+      ↓
+Control Operation
+      ↓
+Control Effectiveness
+```
+
+For example:
+
+```text
+MFA Policy Exists
+        ↓
+MFA Implemented
+        ↓
+MFA Applied to Critical Accounts
+        ↓
+MFA Effectiveness Validated
+```
+
+This provides stronger assurance.
+
+---
+
+# 23. Control Maturity
+
+A supplier control can also be assessed by maturity.
+
+For example:
+
+```text
+Level 1 – Ad Hoc
+Level 2 – Developing
+Level 3 – Defined
+Level 4 – Managed
+Level 5 – Optimized
+```
+
+A supplier may technically have a control while still having low maturity.
+
+---
+
+# 24. Control Gaps
+
+The assessment should identify differences between required and actual controls.
+
+```text
+Required Control
+       ↓
+Supplier Control
+       ↓
+Comparison
+       ↓
+Gap Identified
+```
+
+For example:
+
+```text
+Requirement:
+MFA for Privileged Access
+
+Supplier:
+MFA Available Only for Standard Users
+
+       ↓
+
+Control Gap
+```
+
+The gap then becomes part of the risk treatment process.
+
+---
+
+# 25. Compensating Controls
+
+A supplier may not implement the exact expected control but may have another mechanism that reduces the risk.
+
+For example:
+
+```text
+Expected Control
+       ↓
+MFA
+
+Not Available
+       ↓
+Strong Network Isolation
++
+Privileged Access Gateway
++
+Additional Monitoring
+```
+
+These may provide compensating protection, depending on the specific risk.
+
+Compensating controls should be formally evaluated rather than automatically accepted.
+
+---
+
+# 26. Residual Risk
+
+After considering controls, the organization determines the remaining risk.
+
+```text
+Inherent Risk
+      ↓
+Mitigating Controls
+      ↓
+Control Effectiveness
+      ↓
+RESIDUAL RISK
+```
+
+For example:
+
+```text
+Inherent Risk = High
+
+Strong Controls
+      ↓
+
+Residual Risk = Moderate
+```
+
+Residual risk is the key risk level used for management decision-making.
+
+---
+
+# 27. Residual Risk and Risk Appetite
+
+The organization should compare residual risk against its defined risk appetite.
+
+```text
+Residual Risk
+      ↓
+Risk Appetite
+      ↓
+Within Appetite?
+```
+
+If yes:
+
+```text
+Approve / Continue
+```
+
+If no:
+
+```text
+Treat
+Transfer
+Avoid
+or
+Formally Accept
+```
+
+---
+
+# 28. Third-Party Risk Heat Map
+
+A typical risk matrix can be represented as:
+
+```text
+                    IMPACT
+              Low   Medium   High   Critical
+           ┌───────┬────────┬───────┬─────────┐
+Rare       │ Low   │ Low    │ Low   │ Medium  │
+           ├───────┼────────┼───────┼─────────┤
+Unlikely   │ Low   │ Low    │Medium │ High    │
+           ├───────┼────────┼───────┼─────────┤
+Possible   │ Low   │Medium  │ High  │ High    │
+           ├───────┼────────┼───────┼─────────┤
+Likely     │Medium │ High   │ High  │ Critical│
+           ├───────┼────────┼───────┼─────────┤
+Almost     │ High  │ High   │Critical│Critical│
+Certain    │       │        │        │        │
+           └───────┴────────┴────────┴─────────┘
+```
+
+The matrix is illustrative. Organizations should use their approved risk methodology.
+
+---
+
+# 29. Multi-Dimensional Third-Party Risk
+
+Third-party risk should not always be reduced to one number.
+
+A supplier may have:
+
+```text
+Cybersecurity Risk       High
+Privacy Risk             High
+Operational Risk         Medium
+Financial Risk           Low
+Regulatory Risk          High
+Reputational Risk        Medium
+```
+
+This provides a more useful view than a single aggregate score.
+
+---
+
+# 30. Third-Party Risk Profile
+
+A supplier risk profile could therefore look like:
+
+```text
+        THIRD-PARTY RISK PROFILE
+
+Cybersecurity       █████████ High
+Privacy             █████████ High
+Operational         ██████    Medium
+Regulatory          ████████  High
+Financial           ███       Low
+Reputation          █████     Medium
+Concentration       ███████   High
+```
+
+The values are illustrative.
+
+This allows management to understand **what type of risk** the supplier creates.
+
+---
+
+# 31. Critical Supplier Assessment
+
+Critical suppliers should normally receive enhanced assessment.
+
+A simplified model is:
+
+```text
+Critical Supplier
+       ↓
+Business Impact Analysis
+       ↓
+Enhanced Due Diligence
+       ↓
+Cybersecurity Assessment
+       ↓
+Privacy Assessment
+       ↓
+Resilience Assessment
+       ↓
+Subcontractor Assessment
+       ↓
+Concentration Analysis
+       ↓
+Residual Risk
+       ↓
+Executive Review
+```
+
+---
+
+# 32. Third-Party Risk and Business Impact
+
+A supplier assessment should connect supplier failure to business consequences.
+
+```text
+Supplier Failure
+       ↓
+Service Disruption
+       ↓
+Business Process Impact
+       ↓
+Customer Impact
+       ↓
+Financial / Regulatory Impact
+```
+
+This helps convert technical supplier issues into business risk.
+
+---
+
+# 33. Third-Party Risk and Business Continuity
+
+For critical suppliers:
+
+```text
+Supplier
+   ↓
+Service
+   ↓
+Business Process
+   ↓
+Criticality
+   ↓
+RTO / RPO
+   ↓
+Supplier Recovery Capability
+```
+
+The organization should determine whether supplier recovery capabilities are compatible with its own continuity objectives.
+
+---
+
+# 34. Third-Party Risk and Cybersecurity
+
+Cybersecurity risk can be assessed across several domains:
+
+```text
+Governance
+Identity
+Data Protection
+Infrastructure
+Application Security
+Monitoring
+Incident Response
+Vulnerability Management
+Resilience
+```
+
+This provides a structured cybersecurity risk profile for the supplier.
+
+---
+
+# 35. Third-Party Risk and Privacy
+
+Privacy risk assessment can follow:
+
+```text
+Personal Data
+      ↓
+Processing Activity
+      ↓
+Supplier
+      ↓
+Processing Risk
+      ↓
+Privacy Controls
+      ↓
+Residual Privacy Risk
+```
+
+Relevant considerations include:
+
+```text
+Data Minimization
+Purpose Limitation
+Retention
+Access
+Encryption
+Subprocessors
+International Transfers
+Data Subject Rights
+Deletion
+```
+
+---
+
+# 36. Third-Party Risk and Compliance
+
+Compliance risk can be represented as:
+
+```text
+Regulatory Requirement
+       ↓
+Supplier Obligation
+       ↓
+Supplier Control
+       ↓
+Evidence
+       ↓
+Assessment
+       ↓
+Compliance Risk
+```
+
+This creates traceability between external suppliers and organizational compliance obligations.
+
+---
+
+# 37. Third-Party Risk and Concentration
+
+Risk can increase when multiple critical services depend on the same provider.
+
+```text
+Business Service A ──┐
+Business Service B ──┤
+Business Service C ──┼── Supplier X
+Business Service D ──┤
+Business Service E ──┘
+```
+
+If Supplier X fails, multiple business services may be affected simultaneously.
+
+Therefore, concentration should be incorporated into the risk assessment.
+
+---
+
+# 38. Fourth-Party Risk
+
+The assessment should consider significant downstream dependencies.
+
+```text
+Organization
+      ↓
+Supplier A
+      ↓
+Supplier B
+      ↓
+Supplier C
+```
+
+The organization does not necessarily need complete visibility into every downstream provider, but critical dependencies should be understood where they materially affect risk.
+
+---
+
+# 39. Risk Treatment Options
+
+Once residual risk has been determined, treatment options include:
+
+```text
+Reduce
+Transfer
+Avoid
+Accept
+```
+
+### Reduce
+
+Implement additional controls.
+
+### Transfer
+
+Use insurance, contractual mechanisms, or other risk-transfer mechanisms where appropriate.
+
+### Avoid
+
+Do not proceed with the supplier relationship or discontinue the service.
+
+### Accept
+
+Formally accept the remaining risk at the appropriate authority level.
+
+---
+
+# 40. Risk Treatment Plan
+
+A treatment plan should identify:
+
+```text
+Risk
+Control Gap
+Action
+Responsible Owner
+Supplier Owner
+Due Date
+Target Risk
+Status
+Evidence
+```
+
+A simplified workflow is:
+
+```text
+Risk
+ ↓
+Treatment Action
+ ↓
+Implementation
+ ↓
+Validation
+ ↓
+Residual Risk
+ ↓
+Closure / Acceptance
+```
+
+---
+
+# 41. Third-Party Risk Acceptance
+
+Risk acceptance should be performed by the appropriate risk owner.
+
+A typical structure is:
+
+```text
+Risk Identified
+      ↓
+Risk Assessed
+      ↓
+Residual Risk
+      ↓
+Risk Owner Review
+      ↓
+Accept / Reject / Treat
+      ↓
+Formal Documentation
+```
+
+The acceptance decision should include sufficient justification.
+
+---
+
+# 42. Risk Escalation
+
+Escalation may be required when:
+
+```text
+Residual Risk > Risk Appetite
+Critical Control Gap
+Major Security Exposure
+Regulatory Concern
+Critical Supplier Dependency
+Unresolved High-Risk Finding
+```
+
+A possible escalation path is:
+
+```text
+Supplier Owner
+      ↓
+GRC / Risk
+      ↓
+Security / Privacy / Compliance
+      ↓
+Business Leadership
+      ↓
+Executive Risk Committee
+```
+
+---
+
+# 43. Risk Assessment Frequency
+
+Assessment frequency should reflect supplier risk.
+
+```text
+Critical Supplier
+      ↓
+Continuous / Frequent Monitoring
++
+Periodic Full Assessment
+
+High Risk
+      ↓
+Periodic Assessment
+
+Moderate Risk
+      ↓
+Scheduled Reassessment
+
+Low Risk
+      ↓
+Simplified Review
+```
+
+The exact frequency should be established in the organization's TPRM methodology.
+
+---
+
+# 44. Event-Driven Reassessment
+
+A new assessment may be triggered by significant changes.
+
+Examples:
+
+```text
+Cybersecurity Incident
+Major Service Change
+New Data Processing
+New Subprocessor
+Acquisition
+Ownership Change
+Regulatory Change
+Major Vulnerability
+Security Certification Expiration
+Business Model Change
+```
+
+Therefore:
+
+```text
+Scheduled Assessment
+        +
+Event-Driven Assessment
+        ↓
+Continuous Risk Management
+```
+
+---
+
+# 45. Third-Party Risk Monitoring
+
+Monitoring should track changes in the supplier's risk profile.
+
+Possible indicators include:
+
+```text
+Security Incidents
+Open Findings
+Certification Status
+Service Availability
+Security Rating
+Compliance Issues
+DR Test Results
+SLA Performance
+Financial Condition
+Threat Intelligence
+```
+
+These indicators can trigger reassessment when risk changes materially.
+
+---
+
+# 46. Third-Party Risk Dashboard
+
+An executive dashboard could provide:
+
+```text
+       THIRD-PARTY RISK PROFILE
+
+Critical Suppliers                32
+High-Risk Suppliers               61
+Critical Risks                     4
+High Risks                        17
+Open High Findings                23
+Overdue Assessments                9
+Suppliers With Major Incidents     3
+Concentration Risks                5
+```
+
+The figures are illustrative.
+
+The dashboard should emphasize **material risk and trends**, not simply supplier counts.
+
+---
+
+# 47. Supplier Risk Scorecard
+
+A supplier scorecard could combine multiple dimensions:
+
+```text
+Supplier
+     ↓
+Cybersecurity
+Privacy
+Compliance
+Resilience
+Financial
+Operational
+Reputation
+Concentration
+     ↓
+Overall Risk Profile
+```
+
+This gives decision-makers a consolidated view while preserving the underlying risk dimensions.
+
+---
+
+# 48. Risk Assessment Evidence
+
+Important assessment evidence may include:
+
+```text
+Completed Questionnaire
+Security Certifications
+Audit Reports
+Penetration Tests
+Architecture Documents
+DR Test Results
+Privacy Documentation
+Incident Records
+Risk Assessment
+Control Assessment
+Risk Acceptance
+Remediation Plan
+```
+
+Evidence should support the actual risk conclusions.
+
+---
+
+# 49. Evidence-to-Risk Traceability
+
+A mature assessment should be able to trace:
+
+```text
+Risk
+ ↓
+Control
+ ↓
+Evidence
+ ↓
+Assessment Result
+ ↓
+Residual Risk
+ ↓
+Decision
+```
+
+For example:
+
+```text
+Risk:
+Unauthorized Privileged Access
+
+Control:
+MFA + PAM
+
+Evidence:
+Access Review + PAM Report
+
+Assessment:
+Effective
+
+Residual Risk:
+Moderate
+
+Decision:
+Accept
+```
+
+This makes the assessment auditable.
+
+---
+
+# 50. Three Lines and Third-Party Risk Assessment
+
+The Three Lines Model provides governance around assessment activities.
+
+```text
+FIRST LINE
+Business / Supplier Owner
+        ↓
+Owns Risk
+
+SECOND LINE
+GRC / Risk / Security / Privacy
+        ↓
+Assesses and Challenges
+
+THIRD LINE
+Internal Audit
+        ↓
+Provides Independent Assurance
+```
+
+This separation helps prevent conflicts of interest.
+
+---
+
+# 51. GRC Platform Risk Assessment Workflow
+
+A GRC platform may automate the workflow:
+
+```text
+Supplier Record
+       ↓
+Risk Tier
+       ↓
+Assessment Questionnaire
+       ↓
+Evidence
+       ↓
+Risk Calculation
+       ↓
+Control Assessment
+       ↓
+Findings
+       ↓
+Treatment
+       ↓
+Approval
+       ↓
+Monitoring
+```
+
+This improves consistency and creates an auditable record.
+
+---
+
+# 52. Automated Risk Scoring
+
+Automation can calculate preliminary risk scores based on defined criteria.
+
+For example:
+
+```text
+Criticality
+    +
+Data Sensitivity
+    +
+System Access
+    +
+Regulatory Exposure
+    +
+Supplier Control Maturity
+    ↓
+Calculated Risk Profile
+```
+
+However, automated scoring should not eliminate professional judgment.
+
+A high score should trigger analysis—not automatically determine the final decision.
+
+---
+
+# 53. Human Judgment in Risk Assessment
+
+Certain situations require professional judgment.
+
+For example:
+
+```text
+Supplier Has Strong Controls
+        +
+Critical Dependency
+        ↓
+Risk May Still Be Significant
+```
+
+Or:
+
+```text
+Supplier Has a Control Gap
+        +
+Effective Compensating Controls
+        ↓
+Risk May Remain Acceptable
+```
+
+GRC professionals must therefore interpret assessment results within the business context.
+
+---
+
+# 54. Common Third-Party Risk Assessment Mistakes
+
+Common weaknesses include:
+
+```text
+Using One Score for Everything
+Ignoring Business Criticality
+Ignoring Data Sensitivity
+Ignoring Privileged Access
+Accepting Certifications Without Scope Review
+Ignoring Subcontractors
+Ignoring Concentration Risk
+Treating Questionnaires as Evidence
+Failing to Validate Supplier Claims
+Ignoring Residual Risk
+No Risk Owner
+No Reassessment
+```
+
+These weaknesses can produce inaccurate risk decisions.
+
+---
+
+# 55. Better Assessment Approach
+
+A stronger model is:
+
+```text
+Business Context
+       ↓
+Supplier Exposure
+       ↓
+Threats
+       ↓
+Vulnerabilities
+       ↓
+Impact
+       ↓
+Inherent Risk
+       ↓
+Controls
+       ↓
+Control Effectiveness
+       ↓
+Residual Risk
+       ↓
+Risk Appetite
+       ↓
+Treatment
+       ↓
+Management Decision
+```
+
+This creates a logical connection between the supplier's characteristics and the final risk decision.
+
+---
+
+# 56. Practical Example – Cloud Provider
+
+Suppose a cloud provider hosts a critical customer platform.
+
+### Business Context
+
+```text
+Critical Customer Service
+```
+
+### Exposure
+
+```text
+Sensitive Data
++
+Privileged Access
++
+Internet Connectivity
+```
+
+### Threat
+
+```text
+Cyberattack
+```
+
+### Vulnerability
+
+```text
+Weak Privileged Access Controls
+```
+
+### Impact
+
+```text
+Customer Data Exposure
++
+Service Disruption
++
+Regulatory Impact
+```
+
+### Inherent Risk
+
+```text
+High
+```
+
+### Controls
+
+```text
+MFA
+PAM
+Encryption
+Monitoring
+Segmentation
+DR
+```
+
+### Residual Risk
+
+```text
+Moderate
+```
+
+### Decision
+
+```text
+Accept With Monitoring
+```
+
+This illustrates how the assessment converts technical information into a management decision.
+
+---
+
+# 57. Practical Example – SaaS HR Provider
+
+Consider a SaaS provider processing employee information.
+
+```text
+Employee Data
+      ↓
+SaaS Provider
+      ↓
+Personal Data Processing
+      ↓
+Privacy + Security Risk
+      ↓
+Due Diligence
+      ↓
+Privacy Assessment
+      ↓
+Security Controls
+      ↓
+Residual Risk
+      ↓
+Risk Decision
+```
+
+The assessment should consider both cybersecurity and privacy exposure.
+
+---
+
+# 58. Practical Example – Managed Service Provider
+
+A managed service provider has remote administrative access.
+
+```text
+Managed Service Provider
+          ↓
+Remote Access
+          ↓
+Privileged Access
+          ↓
+Critical Systems
+          ↓
+High Inherent Risk
+          ↓
+PAM + MFA + Monitoring
+          ↓
+Control Assessment
+          ↓
+Residual Risk
+          ↓
+Management Decision
+```
+
+The level of access materially influences the risk assessment.
+
+---
+
+# 59. Practical Example – Low-Risk Supplier
+
+A supplier provides office equipment and has:
+
+```text
+No Sensitive Data
+No System Access
+No Critical Service
+No Regulatory Dependency
+```
+
+The assessment may result in:
+
+```text
+Low Inherent Risk
+      ↓
+Basic Controls
+      ↓
+Low Residual Risk
+      ↓
+Standard Approval
+```
+
+This demonstrates why TPRM must remain proportionate.
+
+---
+
+# 60. End-to-End Third-Party Risk Assessment Model
+
+The complete model can be represented as:
+
+```text
+                         BUSINESS CONTEXT
+                                ↓
+                     ┌────────────────────┐
+                     │ Supplier Exposure  │
+                     └─────────┬──────────┘
+                               ↓
+                  ┌─────────────────────────┐
+                  │ Threats + Vulnerability │
+                  └────────────┬────────────┘
+                               ↓
+                     ┌───────────────────┐
+                     │ Impact Assessment │
+                     └─────────┬─────────┘
+                               ↓
+                     ┌───────────────────┐
+                     │  INHERENT RISK    │
+                     └─────────┬─────────┘
+                               ↓
+                     ┌───────────────────┐
+                     │ Supplier Controls │
+                     └─────────┬─────────┘
+                               ↓
+                  ┌─────────────────────────┐
+                  │ Control Effectiveness   │
+                  └────────────┬────────────┘
+                               ↓
+                     ┌───────────────────┐
+                     │  RESIDUAL RISK    │
+                     └─────────┬─────────┘
+                               ↓
+                     ┌───────────────────┐
+                     │  Risk Appetite    │
+                     └─────────┬─────────┘
+                               ↓
+                    ┌──────────┴──────────┐
+                    ↓                     ↓
+                ACCEPTABLE           NOT ACCEPTABLE
+                    ↓                     ↓
+                APPROVE              TREAT / AVOID /
+                                     TRANSFER / ACCEPT
+```
+
+---
+
+# 61. Integrated Third-Party Risk Model
+
+A mature assessment can integrate multiple risk dimensions:
+
+```text
+                     THIRD PARTY
+                          ↓
+        ┌─────────────────┼─────────────────┐
+        ↓                 ↓                 ↓
+   Cybersecurity       Privacy          Compliance
+        ↓                 ↓                 ↓
+        └─────────────────┼─────────────────┘
+                          ↓
+                  Operational Risk
+                          ↓
+                   Resilience Risk
+                          ↓
+                   Financial Risk
+                          ↓
+                Concentration Risk
+                          ↓
+                    RISK PROFILE
+                          ↓
+                  MANAGEMENT DECISION
+```
+
+This creates a more comprehensive view of supplier risk.
+
+---
+
+# 62. GRC Traceability Model
+
+From a GRC perspective, the assessment should provide traceability from the original business requirement to the final risk decision.
+
+```text
+Business Requirement
+        ↓
+Supplier
+        ↓
+Service
+        ↓
+Exposure
+        ↓
+Threat
+        ↓
+Vulnerability
+        ↓
+Impact
+        ↓
+Inherent Risk
+        ↓
+Control
+        ↓
+Evidence
+        ↓
+Control Effectiveness
+        ↓
+Residual Risk
+        ↓
+Risk Treatment
+        ↓
+Risk Owner
+        ↓
+Management Decision
+        ↓
+Monitoring
+```
+
+This is one of the most important characteristics of a mature GRC risk assessment.
+
+---
+
+# 63. Key GRC Takeaways
+
+A mature **Third-Party Risk Assessment Model** should establish:
+
+```text
+1. Business Context
+2. Supplier Criticality
+3. Data Exposure
+4. System Access
+5. Operational Dependency
+6. Regulatory Exposure
+7. Geographic Exposure
+8. Subcontractor Exposure
+9. Threat Assessment
+10. Vulnerability Assessment
+11. Impact Assessment
+12. Likelihood Assessment
+13. Inherent Risk
+14. Control Assessment
+15. Control Effectiveness
+16. Control Gaps
+17. Compensating Controls
+18. Residual Risk
+19. Risk Appetite Comparison
+20. Risk Treatment
+21. Risk Acceptance
+22. Risk Escalation
+23. Risk Monitoring
+24. Periodic Reassessment
+25. Evidence and Traceability
+```
+
+The central principle is:
+
+> **Third-party risk assessment should translate supplier exposure, threats, vulnerabilities, business impact, and control effectiveness into a clear understanding of residual risk and an accountable management decision.**
+
+The strongest assessment is therefore not simply:
+
+```text
+Supplier
+   ↓
+Questionnaire
+   ↓
+Score
+```
+
+but:
+
+```text
+Supplier
+   ↓
+Business Context
+   ↓
+Exposure
+   ↓
+Threat + Vulnerability
+   ↓
+Impact
+   ↓
+Inherent Risk
+   ↓
+Controls
+   ↓
+Evidence
+   ↓
+Control Effectiveness
+   ↓
+Residual Risk
+   ↓
+Risk Appetite
+   ↓
+Treatment / Acceptance
+   ↓
+Management Decision
+   ↓
+Continuous Monitoring
+```
+
+# 18.12 Third-Party Risk Management Diagrams
+
+## Part 4 – Supplier Monitoring and Offboarding
+
+Supplier risk does not end when a supplier is approved and onboarded.
+
+A supplier that was considered acceptable at the beginning of a relationship may become higher risk because of:
+
+```text id="n8l0zq"
+Security Incidents
+Regulatory Changes
+Ownership Changes
+New Subcontractors
+Service Changes
+Technology Changes
+Financial Problems
+Control Failures
+Contract Changes
+Geopolitical Events
+```
+
+For this reason, mature Third-Party Risk Management (TPRM) treats supplier management as a **continuous lifecycle**.
+
+A simplified lifecycle is:
+
+```text id="4z5q8u"
+Supplier Onboarding
+        ↓
+Risk Monitoring
+        ↓
+Periodic Assessment
+        ↓
+Event-Driven Assessment
+        ↓
+Risk Treatment
+        ↓
+Performance Review
+        ↓
+Renewal / Reassessment
+        ↓
+Offboarding
+        ↓
+Data / Access / Asset Closure
+        ↓
+Final Assurance
+```
+
+The objective is to ensure that supplier risk remains within the organization's acceptable boundaries **throughout the entire relationship and through its termination**.
+
+---
+
+# 1. Purpose of Supplier Monitoring
+
+Supplier monitoring provides ongoing visibility into whether the supplier continues to meet:
+
+```text id="n2k0ah"
+Security Requirements
+Compliance Requirements
+Contractual Obligations
+Service Levels
+Risk Expectations
+Resilience Requirements
+Privacy Obligations
+```
+
+The organization should not rely exclusively on the assessment performed before onboarding.
+
+A supplier's risk profile can change significantly over time.
+
+---
+
+# 2. Continuous Supplier Risk Lifecycle
+
+The complete model can be represented as:
+
+```text id="s3k5x9"
+                  SUPPLIER
+                     ↓
+                 ONBOARDING
+                     ↓
+                 MONITORING
+                     ↓
+             PERIODIC ASSESSMENT
+                     ↓
+             EVENT-DRIVEN REVIEW
+                     ↓
+              RISK REASSESSMENT
+                     ↓
+          ┌──────────┴──────────┐
+          ↓                     ↓
+    Risk Acceptable        Risk Increased
+          ↓                     ↓
+      Continue          Treat / Escalate
+          ↓                     ↓
+       Monitor            Reassess
+          └──────────┬──────────┘
+                     ↓
+              CONTRACT END
+                     ↓
+                OFFBOARDING
+```
+
+This illustrates that monitoring and reassessment continue until the relationship formally ends.
+
+---
+
+# 3. Supplier Monitoring Model
+
+A practical monitoring model consists of several dimensions:
+
+```text id="9i0s7d"
+                 SUPPLIER
+                     ↓
+      ┌──────────────┼──────────────┐
+      ↓              ↓              ↓
+   Security      Compliance       Service
+      ↓              ↓              ↓
+   Privacy       Resilience      Financial
+      ↓              ↓              ↓
+      └──────────────┼──────────────┘
+                     ↓
+              SUPPLIER RISK
+                     ↓
+              MANAGEMENT ACTION
+```
+
+This prevents monitoring from becoming limited to cybersecurity alone.
+
+---
+
+# 4. Security Monitoring
+
+Security monitoring may include:
+
+```text id="8b5d3q"
+Security Incidents
+Vulnerability Findings
+Penetration Test Results
+Security Certification Status
+Access Control Issues
+MFA Compliance
+Privileged Access Issues
+Security Assessment Findings
+Threat Intelligence
+```
+
+For critical suppliers, some of these indicators may need to be monitored continuously or at defined intervals.
+
+---
+
+# 5. Compliance Monitoring
+
+The organization should determine whether the supplier continues to satisfy applicable compliance requirements.
+
+Examples include:
+
+```text id="k8t0fh"
+Regulatory Obligations
+Contractual Requirements
+Privacy Requirements
+Security Standards
+Industry Requirements
+Licensing
+Audit Requirements
+```
+
+A supplier may have been compliant when onboarded but become non-compliant following a regulatory or business change.
+
+---
+
+# 6. Certification Monitoring
+
+Supplier certifications should be monitored for:
+
+```text id="5d3v0k"
+Expiration
+Renewal
+Scope Changes
+Suspension
+Certification Withdrawal
+New Audit Findings
+```
+
+A simple workflow is:
+
+```text id="7o7t1f"
+Certification
+      ↓
+Expiration Date
+      ↓
+Approaching?
+   ↙       ↘
+ Yes        No
+ ↓           ↓
+Request     Continue
+Renewal     Monitoring
+ ↓
+Validate
+ ↓
+Update Supplier Record
+```
+
+A certification should not simply remain permanently marked as "valid" in a GRC system.
+
+---
+
+# 7. Security Rating Monitoring
+
+External security ratings can provide additional signals.
+
+Potential indicators include:
+
+```text id="1y7p1k"
+Security Rating
+Exposed Services
+Known Vulnerabilities
+Credential Exposure
+Domain Reputation
+Public Security Events
+```
+
+These indicators can be useful for identifying changes that warrant further investigation.
+
+However, external ratings should generally be treated as **risk indicators**, not definitive proof of security effectiveness.
+
+---
+
+# 8. Supplier Incident Monitoring
+
+A significant supplier security incident may trigger immediate reassessment.
+
+```text id="5d3xkj"
+Supplier Incident
+       ↓
+Notification
+       ↓
+Initial Impact Assessment
+       ↓
+Business Impact?
+       ↓
+Security / Privacy Impact?
+       ↓
+Risk Reassessment
+       ↓
+Corrective Action
+       ↓
+Management Decision
+```
+
+The severity and scope of the incident should determine the level of response.
+
+---
+
+# 9. Event-Driven Monitoring
+
+Not every risk change follows the annual assessment schedule.
+
+Monitoring should identify events such as:
+
+```text id="5q8d4v"
+Major Security Incident
+Acquisition
+Merger
+Ownership Change
+New Subprocessor
+New Data Processing
+New Geographic Location
+Major Service Change
+Technology Migration
+Regulatory Enforcement
+Financial Distress
+Repeated SLA Failures
+```
+
+These events can trigger an **event-driven reassessment**.
+
+---
+
+# 10. Periodic Supplier Assessment
+
+Suppliers should be reassessed according to risk.
+
+A simplified model is:
+
+```text id="h2w2gl"
+Critical
+   ↓
+Frequent / Continuous Monitoring
++
+Periodic Full Assessment
+
+High
+   ↓
+Regular Reassessment
+
+Moderate
+   ↓
+Scheduled Review
+
+Low
+   ↓
+Simplified Periodic Review
+```
+
+The exact frequency should be defined by the organization's TPRM policy.
+
+---
+
+# 11. Supplier Risk Score Changes
+
+Supplier risk should be capable of changing over time.
+
+```text id="49d8w6"
+Initial Risk
+     ↓
+Moderate
+     ↓
+Security Incident
+     ↓
+High
+     ↓
+Remediation
+     ↓
+Moderate
+```
+
+This demonstrates why supplier risk should not be treated as a static value.
+
+---
+
+# 12. Risk Trend Monitoring
+
+A GRC platform can track supplier risk over time.
+
+For example:
+
+```text id="r7v5dg"
+Risk Level
+
+High ────────────┐
+                 │
+Medium ─────┐    └───────
+            │
+Low ────────┘
+     Time →
+```
+
+The organization can identify whether supplier risk is:
+
+```text id="f6z7w2"
+Increasing
+Stable
+Decreasing
+```
+
+A deteriorating trend may warrant management attention even before a formal risk threshold is exceeded.
+
+---
+
+# 13. Supplier Performance Monitoring
+
+TPRM should also consider operational performance.
+
+Possible metrics include:
+
+```text id="f7m0nj"
+SLA Compliance
+Availability
+Incident Frequency
+Response Time
+Resolution Time
+Service Quality
+Contract Compliance
+```
+
+A supplier with repeated operational failures may create significant business risk even if its cybersecurity controls remain strong.
+
+---
+
+# 14. Supplier Resilience Monitoring
+
+For critical suppliers, resilience indicators may include:
+
+```text id="a0p2ks"
+DR Test Results
+Backup Performance
+Recovery Time
+Recovery Point
+Service Availability
+Redundancy
+Geographic Resilience
+Business Continuity Testing
+```
+
+The organization should determine whether the supplier continues to meet the resilience requirements established during onboarding.
+
+---
+
+# 15. Supplier Financial Monitoring
+
+Financial deterioration can create operational and continuity risks.
+
+Potential indicators include:
+
+```text id="xw3k4f"
+Credit Risk
+Financial Results
+Debt
+Liquidity
+Major Losses
+Bankruptcy Indicators
+Credit Rating Changes
+Major Customer Loss
+```
+
+A financially distressed supplier may be unable to maintain security, staffing, infrastructure, or service levels.
+
+---
+
+# 16. Supplier Ownership Monitoring
+
+Changes in ownership can materially change risk.
+
+```text id="v4m2cg"
+Supplier
+   ↓
+Acquisition
+   ↓
+New Ownership
+   ↓
+New Governance
+   ↓
+Potential Risk Change
+   ↓
+Reassessment
+```
+
+Important changes may include:
+
+```text id="9cx2rv"
+Acquisition
+Merger
+Private Equity Investment
+Change in Parent Company
+Divestiture
+Major Restructuring
+```
+
+---
+
+# 17. Subprocessor Monitoring
+
+Subprocessors should be monitored throughout the supplier relationship.
+
+```text id="3t3z0q"
+Supplier
+   ↓
+Subprocessor Change
+   ↓
+Notification
+   ↓
+Risk Assessment
+   ↓
+Approve / Reject
+   ↓
+Update Supplier Risk Record
+```
+
+For sensitive services, the organization may require contractual notification or approval before certain subprocessors are introduced.
+
+---
+
+# 18. Geographic Change Monitoring
+
+A supplier may change where services or data are delivered.
+
+For example:
+
+```text id="qv4m1f"
+Original Processing Location
+          ↓
+New Data Center
+          ↓
+New Country
+          ↓
+New Legal Jurisdiction
+          ↓
+Privacy / Regulatory Review
+```
+
+Geographic changes may therefore require reassessment.
+
+---
+
+# 19. Contractual Compliance Monitoring
+
+Supplier monitoring should verify compliance with important contract provisions.
+
+Examples:
+
+```text id="y6x1o4"
+Security Clauses
+Privacy Clauses
+Audit Rights
+Incident Notification
+SLA
+BCP / DR
+Data Retention
+Data Deletion
+Subprocessor Requirements
+```
+
+Contractual obligations should be mapped to monitoring activities where appropriate.
+
+---
+
+# 20. Supplier SLA Monitoring
+
+Service-level monitoring may include:
+
+```text id="c5j7jp"
+Availability
+Response Time
+Resolution Time
+Capacity
+Service Quality
+Incident Handling
+```
+
+A simplified model is:
+
+```text id="0v9k2n"
+Contract SLA
+     ↓
+Measured Performance
+     ↓
+Compare
+     ↓
+SLA Met?
+   ↙      ↘
+ Yes       No
+ ↓          ↓
+Continue   Corrective Action
+```
+
+Repeated SLA failures may increase supplier risk.
+
+---
+
+# 21. Supplier Finding Monitoring
+
+Open supplier findings should be tracked until closure.
+
+```text id="7i6h5f"
+Finding
+  ↓
+Risk Rating
+  ↓
+Remediation Plan
+  ↓
+Due Date
+  ↓
+Supplier Action
+  ↓
+Evidence
+  ↓
+Validation
+  ↓
+Closure
+```
+
+High-risk findings should receive stronger escalation and oversight.
+
+---
+
+# 22. Supplier Remediation
+
+When weaknesses are identified:
+
+```text id="w0z2z9"
+Finding
+   ↓
+Root Cause
+   ↓
+Corrective Action
+   ↓
+Responsible Owner
+   ↓
+Target Date
+   ↓
+Evidence
+   ↓
+Validation
+```
+
+The organization should distinguish between:
+
+**Supplier says the issue is fixed**
+
+and:
+
+**The organization has sufficient evidence that the issue has been remediated.**
+
+---
+
+# 23. Risk Escalation
+
+Risk should be escalated when predefined thresholds are exceeded.
+
+Examples:
+
+```text id="x4n6kq"
+Critical Security Incident
+High-Risk Control Failure
+Regulatory Violation
+Repeated SLA Failure
+Major Data Breach
+Expired Critical Certification
+Financial Distress
+Unacceptable Residual Risk
+```
+
+A possible escalation path is:
+
+```text id="72u1n6"
+Supplier Owner
+      ↓
+TPRM / GRC
+      ↓
+Security / Privacy / Compliance
+      ↓
+Business Leadership
+      ↓
+Executive Risk Committee
+```
+
+---
+
+# 24. Supplier Monitoring Dashboard
+
+An enterprise TPRM dashboard may show:
+
+```text id="4h0b5v"
+        SUPPLIER MONITORING
+
+Critical Suppliers                 32
+High-Risk Suppliers                61
+Overdue Assessments                 9
+Open High Findings                 17
+Critical Incidents                  2
+Expired Certifications              3
+SLA Breaches                       11
+Suppliers Under Remediation         8
+```
+
+The figures are illustrative.
+
+The dashboard should focus on **material risk exposure and trends** rather than simply the number of suppliers.
+
+---
+
+# 25. Supplier Risk Indicators
+
+Useful Key Risk Indicators (KRIs) may include:
+
+```text id="8j5f9q"
+% Critical Suppliers With Current Assessments
+% High-Risk Findings Overdue
+% Suppliers With Expired Certifications
+Number of Critical Supplier Incidents
+Number of Suppliers With DR Test Failures
+Number of Suppliers With Major SLA Breaches
+Number of Suppliers With Unresolved High Risks
+```
+
+These indicators help management understand the overall supplier risk posture.
+
+---
+
+# 26. Supplier Risk Alerts
+
+Automated alerts can be configured for:
+
+```text id="j7l4cc"
+Assessment Expiration
+Certification Expiration
+Contract Expiration
+High-Risk Finding
+Security Incident
+Subprocessor Change
+SLA Breach
+Risk Threshold Breach
+```
+
+A simplified automation model is:
+
+```text id="v4w5bx"
+Monitoring Event
+      ↓
+Risk Rule
+      ↓
+Threshold Exceeded?
+      ↓
+Alert
+      ↓
+Risk Owner
+      ↓
+Action
+```
+
+---
+
+# 27. Continuous Monitoring vs Periodic Assessment
+
+These are complementary, not interchangeable.
+
+### Continuous Monitoring
+
+Looks for **changes and events**.
+
+```text
+Incidents
+Alerts
+Certifications
+SLA
+Threat Signals
+```
+
+### Periodic Assessment
+
+Performs a **structured review**.
+
+```text
+Questionnaire
+Evidence
+Controls
+Risk
+Resilience
+Compliance
+```
+
+Together:
+
+```text id="1hj7vl"
+Continuous Monitoring
+        +
+Periodic Assessment
+        ↓
+Continuous Third-Party Risk Management
+```
+
+---
+
+# 28. Supplier Renewal Assessment
+
+Before renewing a significant supplier contract, the organization should consider:
+
+```text id="qv4h4p"
+Current Risk
+Open Findings
+Security Performance
+SLA Performance
+Compliance
+Incidents
+Financial Condition
+Business Criticality
+Contract Changes
+```
+
+The renewal decision can therefore be informed by the supplier's actual performance during the relationship.
+
+---
+
+# 29. Supplier Renewal Decision
+
+A simplified model is:
+
+```text id="cxz1yq"
+Contract Expiring
+       ↓
+Risk Review
+       ↓
+Performance Review
+       ↓
+Open Issues?
+   ↙         ↘
+ No           Yes
+ ↓             ↓
+Renew       Remediate /
+            Escalate
+ ↓
+Updated Contract
+```
+
+Renewal should not be an automatic procurement event.
+
+---
+
+# 30. Supplier Offboarding
+
+Offboarding is the controlled termination of the supplier relationship.
+
+It should address:
+
+```text id="r1o2pj"
+Access Removal
+Data Return
+Data Deletion
+Asset Return
+Credential Revocation
+Account Closure
+Contract Termination
+Subprocessor Closure
+Knowledge Transfer
+Service Transition
+Evidence Retention
+```
+
+Offboarding is therefore a **security and risk-management process**, not merely an administrative activity.
+
+---
+
+# 31. Supplier Offboarding Lifecycle
+
+A simplified process is:
+
+```text id="8xj7j2"
+Termination Decision
+        ↓
+Offboarding Plan
+        ↓
+Service Transition
+        ↓
+Access Revocation
+        ↓
+Asset Recovery
+        ↓
+Data Return
+        ↓
+Data Deletion
+        ↓
+Account Closure
+        ↓
+Contract Closure
+        ↓
+Evidence Collection
+        ↓
+Final Risk Review
+```
+
+---
+
+# 32. Access Revocation
+
+One of the most important offboarding activities is removing supplier access.
+
+This may include:
+
+```text id="j1n8g4"
+User Accounts
+Privileged Accounts
+VPN
+Remote Access
+API Keys
+Service Accounts
+Certificates
+Tokens
+Cloud Access
+Physical Access
+```
+
+A simplified control is:
+
+```text id="8n0gph"
+Supplier Termination
+       ↓
+Access Inventory
+       ↓
+Revoke Access
+       ↓
+Validate Revocation
+       ↓
+Evidence
+```
+
+The validation step is important because simply requesting access removal does not prove that access has actually been removed.
+
+---
+
+# 33. Privileged Access Revocation
+
+For suppliers with privileged access:
+
+```text id="x0z6ts"
+Termination
+    ↓
+PAM Account Closure
+    ↓
+Privileged Credential Rotation
+    ↓
+Token / Key Revocation
+    ↓
+Session Termination
+    ↓
+Validation
+```
+
+Credential rotation may be particularly important where shared credentials or service accounts were used.
+
+---
+
+# 34. Data Return
+
+The organization should determine what information must be returned.
+
+Examples include:
+
+```text id="0px6ut"
+Customer Data
+Employee Data
+Business Records
+Documents
+Backups
+Configuration Data
+Security Logs
+Intellectual Property
+```
+
+Data return should follow contractual and regulatory requirements.
+
+---
+
+# 35. Data Deletion
+
+Where required, the supplier should securely delete organizational data.
+
+A simplified model is:
+
+```text id="6s7t9h"
+Termination
+     ↓
+Data Inventory
+     ↓
+Data Return
+     ↓
+Deletion
+     ↓
+Backup Consideration
+     ↓
+Deletion Evidence
+```
+
+The organization should consider whether copies remain in:
+
+```text id="l0i5e4"
+Production
+Backups
+Archives
+Logs
+Test Environments
+Subprocessors
+```
+
+---
+
+# 36. Data Deletion Evidence
+
+Evidence may include:
+
+```text id="h1v8yd"
+Deletion Certificate
+System Records
+Deletion Logs
+Supplier Attestation
+Contractual Confirmation
+```
+
+The appropriate evidence depends on the sensitivity of the data and contractual requirements.
+
+---
+
+# 37. Asset Recovery
+
+Supplier-owned or organization-owned assets should be accounted for.
+
+Examples include:
+
+```text id="xq2j8z"
+Laptops
+Mobile Devices
+Network Equipment
+Security Tokens
+Access Cards
+Physical Media
+Documentation
+```
+
+A simplified model is:
+
+```text id="h8p5yq"
+Asset Inventory
+     ↓
+Supplier
+     ↓
+Return
+     ↓
+Inspection
+     ↓
+Inventory Update
+```
+
+---
+
+# 38. Contract Closure
+
+Contract termination should confirm that outstanding obligations are addressed.
+
+```text id="3l0y3m"
+Contract
+   ↓
+Termination Notice
+   ↓
+Outstanding Obligations
+   ↓
+Data / Security Requirements
+   ↓
+Financial Settlement
+   ↓
+Contract Closure
+```
+
+Legal, procurement, GRC, security, privacy, and business owners may all have responsibilities depending on the relationship.
+
+---
+
+# 39. Service Transition
+
+If the supplier supports a critical business service, offboarding should include transition planning.
+
+```text id="a8h7vr"
+Existing Supplier
+       ↓
+Transition Plan
+       ↓
+New Supplier / Internal Service
+       ↓
+Data Migration
+       ↓
+Testing
+       ↓
+Service Validation
+       ↓
+Old Supplier Termination
+```
+
+The organization should avoid terminating the old supplier before the replacement service is sufficiently operational.
+
+---
+
+# 40. Knowledge Transfer
+
+Some suppliers possess important operational knowledge.
+
+Offboarding may therefore require:
+
+```text id="2x6d4m"
+Architecture Documentation
+Operational Procedures
+Configuration
+Runbooks
+Support Information
+Contact Information
+Known Issues
+Recovery Procedures
+```
+
+This reduces the risk of losing operational knowledge when the supplier relationship ends.
+
+---
+
+# 41. Subprocessor Offboarding
+
+Where the primary supplier uses subprocessors:
+
+```text id="2l6r9p"
+Primary Supplier
+      ↓
+Subprocessor
+      ↓
+Data / Service
+      ↓
+Termination
+      ↓
+Data Deletion
+      ↓
+Access Revocation
+      ↓
+Confirmation
+```
+
+The organization should ensure that termination requirements flow through the supplier chain where applicable.
+
+---
+
+# 42. Final Supplier Risk Assessment
+
+At the end of the relationship, a final review can verify that:
+
+```text id="9t6gq3"
+Access Removed
+Data Returned
+Data Deleted
+Assets Returned
+Contracts Closed
+Findings Resolved
+Subprocessors Addressed
+Evidence Collected
+```
+
+This provides formal closure.
+
+---
+
+# 43. Offboarding Checklist
+
+A practical checklist could include:
+
+```text id="1y9r7p"
+☐ Termination Approved
+☐ Business Owner Notified
+☐ Procurement Notified
+☐ Legal Notified
+☐ Security Notified
+☐ Privacy Notified
+☐ Access Inventory Completed
+☐ User Accounts Disabled
+☐ Privileged Access Removed
+☐ API Keys Revoked
+☐ Certificates Revoked
+☐ Assets Returned
+☐ Data Returned
+☐ Data Deleted
+☐ Subprocessors Addressed
+☐ Contract Closed
+☐ Final Evidence Collected
+☐ Supplier Record Updated
+☐ Offboarding Approved
+```
+
+---
+
+# 44. Offboarding Failure Scenario
+
+Consider a supplier whose contract has ended but whose VPN account remains active.
+
+```text id="l4b0z2"
+Contract Terminated
+        ↓
+Supplier No Longer Authorized
+        ↓
+VPN Account Remains Active
+        ↓
+Compromised Supplier Credential
+        ↓
+Unauthorized Access
+        ↓
+Security Incident
+```
+
+This demonstrates why contractual termination and technical termination must be synchronized.
+
+---
+
+# 45. Supplier Exit Risk
+
+Offboarding itself can create risk.
+
+Potential risks include:
+
+```text id="7n2f8x"
+Data Loss
+Service Disruption
+Access Persistence
+Knowledge Loss
+Incomplete Migration
+Unresolved Vulnerabilities
+Contractual Disputes
+Regulatory Exposure
+```
+
+Therefore:
+
+> **Supplier termination should be risk-managed in the same way as supplier onboarding.**
+
+---
+
+# 46. Supplier Exit Strategy
+
+For critical suppliers, an exit strategy should ideally be understood before the relationship becomes dependent on the supplier.
+
+```text id="6k9b4n"
+Critical Supplier
+       ↓
+Exit Strategy
+       ↓
+Alternative Provider
+       ↓
+Migration Requirements
+       ↓
+Data Portability
+       ↓
+Transition Timeline
+       ↓
+Testing
+```
+
+This reduces vendor lock-in and concentration risk.
+
+---
+
+# 47. Exit Strategy and Concentration Risk
+
+If the supplier is difficult to replace:
+
+```text id="9v4q1k"
+Critical Service
+       ↓
+Single Supplier
+       ↓
+High Dependency
+       ↓
+Limited Alternatives
+       ↓
+High Concentration Risk
+```
+
+The organization may therefore need:
+
+```text id="u7d0w3"
+Alternative Supplier
+Multi-Sourcing
+Data Portability
+Contractual Exit Rights
+Transition Assistance
+```
+
+---
+
+# 48. Supplier Monitoring and Offboarding in a GRC Platform
+
+A GRC platform can manage the lifecycle:
+
+```text id="e6x8yd"
+Supplier Record
+      ↓
+Risk Tier
+      ↓
+Assessment
+      ↓
+Controls
+      ↓
+Findings
+      ↓
+Monitoring
+      ↓
+Alerts
+      ↓
+Reassessment
+      ↓
+Renewal / Termination
+      ↓
+Offboarding
+      ↓
+Closure
+```
+
+This provides a centralized record of the supplier relationship.
+
+---
+
+# 49. Automated Offboarding Workflow
+
+Where systems are integrated, offboarding can trigger automated actions.
+
+For example:
+
+```text id="n0p7u1"
+Supplier Termination Approved
+            ↓
+GRC Workflow
+            ↓
+IAM
+            ↓
+Disable Accounts
+            ↓
+PAM
+            ↓
+Remove Privileged Access
+            ↓
+IT Asset Management
+            ↓
+Recover Assets
+            ↓
+Data Management
+            ↓
+Data Deletion
+            ↓
+Evidence Repository
+            ↓
+Closure
+```
+
+Automation reduces the likelihood that a critical offboarding step is forgotten.
+
+---
+
+# 50. Supplier Lifecycle Governance
+
+The complete lifecycle can be represented as:
+
+```text id="h6w2p8"
+                 THIRD-PARTY LIFECYCLE
+
+Identification
+      ↓
+Screening
+      ↓
+Due Diligence
+      ↓
+Risk Assessment
+      ↓
+Approval
+      ↓
+Contract
+      ↓
+Onboarding
+      ↓
+Monitoring
+      ↓
+Reassessment
+      ↓
+Risk Treatment
+      ↓
+Renewal
+      ↓
+Termination
+      ↓
+Offboarding
+      ↓
+Closure
+```
+
+Governance should exist across every stage.
+
+---
+
+# 51. Three Lines and Supplier Monitoring
+
+The Three Lines Model can also be applied during ongoing monitoring.
+
+```text id="5x8j2a"
+FIRST LINE
+Business / Supplier Owner
+        ↓
+Monitors Performance
+
+SECOND LINE
+GRC / Risk / Security / Privacy
+        ↓
+Challenges and Oversees
+
+THIRD LINE
+Internal Audit
+        ↓
+Provides Independent Assurance
+```
+
+This provides separation between operational ownership and independent assurance.
+
+---
+
+# 52. Supplier Monitoring Metrics
+
+Useful KPIs and KRIs include:
+
+```text id="d0g5h9"
+Assessment Completion Rate
+Assessment Overdue Rate
+High-Risk Finding Rate
+Finding Closure Rate
+Certification Expiration Rate
+Security Incident Rate
+SLA Breach Rate
+Supplier Risk Trend
+Critical Supplier Coverage
+Offboarding Completion Rate
+```
+
+Metrics should be connected to management decisions rather than collected solely for reporting purposes.
+
+---
+
+# 53. Supplier Offboarding Metrics
+
+Useful offboarding indicators include:
+
+```text id="2p3x4m"
+% Suppliers Fully Offboarded
+% Supplier Accounts Disabled on Time
+% Data Deletion Confirmed
+% Assets Returned
+% Open Findings at Termination
+Average Offboarding Duration
+Number of Access Exceptions
+```
+
+These metrics help identify weaknesses in the supplier exit process.
+
+---
+
+# 54. GRC Traceability
+
+A mature supplier lifecycle should provide traceability from onboarding through termination.
+
+```text id="b7f0m2"
+Supplier
+   ↓
+Business Service
+   ↓
+Risk Assessment
+   ↓
+Controls
+   ↓
+Evidence
+   ↓
+Monitoring
+   ↓
+Findings
+   ↓
+Remediation
+   ↓
+Renewal / Termination
+   ↓
+Offboarding Evidence
+   ↓
+Closure
+```
+
+This creates an auditable lifecycle record.
+
+---
+
+# 55. Practical Example – Critical Cloud Supplier
+
+Consider a cloud provider supporting a critical customer platform.
+
+### During the relationship:
+
+```text id="5f1m4q"
+Continuous Monitoring
+        ↓
+Security Incidents
+        ↓
+Certificate Status
+        ↓
+SLA Performance
+        ↓
+DR Testing
+        ↓
+Risk Assessment
+```
+
+Suppose the supplier announces a major change to its hosting architecture.
+
+```text id="y3g5d8"
+Architecture Change
+        ↓
+Event-Driven Review
+        ↓
+Security Assessment
+        ↓
+Privacy Assessment
+        ↓
+Risk Reassessment
+        ↓
+Approval / Treatment
+```
+
+If the organization later terminates the supplier:
+
+```text id="m4k9j2"
+Termination
+    ↓
+Migration
+    ↓
+Access Revocation
+    ↓
+Data Return
+    ↓
+Data Deletion
+    ↓
+Asset Recovery
+    ↓
+Final Assurance
+    ↓
+Closure
+```
+
+This demonstrates the full TPRM lifecycle.
+
+---
+
+# 56. Practical Example – Supplier Security Incident
+
+Suppose a SaaS provider experiences a significant security incident.
+
+```text id="8w5v1k"
+Supplier Incident
+      ↓
+Notification
+      ↓
+Initial Assessment
+      ↓
+Affected Data?
+      ↓
+Affected Service?
+      ↓
+Regulatory Impact?
+      ↓
+Risk Reassessment
+      ↓
+Corrective Actions
+      ↓
+Validation
+      ↓
+Risk Decision
+```
+
+The organization should determine whether the incident changes the supplier's residual risk.
+
+---
+
+# 57. Practical Example – Supplier Termination
+
+Suppose a supplier contract expires.
+
+A controlled offboarding process would be:
+
+```text id="6g2k9w"
+Contract Expiry
+      ↓
+Business Confirmation
+      ↓
+Transition Completed
+      ↓
+Access Revoked
+      ↓
+Assets Returned
+      ↓
+Data Returned
+      ↓
+Data Deleted
+      ↓
+Deletion Evidence
+      ↓
+Contract Closed
+      ↓
+Supplier Record Archived
+```
+
+This provides formal evidence that the relationship has been terminated securely.
+
+---
+
+# 58. Common Monitoring Weaknesses
+
+Organizations frequently encounter:
+
+```text id="w4n9k1"
+No Supplier Inventory
+No Risk-Based Monitoring
+Annual Review Only
+No Event-Driven Reassessment
+Expired Certifications
+Untracked Findings
+Poor SLA Monitoring
+No Subprocessor Visibility
+No Concentration Monitoring
+No Exit Strategy
+```
+
+These weaknesses can leave organizations exposed between formal assessments.
+
+---
+
+# 59. Common Offboarding Weaknesses
+
+Typical failures include:
+
+```text id="x6c3p0"
+Accounts Not Disabled
+Privileged Access Not Removed
+API Keys Not Revoked
+Data Not Deleted
+Backups Ignored
+Assets Not Returned
+Subprocessors Not Addressed
+No Deletion Evidence
+Contract Terminated Before Migration
+No Final Risk Review
+```
+
+The most serious issue is often **persistent access after supplier termination**.
+
+---
+
+# 60. Mature Supplier Monitoring and Offboarding Model
+
+A mature model can be summarized as:
+
+```text id="z3g8p2"
+                    SUPPLIER
+                       ↓
+                   ONBOARDING
+                       ↓
+                 RISK BASELINE
+                       ↓
+              CONTINUOUS MONITORING
+                       ↓
+             ┌─────────┴─────────┐
+             ↓                   ↓
+       NORMAL STATUS        RISK EVENT
+             ↓                   ↓
+          Monitor          Reassess Risk
+             ↓                   ↓
+             └─────────┬─────────┘
+                       ↓
+                 PERIODIC REVIEW
+                       ↓
+                CONTRACT RENEWAL
+                       ↓
+                  OR TERMINATION
+                       ↓
+                  OFFBOARDING
+                       ↓
+              ACCESS REVOCATION
+                       ↓
+                 DATA RETURN
+                       ↓
+                DATA DELETION
+                       ↓
+               ASSET RECOVERY
+                       ↓
+               FINAL ASSURANCE
+                       ↓
+                    CLOSURE
+```
+
+---
+
+# 61. Integrated Supplier Risk Management Model
+
+The broader GRC model can be represented as:
+
+```text id="c8w6r1"
+                 SUPPLIER
+                    ↓
+             BUSINESS CONTEXT
+                    ↓
+              RISK ASSESSMENT
+                    ↓
+             CONTROL BASELINE
+                    ↓
+               ONBOARDING
+                    ↓
+        ┌───────────┴───────────┐
+        ↓                       ↓
+   MONITORING              INCIDENT / CHANGE
+        ↓                       ↓
+        └───────────┬───────────┘
+                    ↓
+             RISK REASSESSMENT
+                    ↓
+             TREAT / ACCEPT
+                    ↓
+             CONTINUE / RENEW
+                    ↓
+               TERMINATION
+                    ↓
+               OFFBOARDING
+                    ↓
+                 CLOSURE
+```
+
+This represents the principle that third-party risk management is **continuous rather than a one-time assessment**.
+
+---
+
+# 62. End-to-End Supplier Governance Model
+
+A comprehensive lifecycle can be visualized as:
+
+```text id="v6p3z8"
+IDENTIFY
+   ↓
+SCREEN
+   ↓
+DUE DILIGENCE
+   ↓
+ASSESS
+   ↓
+APPROVE
+   ↓
+CONTRACT
+   ↓
+ONBOARD
+   ↓
+MONITOR
+   ↓
+REASSESS
+   ↓
+TREAT
+   ↓
+RENEW OR TERMINATE
+   ↓
+OFFBOARD
+   ↓
+VERIFY
+   ↓
+CLOSE
+```
+
+At every stage, the organization should maintain:
+
+```text
+Ownership
+Evidence
+Risk Visibility
+Accountability
+Traceability
+```
+
+---
+
+# 63. Key GRC Takeaways
+
+A mature **Supplier Monitoring and Offboarding Model** should establish:
+
+```text
+1. Continuous Supplier Monitoring
+2. Risk-Based Monitoring Frequency
+3. Security Monitoring
+4. Compliance Monitoring
+5. Certification Monitoring
+6. SLA Monitoring
+7. Resilience Monitoring
+8. Financial Monitoring
+9. Subprocessor Monitoring
+10. Ownership Change Monitoring
+11. Event-Driven Reassessment
+12. Periodic Risk Assessment
+13. Risk Trend Analysis
+14. Finding and Remediation Tracking
+15. Risk Escalation
+16. Contract Renewal Review
+17. Formal Termination Process
+18. Access Revocation
+19. Privileged Access Removal
+20. Data Return
+21. Data Deletion
+22. Asset Recovery
+23. Service Transition
+24. Subprocessor Closure
+25. Final Assurance
+26. Evidence Retention
+27. Formal Supplier Closure
+```
+
+The central principle is:
+
+> **Third-party risk management does not end when a supplier is approved, and it does not end when the contract is terminated. Risk must be monitored throughout the relationship, and the supplier must be securely and verifiably offboarded when the relationship ends.**
+
+The complete lifecycle can therefore be summarized as:
+
+```text id="b2m7v4"
+              SUPPLIER LIFECYCLE
+
+        IDENTIFY
+           ↓
+        ASSESS
+           ↓
+        APPROVE
+           ↓
+       ONBOARD
+           ↓
+       MONITOR
+           ↓
+      REASSESS
+           ↓
+   TREAT / ACCEPT
+           ↓
+    RENEW / EXIT
+           ↓
+      OFFBOARD
+           ↓
+       VERIFY
+           ↓
+        CLOSE
+```
+
+A strong GRC program ensures that **supplier risk, control effectiveness, contractual obligations, monitoring evidence, remediation activities, and final offboarding actions remain traceable throughout the entire third-party relationship**.
+
+
 

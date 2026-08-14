@@ -665,5 +665,707 @@ The Enterprise Risk Management diagram should ultimately communicate one central
 
 **Risk management is not simply the identification of risks. It is a continuous management process that connects business objectives, uncertainty, risk ownership, controls, risk appetite, treatment decisions, monitoring, reporting, and management action.**
 
+A risk lifecycle diagram provides a visual representation of how an organization manages a risk from the moment it is identified until it is treated, monitored, reviewed, and eventually closed or retired.
+
+The risk lifecycle should be viewed as a **continuous process**, rather than a one-time assessment.
+
+```text id="1m5f8u"
+Identify
+   ↓
+Analyze
+   ↓
+Evaluate
+   ↓
+Treat
+   ↓
+Monitor
+   ↓
+Review
+   ↓
+Improve
+   ↺
+```
+
+The lifecycle begins with **risk identification**.
+
+```text id="a7q2ny"
+Business Activity
+      ↓
+Potential Event
+      ↓
+Risk Identified
+      ↓
+Risk Registered
+```
+
+Risk identification can originate from many sources:
+
+* Business processes
+* Security assessments
+* Internal audits
+* Compliance assessments
+* Vulnerability assessments
+* Security incidents
+* Third-party assessments
+* Regulatory changes
+* New projects
+* Technology changes
+* Business continuity exercises
+* Emerging threats
+* Management observations
+
+For example:
+
+```text id="0l0j4v"
+Cloud Migration
+      ↓
+New Technology Dependency
+      ↓
+Potential Security Exposure
+      ↓
+Risk Identified
+```
+
+Once identified, the risk should be documented in the risk register.
+
+Typical information includes:
+
+```text id="4p5n0h"
+Risk ID
+Risk Description
+Risk Category
+Risk Owner
+Affected Asset / Process
+Threat
+Vulnerability
+Potential Impact
+Existing Controls
+Risk Rating
+Treatment
+Status
+```
+
+The next stage is **risk analysis**.
+
+```text id="b6k9w2"
+Risk
+ ↓
+Likelihood Assessment
+ ↓
+Impact Assessment
+ ↓
+Inherent Risk
+```
+
+Likelihood considers how probable the risk event may be.
+
+Impact considers the consequences if the event occurs.
+
+Impact may include:
+
+```text id="b6qj6f"
+Financial
+Operational
+Regulatory
+Legal
+Customer
+Reputational
+Safety
+Strategic
+```
+
+For cybersecurity:
+
+```text id="c8u5p0"
+Threat
+  ↓
+Likelihood
+  +
+Potential Impact
+  ↓
+Inherent Cyber Risk
+```
+
+For example:
+
+```text id="5x5y6w"
+Risk:
+Ransomware Attack
+
+Likelihood:
+High
+
+Potential Impact:
+High
+
+Inherent Risk:
+Critical
+```
+
+The organization then performs **risk evaluation**.
+
+Risk evaluation determines whether the assessed risk is acceptable according to the organization's risk criteria and risk appetite.
+
+```text id="5q5s5b"
+Inherent Risk
+      ↓
+Risk Evaluation
+      ↓
+Compare Against Risk Appetite
+      ↓
+Acceptable?
+   ↙          ↘
+ Yes           No
+ ↓              ↓
+Monitor       Treat / Escalate
+```
+
+Risk evaluation is therefore different from risk analysis.
+
+```text id="g6qk87"
+Risk Analysis
+"What is the level of risk?"
+
+Risk Evaluation
+"Is this level of risk acceptable?"
+```
+
+Once a decision is made to address the risk, the organization enters the **risk treatment** stage.
+
+```text id="8sl6q4"
+Risk Treatment
+      │
+      ├── Avoid
+      ├── Mitigate
+      ├── Transfer / Share
+      └── Accept
+```
+
+For cybersecurity risks, mitigation is often achieved through security controls.
+
+```text id="0e0p8c"
+Cyber Risk
+    ↓
+Control Selection
+    ↓
+Control Implementation
+    ↓
+Control Operation
+    ↓
+Residual Risk
+```
+
+For example:
+
+```text id="i4p1k5"
+Risk:
+Unauthorized Access
+
+Controls:
+MFA
+Privileged Access Management
+Access Reviews
+Logging
+Monitoring
+
+        ↓
+
+Residual Risk
+```
+
+The next stage is **residual risk assessment**.
+
+```text id="wq5x7t"
+Inherent Risk
+      ↓
+Existing / Planned Controls
+      ↓
+Control Effectiveness
+      ↓
+Residual Risk
+```
+
+The organization then determines whether the residual risk remains within acceptable boundaries.
+
+```text id="4j8f5n"
+Residual Risk
+      ↓
+Within Risk Appetite?
+    ↙          ↘
+  Yes           No
+   ↓             ↓
+Accept /      Additional
+Monitor       Treatment
+                 ↓
+              Reassess
+```
+
+This creates an iterative loop.
+
+```text id="j7g1u6"
+Risk
+ ↓
+Treatment
+ ↓
+Residual Risk
+ ↓
+Still Too High?
+ ↙          ↘
+Yes          No
+ ↓            ↓
+Retreat     Accept
+ ↓
+Reassess
+```
+
+The risk lifecycle then moves into **monitoring**.
+
+Risk monitoring determines whether the risk profile is changing.
+
+```text id="z2a7g9"
+Residual Risk
+      ↓
+Monitoring
+      ↓
+Risk Indicators
+      ↓
+Risk Trend
+      ↓
+Thresholds
+      ↓
+Action if Required
+```
+
+Monitoring may include:
+
+* Key Risk Indicators
+* Control performance
+* Security metrics
+* Compliance status
+* Incident trends
+* Vulnerability trends
+* Third-party performance
+* Audit findings
+* Business changes
+
+For example:
+
+```text id="l2qf5z"
+Critical Vulnerabilities
+        ↓
+KRI Monitoring
+        ↓
+Threshold Exceeded
+        ↓
+Risk Increased
+        ↓
+Escalation
+```
+
+Monitoring should not be limited to checking whether controls exist.
+
+It should determine whether the overall risk remains acceptable.
+
+```text id="z8h8tm"
+Control Status
+     ↓
+Risk Exposure
+     ↓
+Risk Trend
+     ↓
+Management Decision
+```
+
+The next stage is **risk review**.
+
+Risk reviews should occur periodically and whenever significant changes occur.
+
+```text id="j6d4ue"
+Risk Review
+     ↓
+Has the Environment Changed?
+    ↙              ↘
+  No                Yes
+   ↓                 ↓
+Continue          Reassess
+Monitoring          Risk
+                      ↓
+                 Update Treatment
+```
+
+Triggers for reassessment may include:
+
+```text id="jbhq1c"
+New Technology
+New Threat
+Security Incident
+Regulatory Change
+Business Change
+New Supplier
+Control Failure
+Organizational Change
+New Vulnerability
+Major Project
+```
+
+For example:
+
+```text id="w3b2qh"
+Risk:
+Cloud Security Risk
+
+        ↓
+
+New Cloud Architecture
+
+        ↓
+
+Risk Environment Changed
+
+        ↓
+
+Risk Reassessment
+
+        ↓
+
+New Treatment
+
+        ↓
+
+New Residual Risk
+```
+
+The lifecycle also includes **risk communication and reporting**.
+
+```text id="x8z6o9"
+Risk Data
+   ↓
+Risk Analysis
+   ↓
+Risk Reporting
+   ↓
+Risk Owner
+   ↓
+Management
+   ↓
+Risk Committee
+   ↓
+Board
+```
+
+Not every risk needs to be reported to every governance level.
+
+Reporting should be based on:
+
+* Risk severity
+* Risk appetite
+* Materiality
+* Strategic importance
+* Regulatory requirements
+* Management thresholds
+
+A useful reporting model is:
+
+```text id="8c8j8n"
+Operational Risk
+      ↓
+Risk Owner
+
+Significant Risk
+      ↓
+Executive Management
+
+Material Risk
+      ↓
+Risk Committee
+
+Strategic / Critical Risk
+      ↓
+Board
+```
+
+Another important stage is **risk closure or retirement**.
+
+Not every risk remains active indefinitely.
+
+A risk may be closed when:
+
+```text id="9q1f7a"
+Risk Eliminated
+      ↓
+No Longer Relevant
+      ↓
+Activity Discontinued
+      ↓
+Risk Retired
+```
+
+For example:
+
+```text id="m0u8r8"
+Legacy Application
+      ↓
+Application Decommissioned
+      ↓
+Associated Risk Eliminated
+      ↓
+Risk Closed
+```
+
+However, closure should be supported by evidence.
+
+```text id="k2q5v4"
+Risk Closure Request
+        ↓
+Evidence Review
+        ↓
+Risk Owner Approval
+        ↓
+GRC Validation
+        ↓
+Risk Register Updated
+        ↓
+Risk Closed
+```
+
+This prevents risks from being removed simply because they are inconvenient or overdue.
+
+A mature risk lifecycle therefore contains several interconnected loops.
+
+```text id="n6r8w0"
+                  IDENTIFY
+                     ↓
+                  ANALYZE
+                     ↓
+                  EVALUATE
+                     ↓
+                   TREAT
+                     ↓
+                 RESIDUAL
+                   RISK
+                     ↓
+                  MONITOR
+                     ↓
+                   REVIEW
+                     ↓
+              CHANGE DETECTED?
+                ↙         ↘
+              No           Yes
+               ↓            ↓
+           Continue       Reassess
+               │            │
+               └─────┬──────┘
+                     ↓
+                  REPORT
+                     ↓
+                MANAGEMENT
+                 DECISION
+                     ↓
+                IMPROVEMENT
+                     │
+                     └────────→ IDENTIFY
+```
+
+The relationship between **risk lifecycle and control lifecycle** is also important.
+
+```text id="4l2w0j"
+Risk Lifecycle
+      │
+      ↓
+Risk Identified
+      │
+      ↓
+Control Requirement
+      │
+      ↓
+Control Lifecycle
+      │
+      ↓
+Control Implemented
+      │
+      ↓
+Control Tested
+      │
+      ↓
+Control Monitored
+      │
+      ↓
+Control Improved
+      │
+      ↓
+Residual Risk Reassessed
+```
+
+This demonstrates that controls are not the end of risk management.
+
+The ultimate objective is managing the residual risk.
+
+For example:
+
+```text id="b8e6z4"
+Risk Identified
+      ↓
+MFA Implemented
+      ↓
+MFA Control Tested
+      ↓
+MFA Effective
+      ↓
+Residual Risk Reduced
+      ↓
+Risk Monitoring
+```
+
+A risk lifecycle should also connect with the **issue management lifecycle**.
+
+```text id="q5x4j6"
+Risk Identified
+      ↓
+Control Assessment
+      ↓
+Control Failure
+      ↓
+Finding
+      ↓
+Remediation
+      ↓
+Validation
+      ↓
+Risk Reassessment
+```
+
+This creates an important relationship:
+
+```text id="1h3p5w"
+Risk
+ ↓
+Control
+ ↓
+Control Failure
+ ↓
+Finding
+ ↓
+Remediation
+ ↓
+Residual Risk
+```
+
+Similarly, incidents can trigger the risk lifecycle.
+
+```text id="u6k2p9"
+Security Incident
+      ↓
+Incident Investigation
+      ↓
+Root Cause
+      ↓
+New / Increased Risk
+      ↓
+Risk Assessment
+      ↓
+Additional Controls
+      ↓
+Residual Risk
+```
+
+Therefore, risk management should receive information from multiple GRC processes.
+
+```text id="1z4g6n"
+                  Risk Management
+                       ↑
+       ┌───────────────┼────────────────┐
+       ↑               ↑                ↑
+   Incidents         Audits          Compliance
+       ↑               ↑                ↑
+       └───────────────┼────────────────┘
+                       ↑
+                 Control Testing
+```
+
+This creates an integrated GRC environment.
+
+The lifecycle can also incorporate **emerging risks**:
+
+```text id="1e7p4j"
+Emerging Risk
+      ↓
+Initial Identification
+      ↓
+Monitoring
+      ↓
+Potential Materiality
+      ↓
+Formal Risk Assessment
+      ↓
+Risk Register
+      ↓
+Treatment
+```
+
+For example:
+
+```text id="2r3j7n"
+Generative AI Adoption
+        ↓
+New Data / Privacy / Security Risks
+        ↓
+Emerging Risk Monitoring
+        ↓
+Risk Assessment
+        ↓
+AI Governance Controls
+        ↓
+Residual Risk
+```
+
+The final lifecycle can be summarized as:
+
+```text id="6f2p8k"
+                    ┌───────────────┐
+                    │   IDENTIFY    │
+                    └───────┬───────┘
+                            ↓
+                    ┌───────────────┐
+                    │    ANALYZE    │
+                    └───────┬───────┘
+                            ↓
+                    ┌───────────────┐
+                    │   EVALUATE    │
+                    └───────┬───────┘
+                            ↓
+                    ┌───────────────┐
+                    │     TREAT     │
+                    └───────┬───────┘
+                            ↓
+                    ┌───────────────┐
+                    │    MONITOR    │
+                    └───────┬───────┘
+                            ↓
+                    ┌───────────────┐
+                    │    REVIEW     │
+                    └───────┬───────┘
+                            ↓
+                    ┌───────────────┐
+                    │    REPORT     │
+                    └───────┬───────┘
+                            ↓
+                    ┌───────────────┐
+                    │    DECIDE     │
+                    └───────┬───────┘
+                            ↓
+                    ┌───────────────┐
+                    │    IMPROVE    │
+                    └───────┬───────┘
+                            │
+                            └──────────→ IDENTIFY
+```
+
+The key principle is:
+
+> **Risk management is a continuous lifecycle, not a one-time risk assessment.**
+
+A mature GRC professional should be able to trace a risk from its original identification through assessment, treatment, control implementation, residual risk, monitoring, reporting, reassessment, and eventual closure or continued acceptance.
+
+
 
 

@@ -1439,4 +1439,1297 @@ The key GRC principle is:
 
 A well-designed Data Lifecycle Diagram therefore provides GRC professionals with a common visual language for connecting **data governance, privacy, cybersecurity, regulatory compliance, third-party risk, control management, and audit evidence**.
 
+# 18.8 Privacy and Data Protection Diagrams
+
+### Part 2 – Personal Data Processing Flow
+
+A **Personal Data Processing Flow** illustrates how personal data moves through an organization from collection to its intended use, storage, sharing, retention, and eventual deletion.
+
+From a GRC perspective, the objective is not simply to show where data travels. The diagram should also help answer:
+
+```text
+What personal data is being processed?
+        ↓
+Why is it being processed?
+        ↓
+Who processes it?
+        ↓
+Where is it processed?
+        ↓
+Who receives it?
+        ↓
+How is it protected?
+        ↓
+How long is it retained?
+        ↓
+What happens when processing ends?
+```
+
+A simplified flow is:
+
+```text
+DATA SUBJECT
+     ↓
+DATA COLLECTION
+     ↓
+PURPOSE IDENTIFICATION
+     ↓
+PROCESSING ACTIVITY
+     ↓
+STORAGE
+     ↓
+INTERNAL / EXTERNAL SHARING
+     ↓
+RETENTION
+     ↓
+DELETION
+```
+
+---
+
+# 1. What Is Personal Data Processing?
+
+Personal data processing refers broadly to operations performed on information relating to an identified or identifiable person.
+
+Processing can include:
+
+```text
+Collection
+Recording
+Organization
+Storage
+Access
+Retrieval
+Use
+Analysis
+Sharing
+Transfer
+Modification
+Archiving
+Deletion
+```
+
+Therefore, processing is much broader than simply "using" personal data.
+
+A GRC professional should think of processing as the **complete set of activities performed on personal data**.
+
+---
+
+# 2. Basic Personal Data Processing Flow
+
+A simple organizational model is:
+
+```text
+                 DATA SUBJECT
+                      ↓
+               PERSONAL DATA
+                      ↓
+                 COLLECTION
+                      ↓
+                  PROCESSING
+                      ↓
+            ┌─────────┴─────────┐
+            ↓                   ↓
+       INTERNAL USE        EXTERNAL SHARING
+            ↓                   ↓
+            └─────────┬─────────┘
+                      ↓
+                   STORAGE
+                      ↓
+                  RETENTION
+                      ↓
+                   DELETION
+```
+
+The actual flow may contain many additional processing activities.
+
+---
+
+# 3. Data Subject
+
+The process generally begins with a **data subject** whose personal data is involved.
+
+Examples include:
+
+```text
+Customer
+Employee
+Applicant
+Supplier Contact
+Website Visitor
+Patient
+Student
+Citizen
+User
+```
+
+For example:
+
+```text
+CUSTOMER
+   ↓
+Provides Information
+   ↓
+Organization Collects Data
+```
+
+The organization should understand what information is obtained from the individual and why.
+
+---
+
+# 4. Personal Data Collection
+
+Collection may occur through many channels.
+
+```text
+                    COLLECTION
+                         ↓
+       ┌─────────────────┼─────────────────┐
+       ↓                 ↓                 ↓
+    Website           Mobile App        Call Center
+       ↓                 ↓                 ↓
+       └─────────────────┼─────────────────┘
+                         ↓
+                   PERSONAL DATA
+```
+
+Other collection channels may include:
+
+```text
+Email
+Paper Forms
+Contracts
+Cookies
+Applications
+APIs
+Physical Locations
+Third-Party Sources
+Connected Devices
+```
+
+Each collection channel can create different privacy and security risks.
+
+---
+
+# 5. Purpose of Processing
+
+An important part of the processing flow is identifying the purpose.
+
+```text
+PERSONAL DATA
+      ↓
+WHY IS IT NEEDED?
+      ↓
+DEFINED PURPOSE
+      ↓
+PROCESSING ACTIVITY
+```
+
+Examples:
+
+```text
+Customer Service
+Billing
+Account Management
+Fraud Prevention
+Security Monitoring
+Recruitment
+Payroll
+Marketing
+Regulatory Reporting
+```
+
+The organization should be able to explain the business purpose associated with the processing.
+
+---
+
+# 6. Purpose Limitation
+
+Personal data should generally be processed consistently with the defined purpose and applicable requirements.
+
+A simplified model is:
+
+```text
+DEFINED PURPOSE
+       ↓
+REQUIRED DATA
+       ↓
+PROCESSING ACTIVITY
+       ↓
+EXPECTED OUTCOME
+```
+
+A problematic model would be:
+
+```text
+COLLECT DATA
+      ↓
+STORE DATA
+      ↓
+USE FOR ANY FUTURE PURPOSE
+```
+
+Purpose management therefore becomes an important privacy governance activity.
+
+---
+
+# 7. Data Minimization
+
+The processing flow should also consider whether all collected data is actually necessary.
+
+```text
+BUSINESS PURPOSE
+       ↓
+DATA REQUIREMENT
+       ↓
+MINIMUM NECESSARY DATA
+       ↓
+COLLECTION
+       ↓
+PROCESSING
+```
+
+For example:
+
+```text
+Purpose:
+Deliver a product
+
+Required:
+Name
+Delivery Address
+Contact Information
+
+Unnecessary:
+Unrelated Personal Information
+```
+
+Data minimization reduces the amount of information exposed if a security incident occurs.
+
+---
+
+# 8. Processing Activity
+
+After collection, personal data enters a processing activity.
+
+```text
+PERSONAL DATA
+      ↓
+PROCESSING SYSTEM
+      ↓
+BUSINESS PROCESS
+      ↓
+PROCESSING OUTPUT
+```
+
+Examples:
+
+```text
+CRM Processing
+Payroll Processing
+Billing Processing
+Customer Support Processing
+Marketing Processing
+Fraud Detection
+Analytics
+Identity Verification
+```
+
+Each processing activity should be understood and governed.
+
+---
+
+# 9. Processing System
+
+Personal data may pass through multiple systems.
+
+```text
+             PERSONAL DATA
+                    ↓
+              APPLICATION
+                    ↓
+        ┌───────────┼───────────┐
+        ↓           ↓           ↓
+       CRM        Database    Analytics
+        ↓           ↓           ↓
+        └───────────┼───────────┘
+                    ↓
+               Business Use
+```
+
+This creates a need for accurate data mapping.
+
+---
+
+# 10. Data Flow Between Systems
+
+A more detailed processing flow may look like:
+
+```text
+Customer
+   ↓
+Website
+   ↓
+API Gateway
+   ↓
+CRM
+   ↓
+Customer Database
+   ↓
+Analytics Platform
+   ↓
+Reporting System
+```
+
+Each connection represents a potential processing or transfer point.
+
+GRC teams should understand:
+
+```text
+Source
+Destination
+Data Type
+Purpose
+Transfer Method
+Security Controls
+Data Owner
+Retention
+```
+
+---
+
+# 11. Internal Data Sharing
+
+Personal data may be shared between internal business units.
+
+```text
+              CUSTOMER
+                  ↓
+             CRM SYSTEM
+                  ↓
+        ┌─────────┼─────────┐
+        ↓         ↓         ↓
+      Sales     Billing   Support
+        ↓         ↓         ↓
+        └─────────┼─────────┘
+                  ↓
+            Customer Service
+```
+
+Internal sharing should still be controlled.
+
+Not every employee or department should automatically have access to all personal data.
+
+---
+
+# 12. Access Control
+
+Access should be based on business need and appropriate authorization.
+
+```text
+USER
+  ↓
+AUTHENTICATION
+  ↓
+AUTHORIZATION
+  ↓
+ACCESS DECISION
+  ↓
+PERSONAL DATA
+  ↓
+LOGGING
+```
+
+Controls may include:
+
+```text
+Identity Management
+Role-Based Access
+Least Privilege
+Privileged Access Management
+Multi-Factor Authentication
+Access Reviews
+Logging
+```
+
+---
+
+# 13. External Data Sharing
+
+Organizations may share personal data with external parties.
+
+```text
+                 ORGANIZATION
+                       ↓
+                 PERSONAL DATA
+                       ↓
+              EXTERNAL RECIPIENT
+                       ↓
+        ┌──────────────┼──────────────┐
+        ↓              ↓              ↓
+      Supplier       Partner       Authority
+```
+
+Before sharing data, the organization should understand:
+
+```text
+Who receives it?
+Why do they need it?
+What data is shared?
+How is it protected?
+Where is it processed?
+How long is it retained?
+```
+
+---
+
+# 14. Third-Party Processing
+
+A service provider may process personal data on behalf of the organization.
+
+```text
+DATA SUBJECT
+     ↓
+ORGANIZATION
+     ↓
+PERSONAL DATA
+     ↓
+SERVICE PROVIDER
+     ↓
+PROCESSING
+     ↓
+SERVICE OUTCOME
+```
+
+Examples:
+
+```text
+Cloud Provider
+Payroll Provider
+CRM Provider
+Marketing Platform
+Payment Processor
+Customer Support Provider
+Analytics Provider
+```
+
+This creates third-party privacy and security risk.
+
+---
+
+# 15. Processor Governance
+
+Third-party processing should be governed through appropriate mechanisms.
+
+```text
+THIRD-PARTY
+     ↓
+DUE DILIGENCE
+     ↓
+CONTRACTUAL REQUIREMENTS
+     ↓
+SECURITY / PRIVACY CONTROLS
+     ↓
+ONGOING MONITORING
+     ↓
+OFFBOARDING
+```
+
+Evidence may include:
+
+```text
+Contracts
+Security Assessments
+Privacy Assessments
+Audit Reports
+Certifications
+Processing Records
+Incident Reports
+```
+
+---
+
+# 16. Data Transfer
+
+Personal data may move between systems or organizations.
+
+```text
+SOURCE
+  ↓
+TRANSFER
+  ↓
+DESTINATION
+```
+
+The transfer itself can introduce risks.
+
+Examples:
+
+```text
+API
+HTTPS
+File Transfer
+Email
+Cloud Synchronization
+Database Replication
+Application Integration
+```
+
+The transfer mechanism should provide appropriate protection.
+
+---
+
+# 17. Cross-Border Transfer
+
+Personal data may cross national or regional boundaries.
+
+```text
+             DATA SOURCE
+                  ↓
+            TRANSFER
+                  ↓
+        ┌─────────┴─────────┐
+        ↓                   ↓
+   Same Jurisdiction   Other Jurisdiction
+                            ↓
+                    Transfer Assessment
+                            ↓
+                       Safeguards
+                            ↓
+                       Processing
+```
+
+For multinational organizations, the processing flow should identify relevant geographic locations.
+
+---
+
+# 18. Data Location
+
+A personal data processing flow should ideally identify where information is processed.
+
+```text
+PERSONAL DATA
+      ↓
+┌─────┼──────┬─────────┐
+↓     ↓      ↓         ↓
+EU    US    Asia      Other
+↓     ↓      ↓         ↓
+Regulatory / Contractual Context
+```
+
+Data location can influence:
+
+```text
+Privacy Requirements
+Security Requirements
+Transfer Requirements
+Contractual Requirements
+Regulatory Exposure
+```
+
+---
+
+# 19. Storage During Processing
+
+Personal data may be stored temporarily or permanently during processing.
+
+```text
+COLLECTION
+     ↓
+PROCESSING
+     ↓
+TEMPORARY STORAGE
+     ↓
+PROCESSING OUTPUT
+     ↓
+LONG-TERM STORAGE
+```
+
+Storage controls may include:
+
+```text
+Encryption
+Access Control
+Backup
+Monitoring
+Logging
+Data Classification
+Retention Controls
+```
+
+---
+
+# 20. Data Retention
+
+The processing flow should include a defined retention approach.
+
+```text
+PROCESSING PURPOSE
+       ↓
+RETENTION REQUIREMENT
+       ↓
+RETENTION PERIOD
+       ↓
+ARCHIVE OR DELETE
+```
+
+Retention may depend on:
+
+```text
+Legal Requirements
+Regulatory Requirements
+Contractual Requirements
+Business Requirements
+Litigation Requirements
+Records Management
+```
+
+The organization should avoid keeping personal data indefinitely without an appropriate justification.
+
+---
+
+# 21. Data Deletion
+
+When the applicable retention period ends:
+
+```text
+RETENTION PERIOD ENDS
+          ↓
+DELETE / DISPOSE
+          ↓
+VERIFICATION
+          ↓
+EVIDENCE
+```
+
+Deletion may need to occur across multiple systems.
+
+For example:
+
+```text
+CRM
+ ↓
+Database
+ ↓
+Backup
+ ↓
+Analytics
+ ↓
+Third-Party Provider
+```
+
+This is one reason why accurate data mapping is important.
+
+---
+
+# 22. Data Subject Rights
+
+Privacy processes may also require mechanisms for responding to requests from individuals.
+
+A simplified model is:
+
+```text
+DATA SUBJECT
+      ↓
+REQUEST
+      ↓
+PRIVACY TEAM
+      ↓
+IDENTITY VERIFICATION
+      ↓
+DATA DISCOVERY
+      ↓
+SYSTEM REVIEW
+      ↓
+RESPONSE / ACTION
+```
+
+Depending on applicable law, requests may involve matters such as:
+
+```text
+Access
+Correction
+Deletion
+Restriction
+Objection
+Portability
+```
+
+The specific rights and applicable conditions depend on the jurisdiction.
+
+---
+
+# 23. Data Discovery
+
+Responding to privacy requests requires knowing where personal data exists.
+
+```text
+REQUEST
+   ↓
+DATA DISCOVERY
+   ↓
+┌─────────┬─────────┬─────────┬─────────┐
+↓         ↓         ↓         ↓
+CRM     Database   Email    Archive
+↓         ↓         ↓         ↓
+└─────────┴─────────┴─────────┴─────────┘
+              ↓
+        Personal Data Set
+```
+
+This demonstrates the relationship between data mapping and privacy operations.
+
+---
+
+# 24. Privacy and Security Controls
+
+Controls should operate throughout the processing flow.
+
+```text
+COLLECTION
+     ↓
+Privacy Notice / Minimization
+     ↓
+PROCESSING
+     ↓
+Purpose / Access Controls
+     ↓
+STORAGE
+     ↓
+Encryption / Access Control
+     ↓
+SHARING
+     ↓
+Third-Party Controls
+     ↓
+TRANSFER
+     ↓
+Transfer Safeguards
+     ↓
+RETENTION
+     ↓
+Retention Controls
+     ↓
+DELETION
+     ↓
+Secure Disposal
+```
+
+---
+
+# 25. Processing Risk
+
+Each processing activity can introduce risk.
+
+```text
+PROCESSING ACTIVITY
+        ↓
+DATA
+        ↓
+THREATS
+        ↓
+VULNERABILITIES
+        ↓
+POTENTIAL IMPACT
+        ↓
+PRIVACY / SECURITY RISK
+```
+
+Examples:
+
+```text
+Unauthorized Access
+Excessive Collection
+Unauthorized Disclosure
+Incorrect Data
+Unlawful Processing
+Excessive Retention
+Third-Party Exposure
+Cross-Border Risk
+```
+
+---
+
+# 26. Privacy Risk Assessment
+
+A privacy risk assessment can be integrated into the processing flow.
+
+```text
+PROCESSING ACTIVITY
+        ↓
+DATA IDENTIFICATION
+        ↓
+PURPOSE
+        ↓
+THREATS / RISKS
+        ↓
+IMPACT
+        ↓
+MITIGATION
+        ↓
+RESIDUAL RISK
+```
+
+The result should support management decisions about the processing activity.
+
+---
+
+# 27. Processing Records
+
+Organizations may maintain records describing processing activities.
+
+A simplified structure is:
+
+```text
+PROCESSING ACTIVITY
+        ↓
+Purpose
+        ↓
+Data Categories
+        ↓
+Data Subjects
+        ↓
+Recipients
+        ↓
+Locations
+        ↓
+Retention
+        ↓
+Security Measures
+```
+
+This creates a structured representation of how personal data is handled.
+
+---
+
+# 28. Processing Activity and Data Owner
+
+Ownership should be clearly established.
+
+```text
+PROCESSING ACTIVITY
+        ↓
+BUSINESS OWNER
+        ↓
+ACCOUNTABILITY
+        ↓
+RISK MANAGEMENT
+        ↓
+CONTROL MANAGEMENT
+```
+
+Possible stakeholders include:
+
+```text
+Business Owner
+Data Owner
+Privacy
+Security
+Legal
+IT
+Compliance
+Third-Party Management
+Internal Audit
+```
+
+---
+
+# 29. Processing Activity and Accountability
+
+A GRC-oriented model can connect processing to accountability:
+
+```text
+PROCESSING ACTIVITY
+        ↓
+OWNER
+        ↓
+PURPOSE
+        ↓
+RISK
+        ↓
+CONTROL
+        ↓
+EVIDENCE
+        ↓
+ASSESSMENT
+```
+
+This creates traceability for audit and compliance purposes.
+
+---
+
+# 30. Processing Flow and Consent
+
+Where consent is the applicable basis for processing, the process can include consent management.
+
+```text
+DATA SUBJECT
+      ↓
+CONSENT REQUEST
+      ↓
+CONSENT DECISION
+      ↓
+CONSENT RECORD
+      ↓
+PROCESSING
+```
+
+If consent is withdrawn:
+
+```text
+WITHDRAWAL
+    ↓
+CONSENT STATUS UPDATED
+    ↓
+PROCESSING REVIEW
+    ↓
+APPROPRIATE ACTION
+```
+
+Consent is not the appropriate legal basis for every processing activity, so organizations should not treat consent as a universal requirement.
+
+---
+
+# 31. Processing Flow and Legal Basis
+
+For privacy programs operating under laws that require a legal basis for processing, the flow can include:
+
+```text
+PROCESSING PURPOSE
+        ↓
+LEGAL BASIS ASSESSMENT
+        ↓
+PROCESSING
+        ↓
+DOCUMENTATION
+        ↓
+MONITORING
+```
+
+Potential legal bases vary by jurisdiction and applicable law.
+
+The important GRC principle is:
+
+> **The organization should be able to explain why a processing activity is permitted and how that determination is documented.**
+
+---
+
+# 32. Processing and Data Quality
+
+Personal data should also be appropriately maintained.
+
+```text
+PERSONAL DATA
+      ↓
+QUALITY CHECK
+      ↓
+ACCURATE?
+      ↓
+COMPLETE?
+      ↓
+CURRENT?
+      ↓
+CORRECT IF NECESSARY
+```
+
+Poor-quality data can create:
+
+```text
+Business Risk
+Customer Impact
+Compliance Risk
+Incorrect Decisions
+Operational Errors
+```
+
+---
+
+# 33. Processing and AI
+
+AI introduces additional processing paths.
+
+```text
+PERSONAL DATA
+      ↓
+AI SYSTEM
+      ↓
+MODEL PROCESSING
+      ↓
+MODEL OUTPUT
+      ↓
+BUSINESS DECISION / SERVICE
+```
+
+The organization may need to consider:
+
+```text
+Data Sources
+Training Data
+Prompts
+Inputs
+Outputs
+Model Provider
+Data Retention
+Access
+Monitoring
+Third-Party Processing
+```
+
+AI processing should therefore be incorporated into the organization's broader data-processing map.
+
+---
+
+# 34. Processing Flow and Incident Management
+
+A security or privacy incident can interrupt the processing flow.
+
+```text
+PROCESSING
+    ↓
+SECURITY / PRIVACY INCIDENT
+    ↓
+DETECTION
+    ↓
+CONTAINMENT
+    ↓
+INVESTIGATION
+    ↓
+IMPACT ASSESSMENT
+    ↓
+REMEDIATION
+    ↓
+RECOVERY
+```
+
+Depending on the circumstances and applicable law, notification or reporting obligations may also arise.
+
+---
+
+# 35. Processing Flow and Third-Party Incident
+
+A third-party incident can follow a similar path:
+
+```text
+THIRD PARTY
+     ↓
+INCIDENT
+     ↓
+NOTIFICATION
+     ↓
+ORGANIZATION
+     ↓
+IMPACT ASSESSMENT
+     ↓
+REGULATORY / CONTRACTUAL ASSESSMENT
+     ↓
+RESPONSE
+```
+
+This demonstrates why supplier contracts should include appropriate security and incident-management provisions.
+
+---
+
+# 36. Processing Flow and Evidence
+
+Each stage can generate evidence.
+
+```text
+COLLECTION
+   ↓
+Collection Record
+
+PROCESSING
+   ↓
+Processing Record
+
+ACCESS
+   ↓
+Access Log
+
+SHARING
+   ↓
+Transfer / Contract Record
+
+RETENTION
+   ↓
+Retention Record
+
+DELETION
+   ↓
+Deletion Evidence
+```
+
+This evidence can support:
+
+```text
+Audit
+Compliance
+Privacy Reviews
+Incident Investigation
+Risk Assessments
+Management Reporting
+```
+
+---
+
+# 37. Personal Data Processing Control Matrix
+
+A GRC team can map processing activities to controls.
+
+| Processing Stage | Risk                    | Example Control             | Evidence               |
+| ---------------- | ----------------------- | --------------------------- | ---------------------- |
+| Collection       | Excessive collection    | Data minimization           | Collection design      |
+| Processing       | Unauthorized use        | Access and purpose controls | Access records         |
+| Storage          | Unauthorized disclosure | Encryption                  | Configuration evidence |
+| Sharing          | Third-party exposure    | Supplier controls           | Contract / assessment  |
+| Transfer         | Transfer risk           | Approved transfer mechanism | Transfer record        |
+| Retention        | Excessive retention     | Retention schedule          | Retention report       |
+| Deletion         | Data remains available  | Secure deletion             | Deletion evidence      |
+
+This creates direct traceability from processing activities to GRC controls.
+
+---
+
+# 38. End-to-End Processing Flow
+
+A comprehensive processing flow can be represented as:
+
+```text
+                         DATA SUBJECT
+                              ↓
+                       PERSONAL DATA
+                              ↓
+                          COLLECTION
+                              ↓
+                     PURPOSE DEFINITION
+                              ↓
+                     LEGAL / POLICY REVIEW
+                              ↓
+                         PROCESSING
+                              ↓
+             ┌────────────────┼────────────────┐
+             ↓                ↓                ↓
+          INTERNAL         STORAGE          ANALYTICS
+             ↓                ↓                ↓
+             └────────────────┼────────────────┘
+                              ↓
+                       SHARING / TRANSFER
+                              ↓
+                       THIRD-PARTY PROCESSING
+                              ↓
+                           RETENTION
+                              ↓
+                          ARCHIVING
+                              ↓
+                           DELETION
+                              ↓
+                         VERIFICATION
+```
+
+Governance controls operate across the entire flow.
+
+---
+
+# 39. GRC Overlay
+
+A mature privacy GRC model adds several governance layers:
+
+```text
+                    PERSONAL DATA FLOW
+                           ↓
+       ┌───────────────────┼───────────────────┐
+       ↓                   ↓                   ↓
+    PRIVACY             SECURITY            COMPLIANCE
+       ↓                   ↓                   ↓
+       └───────────────────┼───────────────────┘
+                           ↓
+                     RISK MANAGEMENT
+                           ↓
+                      CONTROL SYSTEM
+                           ↓
+                     EVIDENCE / AUDIT
+```
+
+This demonstrates that privacy should not operate as an isolated function.
+
+---
+
+# 40. Executive View
+
+For executives, the processing flow can be simplified to:
+
+```text
+COLLECT
+   ↓
+WHY?
+   ↓
+PROCESS
+   ↓
+WHO HAS ACCESS?
+   ↓
+WHERE IS IT?
+   ↓
+WHO RECEIVES IT?
+   ↓
+HOW LONG?
+   ↓
+DELETE
+```
+
+At each stage, management should understand:
+
+```text
+Risk
+Ownership
+Compliance
+Security
+Accountability
+```
+
+---
+
+# 41. Complete GRC Personal Data Processing Model
+
+The complete model can be summarized as:
+
+```text
+                       DATA SUBJECT
+                            ↓
+                    PERSONAL DATA
+                            ↓
+                       COLLECTION
+                            ↓
+                    PURPOSE / NEED
+                            ↓
+                LEGAL / POLICY ASSESSMENT
+                            ↓
+                       PROCESSING
+                            ↓
+              ┌─────────────┼─────────────┐
+              ↓             ↓             ↓
+           INTERNAL       STORAGE       SHARING
+              ↓             ↓             ↓
+              └─────────────┼─────────────┘
+                            ↓
+                       TRANSFER
+                            ↓
+                    THIRD-PARTY PROCESSING
+                            ↓
+                        RETENTION
+                            ↓
+                        ARCHIVING
+                            ↓
+                        DELETION
+                            ↓
+                      VERIFICATION
+                            ↓
+                         EVIDENCE
+```
+
+The key GRC principle is:
+
+> **Every personal-data processing activity should be understandable, attributable, risk-assessed, appropriately controlled, and traceable from the point of collection through its final disposal.**
+
+This makes the Personal Data Processing Flow a valuable diagram for **privacy governance, data protection, cybersecurity, third-party risk, regulatory compliance, audit, and enterprise GRC**.
+
 

@@ -2060,6 +2060,904 @@ The key principle is:
 
 > **A risk heat map should simplify complex risk information without hiding the context, assumptions, ownership, treatment, and uncertainty behind the risk rating.**
 
+# 18.3 Risk Management Diagrams
+
+A **Risk Treatment and Risk Response Diagram** shows how an organization decides what to do after a risk has been identified, analyzed, and evaluated.
+
+The purpose is to visualize the decision-making process between **risk exposure, risk appetite, treatment options, residual risk, and management approval**.
+
+A basic risk treatment model is:
+
+```text
+Risk Identified
+      ↓
+Risk Assessed
+      ↓
+Risk Rating
+      ↓
+Compare With Risk Appetite
+      ↓
+Treatment Required?
+   ↙          ↘
+ No            Yes
+ ↓              ↓
+Accept /      Select Risk
+Monitor       Treatment
+                 ↓
+        ┌────────┼────────┐
+        ↓        ↓        ↓
+      Avoid   Mitigate  Transfer
+        │        │        │
+        └────────┼────────┘
+                 ↓
+          Residual Risk
+                 ↓
+       Within Risk Appetite?
+            ↙        ↘
+          Yes         No
+           ↓           ↓
+        Accept      Escalate /
+        Monitor     Additional
+                    Treatment
+```
+
+Risk treatment begins only after the organization understands the risk.
+
+```text
+Risk
+ ↓
+Likelihood
+ ↓
+Impact
+ ↓
+Risk Level
+ ↓
+Risk Appetite
+ ↓
+Treatment Decision
+```
+
+This prevents organizations from selecting controls before understanding the actual risk they are trying to manage.
+
+For example:
+
+```text
+Risk:
+Unauthorized Access
+
+Likelihood:
+High
+
+Impact:
+High
+
+Inherent Risk:
+Critical
+```
+
+Management may then determine that the risk exceeds the organization's appetite.
+
+```text
+Critical Risk
+      ↓
+Outside Risk Appetite
+      ↓
+Treatment Required
+```
+
+The organization then evaluates the available treatment options.
+
+## Risk Avoidance
+
+Risk avoidance means changing or discontinuing an activity so that the risk is eliminated or substantially removed.
+
+```text
+Risky Activity
+      ↓
+Management Decision
+      ↓
+Stop / Change Activity
+      ↓
+Risk Avoided
+```
+
+For example:
+
+```text
+Business plans to use
+an insecure legacy application
+          ↓
+Security risk identified
+          ↓
+Application cannot be adequately secured
+          ↓
+Application retired
+          ↓
+Risk eliminated
+```
+
+Risk avoidance may be appropriate when:
+
+* The activity provides limited business value.
+* The risk cannot be reduced sufficiently.
+* The potential impact is unacceptable.
+* Regulatory requirements prohibit the activity.
+* The cost of mitigation is disproportionate to the business value.
+
+However, avoiding a risk can also create new risks.
+
+For example:
+
+```text
+Stop Legacy System
+       ↓
+Operational Disruption
+       ↓
+New Business Risk
+```
+
+Therefore, risk avoidance should be evaluated within the broader business context.
+
+## Risk Mitigation
+
+Risk mitigation reduces the likelihood, impact, or both.
+
+This is one of the most common responses to cybersecurity risks.
+
+```text
+Risk
+ ↓
+Security Controls
+ ↓
+Reduced Likelihood / Impact
+ ↓
+Lower Residual Risk
+```
+
+For example:
+
+```text
+Ransomware Risk
+      ↓
+Endpoint Protection
+      ↓
+MFA
+      ↓
+Network Segmentation
+      ↓
+Backups
+      ↓
+Incident Response
+      ↓
+Reduced Residual Risk
+```
+
+Controls should be selected based on the risk being addressed.
+
+A useful relationship is:
+
+```text
+Risk
+ ↓
+Risk Treatment Objective
+ ↓
+Control Objective
+ ↓
+Security Control
+ ↓
+Control Effectiveness
+ ↓
+Residual Risk
+```
+
+For example:
+
+```text
+Risk:
+Unauthorized Privileged Access
+
+Treatment Objective:
+Reduce Unauthorized Access
+
+Control Objective:
+Ensure Privileged Access Is Authorized
+
+Controls:
+PAM
+MFA
+Access Reviews
+Logging
+
+        ↓
+
+Residual Risk
+```
+
+Risk mitigation does not necessarily eliminate risk.
+
+It normally reduces it.
+
+```text
+Inherent Risk
+     ↓
+Controls
+     ↓
+Residual Risk
+```
+
+## Risk Transfer or Sharing
+
+Risk transfer or sharing involves shifting or distributing some financial, operational, or other consequences to another party.
+
+Examples can include:
+
+* Insurance
+* Contractual arrangements
+* Outsourcing
+* Service agreements
+* Shared responsibility models
+
+A simplified model is:
+
+```text
+Risk
+ ↓
+Transfer / Share
+ ↓
+Third Party
+ ↓
+Remaining Organizational Exposure
+```
+
+For example:
+
+```text
+Cyber Risk
+      ↓
+Cyber Insurance
+      ↓
+Financial Impact Partially Transferred
+```
+
+However, insurance or outsourcing does not necessarily eliminate the underlying cybersecurity risk.
+
+For example:
+
+```text
+Cloud Provider
+      ↓
+Security Responsibility
+      ↓
+Shared Responsibility
+      ↓
+Customer Still Retains Certain Risks
+```
+
+This is particularly important in cloud and third-party environments.
+
+The organization should therefore identify what remains after the transfer arrangement.
+
+```text
+Inherent Risk
+      ↓
+Transfer Arrangement
+      ↓
+Transferred Exposure
+      ↓
+Remaining Residual Risk
+```
+
+## Risk Acceptance
+
+Risk acceptance means that an authorized risk owner knowingly accepts the remaining exposure.
+
+```text
+Residual Risk
+      ↓
+Risk Owner
+      ↓
+Risk Within Authority?
+   ↙          ↘
+ Yes           No
+ ↓              ↓
+Accept       Escalate
+```
+
+Risk acceptance should not simply mean:
+
+```text
+"We did not do anything."
+```
+
+A proper risk acceptance decision should include:
+
+```text
+Risk Description
+Risk Rating
+Business Impact
+Existing Controls
+Residual Risk
+Risk Owner
+Acceptance Rationale
+Approval
+Expiration / Review Date
+```
+
+For example:
+
+```text
+Residual Risk:
+Medium
+
+Risk Appetite:
+Medium
+
+        ↓
+
+Risk Owner Reviews
+
+        ↓
+
+Risk Accepted
+
+        ↓
+
+Periodic Monitoring
+```
+
+Risk acceptance may be appropriate when:
+
+* The risk is within appetite.
+* Additional controls provide limited benefit.
+* The cost of treatment is disproportionate.
+* The business benefit justifies the remaining exposure.
+* The risk is temporary and controlled.
+
+Acceptance should always be consistent with the organization's delegated authority.
+
+## Risk Treatment Decision Tree
+
+A practical treatment decision tree can be represented as:
+
+```text
+                       RISK
+                        ↓
+                 Assess Risk
+                        ↓
+                Within Appetite?
+                  ↙          ↘
+                Yes           No
+                 ↓             ↓
+             Accept /      Can Risk Be
+              Monitor        Avoided?
+                              ↙     ↘
+                            Yes       No
+                             ↓         ↓
+                           Avoid    Can Risk Be
+                                    Reduced?
+                                     ↙    ↘
+                                   Yes      No
+                                    ↓        ↓
+                                Mitigate  Transfer /
+                                           Share
+                                              ↓
+                                       Residual Risk
+                                              ↓
+                                       Still Too High?
+                                         ↙        ↘
+                                       No          Yes
+                                        ↓            ↓
+                                     Accept       Escalate
+```
+
+This decision tree should not be interpreted as requiring organizations to always select the options in this exact order.
+
+The actual decision process depends on:
+
+* Business context.
+* Risk appetite.
+* Legal requirements.
+* Regulatory obligations.
+* Cost.
+* Feasibility.
+* Time.
+* Available technology.
+* Management strategy.
+
+## Risk Treatment Plan
+
+Once the treatment strategy has been selected, a formal treatment plan can be created.
+
+```text
+Risk
+ ↓
+Treatment Decision
+ ↓
+Treatment Plan
+ ↓
+Actions
+ ↓
+Owners
+ ↓
+Due Dates
+ ↓
+Implementation
+ ↓
+Validation
+ ↓
+Residual Risk
+```
+
+A treatment plan may include:
+
+| Element       | Example                      |
+| ------------- | ---------------------------- |
+| Risk          | Privileged Access Risk       |
+| Treatment     | Mitigate                     |
+| Action        | Implement PAM                |
+| Owner         | IAM Manager                  |
+| Due Date      | Q4                           |
+| Control       | Privileged Access Management |
+| Evidence      | PAM Configuration / Review   |
+| Status        | In Progress                  |
+| Residual Risk | Medium                       |
+
+The treatment plan should identify who is accountable for each action.
+
+A useful responsibility model is:
+
+```text
+Risk Owner
+     ↓
+Owns Risk Decision
+
+Treatment Owner
+     ↓
+Owns Remediation
+
+Control Owner
+     ↓
+Owns Control
+
+Control Operator
+     ↓
+Operates Control
+
+GRC
+     ↓
+Monitors / Challenges / Reports
+```
+
+These roles may sometimes be performed by the same person in a small organization, but the responsibilities should still be clearly understood.
+
+## Risk Treatment and Control Effectiveness
+
+After treatment is implemented, the organization should determine whether it actually reduced the risk.
+
+```text
+Treatment Implemented
+        ↓
+Control Assessment
+        ↓
+Control Effective?
+     ↙        ↘
+   Yes         No
+    ↓           ↓
+Reassess      Remediate
+Risk             ↓
+    ↓         Reassess
+Residual Risk     Risk
+```
+
+For example:
+
+```text
+Inherent Risk
+Critical
+     ↓
+MFA + PAM + Access Reviews
+     ↓
+Control Testing
+     ↓
+Controls Effective
+     ↓
+Residual Risk
+Medium
+```
+
+If the controls are ineffective:
+
+```text
+Inherent Risk
+Critical
+     ↓
+Controls Implemented
+     ↓
+Testing
+     ↓
+Control Failure
+     ↓
+Residual Risk
+Still Critical
+     ↓
+Additional Treatment
+```
+
+This demonstrates why simply implementing a control does not automatically mean the risk has been adequately treated.
+
+## Residual Risk Decision
+
+Residual risk is the remaining risk after treatment.
+
+```text
+Inherent Risk
+      ↓
+Risk Treatment
+      ↓
+Controls
+      ↓
+Residual Risk
+      ↓
+Risk Appetite
+```
+
+The decision then becomes:
+
+```text
+Residual Risk
+      ↓
+Within Appetite?
+   ↙          ↘
+ Yes           No
+ ↓              ↓
+Accept /      Additional
+Monitor       Treatment
+                 ↓
+             Reassess
+```
+
+This creates a continuous cycle.
+
+```text
+Risk
+ ↓
+Treatment
+ ↓
+Residual Risk
+ ↓
+Evaluate
+ ↓
+Additional Treatment?
+ ↙             ↘
+Yes             No
+ ↓               ↓
+Treat          Accept
+ ↓
+Reassess
+```
+
+## Risk Escalation
+
+If the residual risk remains outside appetite, escalation may be required.
+
+```text
+Residual Risk
+      ↓
+Outside Appetite
+      ↓
+Risk Owner
+      ↓
+Executive Management
+      ↓
+Risk Committee
+      ↓
+Board / Board Committee
+```
+
+The escalation level should depend on the organization's governance thresholds.
+
+For example:
+
+```text
+Low
+ ↓
+Risk Owner
+
+Medium
+ ↓
+Business Management
+
+High
+ ↓
+Executive Management
+
+Critical
+ ↓
+Risk Committee / Board
+```
+
+Not every high or critical risk automatically needs Board approval; the organization's risk governance framework should define the applicable authority.
+
+## Risk Treatment Monitoring
+
+Treatment itself should be monitored.
+
+```text
+Treatment Plan
+      ↓
+Actions
+      ↓
+Progress
+      ↓
+Due Dates
+      ↓
+Overdue?
+   ↙       ↘
+ No         Yes
+ ↓           ↓
+Continue   Escalate
+```
+
+A GRC dashboard might show:
+
+```text
+Total Treatment Actions: 25
+
+Completed: 15
+In Progress: 7
+Overdue: 3
+```
+
+The dashboard should also identify whether overdue actions are creating unacceptable risk.
+
+```text
+Overdue Treatment
+       ↓
+Risk Reassessment
+       ↓
+Risk Still Within Appetite?
+     ↙          ↘
+   Yes           No
+    ↓             ↓
+Monitor        Escalate
+```
+
+## Risk Treatment Lifecycle
+
+A complete risk treatment lifecycle can therefore be represented as:
+
+```text
+                    RISK IDENTIFIED
+                           ↓
+                    RISK ASSESSED
+                           ↓
+                    RISK EVALUATED
+                           ↓
+                  WITHIN APPETITE?
+                    ↙          ↘
+                  Yes           No
+                   ↓             ↓
+               ACCEPT /      SELECT TREATMENT
+                MONITOR             ↓
+                           ┌────────┼────────┐
+                           ↓        ↓        ↓
+                         AVOID   MITIGATE  TRANSFER
+                           │        │        │
+                           └────────┼────────┘
+                                    ↓
+                              IMPLEMENT PLAN
+                                    ↓
+                                CONTROLS
+                                    ↓
+                           CONTROL VALIDATION
+                                    ↓
+                              RESIDUAL RISK
+                                    ↓
+                           WITHIN APPETITE?
+                              ↙          ↘
+                            Yes           No
+                             ↓             ↓
+                          ACCEPT       ESCALATE /
+                          MONITOR       RETREAT
+```
+
+The process does not end when a treatment plan is completed.
+
+The organization must continue monitoring the risk because the risk environment can change.
+
+```text
+Residual Risk
+      ↓
+Continuous Monitoring
+      ↓
+Business / Threat Change?
+   ↙             ↘
+ No               Yes
+ ↓                 ↓
+Continue          Reassess
+Monitoring          Risk
+                    ↓
+                New Treatment
+```
+
+## Integrating Risk Treatment With the GRC Environment
+
+Risk treatment should connect with the organization's broader GRC processes.
+
+```text
+Risk
+ ↓
+Risk Treatment
+ ↓
+Controls
+ ↓
+Control Testing
+ ↓
+Compliance Assessment
+ ↓
+Audit
+ ↓
+Findings
+ ↓
+Remediation
+ ↓
+Residual Risk
+```
+
+Security incidents can also trigger new treatment decisions.
+
+```text
+Security Incident
+       ↓
+Root Cause Analysis
+       ↓
+Risk Identified / Increased
+       ↓
+Risk Assessment
+       ↓
+Additional Treatment
+       ↓
+New Controls
+       ↓
+Residual Risk
+```
+
+Similarly, regulatory changes can trigger risk treatment.
+
+```text
+New Regulation
+      ↓
+Compliance Gap
+      ↓
+Risk Identified
+      ↓
+Risk Assessment
+      ↓
+Treatment Plan
+      ↓
+Control Implementation
+      ↓
+Compliance Validation
+```
+
+This demonstrates that risk treatment is connected to multiple GRC processes rather than operating independently.
+
+## Executive Risk Treatment View
+
+For executives, the complete process can be simplified:
+
+```text
+Top Risk
+   ↓
+Current Exposure
+   ↓
+Risk Appetite
+   ↓
+Treatment Strategy
+   ↓
+Investment / Action
+   ↓
+Expected Risk Reduction
+   ↓
+Residual Risk
+   ↓
+Management Decision
+```
+
+For the Board:
+
+```text
+Material Risk
+      ↓
+Risk Exposure
+      ↓
+Outside Appetite?
+      ↓
+Management Response
+      ↓
+Expected Risk Reduction
+      ↓
+Residual Exposure
+      ↓
+Board Oversight
+```
+
+The Board does not normally need every individual remediation task.
+
+It needs sufficient information to determine whether management is responding appropriately to material risks.
+
+The overall relationship can therefore be summarized as:
+
+```text
+                    RISK
+                     ↓
+               RISK ASSESSMENT
+                     ↓
+                RISK APPETITE
+                     ↓
+              TREATMENT DECISION
+                     ↓
+        ┌────────────┼────────────┐
+        ↓            ↓            ↓
+      AVOID       MITIGATE     TRANSFER
+        │            │            │
+        └────────────┼────────────┘
+                     ↓
+              RESIDUAL RISK
+                     ↓
+             CONTROL EFFECTIVENESS
+                     ↓
+              WITHIN APPETITE?
+                ↙         ↘
+              Yes          No
+               ↓            ↓
+           ACCEPT /      ESCALATE /
+            MONITOR       RETREAT
+               │            │
+               └──────┬─────┘
+                      ↓
+               RISK REPORTING
+                      ↓
+              MANAGEMENT DECISION
+                      ↓
+             CONTINUOUS MONITORING
+                      ↓
+                 REASSESSMENT
+```
+
+The key principle is:
+
+> **Risk treatment is not simply the implementation of controls. It is a management decision about how much risk the organization is willing to retain and what actions are necessary to keep that exposure within approved boundaries.**
+
+A mature GRC professional should therefore be able to demonstrate the complete chain:
+
+```text
+Risk
+ ↓
+Assessment
+ ↓
+Risk Appetite
+ ↓
+Treatment Decision
+ ↓
+Treatment Plan
+ ↓
+Controls
+ ↓
+Control Effectiveness
+ ↓
+Residual Risk
+ ↓
+Risk Acceptance / Escalation
+ ↓
+Monitoring
+ ↓
+Reassessment
+```
+
+This provides a clear and auditable connection between **risk identification, management decisions, cybersecurity controls, residual exposure, and executive accountability**.
+
+
 
 
 

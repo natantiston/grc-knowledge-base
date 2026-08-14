@@ -1366,6 +1366,701 @@ The key principle is:
 
 A mature GRC professional should be able to trace a risk from its original identification through assessment, treatment, control implementation, residual risk, monitoring, reporting, reassessment, and eventual closure or continued acceptance.
 
+# 18.3 Risk Management Diagrams
+
+A risk heat map is one of the most commonly used visual tools in GRC. It provides a quick way to communicate the relative level of risk by comparing **likelihood** and **impact**.
+
+A basic risk heat map can be represented as:
+
+```text id="x9k3a2"
+                         IMPACT
+                 Low      Medium      High      Critical
+              ┌────────┬──────────┬──────────┬──────────┐
+High          │ Medium │   High   │ Critical │ Critical │
+              ├────────┼──────────┼──────────┼──────────┤
+Medium        │  Low   │  Medium  │   High   │ Critical │
+LIKELIHOOD    ├────────┼──────────┼──────────┼──────────┤
+Low           │  Low   │   Low    │  Medium  │   High   │
+              └────────┴──────────┴──────────┴──────────┘
+```
+
+The exact scoring model should be defined by the organization's risk methodology.
+
+The two primary dimensions are:
+
+```text id="u3k8p1"
+Likelihood
+     +
+Impact
+     ↓
+Risk Level
+```
+
+Likelihood represents the probability or frequency with which a risk event could occur.
+
+Impact represents the potential consequence if the event occurs.
+
+For example:
+
+```text id="2w5m9x"
+Likelihood = High
+Impact = High
+        ↓
+Critical Risk
+```
+
+Another example:
+
+```text id="q7v4k3"
+Likelihood = Low
+Impact = Medium
+        ↓
+Low / Medium Risk
+```
+
+A heat map allows multiple risks to be displayed simultaneously.
+
+```text id="e8c4n2"
+Risk A → High Likelihood / High Impact
+Risk B → Medium Likelihood / High Impact
+Risk C → Low Likelihood / Medium Impact
+Risk D → High Likelihood / Low Impact
+```
+
+The risks can then be positioned according to their assessed values.
+
+A simple risk register may look like:
+
+| Risk                  | Likelihood | Impact | Risk Level |
+| --------------------- | ---------- | ------ | ---------- |
+| Ransomware            | High       | High   | Critical   |
+| Data Leakage          | Medium     | High   | High       |
+| Supplier Failure      | Medium     | Medium | Medium     |
+| Legacy System Failure | Low        | High   | Medium     |
+| Phishing              | High       | Medium | High       |
+
+The heat map transforms this information into a visual risk profile.
+
+```text id="c7h2v4"
+                  IMPACT
+              Low   Medium   High
+           ┌──────┬────────┬────────┐
+High       │ R4   │   R3   │   R1   │
+           ├──────┼────────┼────────┤
+LIKELIHOOD │ R5   │   R2   │   R6   │
+Medium     ├──────┼────────┼────────┤
+           │ R7   │   R8   │   R9   │
+Low        └──────┴────────┴────────┘
+```
+
+The heat map is particularly useful for executive reporting because it can quickly show where the organization's most significant risks are concentrated.
+
+However, a risk heat map should not be treated as the complete risk assessment.
+
+It is a **visual summary of an underlying assessment methodology**.
+
+The underlying assessment should include information such as:
+
+```text id="n6q1s5"
+Risk Description
+Risk Owner
+Risk Category
+Threat
+Vulnerability
+Likelihood
+Impact
+Existing Controls
+Control Effectiveness
+Inherent Risk
+Residual Risk
+Treatment
+Due Date
+Status
+```
+
+This distinction is important.
+
+```text id="k8x3p2"
+Risk Register
+     ↓
+Detailed Assessment
+     ↓
+Risk Score
+     ↓
+Heat Map
+     ↓
+Management Reporting
+```
+
+The heat map should normally distinguish between **inherent risk** and **residual risk**.
+
+For example:
+
+```text id="j5m7w8"
+INHERENT RISK
+      ↓
+Before Controls
+      ↓
+Control Environment
+      ↓
+RESIDUAL RISK
+      ↓
+After Controls
+```
+
+A risk may initially appear in the high-risk area:
+
+```text id="v2n6q4"
+Inherent Risk
+
+Likelihood: High
+Impact: High
+      ↓
+Critical
+```
+
+After effective controls are implemented:
+
+```text id="r8f3m6"
+Controls
+ ↓
+MFA
+Encryption
+Monitoring
+Access Reviews
+ ↓
+Residual Risk
+
+Likelihood: Medium
+Impact: High
+ ↓
+High
+```
+
+This allows management to understand the effect of controls.
+
+A useful risk visualization can therefore show both positions:
+
+```text id="a4j7s9"
+Risk A
+
+Inherent Risk
+High / High
+     ↓
+Controls
+     ↓
+Residual Risk
+Medium / High
+```
+
+The difference between the two represents the reduction achieved through the control environment.
+
+This can be called **risk treatment effectiveness** or risk reduction, depending on the organization's methodology.
+
+The heat map can also be used to compare risk against **risk appetite**.
+
+```text id="f2m8q1"
+Residual Risk
+      ↓
+Compare with Risk Appetite
+      ↓
+Within Appetite?
+   ↙          ↘
+ Yes           No
+ ↓              ↓
+Monitor       Treat / Escalate
+```
+
+For example:
+
+```text id="y5c3n8"
+Risk Appetite:
+Medium
+
+Residual Risk:
+High
+
+        ↓
+
+Outside Risk Appetite
+        ↓
+Management Action Required
+```
+
+This is more meaningful than simply stating that a risk is "high."
+
+A high risk may be acceptable in one organization and unacceptable in another depending on the approved risk appetite.
+
+The heat map should therefore be interpreted together with:
+
+```text id="w4k7p3"
+Risk Appetite
+Risk Tolerance
+Risk Criteria
+Risk Treatment Rules
+Escalation Thresholds
+```
+
+A mature risk heat map may use multiple thresholds.
+
+```text id="e5n9r1"
+Low Risk
+   ↓
+Acceptable
+
+Medium Risk
+   ↓
+Monitor / Manage
+
+High Risk
+   ↓
+Treatment Required
+
+Critical Risk
+   ↓
+Immediate Escalation
+```
+
+The exact treatment rules should be defined by the organization's risk framework.
+
+Heat maps can also be created for different risk categories.
+
+For cybersecurity:
+
+```text id="t6p2y9"
+Cybersecurity Risk Heat Map
+        ↓
+Ransomware
+Data Breach
+Cloud Security
+Identity
+Vulnerabilities
+Third-Party Cyber Risk
+```
+
+For third-party risk:
+
+```text id="q8m4v6"
+Third-Party Risk Heat Map
+        ↓
+Critical Suppliers
+Cloud Providers
+Data Processors
+Outsourced Services
+Technology Vendors
+```
+
+For compliance:
+
+```text id="c3n8h2"
+Compliance Risk Heat Map
+        ↓
+Regulatory Requirements
+Control Gaps
+Audit Findings
+Regulatory Exposure
+```
+
+For business continuity:
+
+```text id="p6j9x4"
+Business Continuity Risk Heat Map
+        ↓
+Critical Processes
+System Dependencies
+Supplier Dependencies
+Recovery Capability
+```
+
+The heat map can also be used at different organizational levels.
+
+At the enterprise level:
+
+```text id="r5v2m7"
+Enterprise Risk Profile
+       ↓
+Top Strategic Risks
+```
+
+At the business-unit level:
+
+```text id="k9q4s6"
+Business Unit
+      ↓
+Business Unit Risk Profile
+```
+
+At the cybersecurity level:
+
+```text id="h3m8v5"
+Cybersecurity
+      ↓
+Cyber Risk Profile
+```
+
+At the individual risk level:
+
+```text id="d7x2p9"
+Individual Risk
+      ↓
+Detailed Risk Assessment
+```
+
+This creates a risk hierarchy:
+
+```text id="m4n8c2"
+Individual Risks
+       ↓
+Risk Categories
+       ↓
+Business Unit Risk Profile
+       ↓
+Enterprise Risk Profile
+       ↓
+Board Risk View
+```
+
+Another useful visualization is the **risk movement diagram**.
+
+A risk may move across the heat map over time.
+
+```text id="u5r7k3"
+Initial Risk
+High / High
+     ↓
+Treatment
+     ↓
+Medium / High
+     ↓
+Additional Controls
+     ↓
+Medium / Medium
+     ↓
+Continuous Monitoring
+```
+
+This demonstrates whether risk treatment is actually reducing exposure.
+
+Risk movement can also go in the opposite direction.
+
+```text id="q3v8n5"
+Medium / Medium
+      ↓
+New Threat
+      ↓
+Likelihood Increases
+      ↓
+High / Medium
+      ↓
+Risk Appetite Breach
+      ↓
+Escalation
+```
+
+This is why risk monitoring is essential.
+
+A heat map should not be considered a static picture.
+
+It represents risk at a particular point in time.
+
+The diagram should therefore include a reporting date or assessment period.
+
+```text id="z8k4p2"
+Risk Heat Map
+Assessment Period:
+Q3 2026
+```
+
+When comparing heat maps over time:
+
+```text id="s6m2q9"
+Q1
+ ↓
+Q2
+ ↓
+Q3
+ ↓
+Q4
+```
+
+management can identify trends.
+
+For example:
+
+```text id="f7x3n8"
+Critical Risks
+Q1: 3
+Q2: 5
+Q3: 4
+Q4: 2
+```
+
+The trend may indicate that risk treatment is working.
+
+However, the number of risks alone should not be interpreted as proof of improvement.
+
+The organization should also consider:
+
+```text id="n2k7v4"
+Risk Severity
+Risk Exposure
+Risk Concentration
+Risk Appetite Breaches
+Control Effectiveness
+Treatment Progress
+Emerging Risks
+```
+
+A heat map can also be combined with a **risk trend indicator**.
+
+```text id="r4p8x1"
+Risk A
+High
+↑ Increasing
+
+Risk B
+High
+→ Stable
+
+Risk C
+Medium
+↓ Decreasing
+```
+
+This gives management more information than the risk rating alone.
+
+Another important concept is **risk concentration**.
+
+For example:
+
+```text id="c9m5v2"
+Multiple Risks
+     ↓
+Same Business Unit
+     ↓
+Same Technology Platform
+     ↓
+Same Supplier
+     ↓
+Concentration Risk
+```
+
+An organization may have several individually acceptable risks that collectively create significant exposure.
+
+For example:
+
+```text id="j8q3n6"
+Cloud Risk
+Supplier Risk
+Data Risk
+Availability Risk
+Third-Party Risk
+      ↓
+Same Cloud Provider
+      ↓
+Concentration Exposure
+```
+
+This is one reason enterprise risk management should look beyond individual risk scores.
+
+The heat map should also be used carefully when comparing different risk types.
+
+For example:
+
+```text id="v6p2r9"
+Cybersecurity Risk
+Financial Risk
+Operational Risk
+Compliance Risk
+Strategic Risk
+```
+
+These may use different assessment methodologies.
+
+The organization should therefore establish a common enterprise risk taxonomy and scoring methodology where appropriate.
+
+A GRC professional should also understand the limitations of heat maps.
+
+Heat maps can create a false impression of precision.
+
+For example:
+
+```text id="k4m8x2"
+Risk Score = 12
+Risk Score = 13
+```
+
+This does not necessarily mean that the second risk is materially more dangerous than the first.
+
+The scoring methodology is a representation of risk, not a measurement of reality with perfect precision.
+
+Another limitation is that two risks can receive the same score but have very different characteristics.
+
+```text id="n7p3c5"
+Risk A:
+High Likelihood
+Low Impact
+
+Risk B:
+Low Likelihood
+High Impact
+```
+
+Both might receive a similar overall rating, but management may need to treat them differently.
+
+Therefore, risk scoring should be supplemented with:
+
+```text id="x2m9v6"
+Risk Description
+Business Context
+Potential Consequences
+Risk Appetite
+Control Effectiveness
+Risk Velocity
+Risk Persistence
+Management Judgment
+```
+
+**Risk velocity** describes how quickly the impact of a risk can materialize or escalate.
+
+For example:
+
+```text id="q5r8k1"
+Cyberattack
+    ↓
+Compromise
+    ↓
+Data Exfiltration
+    ↓
+Business Impact
+```
+
+The risk may develop very quickly.
+
+A slow-moving risk may provide more time for management intervention.
+
+```text id="b6n4x8"
+Emerging Regulatory Risk
+       ↓
+Months / Years
+       ↓
+Planning Opportunity
+```
+
+A mature risk assessment may therefore consider more than likelihood and impact.
+
+Another useful visualization is:
+
+```text id="w3k7p9"
+Likelihood
+Impact
+Velocity
+Persistence
+Control Effectiveness
+Risk Appetite
+       ↓
+Overall Risk Evaluation
+```
+
+The final heat map should remain simple enough for the intended audience.
+
+For an executive audience:
+
+```text id="h9m2v4"
+Top Enterprise Risks
+       ↓
+Heat Map
+       ↓
+Top 5 Risks
+       ↓
+Required Decisions
+```
+
+For a GRC team:
+
+```text id="p8x4n6"
+Risk Register
+       ↓
+Detailed Heat Map
+       ↓
+Risk Owners
+       ↓
+Treatment Actions
+       ↓
+Due Dates
+```
+
+For the Board:
+
+```text id="m5q9r3"
+Enterprise Risk Heat Map
+       ↓
+Risks Outside Appetite
+       ↓
+Risk Trends
+       ↓
+Management Response
+       ↓
+Board Oversight
+```
+
+A practical end-to-end risk visualization is:
+
+```text id="c7n4x8"
+                 RISK IDENTIFICATION
+                         ↓
+                   RISK ANALYSIS
+                         ↓
+                  INHERENT RISK
+                         ↓
+                   RISK HEAT MAP
+                         ↓
+                 RISK EVALUATION
+                         ↓
+                 RISK TREATMENT
+                         ↓
+                      CONTROLS
+                         ↓
+                  RESIDUAL RISK
+                         ↓
+                   RISK HEAT MAP
+                         ↓
+                 RISK APPETITE
+                         ↓
+              MONITOR / ESCALATE
+                         ↓
+                  RISK REPORTING
+                         ↓
+               MANAGEMENT DECISION
+```
+
+The heat map therefore serves as a **visual communication layer** within the broader risk management lifecycle.
+
+Its greatest value is not the colors or the matrix itself, but its ability to communicate:
+
+```text id="s2f6m9"
+Where are our most significant risks?
+
+Which risks exceed appetite?
+
+Which risks are increasing?
+
+Which risks are decreasing?
+
+Where should management focus?
+
+Which risks require escalation?
+
+Where should additional controls or resources be applied?
+```
+
+A mature GRC professional should therefore treat the risk heat map as a **decision-support tool**, not as a replacement for detailed risk analysis.
+
+The key principle is:
+
+> **A risk heat map should simplify complex risk information without hiding the context, assumptions, ownership, treatment, and uncertainty behind the risk rating.**
+
+
 
 
 

@@ -1570,5 +1570,843 @@ The key principle is:
 
 > **A control is not simply a policy, procedure, or technology. It is a defined mechanism designed and operated to achieve a specific control objective, address risk, satisfy requirements, and provide demonstrable assurance that the intended outcome is being achieved.**
 
+# 18.4 Compliance and Control Diagrams
+
+A **Compliance Assessment and Gap Analysis Diagram** shows how an organization evaluates its current control environment against applicable requirements, identifies gaps, assesses their significance, and drives remediation.
+
+The overall process is:
+
+```text
+Applicable Requirement
+        ↓
+Current Control Environment
+        ↓
+Compliance Assessment
+        ↓
+Gap Identification
+        ↓
+Gap Analysis
+        ↓
+Risk Assessment
+        ↓
+Remediation Plan
+        ↓
+Implementation
+        ↓
+Validation
+        ↓
+Compliance Reassessment
+```
+
+The first step is determining which requirements apply to the organization.
+
+```text
+Laws
+Regulations
+Standards
+Contracts
+Customer Requirements
+Internal Policies
+        ↓
+Applicability Assessment
+        ↓
+Applicable Requirements
+```
+
+Not every requirement applies to every organization, business unit, system, or process.
+
+For example:
+
+```text
+Regulation
+     ↓
+Applicability Assessment
+     ↓
+Applicable?
+   ↙       ↘
+ Yes        No
+  ↓          ↓
+Assess     Document
+           Rationale
+```
+
+The organization should maintain evidence supporting why a requirement is considered applicable or not applicable.
+
+The next step is mapping the applicable requirements to controls.
+
+```text
+Applicable Requirement
+        ↓
+Control Objective
+        ↓
+Existing Control
+        ↓
+Control Assessment
+```
+
+The assessment should determine whether the control:
+
+```text
+Exists
+Implemented
+Designed Correctly
+Operating Effectively
+Produces Evidence
+Meets Requirement
+```
+
+A simple assessment model is:
+
+```text
+Requirement
+     ↓
+Control Exists?
+   ↙        ↘
+ Yes         No
+  ↓           ↓
+Assess       Gap
+Control
+  ↓
+Effective?
+ ↙      ↘
+Yes      No
+ ↓        ↓
+Compliant Gap
+```
+
+A compliance gap exists when the current environment does not adequately satisfy an applicable requirement.
+
+For example:
+
+```text
+Requirement:
+MFA for privileged access
+
+        ↓
+
+Current State:
+Password-only access
+
+        ↓
+
+Gap Identified:
+MFA not implemented
+
+        ↓
+
+Compliance Gap
+```
+
+The difference between **current state** and **target state** is central to gap analysis.
+
+```text
+TARGET STATE
+What should exist?
+        ↓
+       GAP
+        ↑
+CURRENT STATE
+What actually exists?
+```
+
+This can be represented as:
+
+```text
+Current State
+      ↓
+      GAP
+      ↓
+Target State
+```
+
+For example:
+
+```text
+Current:
+Annual Access Review
+
+Target:
+Quarterly Access Review
+
+        ↓
+
+Gap:
+Review Frequency Insufficient
+```
+
+A gap may be related to different aspects of the control environment.
+
+```text
+Gap
+ │
+ ├── Control Missing
+ ├── Control Not Implemented
+ ├── Control Poorly Designed
+ ├── Control Ineffective
+ ├── Evidence Missing
+ ├── Process Inconsistent
+ ├── Ownership Unclear
+ └── Requirement Not Fully Addressed
+```
+
+This distinction is important because the remediation approach depends on the type of gap.
+
+For example:
+
+```text
+Missing Control
+      ↓
+Design and Implement Control
+```
+
+Whereas:
+
+```text
+Existing Control
+      ↓
+Poor Evidence
+      ↓
+Improve Evidence Collection
+```
+
+And:
+
+```text
+Existing Control
+      ↓
+Ineffective Operation
+      ↓
+Correct Execution / Training / Monitoring
+```
+
+The assessment should also distinguish between **control deficiency** and **compliance gap**.
+
+```text
+Control Deficiency
+      ↓
+Control does not operate as intended
+```
+
+while:
+
+```text
+Compliance Gap
+      ↓
+Requirement is not adequately satisfied
+```
+
+They can overlap, but they are not always identical.
+
+For example:
+
+```text
+Strong Control
+      ↓
+Requirement Not Fully Addressed
+      ↓
+Compliance Gap
+```
+
+Or:
+
+```text
+Control Weakness
+      ↓
+Requirement Still Satisfied
+      ↓
+Potential Control Improvement
+```
+
+A mature assessment therefore considers both compliance and risk.
+
+```text
+Compliance Gap
+      ↓
+Risk Assessment
+      ↓
+Risk Level
+      ↓
+Treatment Priority
+```
+
+For example:
+
+```text
+Critical Regulatory Gap
+        ↓
+High Compliance Risk
+        ↓
+Immediate Remediation
+```
+
+A low-impact documentation gap may receive a different priority:
+
+```text
+Minor Documentation Gap
+        ↓
+Low Risk
+        ↓
+Normal Improvement Cycle
+```
+
+Gap analysis should therefore not be based only on the number of gaps.
+
+An organization with ten minor gaps may have less exposure than an organization with one critical gap.
+
+```text
+10 Minor Gaps
+      ≠
+1 Critical Gap
+```
+
+The organization should establish a **gap severity methodology**.
+
+For example:
+
+```text
+Critical
+   ↓
+Immediate Management Attention
+
+High
+   ↓
+Priority Remediation
+
+Medium
+   ↓
+Planned Remediation
+
+Low
+   ↓
+Continuous Improvement
+```
+
+The exact thresholds should be defined by the organization's governance framework.
+
+A gap assessment can also incorporate business impact.
+
+```text
+Gap
+ ↓
+Potential Impact
+ ↓
+Likelihood
+ ↓
+Risk
+ ↓
+Priority
+```
+
+A useful prioritization model is:
+
+```text
+Risk Severity
+      +
+Regulatory Importance
+      +
+Business Impact
+      +
+Remediation Complexity
+      ↓
+Remediation Priority
+```
+
+This helps management determine which gaps should be addressed first.
+
+A complete gap analysis can therefore be represented as:
+
+```text
+Requirement
+      ↓
+Current State
+      ↓
+Target State
+      ↓
+Gap
+      ↓
+Risk
+      ↓
+Priority
+      ↓
+Remediation
+```
+
+The assessment should also identify the **gap owner**.
+
+```text
+Gap
+ ↓
+Gap Owner
+ ↓
+Remediation Owner
+ ↓
+Due Date
+ ↓
+Status
+```
+
+The gap owner is accountable for ensuring the issue is addressed.
+
+For example:
+
+```text
+Gap:
+Privileged accounts not reviewed quarterly
+
+Gap Owner:
+IAM Manager
+
+Remediation:
+Implement quarterly certification
+
+Due Date:
+Q4
+
+Status:
+In Progress
+```
+
+The remediation process can then be visualized:
+
+```text
+Gap Identified
+      ↓
+Gap Validated
+      ↓
+Risk Rated
+      ↓
+Remediation Assigned
+      ↓
+Action Plan
+      ↓
+Implementation
+      ↓
+Evidence Submitted
+      ↓
+Validation
+      ↓
+Retest
+      ↓
+Gap Closed
+```
+
+A gap should not be considered closed simply because management says the remediation is complete.
+
+There should be evidence demonstrating that the remediation actually addressed the deficiency.
+
+```text
+Remediation Completed
+        ↓
+Evidence
+        ↓
+Independent / GRC Validation
+        ↓
+Effective?
+     ↙        ↘
+   Yes         No
+    ↓           ↓
+  Close      Reopen
+              Gap
+```
+
+This creates an important distinction between:
+
+```text
+Remediation Complete
+```
+
+and:
+
+```text
+Remediation Validated
+```
+
+The second provides stronger assurance.
+
+Compliance assessments can also generate multiple findings from a single requirement.
+
+```text
+Requirement
+      ↓
+Assessment
+      ↓
+ ┌────┼────┐
+ ↓    ↓    ↓
+Gap  Gap  Gap
+```
+
+For example:
+
+```text
+Access Control Requirement
+        ↓
+ ┌──────┼──────────┐
+ ↓      ↓          ↓
+MFA    Access     Privileged
+Gap    Review Gap Access Gap
+```
+
+Each gap can then have a separate remediation action.
+
+The assessment should also identify **partial compliance**.
+
+```text
+Requirement
+      ↓
+Control
+      ↓
+Partially Implemented
+      ↓
+Partial Compliance
+      ↓
+Gap Analysis
+```
+
+For example:
+
+```text
+Requirement:
+Security Awareness Training
+
+Current State:
+Annual training exists
+
+Missing:
+Role-based training
+New-hire training
+Effectiveness measurement
+
+        ↓
+
+Partial Compliance
+```
+
+This is more informative than simply marking the requirement as "compliant" or "non-compliant."
+
+A compliance maturity model can also be incorporated.
+
+```text
+Level 1
+Ad Hoc
+   ↓
+Level 2
+Developing
+   ↓
+Level 3
+Defined
+   ↓
+Level 4
+Managed
+   ↓
+Level 5
+Optimized
+```
+
+The organization can assess not only whether a control exists, but how mature its implementation is.
+
+For example:
+
+```text
+Access Management
+
+Level 1:
+Manual / Ad Hoc
+
+Level 2:
+Basic Procedures
+
+Level 3:
+Standardized Process
+
+Level 4:
+Automated Monitoring
+
+Level 5:
+Continuous Optimization
+```
+
+This allows gap analysis to support long-term improvement rather than only regulatory compliance.
+
+The same assessment can be performed across multiple frameworks.
+
+```text
+ISO 27001
+     ↓
+NIS2
+     ↓
+DORA
+     ↓
+GDPR
+     ↓
+NIST
+     ↓
+Common Control Framework
+     ↓
+Unified Gap Analysis
+```
+
+This prevents organizations from performing completely separate assessments for each framework.
+
+For example:
+
+```text
+Requirement A ──┐
+Requirement B ──┤
+Requirement C ──┼──→ Common Control
+Requirement D ──┤
+Requirement E ──┘
+                       ↓
+                 One Assessment
+                       ↓
+                  Multiple Results
+```
+
+A GRC platform can then maintain relationships between:
+
+```text
+Requirement
+     ↓
+Control
+     ↓
+Assessment
+     ↓
+Finding
+     ↓
+Risk
+     ↓
+Remediation
+     ↓
+Evidence
+```
+
+This provides traceability across the entire compliance lifecycle.
+
+A compliance dashboard can summarize the assessment.
+
+```text
+Total Requirements
+        ↓
+      250
+
+Compliant
+        ↓
+      190
+
+Partially Compliant
+        ↓
+       35
+
+Non-Compliant
+        ↓
+       20
+
+Not Applicable
+        ↓
+        5
+```
+
+The dashboard can also display gaps by severity.
+
+```text
+Critical:   2
+High:       8
+Medium:    15
+Low:       10
+```
+
+Trend reporting can show whether compliance is improving.
+
+```text
+Q1 → 72% Compliant
+Q2 → 78% Compliant
+Q3 → 84% Compliant
+Q4 → 91% Compliant
+```
+
+However, percentage compliance should be interpreted carefully.
+
+A high compliance percentage does not automatically mean low risk.
+
+For example:
+
+```text
+98% Compliance
+      ↓
+2% Critical Gap
+      ↓
+Potentially Significant Risk
+```
+
+Therefore, management reporting should combine:
+
+```text
+Compliance Status
+      +
+Risk Severity
+      +
+Critical Gaps
+      +
+Remediation Progress
+      +
+Risk Appetite
+```
+
+A useful executive diagram is:
+
+```text
+Compliance Assessment
+        ↓
+ ┌──────┼────────┐
+ ↓      ↓        ↓
+Compliant Gaps   Risks
+        ↓        ↓
+   Remediation   ↓
+        ↓        ↓
+     Progress  Exposure
+        └───────┬┘
+                ↓
+        Management Decision
+```
+
+Compliance assessments should also be repeated periodically.
+
+```text
+Assessment
+    ↓
+Gap Analysis
+    ↓
+Remediation
+    ↓
+Validation
+    ↓
+Reassessment
+    ↓
+New Gaps?
+   ↙      ↘
+ No        Yes
+ ↓          ↓
+Continue   Remediate
+Monitoring
+```
+
+This creates a continuous compliance improvement cycle.
+
+```text
+Assess
+  ↓
+Identify
+  ↓
+Prioritize
+  ↓
+Remediate
+  ↓
+Validate
+  ↓
+Report
+  ↓
+Reassess
+  ↺
+```
+
+Changes in the organization can trigger an unscheduled assessment.
+
+Examples include:
+
+```text
+New Regulation
+New Technology
+New Business Process
+New Supplier
+Security Incident
+Major Acquisition
+Cloud Migration
+Organizational Change
+Audit Finding
+```
+
+For example:
+
+```text
+New Regulation
+      ↓
+Applicability Assessment
+      ↓
+New Requirements
+      ↓
+Control Mapping
+      ↓
+Gap Assessment
+      ↓
+Remediation
+```
+
+The complete compliance gap analysis lifecycle can therefore be represented as:
+
+```text
+                 APPLICABLE REQUIREMENTS
+                          ↓
+                   CONTROL MAPPING
+                          ↓
+                    CURRENT STATE
+                          ↓
+                     ASSESSMENT
+                          ↓
+                    TARGET STATE
+                          ↓
+                   GAP IDENTIFICATION
+                          ↓
+                     GAP ANALYSIS
+                          ↓
+                    RISK ASSESSMENT
+                          ↓
+                   PRIORITIZATION
+                          ↓
+                  REMEDIATION PLAN
+                          ↓
+                     IMPLEMENTATION
+                          ↓
+                       EVIDENCE
+                          ↓
+                      VALIDATION
+                          ↓
+                       RETESTING
+                          ↓
+                    GAP RESOLUTION
+                          ↓
+                    REPORTING
+                          ↓
+                    REASSESSMENT
+                          ↺
+```
+
+The relationship between compliance, risk, and controls can be summarized as:
+
+```text
+              REQUIREMENT
+                   ↓
+                CONTROL
+                   ↓
+                CONTROL
+              EFFECTIVENESS
+                   ↓
+            COMPLIANCE STATUS
+                   ↓
+              COMPLIANCE GAP
+                   ↓
+                  RISK
+                   ↓
+              PRIORITIZATION
+                   ↓
+              REMEDIATION
+                   ↓
+            RESIDUAL RISK
+                   ↓
+             REASSESSMENT
+```
+
+The key principle is:
+
+> **Compliance gap analysis should not simply identify what is missing. It should determine the difference between the required state and the current state, understand the associated risk, prioritize the gap, drive remediation, and verify that the remediation actually achieved the intended outcome.**
+
 
 

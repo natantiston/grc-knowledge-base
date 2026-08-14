@@ -2275,5 +2275,1293 @@ This allows executives to focus on the questions that matter most:
 
 The central principle is that **ISO 27001 risk management connects organizational context and objectives to risk identification, analysis, evaluation, treatment, controls, residual risk, and management decisions through a structured and continually monitored process.**
 
+# 18.6 ISO 27001 Diagrams
+
+### Part 3 – ISO 27001 Control Implementation Model
+
+ISO 27001 control implementation is the process of translating **identified information-security risks and risk treatment decisions into operational security controls** that are implemented, managed, monitored, and supported by evidence.
+
+A simplified model is:
+
+```text
+Risk
+ ↓
+Risk Treatment
+ ↓
+Control Requirements
+ ↓
+Control Selection
+ ↓
+Control Design
+ ↓
+Control Implementation
+ ↓
+Control Operation
+ ↓
+Evidence
+ ↓
+Control Effectiveness
+ ↓
+Residual Risk
+```
+
+The important principle is that selecting a control is not the same as implementing an effective control.
+
+---
+
+# 1. From Risk to Control
+
+The implementation process begins with risk.
+
+```text
+Risk
+ ↓
+Risk Treatment Decision
+ ↓
+Security Requirement
+ ↓
+Control
+ ↓
+Implementation
+```
+
+For example:
+
+```text
+Risk:
+Unauthorized access to sensitive information
+
+        ↓
+
+Treatment:
+Reduce Risk
+
+        ↓
+
+Security Requirement:
+Restrict and monitor access
+
+        ↓
+
+Controls:
+MFA
+Access Control
+Privileged Access Management
+Access Reviews
+```
+
+This creates traceability between the identified risk and the control implemented to address it.
+
+---
+
+# 2. Control Implementation Lifecycle
+
+A practical control implementation lifecycle is:
+
+```text
+                 RISK
+                  ↓
+            CONTROL NEED
+                  ↓
+            CONTROL SELECTION
+                  ↓
+            CONTROL DESIGN
+                  ↓
+          CONTROL ASSIGNMENT
+                  ↓
+          CONTROL IMPLEMENTATION
+                  ↓
+             CONTROL OPERATION
+                  ↓
+                EVIDENCE
+                  ↓
+              CONTROL TESTING
+                  ↓
+          EFFECTIVENESS ASSESSMENT
+                  ↓
+              IMPROVEMENT
+                  ↺
+```
+
+This demonstrates that implementation is a lifecycle rather than a one-time activity.
+
+---
+
+# 3. Control Selection
+
+Once a risk treatment decision has been made, the organization determines which controls are appropriate.
+
+The decision process can be visualized as:
+
+```text
+Risk
+ ↓
+Treatment Requirement
+ ↓
+Control Options
+ ↓
+Evaluate Suitability
+ ↓
+Select Controls
+ ↓
+Document Decision
+```
+
+Control selection should consider:
+
+```text
+Risk Level
+Business Requirements
+Legal Requirements
+Regulatory Requirements
+Technology Environment
+Cost
+Feasibility
+Existing Controls
+Control Effectiveness
+```
+
+---
+
+# 4. ISO 27001 Annex A Controls
+
+ISO/IEC 27001:2022 includes a reference set of controls in **Annex A**.
+
+The 2022 edition organizes these controls into four groups:
+
+```text
+             ANNEX A CONTROLS
+                    ↓
+     ┌──────────────┼──────────────┐
+     ↓              ↓              ↓
+Organizational   People        Technological
+   Controls      Controls         Controls
+                    +
+             Physical Controls
+```
+
+More specifically:
+
+```text
+A.5  Organizational Controls
+A.6  People Controls
+A.7  Physical Controls
+A.8  Technological Controls
+```
+
+The Annex A controls provide a structured reference set, while the organization's risk assessment and treatment process determines which controls are relevant.
+
+---
+
+# 5. Control Applicability
+
+Not every Annex A control will necessarily be applicable in the same way to every organization.
+
+A simplified model is:
+
+```text
+Risk Assessment
+       ↓
+Risk Treatment
+       ↓
+Control Requirements
+       ↓
+Evaluate Annex A
+       ↓
+Applicability Decision
+       ↓
+Applicable Controls
+```
+
+The organization should be able to explain its control decisions.
+
+---
+
+# 6. Statement of Applicability
+
+The Statement of Applicability provides an important control implementation record.
+
+```text
+Risk Assessment
+       ↓
+Risk Treatment
+       ↓
+Control Selection
+       ↓
+Statement of Applicability
+       ↓
+┌──────────────┴──────────────┐
+↓                             ↓
+Applicable                  Not Applicable
+Controls                    Controls
+↓
+Implementation
+```
+
+The SoA can therefore provide traceability between:
+
+```text
+Risk
+ ↓
+Treatment
+ ↓
+Control
+ ↓
+Applicability
+ ↓
+Implementation
+```
+
+---
+
+# 7. Control Design
+
+Before implementation, the control should be appropriately designed.
+
+A control design should answer questions such as:
+
+```text
+What risk does it address?
+What is the control objective?
+What activity is performed?
+Who performs it?
+How frequently?
+What system or process supports it?
+What evidence is generated?
+What happens when an exception occurs?
+```
+
+A simplified model is:
+
+```text
+Risk
+ ↓
+Control Objective
+ ↓
+Control Activity
+ ↓
+Owner
+ ↓
+Frequency
+ ↓
+Evidence
+ ↓
+Exception Handling
+```
+
+---
+
+# 8. Control Objective
+
+A control objective describes what the control is intended to achieve.
+
+For example:
+
+```text
+Risk:
+Unauthorized privileged access
+
+        ↓
+
+Control Objective:
+
+Ensure privileged access is authorized,
+appropriately restricted, periodically reviewed,
+and removed when no longer required.
+```
+
+The control objective provides the bridge between the risk and the actual control activity.
+
+---
+
+# 9. Control Activity
+
+The control activity describes what actually happens.
+
+For example:
+
+```text
+Control Objective
+       ↓
+Privileged Access Review
+       ↓
+Monthly Review
+       ↓
+Access Owner Approval
+       ↓
+Exceptions Identified
+       ↓
+Unauthorized Access Removed
+```
+
+A well-defined control activity should be sufficiently specific to allow consistent execution and testing.
+
+---
+
+# 10. Control Owner
+
+Every important control should have clearly defined ownership.
+
+```text
+                    CONTROL
+                       ↓
+                  CONTROL OWNER
+                       ↓
+        ┌──────────────┼──────────────┐
+        ↓              ↓              ↓
+     Execute         Monitor        Evidence
+      Control         Control        Control
+```
+
+The control owner may be responsible for ensuring that:
+
+```text
+Control operates
+Evidence is retained
+Exceptions are addressed
+Control remains appropriate
+Testing is supported
+Remediation is completed
+```
+
+Control ownership should not be confused with risk ownership.
+
+---
+
+# 11. Risk Owner vs Control Owner
+
+These roles may be different.
+
+```text
+                    RISK
+                     ↓
+                 RISK OWNER
+                     ↓
+              Risk Decision
+                     ↓
+                   CONTROL
+                     ↓
+               CONTROL OWNER
+                     ↓
+              Control Operation
+```
+
+For example:
+
+```text
+CISO / Business Executive
+        ↓
+Risk Owner
+
+IT Security Manager
+        ↓
+Control Owner
+```
+
+The exact organizational structure varies by organization.
+
+---
+
+# 12. Control Implementation
+
+Implementation converts the designed control into an operational capability.
+
+```text
+Control Design
+      ↓
+People
++
+Process
++
+Technology
+      ↓
+Implementation
+      ↓
+Operational Control
+```
+
+For example:
+
+```text
+MFA Control
+
+Policy
+ ↓
+MFA Standard
+ ↓
+Identity Platform Configuration
+ ↓
+User Enrollment
+ ↓
+Authentication Enforcement
+ ↓
+Monitoring
+```
+
+A control is not fully implemented simply because a policy has been approved.
+
+---
+
+# 13. People, Process, and Technology
+
+Many controls require all three dimensions.
+
+```text
+                 CONTROL
+                    ↓
+        ┌───────────┼───────────┐
+        ↓           ↓           ↓
+      PEOPLE      PROCESS    TECHNOLOGY
+        ↓           ↓           ↓
+     Training    Procedure    System
+     Ownership   Workflow     Configuration
+     Awareness   Approval     Monitoring
+```
+
+For example, an access-control process may require:
+
+```text
+People:
+Access Administrator
+
+Process:
+Access Request and Approval
+
+Technology:
+Identity and Access Management System
+```
+
+Weakness in any of these areas can reduce control effectiveness.
+
+---
+
+# 14. Control Documentation
+
+Controls should be appropriately documented.
+
+A control record may contain:
+
+```text
+Control ID
+Control Name
+Risk Addressed
+Control Objective
+Control Description
+Control Owner
+Frequency
+Control Type
+Systems / Processes
+Evidence
+Testing Method
+Exceptions
+Related Requirements
+```
+
+A simplified structure is:
+
+```text
+CONTROL RECORD
+      ↓
+Risk
+      ↓
+Objective
+      ↓
+Activity
+      ↓
+Owner
+      ↓
+Frequency
+      ↓
+Evidence
+      ↓
+Testing
+```
+
+---
+
+# 15. Control Frequency
+
+Controls may operate at different frequencies.
+
+Examples include:
+
+```text
+Continuous
+Real-Time
+Daily
+Weekly
+Monthly
+Quarterly
+Semi-Annual
+Annual
+Event-Driven
+```
+
+For example:
+
+```text
+MFA Enforcement
+     ↓
+Continuous
+
+Privileged Access Review
+     ↓
+Monthly
+
+Security Policy Review
+     ↓
+Annual
+```
+
+Frequency should be appropriate to the risk being addressed.
+
+---
+
+# 16. Preventive Controls
+
+Preventive controls are designed to prevent unwanted events from occurring.
+
+Examples include:
+
+```text
+MFA
+Network Segmentation
+Access Restrictions
+Secure Configuration
+Encryption
+Security Training
+```
+
+The model is:
+
+```text
+Threat
+  ↓
+Preventive Control
+  ↓
+Event Prevented / Reduced
+```
+
+For example:
+
+```text
+Unauthorized Login Attempt
+        ↓
+MFA
+        ↓
+Additional Authentication Required
+        ↓
+Unauthorized Access Prevented
+```
+
+---
+
+# 17. Detective Controls
+
+Detective controls identify events that have already occurred or conditions requiring attention.
+
+Examples include:
+
+```text
+SIEM Monitoring
+Log Review
+Security Alerts
+Vulnerability Scanning
+Access Reviews
+Intrusion Detection
+```
+
+The model is:
+
+```text
+Security Event
+      ↓
+Detective Control
+      ↓
+Detection
+      ↓
+Investigation
+```
+
+---
+
+# 18. Corrective Controls
+
+Corrective controls help restore an acceptable state after an event or control failure.
+
+Examples include:
+
+```text
+Incident Response
+Account Lockout
+Malware Removal
+System Recovery
+Configuration Correction
+Patch Deployment
+```
+
+The model is:
+
+```text
+Security Event
+      ↓
+Corrective Control
+      ↓
+Remediation
+      ↓
+Recovery
+```
+
+A mature control environment often uses multiple control types together.
+
+---
+
+# 19. Control Layering
+
+A security risk may require multiple controls.
+
+```text
+                     RISK
+                      ↓
+          ┌───────────┼───────────┐
+          ↓           ↓           ↓
+      Preventive    Detective   Corrective
+        Control      Control      Control
+          ↓           ↓           ↓
+          └───────────┼───────────┘
+                      ↓
+               Risk Reduction
+```
+
+For example:
+
+```text
+Unauthorized Access
+
+Preventive:
+MFA
+
+Detective:
+SIEM Monitoring
+
+Corrective:
+Account Disablement
+```
+
+Layering can increase resilience when one control fails.
+
+---
+
+# 20. Control Dependencies
+
+Some controls depend on other controls or technologies.
+
+For example:
+
+```text
+MFA Control
+     ↓
+Identity Platform
+     ↓
+User Directory
+     ↓
+Network Connectivity
+     ↓
+Authentication Service
+```
+
+If a foundational component fails, several dependent controls may also be affected.
+
+Therefore, control implementation should consider dependencies.
+
+---
+
+# 21. Control Implementation Dependencies
+
+A more complete model is:
+
+```text
+Business Process
+       ↓
+Application
+       ↓
+Identity
+       ↓
+Infrastructure
+       ↓
+Security Technology
+       ↓
+Control
+```
+
+For example:
+
+```text
+Customer Application
+       ↓
+Authentication Service
+       ↓
+Identity Provider
+       ↓
+MFA
+       ↓
+Access Control
+```
+
+This helps identify single points of failure and control dependencies.
+
+---
+
+# 22. Control Evidence
+
+Implementation should generate appropriate evidence.
+
+```text
+Control
+ ↓
+Control Activity
+ ↓
+Evidence
+```
+
+Examples include:
+
+```text
+Access Review Reports
+Approval Records
+Configuration Screenshots
+System Logs
+Vulnerability Reports
+Training Records
+Incident Tickets
+Meeting Records
+Audit Trails
+```
+
+Evidence should demonstrate that the control actually operated.
+
+---
+
+# 23. Control Evidence Lifecycle
+
+Evidence can be managed through its own lifecycle:
+
+```text
+Control Activity
+      ↓
+Evidence Generated
+      ↓
+Evidence Collected
+      ↓
+Evidence Reviewed
+      ↓
+Evidence Stored
+      ↓
+Evidence Retained
+      ↓
+Evidence Retrieved
+```
+
+This becomes particularly important during audits and assessments.
+
+---
+
+# 24. Control Testing
+
+After implementation, the control should be tested according to the organization's assurance methodology.
+
+```text
+Implemented Control
+       ↓
+Testing Objective
+       ↓
+Testing Procedure
+       ↓
+Evidence
+       ↓
+Test Results
+       ↓
+Effectiveness Assessment
+```
+
+Testing may evaluate:
+
+```text
+Design
+Implementation
+Operation
+Evidence
+Exceptions
+```
+
+---
+
+# 25. Control Implementation vs Control Effectiveness
+
+These concepts should not be confused.
+
+```text
+Implementation
+      ↓
+Does the control exist and operate?
+```
+
+versus:
+
+```text
+Effectiveness
+      ↓
+Does the control achieve its intended objective?
+```
+
+For example:
+
+```text
+Access Review Process
+        ↓
+Implemented?
+        ↓
+YES
+        ↓
+Does it identify inappropriate access?
+        ↓
+YES / NO
+        ↓
+Effectiveness Assessment
+```
+
+A control can therefore be implemented but ineffective.
+
+---
+
+# 26. Control Maturity
+
+Organizations may evaluate the maturity of control implementation.
+
+A simplified model could be:
+
+```text
+Level 1
+Ad Hoc
+   ↓
+Level 2
+Defined
+   ↓
+Level 3
+Implemented
+   ↓
+Level 4
+Measured
+   ↓
+Level 5
+Optimized
+```
+
+For example:
+
+```text
+Level 1:
+Access reviews performed inconsistently
+
+Level 3:
+Defined monthly access review process
+
+Level 4:
+Review completion and exceptions measured
+
+Level 5:
+Automated reviews with continuous monitoring
+```
+
+Maturity models should be adapted to the organization's GRC methodology.
+
+---
+
+# 27. Control Implementation Through the ISMS
+
+The relationship with the broader ISMS can be represented as:
+
+```text
+                    ISMS
+                     ↓
+              Risk Management
+                     ↓
+               Risk Treatment
+                     ↓
+            Control Requirements
+                     ↓
+               Control Design
+                     ↓
+             Control Implementation
+                     ↓
+                  Operation
+                     ↓
+                  Evidence
+                     ↓
+                   Testing
+                     ↓
+              Performance Review
+                     ↓
+                 Improvement
+```
+
+This demonstrates how controls fit within the overall management system.
+
+---
+
+# 28. Control Implementation and the SoA
+
+The Statement of Applicability can be used to maintain traceability.
+
+```text
+Risk
+ ↓
+Treatment
+ ↓
+Applicable Control
+ ↓
+SoA
+ ↓
+Control Implementation
+ ↓
+Evidence
+ ↓
+Testing
+```
+
+This allows an organization to demonstrate how selected controls are implemented and managed.
+
+---
+
+# 29. Example – Access Control
+
+Consider an organization implementing an access-control requirement.
+
+### Risk
+
+```text
+Unauthorized access to sensitive information
+```
+
+### Treatment
+
+```text
+Reduce Risk
+```
+
+### Control Objective
+
+```text
+Ensure only authorized users can access
+sensitive information.
+```
+
+### Control Design
+
+```text
+Access Request
+      ↓
+Manager Approval
+      ↓
+System Owner Approval
+      ↓
+Provision Access
+      ↓
+Periodic Review
+      ↓
+Remove Access When Required
+```
+
+### Implementation
+
+```text
+IAM Platform
++
+Approval Workflow
++
+Access Review Process
+```
+
+### Evidence
+
+```text
+Access Requests
+Approval Records
+Access Logs
+Review Reports
+Termination Records
+```
+
+### Testing
+
+```text
+Sample Access Requests
+       ↓
+Check Approvals
+       ↓
+Check Provisioning
+       ↓
+Check Reviews
+       ↓
+Check Removal
+```
+
+This creates end-to-end control traceability.
+
+---
+
+# 30. Example – Vulnerability Management Control
+
+```text
+Risk
+ ↓
+Exploitation of Vulnerabilities
+ ↓
+Risk Treatment
+ ↓
+Vulnerability Management Control
+ ↓
+Scanning
+ ↓
+Identification
+ ↓
+Risk Prioritization
+ ↓
+Remediation
+ ↓
+Validation
+ ↓
+Evidence
+ ↓
+Metrics
+ ↓
+Control Testing
+```
+
+This demonstrates how a technical security activity can become a governed GRC control.
+
+---
+
+# 31. Example – Security Awareness Control
+
+```text
+Risk:
+Human error / phishing
+
+        ↓
+
+Control Objective:
+Improve employee security awareness
+
+        ↓
+
+Control:
+Security awareness training
+
+        ↓
+
+Implementation:
+Training Platform
++
+Training Program
++
+Employee Assignment
+
+        ↓
+
+Evidence:
+Completion Records
++
+Assessment Results
+
+        ↓
+
+Testing:
+Review Completion
++
+Evaluate Exceptions
+```
+
+The control therefore connects people, process, technology, and evidence.
+
+---
+
+# 32. Control Implementation and Business Processes
+
+Controls should be integrated into business processes rather than treated as isolated cybersecurity activities.
+
+```text
+Business Process
+       ↓
+Business Activity
+       ↓
+Risk
+       ↓
+Control
+       ↓
+Control Activity
+       ↓
+Business Outcome
+```
+
+For example:
+
+```text
+Employee Onboarding
+       ↓
+Create User Account
+       ↓
+Access Risk
+       ↓
+Access Control
+       ↓
+Approval + Provisioning
+       ↓
+Authorized Access
+```
+
+This helps ensure that security controls support business operations.
+
+---
+
+# 33. Control Implementation Architecture
+
+A broader architecture can be visualized as:
+
+```text
+                     GOVERNANCE
+                         ↓
+                   RISK MANAGEMENT
+                         ↓
+                   CONTROL FRAMEWORK
+                         ↓
+          ┌──────────────┼──────────────┐
+          ↓              ↓              ↓
+        PEOPLE         PROCESS       TECHNOLOGY
+          ↓              ↓              ↓
+          └──────────────┼──────────────┘
+                         ↓
+                   CONTROL OPERATION
+                         ↓
+                      EVIDENCE
+                         ↓
+                    ASSURANCE
+                         ↓
+                    IMPROVEMENT
+```
+
+This illustrates that control implementation is an organizational capability rather than simply a technical configuration exercise.
+
+---
+
+# 34. Control Implementation Traceability
+
+A mature GRC environment should be able to trace:
+
+```text
+Business Objective
+       ↓
+Security Requirement
+       ↓
+Risk
+       ↓
+Risk Treatment
+       ↓
+Control
+       ↓
+Control Owner
+       ↓
+Control Activity
+       ↓
+Evidence
+       ↓
+Test
+       ↓
+Control Effectiveness
+       ↓
+Residual Risk
+```
+
+This traceability is particularly valuable during audits, certification assessments, regulatory reviews, and management reporting.
+
+---
+
+# 35. Control Implementation Dashboard
+
+Control implementation status can also be visualized for management.
+
+```text
+              CONTROL IMPLEMENTATION
+                       ↓
+        ┌──────────────┼──────────────┐
+        ↓              ↓              ↓
+    Implemented      In Progress    Not Started
+        ↓              ↓              ↓
+       80%            15%             5%
+```
+
+Additional indicators could include:
+
+```text
+Controls Implemented
+Controls Pending
+Controls With Exceptions
+Controls Without Evidence
+Controls Overdue
+Controls Under Remediation
+Controls Tested
+Controls Effective
+```
+
+This converts detailed implementation information into actionable GRC information.
+
+---
+
+# 36. Complete Control Implementation Model
+
+The complete model can be represented as:
+
+```text
+                         BUSINESS CONTEXT
+                                ↓
+                              RISK
+                                ↓
+                         RISK TREATMENT
+                                ↓
+                       CONTROL REQUIREMENT
+                                ↓
+                        CONTROL SELECTION
+                                ↓
+                         CONTROL OBJECTIVE
+                                ↓
+                          CONTROL DESIGN
+                                ↓
+                     PEOPLE + PROCESS + TECHNOLOGY
+                                ↓
+                     CONTROL IMPLEMENTATION
+                                ↓
+                         CONTROL OPERATION
+                                ↓
+                             EVIDENCE
+                                ↓
+                           CONTROL TESTING
+                                ↓
+                      EFFECTIVENESS ASSESSMENT
+                                ↓
+                         RESIDUAL RISK
+                                ↓
+                     MANAGEMENT / ASSURANCE
+                                ↓
+                          IMPROVEMENT
+                                ↺
+```
+
+The central principle is:
+
+> **ISO 27001 control implementation should translate risk treatment decisions into appropriately designed, assigned, implemented, operated, evidenced, and tested controls that reduce information-security risk to an acceptable level.**
+
+A mature implementation does not stop at **"the control exists."** It establishes a complete chain from **risk → control → implementation → evidence → testing → effectiveness → residual risk**, creating the traceability required for effective ISMS governance.
+
+
 
 

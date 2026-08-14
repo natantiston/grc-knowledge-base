@@ -2442,4 +2442,994 @@ How is the outcome validated?
 
 This transforms GRC from a **static repository of risks and controls** into an **integrated enterprise capability connecting governance, technology, operations, security, compliance, and business decision-making**.
 
+# 18.6 GRC Architecture and Integration Diagrams
+
+## Part 4 – GRC Architecture Governance, Security, and Operating Model
+
+A **GRC Architecture Operating Model** defines how the GRC architecture is governed, maintained, secured, monitored, and continuously improved.
+
+A GRC platform can be technically well designed but still fail if there is no clear ownership, governance, security, data management, or operating model.
+
+The overall model can be represented as:
+
+```text
+                 GRC ARCHITECTURE
+                       ↓
+        ┌──────────────┼──────────────┐
+        ↓              ↓              ↓
+   Governance         People         Process
+        ↓              ↓              ↓
+        └──────────────┼──────────────┘
+                       ↓
+                   Technology
+                       ↓
+                      Data
+                       ↓
+                  Integration
+                       ↓
+                  Monitoring
+                       ↓
+                Improvement
+                       ↺
+```
+
+### GRC Architecture Governance
+
+The organization should define who governs the GRC architecture.
+
+```text
+Board / Executive
+       ↓
+GRC Governance Committee
+       ↓
+GRC Leadership
+       ↓
+GRC Platform Owner
+       ↓
+GRC Process Owners
+       ↓
+Control / Risk Owners
+```
+
+Each level has a different responsibility.
+
+```text
+Board
+ ↓
+Oversight
+
+Executive
+ ↓
+Strategic Direction
+
+GRC Committee
+ ↓
+Governance Decisions
+
+GRC Team
+ ↓
+Operational Management
+
+Control Owners
+ ↓
+Control Execution
+```
+
+A clear governance structure prevents the GRC platform from becoming an isolated technology project.
+
+### GRC Roles and Responsibilities
+
+Important roles may include:
+
+```text
+GRC Executive Sponsor
+GRC Program Manager
+GRC Platform Owner
+Risk Manager
+Compliance Manager
+Control Owner
+Risk Owner
+Process Owner
+Data Owner
+System Administrator
+Security Administrator
+Internal Audit
+Business Owner
+```
+
+A simplified responsibility model is:
+
+```text
+Strategy
+   ↓
+Executive Sponsor
+
+Architecture
+   ↓
+GRC Platform Owner
+
+Risk
+   ↓
+Risk Owner
+
+Control
+   ↓
+Control Owner
+
+Data
+   ↓
+Data Owner
+
+Assurance
+   ↓
+Internal Audit
+```
+
+Responsibilities should be formally defined.
+
+A RACI model can help:
+
+```text
+Activity
+   ↓
+Responsible
+Accountable
+Consulted
+Informed
+```
+
+For example:
+
+```text
+Risk Assessment
+
+Responsible:
+GRC Team
+
+Accountable:
+Risk Owner
+
+Consulted:
+Security / Business
+
+Informed:
+Management
+```
+
+### GRC Architecture Standards
+
+The organization should establish architecture standards.
+
+```text
+Architecture Principles
+        ↓
+Design Standards
+        ↓
+Integration Standards
+        ↓
+Data Standards
+        ↓
+Security Standards
+        ↓
+Implementation
+```
+
+Architecture principles may include:
+
+```text
+Single Source of Truth
+Data Quality
+Security by Design
+Least Privilege
+Interoperability
+Scalability
+Auditability
+Traceability
+Automation
+Standardization
+```
+
+For example:
+
+```text
+Principle:
+Single Source of Truth
+
+Requirement:
+Risk records must be maintained in the approved GRC platform.
+
+Result:
+Avoid duplicate risk databases.
+```
+
+Another example:
+
+```text
+Principle:
+Least Privilege
+
+Requirement:
+GRC users receive only the access required for their role.
+```
+
+### GRC Platform Security
+
+The GRC platform itself must be treated as a critical business application.
+
+```text
+GRC Platform
+      ↓
+Security Controls
+      ↓
+Access Management
+      ↓
+Logging
+      ↓
+Monitoring
+      ↓
+Audit
+```
+
+Security controls may include:
+
+```text
+Authentication
+MFA
+RBAC
+Privileged Access Management
+Encryption
+Logging
+Monitoring
+Backup
+Vulnerability Management
+Secure Configuration
+```
+
+A basic access architecture is:
+
+```text
+User
+ ↓
+Identity Provider
+ ↓
+Authentication
+ ↓
+Authorization
+ ↓
+GRC Role
+ ↓
+Permitted Functions
+```
+
+### Role-Based Access Control
+
+GRC systems often contain sensitive information.
+
+Therefore access should be based on roles.
+
+```text
+GRC Administrator
+       ↓
+Platform Configuration
+
+GRC Analyst
+       ↓
+Risk / Compliance Management
+
+Control Owner
+       ↓
+Assigned Controls
+
+Auditor
+       ↓
+Read / Audit Access
+
+Executive
+       ↓
+Dashboard / Reporting
+```
+
+The principle is:
+
+```text
+Role
+ ↓
+Permission
+ ↓
+Access
+```
+
+Rather than:
+
+```text
+User
+ ↓
+Everything
+```
+
+This supports **least privilege** and **segregation of duties**.
+
+### Segregation of Duties
+
+Certain GRC activities should not be controlled entirely by one individual.
+
+For example:
+
+```text
+Request
+  ↓
+Review
+  ↓
+Approval
+  ↓
+Implementation
+  ↓
+Validation
+```
+
+Different people may perform each stage.
+
+For example:
+
+```text
+Risk Owner
+    ↓
+Requests Risk Acceptance
+
+GRC
+    ↓
+Reviews
+
+Management
+    ↓
+Approves
+
+GRC
+    ↓
+Monitors
+```
+
+This reduces the possibility of conflicts of interest.
+
+### GRC Data Governance
+
+GRC data should be governed like other important enterprise data.
+
+```text
+GRC Data
+   ↓
+Classification
+   ↓
+Ownership
+   ↓
+Quality
+   ↓
+Retention
+   ↓
+Protection
+   ↓
+Monitoring
+```
+
+Important GRC data may include:
+
+```text
+Risk Records
+Audit Findings
+Compliance Gaps
+Security Findings
+Vendor Assessments
+Exceptions
+Control Evidence
+Management Reports
+```
+
+Data classification may determine how information is protected.
+
+```text
+Public
+Internal
+Confidential
+Restricted
+```
+
+The exact classification model depends on the organization.
+
+### GRC Data Lifecycle
+
+GRC records should have a defined lifecycle.
+
+```text
+Create
+  ↓
+Review
+  ↓
+Approve
+  ↓
+Use
+  ↓
+Update
+  ↓
+Archive
+  ↓
+Dispose
+```
+
+For example, a risk record:
+
+```text
+Risk Identified
+      ↓
+Risk Created
+      ↓
+Assessment
+      ↓
+Treatment
+      ↓
+Monitoring
+      ↓
+Review
+      ↓
+Closed
+      ↓
+Archived
+```
+
+This prevents uncontrolled accumulation of obsolete GRC records.
+
+### GRC Integration Governance
+
+Integrations should also be governed.
+
+```text
+Integration Request
+       ↓
+Architecture Review
+       ↓
+Security Review
+       ↓
+Data Assessment
+       ↓
+Approval
+       ↓
+Implementation
+       ↓
+Testing
+       ↓
+Production
+       ↓
+Monitoring
+```
+
+Every important integration should have an owner.
+
+```text
+Integration
+    ↓
+Technical Owner
+    ↓
+Business Owner
+    ↓
+Data Owner
+```
+
+Integration documentation should include:
+
+```text
+Source System
+Target System
+Data Elements
+Data Frequency
+Interface Type
+Authentication
+Data Owner
+Technical Owner
+Error Handling
+Monitoring
+```
+
+### API Security
+
+When APIs are used to connect GRC systems, the API itself must be protected.
+
+```text
+Application
+    ↓
+Authentication
+    ↓
+Authorization
+    ↓
+API
+    ↓
+GRC
+```
+
+Security controls may include:
+
+```text
+API Authentication
+Token Management
+Encryption
+Rate Limiting
+Input Validation
+Logging
+Monitoring
+Access Control
+```
+
+The integration should also avoid exposing unnecessary data.
+
+```text
+Source Data
+     ↓
+Required Data Only
+     ↓
+GRC
+```
+
+This follows the principle of **data minimization**.
+
+### GRC Change Management
+
+Changes to the GRC platform should follow controlled change management.
+
+```text
+Change Request
+      ↓
+Impact Assessment
+      ↓
+Risk Assessment
+      ↓
+Testing
+      ↓
+Approval
+      ↓
+Implementation
+      ↓
+Validation
+```
+
+For example:
+
+```text
+New GRC Workflow
+       ↓
+Development
+       ↓
+Testing
+       ↓
+User Acceptance Testing
+       ↓
+Approval
+       ↓
+Production
+       ↓
+Monitoring
+```
+
+This prevents uncontrolled changes from affecting critical GRC processes.
+
+### GRC Configuration Management
+
+Configuration should be controlled.
+
+Important configuration elements include:
+
+```text
+Risk Scoring
+Workflows
+Approval Rules
+Escalation Rules
+Control Libraries
+Frameworks
+Roles
+Permissions
+Dashboards
+Notifications
+Integrations
+```
+
+A change to risk scoring, for example, can affect thousands of risk records.
+
+```text
+Risk Model Change
+       ↓
+Impact Assessment
+       ↓
+Testing
+       ↓
+Approval
+       ↓
+Implementation
+       ↓
+Risk Recalculation
+```
+
+Therefore configuration changes can have significant governance implications.
+
+### GRC Business Continuity
+
+The GRC platform should also be included in business continuity planning where it is critical to organizational operations.
+
+```text
+GRC Platform
+      ↓
+Business Impact Analysis
+      ↓
+Criticality
+      ↓
+Recovery Requirement
+      ↓
+Backup
+      ↓
+Disaster Recovery
+      ↓
+Testing
+```
+
+Important considerations include:
+
+```text
+Availability
+Backup
+Recovery Time Objective
+Recovery Point Objective
+Data Replication
+Disaster Recovery
+Failover
+Recovery Testing
+```
+
+The exact requirements depend on the organization's business impact analysis.
+
+### GRC Backup and Recovery
+
+A simplified recovery process is:
+
+```text
+GRC Data
+   ↓
+Backup
+   ↓
+Secure Storage
+   ↓
+Recovery
+   ↓
+Validation
+   ↓
+GRC Platform
+```
+
+Recovery should be tested rather than assumed.
+
+```text
+Backup Exists
+      ≠
+Backup Can Be Successfully Restored
+```
+
+Therefore:
+
+```text
+Backup
+  ↓
+Recovery Test
+  ↓
+Validation
+  ↓
+Improvement
+```
+
+### GRC Monitoring
+
+The GRC environment itself should be monitored.
+
+```text
+GRC Platform
+      ↓
+Monitoring
+      ↓
+Performance
+Security
+Data Quality
+Integrations
+Workflow
+Availability
+      ↓
+Alerts
+      ↓
+Action
+```
+
+Examples of GRC monitoring metrics include:
+
+```text
+Open Risks
+Overdue Risks
+Overdue Findings
+Control Testing Completion
+Exception Expiration
+Audit Finding Closure
+Vendor Assessment Completion
+Policy Review Status
+Integration Failures
+```
+
+These metrics can feed a GRC dashboard.
+
+```text
+GRC Data
+   ↓
+Metrics
+   ↓
+Dashboard
+   ↓
+Trend Analysis
+   ↓
+Management Action
+```
+
+### GRC Architecture Performance
+
+The organization should measure whether the GRC architecture itself is effective.
+
+Possible metrics include:
+
+```text
+Risk Assessment Completion
+Control Testing Completion
+Issue Closure Rate
+Average Remediation Time
+Exception Aging
+Audit Finding Closure
+Vendor Assessment Completion
+Policy Review Completion
+Data Quality
+Integration Availability
+```
+
+For example:
+
+```text
+Control Testing Target: 95%
+Actual:                 97%
+
+        ↓
+
+Performance Acceptable
+```
+
+Or:
+
+```text
+Critical Findings:
+Target < 5
+
+Actual: 14
+
+        ↓
+
+Management Escalation
+```
+
+### GRC Architecture Maturity
+
+The organization can assess the maturity of its GRC architecture.
+
+```text
+Level 1
+Fragmented
+   ↓
+Level 2
+Developing
+   ↓
+Level 3
+Standardized
+   ↓
+Level 4
+Integrated
+   ↓
+Level 5
+Optimized
+```
+
+At a fragmented level:
+
+```text
+Separate Spreadsheets
+Separate Risk Registers
+Manual Evidence
+Manual Reporting
+Limited Integration
+```
+
+At a standardized level:
+
+```text
+Common Methodology
+Common Controls
+Defined Processes
+Central Repository
+```
+
+At an integrated level:
+
+```text
+GRC Platform
+      ↕
+ITSM
+      ↕
+CMDB
+      ↕
+IAM
+      ↕
+Security Tools
+      ↕
+Business Systems
+```
+
+At an optimized level:
+
+```text
+Integrated Data
+      ↓
+Automation
+      ↓
+Continuous Monitoring
+      ↓
+Analytics
+      ↓
+Predictive Risk Intelligence
+      ↓
+Continuous Improvement
+```
+
+### Enterprise GRC Architecture
+
+A mature enterprise architecture can be represented as:
+
+```text
+                         BOARD
+                           ↓
+                    EXECUTIVE MANAGEMENT
+                           ↓
+                    GRC GOVERNANCE
+                           ↓
+        ┌──────────────────┼──────────────────┐
+        ↓                  ↓                  ↓
+       RISK            COMPLIANCE            AUDIT
+        ↓                  ↓                  ↓
+        └──────────────────┼──────────────────┘
+                           ↓
+                       GRC PLATFORM
+                           ↓
+        ┌──────────────────┼──────────────────┐
+        ↓                  ↓                  ↓
+      PEOPLE            PROCESS           TECHNOLOGY
+        ↓                  ↓                  ↓
+        └──────────────────┼──────────────────┘
+                           ↓
+                        DATA
+                           ↓
+        ┌──────────────────┼──────────────────┐
+        ↓                  ↓                  ↓
+       HR                 IT                SECURITY
+        ↓                  ↓                  ↓
+        └──────────────────┼──────────────────┘
+                           ↓
+                       INTEGRATION
+                           ↓
+                     REPORTING / BI
+                           ↓
+                    MANAGEMENT DECISION
+                           ↓
+                     ACTION / CHANGE
+                           ↓
+                       MONITORING
+                           ↺
+```
+
+The architecture should ultimately create a continuous relationship between **governance and operations**.
+
+```text
+Strategy
+   ↓
+Governance
+   ↓
+Risk
+   ↓
+Controls
+   ↓
+Operations
+   ↓
+Data
+   ↓
+Monitoring
+   ↓
+Management Information
+   ↓
+Decision
+   ↓
+Improvement
+   ↺
+```
+
+The key principle is:
+
+> **A successful GRC architecture is not simply a software implementation. It is an operating model that combines governance, people, processes, technology, data, security, integration, accountability, and continuous improvement.**
+
+A mature GRC professional should therefore evaluate a GRC architecture from multiple perspectives:
+
+```text
+Governance
+    ↓
+Are responsibilities clear?
+
+Risk
+    ↓
+Are risks properly identified and managed?
+
+Compliance
+    ↓
+Are requirements mapped and monitored?
+
+Controls
+    ↓
+Are controls effective?
+
+Data
+    ↓
+Is GRC information accurate and traceable?
+
+Technology
+    ↓
+Is the platform secure and scalable?
+
+Integration
+    ↓
+Are systems properly connected?
+
+People
+    ↓
+Are ownership and accountability clear?
+
+Assurance
+    ↓
+Can the organization demonstrate effectiveness?
+
+Improvement
+    ↓
+Is the GRC environment continuously improving?
+```
+
+The complete operating model can therefore be summarized as:
+
+```text
+                 GOVERNANCE
+                     ↓
+             PEOPLE + PROCESS
+                     ↓
+                  TECHNOLOGY
+                     ↓
+                    DATA
+                     ↓
+                INTEGRATION
+                     ↓
+              GRC OPERATIONS
+                     ↓
+             RISK / COMPLIANCE
+                     ↓
+                 ASSURANCE
+                     ↓
+                REPORTING
+                     ↓
+               MANAGEMENT
+                     ↓
+                  DECISION
+                     ↓
+                IMPROVEMENT
+                     ↺
+```
+
+This completes **18.6 – GRC Architecture and Integration Diagrams**.
 

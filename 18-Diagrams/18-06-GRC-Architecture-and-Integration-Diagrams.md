@@ -689,6 +689,848 @@ A mature GRC professional should therefore be able to visualize the organization
                            ↺
 ```
 
-This architecture provides the foundation for the next parts of **18.6**, where the focus can move deeper into **GRC system integration, data flows, application interfaces, and enterprise architecture relationships**.
+# 18.6 GRC Architecture and Integration Diagrams
+
+## Part 2 – GRC Architecture Components and Relationships
+
+A GRC architecture is made up of interconnected components that allow an organization to manage **governance, risk, compliance, controls, policies, issues, audits, third parties, and reporting** in a coordinated manner.
+
+The purpose of this architecture is to establish clear relationships between organizational objectives, risks, requirements, controls, evidence, and management decisions.
+
+A basic GRC relationship can be represented as:
+
+```text
+Business Objective
+       ↓
+Risk
+       ↓
+Control
+       ↓
+Evidence
+       ↓
+Assessment
+       ↓
+Finding
+       ↓
+Remediation
+       ↓
+Validation
+```
+
+The architecture can be divided into several major components:
+
+```text
+                    GRC ARCHITECTURE
+                           ↓
+       ┌───────────────────┼───────────────────┐
+       ↓                   ↓                   ↓
+  Governance              Risk             Compliance
+       ↓                   ↓                   ↓
+    Policies            Controls          Requirements
+       └───────────────────┼───────────────────┘
+                           ↓
+                      GRC Platform
+                           ↓
+       ┌───────────────────┼───────────────────┐
+       ↓                   ↓                   ↓
+     Audit               Issues              Vendors
+       ↓                   ↓                   ↓
+       └───────────────────┼───────────────────┘
+                           ↓
+                      Reporting
+                           ↓
+                     Management
+```
+
+### Governance Component
+
+Governance establishes the organization's direction, authority, accountability, and decision-making structure.
+
+```text
+Board
+  ↓
+Executive Management
+  ↓
+Governance Committees
+  ↓
+Policies
+  ↓
+Standards
+  ↓
+Procedures
+  ↓
+Operational Activities
+```
+
+Governance determines:
+
+```text
+Who makes decisions?
+Who owns risk?
+Who approves exceptions?
+Who owns controls?
+Who monitors compliance?
+Who provides assurance?
+Who receives reports?
+```
+
+A governance relationship can therefore be represented as:
+
+```text
+Authority
+   ↓
+Responsibility
+   ↓
+Accountability
+   ↓
+Decision
+   ↓
+Oversight
+```
+
+### Risk Management Component
+
+Risk management identifies and evaluates uncertainty that may affect organizational objectives.
+
+```text
+Business Objective
+       ↓
+Risk Identification
+       ↓
+Risk Analysis
+       ↓
+Risk Evaluation
+       ↓
+Risk Treatment
+       ↓
+Residual Risk
+       ↓
+Monitoring
+```
+
+The risk component connects directly with controls.
+
+```text
+Risk
+ ↓
+Control Objective
+ ↓
+Control
+ ↓
+Control Effectiveness
+ ↓
+Residual Risk
+```
+
+This relationship is fundamental to GRC.
+
+A control should exist because it addresses a risk, requirement, or business objective.
+
+```text
+Risk
+ ↓
+Why do we need the control?
+
+Control
+ ↓
+What are we doing about the risk?
+
+Evidence
+ ↓
+How do we know the control operates?
+
+Assessment
+ ↓
+Is the control effective?
+```
+
+### Compliance Component
+
+Compliance management translates external and internal obligations into manageable requirements.
+
+```text
+Regulation
+Standard
+Contract
+Policy
+Customer Requirement
+       ↓
+Compliance Requirement
+       ↓
+Control Mapping
+       ↓
+Evidence
+       ↓
+Assessment
+       ↓
+Compliance Status
+```
+
+An organization may have many requirements.
+
+```text
+External Requirements
+        ↓
+Internal Requirements
+        ↓
+Contractual Requirements
+        ↓
+Regulatory Requirements
+        ↓
+GRC Requirement Library
+```
+
+These requirements can then be mapped to common controls.
+
+```text
+Requirement A ──┐
+Requirement B ──┤
+Requirement C ──┼──→ Common Control
+Requirement D ──┤
+Requirement E ──┘
+```
+
+This prevents duplicate control activities.
+
+### Policy Management Component
+
+Policies establish organizational expectations.
+
+```text
+Business Strategy
+      ↓
+Policy
+      ↓
+Standard
+      ↓
+Procedure
+      ↓
+Control
+      ↓
+Operational Activity
+```
+
+For example:
+
+```text
+Information Security Policy
+          ↓
+Access Control Standard
+          ↓
+User Access Procedure
+          ↓
+Access Review Control
+          ↓
+Access Certification
+```
+
+The relationship can therefore be:
+
+```text
+Policy
+  ↓
+Standard
+  ↓
+Procedure
+  ↓
+Control
+  ↓
+Evidence
+```
+
+Policy management should also include lifecycle management.
+
+```text
+Draft
+ ↓
+Review
+ ↓
+Approval
+ ↓
+Publication
+ ↓
+Communication
+ ↓
+Implementation
+ ↓
+Periodic Review
+ ↓
+Revision
+ ↺
+```
+
+### Control Management Component
+
+Control management is one of the central elements of GRC.
+
+A control can be connected to multiple objects.
+
+```text
+                 Risk
+                  ↓
+Requirement → CONTROL ← Policy
+                  ↓
+               Process
+                  ↓
+                Owner
+                  ↓
+               Evidence
+                  ↓
+               Testing
+```
+
+A control record may contain:
+
+```text
+Control ID
+Control Name
+Control Objective
+Description
+Control Owner
+Frequency
+Control Type
+Risk Addressed
+Requirements Mapped
+Evidence Required
+Testing Method
+Effectiveness
+```
+
+Controls can also be classified.
+
+```text
+Controls
+   ↓
+Preventive
+Detective
+Corrective
+Directive
+Compensating
+```
+
+They can also be categorized by implementation.
+
+```text
+Manual
+Automated
+Hybrid
+```
+
+This classification helps determine how controls should be tested and monitored.
+
+### Risk-Control-Requirement Relationship
+
+One of the most important relationships in a GRC architecture is:
+
+```text
+Requirement
+      ↓
+Control
+      ↓
+Risk
+```
+
+But the relationship can also work in the opposite direction:
+
+```text
+Risk
+ ↓
+Required Control
+ ↓
+Requirement
+```
+
+A mature GRC architecture maintains these relationships.
+
+For example:
+
+```text
+Risk:
+Unauthorized Access
+
+        ↓
+
+Control:
+Periodic Access Review
+
+        ↓
+
+Requirements:
+ISO 27001
+Customer Security Requirement
+Internal Security Policy
+```
+
+This allows one control to support several requirements.
+
+### Audit Component
+
+Audit provides independent assurance over governance, risk, and control effectiveness.
+
+```text
+Audit Plan
+    ↓
+Audit Scope
+    ↓
+Assessment
+    ↓
+Evidence
+    ↓
+Finding
+    ↓
+Management Response
+    ↓
+Remediation
+    ↓
+Validation
+    ↓
+Closure
+```
+
+Audit should connect back to risk.
+
+```text
+Enterprise Risk
+      ↓
+Audit Universe
+      ↓
+Risk-Based Audit Plan
+      ↓
+Audit
+      ↓
+Findings
+```
+
+This ensures that audit resources focus on areas of greater importance.
+
+Audit findings can then feed the risk management process.
+
+```text
+Audit Finding
+      ↓
+Risk Assessment
+      ↓
+Risk Updated
+      ↓
+Treatment
+      ↓
+Monitoring
+```
+
+### Issue and Remediation Component
+
+GRC architecture should provide a structured mechanism for managing issues.
+
+```text
+Issue
+ ↓
+Owner
+ ↓
+Root Cause
+ ↓
+Remediation Plan
+ ↓
+Due Date
+ ↓
+Evidence
+ ↓
+Validation
+ ↓
+Closure
+```
+
+Issues may originate from:
+
+```text
+Audit
+Assessment
+Incident
+Control Testing
+Risk Assessment
+Compliance Review
+Vendor Assessment
+Regulatory Review
+```
+
+All of these can feed into a common issue-management process.
+
+```text
+Audit ────────┐
+Incident ────┤
+Assessment ──┤
+Risk ────────┼──→ ISSUE MANAGEMENT
+Vendor ──────┤
+Compliance ──┘
+```
+
+### Exception Management Component
+
+Exceptions provide controlled deviations from established requirements or controls.
+
+```text
+Requirement
+      ↓
+Exception Request
+      ↓
+Business Justification
+      ↓
+Risk Assessment
+      ↓
+Compensating Control
+      ↓
+Approval
+      ↓
+Expiration
+      ↓
+Review
+```
+
+An exception should be linked to the original requirement or control.
+
+```text
+Requirement
+     ↓
+Control
+     ↓
+Exception
+     ↓
+Risk
+     ↓
+Approval
+     ↓
+Expiration
+```
+
+This creates traceability.
+
+### Third-Party Risk Component
+
+Third-party risk management extends the GRC architecture outside the organization's direct boundaries.
+
+```text
+Vendor
+  ↓
+Classification
+  ↓
+Risk Tier
+  ↓
+Due Diligence
+  ↓
+Assessment
+  ↓
+Contract Requirements
+  ↓
+Monitoring
+  ↓
+Reassessment
+```
+
+The vendor component can connect to:
+
+```text
+Procurement
+Contracts
+Legal
+Privacy
+Security
+Risk
+Compliance
+Business Owner
+```
+
+A typical relationship is:
+
+```text
+Business Owner
+       ↓
+Vendor
+       ↓
+Contract
+       ↓
+Risk Assessment
+       ↓
+Security / Privacy Controls
+       ↓
+Monitoring
+```
+
+### Asset and Configuration Component
+
+Technology assets provide important context for cybersecurity risk.
+
+```text
+Asset
+ ↓
+Business Service
+ ↓
+Criticality
+ ↓
+Owner
+ ↓
+Risk
+ ↓
+Controls
+```
+
+For example:
+
+```text
+Critical Database
+       ↓
+High Business Criticality
+       ↓
+High Risk
+       ↓
+Enhanced Security Controls
+       ↓
+Continuous Monitoring
+```
+
+The GRC architecture should therefore be capable of connecting assets to risks and controls.
+
+```text
+Asset
+  ↓
+Risk
+  ↓
+Control
+  ↓
+Evidence
+  ↓
+Assessment
+```
+
+### People and Ownership Component
+
+GRC cannot operate without clearly defined ownership.
+
+Important roles include:
+
+```text
+Board
+Executive
+Risk Owner
+Control Owner
+Process Owner
+Compliance Officer
+GRC Analyst
+Internal Auditor
+Security Team
+Business Owner
+Vendor Owner
+```
+
+These relationships can be represented as:
+
+```text
+Risk
+ ↓
+Risk Owner
+
+Control
+ ↓
+Control Owner
+
+Business Process
+ ↓
+Process Owner
+
+Requirement
+ ↓
+Compliance Owner
+```
+
+This creates accountability.
+
+### Evidence Component
+
+Evidence supports the organization's ability to demonstrate that controls operate effectively.
+
+```text
+Control
+   ↓
+Evidence Requirement
+   ↓
+Evidence Collection
+   ↓
+Evidence Review
+   ↓
+Assessment
+```
+
+Evidence may originate from:
+
+```text
+IT Systems
+Security Tools
+Reports
+Logs
+Tickets
+Screenshots
+Documents
+Configurations
+Contracts
+Assessments
+```
+
+The GRC architecture should maintain a relationship between evidence and the control being assessed.
+
+```text
+Control
+  ↓
+Evidence
+  ↓
+Test
+  ↓
+Result
+```
+
+### Reporting and Analytics Component
+
+Information from the different GRC components should ultimately support reporting and decision-making.
+
+```text
+Risk
+Compliance
+Controls
+Audit
+Issues
+Vendors
+Exceptions
+       ↓
+GRC Data
+       ↓
+Analytics
+       ↓
+Dashboards
+       ↓
+Management Reports
+       ↓
+Decision
+```
+
+Different stakeholders require different levels of information.
+
+```text
+Board
+ ↓
+Strategic Risk / Major Issues
+
+Executive
+ ↓
+Risk / Compliance / Performance
+
+GRC Team
+ ↓
+Detailed Operational Data
+
+Control Owner
+ ↓
+Assigned Tasks / Evidence
+
+Auditor
+ ↓
+Evidence / Testing / Findings
+```
+
+The same underlying GRC data can therefore support multiple views.
+
+### GRC Component Relationship Model
+
+A complete relationship model can be represented as:
+
+```text
+                    BUSINESS OBJECTIVES
+                            ↓
+                         GOVERNANCE
+                            ↓
+                         POLICIES
+                            ↓
+                     REQUIREMENTS
+                            ↓
+                           RISKS
+                            ↓
+                         CONTROLS
+                            ↓
+                         PROCESSES
+                            ↓
+                          EVIDENCE
+                            ↓
+                         TESTING
+                            ↓
+                         FINDINGS
+                            ↓
+                       REMEDIATION
+                            ↓
+                         VALIDATION
+                            ↓
+                         MONITORING
+                            ↺
+```
+
+At the same time, cross-functional relationships exist:
+
+```text
+                ┌───────────────┐
+                │   BUSINESS    │
+                └───────┬───────┘
+                        ↓
+              ┌─────────────────┐
+              │   GOVERNANCE    │
+              └────────┬────────┘
+                       ↓
+        ┌──────────────┼──────────────┐
+        ↓              ↓              ↓
+      RISK        COMPLIANCE         AUDIT
+        ↓              ↓              ↓
+        └──────────────┼──────────────┘
+                       ↓
+                    CONTROLS
+                       ↓
+                 GRC PLATFORM
+                       ↓
+       ┌───────────────┼───────────────┐
+       ↓               ↓               ↓
+    ISSUES          VENDORS          EXCEPTIONS
+       └───────────────┼───────────────┘
+                       ↓
+                   REPORTING
+                       ↓
+                  MANAGEMENT
+```
+
+The key principle is:
+
+> **A GRC architecture is valuable when its components are connected through clearly defined relationships, allowing the organization to trace business objectives to risks, requirements, controls, evidence, findings, remediation, and management decisions.**
+
+The ultimate objective is not simply to maintain separate GRC records.
+
+It is to create a connected chain:
+
+```text
+Business Objective
+        ↓
+Requirement
+        ↓
+Risk
+        ↓
+Control
+        ↓
+Evidence
+        ↓
+Assessment
+        ↓
+Finding
+        ↓
+Remediation
+        ↓
+Validation
+        ↓
+Management Decision
+        ↓
+Continuous Improvement
+```
+
+This connected architecture becomes the foundation for **GRC integration, automation, dashboards, risk intelligence, auditability, and enterprise-wide governance**.
 
 

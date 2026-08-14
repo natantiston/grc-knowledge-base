@@ -2153,4 +2153,1159 @@ The fundamental principle is:
 
 > **A strong GRC environment should be able to explain why a control exists, what objective it supports, how it operates, who owns it, what evidence it produces, and how its effectiveness is demonstrated.**
 
+## 18.5 Control Framework Diagrams
+
+### Part 3 – Preventive, Detective, and Corrective Controls
+
+Controls can be classified according to **when and how they respond to risk**.
+
+One of the most fundamental control classifications in GRC and cybersecurity is:
+
+```text
+Preventive Controls
+        ↓
+Detective Controls
+        ↓
+Corrective Controls
+```
+
+These three categories represent different points in the risk event lifecycle.
+
+A simplified model is:
+
+```text
+              RISK EVENT
+                  ↓
+        ┌─────────┼─────────┐
+        ↓         ↓         ↓
+    PREVENT     DETECT    CORRECT
+        ↓         ↓         ↓
+    Stop the   Identify   Restore /
+     event      event     remediate
+```
+
+A mature control environment generally uses a **combination** of all three.
+
+---
+
+# 1. Preventive Controls
+
+Preventive controls are designed to **prevent an undesirable event from occurring** or reduce the likelihood of occurrence.
+
+The basic model is:
+
+```text
+Threat / Risk
+     ↓
+Preventive Control
+     ↓
+Event Prevented
+```
+
+Examples include:
+
+```text
+Access restrictions
+Multi-factor authentication
+Network segmentation
+Security policies
+Segregation of duties
+Change approvals
+Encryption
+Secure configuration
+Input validation
+Firewalls
+```
+
+For example:
+
+```text
+Unauthorized Access Attempt
+          ↓
+        MFA
+          ↓
+   Authentication Failed
+          ↓
+    Access Prevented
+```
+
+The control operates **before or at the point of the risk event**.
+
+---
+
+# Preventive Control Model
+
+```text
+              THREAT
+                ↓
+          Potential Event
+                ↓
+        ┌───────────────┐
+        │   PREVENTIVE  │
+        │    CONTROL    │
+        └───────────────┘
+                ↓
+          Event Blocked
+```
+
+The objective is to reduce the probability that the undesirable event will occur.
+
+---
+
+# Example – Access Management
+
+Consider unauthorized access to a critical application.
+
+```text
+User
+ ↓
+Login Attempt
+ ↓
+Authentication
+ ↓
+MFA
+ ↓
+Authorization
+ ↓
+Access Granted / Denied
+```
+
+MFA and authorization mechanisms are preventive controls because they attempt to stop unauthorized access before it occurs.
+
+---
+
+# Example – Change Management
+
+A change to a production system may introduce operational or security risk.
+
+A preventive control could require approval before implementation.
+
+```text
+Change Request
+      ↓
+Risk Assessment
+      ↓
+Approval Required
+      ↓
+Approved?
+   ↙       ↘
+ No         Yes
+ ↓           ↓
+Reject     Implement
+```
+
+The approval process prevents unauthorized or insufficiently assessed changes from being implemented.
+
+---
+
+# Example – Segregation of Duties
+
+Segregation of duties prevents one individual from having excessive control over a sensitive process.
+
+```text
+Request
+   ↓
+Employee A
+   ↓
+Approval
+   ↓
+Employee B
+   ↓
+Execution
+```
+
+The separation reduces the opportunity for unauthorized activity.
+
+---
+
+# Preventive Controls in Cybersecurity
+
+Common preventive cybersecurity controls include:
+
+```text
+Firewall
+        ↓
+Blocks unauthorized network traffic
+
+MFA
+        ↓
+Prevents unauthorized authentication
+
+Encryption
+        ↓
+Protects information if accessed
+
+Network Segmentation
+        ↓
+Limits unauthorized movement
+
+Least Privilege
+        ↓
+Limits unnecessary access
+
+Secure Configuration
+        ↓
+Reduces exploitable weaknesses
+```
+
+Preventive controls are therefore an important component of defense-in-depth.
+
+---
+
+# 2. Detective Controls
+
+Detective controls are designed to **identify an event, violation, failure, or deviation after or while it occurs**.
+
+The basic model is:
+
+```text
+Risk Event
+    ↓
+Detective Control
+    ↓
+Detection
+    ↓
+Investigation / Response
+```
+
+Examples include:
+
+```text
+Security monitoring
+SIEM alerts
+Audit logs
+Access reviews
+Vulnerability scans
+Fraud monitoring
+Reconciliation
+Intrusion detection
+Compliance monitoring
+Security assessments
+```
+
+---
+
+# Detective Control Model
+
+```text
+              RISK EVENT
+                  ↓
+              Occurrence
+                  ↓
+        ┌─────────────────┐
+        │    DETECTIVE    │
+        │     CONTROL     │
+        └─────────────────┘
+                  ↓
+              Detection
+                  ↓
+             Investigation
+```
+
+Unlike preventive controls, detective controls generally do not stop the original event.
+
+Their purpose is to **discover that something happened or that something is wrong**.
+
+---
+
+# Example – SIEM Monitoring
+
+Consider a compromised user account.
+
+```text
+Compromised Account
+       ↓
+Suspicious Login
+       ↓
+SIEM
+       ↓
+Alert
+       ↓
+SOC Investigation
+```
+
+The SIEM may not prevent the initial compromise.
+
+Instead, it detects suspicious activity so that the organization can respond.
+
+---
+
+# Example – Access Review
+
+Periodic access review is another detective control.
+
+```text
+Existing User Access
+        ↓
+Periodic Review
+        ↓
+Excessive Access Identified
+        ↓
+Investigation
+        ↓
+Access Removed
+```
+
+The review detects inappropriate access that may already exist.
+
+---
+
+# Example – Vulnerability Scanning
+
+```text
+System
+  ↓
+Vulnerability Scan
+  ↓
+Vulnerability Detected
+  ↓
+Risk Assessment
+  ↓
+Remediation
+```
+
+The scanning process detects weaknesses.
+
+The actual remediation may be performed through another control.
+
+---
+
+# Example – Financial Reconciliation
+
+Detective controls are not limited to cybersecurity.
+
+For example:
+
+```text
+Transaction Records
+       ↓
+Bank Records
+       ↓
+Reconciliation
+       ↓
+Difference Identified
+       ↓
+Investigation
+```
+
+The reconciliation detects discrepancies that may indicate error or fraud.
+
+---
+
+# 3. Corrective Controls
+
+Corrective controls are designed to **correct an identified problem, reduce its impact, restore normal operations, or prevent recurrence**.
+
+The basic model is:
+
+```text
+Incident / Failure
+       ↓
+Corrective Control
+       ↓
+Remediation
+       ↓
+Recovery
+       ↓
+Normal Operation
+```
+
+Examples include:
+
+```text
+Incident response
+System restoration
+Backup recovery
+Patch deployment
+Account removal
+Configuration correction
+Malware removal
+Disaster recovery
+Corrective action plans
+```
+
+---
+
+# Corrective Control Model
+
+```text
+              INCIDENT
+                 ↓
+              Detection
+                 ↓
+        ┌─────────────────┐
+        │   CORRECTIVE    │
+        │     CONTROL     │
+        └─────────────────┘
+                 ↓
+             Remediation
+                 ↓
+              Recovery
+                 ↓
+          Normal Operation
+```
+
+Corrective controls therefore operate **after a problem has been identified**.
+
+---
+
+# Example – Malware Infection
+
+Consider a malware infection.
+
+```text
+Malware
+   ↓
+Endpoint Detection
+   ↓
+Alert
+   ↓
+Investigation
+   ↓
+Malware Confirmed
+   ↓
+Isolation
+   ↓
+Malware Removal
+   ↓
+System Restoration
+```
+
+In this example:
+
+```text
+EDR Detection
+     ↓
+Detective Control
+
+Endpoint Isolation
+     ↓
+Containment / Corrective Response
+
+Malware Removal
+     ↓
+Corrective Control
+
+System Restoration
+     ↓
+Recovery Control
+```
+
+A single incident may therefore involve multiple control types.
+
+---
+
+# Preventive + Detective + Corrective Model
+
+The three control types work together.
+
+```text
+                 THREAT
+                   ↓
+          ┌─────────────────┐
+          │    PREVENTIVE   │
+          │     CONTROL     │
+          └─────────────────┘
+                   ↓
+             Event Occurs?
+                ↙     ↘
+              No       Yes
+              ↓         ↓
+           Prevented  DETECTIVE
+                       CONTROL
+                          ↓
+                       Alert
+                          ↓
+                    CORRECTIVE
+                      CONTROL
+                          ↓
+                      Recovery
+                          ↓
+                    Improvement
+```
+
+This demonstrates why relying on a single type of control can create weaknesses.
+
+---
+
+# Defense-in-Depth Perspective
+
+A mature cybersecurity environment often layers controls.
+
+```text
+Threat
+  ↓
+Preventive Control
+  ↓
+Preventive Control
+  ↓
+Event
+  ↓
+Detective Control
+  ↓
+Alert
+  ↓
+Corrective Control
+  ↓
+Recovery
+```
+
+For example:
+
+```text
+                CYBER ATTACK
+                     ↓
+          Firewall / MFA / IAM
+             PREVENTIVE
+                     ↓
+                If Bypassed
+                     ↓
+             SIEM / EDR / IDS
+               DETECTIVE
+                     ↓
+                  Alert
+                     ↓
+          Incident Response
+               CORRECTIVE
+                     ↓
+               Recovery
+```
+
+The objective is to ensure that if one control fails, another layer provides protection or detection.
+
+---
+
+# Control Classification by Timing
+
+Another way to visualize the three categories is according to **when the control acts**.
+
+```text
+BEFORE EVENT
+     ↓
+PREVENTIVE
+     ↓
+────────────────────────
+     ↓
+DURING / AFTER EVENT
+     ↓
+DETECTIVE
+     ↓
+────────────────────────
+     ↓
+AFTER DETECTION
+     ↓
+CORRECTIVE
+```
+
+A simplified timeline is:
+
+```text
+        BEFORE              DURING              AFTER
+          │                   │                   │
+          ↓                   ↓                   ↓
+     PREVENTIVE           DETECTIVE           CORRECTIVE
+          │                   │                   │
+          ↓                   ↓                   ↓
+      Block Risk          Identify Event      Fix Problem
+```
+
+The exact timing can vary depending on the control.
+
+Some controls can have characteristics of more than one category.
+
+---
+
+# Preventive vs Detective vs Corrective
+
+| Control Type | Primary Purpose      | Typical Timing     | Example            |
+| ------------ | -------------------- | ------------------ | ------------------ |
+| Preventive   | Prevent an event     | Before event       | MFA                |
+| Detective    | Identify an event    | During/after event | SIEM monitoring    |
+| Corrective   | Remediate or recover | After detection    | System restoration |
+
+The categories should not be treated as mutually exclusive in every situation.
+
+A control can sometimes provide multiple functions.
+
+---
+
+# Example – Firewall
+
+A firewall is primarily preventive:
+
+```text
+Malicious Traffic
+       ↓
+Firewall
+       ↓
+Blocked
+```
+
+However, firewall logs can also provide detective information:
+
+```text
+Malicious Traffic
+       ↓
+Firewall
+       ↓
+Blocked
+       ↓
+Log Generated
+       ↓
+SIEM
+       ↓
+Alert
+```
+
+Therefore:
+
+```text
+Firewall Blocking
+       ↓
+Preventive Function
+
+Firewall Logging
+       ↓
+Detective Capability
+```
+
+This demonstrates why classification should consider the **specific control activity and objective**, rather than simply the technology name.
+
+---
+
+# Example – Antivirus / EDR
+
+Endpoint security technology may perform multiple functions.
+
+```text
+Malware
+  ↓
+Detection
+  ↓
+Alert
+  ↓
+Automatic Isolation
+  ↓
+Removal
+```
+
+The components may include:
+
+```text
+Detection
+    ↓
+Detective
+
+Automatic Blocking
+    ↓
+Preventive
+
+Isolation / Removal
+    ↓
+Corrective
+```
+
+Therefore, one technology can support multiple control objectives.
+
+---
+
+# Example – Backup
+
+Backup controls are often associated with recovery.
+
+```text
+Data Loss
+    ↓
+Backup
+    ↓
+Restore
+    ↓
+Recovery
+```
+
+The backup itself does not necessarily prevent data loss.
+
+Instead, it reduces the **impact** of data loss by allowing recovery.
+
+It therefore supports a corrective/recovery function.
+
+A stronger control environment may combine:
+
+```text
+Preventive
+   ↓
+Access Control
+
+Detective
+   ↓
+Data Loss Monitoring
+
+Corrective
+   ↓
+Backup and Recovery
+```
+
+---
+
+# Control Categories and Risk Treatment
+
+Preventive, detective, and corrective controls can also be connected to risk treatment.
+
+```text
+Risk
+ ↓
+Control Strategy
+ ↓
+┌──────────────┬──────────────┬──────────────┐
+↓              ↓              ↓
+Prevent       Detect         Correct
+↓              ↓              ↓
+Reduce        Identify       Reduce
+Likelihood    Event          Impact
+```
+
+This demonstrates that controls can reduce risk in different ways.
+
+---
+
+# Control Categories and Risk
+
+Consider the risk:
+
+> Ransomware compromises a critical server.
+
+A layered control environment could be:
+
+```text
+Risk
+ ↓
+Ransomware Attack
+ ↓
+──────────────────────────────
+PREVENTIVE
+ ↓
+Endpoint Protection
+Network Segmentation
+MFA
+Secure Configuration
+──────────────────────────────
+DETECTIVE
+ ↓
+EDR
+SIEM
+Threat Monitoring
+──────────────────────────────
+CORRECTIVE
+ ↓
+Isolation
+Malware Removal
+Backup Restoration
+──────────────────────────────
+Residual Risk
+```
+
+The organization is not relying on a single security mechanism.
+
+---
+
+# Control Failure Scenario
+
+A mature control framework should consider what happens if a preventive control fails.
+
+```text
+Preventive Control
+       ↓
+      FAILS
+       ↓
+Risk Event
+       ↓
+Detective Control
+       ↓
+Detection
+       ↓
+Corrective Control
+       ↓
+Recovery
+```
+
+For example:
+
+```text
+MFA
+ ↓
+Compromised Account
+ ↓
+SIEM Detects Unusual Login
+ ↓
+SOC Alert
+ ↓
+Account Disabled
+ ↓
+Credentials Reset
+ ↓
+Investigation
+```
+
+This is a practical example of layered control design.
+
+---
+
+# Compensating Controls
+
+Sometimes the preferred control cannot be implemented.
+
+A **compensating control** may then be used to reduce the risk through another mechanism.
+
+For example:
+
+```text
+Required Control
+      ↓
+Cannot Be Implemented
+      ↓
+Risk Assessment
+      ↓
+Compensating Control
+      ↓
+Residual Risk
+      ↓
+Management Approval
+```
+
+For example:
+
+```text
+Primary Control:
+MFA
+
+Constraint:
+Legacy system does not support MFA
+
+Compensating Controls:
+Restricted network access
++
+Privileged access monitoring
++
+Additional authentication mechanism
++
+Enhanced logging
+```
+
+The compensating control should provide an appropriate level of risk reduction.
+
+---
+
+# Control Redundancy
+
+Multiple controls may address the same risk.
+
+```text
+                 RISK
+                  ↓
+       ┌──────────┼──────────┐
+       ↓          ↓          ↓
+      MFA       Firewall     SIEM
+       ↓          ↓          ↓
+       └──────────┼──────────┘
+                  ↓
+            Risk Reduction
+```
+
+This redundancy can increase resilience.
+
+However, organizations should also avoid unnecessary duplication.
+
+---
+
+# Control Rationalization
+
+A mature GRC program periodically reviews controls to determine whether they are:
+
+```text
+Necessary
+Effective
+Duplicated
+Obsolete
+Overlapping
+Cost-Effective
+Risk-Aligned
+```
+
+For example:
+
+```text
+Control A ─┐
+Control B ─┼──→ Same Risk
+Control C ─┘
+```
+
+The organization may discover that several controls perform substantially the same function.
+
+Control rationalization can reduce:
+
+* Administrative effort
+* Testing effort
+* Evidence collection
+* Duplicate controls
+* Unnecessary cost
+
+while maintaining appropriate risk coverage.
+
+---
+
+# Mapping Control Types to Evidence
+
+Each control type produces different evidence.
+
+### Preventive Control Evidence
+
+```text
+MFA Configuration
+Firewall Rules
+Access Approvals
+Security Configuration
+Change Approval
+Encryption Configuration
+```
+
+### Detective Control Evidence
+
+```text
+SIEM Alerts
+Monitoring Reports
+Access Review Reports
+Vulnerability Scan Results
+Security Logs
+Fraud Detection Reports
+```
+
+### Corrective Control Evidence
+
+```text
+Incident Tickets
+Remediation Records
+Patch Records
+Recovery Reports
+System Restoration Tests
+Corrective Action Plans
+```
+
+This relationship can be represented as:
+
+```text
+Control Type
+     ↓
+Control Activity
+     ↓
+Evidence
+     ↓
+Testing
+```
+
+---
+
+# Control Testing by Control Type
+
+Testing procedures should reflect the nature of the control.
+
+### Preventive Control
+
+Test whether the control prevents the intended activity.
+
+```text
+MFA Control
+   ↓
+Attempt Authentication
+   ↓
+MFA Required?
+   ↓
+Pass / Fail
+```
+
+### Detective Control
+
+Test whether the control detects the intended event.
+
+```text
+Monitoring Control
+   ↓
+Generate / Identify Test Event
+   ↓
+Alert Generated?
+   ↓
+Pass / Fail
+```
+
+### Corrective Control
+
+Test whether the control successfully remediates or recovers.
+
+```text
+Recovery Control
+   ↓
+Perform Recovery Test
+   ↓
+System Restored?
+   ↓
+Pass / Fail
+```
+
+This ensures testing is aligned with the control's purpose.
+
+---
+
+# Control Type and Business Resilience
+
+The three categories can also support organizational resilience.
+
+```text
+PREVENT
+   ↓
+Reduce likelihood
+
+DETECT
+   ↓
+Reduce detection time
+
+CORRECT
+   ↓
+Reduce impact / recovery time
+```
+
+Together:
+
+```text
+         RESILIENCE
+             ↑
+   ┌─────────┼─────────┐
+   ↑         ↑         ↑
+Prevent    Detect    Correct
+   ↑         ↑         ↑
+Reduce     Reduce    Reduce
+Likelihood  Delay    Impact
+```
+
+This is especially important for critical business services.
+
+---
+
+# Practical GRC Example
+
+Consider a payment processing system.
+
+### Preventive
+
+```text
+MFA
++
+Segregation of Duties
++
+Transaction Limits
++
+Secure Coding
+```
+
+### Detective
+
+```text
+Transaction Monitoring
++
+SIEM
++
+Fraud Detection
++
+Audit Logging
+```
+
+### Corrective
+
+```text
+Account Blocking
++
+Transaction Reversal
++
+Incident Response
++
+System Recovery
+```
+
+The overall model becomes:
+
+```text
+                    PAYMENT SYSTEM
+                          ↓
+          ┌───────────────┼───────────────┐
+          ↓               ↓               ↓
+      PREVENTIVE       DETECTIVE       CORRECTIVE
+          ↓               ↓               ↓
+       Prevent          Detect          Remediate
+          ↓               ↓               ↓
+          └───────────────┼───────────────┘
+                          ↓
+                    Risk Reduction
+                          ↓
+                    Business Resilience
+```
+
+---
+
+# Management Perspective
+
+Executives should not only ask:
+
+> "Do we have controls?"
+
+They should ask:
+
+```text
+Do we have preventive controls?
+        ↓
+Can we detect when prevention fails?
+        ↓
+Can we respond and correct the problem?
+        ↓
+Can we recover?
+        ↓
+Can we learn and improve?
+```
+
+This creates a more mature view of control effectiveness.
+
+---
+
+# Integrated Control Model
+
+A mature control environment can therefore be visualized as:
+
+```text
+                         RISK
+                          ↓
+              ┌───────────┴───────────┐
+              ↓                       ↓
+         PREVENTIVE                DETECTIVE
+           CONTROLS                 CONTROLS
+              ↓                       ↓
+        Reduce Likelihood          Detect Event
+              ↓                       ↓
+              └───────────┬───────────┘
+                          ↓
+                     RISK EVENT
+                          ↓
+                    CORRECTIVE
+                      CONTROLS
+                          ↓
+                     Remediation
+                          ↓
+                       Recovery
+                          ↓
+                    Lessons Learned
+                          ↓
+                  Control Improvement
+                          ↺
+```
+
+The key principle is that **preventive, detective, and corrective controls should work as an integrated system rather than as isolated control categories**.
+
+A strong GRC control framework seeks to prevent important events where possible, detect failures quickly when prevention is unsuccessful, and correct or recover from those failures while reducing the likelihood of recurrence.
+
 

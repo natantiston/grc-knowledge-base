@@ -1902,4 +1902,1602 @@ A mature organization should be able to answer a fundamental GRC question at any
 
 > **“What third parties create material risk to our organization, what controls are in place, what evidence demonstrates their effectiveness, and who is accountable for the remaining risk?”**
 
+# 18.12 Third-Party Risk Management Diagrams
+
+## Part 2 – Supplier Due Diligence Process
+
+Supplier due diligence is the process of gathering, validating, and evaluating information about a third party before the organization enters into, or materially expands, a business relationship.
+
+From a GRC perspective, due diligence should answer four fundamental questions:
+
+```text
+Who is the supplier?
+        ↓
+What will the supplier do?
+        ↓
+What risks does the relationship create?
+        ↓
+Can those risks be adequately managed?
+```
+
+A mature supplier due diligence process is **risk-based**. A low-risk supplier should not be subjected to the same level of scrutiny as a cloud provider processing sensitive customer information or a managed service provider with privileged access to critical systems.
+
+A simplified process is:
+
+```text
+Supplier Identified
+       ↓
+Business Context
+       ↓
+Risk Classification
+       ↓
+Due Diligence Scope
+       ↓
+Information Request
+       ↓
+Evidence Collection
+       ↓
+Evidence Validation
+       ↓
+Risk Analysis
+       ↓
+Control Gap Assessment
+       ↓
+Residual Risk
+       ↓
+Risk Treatment / Acceptance
+       ↓
+Approval Decision
+       ↓
+Onboarding
+```
+
+---
+
+# 1. Purpose of Supplier Due Diligence
+
+The primary objective is to understand the risks associated with a supplier **before the organization becomes dependent on that supplier**.
+
+Due diligence helps identify risks involving:
+
+```text
+Cybersecurity
+Privacy
+Compliance
+Business Continuity
+Financial Stability
+Operational Resilience
+Reputation
+Legal Exposure
+Geographic Exposure
+Subcontractors
+Concentration Risk
+```
+
+The process therefore supports informed business and risk decisions.
+
+---
+
+# 2. Supplier Due Diligence in the GRC Lifecycle
+
+Supplier due diligence sits between supplier identification and formal risk treatment.
+
+```text
+Business Need
+      ↓
+Supplier Selection
+      ↓
+Initial Screening
+      ↓
+Supplier Due Diligence
+      ↓
+Risk Assessment
+      ↓
+Risk Treatment
+      ↓
+Contract
+      ↓
+Onboarding
+```
+
+Due diligence provides the evidence required to perform a meaningful risk assessment.
+
+---
+
+# 3. Risk-Based Due Diligence
+
+The level of due diligence should correspond to supplier risk.
+
+A simplified model is:
+
+```text
+Low Risk
+   ↓
+Basic Screening
+
+Moderate Risk
+   ↓
+Standard Due Diligence
+
+High Risk
+   ↓
+Enhanced Due Diligence
+
+Critical Supplier
+   ↓
+Enhanced + Independent Assurance
+```
+
+This prevents the TPRM function from applying unnecessary effort to low-risk suppliers while ensuring material suppliers receive sufficient scrutiny.
+
+---
+
+# 4. Supplier Risk Tiering
+
+Before issuing a detailed questionnaire, the organization should determine the supplier's risk tier.
+
+Possible tiers include:
+
+```text
+Tier 1 – Critical
+Tier 2 – High
+Tier 3 – Moderate
+Tier 4 – Low
+```
+
+The tier can determine:
+
+```text
+Assessment Depth
+Evidence Requirements
+Approval Level
+Review Frequency
+Monitoring Intensity
+Contractual Requirements
+```
+
+---
+
+# 5. Initial Supplier Screening
+
+Initial screening can be performed using a relatively small set of questions.
+
+For example:
+
+```text
+Does the supplier process sensitive data?
+Does the supplier access internal systems?
+Does the supplier have privileged access?
+Does the supplier support a critical service?
+Is the supplier subject to regulatory requirements?
+Does the supplier use subcontractors?
+Does the supplier operate internationally?
+Would supplier failure materially affect the organization?
+```
+
+The answers determine whether enhanced due diligence is required.
+
+---
+
+# 6. Business Context
+
+Due diligence should begin with understanding the business relationship.
+
+The organization should document:
+
+```text
+Business Service
+Supplier Service
+Business Owner
+Expected Contract Duration
+Criticality
+Users
+Systems
+Data
+Locations
+Dependencies
+```
+
+This provides context for interpreting the supplier's controls.
+
+---
+
+# 7. Service Description
+
+The supplier should clearly describe the services being provided.
+
+For example:
+
+```text
+Supplier
+   ↓
+Cloud Hosting
+   ↓
+Application Hosting
+   ↓
+Database Services
+   ↓
+Customer Data Processing
+```
+
+The more complex the service, the more important it becomes to understand its architecture and dependencies.
+
+---
+
+# 8. Data Due Diligence
+
+The organization should identify what information the supplier will access, process, transmit, or store.
+
+Potential categories include:
+
+```text
+Public Data
+Internal Data
+Confidential Data
+Personal Data
+Financial Data
+Authentication Data
+Customer Data
+Intellectual Property
+Security Data
+```
+
+The sensitivity of the data should influence the depth of due diligence.
+
+---
+
+# 9. System Access Assessment
+
+Supplier access should be explicitly documented.
+
+A simple model is:
+
+```text
+No Access
+   ↓
+Limited Application Access
+   ↓
+System Access
+   ↓
+Administrative Access
+   ↓
+Privileged Access
+```
+
+A supplier with privileged access should generally receive enhanced security scrutiny.
+
+---
+
+# 10. Geographic Assessment
+
+The organization should understand where the supplier operates and where data is processed.
+
+```text
+Supplier Headquarters
+        ↓
+Service Location
+        ↓
+Data Processing Location
+        ↓
+Support Location
+        ↓
+Subcontractor Location
+```
+
+Geographic considerations may affect:
+
+```text
+Privacy
+Data Transfers
+Regulatory Compliance
+Legal Jurisdiction
+Geopolitical Risk
+Operational Resilience
+```
+
+---
+
+# 11. Supplier Ownership and Corporate Structure
+
+Due diligence should establish who owns and controls the supplier.
+
+Information may include:
+
+```text
+Legal Entity
+Ownership
+Parent Company
+Subsidiaries
+Major Acquisitions
+Corporate Structure
+Ultimate Ownership
+```
+
+This becomes particularly important when dealing with large multinational suppliers or complex corporate structures.
+
+---
+
+# 12. Financial Due Diligence
+
+Financial instability can create operational risk.
+
+Possible information includes:
+
+```text
+Financial Statements
+Revenue
+Profitability
+Liquidity
+Credit Rating
+Debt
+Market Position
+Bankruptcy Indicators
+```
+
+The objective is not necessarily to perform a complete financial audit but to determine whether the supplier presents material financial continuity risk.
+
+---
+
+# 13. Legal and Regulatory Due Diligence
+
+The organization may review:
+
+```text
+Legal Disputes
+Regulatory Actions
+Licensing
+Applicable Regulations
+Sanctions Screening
+Contractual Restrictions
+Compliance History
+```
+
+This can help identify legal or regulatory exposure associated with the supplier.
+
+---
+
+# 14. Reputation Due Diligence
+
+Reputational issues can become organizational risks.
+
+Potential sources of concern include:
+
+```text
+Major Security Incidents
+Regulatory Enforcement
+Fraud Allegations
+Repeated Service Failures
+Public Controversies
+Unethical Business Practices
+Significant Customer Complaints
+```
+
+The organization should assess whether such issues could affect its own reputation or stakeholder confidence.
+
+---
+
+# 15. Cybersecurity Questionnaire
+
+A cybersecurity questionnaire is one of the most common due diligence mechanisms.
+
+It may cover:
+
+```text
+Security Governance
+Access Management
+MFA
+Encryption
+Vulnerability Management
+Patch Management
+Security Monitoring
+Logging
+Incident Response
+Secure Development
+Backup
+Business Continuity
+Security Testing
+```
+
+The questionnaire should be proportionate to the supplier's risk.
+
+---
+
+# 16. Security Governance Assessment
+
+Questions may examine whether the supplier has:
+
+```text
+Information Security Policy
+Security Governance Structure
+Security Leadership
+Risk Management Process
+Security Awareness Program
+Internal Audit
+Security Metrics
+Security Incident Management
+```
+
+Relevant evidence might include:
+
+```text
+Security Policies
+Organization Chart
+Risk Reports
+Security Program Documentation
+Audit Reports
+```
+
+---
+
+# 17. Identity and Access Management
+
+Supplier access controls should be examined carefully.
+
+The assessment may cover:
+
+```text
+MFA
+Least Privilege
+Privileged Access Management
+Joiner-Mover-Leaver Process
+Access Reviews
+Service Accounts
+Password Management
+Remote Access
+```
+
+A simplified control model is:
+
+```text
+User
+ ↓
+Authentication
+ ↓
+Authorization
+ ↓
+Least Privilege
+ ↓
+Monitoring
+ ↓
+Periodic Review
+```
+
+---
+
+# 18. Data Protection and Encryption
+
+Due diligence should determine how the supplier protects data.
+
+Questions may include:
+
+```text
+Is data encrypted in transit?
+Is data encrypted at rest?
+How are encryption keys managed?
+Who can access the keys?
+How are backups protected?
+How is sensitive data segregated?
+```
+
+Evidence may include security architecture documentation and relevant certifications or independent assurance reports.
+
+---
+
+# 19. Vulnerability Management
+
+The supplier should demonstrate how it identifies and addresses vulnerabilities.
+
+A simplified process is:
+
+```text
+Identify Vulnerability
+       ↓
+Assess Severity
+       ↓
+Prioritize
+       ↓
+Remediate
+       ↓
+Validate
+       ↓
+Monitor
+```
+
+For higher-risk suppliers, the organization may request evidence of vulnerability scanning, penetration testing, or remediation practices.
+
+---
+
+# 20. Security Monitoring
+
+The supplier's ability to detect suspicious activity should be assessed.
+
+Controls may include:
+
+```text
+Security Monitoring
+SIEM
+SOC
+Threat Detection
+Log Management
+Alerting
+Endpoint Detection
+Network Monitoring
+```
+
+The objective is to determine whether the supplier can detect and respond to security events affecting the organization's services or information.
+
+---
+
+# 21. Incident Response Due Diligence
+
+The organization should understand how the supplier handles incidents.
+
+A simplified model is:
+
+```text
+Detection
+   ↓
+Analysis
+   ↓
+Containment
+   ↓
+Eradication
+   ↓
+Recovery
+   ↓
+Notification
+   ↓
+Lessons Learned
+```
+
+Important questions include:
+
+```text
+How quickly must the supplier notify us?
+Who receives the notification?
+How are incidents escalated?
+How is evidence preserved?
+How are customers informed?
+```
+
+---
+
+# 22. Business Continuity Due Diligence
+
+For important suppliers, the organization should evaluate business continuity capabilities.
+
+Questions may include:
+
+```text
+Does the supplier have a BCP?
+Does it have a DR plan?
+What are its RTO and RPO?
+How frequently are plans tested?
+Are critical facilities redundant?
+Are alternative suppliers available?
+```
+
+The supplier's resilience should align with the organization's own recovery requirements.
+
+---
+
+# 23. Disaster Recovery Evidence
+
+Possible evidence includes:
+
+```text
+DR Plan
+Recovery Procedures
+DR Test Report
+RTO / RPO Documentation
+Recovery Architecture
+Backup Strategy
+Failover Test Results
+```
+
+The organization should distinguish between:
+
+**Claim:**
+
+> "We have a disaster recovery plan."
+
+and:
+
+**Evidence:**
+
+> A recent recovery exercise demonstrating that critical services were successfully recovered within defined objectives.
+
+Evidence provides stronger assurance than statements alone.
+
+---
+
+# 24. Privacy Due Diligence
+
+Where personal data is involved, privacy assessment should address:
+
+```text
+Data Categories
+Processing Purpose
+Data Subjects
+Processing Locations
+Retention
+Deletion
+Subprocessors
+International Transfers
+Data Subject Rights
+Security Measures
+Incident Management
+```
+
+The supplier's privacy responsibilities should be clearly established.
+
+---
+
+# 25. Subprocessor Assessment
+
+Suppliers may rely on subcontractors or subprocessors.
+
+The organization should determine:
+
+```text
+Who Are the Subprocessors?
+What Services Do They Provide?
+What Data Do They Access?
+Where Are They Located?
+What Controls Do They Have?
+How Are They Monitored?
+```
+
+A simplified chain is:
+
+```text
+Organization
+      ↓
+Supplier
+      ↓
+Subprocessor
+      ↓
+Service / Data
+```
+
+For critical services, visibility into important downstream dependencies can be essential.
+
+---
+
+# 26. Certifications and Independent Assurance
+
+Supplier certifications can provide useful evidence.
+
+Examples include:
+
+```text
+ISO/IEC 27001
+ISO 22301
+ISO/IEC 27701
+SOC 1
+SOC 2
+PCI DSS
+```
+
+However, certification should not automatically be treated as proof that every relevant risk is adequately controlled.
+
+The organization should evaluate:
+
+```text
+Scope
+Validity
+Expiration
+Control Coverage
+Applicability
+Exceptions
+Audit Findings
+```
+
+---
+
+# 27. Scope Verification
+
+A common GRC mistake is accepting a certificate without checking its scope.
+
+For example:
+
+```text
+Supplier
+   ↓
+ISO 27001 Certificate
+   ↓
+Check Scope
+   ↓
+Does Scope Cover Our Service?
+   ↓
+Yes / No
+```
+
+A supplier may have an ISO 27001 certificate covering only a specific business unit, location, or service.
+
+Therefore, **scope matters**.
+
+---
+
+# 28. SOC Report Review
+
+Where a supplier provides a SOC report, reviewers should consider:
+
+```text
+Report Type
+Reporting Period
+Systems Covered
+Control Objectives
+Testing Performed
+Exceptions
+Complementary User Entity Controls
+```
+
+A SOC report should be evaluated in the context of the organization's specific requirements.
+
+---
+
+# 29. Penetration Testing Evidence
+
+For higher-risk technology suppliers, penetration testing evidence may provide additional assurance.
+
+The review may consider:
+
+```text
+Testing Scope
+Testing Date
+Methodology
+Critical Findings
+High Findings
+Remediation Status
+Retesting
+```
+
+The organization should avoid requesting sensitive technical details unnecessarily and should define secure evidence-handling procedures.
+
+---
+
+# 30. Supplier Questionnaire Response
+
+A typical questionnaire lifecycle is:
+
+```text
+Questionnaire Issued
+       ↓
+Supplier Completes
+       ↓
+Evidence Attached
+       ↓
+GRC Review
+       ↓
+Clarification Questions
+       ↓
+Validation
+       ↓
+Risk Assessment
+```
+
+The questionnaire should not become a purely administrative exercise.
+
+The objective is to obtain meaningful risk information.
+
+---
+
+# 31. Evidence Validation
+
+Evidence should be evaluated for:
+
+```text
+Authenticity
+Relevance
+Currency
+Scope
+Completeness
+Applicability
+```
+
+For example:
+
+```text
+Supplier Provides Certificate
+        ↓
+Check Issuing Organization
+        ↓
+Check Expiration
+        ↓
+Check Scope
+        ↓
+Check Service Coverage
+        ↓
+Accept as Evidence
+```
+
+---
+
+# 32. Evidence Age
+
+Evidence should be sufficiently current for the risk being assessed.
+
+For example:
+
+```text
+Old Evidence
+     ↓
+May Not Represent
+Current Controls
+```
+
+Therefore, assessment methodology should define acceptable evidence age where appropriate.
+
+---
+
+# 33. Control Gap Assessment
+
+The organization compares required controls with available supplier controls.
+
+```text
+Required Control
+       ↓
+Supplier Control
+       ↓
+Evidence
+       ↓
+Effective?
+       ↓
+Yes / No / Partial
+```
+
+This identifies gaps requiring treatment.
+
+---
+
+# 34. Supplier Risk Scoring
+
+A risk scoring model may combine:
+
+```text
+Business Criticality
+Data Sensitivity
+System Access
+Regulatory Exposure
+Security Posture
+Resilience
+Financial Risk
+Geographic Risk
+```
+
+For example:
+
+```text
+Risk Score
+    =
+Impact × Likelihood
+```
+
+The exact methodology should be defined by the organization's enterprise risk framework.
+
+---
+
+# 35. Inherent Risk vs. Residual Risk
+
+Due diligence should distinguish between the two.
+
+```text
+                 INHERENT RISK
+                      ↓
+               Supplier Exposure
+                      ↓
+              Supplier Controls
+                      ↓
+             Control Effectiveness
+                      ↓
+                RESIDUAL RISK
+```
+
+This distinction prevents organizations from assuming that a supplier with strong controls has no risk.
+
+---
+
+# 36. Risk Treatment Decision
+
+Following assessment:
+
+```text
+Residual Risk
+      ↓
+Compare With Risk Appetite
+      ↓
+Within Appetite?
+   ↙           ↘
+ Yes            No
+ ↓               ↓
+Approve      Treat / Transfer /
+             Avoid / Accept
+```
+
+The decision should be documented.
+
+---
+
+# 37. Risk Acceptance
+
+If the organization accepts residual risk, the acceptance should normally identify:
+
+```text
+Risk
+Risk Owner
+Business Justification
+Risk Level
+Expiration / Review Date
+Compensating Controls
+Approval Authority
+```
+
+This creates accountability for the decision.
+
+---
+
+# 38. Contractual Risk Treatment
+
+Some identified risks can be addressed through contractual requirements.
+
+For example:
+
+```text
+Risk
+ ↓
+Contractual Requirement
+ ↓
+Supplier Obligation
+ ↓
+Monitoring
+ ↓
+Evidence
+```
+
+Examples include:
+
+```text
+Incident Notification
+Audit Rights
+Security Requirements
+Data Deletion
+Business Continuity
+Subprocessor Notification
+```
+
+---
+
+# 39. Supplier Due Diligence Approval
+
+A formal approval model may look like:
+
+```text
+Due Diligence Complete
+        ↓
+Risk Assessment
+        ↓
+Findings Identified
+        ↓
+Treatment / Acceptance
+        ↓
+Business Owner Approval
+        ↓
+Risk / GRC Approval
+        ↓
+Security / Privacy / Legal Approval
+        ↓
+Supplier Approved
+```
+
+The exact approval chain depends on organizational governance.
+
+---
+
+# 40. Conditional Approval
+
+Not every supplier needs to be fully risk-free before onboarding.
+
+An organization may provide conditional approval when:
+
+```text
+Residual Risk Is Known
+        +
+Remediation Plan Exists
+        +
+Risk Owner Accepts
+        +
+Due Dates Are Defined
+```
+
+For example:
+
+```text
+Supplier Approved
+      ↓
+Condition:
+Implement MFA Within 60 Days
+      ↓
+Monitoring
+      ↓
+Validation
+```
+
+This should not become a mechanism for indefinitely postponing critical remediation.
+
+---
+
+# 41. Supplier Due Diligence Exceptions
+
+Exceptions may occur when:
+
+```text
+Supplier Cannot Provide Evidence
+Legacy Supplier
+Emergency Procurement
+Unique Technology
+Limited Market Alternatives
+```
+
+Exceptions should be documented and risk-assessed rather than ignored.
+
+---
+
+# 42. Emergency Supplier Onboarding
+
+Sometimes a business cannot wait for the full due diligence process.
+
+A controlled emergency process may be:
+
+```text
+Urgent Business Need
+       ↓
+Initial Risk Screening
+       ↓
+Temporary Approval
+       ↓
+Minimum Security Controls
+       ↓
+Service Activation
+       ↓
+Full Due Diligence
+       ↓
+Final Approval
+```
+
+Emergency processes should have defined time limits and governance.
+
+---
+
+# 43. Due Diligence and Procurement
+
+TPRM should integrate with procurement.
+
+```text
+Business Requirement
+        ↓
+Procurement
+        ↓
+Supplier Shortlist
+        ↓
+TPRM Screening
+        ↓
+Due Diligence
+        ↓
+Risk Assessment
+        ↓
+Commercial Evaluation
+        ↓
+Supplier Selection
+```
+
+This prevents cybersecurity and compliance reviews from becoming an afterthought after a supplier has already been selected.
+
+---
+
+# 44. Due Diligence and Legal Review
+
+Legal and GRC activities should also be coordinated.
+
+```text
+Due Diligence
+      ↓
+Risk Requirements
+      ↓
+Contract Clauses
+      ↓
+Legal Review
+      ↓
+Negotiation
+      ↓
+Contract Execution
+```
+
+This helps translate identified risks into enforceable contractual obligations where appropriate.
+
+---
+
+# 45. Due Diligence and GRC Platforms
+
+A GRC platform can automate much of the process.
+
+```text
+Supplier Record
+      ↓
+Risk Tier
+      ↓
+Questionnaire
+      ↓
+Evidence Collection
+      ↓
+Assessment
+      ↓
+Risk Score
+      ↓
+Approval
+      ↓
+Monitoring
+```
+
+Automation can improve:
+
+```text
+Consistency
+Traceability
+Workflow Management
+Evidence Management
+Reporting
+Auditability
+```
+
+---
+
+# 46. Automated Evidence Collection
+
+Where technically and contractually appropriate, evidence can be collected or monitored automatically.
+
+Examples include:
+
+```text
+Certificate Expiration
+Security Ratings
+Public Breach Information
+Questionnaire Status
+Assessment Due Dates
+Contract Expiration
+Risk Findings
+```
+
+Automation should support—not replace—professional risk judgment.
+
+---
+
+# 47. Due Diligence Dashboard
+
+A GRC dashboard could display:
+
+```text
+        SUPPLIER DUE DILIGENCE
+
+Suppliers Under Assessment          24
+High-Risk Assessments               11
+Critical Suppliers                   7
+Assessments Overdue                  5
+Evidence Gaps                       13
+High-Risk Findings                   4
+Conditional Approvals                3
+Expired Certifications               2
+```
+
+The figures are illustrative.
+
+Management should be able to quickly identify where supplier risk requires attention.
+
+---
+
+# 48. Due Diligence Evidence Repository
+
+A centralized repository may contain:
+
+```text
+Supplier Profile
+Questionnaires
+Certificates
+Audit Reports
+Penetration Tests
+BCP / DR Evidence
+Privacy Documentation
+Contracts
+Risk Assessments
+Risk Acceptances
+Remediation Plans
+Approval Records
+```
+
+This creates a single source of truth for supplier assurance.
+
+---
+
+# 49. Three Lines in Supplier Due Diligence
+
+The Three Lines Model can be applied to the process.
+
+```text
+FIRST LINE
+Business / Procurement
+        ↓
+Own Supplier Relationship
+
+SECOND LINE
+GRC / Risk / Security / Privacy
+        ↓
+Assess and Challenge Risk
+
+THIRD LINE
+Internal Audit
+        ↓
+Independent Assurance
+```
+
+This helps prevent the supplier owner from being the only party determining whether supplier risk is acceptable.
+
+---
+
+# 50. Due Diligence Quality
+
+A high-quality assessment should be:
+
+```text
+Risk-Based
+Evidence-Based
+Documented
+Consistent
+Proportionate
+Current
+Traceable
+Repeatable
+```
+
+A poor assessment often looks like:
+
+```text
+Questionnaire Sent
+       ↓
+Supplier Answers "Yes"
+       ↓
+Assessment Approved
+```
+
+A stronger process is:
+
+```text
+Requirement
+      ↓
+Supplier Response
+      ↓
+Evidence
+      ↓
+Validation
+      ↓
+Control Assessment
+      ↓
+Risk Analysis
+      ↓
+Decision
+```
+
+---
+
+# 51. Common Due Diligence Weaknesses
+
+Organizations frequently encounter problems such as:
+
+```text
+Incomplete Supplier Inventory
+Generic Questionnaires
+No Risk Tiering
+Insufficient Evidence
+Expired Certifications
+No Scope Validation
+No Subprocessor Visibility
+No Business Continuity Review
+No Contractual Enforcement
+No Follow-Up on Findings
+No Periodic Reassessment
+```
+
+These weaknesses can create a false sense of assurance.
+
+---
+
+# 52. Avoiding Questionnaire Fatigue
+
+Suppliers may be required to complete questionnaires for many customers.
+
+Organizations can reduce unnecessary burden by using:
+
+```text
+Risk-Based Questionnaires
+Standardized Frameworks
+Existing Certifications
+Independent Assurance Reports
+Reusable Evidence
+Targeted Follow-Up Questions
+```
+
+However, standardized evidence should still be evaluated against the organization's specific risks.
+
+---
+
+# 53. Critical Supplier Enhanced Due Diligence
+
+For critical suppliers, the process may include:
+
+```text
+Detailed Questionnaire
+       ↓
+Security Architecture Review
+       ↓
+Independent Assurance
+       ↓
+Business Continuity Review
+       ↓
+DR Test Evidence
+       ↓
+Subprocessor Assessment
+       ↓
+Concentration Risk
+       ↓
+Executive Risk Review
+```
+
+The exact requirements depend on the organization's risk appetite and regulatory environment.
+
+---
+
+# 54. Example – Cloud Provider Due Diligence
+
+A practical assessment could look like:
+
+```text
+Cloud Provider
+      ↓
+Critical Service?
+      ↓
+Yes
+      ↓
+Processes Sensitive Data?
+      ↓
+Yes
+      ↓
+Privileged Access?
+      ↓
+Yes
+      ↓
+Enhanced Due Diligence
+      ↓
+ISO / SOC Evidence
+      ↓
+Architecture Review
+      ↓
+Security Assessment
+      ↓
+Privacy Assessment
+      ↓
+DR Assessment
+      ↓
+Subprocessor Review
+      ↓
+Risk Decision
+```
+
+This is substantially more appropriate than using a simple generic vendor questionnaire.
+
+---
+
+# 55. Example – Low-Risk Office Supplier
+
+A low-risk supplier might follow a much simpler path:
+
+```text
+Office Supply Supplier
+      ↓
+No Sensitive Data
+      ↓
+No System Access
+      ↓
+Non-Critical Service
+      ↓
+Low Risk
+      ↓
+Basic Screening
+      ↓
+Standard Procurement Controls
+      ↓
+Approval
+```
+
+This demonstrates the principle of proportionality.
+
+---
+
+# 56. Example – Managed Security Provider
+
+A managed security provider with privileged access may require:
+
+```text
+Managed Security Provider
+        ↓
+Privileged Access
+        ↓
+Critical Security Service
+        ↓
+High / Critical Risk
+        ↓
+Enhanced Due Diligence
+        ↓
+PAM / MFA Assessment
+        ↓
+SOC Capability Review
+        ↓
+Incident Response Review
+        ↓
+Security Monitoring
+        ↓
+BCP / DR
+        ↓
+Contractual Controls
+        ↓
+Executive Risk Approval
+```
+
+---
+
+# 57. End-to-End Supplier Due Diligence Model
+
+The complete process can be visualized as:
+
+```text
+                  SUPPLIER IDENTIFIED
+                          ↓
+                   BUSINESS CONTEXT
+                          ↓
+                  INITIAL SCREENING
+                          ↓
+                    RISK TIERING
+                          ↓
+              ┌───────────┴───────────┐
+              ↓                       ↓
+          LOW / MODERATE          HIGH / CRITICAL
+              ↓                       ↓
+       STANDARD REVIEW          ENHANCED REVIEW
+              └───────────┬───────────┘
+                          ↓
+                  INFORMATION REQUEST
+                          ↓
+                  EVIDENCE COLLECTION
+                          ↓
+                  EVIDENCE VALIDATION
+                          ↓
+                  CONTROL ASSESSMENT
+                          ↓
+                    RISK ANALYSIS
+                          ↓
+                  RESIDUAL RISK
+                          ↓
+                RISK APPETITE TEST
+                          ↓
+             ┌────────────┴────────────┐
+             ↓                         ↓
+        ACCEPTABLE                 NOT ACCEPTABLE
+             ↓                         ↓
+          APPROVE              TREAT / ACCEPT / AVOID
+             └────────────┬────────────┘
+                          ↓
+                     CONTRACTING
+                          ↓
+                      ONBOARDING
+```
+
+---
+
+# 58. GRC Traceability
+
+Supplier due diligence should create a traceable chain:
+
+```text
+Business Requirement
+        ↓
+Supplier
+        ↓
+Service
+        ↓
+Risk Tier
+        ↓
+Due Diligence Requirement
+        ↓
+Supplier Response
+        ↓
+Evidence
+        ↓
+Control Assessment
+        ↓
+Risk Finding
+        ↓
+Risk Treatment
+        ↓
+Risk Acceptance / Approval
+```
+
+This allows an auditor, risk manager, or executive to trace **why a supplier was approved and what evidence supported the decision**.
+
+---
+
+# 59. Key GRC Takeaways
+
+A mature **Supplier Due Diligence Process** should establish:
+
+```text
+1. Clear Supplier Identification
+2. Business Context
+3. Risk-Based Classification
+4. Proportionate Due Diligence
+5. Cybersecurity Assessment
+6. Privacy Assessment
+7. Compliance Assessment
+8. Business Continuity Assessment
+9. Financial Assessment
+10. Geographic Assessment
+11. Subprocessor Assessment
+12. Security Evidence Collection
+13. Evidence Validation
+14. Control Gap Identification
+15. Inherent Risk Assessment
+16. Residual Risk Assessment
+17. Risk Treatment
+18. Formal Approval
+19. Contractual Risk Requirements
+20. Documented Exceptions
+21. Auditability
+22. Ongoing Monitoring
+```
+
+The central principle is:
+
+> **Supplier due diligence should provide sufficient, evidence-based information for the organization to make an informed decision about whether the supplier's risks are understood and can be managed within the organization's risk appetite.**
+
+The strongest GRC model is therefore not:
+
+```text
+Questionnaire
+      ↓
+Approval
+```
+
+but:
+
+```text
+Supplier
+   ↓
+Business Context
+   ↓
+Risk Classification
+   ↓
+Due Diligence
+   ↓
+Evidence
+   ↓
+Validation
+   ↓
+Risk Assessment
+   ↓
+Control Gaps
+   ↓
+Risk Treatment
+   ↓
+Management Decision
+   ↓
+Documented Assurance
+```
+
 

@@ -2162,5 +2162,1366 @@ The ultimate objective is not simply to prevent every cybersecurity event. It is
 
 > **Understand its cybersecurity risks, implement proportionate safeguards, detect significant events, respond effectively, recover critical capabilities, and continuously improve its cybersecurity risk-management posture.**
 
+# 18.7 NIST Cybersecurity Framework Diagrams
+
+### Part 3 – NIST CSF Organizational Profile
+
+A **NIST CSF Organizational Profile** describes an organization's current or target cybersecurity posture in the context of its business objectives, stakeholders, requirements, and risk environment.
+
+The Profile is useful because organizations do not all have the same cybersecurity requirements. A healthcare organization, telecommunications company, financial institution, government agency, and small technology company may have very different priorities.
+
+A simplified model is:
+
+```text
+                    ORGANIZATION
+                         ↓
+                Business Objectives
+                         ↓
+                  Risk Environment
+                         ↓
+              NIST CSF Organizational
+                     Profile
+                         ↓
+          ┌──────────────┼──────────────┐
+          ↓              ↓              ↓
+       Current         Target        Priorities
+       State           State
+          ↓              ↓
+          └──────────────┼──────────────┘
+                         ↓
+                   Risk Decisions
+```
+
+---
+
+# 1. What Is an Organizational Profile?
+
+An Organizational Profile provides a way to describe an organization's cybersecurity outcomes based on its:
+
+```text
+Business Objectives
+Risk Appetite
+Threat Environment
+Legal Requirements
+Regulatory Requirements
+Customer Expectations
+Technology Environment
+Supply Chain
+Available Resources
+```
+
+The Profile helps answer:
+
+> **What cybersecurity outcomes are important to this organization?**
+
+Rather than applying every cybersecurity practice equally, the organization can prioritize outcomes based on its specific circumstances.
+
+---
+
+# 2. Organizational Profile Concept
+
+A simplified representation is:
+
+```text
+                 ORGANIZATION
+                       ↓
+        ┌──────────────┼──────────────┐
+        ↓              ↓              ↓
+     Business        Risk          External
+     Objectives     Appetite       Requirements
+        ↓              ↓              ↓
+        └──────────────┼──────────────┘
+                       ↓
+                ORGANIZATIONAL
+                   PROFILE
+                       ↓
+              CSF OUTCOMES
+```
+
+The Profile therefore provides organizational context for using the NIST CSF.
+
+---
+
+# 3. Organizational Profile and CSF Core
+
+The Profile can organize cybersecurity outcomes across the six Core Functions:
+
+```text
+                 ORGANIZATIONAL PROFILE
+                           ↓
+        ┌──────────────────┼──────────────────┐
+        ↓                  ↓                  ↓
+      GOVERN            IDENTIFY           PROTECT
+        ↓                  ↓                  ↓
+      DETECT             RESPOND           RECOVER
+        └──────────────────┼──────────────────┘
+                           ↓
+                 Cybersecurity Outcomes
+```
+
+This allows the organization to view its cybersecurity posture across the complete CSF.
+
+---
+
+# 4. Business Context
+
+The Organizational Profile should reflect the organization's business environment.
+
+For example:
+
+```text
+Business Model
+      ↓
+Critical Services
+      ↓
+Critical Assets
+      ↓
+Business Dependencies
+      ↓
+Cybersecurity Requirements
+```
+
+Consider a telecommunications company:
+
+```text
+Critical Services
+     ↓
+Mobile Network
+Enterprise Connectivity
+Cloud Services
+Customer Platforms
+     ↓
+Critical Assets
+     ↓
+Cybersecurity Requirements
+```
+
+The cybersecurity profile should reflect the importance of these services.
+
+---
+
+# 5. Organizational Profile Inputs
+
+Several sources can contribute to the Profile.
+
+```text
+                     PROFILE INPUTS
+                           ↓
+       ┌────────────┬──────┼──────┬────────────┐
+       ↓            ↓      ↓      ↓            ↓
+    Business       Risk   Laws   Threats    Technology
+    Strategy       Data   & Regs             Environment
+       ↓            ↓      ↓      ↓            ↓
+       └────────────┴──────┼──────┴────────────┘
+                           ↓
+                    ORGANIZATIONAL
+                       PROFILE
+```
+
+Other inputs may include:
+
+```text
+Customer Requirements
+Contractual Obligations
+Industry Standards
+Internal Policies
+Audit Findings
+Security Incidents
+Third-Party Dependencies
+Executive Priorities
+```
+
+---
+
+# 6. Organizational Profile and Risk
+
+Risk is a major input into the Profile.
+
+```text
+Business Context
+      ↓
+Threat Environment
+      ↓
+Vulnerabilities
+      ↓
+Potential Impact
+      ↓
+Cybersecurity Risk
+      ↓
+Profile Priorities
+```
+
+For example:
+
+```text
+High Risk:
+Customer Identity Systems
+
+        ↓
+
+Profile Priority:
+Strong Identity Protection
+
+        ↓
+
+Potential Outcomes:
+MFA
+Privileged Access Management
+Identity Monitoring
+Access Reviews
+```
+
+The Profile therefore reflects the organization's risk priorities.
+
+---
+
+# 7. Organizational Profile and Requirements
+
+External requirements can also influence the Profile.
+
+```text
+External Requirements
+        ↓
+Regulatory Requirements
+        ↓
+Contractual Requirements
+        ↓
+Industry Expectations
+        ↓
+Cybersecurity Outcomes
+        ↓
+Organizational Profile
+```
+
+For example, an organization operating in a regulated environment may prioritize:
+
+```text
+Data Protection
+Access Control
+Incident Management
+Auditability
+Third-Party Risk
+Business Resilience
+```
+
+---
+
+# 8. Current Profile
+
+A **Current Profile** describes the cybersecurity outcomes that the organization is currently achieving.
+
+A simplified model is:
+
+```text
+              CURRENT PROFILE
+                     ↓
+        ┌────────────┼────────────┐
+        ↓            ↓            ↓
+      Govern       Identify     Protect
+        ↓            ↓            ↓
+      Detect       Respond      Recover
+        ↓            ↓            ↓
+        └────────────┼────────────┘
+                     ↓
+             Current Outcomes
+```
+
+The Current Profile represents the organization's present cybersecurity posture.
+
+---
+
+# 9. Current Profile Example
+
+Consider an organization with the following posture:
+
+```text
+GOVERN
+Defined cybersecurity policy
+
+IDENTIFY
+85% critical assets identified
+
+PROTECT
+90% MFA coverage
+
+DETECT
+Centralized SIEM monitoring
+
+RESPOND
+Formal incident response process
+
+RECOVER
+Documented recovery procedures
+```
+
+These outcomes together form part of the organization's current cybersecurity profile.
+
+---
+
+# 10. Target Profile
+
+A **Target Profile** describes the cybersecurity outcomes the organization wants to achieve.
+
+```text
+             TARGET PROFILE
+                    ↓
+        ┌───────────┼───────────┐
+        ↓           ↓           ↓
+      Govern      Identify    Protect
+        ↓           ↓           ↓
+      Detect      Respond     Recover
+        ↓           ↓           ↓
+        └───────────┼───────────┘
+                    ↓
+             Desired Outcomes
+```
+
+The Target Profile should reflect:
+
+```text
+Business Objectives
+Risk Priorities
+Regulatory Requirements
+Threat Environment
+Strategic Direction
+```
+
+---
+
+# 11. Current vs Target
+
+The fundamental relationship is:
+
+```text
+CURRENT PROFILE
+      ↓
+Where are we today?
+      ↓
+        GAP
+      ↓
+Where do we need to improve?
+      ↓
+TARGET PROFILE
+      ↓
+Where do we want to be?
+```
+
+This provides the foundation for cybersecurity improvement planning.
+
+---
+
+# 12. Organizational Profile and Prioritization
+
+Not every CSF outcome will have the same priority.
+
+A simplified model is:
+
+```text
+                 CSF OUTCOMES
+                      ↓
+             Risk-Based Assessment
+                      ↓
+       ┌──────────────┼──────────────┐
+       ↓              ↓              ↓
+      High          Medium           Low
+    Priority       Priority        Priority
+       ↓              ↓              ↓
+   Immediate       Planned        Monitor
+```
+
+For example:
+
+```text
+Critical Identity System
+        ↓
+High Priority
+
+Legacy Application
+        ↓
+Medium Priority
+
+Low-Impact Internal Tool
+        ↓
+Lower Priority
+```
+
+This allows resources to be directed toward the areas of greatest importance.
+
+---
+
+# 13. Profile and Business Priorities
+
+Cybersecurity priorities should support business priorities.
+
+```text
+Business Objective
+       ↓
+Business Risk
+       ↓
+Cybersecurity Risk
+       ↓
+CSF Outcome
+       ↓
+Security Capability
+       ↓
+Business Protection
+```
+
+For example:
+
+```text
+Business Objective:
+24/7 Customer Service
+
+        ↓
+
+Risk:
+Service disruption
+
+        ↓
+
+CSF Priority:
+Resilience and Recovery
+
+        ↓
+
+Security Capability:
+Redundant Infrastructure
++
+Backup
++
+Disaster Recovery
+```
+
+---
+
+# 14. Profile and Stakeholders
+
+Different stakeholders may have different concerns.
+
+```text
+                     ORGANIZATION
+                           ↓
+             ┌─────────────┼─────────────┐
+             ↓             ↓             ↓
+          Executive       Risk          Security
+          Management     Management      Team
+             ↓             ↓             ↓
+             └─────────────┼─────────────┘
+                           ↓
+                    CSF PROFILE
+```
+
+Additional stakeholders may include:
+
+```text
+Compliance
+Internal Audit
+Legal
+Privacy
+IT
+Operations
+Business Units
+Customers
+Suppliers
+Regulators
+```
+
+The Profile can provide a common language across these groups.
+
+---
+
+# 15. Profile and Governance
+
+Governance determines the direction and expectations reflected in the Profile.
+
+```text
+Business Strategy
+       ↓
+Risk Appetite
+       ↓
+Cybersecurity Strategy
+       ↓
+Governance
+       ↓
+Organizational Profile
+       ↓
+Cybersecurity Outcomes
+```
+
+This reinforces the importance of **Govern** in NIST CSF 2.0.
+
+---
+
+# 16. Profile and Risk Appetite
+
+The organization's risk appetite can influence target outcomes.
+
+```text
+Risk Appetite
+      ↓
+Risk Tolerance
+      ↓
+Security Requirements
+      ↓
+Target Outcomes
+      ↓
+Target Profile
+```
+
+For example:
+
+```text
+Low Risk Appetite
+       ↓
+Higher Security Requirements
+       ↓
+Stronger Controls
+       ↓
+More Monitoring
+       ↓
+Higher Target Profile
+```
+
+The opposite may apply to lower-risk environments.
+
+---
+
+# 17. Profile and Regulatory Environment
+
+The regulatory environment can influence the organization's desired cybersecurity posture.
+
+```text
+Regulatory Requirements
+        ↓
+Compliance Obligations
+        ↓
+Cybersecurity Outcomes
+        ↓
+Target Profile
+```
+
+A GRC team may therefore use the Profile to connect:
+
+```text
+Regulation
+   ↓
+Requirement
+   ↓
+Cybersecurity Outcome
+   ↓
+Control
+   ↓
+Evidence
+```
+
+This creates traceability between regulatory requirements and cybersecurity capabilities.
+
+---
+
+# 18. Profile and Third-Party Risk
+
+Third parties can significantly affect an organization's cybersecurity profile.
+
+```text
+Organization
+     ↓
+Third-Party Dependencies
+     ↓
+Supplier Risk
+     ↓
+Cybersecurity Requirements
+     ↓
+Profile Outcomes
+```
+
+For example:
+
+```text
+Critical Cloud Provider
+        ↓
+High Dependency
+        ↓
+Availability Risk
+        ↓
+Recovery Requirement
+        ↓
+Target Outcome
+```
+
+This makes supply-chain considerations part of the broader cybersecurity risk picture.
+
+---
+
+# 19. Profile and Technology
+
+Technology architecture can influence the organization's cybersecurity outcomes.
+
+```text
+Technology Environment
+        ↓
+Cloud
+On-Premises
+SaaS
+IoT
+AI
+Mobile
+OT
+        ↓
+Risk Environment
+        ↓
+Cybersecurity Requirements
+        ↓
+Organizational Profile
+```
+
+A cloud-heavy organization may have stronger requirements around:
+
+```text
+Identity
+Cloud Configuration
+Data Protection
+API Security
+Cloud Monitoring
+Third-Party Risk
+```
+
+---
+
+# 20. Profile and Cybersecurity Maturity
+
+The Profile can also provide a way to describe cybersecurity maturity at the outcome level.
+
+```text
+Current Profile
+      ↓
+Capability Assessment
+      ↓
+Maturity Gaps
+      ↓
+Target Profile
+      ↓
+Improvement Roadmap
+```
+
+For example:
+
+```text
+Current:
+Basic security monitoring
+
+Target:
+24/7 centralized monitoring
++
+Automated detection
++
+Threat intelligence
+```
+
+The difference becomes an improvement opportunity.
+
+---
+
+# 21. Profile and CSF Categories
+
+The CSF is structured hierarchically.
+
+A simplified representation is:
+
+```text
+CSF
+ ↓
+Functions
+ ↓
+Categories
+ ↓
+Subcategories / Outcomes
+```
+
+The Profile can therefore be developed at an appropriate level of detail.
+
+For example:
+
+```text
+PROTECT
+   ↓
+Identity Management
+   ↓
+Authentication
+   ↓
+Desired Authentication Outcome
+```
+
+This allows organizations to move from high-level executive discussions toward specific cybersecurity outcomes.
+
+---
+
+# 22. Organizational Profile and GRC Mapping
+
+A GRC platform can represent the Profile through structured relationships.
+
+```text
+Business Objective
+       ↓
+Risk
+       ↓
+CSF Function
+       ↓
+CSF Category
+       ↓
+Outcome
+       ↓
+Control
+       ↓
+Evidence
+       ↓
+Assessment
+```
+
+This creates an integrated view of cybersecurity governance and control management.
+
+---
+
+# 23. Profile and Control Frameworks
+
+The Profile can also be used to organize requirements from multiple frameworks.
+
+```text
+                    ORGANIZATIONAL PROFILE
+                              ↓
+        ┌─────────────────────┼─────────────────────┐
+        ↓                     ↓                     ↓
+    NIST CSF              ISO 27001              COBIT
+        ↓                     ↓                     ↓
+        └─────────────────────┼─────────────────────┘
+                              ↓
+                    Common Security Outcomes
+                              ↓
+                           Controls
+```
+
+This helps avoid treating each framework as a completely separate program.
+
+---
+
+# 24. Example – Financial Organization
+
+Consider a financial organization.
+
+Its Profile may prioritize:
+
+```text
+GOVERN
+Strong regulatory governance
+
+IDENTIFY
+Critical financial assets
+
+PROTECT
+Strong identity and data protection
+
+DETECT
+Real-time transaction monitoring
+
+RESPOND
+Rapid fraud and cyber incident response
+
+RECOVER
+High availability and resilient recovery
+```
+
+The Profile reflects the organization's business and risk environment.
+
+---
+
+# 25. Example – Telecommunications Organization
+
+A telecommunications organization may have a different Profile.
+
+```text
+GOVERN
+Cybersecurity and regulatory governance
+
+IDENTIFY
+Network and customer service assets
+
+PROTECT
+Network security and identity controls
+
+DETECT
+Network and threat monitoring
+
+RESPOND
+Security incident containment
+
+RECOVER
+Network and service restoration
+```
+
+The same NIST CSF can therefore be adapted to a completely different business context.
+
+---
+
+# 26. Example – Healthcare Organization
+
+A healthcare organization may emphasize:
+
+```text
+GOVERN
+Healthcare security governance
+
+IDENTIFY
+Clinical systems and patient information
+
+PROTECT
+Privacy and access controls
+
+DETECT
+Unauthorized access and malware
+
+RESPOND
+Patient-impacting cyber incidents
+
+RECOVER
+Clinical system restoration
+```
+
+Again, the framework remains consistent while the organizational priorities differ.
+
+---
+
+# 27. Profile Development Process
+
+A practical process for developing an Organizational Profile can be represented as:
+
+```text
+Understand Business Context
+          ↓
+Identify Stakeholders
+          ↓
+Understand Risk Environment
+          ↓
+Identify Requirements
+          ↓
+Select Relevant CSF Outcomes
+          ↓
+Assess Current State
+          ↓
+Define Desired State
+          ↓
+Prioritize
+          ↓
+Document Profile
+```
+
+This produces a structured representation of the organization's cybersecurity priorities.
+
+---
+
+# 28. Profile Development Inputs
+
+The process can be expanded:
+
+```text
+                    INPUTS
+                       ↓
+       ┌───────────────┼───────────────┐
+       ↓               ↓               ↓
+ Business            Risk          Regulatory
+ Strategy           Register       Requirements
+       ↓               ↓               ↓
+       └───────────────┼───────────────┘
+                       ↓
+                Threat Landscape
+                       ↓
+                Technology Context
+                       ↓
+              Stakeholder Expectations
+                       ↓
+              ORGANIZATIONAL PROFILE
+```
+
+---
+
+# 29. Current Profile Assessment
+
+A Current Profile assessment can be represented as:
+
+```text
+CSF Outcome
+     ↓
+Current Capability
+     ↓
+Evidence
+     ↓
+Assessment
+     ↓
+Current State
+```
+
+Evidence may include:
+
+```text
+Policies
+Procedures
+Configurations
+Logs
+Reports
+Audit Results
+Risk Assessments
+Control Testing
+Incident Records
+```
+
+This connects the Profile with GRC assurance processes.
+
+---
+
+# 30. Target Profile Development
+
+The Target Profile should represent desired cybersecurity outcomes.
+
+```text
+Business Requirements
+        ↓
+Risk Requirements
+        ↓
+Regulatory Requirements
+        ↓
+Strategic Objectives
+        ↓
+Target CSF Outcomes
+        ↓
+TARGET PROFILE
+```
+
+The Target Profile should be realistic and achievable within the organization's risk, resource, and strategic constraints.
+
+---
+
+# 31. Profile Comparison
+
+The Current and Target Profiles can be compared.
+
+```text
+             CURRENT PROFILE
+                    ↓
+              Assessment
+                    ↓
+                   GAP
+                    ↓
+              Prioritization
+                    ↓
+              TARGET PROFILE
+```
+
+Example:
+
+```text
+Current:
+MFA = 70%
+
+Target:
+MFA = 100%
+
+Gap:
+30 percentage points
+```
+
+The gap becomes an actionable improvement area.
+
+---
+
+# 32. Profile and Roadmap
+
+Profile gaps can be converted into a roadmap.
+
+```text
+Profile Gap
+     ↓
+Risk Assessment
+     ↓
+Priority
+     ↓
+Initiative
+     ↓
+Implementation
+     ↓
+Validation
+     ↓
+Updated Profile
+```
+
+This connects the NIST CSF directly to cybersecurity transformation planning.
+
+---
+
+# 33. Profile and Metrics
+
+Metrics can measure progress toward the Target Profile.
+
+```text
+Target Outcome
+      ↓
+Metric
+      ↓
+Baseline
+      ↓
+Target
+      ↓
+Actual
+      ↓
+Gap
+      ↓
+Improvement Action
+```
+
+For example:
+
+```text
+Target:
+100% critical systems monitored
+
+Current:
+82%
+
+Gap:
+18%
+
+Action:
+Expand monitoring coverage
+```
+
+---
+
+# 34. Profile and Executive Reporting
+
+An executive dashboard can summarize Profile performance.
+
+```text
+             ORGANIZATIONAL PROFILE
+                       ↓
+      ┌────────────────┼────────────────┐
+      ↓                ↓                ↓
+   Current           Target             Gap
+   State             State            Analysis
+      ↓                ↓                ↓
+      └────────────────┼────────────────┘
+                       ↓
+                 Executive View
+```
+
+Executives can then focus on:
+
+```text
+Highest Risks
+Largest Gaps
+Critical Dependencies
+Regulatory Requirements
+Investment Priorities
+Cybersecurity Trends
+```
+
+---
+
+# 35. Profile and Investment Decisions
+
+Profile gaps can help support investment decisions.
+
+```text
+Profile Gap
+     ↓
+Risk Impact
+     ↓
+Business Impact
+     ↓
+Investment Requirement
+     ↓
+Management Decision
+     ↓
+Security Improvement
+```
+
+For example:
+
+```text
+Detection Gap
+     ↓
+High Risk
+     ↓
+Potential Major Incident
+     ↓
+SIEM Enhancement
+     ↓
+Investment Approval
+```
+
+This helps translate technical cybersecurity needs into business decisions.
+
+---
+
+# 36. Organizational Profile as a Communication Tool
+
+One of the greatest benefits of the Profile is communication.
+
+Different stakeholders can use the same model:
+
+```text
+Executive
+   ↓
+Risk Manager
+   ↓
+GRC
+   ↓
+Cybersecurity
+   ↓
+IT Operations
+   ↓
+Internal Audit
+```
+
+The Profile creates a common reference point for discussing cybersecurity outcomes.
+
+---
+
+# 37. Profile and Assurance
+
+Internal audit and assurance functions can also use the Profile.
+
+```text
+Target Profile
+      ↓
+Expected Outcomes
+      ↓
+Control Environment
+      ↓
+Testing
+      ↓
+Evidence
+      ↓
+Assurance Result
+      ↓
+Profile Status
+```
+
+This allows assurance activities to evaluate whether desired cybersecurity outcomes are being achieved.
+
+---
+
+# 38. Profile and Continuous Improvement
+
+The Organizational Profile should evolve as the organization changes.
+
+```text
+Business Change
+      ↓
+Risk Change
+      ↓
+Technology Change
+      ↓
+Regulatory Change
+      ↓
+Profile Review
+      ↓
+Updated Outcomes
+      ↓
+Updated Target
+      ↓
+Improvement
+```
+
+Examples include:
+
+```text
+Cloud Migration
+AI Adoption
+Acquisition
+New Regulation
+New Product
+New Threat
+Major Incident
+Organizational Restructuring
+```
+
+---
+
+# 39. Profile Lifecycle
+
+The complete Profile lifecycle can be represented as:
+
+```text
+Business Context
+       ↓
+Profile Development
+       ↓
+Current State
+       ↓
+Target State
+       ↓
+Gap Analysis
+       ↓
+Prioritization
+       ↓
+Implementation
+       ↓
+Measurement
+       ↓
+Review
+       ↓
+Profile Update
+       ↺
+```
+
+This makes the Profile a living management artifact rather than a static document.
+
+---
+
+# 40. Complete NIST CSF Organizational Profile Model
+
+The integrated model can be visualized as:
+
+```text
+                     BUSINESS
+                     CONTEXT
+                        ↓
+              ┌─────────┼─────────┐
+              ↓         ↓         ↓
+           Strategy    Risk    Requirements
+              ↓         ↓         ↓
+              └─────────┼─────────┘
+                        ↓
+                ORGANIZATIONAL
+                    PROFILE
+                        ↓
+        ┌───────────────┼───────────────┐
+        ↓               ↓               ↓
+      GOVERN         IDENTIFY         PROTECT
+        ↓               ↓               ↓
+      DETECT          RESPOND         RECOVER
+        └───────────────┼───────────────┘
+                        ↓
+                CURRENT PROFILE
+                        ↓
+                  Gap Analysis
+                        ↓
+                 Target Profile
+                        ↓
+                Prioritized Actions
+                        ↓
+                 Implementation
+                        ↓
+                  Measurement
+                        ↓
+                    Review
+                        ↓
+               Profile Improvement
+                        ↺
+```
+
+---
+
+# 41. GRC-Oriented Profile Model
+
+For GRC practitioners, the model can be extended into a complete governance chain:
+
+```text
+Business Objective
+       ↓
+Business Risk
+       ↓
+Cybersecurity Risk
+       ↓
+NIST CSF Outcome
+       ↓
+Organizational Profile
+       ↓
+Control Requirement
+       ↓
+Control
+       ↓
+Evidence
+       ↓
+Assessment
+       ↓
+Metric
+       ↓
+Risk Decision
+       ↓
+Improvement
+```
+
+This demonstrates how the NIST CSF can become part of an enterprise GRC operating model.
+
+---
+
+# 42. Key Principles
+
+An effective Organizational Profile should be:
+
+```text
+Business-Aligned
+Risk-Based
+Outcome-Focused
+Evidence-Supported
+Prioritized
+Measurable
+Reviewable
+Adaptable
+```
+
+It should not simply become a checklist of cybersecurity controls.
+
+The focus should remain on **the cybersecurity outcomes the organization needs to achieve**.
+
+---
+
+# 43. Final Concept
+
+The NIST CSF Organizational Profile can ultimately be summarized as:
+
+```text
+                  WHAT MATTERS
+                       ↓
+                Business Context
+                       ↓
+                  WHAT CAN HARM US
+                       ↓
+                    Risk
+                       ↓
+                WHAT DO WE NEED
+                       ↓
+                CSF Outcomes
+                       ↓
+                 WHERE ARE WE
+                       ↓
+                Current Profile
+                       ↓
+               WHERE DO WE WANT
+                    TO BE
+                       ↓
+                Target Profile
+                       ↓
+                  WHAT IS THE GAP
+                       ↓
+                 Gap Analysis
+                       ↓
+                 WHAT SHOULD WE DO
+                       ↓
+                Prioritized Actions
+                       ↓
+                HOW ARE WE DOING
+                       ↓
+                   Metrics
+                       ↓
+                CONTINUAL REVIEW
+                       ↺
+```
+
+The key GRC principle is:
+
+> **The NIST CSF Organizational Profile translates an organization's unique business context, risk environment, requirements, and strategic priorities into a structured view of the cybersecurity outcomes it currently achieves and the outcomes it wants to achieve.**
+
+This makes the Profile particularly valuable for **GRC, risk management, cybersecurity strategy, executive reporting, audit, compliance, and security transformation planning**.
+
 
 

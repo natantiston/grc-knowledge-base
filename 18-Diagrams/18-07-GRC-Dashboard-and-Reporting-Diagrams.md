@@ -1571,5 +1571,1021 @@ Who should do it?
 When should it be completed?
 ```
 
+# 18.7 GRC Dashboard and Reporting Diagrams
+
+### Part 3 – GRC Reporting, Executive Communication, and Decision Support
+
+A GRC dashboard provides information, but **GRC reporting transforms that information into a structured communication mechanism for management, executives, auditors, regulators, and other stakeholders**.
+
+The relationship can be represented as:
+
+```text
+GRC Data
+    ↓
+Metrics
+    ↓
+Analysis
+    ↓
+Dashboard
+    ↓
+Report
+    ↓
+Stakeholder
+    ↓
+Decision
+    ↓
+Action
+```
+
+A dashboard is generally designed for **interactive monitoring**, while a report is often designed for **formal communication, review, evidence, or decision-making**.
+
+```text
+Dashboard
+   ↓
+Interactive
+Current
+Drill-down
+Monitoring
+
+Report
+   ↓
+Structured
+Formal
+Periodic
+Decision / Assurance
+```
+
+### GRC Reporting Levels
+
+GRC reporting should be designed according to the level of the stakeholder.
+
+```text
+                    GRC REPORTING
+                         ↓
+        ┌────────────────┼────────────────┐
+        ↓                ↓                ↓
+     Strategic        Management       Operational
+        ↓                ↓                ↓
+       Board          Executives       GRC Team
+```
+
+The level of detail increases as the report moves closer to operational users.
+
+```text
+Board
+ ↓
+High-level
+ ↓
+Executive
+ ↓
+More detail
+ ↓
+Management
+ ↓
+Operational detail
+ ↓
+GRC / Control Owner
+```
+
+### Board-Level Reporting
+
+A board generally does not need thousands of individual GRC records.
+
+The board needs information that supports **oversight and strategic decision-making**.
+
+A board-level GRC report may include:
+
+```text
+Enterprise Risk Profile
+Top Strategic Risks
+Risk Appetite Exceptions
+Major Regulatory Exposure
+Critical Control Failures
+Significant Audit Findings
+Major Cybersecurity Risks
+Third-Party Concentration
+Major Risk Trends
+Management Actions
+```
+
+A simplified structure is:
+
+```text
+BOARD GRC REPORT
+       ↓
+Enterprise Risk
+       ↓
+Top Risks
+       ↓
+Risk Trend
+       ↓
+Risk Appetite
+       ↓
+Major Exceptions
+       ↓
+Management Actions
+```
+
+The key question is:
+
+> **What does the board need to know to effectively oversee enterprise risk?**
+
+### Executive Management Reporting
+
+Executive management generally requires more detail than the board.
+
+For example:
+
+```text
+EXECUTIVE GRC REPORT
+        ↓
+Enterprise Risk
+        ↓
+Business Unit Risk
+        ↓
+Compliance
+        ↓
+Controls
+        ↓
+Audit Findings
+        ↓
+Third-Party Risk
+        ↓
+Remediation
+```
+
+Executives may need to understand:
+
+```text
+What is the current exposure?
+What changed since last reporting period?
+Which risks exceed tolerance?
+Which issues require resources?
+Which remediation activities are delayed?
+Which business units require attention?
+```
+
+### Operational GRC Reporting
+
+Operational reports support day-to-day execution.
+
+Examples include:
+
+```text
+Open Risk Report
+Overdue Control Testing
+Evidence Collection Report
+Open Finding Report
+Exception Report
+Vendor Assessment Report
+Policy Review Report
+Remediation Report
+```
+
+For example:
+
+```text
+CONTROL TESTING REPORT
+        ↓
+Control
+        ↓
+Owner
+        ↓
+Testing Status
+        ↓
+Evidence
+        ↓
+Finding
+        ↓
+Due Date
+```
+
+The operational report should allow the responsible person to take action.
+
+### Regulatory Reporting
+
+Certain organizations may need to produce information for regulators or demonstrate compliance with regulatory requirements.
+
+A regulatory reporting process may look like:
+
+```text
+Regulatory Requirement
+        ↓
+Compliance Obligation
+        ↓
+Control
+        ↓
+Evidence
+        ↓
+Assessment
+        ↓
+Compliance Status
+        ↓
+Regulatory Report
+```
+
+The organization should be able to demonstrate the relationship between the requirement and the evidence.
+
+```text
+Requirement
+     ↓
+Control
+     ↓
+Evidence
+     ↓
+Assessment
+     ↓
+Conclusion
+```
+
+This provides **traceability**.
+
+### Audit Reporting
+
+Audit reports should clearly communicate:
+
+```text
+Audit Scope
+Audit Objective
+Methodology
+Findings
+Risk Rating
+Root Cause
+Business Impact
+Management Response
+Remediation
+Due Date
+Closure Status
+```
+
+A simplified structure is:
+
+```text
+Audit
+ ↓
+Finding
+ ↓
+Condition
+ ↓
+Criteria
+ ↓
+Cause
+ ↓
+Impact
+ ↓
+Recommendation
+ ↓
+Management Action
+ ↓
+Closure
+```
+
+This creates a complete audit trail.
+
+### Risk Reporting
+
+A risk report should not simply list risks.
+
+It should provide context.
+
+A useful risk record may include:
+
+```text
+Risk
+ ↓
+Risk Owner
+ ↓
+Cause
+ ↓
+Event
+ ↓
+Impact
+ ↓
+Likelihood
+ ↓
+Inherent Risk
+ ↓
+Controls
+ ↓
+Residual Risk
+ ↓
+Risk Treatment
+ ↓
+Target Risk
+```
+
+The reporting model therefore becomes:
+
+```text
+Inherent Risk
+      ↓
+Controls
+      ↓
+Residual Risk
+      ↓
+Risk Appetite
+      ↓
+Gap
+      ↓
+Treatment
+```
+
+### Inherent vs Residual Risk Reporting
+
+One of the most important concepts in risk reporting is distinguishing between **inherent risk** and **residual risk**.
+
+```text
+Inherent Risk
+     ↓
+Risk Before Controls
+     ↓
+Controls
+     ↓
+Residual Risk
+     ↓
+Risk After Controls
+```
+
+For example:
+
+```text
+Inherent Risk:  Critical
+        ↓
+Strong Controls
+        ↓
+Residual Risk: High
+```
+
+The dashboard should allow management to understand whether controls are reducing exposure sufficiently.
+
+### Risk Appetite Reporting
+
+Risk reporting should be compared with the organization's risk appetite.
+
+```text
+Risk Level
+    ↓
+Risk Appetite
+    ↓
+Risk Tolerance
+    ↓
+Actual Risk
+    ↓
+Comparison
+```
+
+For example:
+
+```text
+Risk Appetite: Medium
+
+Actual Risk: High
+
+        ↓
+
+Outside Risk Appetite
+
+        ↓
+
+Management Attention
+```
+
+This is more meaningful than simply displaying:
+
+```text
+Risk = High
+```
+
+because management needs to know whether the risk is **acceptable**.
+
+### Risk Acceptance Reporting
+
+Some risks may be formally accepted.
+
+A risk acceptance report can show:
+
+```text
+Accepted Risk
+      ↓
+Risk Owner
+      ↓
+Approver
+      ↓
+Reason
+      ↓
+Expiration Date
+      ↓
+Review Status
+```
+
+A mature dashboard should identify:
+
+```text
+Active Acceptances
+Expiring Acceptances
+Expired Acceptances
+High-Risk Acceptances
+Unauthorized Acceptances
+```
+
+For example:
+
+```text
+Risk Acceptance
+      ↓
+Expiration Date
+      ↓
+Expired?
+   ↙       ↘
+ No         Yes
+ ↓           ↓
+Monitor    Escalate
+```
+
+### Exception Reporting
+
+Exceptions should be reported separately from normal compliance status.
+
+For example:
+
+```text
+Control Requirement
+        ↓
+Exception Requested
+        ↓
+Risk Assessment
+        ↓
+Approval
+        ↓
+Exception Active
+        ↓
+Monitoring
+        ↓
+Expiration
+```
+
+The report should identify exceptions approaching expiration.
+
+```text
+Exception Status
+
+Active       80
+Expiring     12
+Expired       5
+Pending       8
+```
+
+This allows management to address exceptions before they become uncontrolled exposures.
+
+### Remediation Reporting
+
+A remediation report should show whether identified problems are being resolved.
+
+```text
+Finding
+   ↓
+Action
+   ↓
+Owner
+   ↓
+Due Date
+   ↓
+Status
+   ↓
+Validation
+   ↓
+Closure
+```
+
+Useful metrics include:
+
+```text
+Open Actions
+Completed Actions
+Overdue Actions
+Critical Overdue Actions
+Average Remediation Time
+SLA Compliance
+```
+
+A particularly useful metric is **remediation aging**.
+
+```text
+0–30 Days       ███████████
+31–60 Days      ███████
+61–90 Days      ████
+91–180 Days     ██
+180+ Days       █
+```
+
+Long-aging issues may indicate structural problems.
+
+### Root Cause Reporting
+
+A mature GRC report should look beyond the number of findings.
+
+For example:
+
+```text
+100 Findings
+     ↓
+Classification
+     ↓
+Root Cause Analysis
+     ↓
+Common Causes
+```
+
+The organization might discover:
+
+```text
+40% Process
+25% Technology
+20% People
+10% Governance
+5% Third Party
+```
+
+This provides significantly more insight than simply reporting:
+
+```text
+100 Findings
+```
+
+Management can then address the underlying problem.
+
+```text
+Recurring Findings
+       ↓
+Common Root Cause
+       ↓
+Structural Problem
+       ↓
+Corrective Program
+```
+
+### Trend Reporting
+
+Periodic reports should compare current performance with previous periods.
+
+```text
+Current Month
+      ↓
+Previous Month
+      ↓
+Previous Quarter
+      ↓
+Previous Year
+```
+
+For example:
+
+```text
+Critical Findings
+
+2025 Q4       18
+2026 Q1       15
+2026 Q2       12
+2026 Q3        8
+```
+
+The trend suggests improvement.
+
+However:
+
+```text
+Lower Number
+    ≠
+Automatically Better
+```
+
+The organization must understand whether the reduction is caused by:
+
+```text
+Actual Risk Reduction
+        or
+Reduced Testing
+        or
+Incomplete Data
+        or
+Changed Methodology
+```
+
+Therefore trend reporting requires context.
+
+### Comparative Reporting
+
+GRC reports can compare:
+
+```text
+Business Units
+Regions
+Departments
+Time Periods
+Risk Categories
+Frameworks
+Vendors
+Control Groups
+```
+
+For example:
+
+```text
+Control Effectiveness
+
+Region A       96%
+Region B       91%
+Region C       82%
+Region D       97%
+```
+
+Management can then focus on the weaker area.
+
+```text
+Region C
+   ↓
+82%
+   ↓
+Below Target
+   ↓
+Root Cause Analysis
+```
+
+### Heat Maps in Executive Reporting
+
+Heat maps can provide a compact representation of risk concentration.
+
+```text
+                 IMPACT
+                   ↑
+        Low   Medium   High   Critical
+
+High     🟡     🟠       🔴       🔴
+
+Med      🟢     🟡       🟠       🔴
+
+Low      🟢     🟢       🟡       🟠
+
+         ─────────────────────────→
+                LIKELIHOOD
+```
+
+This allows executives to quickly identify areas requiring attention.
+
+### Executive Summary
+
+A formal GRC report should usually begin with an executive summary.
+
+A useful structure is:
+
+```text
+EXECUTIVE SUMMARY
+
+1. Overall GRC Posture
+2. Significant Changes
+3. Top Risks
+4. Major Compliance Issues
+5. Critical Control Failures
+6. Significant Audit Findings
+7. Major Exceptions
+8. Remediation Status
+9. Management Decisions Required
+```
+
+The executive summary should not simply repeat every detail from the report.
+
+It should explain the **meaning and implications** of the information.
+
+### Management Action Reporting
+
+A strong GRC report identifies actions that management needs to take.
+
+```text
+Finding
+   ↓
+Risk
+   ↓
+Impact
+   ↓
+Recommendation
+   ↓
+Management Decision
+   ↓
+Action Owner
+   ↓
+Due Date
+```
+
+For example:
+
+```text
+High Cloud Security Risk
+        ↓
+Requires Additional Investment
+        ↓
+Management Decision
+        ↓
+Approve Security Program
+        ↓
+CISO
+        ↓
+90-Day Remediation
+```
+
+This connects GRC reporting to actual organizational decisions.
+
+### Decision-Oriented Reporting
+
+A useful GRC report should answer:
+
+```text
+What happened?
+      ↓
+Why did it happen?
+      ↓
+How serious is it?
+      ↓
+What is the business impact?
+      ↓
+What should management do?
+```
+
+This is significantly more valuable than:
+
+```text
+Here are 500 GRC records.
+```
+
+### Reporting Frequency
+
+Different GRC information requires different reporting frequencies.
+
+```text
+Real-Time
+ ↓
+Critical Security / Risk Alerts
+
+Daily
+ ↓
+Operational Monitoring
+
+Weekly
+ ↓
+Remediation / Task Reporting
+
+Monthly
+ ↓
+GRC Operational Reporting
+
+Quarterly
+ ↓
+Executive / Risk Reporting
+
+Annually
+ ↓
+Board / Enterprise GRC Review
+```
+
+The frequency should be determined by:
+
+```text
+Risk
++
+Business Criticality
++
+Regulatory Requirement
++
+Decision Requirement
+```
+
+### Automated Reporting
+
+Modern GRC platforms can automate reporting.
+
+```text
+GRC Database
+      ↓
+Scheduled Query
+      ↓
+Data Processing
+      ↓
+Dashboard / Report
+      ↓
+Distribution
+```
+
+For example:
+
+```text
+Every Monday
+      ↓
+Generate Remediation Report
+      ↓
+Send to Control Owners
+```
+
+Or:
+
+```text
+First Day of Month
+      ↓
+Generate Executive GRC Report
+      ↓
+Management Review
+```
+
+Automation reduces manual reporting effort.
+
+### Automated Alerts
+
+Dashboards and reports can also generate alerts when thresholds are exceeded.
+
+```text
+KRI
+ ↓
+Threshold
+ ↓
+Threshold Breached
+ ↓
+Alert
+ ↓
+Owner
+ ↓
+Action
+```
+
+For example:
+
+```text
+Critical Findings > 10
+        ↓
+Automatic Alert
+        ↓
+GRC Manager
+        ↓
+Escalation
+```
+
+### Reporting Governance
+
+GRC reports themselves should be governed.
+
+Important controls include:
+
+```text
+Report Owner
+Data Owner
+Report Definition
+Metric Definition
+Calculation Method
+Data Source
+Reporting Frequency
+Distribution List
+Access Control
+Retention
+Approval
+```
+
+For example:
+
+```text
+KPI:
+Control Testing Completion
+
+Definition:
+Percentage of applicable controls tested within the required period.
+
+Source:
+GRC Control Testing Module
+
+Target:
+95%
+
+Owner:
+GRC Compliance Manager
+```
+
+This prevents different departments from calculating the same metric differently.
+
+### Metric Definition
+
+Every important metric should have a clear definition.
+
+A metric dictionary may contain:
+
+```text
+Metric Name
+Definition
+Formula
+Data Source
+Owner
+Frequency
+Target
+Threshold
+Calculation Period
+```
+
+For example:
+
+```text
+Metric:
+Remediation SLA Compliance
+
+Definition:
+Percentage of remediation actions completed within their approved SLA.
+
+Formula:
+Actions completed within SLA
+────────────────────────────── × 100
+Total completed actions
+
+Target:
+≥ 95%
+```
+
+This creates consistency.
+
+### Report Traceability
+
+Every important GRC report should be traceable back to its source.
+
+```text
+Executive Report
+       ↓
+Metric
+       ↓
+Dashboard
+       ↓
+GRC Record
+       ↓
+Control / Risk
+       ↓
+Evidence
+       ↓
+Source System
+```
+
+This is especially important for:
+
+```text
+Internal Audit
+External Audit
+Regulatory Review
+Board Reporting
+Compliance Certification
+Management Assurance
+```
+
+### GRC Reporting as a Decision Cycle
+
+The complete reporting cycle can be represented as:
+
+```text
+                 GRC DATA
+                     ↓
+                DATA QUALITY
+                     ↓
+                  METRICS
+                     ↓
+                 ANALYSIS
+                     ↓
+                DASHBOARD
+                     ↓
+                  REPORT
+                     ↓
+                STAKEHOLDER
+                     ↓
+                 DECISION
+                     ↓
+                  ACTION
+                     ↓
+                MONITORING
+                     ↓
+                 NEW DATA
+                     ↺
+```
+
+This creates a continuous feedback loop.
+
+The ultimate objective is not the report itself.
+
+The objective is:
+
+```text
+Better Information
+       ↓
+Better Understanding
+       ↓
+Better Decisions
+       ↓
+Better Actions
+       ↓
+Lower Risk
+       ↓
+Better Governance
+```
+
+A mature GRC reporting environment therefore connects **data, metrics, risk, compliance, assurance, management oversight, and action** into one continuous decision-support process.
+
 
 

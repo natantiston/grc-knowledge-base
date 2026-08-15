@@ -4802,4 +4802,1468 @@ Continuous Improvement
 
 The ultimate objective of audit remediation is therefore not simply to **close findings**, but to **reduce organizational risk and strengthen the control environment in a sustainable and demonstrable way**.
 
+# 18.13 GRC Audit and Assurance Diagrams
+
+## Part 4 – Three Lines and Assurance Model
+
+The **Three Lines Model** provides a structured way to understand how governance, risk management, control, and independent assurance responsibilities are distributed across an organization.
+
+For GRC professionals, the model is particularly important because organizations often have multiple functions involved in risk and assurance:
+
+```text
+Board / Governing Body
+        ↓
+Management
+        ↓
+Risk Management
+        ↓
+Compliance
+        ↓
+Internal Audit
+        ↓
+External Assurance
+```
+
+The Three Lines Model helps clarify **who owns risk, who manages and monitors risk, and who provides independent assurance**.
+
+---
+
+# 1. Purpose of the Three Lines Model
+
+The model helps an organization answer three fundamental questions:
+
+```text
+Who owns and manages risk?
+
+Who supports and monitors risk management?
+
+Who provides independent assurance?
+```
+
+A simplified structure is:
+
+```text
+                    GOVERNING BODY
+                          ↓
+                Oversight and Accountability
+                          ↓
+        ┌─────────────────┼─────────────────┐
+        ↓                 ↓                 ↓
+   MANAGEMENT        SECOND LINE        INTERNAL AUDIT
+   First Line        Risk / Compliance    Third Line
+        ↓                 ↓                 ↓
+   Own & Manage     Support & Monitor    Independent
+       Risk               Risk             Assurance
+```
+
+The model is not simply an organizational hierarchy. It is primarily a **clarification of responsibilities**.
+
+---
+
+# 2. Governing Body
+
+The governing body sits above the Three Lines because it is responsible for oversight.
+
+Depending on the organization, this could include:
+
+```text
+Board of Directors
+Board Risk Committee
+Audit Committee
+Supervisory Board
+Executive Governance Committee
+```
+
+Its responsibilities may include:
+
+```text
+Oversight
+Accountability
+Risk Appetite
+Strategic Direction
+Governance
+Assurance Oversight
+```
+
+The governing body does not normally perform the day-to-day management of risks.
+
+---
+
+# 3. First Line
+
+The First Line consists of functions that **own and manage risk as part of operating the business**.
+
+Examples include:
+
+```text
+Business Units
+IT Operations
+Engineering
+Finance
+Human Resources
+Product Teams
+Network Operations
+Security Operations
+Procurement
+Application Owners
+```
+
+The fundamental principle is:
+
+> **Those responsible for operating a process are also responsible for managing the risks associated with that process.**
+
+---
+
+# 4. First-Line Responsibilities
+
+Typical responsibilities include:
+
+```text
+Identify Risks
+Manage Risks
+Operate Controls
+Follow Policies
+Monitor Processes
+Escalate Issues
+Maintain Evidence
+Correct Control Weaknesses
+```
+
+For example:
+
+```text
+Application Owner
+      ↓
+Identifies Application Risks
+      ↓
+Implements Security Controls
+      ↓
+Monitors Control Operation
+      ↓
+Addresses Issues
+```
+
+The First Line therefore has direct operational responsibility for risk.
+
+---
+
+# 5. Second Line
+
+The Second Line consists of functions that provide **expertise, support, monitoring, challenge, and oversight** relating to risk management.
+
+Examples include:
+
+```text
+Enterprise Risk Management
+Information Security Governance
+Compliance
+Privacy
+Legal
+Quality
+Financial Risk
+Third-Party Risk
+Business Continuity
+Regulatory Affairs
+```
+
+The Second Line does not normally own the underlying operational risk.
+
+Instead, it establishes frameworks and provides oversight and challenge.
+
+---
+
+# 6. Second-Line Responsibilities
+
+Typical responsibilities include:
+
+```text
+Risk Frameworks
+Policies
+Standards
+Guidance
+Risk Monitoring
+Compliance Monitoring
+Risk Reporting
+Control Oversight
+Advisory Support
+Challenge
+Escalation
+```
+
+For example:
+
+```text
+Business Unit
+      ↓
+Owns Risk
+      ↓
+Second Line
+      ↓
+Provides Methodology
+Monitors Risk
+Challenges Assessment
+Reports Risk
+```
+
+---
+
+# 7. Third Line
+
+The Third Line is primarily **internal audit**.
+
+Internal audit provides independent and objective assurance over:
+
+```text
+Governance
+Risk Management
+Internal Controls
+Compliance
+Operational Effectiveness
+```
+
+The Third Line should maintain sufficient independence from the activities it audits.
+
+---
+
+# 8. Internal Audit Responsibilities
+
+Internal audit may:
+
+```text
+Assess Controls
+Test Controls
+Evaluate Risk Management
+Review Governance
+Identify Findings
+Provide Assurance
+Follow Up Remediation
+Report to Audit Committee
+```
+
+However:
+
+```text
+Internal Audit
+     ≠
+Management
+```
+
+Internal audit should not assume ownership of operational risks or become responsible for operating controls.
+
+---
+
+# 9. Three Lines Model
+
+A simplified diagram is:
+
+```text
+                         GOVERNING BODY
+                               │
+                     Oversight & Accountability
+                               │
+        ┌──────────────────────┼──────────────────────┐
+        │                      │                      │
+        ↓                      ↓                      ↓
+   FIRST LINE              SECOND LINE            THIRD LINE
+   Management              Risk / Compliance      Internal Audit
+        │                      │                      │
+        ↓                      ↓                      ↓
+   Own & Manage             Support, Monitor       Independent
+       Risk                  & Challenge            Assurance
+        │                      │                      │
+        └──────────────────────┼──────────────────────┘
+                               ↓
+                       Organizational Objectives
+```
+
+The lines interact with each other, but their responsibilities remain distinct.
+
+---
+
+# 10. First Line and Second Line Relationship
+
+The First and Second Lines should work collaboratively while maintaining clear accountability.
+
+```text
+First Line
+    │
+    │ Risk Information
+    ↓
+Second Line
+    │
+    │ Guidance / Challenge
+    ↓
+First Line
+```
+
+For example:
+
+```text
+Business Unit
+     ↓
+Performs Risk Assessment
+     ↓
+GRC / Risk Function
+     ↓
+Reviews Methodology
+     ↓
+Challenges Risk Rating
+     ↓
+Business Unit
+     ↓
+Updates Assessment
+```
+
+The Second Line supports and challenges the First Line rather than taking over ownership.
+
+---
+
+# 11. Second Line and Third Line Relationship
+
+The Second Line provides ongoing risk oversight.
+
+Internal audit independently evaluates whether governance and risk management are working effectively.
+
+```text
+Second Line
+     ↓
+Ongoing Monitoring
+     ↓
+Risk Reporting
+     ↓
+Internal Audit
+     ↓
+Independent Assessment
+```
+
+Internal audit may use information produced by the Second Line but should independently determine whether that information is reliable and sufficient.
+
+---
+
+# 12. First Line and Third Line Relationship
+
+Internal audit may audit the First Line directly.
+
+```text
+First Line
+     ↓
+Operates Controls
+     ↓
+Internal Audit
+     ↓
+Tests Controls
+     ↓
+Assurance Conclusion
+```
+
+The First Line is accountable for fixing identified weaknesses.
+
+Internal audit validates remediation where appropriate.
+
+---
+
+# 13. Independence Principle
+
+A critical characteristic of the Third Line is independence.
+
+The model can be represented as:
+
+```text
+                 MANAGEMENT
+                     ↓
+              Owns & Manages Risk
+                     ↓
+               CONTROL ENVIRONMENT
+                     ↓
+              INTERNAL AUDIT
+                     ↓
+          Independent Assurance
+                     ↓
+              GOVERNING BODY
+```
+
+Internal audit should have an appropriate reporting relationship with the governing body to preserve its independence.
+
+---
+
+# 14. Internal Audit Reporting
+
+A mature internal audit structure often includes:
+
+```text
+Chief Audit Executive
+          ↓
+   Audit Committee
+          ↓
+    Governing Body
+```
+
+The Chief Audit Executive should have appropriate access to senior leadership and the governing body.
+
+This supports independent escalation of significant risk and control concerns.
+
+---
+
+# 15. Three Lines Is Not Three Departments
+
+The Three Lines Model should not be interpreted as requiring exactly three organizational departments.
+
+For example:
+
+```text
+Small Organization
+──────────────────
+First Line → Operations
+Second Line → Risk / Compliance
+Third Line → Internal Audit
+
+Large Organization
+──────────────────
+Multiple First-Line Functions
+Multiple Second-Line Functions
+Central Internal Audit
+```
+
+The model is based on **responsibilities and roles**, not merely organizational charts.
+
+---
+
+# 16. Governance, Risk, and Assurance Relationship
+
+A broader model is:
+
+```text id="6xg8ph"
+                     GOVERNANCE
+                         ↓
+                  Strategic Direction
+                         ↓
+                  Risk Management
+                         ↓
+                     Controls
+                         ↓
+                  Business Operations
+                         ↓
+                     Monitoring
+                         ↓
+                    Assurance
+                         ↓
+                     Feedback
+                         ↓
+                   Governance
+```
+
+This creates a continuous governance cycle.
+
+---
+
+# 17. Assurance Map
+
+An **assurance map** provides visibility into which functions provide assurance over specific risks and controls.
+
+Example:
+
+| Risk Area             | First Line              | Second Line           | Internal Audit        | External Assurance    |
+| --------------------- | ----------------------- | --------------------- | --------------------- | --------------------- |
+| Access Management     | Operates controls       | Monitors              | Tests                 | As applicable         |
+| Privacy               | Operates processes      | Privacy oversight     | Audits                | Regulatory / external |
+| Third-Party Risk      | Manages suppliers       | TPRM oversight        | Audits                | As applicable         |
+| Business Continuity   | Executes plans          | BCM oversight         | Tests governance      | External review       |
+| Regulatory Compliance | Implements requirements | Compliance monitoring | Independent assurance | Regulator             |
+
+The objective is to identify **assurance coverage and potential gaps**.
+
+---
+
+# 18. Assurance Coverage Model
+
+An assurance model can be represented as:
+
+```text
+                     ORGANIZATIONAL RISK
+                            ↓
+                     Risk Identification
+                            ↓
+                       Risk Owner
+                            ↓
+                      Control System
+                            ↓
+       ┌────────────────────┼────────────────────┐
+       ↓                    ↓                    ↓
+   First Line           Second Line          Third Line
+   Control Operation    Monitoring            Audit
+       ↓                    ↓                    ↓
+       └────────────────────┼────────────────────┘
+                            ↓
+                     Assurance Picture
+                            ↓
+                     Governing Body
+```
+
+This gives leadership a consolidated view of risk and assurance.
+
+---
+
+# 19. Assurance Types
+
+Assurance may come from multiple sources.
+
+Examples include:
+
+```text
+Management Assurance
+Compliance Assurance
+Risk Assurance
+Security Assurance
+Internal Audit
+External Audit
+Certification Bodies
+Regulators
+Independent Assessors
+```
+
+These sources should not necessarily be treated as equivalent.
+
+The level of independence and scope should be considered.
+
+---
+
+# 20. Management Assurance
+
+Management may perform self-assessments.
+
+For example:
+
+```text
+Control Owner
+     ↓
+Self-Assessment
+     ↓
+Evidence Review
+     ↓
+Management Certification
+```
+
+This can provide useful first-line assurance but is not equivalent to independent internal audit.
+
+---
+
+# 21. Compliance Assurance
+
+Compliance functions may monitor whether requirements are being met.
+
+```text
+Regulatory Requirement
+       ↓
+Compliance Mapping
+       ↓
+Monitoring
+       ↓
+Exception
+       ↓
+Management Action
+```
+
+This is typically part of Second Line activity.
+
+---
+
+# 22. Internal Audit Assurance
+
+Internal audit provides independent assurance.
+
+```text
+Risk
+ ↓
+Control
+ ↓
+Audit Objective
+ ↓
+Testing
+ ↓
+Evidence
+ ↓
+Conclusion
+ ↓
+Assurance Report
+```
+
+The conclusion should be based on sufficient and appropriate evidence.
+
+---
+
+# 23. External Assurance
+
+External assurance may come from:
+
+```text
+External Auditors
+Certification Bodies
+Regulators
+Independent Assessors
+Customer Auditors
+```
+
+For example:
+
+```text
+ISO 27001
+     ↓
+Certification Audit
+     ↓
+Certification Body
+     ↓
+Independent Assessment
+```
+
+External assurance can complement internal assurance but does not eliminate the need for internal governance and monitoring.
+
+---
+
+# 24. Assurance Duplication
+
+A mature organization should identify unnecessary duplication.
+
+For example:
+
+```text
+Compliance
+     ↓
+Tests Control
+
+Security
+     ↓
+Tests Same Control
+
+Internal Audit
+     ↓
+Tests Same Control
+
+External Auditor
+     ↓
+Tests Same Control
+```
+
+Without coordination, multiple functions may repeatedly test the same control while other important risks remain under-assured.
+
+---
+
+# 25. Assurance Gap
+
+The opposite problem is an assurance gap.
+
+```text
+Risk
+ ↓
+Control
+ ↓
+No Monitoring
+ ↓
+No Independent Testing
+ ↓
+Assurance Gap
+```
+
+This may leave management without sufficient visibility into whether an important control is operating effectively.
+
+---
+
+# 26. Assurance Overlap
+
+A mature GRC environment should identify both:
+
+```text
+Assurance Gaps
+        +
+Assurance Overlap
+```
+
+The objective is:
+
+```text
+Right Risk
+    ↓
+Right Control
+    ↓
+Right Assurance
+    ↓
+Right Frequency
+    ↓
+Right Owner
+```
+
+---
+
+# 27. Combined Three Lines and Assurance Map
+
+A more detailed model is:
+
+```text
+                         GOVERNING BODY
+                               │
+                               ↓
+                         Risk Appetite
+                               │
+             ┌─────────────────┼─────────────────┐
+             ↓                 ↓                 ↓
+         FIRST LINE        SECOND LINE        THIRD LINE
+         Operations        Risk/Compliance    Internal Audit
+             │                 │                 │
+             ↓                 ↓                 ↓
+        Own & Manage       Monitor &           Independent
+            Risk            Challenge            Assurance
+             │                 │                 │
+             └─────────────────┼─────────────────┘
+                               ↓
+                       Assurance Landscape
+                               ↓
+                     Board / Audit Committee
+```
+
+---
+
+# 28. Three Lines and GRC Platforms
+
+A GRC platform can map responsibilities across the Three Lines.
+
+For example:
+
+```text
+Risk
+ ↓
+Risk Owner → First Line
+ ↓
+Risk Oversight → Second Line
+ ↓
+Audit Test → Third Line
+ ↓
+Finding
+ ↓
+Remediation
+```
+
+This allows organizations to see:
+
+```text
+Who owns the risk?
+Who monitors the risk?
+Who tested the risk?
+What findings exist?
+What remediation is underway?
+```
+
+---
+
+# 29. Three Lines and ISO 27001
+
+In an ISO 27001 environment, the Three Lines concept can help clarify governance.
+
+For example:
+
+```text
+First Line
+Information System Owners
+IT Operations
+Security Operations
+Business Owners
+
+Second Line
+Information Security Governance
+Risk
+Compliance
+Privacy
+
+Third Line
+Internal Audit
+```
+
+The exact organizational allocation varies by organization.
+
+ISO 27001 implementation does not require an organization to formally adopt the Three Lines Model, but the model can be useful for clarifying responsibilities.
+
+---
+
+# 30. Three Lines and Cybersecurity
+
+Cybersecurity provides a practical example.
+
+```text
+                    CYBERSECURITY RISK
+                           ↓
+            ┌──────────────┼──────────────┐
+            ↓              ↓              ↓
+       FIRST LINE       SECOND LINE    THIRD LINE
+       Security Ops     Cyber GRC      Internal Audit
+            ↓              ↓              ↓
+       Operate          Monitor        Independently
+       Controls         & Challenge       Test
+            ↓              ↓              ↓
+            └──────────────┼──────────────┘
+                           ↓
+                    Risk Reporting
+                           ↓
+                       Leadership
+```
+
+This is particularly useful for organizations where security operations and cybersecurity governance are separate functions.
+
+---
+
+# 31. Three Lines and Third-Party Risk
+
+For supplier risk:
+
+```text
+FIRST LINE
+Business / Procurement
+        ↓
+Selects and manages supplier
+
+SECOND LINE
+Third-Party Risk / Compliance
+        ↓
+Defines methodology
+Monitors risk
+Challenges assessment
+
+THIRD LINE
+Internal Audit
+        ↓
+Independently evaluates
+third-party risk management
+```
+
+This clarifies accountability.
+
+---
+
+# 32. Three Lines and Privacy
+
+For privacy:
+
+```text
+FIRST LINE
+Business / Product Teams
+        ↓
+Process Personal Data
+
+SECOND LINE
+Privacy Function
+        ↓
+Provides Privacy Governance
+Monitoring & Advice
+
+THIRD LINE
+Internal Audit
+        ↓
+Independent Assurance
+```
+
+The model helps prevent privacy governance from becoming solely the responsibility of the privacy function.
+
+Business teams remain responsible for how they process data.
+
+---
+
+# 33. Three Lines and Business Continuity
+
+For business continuity:
+
+```text
+FIRST LINE
+Business Units
+        ↓
+Own Continuity Requirements
+Maintain Plans
+
+SECOND LINE
+BCM Function
+        ↓
+Methodology
+Oversight
+Testing Coordination
+
+THIRD LINE
+Internal Audit
+        ↓
+Independent Assurance
+```
+
+This provides a clear distinction between operational responsibility and independent assurance.
+
+---
+
+# 34. Three Lines and Regulatory Compliance
+
+A regulatory example:
+
+```text
+Regulator
+   ↓
+Requirement
+   ↓
+Second Line
+Compliance Interpretation
+   ↓
+First Line
+Implementation
+   ↓
+Second Line
+Monitoring
+   ↓
+Third Line
+Independent Assurance
+```
+
+This provides multiple layers of governance without transferring operational accountability away from the business.
+
+---
+
+# 35. Three Lines and Risk Acceptance
+
+Risk acceptance should remain with appropriate management authority.
+
+```text
+Risk
+ ↓
+First Line
+Identifies & Manages
+ ↓
+Second Line
+Challenges Risk Assessment
+ ↓
+Management
+Accepts / Treats Risk
+ ↓
+Third Line
+May Independently Assess
+the Risk Management Process
+```
+
+Internal audit should not become the risk owner or risk acceptance authority.
+
+---
+
+# 36. Assurance Reporting to the Board
+
+The governing body needs a consolidated view.
+
+A simplified flow is:
+
+```text
+First Line
+     ↓
+Operational Risk Information
+
+Second Line
+     ↓
+Risk & Compliance Reporting
+
+Third Line
+     ↓
+Independent Assurance
+
+External Assurance
+     ↓
+Independent External Perspective
+
+          ↓
+     GOVERNING BODY
+```
+
+This enables leadership to compare different sources of information.
+
+---
+
+# 37. Assurance Coordination
+
+Organizations can establish an assurance coordination process:
+
+```text
+Risk Universe
+     ↓
+Control Universe
+     ↓
+Assurance Providers
+     ↓
+Assurance Activities
+     ↓
+Coverage Mapping
+     ↓
+Gap / Overlap Analysis
+     ↓
+Assurance Plan
+```
+
+This can improve efficiency and assurance coverage.
+
+---
+
+# 38. Integrated Assurance
+
+Integrated assurance attempts to coordinate multiple assurance providers.
+
+```text
+                 ENTERPRISE RISKS
+                       ↓
+                 CONTROL OBJECTIVES
+                       ↓
+        ┌──────────────┼──────────────┐
+        ↓              ↓              ↓
+   Management      Compliance      Internal
+   Assurance       Assurance        Audit
+        ↓              ↓              ↓
+        └──────────────┼──────────────┘
+                       ↓
+                Assurance Results
+                       ↓
+                Executive / Board
+```
+
+The objective is not to eliminate independent assurance, but to create a more complete view of assurance coverage.
+
+---
+
+# 39. Assurance Universe
+
+An organization can maintain an assurance universe covering:
+
+```text
+Strategic Risks
+Operational Risks
+Financial Risks
+Cybersecurity Risks
+Compliance Risks
+Privacy Risks
+Third-Party Risks
+Technology Risks
+Resilience Risks
+```
+
+Each risk can then be mapped to:
+
+```text
+Controls
+Owners
+Monitoring
+Testing
+Audit
+External Assurance
+```
+
+---
+
+# 40. Assurance Heat Map
+
+A useful visual model is:
+
+```text
+                 ASSURANCE COVERAGE
+
+                LOW      MEDIUM      HIGH
+              ┌────────┬──────────┬─────────┐
+Strategic     │   ⚠    │    ✓     │    ✓    │
+              ├────────┼──────────┼─────────┤
+Cybersecurity │   ⚠    │    ✓     │    ✓    │
+              ├────────┼──────────┼─────────┤
+Privacy       │   ⚠    │    ✓     │    ✓    │
+              ├────────┼──────────┼─────────┤
+Third Party   │   ⚠    │    ✓     │    ✓    │
+              └────────┴──────────┴─────────┘
+```
+
+The organization should pay particular attention to **high-risk areas with low assurance coverage**.
+
+---
+
+# 41. Assurance Gap Analysis
+
+The process can be represented as:
+
+```text
+Risk Universe
+      ↓
+Existing Assurance
+      ↓
+Coverage Assessment
+      ↓
+Gap Identification
+      ↓
+Risk Prioritization
+      ↓
+Additional Assurance
+```
+
+This allows audit planning to become more risk-based.
+
+---
+
+# 42. Assurance Overlap Analysis
+
+The same process can identify excessive duplication:
+
+```text
+Risk
+ ↓
+Compliance Test
+ ↓
+Security Test
+ ↓
+Internal Audit Test
+ ↓
+External Audit Test
+ ↓
+Four Similar Assurance Activities
+```
+
+The organization can assess whether the activities have sufficiently different objectives or whether coordination can improve efficiency.
+
+---
+
+# 43. Combined Assurance Model
+
+A mature organization can integrate assurance information:
+
+```text
+First-Line Monitoring
+          ↓
+Second-Line Monitoring
+          ↓
+Internal Audit
+          ↓
+External Assurance
+          ↓
+Regulatory Assurance
+          ↓
+       CONSOLIDATED
+     ASSURANCE VIEW
+          ↓
+    GOVERNING BODY
+```
+
+This creates a broader picture than any individual assurance function can provide.
+
+---
+
+# 44. Three Lines and Accountability
+
+The model can be summarized as:
+
+```text
+FIRST LINE
+"What risks do we own?"
+
+SECOND LINE
+"Are risks being managed appropriately?"
+
+THIRD LINE
+"Is the governance and risk management system
+working effectively and independently?"
+```
+
+These questions illustrate the different perspectives of the three lines.
+
+---
+
+# 45. Common Misunderstandings
+
+Several misconceptions should be avoided.
+
+### Misunderstanding 1
+
+> Internal audit owns risk.
+
+Incorrect.
+
+```text
+Management → Owns Risk
+Internal Audit → Provides Assurance
+```
+
+### Misunderstanding 2
+
+> Compliance owns all compliance risk.
+
+Not necessarily.
+
+Business functions remain responsible for implementing requirements relevant to their operations.
+
+### Misunderstanding 3
+
+> Second Line operates all controls.
+
+Generally incorrect.
+
+The First Line remains responsible for operating the business and associated controls.
+
+### Misunderstanding 4
+
+> Three Lines means three departments.
+
+Incorrect.
+
+It is a model for responsibilities and accountability.
+
+---
+
+# 46. Three Lines vs Defense-in-Depth
+
+These concepts should not be confused.
+
+**Three Lines** primarily describes governance and accountability.
+
+**Defense-in-depth** primarily describes layered security controls.
+
+For example:
+
+```text
+Three Lines
+Governance / Risk / Assurance
+```
+
+versus:
+
+```text
+Defense-in-Depth
+Identity
+Network
+Endpoint
+Application
+Data
+Monitoring
+```
+
+They can complement one another but serve different purposes.
+
+---
+
+# 47. Three Lines vs Three Lines of Defense
+
+The modern terminology is generally **Three Lines Model** rather than treating the lines purely as "lines of defense."
+
+The modern concept emphasizes:
+
+```text
+Governance
+Accountability
+Risk Management
+Coordination
+Assurance
+```
+
+rather than suggesting that every line is simply a defensive barrier.
+
+---
+
+# 48. GRC Operating Model
+
+The Three Lines concept can form part of a broader GRC operating model:
+
+```text
+                 GOVERNING BODY
+                       ↓
+                 Risk Appetite
+                       ↓
+        ┌──────────────┼──────────────┐
+        ↓              ↓              ↓
+    FIRST LINE      SECOND LINE     THIRD LINE
+    Operations      GRC Functions   Internal Audit
+        ↓              ↓              ↓
+    Risk Owner      Oversight       Assurance
+        └──────────────┼──────────────┘
+                       ↓
+                 GRC Reporting
+                       ↓
+                 Decision Making
+```
+
+This creates a structured relationship between operational management, GRC oversight, and independent assurance.
+
+---
+
+# 49. End-to-End Three Lines and Assurance Model
+
+The complete model can be represented as:
+
+```text
+┌──────────────────────────────────────────────────────────────┐
+│               THREE LINES & ASSURANCE MODEL                  │
+└──────────────────────────────────────────────────────────────┘
+
+                         GOVERNING BODY
+                               │
+                    Oversight / Accountability
+                               │
+                         Risk Appetite
+                               │
+          ┌────────────────────┼────────────────────┐
+          │                    │                    │
+          ↓                    ↓                    ↓
+     FIRST LINE           SECOND LINE           THIRD LINE
+     Management           Risk / Compliance     Internal Audit
+          │                    │                    │
+          ↓                    ↓                    ↓
+     Own & Manage         Support / Monitor      Independent
+         Risk                & Challenge          Assurance
+          │                    │                    │
+          └────────────────────┼────────────────────┘
+                               ↓
+                    CONTROL ENVIRONMENT
+                               ↓
+                     Assurance Activities
+                               ↓
+                ┌──────────────┴──────────────┐
+                ↓                             ↓
+         Assurance Gaps                Assurance Overlap
+                ↓                             ↓
+                └──────────────┬──────────────┘
+                               ↓
+                    Consolidated Assurance
+                               ↓
+                       GOVERNING BODY
+                               ↓
+                     Management Action
+                               ↓
+                      Risk Improvement
+```
+
+This model demonstrates that assurance is not an isolated internal-audit activity. It is an **enterprise-wide system of accountability, monitoring, challenge, and independent assurance**.
+
+---
+
+# 50. Practical GRC Example
+
+Consider a cybersecurity risk involving privileged access.
+
+### First Line
+
+```text
+IAM Operations
+     ↓
+Provision Access
+     ↓
+Operate Access Controls
+     ↓
+Perform Reviews
+```
+
+### Second Line
+
+```text
+Cybersecurity GRC
+     ↓
+Define Access Governance
+     ↓
+Monitor Compliance
+     ↓
+Challenge Exceptions
+     ↓
+Report Risk
+```
+
+### Third Line
+
+```text
+Internal Audit
+     ↓
+Audit Privileged Access
+     ↓
+Test Evidence
+     ↓
+Identify Findings
+     ↓
+Provide Assurance
+```
+
+### Governing Body
+
+```text
+Audit / Risk Committee
+     ↓
+Reviews Significant Findings
+     ↓
+Challenges Management
+     ↓
+Monitors Risk Exposure
+```
+
+This illustrates how the three lines operate around the same risk while maintaining different responsibilities.
+
+---
+
+# 51. Practical GRC Example – Regulatory Compliance
+
+Consider a new cybersecurity regulation.
+
+```text
+Regulatory Requirement
+          ↓
+Second Line
+Interpret & Establish Compliance Framework
+          ↓
+First Line
+Implement Required Controls
+          ↓
+Second Line
+Monitor Compliance
+          ↓
+Internal Audit
+Independently Assess
+          ↓
+Finding
+          ↓
+Management Remediation
+          ↓
+Follow-Up Assurance
+```
+
+This creates a complete governance and assurance cycle.
+
+---
+
+# 52. Key GRC Takeaways
+
+The Three Lines and Assurance Model provides a practical structure for understanding organizational accountability.
+
+The key principles are:
+
+1. **The governing body provides oversight and accountability.**
+2. **The First Line owns and manages operational risk.**
+3. **The Second Line provides risk expertise, monitoring, guidance, and challenge.**
+4. **The Third Line provides independent and objective assurance.**
+5. **Internal audit should not own operational risk or management controls.**
+6. **Three Lines describes responsibilities, not necessarily organizational departments.**
+7. **Assurance can come from multiple internal and external sources.**
+8. **Organizations should identify both assurance gaps and unnecessary assurance duplication.**
+9. **High-risk areas should receive appropriate assurance coverage.**
+10. **GRC platforms can map risks, controls, owners, assurance activities, and findings across the Three Lines.**
+11. **Management remains accountable for remediation of identified weaknesses.**
+12. **Internal audit validates remediation where appropriate while preserving independence.**
+13. **The ultimate objective is not simply more assurance, but appropriate assurance over the organization's most important risks.**
+
+The fundamental model is:
+
+```text
+                 GOVERNING BODY
+                       ↓
+                OVERSIGHT
+                       ↓
+       ┌───────────────┼───────────────┐
+       ↓               ↓               ↓
+   FIRST LINE       SECOND LINE     THIRD LINE
+   OWN & MANAGE     MONITOR &       INDEPENDENT
+       RISK          CHALLENGE       ASSURANCE
+       ↓               ↓               ↓
+       └───────────────┼───────────────┘
+                       ↓
+                ASSURANCE VIEW
+                       ↓
+                GOVERNING BODY
+                       ↓
+                MANAGEMENT ACTION
+                       ↓
+                 RISK IMPROVEMENT
+```
+
+A mature GRC environment therefore brings together **risk ownership, control operation, risk oversight, compliance monitoring, internal audit, external assurance, and governing-body oversight** into a coordinated assurance ecosystem.
+
 

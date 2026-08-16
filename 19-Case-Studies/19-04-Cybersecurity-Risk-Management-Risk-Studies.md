@@ -1043,4 +1043,1025 @@ but also:
 
 That is the foundation of effective enterprise cybersecurity risk management.
 
+# 19.4 Cybersecurity Risk Management Case Studies
+
+## Part 2 – Cybersecurity Risk Treatment and Risk Acceptance Case Study
+
+## 1. Case Study Overview
+
+This case study demonstrates how an organization manages cybersecurity risks after they have been identified and assessed.
+
+The focus is on the transition from:
+
+**Risk Identification → Risk Evaluation → Risk Treatment → Risk Acceptance → Risk Monitoring**
+
+The case illustrates how a GRC professional helps management determine:
+
+* which risks should be reduced;
+* which risks can be transferred;
+* which risks should be avoided;
+* which risks may be accepted;
+* who has authority to accept risk;
+* when residual risk is acceptable.
+
+---
+
+# 2. Organization Profile
+
+### Company
+
+**ApexTel Enterprise Services**
+
+### Industry
+
+Telecommunications and Managed Digital Services
+
+### Employees
+
+Approximately 7,500
+
+### Annual Revenue
+
+Approximately €2.1 billion
+
+### Critical Services
+
+* Enterprise connectivity
+* Cloud services
+* Managed security
+* Customer portals
+* Data centers
+* Collaboration platforms
+
+---
+
+# 3. Current Risk Situation
+
+ApexTel recently completed an enterprise cybersecurity risk assessment.
+
+The assessment identified **18 significant cybersecurity risks**.
+
+Management now needs to determine how those risks should be treated.
+
+The organization cannot eliminate every cybersecurity risk.
+
+Therefore, management must make deliberate, documented, risk-based decisions.
+
+---
+
+# 4. Risk Treatment Principles
+
+ApexTel establishes four primary treatment strategies:
+
+### Avoid
+
+Stop the activity creating the risk.
+
+### Reduce
+
+Implement controls that reduce likelihood or impact.
+
+### Transfer
+
+Shift some financial or contractual consequences to another party.
+
+### Accept
+
+Retain the risk within approved risk appetite.
+
+These strategies are not mutually exclusive.
+
+A risk may use several treatment approaches simultaneously.
+
+---
+
+# 5. Risk Treatment Decision Model
+
+```text id="c7r2m9"
+                 IDENTIFIED RISK
+                       |
+                       v
+                RISK EVALUATION
+                       |
+                       v
+              ABOVE RISK APPETITE?
+                 /             \
+               YES              NO
+                |                |
+                v                v
+          TREATMENT          MONITOR
+                |
+       +--------+--------+
+       |        |        |
+       v        v        v
+     Avoid    Reduce   Transfer
+       |        |        |
+       +--------+--------+
+                |
+                v
+          RESIDUAL RISK
+                |
+                v
+          ACCEPT / RE-TREAT
+```
+
+---
+
+# 6. Risk Appetite
+
+ApexTel establishes the following principles:
+
+### Critical Customer Services
+
+No critical residual risk should remain without executive approval.
+
+### Regulatory Compliance
+
+Regulatory non-compliance risks generally require treatment.
+
+### Low-Risk Operational Activities
+
+Management may accept some low-level residual risk.
+
+### Strategic Innovation
+
+Higher temporary risks may be accepted where they support approved business objectives and appropriate safeguards exist.
+
+---
+
+# 7. Risk Acceptance Authority
+
+A formal authority structure is created.
+
+| Risk Level                             | Acceptance Authority                  |
+| -------------------------------------- | ------------------------------------- |
+| Low                                    | Operational Manager                   |
+| Medium                                 | Business Director                     |
+| High                                   | Executive Management                  |
+| Critical                               | Executive Risk Committee              |
+| Critical and materially above appetite | Board / delegated executive authority |
+
+The actual thresholds are defined in the organization's risk management policy.
+
+---
+
+# 8. Risk Treatment Portfolio
+
+The assessment identifies five major risks requiring management decisions.
+
+| Risk                    | Residual Risk | Proposed Treatment |
+| ----------------------- | ------------- | ------------------ |
+| Legacy application      | Critical      | Reduce             |
+| Cloud dependency        | High          | Transfer + Reduce  |
+| Unsupported system      | High          | Avoid              |
+| Phishing exposure       | Medium        | Reduce             |
+| Low-risk legacy process | Low           | Accept             |
+
+Each requires a different strategy.
+
+---
+
+# 9. Risk 1 – Legacy Application
+
+ApexTel operates a customer application developed more than ten years ago.
+
+The application:
+
+* contains customer information;
+* has limited security functionality;
+* uses outdated components;
+* is difficult to patch.
+
+### Residual Risk
+
+**Critical**
+
+The risk is above appetite.
+
+---
+
+# 10. Treatment Options
+
+The organization considers:
+
+### Option A – Accept
+
+Not recommended because the risk is critical.
+
+### Option B – Transfer
+
+Cyber insurance may help with some financial consequences but does not eliminate the security exposure.
+
+### Option C – Reduce
+
+Implement additional security controls.
+
+### Option D – Avoid
+
+Retire the application.
+
+---
+
+# 11. Treatment Decision
+
+Management chooses a two-stage strategy:
+
+**Short Term – Reduce**
+
+* segmentation;
+* additional monitoring;
+* WAF;
+* privileged access controls;
+* enhanced logging.
+
+**Long Term – Avoid**
+
+Retire the legacy application and migrate customers to the modern platform.
+
+---
+
+# 12. Risk Treatment Plan
+
+| Action                   | Owner                | Target    |
+| ------------------------ | -------------------- | --------- |
+| Network segmentation     | Network Security     | 30 days   |
+| WAF enhancement          | Security Engineering | 45 days   |
+| Privileged access review | IAM                  | 30 days   |
+| Application replacement  | Digital Services     | 12 months |
+| Final system retirement  | CIO                  | 15 months |
+
+The risk is monitored throughout the transition.
+
+---
+
+# 13. Risk 2 – Cloud Dependency
+
+ApexTel depends heavily on a major cloud provider.
+
+The provider hosts:
+
+* customer applications;
+* data analytics;
+* enterprise systems.
+
+A major provider outage could affect multiple business services.
+
+### Residual Risk
+
+**High**
+
+---
+
+# 14. Treatment Decision
+
+Management chooses:
+
+**Reduce + Transfer**
+
+### Reduce
+
+* multi-region architecture;
+* backup;
+* disaster recovery;
+* resilience testing;
+* service monitoring.
+
+### Transfer
+
+* contractual service-level agreements;
+* liability clauses;
+* contractual security requirements;
+* appropriate insurance.
+
+---
+
+# 15. Important GRC Principle
+
+The organization recognizes:
+
+> **Risk transfer does not eliminate the underlying cybersecurity risk.**
+
+A contractual agreement may transfer financial consequences, but operational, reputational, regulatory, and customer impacts may remain.
+
+Therefore, residual risk must still be monitored.
+
+---
+
+# 16. Risk 3 – Unsupported System
+
+A small internal system runs on an operating system that is no longer supported by the vendor.
+
+The system is not business-critical.
+
+However, it cannot receive normal security patches.
+
+### Residual Risk
+
+**High**
+
+---
+
+# 17. Treatment Options
+
+ApexTel evaluates:
+
+* upgrade;
+* replacement;
+* isolation;
+* additional monitoring;
+* retirement.
+
+The system has limited business value.
+
+Therefore, management decides to:
+
+**Avoid the risk by retiring the system.**
+
+---
+
+# 18. Risk Avoidance
+
+The retirement plan includes:
+
+1. identify system dependencies;
+2. identify affected users;
+3. migrate required information;
+4. disable access;
+5. securely dispose of the system;
+6. verify retirement;
+7. update the asset inventory;
+8. close the risk.
+
+This demonstrates that risk avoidance often requires business-process change.
+
+---
+
+# 19. Risk 4 – Phishing
+
+ApexTel identifies phishing as a persistent threat.
+
+The assessment finds:
+
+* high attack volume;
+* moderate employee susceptibility;
+* strong email filtering;
+* MFA;
+* security awareness training.
+
+### Residual Risk
+
+**Medium**
+
+The risk remains within the organization's defined tolerance but can still be improved.
+
+---
+
+# 20. Treatment Decision
+
+Management chooses:
+
+**Risk Reduction**
+
+Measures include:
+
+* phishing-resistant MFA;
+* security awareness;
+* simulated phishing;
+* email security;
+* browser protection;
+* incident reporting.
+
+The organization establishes measurable targets.
+
+---
+
+# 21. Example Metrics
+
+### KPI
+
+Percentage of employees completing security training.
+
+### KRI
+
+Percentage of users interacting with simulated phishing campaigns.
+
+### Additional KRI
+
+Number of successful credential compromise attempts.
+
+These metrics help determine whether treatment is actually reducing risk.
+
+---
+
+# 22. Risk 5 – Low-Risk Legacy Process
+
+A manual internal process creates a minor cybersecurity exposure.
+
+The process:
+
+* has low business impact;
+* involves no sensitive information;
+* has limited external exposure;
+* would be expensive to automate.
+
+### Residual Risk
+
+**Low**
+
+The risk falls within risk appetite.
+
+Management decides to:
+
+**Accept the risk.**
+
+---
+
+# 23. Formal Risk Acceptance
+
+The acceptance record includes:
+
+* risk ID;
+* risk statement;
+* risk rating;
+* affected assets;
+* business impact;
+* existing controls;
+* residual risk;
+* justification;
+* risk owner;
+* approval authority;
+* acceptance date;
+* review date;
+* expiration date where applicable.
+
+Risk acceptance is therefore an explicit management decision.
+
+---
+
+# 24. Example Risk Acceptance Record
+
+```text id="v6n3r1"
+Risk ID: CYB-018
+
+Risk:
+Manual internal process may result in minor
+unauthorized access exposure.
+
+Residual Risk:
+Low
+
+Risk Owner:
+Operations Director
+
+Treatment:
+Accept
+
+Reason:
+Cost of remediation exceeds expected risk reduction
+and the activity remains within approved risk appetite.
+
+Approval:
+Operations Director
+
+Review:
+12 months
+```
+
+---
+
+# 25. Risk Acceptance Is Not Risk Ignorance
+
+A common misconception is:
+
+> "Risk acceptance means management does nothing."
+
+This is incorrect.
+
+A valid risk acceptance means:
+
+1. the risk is understood;
+2. the impact is understood;
+3. controls have been evaluated;
+4. the risk is within appetite or explicitly authorized;
+5. an accountable person accepts it;
+6. the decision is periodically reviewed.
+
+---
+
+# 26. Risk Acceptance vs Risk Approval
+
+These concepts should be distinguished.
+
+### Risk Approval
+
+Authorization to proceed with an activity or project.
+
+### Risk Acceptance
+
+Formal acknowledgment that a residual risk will remain.
+
+A project approval does not automatically constitute risk acceptance.
+
+---
+
+# 27. Temporary Risk Acceptance
+
+Some risks may be temporarily accepted.
+
+For example:
+
+A critical application requires six months for replacement.
+
+Management may authorize temporary operation under additional controls.
+
+The acceptance should include:
+
+* expiration date;
+* treatment plan;
+* compensating controls;
+* monitoring;
+* escalation conditions.
+
+---
+
+# 28. Temporary Acceptance Model
+
+```text id="p8m4x2"
+Risk Identified
+      |
+      v
+Temporary Treatment
+      |
+      v
+Compensating Controls
+      |
+      v
+Executive Acceptance
+      |
+      v
+Defined Expiration
+      |
+      v
+Continuous Monitoring
+      |
+      +----> Remediate
+      |
+      +----> Reassess
+      |
+      +----> Escalate
+```
+
+Temporary acceptance should never become an informal permanent condition.
+
+---
+
+# 29. Risk Treatment Cost Analysis
+
+Management compares treatment cost with risk reduction.
+
+Example:
+
+### Option A
+
+€1.5 million security modernization
+
+Expected significant risk reduction.
+
+### Option B
+
+€300,000 compensating controls
+
+Moderate risk reduction.
+
+### Option C
+
+Risk acceptance
+
+No immediate investment but continued exposure.
+
+Management does not select the cheapest option automatically.
+
+It evaluates:
+
+**Cost + Risk + Business Impact + Regulatory Requirements + Strategic Objectives**
+
+---
+
+# 30. Risk-Based Investment Decision
+
+The organization chooses Option B as an interim measure and Option A as the strategic solution.
+
+This illustrates:
+
+> **Risk treatment should consider both immediate risk reduction and long-term risk transformation.**
+
+---
+
+# 31. Risk Treatment Tracking
+
+The GRC team maintains a treatment register.
+
+| Risk               | Action       | Owner | Due       | Status      |
+| ------------------ | ------------ | ----- | --------- | ----------- |
+| Legacy application | Segmentation | CISO  | 30 days   | Complete    |
+| Legacy application | Replacement  | CIO   | 12 months | In progress |
+| Cloud dependency   | DR testing   | CTO   | 90 days   | In progress |
+| Unsupported system | Retirement   | IT    | 60 days   | Complete    |
+| Phishing           | MFA upgrade  | IAM   | 90 days   | In progress |
+
+---
+
+# 32. Risk Treatment Validation
+
+A treatment action is not considered complete merely because the owner says:
+
+> "Completed."
+
+GRC verifies:
+
+* implementation evidence;
+* control effectiveness;
+* updated risk rating;
+* residual risk.
+
+For example:
+
+**Action:** Implement MFA.
+
+The GRC team verifies:
+
+* MFA configuration;
+* coverage;
+* privileged accounts;
+* exceptions;
+* authentication logs.
+
+---
+
+# 33. Residual Risk Reassessment
+
+After treatment, the legacy application risk is reassessed.
+
+### Before Treatment
+
+Likelihood = 5
+
+Impact = 5
+
+Inherent Risk = 25
+
+### After Interim Controls
+
+Likelihood = 3
+
+Impact = 5
+
+Residual Risk = 15
+
+The risk decreases but remains **High**.
+
+Therefore, the long-term application replacement remains necessary.
+
+---
+
+# 34. Risk Treatment Effectiveness
+
+The organization asks:
+
+> "Did the treatment actually reduce risk?"
+
+This requires comparison of:
+
+**Before Treatment → After Treatment**
+
+Example:
+
+```text id="j3v9k5"
+Inherent Risk
+     25
+      |
+      v
+Security Controls
+      |
+      v
+Residual Risk
+     15
+      |
+      v
+Additional Treatment
+      |
+      v
+Target Risk
+      8
+```
+
+The objective is not simply to complete actions but to reach an acceptable risk level.
+
+---
+
+# 35. Risk Appetite and Treatment Decisions
+
+The organization establishes a decision model.
+
+```text id="t4q6m8"
+Residual Risk
+      |
+      v
+Compare with Risk Appetite
+      |
+ +----+----+
+ |         |
+Within    Above
+Appetite  Appetite
+ |         |
+ v         v
+Accept   Treat /
+Monitor  Escalate
+```
+
+This creates consistency across the organization.
+
+---
+
+# 36. Risk Escalation
+
+A risk must be escalated when:
+
+* it exceeds risk appetite;
+* treatment is overdue;
+* compensating controls fail;
+* threat conditions change;
+* business impact increases;
+* regulatory requirements change.
+
+Escalation is therefore triggered by defined conditions rather than personal judgment alone.
+
+---
+
+# 37. Risk Committee Review
+
+The Executive Risk Committee reviews:
+
+* risks above appetite;
+* overdue treatment;
+* temporary acceptance;
+* critical third-party risks;
+* major strategic risks.
+
+The committee does not manage technical remediation directly.
+
+Its role is to make appropriate risk decisions.
+
+---
+
+# 38. Board-Level Risk Acceptance
+
+Some risks may require board involvement.
+
+Examples:
+
+* major customer data exposure;
+* critical infrastructure risk;
+* significant regulatory exposure;
+* major strategic technology dependency.
+
+The board should not routinely approve operational risks.
+
+Board-level involvement should be reserved for material enterprise risks.
+
+---
+
+# 39. Risk Transfer Through Insurance
+
+ApexTel evaluates cyber insurance.
+
+Insurance may help address:
+
+* incident response costs;
+* business interruption;
+* certain liability exposures;
+* recovery expenses.
+
+However, insurance does not replace:
+
+* security controls;
+* risk management;
+* regulatory compliance;
+* resilience.
+
+---
+
+# 40. Risk Transfer Through Contracts
+
+For third parties, ApexTel uses contractual mechanisms including:
+
+* security requirements;
+* incident notification;
+* audit rights;
+* service-level agreements;
+* data protection requirements;
+* liability provisions;
+* business continuity requirements.
+
+Contracts reduce certain exposures but do not eliminate operational dependency.
+
+---
+
+# 41. Risk Avoidance Through Architecture
+
+The organization also uses architectural decisions to avoid risk.
+
+For example:
+
+Instead of exposing an internal management interface directly to the internet, ApexTel redesigns the architecture so that access occurs through:
+
+* VPN;
+* zero-trust access;
+* privileged access management;
+* controlled administrative gateways.
+
+The risky exposure is removed rather than simply monitored.
+
+---
+
+# 42. Risk Reduction Through Controls
+
+Risk reduction can involve:
+
+### Preventive Controls
+
+* MFA;
+* segmentation;
+* secure configuration.
+
+### Detective Controls
+
+* SIEM;
+* monitoring;
+* threat detection.
+
+### Corrective Controls
+
+* incident response;
+* recovery;
+* remediation.
+
+A mature treatment strategy often uses multiple control types.
+
+---
+
+# 43. Risk Treatment Decision Matrix
+
+| Situation                                       | Preferred Approach               |
+| ----------------------------------------------- | -------------------------------- |
+| Activity creates unacceptable exposure          | Avoid                            |
+| Risk can be reduced economically                | Reduce                           |
+| Financial exposure can be contractually shifted | Transfer                         |
+| Risk is low and within appetite                 | Accept                           |
+| Risk is temporary during transformation         | Temporary acceptance + treatment |
+
+The final decision remains management's responsibility.
+
+---
+
+# 44. Governance Responsibilities
+
+### Business Owner
+
+Owns the business risk.
+
+### Cybersecurity GRC
+
+Provides methodology and challenge.
+
+### Security Teams
+
+Implement technical controls.
+
+### Risk Function
+
+Coordinates enterprise risk integration.
+
+### Compliance
+
+Identifies regulatory obligations.
+
+### Internal Audit
+
+Provides independent assurance.
+
+---
+
+# 45. Common Risk Treatment Mistakes
+
+## Mistake 1 – Treating Everything
+
+Not every risk requires maximum investment.
+
+## Mistake 2 – Accepting Everything
+
+Risk acceptance should not become a way to avoid difficult remediation.
+
+## Mistake 3 – Treating Insurance as Security
+
+Insurance cannot prevent an attack.
+
+## Mistake 4 – Ignoring Business Context
+
+Security treatment must consider business objectives.
+
+## Mistake 5 – Closing Risks Too Early
+
+Treatment completion does not automatically mean risk reduction.
+
+---
+
+# 46. Practical Risk Treatment Checklist
+
+### Risk Analysis
+
+* [ ] Risk statement documented
+* [ ] Inherent risk assessed
+* [ ] Existing controls evaluated
+* [ ] Residual risk calculated
+* [ ] Risk appetite compared
+
+### Treatment
+
+* [ ] Avoidance considered
+* [ ] Reduction considered
+* [ ] Transfer considered
+* [ ] Acceptance considered
+* [ ] Treatment decision documented
+
+### Accountability
+
+* [ ] Risk owner assigned
+* [ ] Treatment owner assigned
+* [ ] Approval authority confirmed
+* [ ] Escalation criteria defined
+
+### Monitoring
+
+* [ ] Treatment actions tracked
+* [ ] Evidence collected
+* [ ] Control effectiveness validated
+* [ ] Residual risk reassessed
+* [ ] Acceptance reviewed
+
+---
+
+# 47. Final Risk Treatment Model
+
+```text id="g8c4m7"
+                  RISK ASSESSMENT
+                        |
+                        v
+                  RESIDUAL RISK
+                        |
+                        v
+                  RISK APPETITE
+                        |
+             +----------+----------+
+             |                     |
+       Within Appetite        Above Appetite
+             |                     |
+             v                     v
+          ACCEPT              TREAT / ESCALATE
+                                   |
+                    +--------------+--------------+
+                    |              |              |
+                    v              v              v
+                  AVOID          REDUCE        TRANSFER
+                    |              |              |
+                    +--------------+--------------+
+                                   |
+                                   v
+                           RESIDUAL RISK
+                                   |
+                                   v
+                              VALIDATION
+                                   |
+                                   v
+                              MONITORING
+                                   |
+                                   +--------↺
+```
+
+# 48. Case Study Conclusion
+
+The ApexTel case demonstrates that cybersecurity risk treatment is fundamentally a **management decision process**, supported by cybersecurity expertise and GRC governance.
+
+The key sequence is:
+
+**Assess → Compare with Appetite → Select Treatment → Assign Ownership → Implement → Validate → Accept or Re-Treat → Monitor**
+
+A mature GRC professional should be able to explain why a particular treatment strategy was selected and demonstrate that the resulting residual risk is understood and appropriately authorized.
+
+Most importantly:
+
+> **Risk acceptance should be a conscious, documented, accountable business decision—not the absence of action.**
+
+Effective risk treatment therefore balances **security, business objectives, regulatory obligations, cost, resilience, and organizational risk appetite**.
+
 

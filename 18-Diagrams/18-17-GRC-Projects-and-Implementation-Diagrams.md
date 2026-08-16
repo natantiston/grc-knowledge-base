@@ -1305,4 +1305,1224 @@ The complete concept can be summarized as:
 
 The **GRC implementation lifecycle** provides a structured way to transform fragmented governance activities into an integrated and sustainable GRC capability. Its success depends not only on technology, but on the alignment of **governance, people, processes, data, technology, and organizational change**.
 
+# 18.17 GRC Project and Implementation Diagrams
+
+## Part 2 – GRC Project Roadmap
+
+A **GRC project roadmap** provides a visual representation of how a GRC initiative progresses from initial planning through implementation, deployment, and optimization.
+
+While the GRC implementation lifecycle describes the major stages of implementation, the project roadmap translates those stages into a **time-oriented sequence of activities, milestones, dependencies, and deliverables**.
+
+A typical roadmap can be represented as:
+
+```text
+Initiation
+    ↓
+Assessment
+    ↓
+Requirements
+    ↓
+Design
+    ↓
+Build
+    ↓
+Testing
+    ↓
+Pilot
+    ↓
+Deployment
+    ↓
+Stabilization
+    ↓
+Optimization
+```
+
+The roadmap helps management understand **what will happen, when it will happen, who is responsible, and what must be completed before subsequent activities can begin**.
+
+---
+
+# 1. What Is a GRC Project Roadmap?
+
+A GRC project roadmap is a high-level visual plan showing the major workstreams, activities, milestones, dependencies, and expected outcomes of a GRC initiative.
+
+It connects:
+
+```text
+Business Objectives
+       ↓
+GRC Capabilities
+       ↓
+Project Activities
+       ↓
+Deliverables
+       ↓
+Milestones
+       ↓
+Business Outcomes
+```
+
+A roadmap is therefore more than a schedule. It communicates the overall direction and progression of the GRC transformation.
+
+---
+
+# 2. Roadmap vs Detailed Project Plan
+
+A roadmap and a detailed project plan serve different purposes.
+
+### GRC Roadmap
+
+Focuses on:
+
+* major phases;
+* strategic priorities;
+* milestones;
+* dependencies;
+* high-level timing;
+* expected outcomes.
+
+### Detailed Project Plan
+
+Focuses on:
+
+* individual tasks;
+* task owners;
+* durations;
+* resources;
+* dependencies;
+* task-level status.
+
+The relationship can be visualized as:
+
+```text
+GRC Strategy
+     ↓
+Project Roadmap
+     ↓
+Detailed Project Plan
+     ↓
+Individual Tasks
+```
+
+The roadmap provides the strategic view while the project plan provides execution-level detail.
+
+---
+
+# 3. Why a GRC Roadmap Is Important
+
+A GRC implementation can involve many stakeholders and workstreams.
+
+Without a roadmap:
+
+```text
+Risk Team
+     ↘
+Compliance Team
+     ↘
+IT Team
+     ↘
+Audit Team
+     ↘
+Security Team
+     ↘
+Management
+```
+
+may work independently without a common view of priorities and dependencies.
+
+A roadmap provides:
+
+```text
+One Direction
+     ↓
+Shared Priorities
+     ↓
+Coordinated Activities
+     ↓
+Visible Milestones
+     ↓
+Controlled Implementation
+```
+
+---
+
+# 4. Major Components of a GRC Roadmap
+
+A useful roadmap normally contains:
+
+```text
+┌──────────────────────────────────────┐
+│ GRC Project Roadmap                  │
+├──────────────────────────────────────┤
+│ Phase                                │
+│ Workstream                           │
+│ Activity                             │
+│ Milestone                            │
+│ Dependency                           │
+│ Owner                                │
+│ Timing                               │
+│ Deliverable                          │
+│ Status                               │
+└──────────────────────────────────────┘
+```
+
+Not every roadmap needs to display all of these elements. The level of detail should reflect its intended audience.
+
+---
+
+# 5. GRC Roadmap Structure
+
+A high-level roadmap may be organized as:
+
+```text
+Phase 1       Phase 2       Phase 3       Phase 4       Phase 5
+Initiate      Design        Build         Deploy        Optimize
+   ↓             ↓             ↓             ↓             ↓
+Strategy      Requirements   Configure     Pilot         Measure
+Assessment    Architecture   Integrate     Rollout       Improve
+Governance    Process Design Test          Stabilize     Expand
+```
+
+This makes the overall implementation easy to understand.
+
+---
+
+# 6. Phase 1 – Initiation
+
+The first phase establishes the foundation of the project.
+
+Typical activities include:
+
+* executive sponsorship;
+* business case;
+* project charter;
+* initial scope;
+* stakeholder identification;
+* governance structure;
+* project team formation.
+
+A simplified diagram is:
+
+```text
+Business Need
+     ↓
+Business Case
+     ↓
+Executive Approval
+     ↓
+Project Charter
+     ↓
+GRC Program Initiation
+```
+
+The primary outcome is authorization to proceed.
+
+---
+
+# 7. Phase 2 – Current-State Assessment
+
+The project then evaluates the organization's existing environment.
+
+Areas may include:
+
+```text
+Governance
+Risk
+Compliance
+Controls
+Audit
+Technology
+Data
+Reporting
+People
+Processes
+```
+
+The roadmap activity becomes:
+
+```text
+Current State
+     ↓
+Gap Analysis
+     ↓
+Priority Areas
+     ↓
+Target State
+```
+
+This ensures the project is based on actual organizational conditions.
+
+---
+
+# 8. Phase 3 – Requirements and Planning
+
+Requirements are translated into project scope and implementation priorities.
+
+```text
+Business Requirements
+        ↓
+Functional Requirements
+        ↓
+Technical Requirements
+        ↓
+Prioritization
+        ↓
+Implementation Backlog
+```
+
+The roadmap should identify when requirements are expected to be finalized.
+
+---
+
+# 9. Phase 4 – GRC Design
+
+The design phase establishes the future-state model.
+
+Activities may include:
+
+* governance design;
+* process design;
+* risk taxonomy;
+* control framework;
+* compliance structure;
+* data model;
+* workflow design;
+* reporting requirements;
+* integration architecture.
+
+The design relationship is:
+
+```text
+Requirements
+     ↓
+Target Operating Model
+     ↓
+Process Design
+     ↓
+Data Design
+     ↓
+Technology Design
+```
+
+---
+
+# 10. Phase 5 – Build and Configuration
+
+The approved design is translated into the GRC environment.
+
+Activities can include:
+
+```text
+Platform Configuration
+        ↓
+Risk Configuration
+        ↓
+Control Library
+        ↓
+Compliance Content
+        ↓
+Workflow Configuration
+        ↓
+Dashboard Development
+        ↓
+Integration Development
+```
+
+The roadmap should distinguish major configuration activities from minor technical tasks.
+
+---
+
+# 11. Phase 6 – Data Migration
+
+Existing GRC information may need to be migrated.
+
+Typical activities include:
+
+```text
+Data Inventory
+      ↓
+Data Cleansing
+      ↓
+Data Mapping
+      ↓
+Migration Testing
+      ↓
+Production Migration
+      ↓
+Reconciliation
+```
+
+Important datasets may include:
+
+* risk registers;
+* controls;
+* requirements;
+* assessments;
+* audit findings;
+* suppliers;
+* evidence;
+* users.
+
+Data migration should have its own roadmap activities and milestones.
+
+---
+
+# 12. Phase 7 – Integration
+
+GRC platforms often need to connect with existing enterprise systems.
+
+A roadmap may show:
+
+```text
+GRC Platform
+     │
+ ┌───┼──────────────────────┐
+ ↓   ↓          ↓           ↓
+ITSM IAM       CMDB       Security
+                         Platforms
+```
+
+Integration activities may include:
+
+* API development;
+* connector configuration;
+* authentication;
+* field mapping;
+* synchronization;
+* testing;
+* monitoring.
+
+---
+
+# 13. Phase 8 – Testing
+
+Testing validates whether the solution operates according to requirements.
+
+The roadmap may contain:
+
+```text
+Unit Testing
+     ↓
+Functional Testing
+     ↓
+Integration Testing
+     ↓
+Data Validation
+     ↓
+Security Testing
+     ↓
+User Acceptance Testing
+```
+
+Testing milestones should be visible because failed testing can affect the deployment schedule.
+
+---
+
+# 14. Phase 9 – Pilot
+
+A pilot provides an opportunity to validate the solution with a controlled group.
+
+```text
+Configured Solution
+       ↓
+Pilot Business Unit
+       ↓
+User Feedback
+       ↓
+Defects / Improvements
+       ↓
+Refinement
+```
+
+The pilot should have explicit entry and exit criteria.
+
+---
+
+# 15. Phase 10 – Deployment
+
+The deployment phase transitions the GRC capability into production use.
+
+A phased deployment could be:
+
+```text
+Pilot
+  ↓
+Business Unit 1
+  ↓
+Business Unit 2
+  ↓
+Business Unit 3
+  ↓
+Enterprise
+```
+
+Alternatively, an organization may use a single enterprise-wide deployment if the environment is sufficiently mature and controlled.
+
+---
+
+# 16. Phase 11 – Stabilization
+
+After deployment, the project should monitor the new environment.
+
+Key activities include:
+
+* defect resolution;
+* user support;
+* workflow adjustments;
+* data-quality correction;
+* integration monitoring;
+* performance monitoring;
+* adoption measurement.
+
+```text
+Go-Live
+   ↓
+Monitor
+   ↓
+Identify Issues
+   ↓
+Correct
+   ↓
+Validate
+   ↓
+Stabilize
+```
+
+---
+
+# 17. Phase 12 – Optimization
+
+The final roadmap phase focuses on improving the GRC capability.
+
+Possible activities include:
+
+```text
+Performance Measurement
+        ↓
+User Feedback
+        ↓
+Process Optimization
+        ↓
+Additional Automation
+        ↓
+Advanced Analytics
+        ↓
+Capability Expansion
+```
+
+Optimization may continue after the formal project has ended.
+
+---
+
+# 18. Example 12-Month GRC Roadmap
+
+A simplified roadmap could look like:
+
+| Phase          | M1–2 | M3–4 | M5–6 | M7–8 | M9–10 | M11–12 |
+| -------------- | ---- | ---- | ---- | ---- | ----- | ------ |
+| Initiation     | ●    |      |      |      |       |        |
+| Assessment     | ●    | ●    |      |      |       |        |
+| Requirements   |      | ●    |      |      |       |        |
+| Design         |      | ●    | ●    |      |       |        |
+| Configuration  |      |      | ●    | ●    |       |        |
+| Data Migration |      |      | ●    | ●    |       |        |
+| Integration    |      |      |      | ●    | ●     |        |
+| Testing        |      |      |      | ●    | ●     |        |
+| Pilot          |      |      |      |      | ●     |        |
+| Deployment     |      |      |      |      | ●     | ●      |
+| Stabilization  |      |      |      |      |       | ●      |
+| Optimization   |      |      |      |      |       | ●      |
+
+The actual duration should depend on scope, organizational complexity, available resources, and technology.
+
+---
+
+# 19. Workstream-Based Roadmap
+
+A more mature roadmap can organize activities by workstream.
+
+```text
+                    MONTHS
+             1  2  3  4  5  6  7  8  9 10 11 12
+
+Governance    ████████
+Risk              █████████
+Compliance           █████████
+Controls             █████████
+Technology              ██████████
+Data Migration             ███████
+Integration                    ███████
+Testing                           █████
+Change Management      █████████████
+Training                         ██████
+Deployment                              ███
+Stabilization                         █████
+```
+
+This allows management to see overlapping activities and dependencies.
+
+---
+
+# 20. Roadmap Milestones
+
+Milestones represent significant project achievements.
+
+Examples include:
+
+```text
+◆ Project Approved
+◆ Current-State Assessment Completed
+◆ Requirements Approved
+◆ Target Design Approved
+◆ Configuration Complete
+◆ Data Migration Complete
+◆ Integration Testing Complete
+◆ UAT Approved
+◆ Pilot Complete
+◆ Production Go-Live
+◆ Stabilization Complete
+```
+
+Milestones should represent meaningful outcomes rather than every project activity.
+
+---
+
+# 21. Roadmap Dependencies
+
+Some activities cannot begin or finish without other activities.
+
+For example:
+
+```text
+Requirements
+     ↓
+Process Design
+     ↓
+Configuration
+     ↓
+Testing
+     ↓
+Deployment
+```
+
+Another example:
+
+```text
+Data Model
+     ↓
+Data Mapping
+     ↓
+Migration
+     ↓
+Validation
+```
+
+Dependencies should be visible because delays in one area can affect multiple downstream activities.
+
+---
+
+# 22. Critical Path
+
+Some activities form a critical path.
+
+```text
+Requirements
+     ↓
+Design
+     ↓
+Configuration
+     ↓
+Integration
+     ↓
+Testing
+     ↓
+UAT
+     ↓
+Deployment
+```
+
+A delay in one of these activities may delay the overall implementation.
+
+The roadmap should therefore identify activities with significant schedule dependencies.
+
+---
+
+# 23. GRC Roadmap and Governance
+
+The roadmap should operate under project governance.
+
+```text
+Executive Sponsor
+        ↓
+Steering Committee
+        ↓
+Program Manager
+        ↓
+Workstream Leaders
+        ↓
+Project Teams
+```
+
+The steering committee may review:
+
+* milestone status;
+* risks;
+* budget;
+* dependencies;
+* major decisions;
+* scope changes;
+* implementation readiness.
+
+---
+
+# 24. Roadmap Status Visualization
+
+A simple status model can be used:
+
+```text
+Not Started
+     ↓
+In Progress
+     ↓
+At Risk
+     ↓
+Completed
+```
+
+For management reporting, each major roadmap item can include:
+
+```text
+Activity
+Owner
+Target Date
+Status
+Risk
+Dependency
+```
+
+Status reporting should be based on objective criteria rather than subjective confidence alone.
+
+---
+
+# 25. GRC Project Risks on the Roadmap
+
+Project risks should be connected to roadmap activities.
+
+For example:
+
+```text
+Integration Delay
+       ↓
+Testing Delay
+       ↓
+UAT Delay
+       ↓
+Deployment Delay
+```
+
+Another example:
+
+```text
+Poor Data Quality
+       ↓
+Migration Problems
+       ↓
+User Acceptance Problems
+       ↓
+Go-Live Risk
+```
+
+This demonstrates why project risk management is an integral part of roadmap management.
+
+---
+
+# 26. Roadmap Change Control
+
+GRC projects frequently encounter changing requirements.
+
+A controlled change process can be represented as:
+
+```text
+Change Request
+      ↓
+Impact Assessment
+      ↓
+Cost / Schedule Analysis
+      ↓
+Governance Review
+      ↓
+Approve / Reject
+      ↓
+Roadmap Update
+```
+
+Changes should not be incorporated informally because they may affect scope, budget, resources, and dependencies.
+
+---
+
+# 27. GRC Roadmap and Resource Planning
+
+The roadmap should be realistic about available resources.
+
+Typical resources may include:
+
+* GRC specialists;
+* cybersecurity professionals;
+* compliance specialists;
+* auditors;
+* business representatives;
+* project managers;
+* architects;
+* developers;
+* integration specialists;
+* data analysts;
+* change-management specialists.
+
+A roadmap that ignores resource constraints can create unrealistic deadlines.
+
+---
+
+# 28. Business Readiness
+
+Technical completion does not necessarily mean business readiness.
+
+A useful readiness model is:
+
+```text
+Technology Ready
+       +
+Process Ready
+       +
+Data Ready
+       +
+People Ready
+       +
+Governance Ready
+       ↓
+Business Ready
+```
+
+A deployment should consider all dimensions.
+
+---
+
+# 29. Change Management Roadmap
+
+Change management should run throughout the project rather than only before deployment.
+
+```text
+Awareness
+   ↓
+Communication
+   ↓
+Training
+   ↓
+User Engagement
+   ↓
+Adoption
+   ↓
+Reinforcement
+```
+
+This workstream can run in parallel with technical implementation.
+
+---
+
+# 30. Training Roadmap
+
+Training can also be phased.
+
+```text
+Training Needs Analysis
+        ↓
+Training Design
+        ↓
+Administrator Training
+        ↓
+GRC Team Training
+        ↓
+Control Owner Training
+        ↓
+End-User Training
+        ↓
+Post-Go-Live Support
+```
+
+Training timing should correspond to the deployment schedule.
+
+---
+
+# 31. Communication Roadmap
+
+Communication activities may include:
+
+```text
+Project Announcement
+       ↓
+Leadership Updates
+       ↓
+Stakeholder Workshops
+       ↓
+Progress Communications
+       ↓
+Training Communications
+       ↓
+Go-Live Communications
+       ↓
+Post-Go-Live Updates
+```
+
+Consistent communication helps maintain organizational awareness and engagement.
+
+---
+
+# 32. Roadmap for a GRC Transformation
+
+A larger transformation may extend beyond the initial platform implementation.
+
+```text
+Phase 1
+Foundation
+      ↓
+Phase 2
+Standardization
+      ↓
+Phase 3
+Centralization
+      ↓
+Phase 4
+Automation
+      ↓
+Phase 5
+Integration
+      ↓
+Phase 6
+Optimization
+      ↓
+Phase 7
+Continuous Improvement
+```
+
+This separates a **GRC transformation journey** from a single software implementation.
+
+---
+
+# 33. Example Enterprise GRC Roadmap
+
+```text
+                  ENTERPRISE GRC ROADMAP
+
+FOUNDATION
+│
+├── Governance
+├── Current-State Assessment
+├── GRC Strategy
+└── Requirements
+        │
+        ▼
+STANDARDIZATION
+│
+├── Risk Taxonomy
+├── Control Framework
+├── Compliance Structure
+└── Common Processes
+        │
+        ▼
+IMPLEMENTATION
+│
+├── GRC Platform
+├── Data Migration
+├── Workflow
+└── Reporting
+        │
+        ▼
+INTEGRATION
+│
+├── ITSM
+├── IAM
+├── CMDB
+├── Security Tools
+└── Business Systems
+        │
+        ▼
+AUTOMATION
+│
+├── Evidence Collection
+├── Control Testing
+├── Risk Assessments
+└── Remediation
+        │
+        ▼
+OPTIMIZATION
+│
+├── Analytics
+├── Metrics
+├── Predictive Insights
+└── Continuous Improvement
+```
+
+This model shows how the roadmap can evolve from foundational governance into a more integrated and automated GRC capability.
+
+---
+
+# 34. Roadmap Communication by Audience
+
+Different audiences require different roadmap views.
+
+### Executives
+
+Focus on:
+
+```text
+Business Outcomes
+Milestones
+Major Risks
+Investment
+Target Dates
+```
+
+### Steering Committee
+
+Focus on:
+
+```text
+Progress
+Dependencies
+Issues
+Decisions
+Resources
+Risks
+```
+
+### Project Team
+
+Focus on:
+
+```text
+Tasks
+Owners
+Dependencies
+Deliverables
+Deadlines
+```
+
+### GRC Users
+
+Focus on:
+
+```text
+Process Changes
+Training
+Deployment
+New Responsibilities
+```
+
+The same underlying roadmap can therefore have different visual representations.
+
+---
+
+# 35. Roadmap Success Measures
+
+The roadmap should ultimately connect activities to outcomes.
+
+Examples include:
+
+```text
+Project Activity
+      ↓
+Capability Delivered
+      ↓
+User Adoption
+      ↓
+Process Improvement
+      ↓
+Risk Reduction
+      ↓
+Business Value
+```
+
+Possible measures include:
+
+* reduction in manual work;
+* improved assessment completion;
+* improved evidence traceability;
+* reduced remediation delays;
+* increased control visibility;
+* improved compliance reporting;
+* improved management decision-making.
+
+---
+
+# 36. Common GRC Roadmap Problems
+
+### Roadmap Too Detailed
+
+A roadmap becomes a project task list and loses strategic value.
+
+### Unrealistic Dates
+
+Implementation timing does not reflect organizational complexity.
+
+### Missing Dependencies
+
+Activities appear independent when they are not.
+
+### No Ownership
+
+Activities lack accountable owners.
+
+### Technology-Only Focus
+
+The roadmap ignores people and process changes.
+
+### No Change Management
+
+Users are expected to adopt the new system without preparation.
+
+### No Post-Go-Live Activities
+
+The roadmap ends at deployment even though stabilization is required.
+
+### No Business Outcomes
+
+The roadmap measures implementation activity but not business value.
+
+---
+
+# 37. GRC Roadmap Design Principles
+
+A strong roadmap should be:
+
+### Clear
+
+Stakeholders should quickly understand the implementation sequence.
+
+### Outcome-Oriented
+
+Focus on capabilities and business results rather than only tasks.
+
+### Realistic
+
+Reflect actual resources, dependencies, and organizational complexity.
+
+### Flexible
+
+Allow controlled adjustments as requirements evolve.
+
+### Traceable
+
+Connect activities to requirements and expected outcomes.
+
+### Governed
+
+Use formal decision and change-control mechanisms.
+
+### Communicative
+
+Be understandable to technical and non-technical stakeholders.
+
+---
+
+# 38. Executive GRC Roadmap Model
+
+A concise executive view can be represented as:
+
+```text
+┌────────────┐
+│ FOUNDATION │
+└─────┬──────┘
+      ↓
+┌──────────────┐
+│ STANDARDIZE  │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ IMPLEMENT    │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ INTEGRATE    │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ AUTOMATE     │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ OPTIMIZE     │
+└──────┬───────┘
+       ↓
+┌────────────────────┐
+│ CONTINUOUS IMPROVE │
+└────────────────────┘
+```
+
+This simplified model is particularly useful for executive presentations.
+
+---
+
+# 39. End-to-End GRC Project Roadmap
+
+The complete roadmap can be visualized as:
+
+```text
+                         GRC PROJECT ROADMAP
+
+ ┌──────────┐
+ │ INITIATE │
+ └────┬─────┘
+      ↓
+ ┌────────────┐
+ │ ASSESS     │
+ └────┬───────┘
+      ↓
+ ┌────────────┐
+ │ REQUIRE    │
+ └────┬───────┘
+      ↓
+ ┌────────────┐
+ │ DESIGN     │
+ └────┬───────┘
+      ↓
+ ┌────────────┐
+ │ BUILD      │
+ └────┬───────┘
+      ↓
+ ┌────────────┐
+ │ MIGRATE    │
+ └────┬───────┘
+      ↓
+ ┌────────────┐
+ │ INTEGRATE  │
+ └────┬───────┘
+      ↓
+ ┌────────────┐
+ │ TEST       │
+ └────┬───────┘
+      ↓
+ ┌────────────┐
+ │ PILOT      │
+ └────┬───────┘
+      ↓
+ ┌────────────┐
+ │ DEPLOY     │
+ └────┬───────┘
+      ↓
+ ┌────────────┐
+ │ STABILIZE  │
+ └────┬───────┘
+      ↓
+ ┌────────────┐
+ │ OPTIMIZE   │
+ └────┬───────┘
+      ↓
+ ┌──────────────────────┐
+ │ BUSINESS VALUE       │
+ │ & CONTINUOUS         │
+ │ IMPROVEMENT          │
+ └──────────────────────┘
+```
+
+The GRC project roadmap transforms a complex implementation into a structured visual sequence. It provides stakeholders with a common understanding of **where the organization is, what is being delivered, what dependencies exist, what milestones matter, and how the project ultimately contributes to a sustainable GRC capability**.
+
+
 

@@ -2243,5 +2243,1145 @@ The essential sequence is:
 
 A mature GRC professional should therefore be able to do more than assign maturity scores. The real value comes from translating assessment results into **risk-based governance decisions, investment priorities, measurable improvement initiatives, and continuous organizational improvement**.
 
+# 19.3 Cybersecurity Governance Case Studies
+
+## Part 3 – Cybersecurity Governance Transformation and Operating Model
+
+## 1. Case Study Overview
+
+This case study examines how an organization transforms a fragmented cybersecurity function into an integrated **Cybersecurity Governance Operating Model**.
+
+The organization already has cybersecurity teams, policies, technologies, and compliance activities. However, these capabilities operate independently, creating duplicated work, unclear accountability, inconsistent risk decisions, and weak executive visibility.
+
+The case focuses on how GRC professionals can design a target operating model that connects:
+
+**Governance → Strategy → Risk → Compliance → Controls → Assurance → Operations → Reporting**
+
+---
+
+# 2. Organization Profile
+
+### Company
+
+**NorthStar Digital Infrastructure**
+
+### Industry
+
+Telecommunications and Critical Digital Infrastructure
+
+### Employees
+
+Approximately 15,000
+
+### Annual Revenue
+
+Approximately €4.5 billion
+
+### Geographic Presence
+
+* Spain
+* France
+* Germany
+* Italy
+* Portugal
+* Middle East operations
+
+### Critical Assets
+
+* Telecom networks
+* Data centers
+* Cloud platforms
+* Customer applications
+* Identity platforms
+* Enterprise connectivity
+* Personal and customer data
+
+---
+
+# 3. Initial Situation
+
+NorthStar has grown rapidly through acquisitions.
+
+Each acquired company brought its own cybersecurity organization.
+
+As a result, the group now has:
+
+* three different risk methodologies;
+* multiple security policies;
+* separate compliance teams;
+* different GRC platforms;
+* several SOC processes;
+* different third-party assessment methodologies;
+* inconsistent reporting.
+
+The organization has cybersecurity capability, but it does not have a unified operating model.
+
+---
+
+# 4. Key Governance Problems
+
+### Problem 1 – Multiple Risk Registers
+
+Different business units maintain separate risk registers.
+
+Management cannot easily determine the organization's overall cyber risk exposure.
+
+### Problem 2 – Duplicate Compliance Activities
+
+The same control is assessed separately for:
+
+* ISO 27001;
+* GDPR;
+* NIS2;
+* internal policies;
+* customer requirements.
+
+### Problem 3 – Unclear Accountability
+
+Security teams sometimes perform activities that should be owned by business or technology teams.
+
+### Problem 4 – Inconsistent Reporting
+
+Each region produces different cybersecurity metrics.
+
+### Problem 5 – Fragmented Technology
+
+The organization operates multiple GRC and security platforms that do not exchange information effectively.
+
+---
+
+# 5. Transformation Objective
+
+The CEO establishes a **Cybersecurity Governance Transformation Program**.
+
+The objective is to create a group-wide operating model that provides:
+
+* clear accountability;
+* consistent governance;
+* common risk methodology;
+* integrated compliance;
+* centralized visibility;
+* efficient control management;
+* effective assurance;
+* risk-based decision-making.
+
+---
+
+# 6. Operating Model Principles
+
+NorthStar establishes six principles.
+
+### Principle 1 – Business Ownership
+
+Business and technology owners remain accountable for their risks.
+
+### Principle 2 – Central Governance
+
+Common cybersecurity requirements are established centrally.
+
+### Principle 3 – Local Execution
+
+Business units retain responsibility for operational execution.
+
+### Principle 4 – Risk-Based Decision Making
+
+Resources are prioritized according to risk.
+
+### Principle 5 – Common Controls
+
+Common controls should satisfy multiple requirements wherever practical.
+
+### Principle 6 – Independent Assurance
+
+Internal Audit remains independent from cybersecurity management.
+
+---
+
+# 7. Current Operating Model
+
+The current structure resembles:
+
+```text id="7d8m2p"
+                    CISO
+                     |
+        +------------+------------+
+        |            |            |
+       SOC          GRC        Security
+                                Architecture
+        |            |            |
+     Region A     Region B     Region C
+        |            |            |
+    Different     Different    Different
+    Processes     Processes    Processes
+```
+
+This creates significant fragmentation.
+
+---
+
+# 8. Target Operating Model
+
+The target model introduces centralized governance with distributed execution.
+
+```text id="e4k7n2"
+                         BOARD
+                           |
+                           v
+                  EXECUTIVE COMMITTEE
+                           |
+                           v
+                          CISO
+                           |
+          +----------------+----------------+
+          |                |                |
+          v                v                v
+       GOVERNANCE        SECURITY        ARCHITECTURE
+          |             OPERATIONS            |
+          |                |                  |
+          v                v                  v
+         GRC             SOC / IR         Engineering
+          |
+     +----+----+
+     |    |    |
+    Risk Compliance Assurance
+          |
+          v
+      BUSINESS UNITS
+          |
+          v
+     TECHNOLOGY / OPERATIONS
+```
+
+---
+
+# 9. Centralized Capabilities
+
+The following capabilities are centralized:
+
+* cybersecurity policy;
+* risk methodology;
+* GRC framework;
+* control taxonomy;
+* security standards;
+* executive reporting;
+* regulatory interpretation;
+* cybersecurity strategy.
+
+Centralization creates consistency.
+
+---
+
+# 10. Federated Capabilities
+
+Business units retain responsibility for:
+
+* implementing controls;
+* operating systems;
+* managing local risks;
+* responding to security events;
+* maintaining business continuity;
+* addressing vulnerabilities.
+
+This avoids excessive centralization.
+
+---
+
+# 11. Governance Structure
+
+NorthStar establishes four major governance levels.
+
+### Level 1 – Board
+
+Provides strategic oversight.
+
+### Level 2 – Executive Risk Committee
+
+Reviews enterprise-level risks.
+
+### Level 3 – Cybersecurity Governance Committee
+
+Coordinates cybersecurity decisions.
+
+### Level 4 – Operational Security Forums
+
+Manage operational issues.
+
+---
+
+# 12. Cybersecurity Governance Committee
+
+The committee includes:
+
+* CISO;
+* CIO;
+* CTO;
+* Chief Risk Officer;
+* Compliance Officer;
+* DPO;
+* Legal;
+* Business representatives;
+* Enterprise Architecture.
+
+The committee reviews:
+
+* significant risks;
+* major incidents;
+* regulatory changes;
+* exceptions;
+* security investments;
+* major control deficiencies.
+
+---
+
+# 13. Role of the CISO
+
+The CISO is responsible for:
+
+* cybersecurity strategy;
+* governance;
+* security risk oversight;
+* security architecture;
+* security operations;
+* security performance;
+* executive reporting.
+
+However, the CISO does not personally own every cybersecurity risk.
+
+Business and technology owners remain accountable for their respective risks.
+
+---
+
+# 14. Role of GRC
+
+The GRC function becomes the central governance coordination capability.
+
+Responsibilities include:
+
+* risk methodology;
+* control framework;
+* compliance management;
+* policy management;
+* audit coordination;
+* third-party risk;
+* exceptions;
+* metrics;
+* executive reporting.
+
+---
+
+# 15. Role of Security Operations
+
+Security Operations is responsible for:
+
+* monitoring;
+* detection;
+* incident response;
+* threat intelligence;
+* security investigations;
+* security technology operations.
+
+GRC does not operate the SOC.
+
+GRC provides governance and oversight.
+
+---
+
+# 16. Role of Security Architecture
+
+Security Architecture establishes:
+
+* security design principles;
+* reference architectures;
+* cloud security requirements;
+* identity architecture;
+* network security architecture;
+* application security requirements.
+
+Architecture ensures security is incorporated into technology decisions.
+
+---
+
+# 17. Role of Business Units
+
+Business units are responsible for:
+
+* identifying business risks;
+* assigning risk owners;
+* implementing controls;
+* maintaining business processes;
+* protecting business information;
+* participating in risk assessments.
+
+This reinforces the principle that:
+
+> **The business owns the risk; cybersecurity provides expertise, governance, and challenge.**
+
+---
+
+# 18. Three Lines Integration
+
+The operating model incorporates the Three Lines Model.
+
+### First Line
+
+Business and technology.
+
+Own and manage risks.
+
+### Second Line
+
+Cybersecurity GRC, risk, and compliance.
+
+Provide frameworks, oversight, monitoring, and challenge.
+
+### Third Line
+
+Internal Audit.
+
+Provides independent assurance.
+
+```text id="p2g8x1"
+FIRST LINE
+Business + Technology
+      |
+      | Own & Manage Risk
+      v
+SECOND LINE
+GRC + Risk + Compliance
+      |
+      | Oversight & Challenge
+      v
+THIRD LINE
+Internal Audit
+      |
+      | Independent Assurance
+      v
+BOARD
+```
+
+---
+
+# 19. Control Operating Model
+
+NorthStar creates a common enterprise control library.
+
+For example:
+
+**Access Control**
+
+can support requirements from:
+
+* ISO 27001;
+* NIST;
+* GDPR;
+* NIS2;
+* internal policies;
+* customer contracts.
+
+Instead of maintaining separate controls for each framework, NorthStar maps multiple requirements to common controls.
+
+---
+
+# 20. Common Control Model
+
+```text id="s5m8q3"
+ISO 27001 --------\
+NIST CSF ----------\
+GDPR ---------------> Common Control
+NIS2 ---------------/       |
+Customer Requirements-/      v
+                         Implementation
+                              |
+                              v
+                           Evidence
+```
+
+This reduces duplication.
+
+---
+
+# 21. Risk Operating Model
+
+NorthStar establishes a common risk methodology.
+
+Every cybersecurity risk includes:
+
+* risk statement;
+* threat;
+* vulnerability;
+* asset;
+* business impact;
+* likelihood;
+* inherent risk;
+* controls;
+* control effectiveness;
+* residual risk;
+* risk owner;
+* treatment;
+* target date.
+
+---
+
+# 22. Risk Escalation
+
+Not all risks are handled at the same level.
+
+```text id="n3g5h8"
+Operational Risk
+      |
+      v
+Business Risk Owner
+      |
+      v
+Cybersecurity GRC
+      |
+      v
+Cybersecurity Governance Committee
+      |
+      v
+Enterprise Risk Committee
+      |
+      v
+Board
+```
+
+Escalation depends on risk severity and organizational thresholds.
+
+---
+
+# 23. Risk Acceptance
+
+NorthStar establishes formal risk acceptance authorities.
+
+For example:
+
+| Risk Level | Acceptance Authority             |
+| ---------- | -------------------------------- |
+| Low        | Business Manager                 |
+| Medium     | Business Director                |
+| High       | Executive Management             |
+| Critical   | Executive Risk Committee / Board |
+
+This prevents inappropriate risk acceptance.
+
+---
+
+# 24. Policy Operating Model
+
+NorthStar establishes a centralized policy hierarchy.
+
+```text id="u2x6v4"
+Cybersecurity Policy
+        |
+        v
+Security Standards
+        |
+        v
+Control Requirements
+        |
+        v
+Procedures
+        |
+        v
+Technical Guidelines
+```
+
+Policies are centrally governed while implementation remains distributed.
+
+---
+
+# 25. Regulatory Operating Model
+
+NorthStar operates across multiple jurisdictions.
+
+The GRC function establishes a regulatory intelligence process.
+
+```text id="j6k3r8"
+Regulatory Change
+       |
+       v
+Regulatory Analysis
+       |
+       v
+Applicability Assessment
+       |
+       v
+Requirement Mapping
+       |
+       v
+Control Impact Analysis
+       |
+       v
+Implementation
+       |
+       v
+Evidence
+       |
+       v
+Compliance Reporting
+```
+
+This prevents regulatory requirements from being handled independently by every business unit.
+
+---
+
+# 26. GRC Platform Strategy
+
+NorthStar currently operates three GRC platforms.
+
+The transformation program establishes a target architecture based on:
+
+* centralized risk repository;
+* common control library;
+* common issue management;
+* common evidence repository;
+* common regulatory library;
+* common dashboard.
+
+The goal is **one governance model**, even if multiple technical systems remain temporarily.
+
+---
+
+# 27. GRC Data Architecture
+
+```text id="r9c4m2"
+                 GRC PLATFORM
+                      |
+       +--------------+--------------+
+       |              |              |
+       v              v              v
+      Risk          Controls       Compliance
+       |              |              |
+       +--------------+--------------+
+                      |
+                      v
+                   Evidence
+                      |
+                      v
+                  Dashboards
+                      |
+                      v
+                 Management
+```
+
+---
+
+# 28. Metrics Operating Model
+
+NorthStar creates three reporting layers.
+
+### Operational
+
+Used by security teams.
+
+Examples:
+
+* alerts;
+* vulnerabilities;
+* incidents;
+* response times.
+
+### Management
+
+Used by executives.
+
+Examples:
+
+* high-risk exposure;
+* control effectiveness;
+* remediation;
+* exceptions.
+
+### Board
+
+Used for strategic oversight.
+
+Examples:
+
+* overall cyber risk;
+* critical service resilience;
+* regulatory exposure;
+* major incidents;
+* strategic security investment.
+
+---
+
+# 29. Executive Reporting Model
+
+The reporting process becomes:
+
+```text id="z6h3x7"
+Operational Data
+      |
+      v
+Risk & Control Analysis
+      |
+      v
+Management Metrics
+      |
+      v
+Executive Risk Indicators
+      |
+      v
+Board-Level Decisions
+```
+
+Technical information is translated into business risk.
+
+---
+
+# 30. Assurance Operating Model
+
+NorthStar integrates:
+
+* control self-assessments;
+* compliance assessments;
+* internal audits;
+* external audits;
+* regulatory assessments.
+
+The GRC function coordinates these activities to reduce unnecessary duplication.
+
+---
+
+# 31. Assurance Map
+
+```text id="m7f5q2"
+Business Controls
+       |
+       +---- Self Assessment
+       |
+       +---- GRC Monitoring
+       |
+       +---- Compliance Testing
+       |
+       +---- Internal Audit
+       |
+       +---- External Assurance
+       |
+       v
+Overall Control Assurance
+```
+
+Each assurance activity has a defined purpose.
+
+---
+
+# 32. Third-Party Governance
+
+The new operating model introduces centralized third-party risk governance.
+
+### Procurement
+
+Owns commercial onboarding.
+
+### Business Owner
+
+Owns business relationship.
+
+### GRC
+
+Performs cybersecurity risk assessment.
+
+### Legal
+
+Establishes contractual requirements.
+
+### Security
+
+Provides technical security requirements.
+
+### Risk Committee
+
+Reviews significant supplier risks.
+
+---
+
+# 33. Exception Management
+
+A centralized exception process is established.
+
+Each exception contains:
+
+* requirement;
+* reason;
+* affected asset;
+* risk;
+* compensating control;
+* owner;
+* approval;
+* expiration.
+
+Expired exceptions automatically appear on management dashboards.
+
+---
+
+# 34. Cybersecurity Incident Governance
+
+Incident response remains operationally independent.
+
+However, major incidents trigger governance escalation.
+
+```text id="c3k9r4"
+Security Incident
+       |
+       v
+Severity Assessment
+       |
+       +---- Normal ---> Operational Response
+       |
+       +---- Major ----> Executive Escalation
+                            |
+                            v
+                     Regulatory Assessment
+                            |
+                            v
+                       Board Reporting
+```
+
+---
+
+# 35. Transformation Roadmap
+
+The transformation is divided into four phases.
+
+### Phase 1 – Assess
+
+**0–3 months**
+
+* assess current operating model;
+* identify duplication;
+* identify accountability gaps;
+* inventory GRC capabilities.
+
+### Phase 2 – Design
+
+**3–6 months**
+
+* design target operating model;
+* define roles;
+* define governance;
+* establish control taxonomy.
+
+### Phase 3 – Implement
+
+**6–18 months**
+
+* implement common processes;
+* consolidate governance;
+* integrate GRC platforms;
+* implement dashboards.
+
+### Phase 4 – Optimize
+
+**18–36 months**
+
+* automate workflows;
+* improve analytics;
+* integrate continuous monitoring;
+* optimize governance.
+
+---
+
+# 36. Transformation Workstreams
+
+The program establishes eight workstreams.
+
+1. Governance
+2. Risk
+3. Compliance
+4. Controls
+5. Assurance
+6. Technology
+7. Metrics
+8. Change Management
+
+Each workstream has an accountable owner.
+
+---
+
+# 37. Transformation RACI
+
+| Activity   | CISO | GRC | Business | IT | Audit |
+| ---------- | ---- | --- | -------- | -- | ----- |
+| Strategy   | A    | R   | C        | C  | I     |
+| Risk       | A    | R   | R        | C  | I     |
+| Controls   | A    | R   | R        | R  | I     |
+| Compliance | A    | R   | C        | C  | I     |
+| Audit      | I    | C   | C        | C  | A/R   |
+| Metrics    | A    | R   | C        | C  | I     |
+
+**R = Responsible**
+
+**A = Accountable**
+
+**C = Consulted**
+
+**I = Informed**
+
+---
+
+# 38. Change Management
+
+The transformation introduces significant organizational change.
+
+Employees may initially resist:
+
+* centralized governance;
+* common processes;
+* new approval requirements;
+* standardized risk methodology.
+
+NorthStar therefore establishes a change management program.
+
+It includes:
+
+* communication;
+* training;
+* stakeholder engagement;
+* leadership sponsorship;
+* adoption monitoring.
+
+---
+
+# 39. Key Transformation Risk
+
+One of the biggest risks is creating excessive bureaucracy.
+
+If every security decision requires multiple committees, governance can become slower rather than better.
+
+NorthStar therefore applies:
+
+> **"Governance proportional to risk."**
+
+Low-risk decisions should be handled efficiently.
+
+High-risk decisions receive greater oversight.
+
+---
+
+# 40. Automation Strategy
+
+The organization automates repetitive governance activities.
+
+Examples:
+
+* risk reminders;
+* control assessments;
+* evidence collection;
+* compliance mapping;
+* exception expiration;
+* dashboard updates;
+* supplier reassessments.
+
+Automation allows GRC professionals to focus on analysis and decision support.
+
+---
+
+# 41. Transformation Performance Indicators
+
+The organization measures transformation success using:
+
+* percentage of risks with assigned owners;
+* percentage of controls mapped to requirements;
+* percentage of critical suppliers monitored;
+* percentage of overdue remediation;
+* number of duplicated controls eliminated;
+* percentage of automated workflows;
+* governance decision cycle time;
+* executive reporting satisfaction.
+
+---
+
+# 42. Before-and-After Model
+
+### Before
+
+```text
+Business A → GRC A → Audit A
+Business B → GRC B → Audit B
+Business C → GRC C → Audit C
+```
+
+Processes are fragmented.
+
+### After
+
+```text
+                 CENTRAL GRC
+                      |
+       +--------------+--------------+
+       |              |              |
+   Business A     Business B     Business C
+       |              |              |
+       +--------------+--------------+
+                      |
+              Common Controls
+                      |
+                  Assurance
+```
+
+Governance becomes standardized while execution remains distributed.
+
+---
+
+# 43. Transformation Results
+
+After three years, NorthStar achieves:
+
+* one cybersecurity governance model;
+* common risk methodology;
+* centralized control taxonomy;
+* integrated regulatory requirements;
+* improved board visibility;
+* reduced duplicated assessments;
+* improved third-party oversight;
+* automated GRC workflows;
+* clearer accountability.
+
+---
+
+# 44. Lessons Learned
+
+## Lesson 1 – Operating Models Must Reflect the Organization
+
+A global enterprise may require a federated model rather than complete centralization.
+
+## Lesson 2 – Governance Must Have Clear Accountability
+
+Every major decision should have an accountable owner.
+
+## Lesson 3 – Common Controls Reduce Complexity
+
+Multiple frameworks should be mapped to common controls where possible.
+
+## Lesson 4 – GRC Is an Integration Function
+
+GRC connects business, cybersecurity, risk, compliance, audit, and technology.
+
+## Lesson 5 – Automation Should Support Governance
+
+Automation should reduce administrative work, not replace human risk judgment.
+
+## Lesson 6 – Governance Must Be Proportional
+
+Too little governance creates uncontrolled risk.
+
+Too much governance creates bureaucracy.
+
+---
+
+# 45. Practical Cybersecurity Governance Transformation Checklist
+
+### Operating Model
+
+* [ ] Current operating model documented
+* [ ] Target operating model defined
+* [ ] Centralized capabilities identified
+* [ ] Federated capabilities identified
+* [ ] Roles documented
+
+### Governance
+
+* [ ] Board responsibilities defined
+* [ ] Executive committee established
+* [ ] Cybersecurity governance committee established
+* [ ] Escalation paths defined
+
+### Risk
+
+* [ ] Common risk methodology established
+* [ ] Risk owners assigned
+* [ ] Risk acceptance authority defined
+* [ ] Risk escalation thresholds established
+
+### Controls
+
+* [ ] Common control library established
+* [ ] Framework crosswalk created
+* [ ] Control ownership assigned
+* [ ] Control effectiveness measured
+
+### Compliance
+
+* [ ] Regulatory requirements centralized
+* [ ] Applicability assessment established
+* [ ] Requirements mapped to controls
+* [ ] Compliance evidence centralized
+
+### Assurance
+
+* [ ] Assurance activities mapped
+* [ ] Internal Audit independence maintained
+* [ ] Duplicate testing reduced
+* [ ] Findings integrated
+
+### Technology
+
+* [ ] GRC architecture defined
+* [ ] Data sources identified
+* [ ] Workflow automation implemented
+* [ ] Dashboards established
+
+---
+
+# 46. Final Cybersecurity Governance Operating Model
+
+```text id="p7v2m4"
+                         BOARD
+                           |
+                           v
+                  ENTERPRISE GOVERNANCE
+                           |
+                           v
+                          CISO
+                           |
+       +-------------------+-------------------+
+       |                   |                   |
+       v                   v                   v
+     GRC               SECURITY          ARCHITECTURE
+       |               OPERATIONS               |
+       |                   |                   |
+       +-------------------+-------------------+
+                           |
+                           v
+                    BUSINESS / IT
+                           |
+                           v
+                       CONTROLS
+                           |
+            +--------------+--------------+
+            |              |              |
+            v              v              v
+          RISK         COMPLIANCE      ASSURANCE
+            |              |              |
+            +--------------+--------------+
+                           |
+                           v
+                       METRICS
+                           |
+                           v
+                    EXECUTIVE DECISIONS
+                           |
+                           v
+                    CONTINUOUS IMPROVEMENT
+                           |
+                           +--------↺
+```
+
+# 47. Case Study Conclusion
+
+The NorthStar case demonstrates that cybersecurity transformation is not simply a technology modernization exercise.
+
+A successful transformation creates an operating model in which:
+
+**Business owns risk → GRC governs and challenges → Security implements and operates → Compliance verifies obligations → Internal Audit provides independent assurance → Management makes informed decisions.**
+
+For a GRC professional, understanding the cybersecurity operating model is critical because it provides the organizational structure through which **risk, compliance, controls, governance, and assurance** are actually executed.
+
+The ultimate objective is not to create more governance.
+
+It is to create **effective governance that improves security decisions while minimizing unnecessary complexity**.
+
 
 

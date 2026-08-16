@@ -1142,4 +1142,1106 @@ The key principle is:
 
 For a GRC professional, the ability to design and operate this governance model is particularly important because it connects technical cybersecurity activities with **enterprise risk management and executive decision-making**.
 
+# 19.3 Cybersecurity Governance Case Studies
+
+## Part 2 – Cybersecurity Governance Maturity Assessment Case Study
+
+## 1. Case Study Overview
+
+This case study demonstrates how an organization can assess the maturity of its cybersecurity governance program, identify weaknesses, define a target state, and develop a practical improvement roadmap.
+
+The organization has already established basic cybersecurity governance structures, but management wants to determine:
+
+* How mature is the current governance program?
+* Where are the major weaknesses?
+* What should be improved first?
+* What maturity level should the organization target?
+* How can progress be measured?
+
+The case demonstrates that **maturity assessment should lead to actionable improvement**, rather than simply producing a score.
+
+---
+
+# 2. Organization Profile
+
+### Company
+
+**EuroDigital Services Group**
+
+### Industry
+
+Telecommunications and Digital Services
+
+### Employees
+
+Approximately 8,500
+
+### Annual Revenue
+
+Approximately €2.7 billion
+
+### Geographic Presence
+
+* Spain
+* France
+* Germany
+* Portugal
+* Italy
+
+### Critical Services
+
+* Mobile services
+* Broadband
+* Cloud platforms
+* Digital applications
+* Enterprise connectivity
+* Customer data platforms
+
+---
+
+# 3. Current Situation
+
+EuroDigital has operated a cybersecurity program for several years.
+
+The organization has:
+
+* a CISO;
+* cybersecurity policies;
+* a SOC;
+* vulnerability management;
+* incident response;
+* security awareness;
+* ISO 27001 certification;
+* cybersecurity risk assessments.
+
+However, management believes that cybersecurity governance remains inconsistent.
+
+The CEO therefore asks:
+
+> **"Are we actually operating a mature cybersecurity governance program, or do we simply have many individual security activities?"**
+
+---
+
+# 4. Assessment Objective
+
+The organization launches a cybersecurity governance maturity assessment.
+
+The objectives are to:
+
+1. establish the current maturity baseline;
+2. identify governance weaknesses;
+3. compare current capabilities with target maturity;
+4. prioritize improvement initiatives;
+5. establish measurable improvement objectives;
+6. provide management with a governance roadmap.
+
+---
+
+# 5. Assessment Scope
+
+The assessment covers eight domains:
+
+1. Governance and accountability
+2. Cybersecurity strategy
+3. Risk management
+4. Policies and standards
+5. Security controls
+6. Compliance and assurance
+7. Performance measurement
+8. Third-party cybersecurity governance
+
+---
+
+# 6. Maturity Model
+
+EuroDigital adopts a five-level maturity model.
+
+### Level 1 – Initial
+
+Activities are largely reactive and ad hoc.
+
+### Level 2 – Developing
+
+Basic processes exist but are inconsistently applied.
+
+### Level 3 – Defined
+
+Processes are formally documented and consistently implemented.
+
+### Level 4 – Managed
+
+Processes are measured, monitored, and integrated with enterprise governance.
+
+### Level 5 – Optimized
+
+Processes are continuously improved using automation, analytics, intelligence, and measurable business outcomes.
+
+---
+
+# 7. Important Assessment Principle
+
+A maturity score does **not** mean:
+
+> "Level 5 is always better."
+
+Instead:
+
+> **The appropriate maturity level depends on business risk, regulatory obligations, criticality, and organizational objectives.**
+
+A highly regulated critical infrastructure organization may require Level 4 or 5 for some capabilities, while Level 3 may be sufficient for lower-risk capabilities.
+
+---
+
+# 8. Assessment Methodology
+
+The assessment uses several evidence sources.
+
+### Documentation Review
+
+* policies;
+* standards;
+* procedures;
+* risk registers;
+* committee minutes;
+* audit reports.
+
+### Interviews
+
+Interviews are conducted with:
+
+* CISO;
+* CIO;
+* risk manager;
+* compliance officer;
+* IT managers;
+* business owners;
+* internal audit;
+* procurement.
+
+### Evidence Testing
+
+The assessment examines:
+
+* risk assessments;
+* control records;
+* exception records;
+* security metrics;
+* remediation records.
+
+### Observation
+
+The assessment team observes governance meetings and operational processes.
+
+---
+
+# 9. Assessment Scoring
+
+Each domain receives a score from 1 to 5.
+
+The organization uses:
+
+**1 = Initial**
+
+**2 = Developing**
+
+**3 = Defined**
+
+**4 = Managed**
+
+**5 = Optimized**
+
+Scores are supported by evidence rather than management opinion alone.
+
+---
+
+# 10. Governance and Accountability Assessment
+
+### Findings
+
+EuroDigital has:
+
+* a CISO;
+* a cybersecurity committee;
+* documented responsibilities;
+* board reporting.
+
+However:
+
+* business risk ownership is inconsistent;
+* committee decisions are not always formally tracked;
+* escalation responsibilities vary between business units.
+
+### Current Maturity
+
+**Level 3 – Defined**
+
+### Target
+
+**Level 4 – Managed**
+
+---
+
+# 11. Cybersecurity Strategy Assessment
+
+The organization has a three-year cybersecurity strategy.
+
+However, the strategy is not fully connected to:
+
+* enterprise objectives;
+* business risk;
+* investment planning;
+* measurable outcomes.
+
+Security projects are often selected based on technical priorities rather than enterprise risk.
+
+### Current Maturity
+
+**Level 3**
+
+### Target
+
+**Level 4**
+
+---
+
+# 12. Risk Management Assessment
+
+EuroDigital maintains a cybersecurity risk register.
+
+Strengths include:
+
+* defined methodology;
+* risk scoring;
+* risk owners;
+* treatment plans.
+
+Weaknesses include:
+
+* inconsistent residual risk calculations;
+* limited risk aggregation;
+* limited risk interdependency analysis;
+* inconsistent integration with enterprise risk management.
+
+### Current Maturity
+
+**Level 2**
+
+### Target
+
+**Level 4**
+
+This becomes one of the highest-priority improvement areas.
+
+---
+
+# 13. Policy and Standards Assessment
+
+EuroDigital has a comprehensive policy hierarchy.
+
+It includes:
+
+* cybersecurity policy;
+* access control standard;
+* encryption standard;
+* vulnerability management standard;
+* cloud security standard.
+
+However:
+
+* some standards are outdated;
+* ownership is inconsistent;
+* review cycles are not always followed.
+
+### Current Maturity
+
+**Level 3**
+
+### Target
+
+**Level 4**
+
+---
+
+# 14. Security Controls Assessment
+
+The organization operates many security controls.
+
+Examples include:
+
+* IAM;
+* MFA;
+* endpoint protection;
+* vulnerability management;
+* logging;
+* network security;
+* security monitoring.
+
+The weakness is that control effectiveness is not consistently measured.
+
+The organization frequently measures:
+
+> "Is the control implemented?"
+
+But less frequently asks:
+
+> "Is the control actually reducing risk?"
+
+### Current Maturity
+
+**Level 3**
+
+### Target
+
+**Level 4**
+
+---
+
+# 15. Compliance and Assurance Assessment
+
+EuroDigital has:
+
+* ISO 27001;
+* internal audit;
+* compliance assessments;
+* regulatory monitoring.
+
+However, audit, compliance, and cybersecurity teams maintain partially separate findings.
+
+This creates duplicated remediation activities.
+
+### Current Maturity
+
+**Level 3**
+
+### Target
+
+**Level 4**
+
+---
+
+# 16. Performance Measurement Assessment
+
+The organization has a security dashboard.
+
+However, most metrics are operational.
+
+Examples:
+
+* number of blocked attacks;
+* number of vulnerabilities;
+* number of security alerts;
+* number of phishing emails.
+
+Management lacks sufficient risk-oriented metrics.
+
+### Current Maturity
+
+**Level 2**
+
+### Target
+
+**Level 4**
+
+---
+
+# 17. Third-Party Cybersecurity Assessment
+
+The procurement team conducts supplier assessments.
+
+However:
+
+* assessments are mainly performed before onboarding;
+* ongoing monitoring is limited;
+* critical supplier concentration is not fully measured;
+* supplier risk is not consistently aggregated into enterprise risk.
+
+### Current Maturity
+
+**Level 2**
+
+### Target
+
+**Level 4**
+
+---
+
+# 18. Maturity Assessment Results
+
+The assessment produces the following results:
+
+| Domain                 | Current | Target | Gap |
+| ---------------------- | ------: | -----: | --: |
+| Governance             |       3 |      4 |   1 |
+| Strategy               |       3 |      4 |   1 |
+| Risk Management        |       2 |      4 |   2 |
+| Policies               |       3 |      4 |   1 |
+| Controls               |       3 |      4 |   1 |
+| Compliance & Assurance |       3 |      4 |   1 |
+| Metrics                |       2 |      4 |   2 |
+| Third-Party Risk       |       2 |      4 |   2 |
+
+The most significant gaps are:
+
+* risk management;
+* performance measurement;
+* third-party cybersecurity.
+
+---
+
+# 19. Maturity Heatmap
+
+```text id="8v2j0d"
++-----------------------------+---------+--------+
+| Capability                  | Current | Target |
++-----------------------------+---------+--------+
+| Governance                  |   3     |   4    |
+| Strategy                    |   3     |   4    |
+| Risk Management             |   2     |   4    |
+| Policies                    |   3     |   4    |
+| Controls                    |   3     |   4    |
+| Compliance & Assurance      |   3     |   4    |
+| Metrics                     |   2     |   4    |
+| Third-Party Risk            |   2     |   4    |
++-----------------------------+---------+--------+
+```
+
+The organization should prioritize the Level 2 capabilities.
+
+---
+
+# 20. Root Cause Analysis
+
+The assessment team does not immediately recommend solutions.
+
+First, it investigates the reasons for the maturity gaps.
+
+### Risk Management Root Causes
+
+* separate departmental risk registers;
+* inconsistent methodology;
+* limited risk aggregation;
+* insufficient executive ownership.
+
+### Metrics Root Causes
+
+* technology-focused reporting;
+* lack of defined KRIs;
+* inconsistent data sources;
+* no common measurement framework.
+
+### Third-Party Risk Root Causes
+
+* procurement-driven assessment;
+* limited continuous monitoring;
+* incomplete supplier inventory;
+* insufficient critical supplier classification.
+
+---
+
+# 21. Capability Gap Model
+
+The assessment uses:
+
+```text id="k4s5o7"
+Current State
+     |
+     v
+Capability Gap
+     |
+     v
+Root Cause
+     |
+     v
+Improvement Initiative
+     |
+     v
+Target State
+     |
+     v
+Measurement
+```
+
+This prevents the assessment from becoming merely a scorecard.
+
+---
+
+# 22. Risk Management Improvement
+
+The organization decides to establish an enterprise cybersecurity risk methodology.
+
+The methodology will include:
+
+* common risk taxonomy;
+* standardized scoring;
+* inherent risk;
+* control effectiveness;
+* residual risk;
+* risk appetite;
+* treatment;
+* acceptance;
+* escalation;
+* monitoring.
+
+---
+
+# 23. Enterprise Risk Integration
+
+Cybersecurity risk will be connected to enterprise risk management.
+
+```text id="h9j7z1"
+Cybersecurity Risk
+        |
+        v
+Technology Risk
+        |
+        v
+Operational Risk
+        |
+        v
+Enterprise Risk
+```
+
+This allows executives to understand cybersecurity exposure in business terms.
+
+---
+
+# 24. Metrics Improvement
+
+The organization redesigns its dashboard.
+
+Instead of reporting only:
+
+> 25,000 attacks blocked
+
+it begins reporting:
+
+* critical risks above appetite;
+* overdue high-risk remediation;
+* control effectiveness;
+* critical asset exposure;
+* third-party high-risk exposure;
+* incident trends;
+* security resilience.
+
+The objective is to move from **activity reporting to risk reporting**.
+
+---
+
+# 25. KPI and KRI Framework
+
+### KPI
+
+Measures whether security activities are being performed effectively.
+
+Example:
+
+> 95% of critical vulnerabilities remediated within SLA.
+
+### KRI
+
+Measures whether risk exposure is increasing or decreasing.
+
+Example:
+
+> Number of critical vulnerabilities exceeding SLA.
+
+The organization uses both.
+
+---
+
+# 26. Third-Party Risk Improvement
+
+The organization introduces supplier segmentation.
+
+### Tier 1 – Critical
+
+Suppliers capable of significantly affecting:
+
+* critical services;
+* customer data;
+* regulatory compliance;
+* business continuity.
+
+### Tier 2 – High
+
+Important suppliers with significant security exposure.
+
+### Tier 3 – Standard
+
+Lower-risk suppliers.
+
+Monitoring frequency is determined by risk tier.
+
+---
+
+# 27. Governance Improvement
+
+The organization improves governance committee processes.
+
+Every decision must have:
+
+* decision ID;
+* issue;
+* risk;
+* decision;
+* owner;
+* deadline;
+* status.
+
+This creates governance traceability.
+
+---
+
+# 28. Board Reporting Improvement
+
+The CISO redesigns the board report.
+
+The new report includes:
+
+### Overall Risk
+
+**High – Improving**
+
+### Top Risks
+
+1. Legacy infrastructure
+2. Third-party concentration
+3. Identity compromise
+
+### Major Changes
+
+* ransomware threat increasing;
+* critical vulnerabilities decreasing;
+* supplier risk increasing.
+
+### Decisions Required
+
+* approve legacy modernization funding;
+* approve critical supplier remediation program.
+
+This is more useful than a long technical report.
+
+---
+
+# 29. Improvement Roadmap
+
+EuroDigital establishes a three-year roadmap.
+
+### Phase 1 – Foundation
+
+**0–6 months**
+
+* establish common taxonomy;
+* improve risk methodology;
+* define KRIs;
+* classify suppliers;
+* update governance responsibilities.
+
+### Phase 2 – Integration
+
+**6–18 months**
+
+* integrate GRC platform;
+* connect enterprise risk;
+* integrate audit findings;
+* implement continuous supplier monitoring;
+* establish executive dashboards.
+
+### Phase 3 – Optimization
+
+**18–36 months**
+
+* automate data collection;
+* introduce advanced analytics;
+* implement predictive risk indicators;
+* improve risk forecasting;
+* continuously optimize governance.
+
+---
+
+# 30. Prioritization Model
+
+Not every maturity gap receives the same priority.
+
+EuroDigital evaluates each initiative according to:
+
+* risk reduction;
+* regulatory importance;
+* business impact;
+* implementation effort;
+* cost;
+* strategic alignment.
+
+A simple prioritization model is:
+
+**Priority = Risk Impact × Urgency × Strategic Importance**
+
+This allows management to focus resources where they provide the greatest value.
+
+---
+
+# 31. Example Prioritization
+
+| Initiative                  | Risk   | Effort | Priority |
+| --------------------------- | ------ | ------ | -------- |
+| Enterprise risk integration | High   | Medium | Critical |
+| KRI framework               | High   | Low    | High     |
+| Supplier monitoring         | High   | High   | High     |
+| Policy refresh              | Medium | Low    | Medium   |
+| Dashboard redesign          | Medium | Medium | Medium   |
+
+---
+
+# 32. Governance Maturity Improvement
+
+The organization establishes measurable targets.
+
+### Year 1
+
+Average maturity:
+
+**2.6 → 3.2**
+
+### Year 2
+
+Average maturity:
+
+**3.2 → 3.6**
+
+### Year 3
+
+Average maturity:
+
+**3.6 → 4.0**
+
+The objective is not to jump immediately from Level 2 to Level 5.
+
+Maturity should improve progressively.
+
+---
+
+# 33. Continuous Maturity Monitoring
+
+The assessment becomes an annual process.
+
+```text id="5y7g3c"
+Assess
+  |
+  v
+Identify Gaps
+  |
+  v
+Prioritize
+  |
+  v
+Improve
+  |
+  v
+Measure
+  |
+  v
+Reassess
+  |
+  +-------> Continuous Improvement
+```
+
+This transforms maturity assessment into a governance mechanism.
+
+---
+
+# 34. Integration with ISO 27001
+
+The organization uses ISO 27001 as one of its governance references.
+
+The maturity assessment considers:
+
+* ISMS governance;
+* risk management;
+* control implementation;
+* performance evaluation;
+* internal audit;
+* management review;
+* continual improvement.
+
+However, the maturity assessment is broader than ISO 27001 alone.
+
+It also considers:
+
+* enterprise risk;
+* cybersecurity strategy;
+* third-party risk;
+* executive governance;
+* business alignment.
+
+---
+
+# 35. Integration with NIST CSF
+
+The organization also uses the NIST Cybersecurity Framework.
+
+The maturity assessment considers capabilities across:
+
+* Govern;
+* Identify;
+* Protect;
+* Detect;
+* Respond;
+* Recover.
+
+The **Govern** function is particularly important because it connects cybersecurity strategy, risk, roles, policy, and oversight.
+
+---
+
+# 36. Framework Crosswalk
+
+The organization creates a crosswalk.
+
+```text id="0m5b5p"
+ISO 27001
+    |
+    +--------+
+             |
+NIST CSF ----+---- Cybersecurity Governance
+             |
+Enterprise Risk
+             |
+Regulatory Requirements
+             |
+Third-Party Risk
+```
+
+The organization uses common capabilities rather than creating completely independent governance programs.
+
+---
+
+# 37. Evidence Required for Maturity Assessment
+
+A mature assessment requires evidence.
+
+Examples include:
+
+### Governance
+
+* committee minutes;
+* board reports;
+* RACI matrices.
+
+### Risk
+
+* risk register;
+* risk assessments;
+* treatment plans.
+
+### Policy
+
+* approved policies;
+* review records.
+
+### Controls
+
+* control assessments;
+* test results.
+
+### Metrics
+
+* dashboards;
+* KRI reports.
+
+### Third Parties
+
+* supplier assessments;
+* monitoring reports.
+
+Evidence makes the maturity assessment defensible.
+
+---
+
+# 38. Avoiding Self-Assessment Bias
+
+Management initially rates risk management at Level 4.
+
+However, independent testing finds that:
+
+* risk scoring is inconsistent;
+* risk owners are unclear;
+* residual risk calculations differ;
+* risk reporting is incomplete.
+
+The assessor therefore rates it:
+
+**Level 2**
+
+This demonstrates an important principle:
+
+> **Maturity should be based on demonstrated capability, not perceived capability.**
+
+---
+
+# 39. Internal Audit Role
+
+Internal Audit reviews the maturity assessment methodology.
+
+Audit verifies:
+
+* scoring criteria;
+* evidence;
+* governance;
+* remediation;
+* progress measurement.
+
+Internal Audit does not own the cybersecurity maturity program.
+
+It provides independent assurance.
+
+---
+
+# 40. Executive Decision
+
+After reviewing the assessment, management approves three strategic initiatives:
+
+### Initiative 1
+
+Enterprise Cyber Risk Integration.
+
+### Initiative 2
+
+Cybersecurity Metrics and KRI Program.
+
+### Initiative 3
+
+Continuous Third-Party Cyber Risk Monitoring.
+
+These receive the highest funding priority.
+
+---
+
+# 41. Expected Outcomes
+
+After implementation, EuroDigital expects:
+
+* better risk visibility;
+* improved executive decision-making;
+* consistent risk assessments;
+* stronger third-party oversight;
+* improved control effectiveness;
+* better regulatory alignment;
+* stronger board reporting.
+
+---
+
+# 42. Lessons Learned
+
+## Lesson 1 – Maturity Is Capability
+
+Having policies and tools does not automatically mean the organization is mature.
+
+## Lesson 2 – Evidence Matters
+
+A maturity score should be supported by objective evidence.
+
+## Lesson 3 – Gaps Must Be Prioritized
+
+Not every weakness requires immediate remediation.
+
+## Lesson 4 – Risk Should Drive Maturity
+
+Higher-risk capabilities should generally receive greater maturity investment.
+
+## Lesson 5 – Maturity Is Not a One-Time Exercise
+
+Organizations, threats, technologies, and regulations change continuously.
+
+## Lesson 6 – Level 5 Is Not Always Necessary
+
+The appropriate target is the maturity level required by the organization's risk profile and business objectives.
+
+---
+
+# 43. Practical Cybersecurity Governance Maturity Checklist
+
+### Assessment
+
+* [ ] Assessment scope defined
+* [ ] Maturity model established
+* [ ] Assessment criteria documented
+* [ ] Evidence requirements defined
+* [ ] Interviews completed
+* [ ] Evidence tested
+
+### Governance
+
+* [ ] Governance maturity assessed
+* [ ] Accountability evaluated
+* [ ] Decision-making evaluated
+* [ ] Board oversight evaluated
+
+### Risk
+
+* [ ] Risk methodology evaluated
+* [ ] Risk ownership evaluated
+* [ ] Risk aggregation evaluated
+* [ ] Risk appetite evaluated
+* [ ] Risk monitoring evaluated
+
+### Performance
+
+* [ ] KPIs assessed
+* [ ] KRIs assessed
+* [ ] Dashboards evaluated
+* [ ] Reporting effectiveness evaluated
+
+### Improvement
+
+* [ ] Gaps prioritized
+* [ ] Root causes identified
+* [ ] Improvement initiatives defined
+* [ ] Owners assigned
+* [ ] Target dates established
+* [ ] Progress measured
+
+---
+
+# 44. Final Maturity Assessment Model
+
+```text id="c1g7x2"
+                 CURRENT STATE
+                       |
+                       v
+              MATURITY ASSESSMENT
+                       |
+                       v
+                  GAP ANALYSIS
+                       |
+                       v
+                ROOT CAUSE ANALYSIS
+                       |
+                       v
+                PRIORITIZATION
+                       |
+                       v
+              IMPROVEMENT ROADMAP
+                       |
+                       v
+                 IMPLEMENTATION
+                       |
+                       v
+                 MEASUREMENT
+                       |
+                       v
+                  REASSESSMENT
+                       |
+                       +----------↺
+```
+
+# 45. Case Study Conclusion
+
+The EuroDigital case demonstrates how a cybersecurity governance maturity assessment can transform a collection of security activities into a structured improvement program.
+
+The essential sequence is:
+
+**Assess → Evidence → Identify Gaps → Prioritize → Improve → Measure → Reassess**
+
+A mature GRC professional should therefore be able to do more than assign maturity scores. The real value comes from translating assessment results into **risk-based governance decisions, investment priorities, measurable improvement initiatives, and continuous organizational improvement**.
+
+
 

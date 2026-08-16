@@ -1989,4 +1989,2399 @@ and instead explain:
 
 That is the difference between **measuring GRC maturity** and **using maturity assessment to drive GRC transformation**.
 
+# 19.1 GRC Foundations Case Studies
+
+## Part 3 – Designing a GRC Operating Model
+
+## 1. Case Study Overview
+
+This case study examines how an organization designs an **enterprise GRC operating model** after discovering that governance, risk, compliance, cybersecurity, audit, and control activities are fragmented across different departments.
+
+The objective is to establish a practical model that defines:
+
+* who makes GRC decisions;
+* who owns risks;
+* who owns controls;
+* who performs compliance activities;
+* who provides assurance;
+* how GRC information flows;
+* how issues are escalated;
+* how management decisions are made.
+
+The case demonstrates that a GRC operating model is more than an organizational chart. It defines **how GRC actually works across the enterprise**.
+
+---
+
+# 2. Organization Profile
+
+### Company
+
+**Orion Global Communications**
+
+### Industry
+
+Telecommunications and digital services
+
+### Employees
+
+Approximately 9,000
+
+### Annual Revenue
+
+Approximately €2.4 billion
+
+### Geographic Presence
+
+* Spain
+* Portugal
+* France
+* Italy
+* Middle East
+
+### Major Business Areas
+
+* Mobile telecommunications
+* Broadband
+* Enterprise connectivity
+* Cloud services
+* Digital payments
+* Customer applications
+* IoT services
+
+---
+
+# 3. The Business Problem
+
+Orion has grown through acquisitions.
+
+Each acquired organization brought its own:
+
+* risk methodology;
+* cybersecurity policies;
+* compliance processes;
+* control libraries;
+* audit practices;
+* third-party processes;
+* reporting methods.
+
+The result is a fragmented GRC environment.
+
+```text
+                 ORION GROUP
+                     |
+       +-------------+-------------+
+       |             |             |
+       v             v             v
+   Business A    Business B    Business C
+       |             |             |
+      Risk          Risk          Risk
+      Controls      Controls      Controls
+      Compliance    Compliance    Compliance
+```
+
+There is no consistent enterprise-wide GRC operating model.
+
+---
+
+# 4. Management Challenge
+
+The Board asks the Group Chief Risk Officer:
+
+> **"Who is accountable when a major enterprise risk crosses multiple departments?"**
+
+The answer is unclear.
+
+For example, a cloud security risk may involve:
+
+* Cloud Engineering;
+* Cybersecurity;
+* Procurement;
+* Legal;
+* Privacy;
+* Business Operations;
+* Enterprise Risk;
+* Internal Audit.
+
+Each function believes another function has primary responsibility.
+
+This creates an **accountability gap**.
+
+---
+
+# 5. Current-State Assessment
+
+The GRC team identifies five major weaknesses.
+
+### 1. Overlapping responsibilities
+
+Multiple functions perform similar activities.
+
+### 2. Unclear accountability
+
+Risk and control ownership are not consistently assigned.
+
+### 3. Fragmented reporting
+
+Each department produces separate reports.
+
+### 4. Weak escalation
+
+High-risk issues may take too long to reach executives.
+
+### 5. Limited integration
+
+Risk, compliance, cybersecurity, audit, and third-party risk operate independently.
+
+---
+
+# 6. Design Objective
+
+Management defines the target objective:
+
+> **Create an enterprise GRC operating model that establishes clear accountability, integrates GRC processes, enables risk-based decision-making, and provides independent assurance.**
+
+The model must work across:
+
+```text
+Enterprise
+   ↓
+Business Units
+   ↓
+Functions
+   ↓
+Processes
+   ↓
+Systems
+   ↓
+Controls
+```
+
+---
+
+# 7. GRC Operating Model Components
+
+The organization decides that the operating model will contain seven components:
+
+```text
+                  GRC OPERATING MODEL
+                          |
+     +--------------------+--------------------+
+     |                    |                    |
+ Governance             People              Process
+     |                    |                    |
+ Technology             Data               Controls
+     |                    |
+     +--------- Reporting & Assurance --------+
+```
+
+Each component must be defined.
+
+---
+
+# 8. Component 1 – Governance
+
+Governance establishes decision authority.
+
+The proposed structure is:
+
+```text
+                         Board
+                           |
+                           v
+                   Board Risk Committee
+                           |
+                           v
+                  Executive GRC Committee
+                           |
+                           v
+                  Enterprise GRC Council
+                           |
+                           v
+                       GRC Office
+                           |
+        +------------------+------------------+
+        |                  |                  |
+        v                  v                  v
+      Risk            Compliance        Cybersecurity
+```
+
+---
+
+# 9. Board Risk Committee
+
+The Board Risk Committee provides oversight of material enterprise risks.
+
+Responsibilities include:
+
+* reviewing significant risks;
+* reviewing risk appetite;
+* monitoring major regulatory issues;
+* reviewing significant cybersecurity risks;
+* reviewing major business resilience risks;
+* challenging management;
+* overseeing risk reporting.
+
+The committee does **not** manage individual operational controls.
+
+Its role is oversight and challenge.
+
+---
+
+# 10. Executive GRC Committee
+
+The Executive GRC Committee consists of senior executives.
+
+Typical members include:
+
+* CEO;
+* CFO;
+* CIO;
+* CISO;
+* Chief Risk Officer;
+* Chief Compliance Officer;
+* General Counsel;
+* Chief Privacy Officer;
+* COO.
+
+Its responsibilities include:
+
+* approving enterprise risk priorities;
+* resolving cross-functional risk issues;
+* approving significant risk treatments;
+* reviewing compliance exposure;
+* prioritizing remediation;
+* escalating material issues to the Board.
+
+---
+
+# 11. Enterprise GRC Council
+
+The Enterprise GRC Council provides operational coordination.
+
+Members include:
+
+* GRC Director;
+* Risk Managers;
+* Compliance Managers;
+* Security Governance;
+* Business Continuity;
+* Third-Party Risk;
+* Internal Control representatives.
+
+The council ensures that GRC processes are coordinated across departments.
+
+---
+
+# 12. GRC Office
+
+The GRC Office becomes the central coordination function.
+
+It is responsible for:
+
+* GRC methodology;
+* GRC policies;
+* risk taxonomy;
+* control taxonomy;
+* reporting standards;
+* GRC processes;
+* governance meetings;
+* risk aggregation;
+* GRC data quality;
+* GRC platform administration.
+
+The GRC Office **does not own every enterprise risk**.
+
+Risk ownership remains with the business.
+
+---
+
+# 13. Risk Ownership Principle
+
+A fundamental principle is established:
+
+> **The person accountable for the business outcome should normally be accountable for the associated risk.**
+
+For example:
+
+```text
+Customer Billing Process
+        |
+        v
+Billing Director
+        |
+        v
+Business Risk Owner
+```
+
+The GRC function facilitates and challenges the risk process but does not automatically become the risk owner.
+
+---
+
+# 14. Control Ownership
+
+Controls are assigned separately from risk ownership where appropriate.
+
+Example:
+
+```text
+Risk:
+Unauthorized privileged access
+
+Risk Owner:
+CIO
+
+Control:
+Quarterly privileged access review
+
+Control Owner:
+IAM Manager
+```
+
+This distinction is critical.
+
+The risk owner is accountable for the risk.
+
+The control owner is accountable for operating the control.
+
+---
+
+# 15. Three Lines Integration
+
+Orion adopts the Three Lines Model.
+
+```text
+                    BOARD
+                      |
+                      v
+                Senior Management
+                      |
+        +-------------+-------------+
+        |             |             |
+        v             v             v
+    First Line     Second Line   Third Line
+    Management      Risk/GRC     Internal Audit
+        |             |             |
+        v             v             v
+    Own & Manage   Challenge &    Independent
+       Risk         Monitor        Assurance
+```
+
+The model prevents confusion between management responsibility and independent assurance.
+
+---
+
+# 16. First Line Responsibilities
+
+The first line consists primarily of operational management.
+
+Responsibilities include:
+
+* identifying risks;
+* operating controls;
+* managing processes;
+* implementing remediation;
+* maintaining evidence;
+* reporting issues.
+
+Examples:
+
+* IT Operations;
+* Cloud Engineering;
+* Network Operations;
+* Finance;
+* Procurement;
+* HR;
+* Business Units.
+
+---
+
+# 17. Second Line Responsibilities
+
+The second line provides expertise, monitoring, challenge, and oversight.
+
+Functions may include:
+
+* Enterprise Risk;
+* Compliance;
+* Cybersecurity Governance;
+* Privacy;
+* Business Continuity;
+* Third-Party Risk;
+* Information Security Risk.
+
+The second line does not replace operational management.
+
+---
+
+# 18. Third Line Responsibilities
+
+Internal Audit provides independent assurance.
+
+Responsibilities include:
+
+* independent assessment;
+* audit planning;
+* control testing;
+* governance assessment;
+* reporting;
+* follow-up;
+* assurance over the effectiveness of governance and risk management.
+
+Internal Audit should remain organizationally independent.
+
+---
+
+# 19. GRC Process Architecture
+
+Orion defines a common GRC process architecture.
+
+```text
+Business Objectives
+        |
+        v
+Risk Identification
+        |
+        v
+Risk Assessment
+        |
+        v
+Risk Treatment
+        |
+        v
+Control Implementation
+        |
+        v
+Control Testing
+        |
+        v
+Monitoring
+        |
+        v
+Reporting
+        |
+        v
+Management Decision
+        |
+        v
+Continual Improvement
+```
+
+This becomes the common process backbone.
+
+---
+
+# 20. Integrated Compliance Process
+
+Compliance activities are integrated into the same model.
+
+```text
+Regulation
+    |
+    v
+Requirement
+    |
+    v
+Applicability
+    |
+    v
+Control
+    |
+    v
+Evidence
+    |
+    v
+Assessment
+    |
+    v
+Gap
+    |
+    v
+Remediation
+    |
+    v
+Validation
+```
+
+Compliance therefore becomes connected to risk and controls.
+
+---
+
+# 21. Third-Party Risk Integration
+
+Third-party risk is integrated into the enterprise model.
+
+```text
+Supplier
+   |
+   v
+Classification
+   |
+   v
+Due Diligence
+   |
+   v
+Risk Assessment
+   |
+   v
+Contract Controls
+   |
+   v
+Monitoring
+   |
+   v
+Reassessment
+   |
+   v
+Renewal / Exit
+```
+
+Critical suppliers are also represented in the enterprise risk register where appropriate.
+
+---
+
+# 22. Incident and Risk Integration
+
+Cybersecurity incidents are connected to the risk process.
+
+```text
+Security Incident
+       |
+       v
+Investigation
+       |
+       v
+Root Cause
+       |
+       v
+Control Weakness
+       |
+       v
+Risk Assessment
+       |
+       v
+Remediation
+       |
+       v
+Residual Risk
+```
+
+This prevents incidents from being treated only as operational events.
+
+---
+
+# 23. Business Continuity Integration
+
+Business resilience is integrated into GRC.
+
+```text
+Critical Business Process
+          |
+          v
+Business Impact Analysis
+          |
+          v
+Recovery Requirement
+          |
+          v
+Recovery Strategy
+          |
+          v
+Testing
+          |
+          v
+Resilience Risk
+```
+
+This allows resilience weaknesses to appear in enterprise risk reporting.
+
+---
+
+# 24. GRC Data Model
+
+Orion establishes a common GRC data model.
+
+```text
+Business Objective
+        |
+        v
+Risk
+        |
+        v
+Requirement
+        |
+        v
+Control
+        |
+        v
+Evidence
+        |
+        v
+Test
+        |
+        v
+Finding
+        |
+        v
+Remediation
+        |
+        v
+Residual Risk
+```
+
+Each object has:
+
+* unique identifier;
+* owner;
+* status;
+* relationship;
+* review date;
+* source;
+* lifecycle state.
+
+---
+
+# 25. Example Traceability
+
+Consider a regulatory requirement concerning privileged access.
+
+```text
+Requirement R-027
+        |
+        v
+Control AC-014
+        |
+        v
+Quarterly Access Review
+        |
+        v
+Evidence E-884
+        |
+        v
+Control Test T-221
+        |
+        v
+Finding F-031
+        |
+        v
+Remediation RA-118
+```
+
+Management can trace the entire lifecycle.
+
+---
+
+# 26. GRC Decision Rights
+
+The operating model defines decision authority.
+
+| Decision                  | Primary Authority       |
+| ------------------------- | ----------------------- |
+| Risk methodology          | GRC Committee           |
+| Risk ownership            | Business                |
+| Control ownership         | Process/System Owner    |
+| Risk acceptance           | Authorized Risk Owner   |
+| Major risk acceptance     | Executive GRC Committee |
+| Audit opinion             | Internal Audit          |
+| Compliance interpretation | Compliance/Legal        |
+| Security risk treatment   | Business + Security     |
+| GRC standards             | GRC Office              |
+
+This prevents governance ambiguity.
+
+---
+
+# 27. Risk Escalation Model
+
+The organization defines escalation thresholds.
+
+```text
+Low Risk
+   |
+   v
+Business Management
+
+Medium Risk
+   |
+   v
+Business + GRC
+
+High Risk
+   |
+   v
+Executive GRC Committee
+
+Critical Risk
+   |
+   v
+Executive Committee
+        |
+        v
+Board Risk Committee
+```
+
+Escalation criteria include:
+
+* financial impact;
+* regulatory impact;
+* customer impact;
+* security impact;
+* operational impact;
+* reputational impact;
+* risk appetite breach.
+
+---
+
+# 28. GRC Reporting Architecture
+
+Reporting occurs at three levels.
+
+### Operational
+
+Detailed information for control and process owners.
+
+### Management
+
+Aggregated information for executives.
+
+### Board
+
+Material risks, trends, exceptions, and decisions.
+
+```text
+Operational Data
+       |
+       v
+GRC Analytics
+       |
+       +---- Operational Dashboard
+       |
+       +---- Management Dashboard
+       |
+       +---- Board Dashboard
+```
+
+The same underlying data supports different audiences.
+
+---
+
+# 29. GRC Metrics
+
+The organization establishes metrics for:
+
+### Risk
+
+* number of risks above appetite;
+* overdue treatments;
+* risk trend.
+
+### Compliance
+
+* compliance coverage;
+* regulatory gaps;
+* overdue remediation.
+
+### Controls
+
+* control effectiveness;
+* failed controls;
+* overdue testing.
+
+### Audit
+
+* open findings;
+* high-risk findings;
+* overdue findings.
+
+### Third Parties
+
+* critical suppliers assessed;
+* high-risk suppliers;
+* overdue assessments.
+
+---
+
+# 30. Technology Architecture
+
+The target GRC technology model is:
+
+```text
+                     GRC PLATFORM
+                           |
+        +------------------+------------------+
+        |                  |                  |
+        v                  v                  v
+       Risk          Compliance          Controls
+        |                  |                  |
+        +------------------+------------------+
+                           |
+       +-------------------+-------------------+
+       |                   |                   |
+       v                   v                   v
+     Audit            Third Party          Evidence
+                           |
+                           v
+                     GRC Analytics
+                           |
+                           v
+                  Executive Reporting
+```
+
+The GRC platform integrates with:
+
+* IAM;
+* SIEM;
+* vulnerability management;
+* ServiceNow;
+* procurement;
+* HR;
+* cloud platforms;
+* audit systems.
+
+---
+
+# 31. Operating Model Principles
+
+Orion establishes ten principles.
+
+### Principle 1 – Business Ownership
+
+Business management owns business risks.
+
+### Principle 2 – Clear Accountability
+
+Every major risk and control has an accountable owner.
+
+### Principle 3 – Independent Assurance
+
+Internal Audit remains independent.
+
+### Principle 4 – Common Methodology
+
+Enterprise GRC activities use common definitions.
+
+### Principle 5 – Risk-Based Approach
+
+Resources are prioritized according to risk.
+
+### Principle 6 – Integrated Data
+
+GRC information should be connected.
+
+### Principle 7 – Proportionality
+
+Controls should be appropriate to the level of risk.
+
+### Principle 8 – Transparency
+
+Significant risk decisions should be documented.
+
+### Principle 9 – Continuous Improvement
+
+The GRC operating model evolves with the organization.
+
+### Principle 10 – Business Alignment
+
+GRC should support strategic objectives rather than operate as a separate bureaucracy.
+
+---
+
+# 32. RACI Example
+
+A simplified RACI is established for enterprise risk management.
+
+| Activity      | Business | GRC | Compliance | CISO | Internal Audit |
+| ------------- | -------- | --- | ---------- | ---- | -------------- |
+| Identify risk | A/R      | C   | C          | C    | I              |
+| Assess risk   | R        | A   | C          | C    | I              |
+| Treat risk    | A/R      | C   | C          | C    | I              |
+| Monitor risk  | R        | A   | C          | C    | I              |
+| Audit process | I        | C   | C          | C    | A/R            |
+
+**R = Responsible**
+**A = Accountable**
+**C = Consulted**
+**I = Informed**
+
+---
+
+# 33. Implementation Roadmap
+
+The operating model is implemented in four stages.
+
+## Stage 1 – Design
+
+**Months 1–3**
+
+* define governance;
+* define roles;
+* define decision rights;
+* establish taxonomy;
+* define processes.
+
+## Stage 2 – Standardize
+
+**Months 4–6**
+
+* standardize risk;
+* standardize controls;
+* standardize compliance;
+* establish reporting.
+
+## Stage 3 – Integrate
+
+**Months 7–12**
+
+* integrate GRC processes;
+* integrate technology;
+* integrate evidence;
+* establish enterprise dashboards.
+
+## Stage 4 – Optimize
+
+**Months 13–18**
+
+* automate workflows;
+* introduce continuous monitoring;
+* improve analytics;
+* optimize decision-making.
+
+---
+
+# 34. Key Implementation Challenge
+
+The biggest challenge is organizational resistance.
+
+Some departments argue:
+
+> "We already have our own process."
+
+Others argue:
+
+> "Central GRC will slow us down."
+
+The GRC leadership therefore adopts a **federated operating model**.
+
+---
+
+# 35. Federated GRC Model
+
+The federated approach combines central standards with local execution.
+
+```text
+                 CENTRAL GRC
+                     |
+        +------------+------------+
+        |            |            |
+        v            v            v
+     Business A   Business B   Business C
+        |            |            |
+     Local GRC     Local GRC    Local GRC
+        |            |            |
+        +------------+------------+
+                     |
+                     v
+              Enterprise GRC
+```
+
+### Central GRC provides:
+
+* standards;
+* methodology;
+* taxonomy;
+* governance;
+* reporting;
+* technology.
+
+### Business units provide:
+
+* risk ownership;
+* control operation;
+* local compliance;
+* evidence;
+* remediation.
+
+---
+
+# 36. Why the Federated Model Works
+
+A fully centralized model could create:
+
+* excessive bureaucracy;
+* slow decision-making;
+* weak business ownership.
+
+A fully decentralized model could create:
+
+* inconsistent methodologies;
+* duplicate controls;
+* fragmented reporting;
+* inconsistent risk decisions.
+
+The federated model attempts to balance both.
+
+```text
+Central Standards
+        +
+Local Execution
+        =
+Enterprise Consistency
++
+Business Ownership
+```
+
+---
+
+# 37. Target GRC Operating Model
+
+The final model becomes:
+
+```text
+                         BOARD
+                           |
+                           v
+                  BOARD RISK COMMITTEE
+                           |
+                           v
+                 EXECUTIVE GRC COMMITTEE
+                           |
+                           v
+                    CENTRAL GRC OFFICE
+                           |
+          +----------------+----------------+
+          |                |                |
+          v                v                v
+       Risk            Compliance       Cybersecurity
+          |                |                |
+          +----------------+----------------+
+                           |
+          +----------------+----------------+
+          |                |                |
+          v                v                v
+      Business A       Business B       Business C
+          |                |                |
+          +----------------+----------------+
+                           |
+                           v
+                    GRC DATA PLATFORM
+                           |
+                           v
+                  METRICS & ANALYTICS
+                           |
+                           v
+                   MANAGEMENT DECISIONS
+                           |
+                           v
+                  CONTINUAL IMPROVEMENT
+```
+
+Internal Audit operates independently across the model.
+
+---
+
+# 38. Case Study Outcomes
+
+After 18 months, Orion reports several improvements.
+
+| Capability         |       Before |        After |
+| ------------------ | -----------: | -----------: |
+| Risk methodology   |   Fragmented | Standardized |
+| Risk ownership     |      Unclear |      Defined |
+| Control ownership  | Inconsistent |      Defined |
+| Compliance mapping |      Partial |   Integrated |
+| Third-party risk   |   Fragmented |   Risk-based |
+| Reporting          | Departmental |   Enterprise |
+| GRC data           |  Distributed |   Integrated |
+| Escalation         |     Informal |   Structured |
+| Audit integration  |      Limited |     Improved |
+
+The overall GRC maturity increases from approximately **2.4/5 to 3.7/5**.
+
+---
+
+# 39. Lessons Learned
+
+### Lesson 1 – GRC Is an Operating Model
+
+GRC is not simply a department.
+
+It is a way of coordinating governance, risk, compliance, controls, assurance, and decision-making.
+
+### Lesson 2 – Ownership Must Remain with the Business
+
+The GRC function should not become the owner of every risk.
+
+### Lesson 3 – Independence Matters
+
+Internal Audit should not become part of operational risk management.
+
+### Lesson 4 – Centralization Has Limits
+
+Standards can be centralized while execution remains distributed.
+
+### Lesson 5 – Data Integration Is Critical
+
+Disconnected GRC information creates fragmented decision-making.
+
+### Lesson 6 – Decision Rights Must Be Explicit
+
+Everyone should understand who can:
+
+* approve;
+* accept;
+* escalate;
+* challenge;
+* monitor;
+* assure.
+
+---
+
+# 40. Final Case Study Model
+
+The complete operating model can be summarized as:
+
+```text
+                    BUSINESS STRATEGY
+                           |
+                           v
+                     GOVERNANCE
+                           |
+                           v
+                     RISK OWNERS
+                           |
+              +------------+------------+
+              |            |            |
+              v            v            v
+          Compliance    Controls    Cybersecurity
+              |            |            |
+              +------------+------------+
+                           |
+                           v
+                     GRC DATA
+                           |
+                           v
+                   MONITORING & METRICS
+                           |
+                           v
+                    MANAGEMENT ACTION
+                           |
+                           v
+                    EXECUTIVE OVERSIGHT
+                           |
+                           v
+                 INDEPENDENT ASSURANCE
+                           |
+                           v
+                   CONTINUAL IMPROVEMENT
+```
+
+## Case Study Conclusion
+
+The Orion case demonstrates that designing a GRC operating model requires much more than defining reporting lines.
+
+A successful operating model establishes **governance, accountability, decision rights, processes, data, technology, reporting, and assurance**.
+
+The central principle is:
+
+> **Centralize what must be consistent; federate what should remain close to the business.**
+
+The ultimate objective is to create a GRC environment in which:
+
+**Business owns risk → GRC coordinates and challenges → Controls manage risk → Data provides visibility → Executives make decisions → Internal Audit provides independent assurance.**
+
+That structure creates a GRC capability that is **accountable, integrated, risk-based, and aligned with business objectives**.
+
+
+# 19.1 GRC Foundations Case Studies
+
+## Part 3 – Designing a GRC Operating Model
+
+## 1. Case Study Overview
+
+This case study examines how an organization designs an **enterprise Governance, Risk, and Compliance (GRC) operating model** after identifying fragmented responsibilities, inconsistent processes, duplicated controls, and weak executive visibility.
+
+The purpose is to demonstrate how a GRC professional converts a collection of disconnected GRC activities into a **coordinated operating model with clear accountability, decision rights, processes, technology, and assurance**.
+
+The organization in this case is fictional but reflects a realistic multinational enterprise.
+
+---
+
+## 2. Organization Profile
+
+### Company
+
+**Orion Global Communications**
+
+### Industry
+
+Telecommunications and Digital Services
+
+### Employees
+
+Approximately 9,000
+
+### Annual Revenue
+
+Approximately €2.4 billion
+
+### Geographic Presence
+
+* Spain
+* Portugal
+* France
+* Italy
+* Middle East
+
+### Major Business Areas
+
+* Mobile telecommunications
+* Broadband
+* Enterprise connectivity
+* Cloud services
+* Digital payments
+* IoT services
+* Customer-facing digital platforms
+
+---
+
+# 3. The Business Problem
+
+Orion has expanded rapidly through acquisitions.
+
+Each acquired organization brought its own:
+
+* risk methodology;
+* cybersecurity policies;
+* compliance processes;
+* control libraries;
+* audit practices;
+* third-party processes;
+* reporting methods.
+
+The result is a fragmented GRC environment.
+
+```text
+                 ORION GROUP
+                     |
+       +-------------+-------------+
+       |             |             |
+       v             v             v
+   Business A    Business B    Business C
+       |             |             |
+      Risk          Risk          Risk
+      Controls      Controls      Controls
+      Compliance    Compliance    Compliance
+```
+
+There is no consistent enterprise-wide GRC operating model.
+
+---
+
+# 4. Management Challenge
+
+The Board asks the Group Chief Risk Officer:
+
+> **"Who is accountable when a major enterprise risk crosses multiple departments?"**
+
+The answer is unclear.
+
+For example, a cloud security risk may involve:
+
+* Cloud Engineering;
+* Cybersecurity;
+* Procurement;
+* Legal;
+* Privacy;
+* Business Operations;
+* Enterprise Risk;
+* Internal Audit.
+
+Each function believes another function has primary responsibility.
+
+This creates an **accountability gap**.
+
+---
+
+# 5. Current-State Assessment
+
+The GRC team identifies five major weaknesses.
+
+### 1. Overlapping Responsibilities
+
+Multiple functions perform similar GRC activities.
+
+### 2. Unclear Accountability
+
+Risk and control ownership are not consistently assigned.
+
+### 3. Fragmented Reporting
+
+Each department produces separate reports.
+
+### 4. Weak Escalation
+
+High-risk issues may take too long to reach executives.
+
+### 5. Limited Integration
+
+Risk, compliance, cybersecurity, audit, and third-party risk operate independently.
+
+---
+
+# 6. Design Objective
+
+Management defines the target objective:
+
+> **Create an enterprise GRC operating model that establishes clear accountability, integrates GRC processes, enables risk-based decision-making, and provides independent assurance.**
+
+The model must work across:
+
+```text
+Enterprise
+   ↓
+Business Units
+   ↓
+Functions
+   ↓
+Processes
+   ↓
+Systems
+   ↓
+Controls
+```
+
+---
+
+# 7. GRC Operating Model Components
+
+Orion determines that its operating model will contain seven major components:
+
+```text
+                  GRC OPERATING MODEL
+                          |
+     +--------------------+--------------------+
+     |                    |                    |
+     v                    v                    v
+ Governance             People              Process
+     |                    |                    |
+ Technology             Data               Controls
+     |                    |
+     +--------- Reporting & Assurance --------+
+```
+
+Each component must have defined ownership and responsibilities.
+
+---
+
+# 8. Governance Structure
+
+Governance establishes decision authority.
+
+The proposed structure is:
+
+```text
+                         Board
+                           |
+                           v
+                   Board Risk Committee
+                           |
+                           v
+                  Executive GRC Committee
+                           |
+                           v
+                  Enterprise GRC Council
+                           |
+                           v
+                       GRC Office
+                           |
+        +------------------+------------------+
+        |                  |                  |
+        v                  v                  v
+      Risk            Compliance        Cybersecurity
+```
+
+---
+
+# 9. Board Risk Committee
+
+The Board Risk Committee provides oversight of material enterprise risks.
+
+Responsibilities include:
+
+* reviewing significant enterprise risks;
+* reviewing risk appetite;
+* monitoring major regulatory issues;
+* reviewing significant cybersecurity risks;
+* reviewing business resilience risks;
+* challenging management;
+* overseeing enterprise risk reporting.
+
+The committee does **not** manage individual operational controls.
+
+Its role is oversight and challenge.
+
+---
+
+# 10. Executive GRC Committee
+
+The Executive GRC Committee consists of senior executives.
+
+Typical members include:
+
+* CEO;
+* CFO;
+* CIO;
+* CISO;
+* Chief Risk Officer;
+* Chief Compliance Officer;
+* General Counsel;
+* Chief Privacy Officer;
+* COO.
+
+Responsibilities include:
+
+* approving enterprise risk priorities;
+* resolving cross-functional risk issues;
+* approving significant risk treatments;
+* reviewing compliance exposure;
+* prioritizing remediation;
+* escalating material issues to the Board.
+
+---
+
+# 11. Enterprise GRC Council
+
+The Enterprise GRC Council provides operational coordination.
+
+Members include:
+
+* GRC Director;
+* Risk Managers;
+* Compliance Managers;
+* Security Governance;
+* Business Continuity;
+* Third-Party Risk;
+* Internal Control representatives.
+
+The council ensures that GRC processes are coordinated across departments.
+
+---
+
+# 12. GRC Office
+
+The GRC Office becomes the central coordination function.
+
+Responsibilities include:
+
+* GRC methodology;
+* GRC policies;
+* risk taxonomy;
+* control taxonomy;
+* reporting standards;
+* GRC processes;
+* governance meetings;
+* risk aggregation;
+* GRC data quality;
+* GRC platform administration.
+
+The GRC Office **does not own every enterprise risk**.
+
+Risk ownership remains with the business.
+
+---
+
+# 13. Risk Ownership Principle
+
+A fundamental principle is established:
+
+> **The person accountable for the business outcome should normally be accountable for the associated risk.**
+
+For example:
+
+```text
+Customer Billing Process
+        |
+        v
+Billing Director
+        |
+        v
+Business Risk Owner
+```
+
+The GRC function facilitates and challenges the risk process but does not automatically become the risk owner.
+
+---
+
+# 14. Control Ownership
+
+Controls are assigned separately from risk ownership where appropriate.
+
+Example:
+
+```text
+Risk:
+Unauthorized privileged access
+
+Risk Owner:
+CIO
+
+Control:
+Quarterly privileged access review
+
+Control Owner:
+IAM Manager
+```
+
+This distinction is critical.
+
+The risk owner is accountable for the risk.
+
+The control owner is accountable for operating the control.
+
+---
+
+# 15. Three Lines Integration
+
+Orion adopts the Three Lines Model.
+
+```text
+                    BOARD
+                      |
+                      v
+                Senior Management
+                      |
+        +-------------+-------------+
+        |             |             |
+        v             v             v
+    First Line     Second Line   Third Line
+    Management      Risk/GRC     Internal Audit
+        |             |             |
+        v             v             v
+    Own & Manage   Challenge &    Independent
+       Risk         Monitor        Assurance
+```
+
+The model prevents confusion between management responsibility and independent assurance.
+
+---
+
+# 16. First Line Responsibilities
+
+The first line consists primarily of operational management.
+
+Responsibilities include:
+
+* identifying risks;
+* operating controls;
+* managing processes;
+* implementing remediation;
+* maintaining evidence;
+* reporting issues.
+
+Examples include:
+
+* IT Operations;
+* Cloud Engineering;
+* Network Operations;
+* Finance;
+* Procurement;
+* HR;
+* Business Units.
+
+---
+
+# 17. Second Line Responsibilities
+
+The second line provides expertise, monitoring, challenge, and oversight.
+
+Functions may include:
+
+* Enterprise Risk;
+* Compliance;
+* Cybersecurity Governance;
+* Privacy;
+* Business Continuity;
+* Third-Party Risk;
+* Information Security Risk.
+
+The second line does not replace operational management.
+
+---
+
+# 18. Third Line Responsibilities
+
+Internal Audit provides independent assurance.
+
+Responsibilities include:
+
+* independent assessment;
+* audit planning;
+* control testing;
+* governance assessment;
+* reporting;
+* follow-up;
+* assurance over governance and risk management.
+
+Internal Audit should remain organizationally independent.
+
+---
+
+# 19. GRC Process Architecture
+
+Orion defines a common GRC process architecture.
+
+```text
+Business Objectives
+        |
+        v
+Risk Identification
+        |
+        v
+Risk Assessment
+        |
+        v
+Risk Treatment
+        |
+        v
+Control Implementation
+        |
+        v
+Control Testing
+        |
+        v
+Monitoring
+        |
+        v
+Reporting
+        |
+        v
+Management Decision
+        |
+        v
+Continual Improvement
+```
+
+This becomes the common process backbone.
+
+---
+
+# 20. Integrated Compliance Process
+
+Compliance activities are integrated into the same model.
+
+```text
+Regulation
+    |
+    v
+Requirement
+    |
+    v
+Applicability
+    |
+    v
+Control
+    |
+    v
+Evidence
+    |
+    v
+Assessment
+    |
+    v
+Gap
+    |
+    v
+Remediation
+    |
+    v
+Validation
+```
+
+Compliance therefore becomes connected to risk and controls.
+
+---
+
+# 21. Third-Party Risk Integration
+
+Third-party risk is integrated into the enterprise model.
+
+```text
+Supplier
+   |
+   v
+Classification
+   |
+   v
+Due Diligence
+   |
+   v
+Risk Assessment
+   |
+   v
+Contract Controls
+   |
+   v
+Monitoring
+   |
+   v
+Reassessment
+   |
+   v
+Renewal / Exit
+```
+
+Critical suppliers are also represented in the enterprise risk register where appropriate.
+
+---
+
+# 22. Incident and Risk Integration
+
+Cybersecurity incidents are connected to the risk process.
+
+```text
+Security Incident
+       |
+       v
+Investigation
+       |
+       v
+Root Cause
+       |
+       v
+Control Weakness
+       |
+       v
+Risk Assessment
+       |
+       v
+Remediation
+       |
+       v
+Residual Risk
+```
+
+This prevents incidents from being treated only as operational events.
+
+---
+
+# 23. Business Continuity Integration
+
+Business resilience is integrated into GRC.
+
+```text
+Critical Business Process
+          |
+          v
+Business Impact Analysis
+          |
+          v
+Recovery Requirement
+          |
+          v
+Recovery Strategy
+          |
+          v
+Testing
+          |
+          v
+Resilience Risk
+```
+
+This allows resilience weaknesses to appear in enterprise risk reporting.
+
+---
+
+# 24. GRC Data Model
+
+Orion establishes a common GRC data model.
+
+```text
+Business Objective
+        |
+        v
+Risk
+        |
+        v
+Requirement
+        |
+        v
+Control
+        |
+        v
+Evidence
+        |
+        v
+Test
+        |
+        v
+Finding
+        |
+        v
+Remediation
+        |
+        v
+Residual Risk
+```
+
+Each object has:
+
+* unique identifier;
+* owner;
+* status;
+* relationship;
+* review date;
+* source;
+* lifecycle state.
+
+---
+
+# 25. Example Traceability
+
+Consider a regulatory requirement concerning privileged access.
+
+```text
+Requirement R-027
+        |
+        v
+Control AC-014
+        |
+        v
+Quarterly Access Review
+        |
+        v
+Evidence E-884
+        |
+        v
+Control Test T-221
+        |
+        v
+Finding F-031
+        |
+        v
+Remediation RA-118
+```
+
+Management can trace the entire lifecycle.
+
+---
+
+# 26. GRC Decision Rights
+
+The operating model defines decision authority.
+
+| Decision                  | Primary Authority       |
+| ------------------------- | ----------------------- |
+| Risk methodology          | GRC Committee           |
+| Risk ownership            | Business                |
+| Control ownership         | Process/System Owner    |
+| Risk acceptance           | Authorized Risk Owner   |
+| Major risk acceptance     | Executive GRC Committee |
+| Audit opinion             | Internal Audit          |
+| Compliance interpretation | Compliance/Legal        |
+| Security risk treatment   | Business + Security     |
+| GRC standards             | GRC Office              |
+
+This prevents governance ambiguity.
+
+---
+
+# 27. Risk Escalation Model
+
+The organization defines escalation thresholds.
+
+```text
+Low Risk
+   |
+   v
+Business Management
+
+Medium Risk
+   |
+   v
+Business + GRC
+
+High Risk
+   |
+   v
+Executive GRC Committee
+
+Critical Risk
+   |
+   v
+Executive Committee
+        |
+        v
+Board Risk Committee
+```
+
+Escalation criteria include:
+
+* financial impact;
+* regulatory impact;
+* customer impact;
+* security impact;
+* operational impact;
+* reputational impact;
+* risk appetite breach.
+
+---
+
+# 28. GRC Reporting Architecture
+
+Reporting occurs at three levels.
+
+### Operational
+
+Detailed information for control and process owners.
+
+### Management
+
+Aggregated information for executives.
+
+### Board
+
+Material risks, trends, exceptions, and decisions.
+
+```text
+Operational Data
+       |
+       v
+GRC Analytics
+       |
+       +---- Operational Dashboard
+       |
+       +---- Management Dashboard
+       |
+       +---- Board Dashboard
+```
+
+The same underlying data supports different audiences.
+
+---
+
+# 29. GRC Metrics
+
+The organization establishes metrics for:
+
+### Risk
+
+* number of risks above appetite;
+* overdue treatments;
+* risk trend.
+
+### Compliance
+
+* compliance coverage;
+* regulatory gaps;
+* overdue remediation.
+
+### Controls
+
+* control effectiveness;
+* failed controls;
+* overdue testing.
+
+### Audit
+
+* open findings;
+* high-risk findings;
+* overdue findings.
+
+### Third Parties
+
+* critical suppliers assessed;
+* high-risk suppliers;
+* overdue assessments.
+
+---
+
+# 30. Technology Architecture
+
+The target GRC technology model is:
+
+```text
+                     GRC PLATFORM
+                           |
+        +------------------+------------------+
+        |                  |                  |
+        v                  v                  v
+       Risk          Compliance          Controls
+        |                  |                  |
+        +------------------+------------------+
+                           |
+       +-------------------+-------------------+
+       |                   |                   |
+       v                   v                   v
+     Audit            Third Party          Evidence
+                           |
+                           v
+                     GRC Analytics
+                           |
+                           v
+                  Executive Reporting
+```
+
+The GRC platform integrates with:
+
+* IAM;
+* SIEM;
+* vulnerability management;
+* ServiceNow;
+* procurement;
+* HR;
+* cloud platforms;
+* audit systems.
+
+---
+
+# 31. Operating Model Principles
+
+Orion establishes ten principles.
+
+### Principle 1 – Business Ownership
+
+Business management owns business risks.
+
+### Principle 2 – Clear Accountability
+
+Every major risk and control has an accountable owner.
+
+### Principle 3 – Independent Assurance
+
+Internal Audit remains independent.
+
+### Principle 4 – Common Methodology
+
+Enterprise GRC activities use common definitions.
+
+### Principle 5 – Risk-Based Approach
+
+Resources are prioritized according to risk.
+
+### Principle 6 – Integrated Data
+
+GRC information should be connected.
+
+### Principle 7 – Proportionality
+
+Controls should be appropriate to the level of risk.
+
+### Principle 8 – Transparency
+
+Significant risk decisions should be documented.
+
+### Principle 9 – Continuous Improvement
+
+The GRC operating model evolves with the organization.
+
+### Principle 10 – Business Alignment
+
+GRC should support strategic objectives rather than operate as a separate bureaucracy.
+
+---
+
+# 32. RACI Example
+
+A simplified RACI is established for enterprise risk management.
+
+| Activity      | Business | GRC | Compliance | CISO | Internal Audit |
+| ------------- | -------- | --- | ---------- | ---- | -------------- |
+| Identify risk | A/R      | C   | C          | C    | I              |
+| Assess risk   | R        | A   | C          | C    | I              |
+| Treat risk    | A/R      | C   | C          | C    | I              |
+| Monitor risk  | R        | A   | C          | C    | I              |
+| Audit process | I        | C   | C          | C    | A/R            |
+
+**R = Responsible**
+**A = Accountable**
+**C = Consulted**
+**I = Informed**
+
+---
+
+# 33. Implementation Roadmap
+
+The operating model is implemented in four stages.
+
+## Stage 1 – Design
+
+**Months 1–3**
+
+* define governance;
+* define roles;
+* define decision rights;
+* establish taxonomy;
+* define processes.
+
+## Stage 2 – Standardize
+
+**Months 4–6**
+
+* standardize risk;
+* standardize controls;
+* standardize compliance;
+* establish reporting.
+
+## Stage 3 – Integrate
+
+**Months 7–12**
+
+* integrate GRC processes;
+* integrate technology;
+* integrate evidence;
+* establish enterprise dashboards.
+
+## Stage 4 – Optimize
+
+**Months 13–18**
+
+* automate workflows;
+* introduce continuous monitoring;
+* improve analytics;
+* optimize decision-making.
+
+---
+
+# 34. Key Implementation Challenge
+
+The biggest challenge is organizational resistance.
+
+Some departments argue:
+
+> **"We already have our own process."**
+
+Others argue:
+
+> **"Central GRC will slow us down."**
+
+The GRC leadership therefore adopts a **federated operating model**.
+
+---
+
+# 35. Federated GRC Model
+
+The federated approach combines central standards with local execution.
+
+```text
+                 CENTRAL GRC
+                     |
+        +------------+------------+
+        |            |            |
+        v            v            v
+     Business A   Business B   Business C
+        |            |            |
+     Local GRC     Local GRC    Local GRC
+        |            |            |
+        +------------+------------+
+                     |
+                     v
+              Enterprise GRC
+```
+
+### Central GRC Provides
+
+* standards;
+* methodology;
+* taxonomy;
+* governance;
+* reporting;
+* technology.
+
+### Business Units Provide
+
+* risk ownership;
+* control operation;
+* local compliance;
+* evidence;
+* remediation.
+
+---
+
+# 36. Why the Federated Model Works
+
+A fully centralized model could create:
+
+* excessive bureaucracy;
+* slow decision-making;
+* weak business ownership.
+
+A fully decentralized model could create:
+
+* inconsistent methodologies;
+* duplicate controls;
+* fragmented reporting;
+* inconsistent risk decisions.
+
+The federated model attempts to balance both.
+
+```text
+Central Standards
+        +
+Local Execution
+        =
+Enterprise Consistency
+        +
+Business Ownership
+```
+
+---
+
+# 37. Target GRC Operating Model
+
+The final model becomes:
+
+```text
+                         BOARD
+                           |
+                           v
+                  BOARD RISK COMMITTEE
+                           |
+                           v
+                 EXECUTIVE GRC COMMITTEE
+                           |
+                           v
+                    CENTRAL GRC OFFICE
+                           |
+          +----------------+----------------+
+          |                |                |
+          v                v                v
+       Risk            Compliance       Cybersecurity
+          |                |                |
+          +----------------+----------------+
+                           |
+          +----------------+----------------+
+          |                |                |
+          v                v                v
+      Business A       Business B       Business C
+          |                |                |
+          +----------------+----------------+
+                           |
+                           v
+                    GRC DATA PLATFORM
+                           |
+                           v
+                  METRICS & ANALYTICS
+                           |
+                           v
+                   MANAGEMENT DECISIONS
+                           |
+                           v
+                  CONTINUAL IMPROVEMENT
+```
+
+Internal Audit operates independently across the model.
+
+---
+
+# 38. Case Study Outcomes
+
+After 18 months, Orion reports several improvements.
+
+| Capability         | Before       | After        |
+| ------------------ | ------------ | ------------ |
+| Risk methodology   | Fragmented   | Standardized |
+| Risk ownership     | Unclear      | Defined      |
+| Control ownership  | Inconsistent | Defined      |
+| Compliance mapping | Partial      | Integrated   |
+| Third-party risk   | Fragmented   | Risk-based   |
+| Reporting          | Departmental | Enterprise   |
+| GRC data           | Distributed  | Integrated   |
+| Escalation         | Informal     | Structured   |
+| Audit integration  | Limited      | Improved     |
+
+The overall GRC maturity increases from approximately **2.4/5 to 3.7/5**.
+
+---
+
+# 39. Lessons Learned
+
+### Lesson 1 – GRC Is an Operating Model
+
+GRC is not simply a department.
+
+It is a way of coordinating governance, risk, compliance, controls, assurance, and decision-making.
+
+### Lesson 2 – Ownership Must Remain with the Business
+
+The GRC function should not become the owner of every risk.
+
+### Lesson 3 – Independence Matters
+
+Internal Audit should not become part of operational risk management.
+
+### Lesson 4 – Centralization Has Limits
+
+Standards can be centralized while execution remains distributed.
+
+### Lesson 5 – Data Integration Is Critical
+
+Disconnected GRC information creates fragmented decision-making.
+
+### Lesson 6 – Decision Rights Must Be Explicit
+
+Everyone should understand who can:
+
+* approve;
+* accept;
+* escalate;
+* challenge;
+* monitor;
+* assure.
+
+---
+
+# 40. Final Case Study Model
+
+The complete operating model can be summarized as:
+
+```text
+                    BUSINESS STRATEGY
+                           |
+                           v
+                     GOVERNANCE
+                           |
+                           v
+                     RISK OWNERS
+                           |
+              +------------+------------+
+              |            |            |
+              v            v            v
+          Compliance    Controls    Cybersecurity
+              |            |            |
+              +------------+------------+
+                           |
+                           v
+                     GRC DATA
+                           |
+                           v
+                   MONITORING & METRICS
+                           |
+                           v
+                    MANAGEMENT ACTION
+                           |
+                           v
+                    EXECUTIVE OVERSIGHT
+                           |
+                           v
+                 INDEPENDENT ASSURANCE
+                           |
+                           v
+                   CONTINUAL IMPROVEMENT
+```
+
+## Case Study Conclusion
+
+The Orion case demonstrates that designing a GRC operating model requires much more than defining reporting lines.
+
+A successful operating model establishes **governance, accountability, decision rights, processes, data, technology, reporting, and assurance**.
+
+The central principle is:
+
+> **Centralize what must be consistent; federate what should remain close to the business.**
+
+The ultimate objective is to create a GRC environment in which:
+
+**Business owns risk → GRC coordinates and challenges → Controls manage risk → Data provides visibility → Executives make decisions → Internal Audit provides independent assurance.**
+
+That structure creates a GRC capability that is **accountable, integrated, risk-based, and aligned with business objectives**.
+
 

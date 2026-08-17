@@ -1192,5 +1192,1189 @@ The organization should ultimately be able to answer three executive questions:
 
 That is the practical value of implementing NIST CSF at enterprise scale.
 
+# 19.7 NIST Cybersecurity Framework Case Studies
+
+## Part 2 – Building a Current and Target Organizational Profile
+
+## 1. Case Study Overview
+
+Following the initial NIST CSF implementation, **IberiaCloud Digital Services** needs to move from general framework adoption to a more structured assessment of its cybersecurity posture.
+
+Management wants clear answers to two questions:
+
+> **Where are we today?**
+
+and
+
+> **Where do we need to be?**
+
+The GRC team therefore develops two organizational profiles:
+
+* **Current Organizational Profile** — describes the organization's present cybersecurity outcomes and capabilities.
+* **Target Organizational Profile** — describes the cybersecurity outcomes the organization wants to achieve.
+
+The difference between the two becomes the foundation for the cybersecurity improvement roadmap.
+
+---
+
+# 2. Organization Profile
+
+### Organization
+
+**IberiaCloud Digital Services**
+
+### Industry
+
+Cloud and telecommunications services
+
+### Employees
+
+Approximately 1,800
+
+### Environment
+
+* Azure cloud;
+* on-premises infrastructure;
+* SaaS platforms;
+* customer-facing applications;
+* corporate endpoints;
+* telecommunications infrastructure;
+* critical third-party providers.
+
+### Existing Frameworks
+
+* ISO 27001;
+* ISO 27005;
+* NIST CSF;
+* COBIT;
+* enterprise risk management.
+
+---
+
+# 3. Business Situation
+
+The organization has previously mapped its cybersecurity controls to NIST CSF.
+
+However, management discovers that the organization has a large amount of security information but no consolidated view of its cybersecurity posture.
+
+For example:
+
+* IT has asset information;
+* SOC has detection metrics;
+* GRC has risk information;
+* Internal Audit has control findings;
+* Procurement has supplier information.
+
+The information is fragmented.
+
+The organization therefore establishes a formal **Current-to-Target Profile Program**.
+
+---
+
+# 4. What Is an Organizational Profile?
+
+An organizational profile describes the cybersecurity outcomes that are relevant to an organization.
+
+It provides a structured representation of:
+
+* business priorities;
+* cybersecurity requirements;
+* current practices;
+* desired outcomes;
+* risk priorities.
+
+The profile allows different stakeholders to discuss cybersecurity using a common framework.
+
+---
+
+# 5. Current vs Target Profile
+
+```text id="ctp7m3"
+          CURRENT PROFILE
+                |
+                | Gap
+                v
+        +----------------+
+        | Cybersecurity  |
+        | Improvement    |
+        | Program        |
+        +----------------+
+                |
+                v
+          TARGET PROFILE
+```
+
+The **gap** between the profiles drives prioritization.
+
+---
+
+# 6. Step 1 – Define Business Context
+
+Before creating either profile, the GRC team reviews the organization's business context.
+
+It identifies:
+
+* strategic objectives;
+* critical services;
+* regulatory obligations;
+* customer expectations;
+* threat environment;
+* technology strategy;
+* risk appetite.
+
+The profile should reflect the organization's actual business environment.
+
+---
+
+# 7. Step 2 – Identify Critical Business Services
+
+The organization identifies five critical services:
+
+1. customer authentication;
+2. cloud hosting;
+3. customer billing;
+4. network operations;
+5. customer digital services.
+
+Each service is mapped to its supporting:
+
+* applications;
+* infrastructure;
+* data;
+* identities;
+* suppliers.
+
+---
+
+# 8. Step 3 – Identify Cybersecurity Priorities
+
+Management identifies five major priorities.
+
+### Priority 1
+
+Protect customer information.
+
+### Priority 2
+
+Maintain service availability.
+
+### Priority 3
+
+Prevent unauthorized access.
+
+### Priority 4
+
+Detect cyber threats rapidly.
+
+### Priority 5
+
+Recover critical services after major cyber incidents.
+
+These priorities influence the target profile.
+
+---
+
+# 9. Step 4 – Establish Risk Context
+
+The GRC team reviews the enterprise risk register.
+
+Major cybersecurity risks include:
+
+| Risk                         | Rating      |
+| ---------------------------- | ----------- |
+| Cloud credential compromise  | High        |
+| Ransomware                   | High        |
+| Customer-data exposure       | High        |
+| Critical supplier compromise | High        |
+| Service disruption           | High        |
+| Insider misuse               | Medium      |
+| Phishing                     | Medium–High |
+
+The profile must reflect these risks.
+
+---
+
+# 10. Step 5 – Build the Current Profile
+
+The GRC team evaluates the organization's current cybersecurity outcomes.
+
+The assessment covers the major NIST CSF areas.
+
+### Identify
+
+Current asset visibility is strong but cloud inventory has some gaps.
+
+### Protect
+
+Identity and access controls are mature.
+
+### Detect
+
+SOC monitoring is mature for core infrastructure.
+
+### Respond
+
+Incident-response processes exist but exercises are inconsistent.
+
+### Recover
+
+Traditional disaster recovery is mature, but cyber-recovery capabilities require improvement.
+
+---
+
+# 11. Current Profile Example
+
+| CSF Function | Current State   |
+| ------------ | --------------- |
+| Identify     | Moderate–Strong |
+| Protect      | Strong          |
+| Detect       | Strong          |
+| Respond      | Moderate        |
+| Recover      | Moderate        |
+
+The GRC team avoids presenting these ratings as the entire profile.
+
+Each rating is supported by evidence and underlying outcomes.
+
+---
+
+# 12. Step 6 – Define Profile Assessment Criteria
+
+The organization establishes assessment criteria.
+
+For each cybersecurity outcome, it evaluates:
+
+### 1. Implementation
+
+Is the practice implemented?
+
+### 2. Coverage
+
+Does it cover critical systems?
+
+### 3. Consistency
+
+Is it implemented consistently?
+
+### 4. Effectiveness
+
+Does it actually reduce risk?
+
+### 5. Assurance
+
+Can the organization demonstrate effectiveness through evidence?
+
+This produces a more meaningful profile.
+
+---
+
+# 13. Example: Vulnerability Management
+
+The organization determines:
+
+### Implementation
+
+Yes.
+
+### Coverage
+
+94% of critical assets.
+
+### Consistency
+
+Mostly consistent.
+
+### Effectiveness
+
+Critical vulnerabilities are generally remediated within the defined SLA.
+
+### Assurance
+
+Strong reporting and evidence.
+
+The current profile therefore indicates a relatively mature capability.
+
+---
+
+# 14. Step 7 – Identify Current-State Evidence
+
+The GRC team collects evidence from:
+
+* risk assessments;
+* policies;
+* procedures;
+* control testing;
+* vulnerability reports;
+* SIEM dashboards;
+* incident records;
+* audit reports;
+* supplier assessments;
+* recovery tests.
+
+The profile is evidence-based rather than based on opinion.
+
+---
+
+# 15. Step 8 – Establish the Target Profile
+
+Management now defines the desired future state.
+
+The target profile reflects:
+
+* business strategy;
+* risk appetite;
+* regulatory requirements;
+* threat environment;
+* technology strategy;
+* available resources.
+
+The target profile should be ambitious but achievable.
+
+---
+
+# 16. Target Profile Example
+
+### Identify
+
+100% visibility of critical assets and dependencies.
+
+### Protect
+
+Risk-based preventive controls consistently applied to critical services.
+
+### Detect
+
+Continuous monitoring of all critical services.
+
+### Respond
+
+Validated enterprise-wide incident response and crisis-management capability.
+
+### Recover
+
+Cyber-recovery capabilities tested for all critical services.
+
+---
+
+# 17. Current-to-Target Comparison
+
+| Function | Current        | Target    |
+| -------- | -------------- | --------- |
+| Identify | 94% visibility | 100%      |
+| Protect  | Strong         | Optimized |
+| Detect   | 92% coverage   | 100%      |
+| Respond  | Moderate       | Strong    |
+| Recover  | Moderate       | Strong    |
+
+The differences become improvement opportunities.
+
+---
+
+# 18. Step 9 – Determine the Desired Maturity
+
+The organization does not want every capability to reach the highest possible level.
+
+For example:
+
+A low-risk internal application may only require moderate cybersecurity capability.
+
+A customer authentication service may require significantly stronger capability.
+
+Therefore:
+
+> **Target profiles should be risk-based rather than uniformly optimized.**
+
+---
+
+# 19. Risk-Based Targeting Model
+
+```text id="rtm5k8"
+             BUSINESS CRITICALITY
+                    |
+                    v
+             CYBER RISK LEVEL
+                    |
+                    v
+           REQUIRED CSF OUTCOMES
+                    |
+                    v
+              TARGET PROFILE
+```
+
+This prevents unnecessary investment in low-risk areas.
+
+---
+
+# 20. Step 10 – Define Target Outcomes
+
+For every major capability, the organization defines measurable outcomes.
+
+Example:
+
+### Current
+
+92% of critical assets monitored.
+
+### Target
+
+100%.
+
+### Improvement
+
+Expand cloud and third-party monitoring.
+
+### Measurement
+
+Percentage of critical assets with active monitoring.
+
+This creates an objective basis for measuring progress.
+
+---
+
+# 21. Step 11 – Establish Priority Categories
+
+The organization categorizes profile gaps.
+
+### Critical
+
+Immediate action required.
+
+### High
+
+Address during the current transformation cycle.
+
+### Medium
+
+Address through planned improvement.
+
+### Low
+
+Monitor or accept based on risk.
+
+This creates a manageable portfolio.
+
+---
+
+# 22. Step 12 – Identify Critical Gaps
+
+The profile comparison identifies:
+
+### Gap 1
+
+Cloud asset inventory is incomplete.
+
+### Gap 2
+
+Third-party monitoring is inconsistent.
+
+### Gap 3
+
+Cyber-recovery testing is insufficient.
+
+### Gap 4
+
+Incident exercises are not enterprise-wide.
+
+### Gap 5
+
+Security metrics are focused heavily on activity rather than outcomes.
+
+---
+
+# 23. Step 13 – Build the Profile Gap Register
+
+| Gap                    | Current    | Target     | Priority |
+| ---------------------- | ---------- | ---------- | -------- |
+| Asset visibility       | 94%        | 100%       | High     |
+| Third-party monitoring | Partial    | Continuous | High     |
+| Cyber recovery         | 60% tested | 100%       | Critical |
+| Incident exercises     | 1/year     | 3/year     | Medium   |
+| Outcome metrics        | Limited    | Mature     | Medium   |
+
+The gap register becomes a key GRC management artifact.
+
+---
+
+# 24. Step 14 – Link Gaps to Risks
+
+The organization does not prioritize gaps simply because they exist.
+
+Each gap is linked to a risk.
+
+Example:
+
+**Cyber-recovery gap**
+
+↓
+
+**Ransomware risk**
+
+↓
+
+**Potential prolonged service outage**
+
+↓
+
+**High business impact**
+
+↓
+
+**Critical priority**
+
+This provides a defensible basis for investment.
+
+---
+
+# 25. Step 15 – Link Gaps to Business Services
+
+The GRC team also maps gaps to critical services.
+
+Example:
+
+| Gap                 | Business Service          |
+| ------------------- | ------------------------- |
+| Cyber recovery      | Cloud hosting             |
+| Identity monitoring | Customer authentication   |
+| Supplier monitoring | Customer digital services |
+| Asset visibility    | Network operations        |
+
+This makes the profile more meaningful to business leadership.
+
+---
+
+# 26. Step 16 – Develop Target-State Scenarios
+
+Management defines several scenarios.
+
+### Scenario A – Minimum Compliance
+
+Meet regulatory and contractual requirements.
+
+### Scenario B – Risk-Based Target
+
+Address significant cybersecurity risks.
+
+### Scenario C – Resilience-Focused Target
+
+Strengthen critical services against major cyber disruption.
+
+The organization chooses **Scenario B with selected resilience enhancements**.
+
+---
+
+# 27. Step 17 – Establish the Target Profile Governance
+
+The target profile requires approval.
+
+The governance process is:
+
+```text id="tpg8r2"
+GRC Analysis
+     |
+     v
+CISO Review
+     |
+     v
+Risk Committee
+     |
+     v
+Executive Approval
+     |
+     v
+Target Profile
+```
+
+This ensures that the target state represents a management decision.
+
+---
+
+# 28. Step 18 – Convert Profile Gaps Into Initiatives
+
+The organization converts major gaps into projects.
+
+### Gap
+
+Incomplete cloud asset visibility.
+
+### Initiative
+
+Enterprise Cloud Asset Discovery Program.
+
+---
+
+### Gap
+
+Weak cyber-recovery testing.
+
+### Initiative
+
+Cyber Recovery Enhancement Program.
+
+---
+
+### Gap
+
+Supplier monitoring limitations.
+
+### Initiative
+
+Third-Party Continuous Monitoring Program.
+
+---
+
+# 29. Step 19 – Build the Roadmap
+
+The initiatives are scheduled according to risk.
+
+### Quarter 1
+
+Asset visibility.
+
+### Quarter 2
+
+Identity and supplier monitoring.
+
+### Quarter 3
+
+Incident-response improvement.
+
+### Quarter 4
+
+Cyber-recovery expansion.
+
+The sequence reflects dependencies and risk.
+
+---
+
+# 30. Step 20 – Define Success Metrics
+
+Each target outcome requires a metric.
+
+Examples:
+
+### Identify
+
+Percentage of critical assets identified.
+
+### Protect
+
+Percentage of critical vulnerabilities remediated within SLA.
+
+### Detect
+
+Percentage of critical assets monitored.
+
+### Respond
+
+Mean time to contain major incidents.
+
+### Recover
+
+Percentage of critical services successfully recovery-tested.
+
+---
+
+# 31. Example Target Metrics
+
+| Outcome                    | Baseline | Target |
+| -------------------------- | -------: | -----: |
+| Critical asset visibility  |      94% |   100% |
+| Critical vulnerability SLA |      94% |    98% |
+| Critical asset monitoring  |      92% |   100% |
+| Major incident exercises   |   1/year | 3/year |
+| Critical recovery testing  |      60% |   100% |
+
+These metrics allow management to determine whether the target profile is being achieved.
+
+---
+
+# 32. Step 21 – Establish Profile Reporting
+
+The GRC platform creates a Current-to-Target dashboard.
+
+```text id="ctd6m1"
+IDENTIFY
+Current  █████████░ 94%
+Target   ██████████ 100%
+
+PROTECT
+Current  █████████░ Strong
+Target   ██████████ Optimized
+
+DETECT
+Current  █████████░ 92%
+Target   ██████████ 100%
+
+RESPOND
+Current  ██████░░░░ Moderate
+Target   █████████░ Strong
+
+RECOVER
+Current  ██████░░░░ Moderate
+Target   ██████████ Strong
+```
+
+The dashboard gives executives a high-level view of progress.
+
+---
+
+# 33. Step 22 – Integrate With ISO 27001
+
+IberiaCloud already operates an ISO 27001 ISMS.
+
+The organization therefore maps:
+
+**Current Profile**
+
+to:
+
+* ISO 27001 controls;
+* risk treatment;
+* SoA;
+* internal audit;
+* management review.
+
+The NIST profile becomes another management view of the same security environment.
+
+---
+
+# 34. Integrated Profile Model
+
+```text id="ipm9v3"
+              BUSINESS RISK
+                   |
+        +----------+----------+
+        |                     |
+        v                     v
+    ISO 27001              NIST CSF
+        |                     |
+        +----------+----------+
+                   |
+                   v
+             COMMON CONTROLS
+                   |
+                   v
+                EVIDENCE
+                   |
+                   v
+               ASSURANCE
+```
+
+This avoids duplicate security programs.
+
+---
+
+# 35. Step 23 – Handle Regulatory Requirements
+
+The target profile incorporates relevant regulatory requirements.
+
+For example:
+
+* stronger incident reporting;
+* critical-service resilience;
+* supplier security;
+* access controls;
+* logging;
+* business continuity.
+
+Regulatory requirements therefore influence the target state.
+
+---
+
+# 36. Step 24 – Incorporate Threat Intelligence
+
+The organization reviews current threats.
+
+Threat intelligence indicates increasing:
+
+* ransomware;
+* identity attacks;
+* cloud compromise;
+* supply-chain attacks.
+
+Management therefore increases target expectations for:
+
+* identity security;
+* monitoring;
+* cyber recovery;
+* supplier oversight.
+
+This demonstrates that the target profile is threat-informed.
+
+---
+
+# 37. Step 25 – Review the Profile Quarterly
+
+The GRC team reviews:
+
+* changes in risk;
+* new technologies;
+* incidents;
+* threat intelligence;
+* regulatory changes;
+* project progress;
+* control effectiveness.
+
+The profile is updated when significant changes occur.
+
+---
+
+# 38. Step 26 – Manage Exceptions
+
+Some business units cannot immediately achieve the target.
+
+For example:
+
+A legacy platform cannot support modern MFA.
+
+The organization documents:
+
+* exception;
+* business justification;
+* risk;
+* compensating controls;
+* owner;
+* expiration date.
+
+The exception becomes part of the risk-management process.
+
+---
+
+# 39. Step 27 – Validate the Current Profile
+
+Internal Audit performs independent testing.
+
+It discovers that the GRC team's reported:
+
+**94% asset visibility**
+
+actually represents:
+
+**89% verified coverage**
+
+The difference is investigated.
+
+The issue is caused by duplicate asset records.
+
+The organization corrects the inventory methodology.
+
+This demonstrates why independent assurance is important.
+
+---
+
+# 40. Step 28 – Update the Current Profile
+
+After data-quality improvements:
+
+**Verified coverage = 91%**
+
+The organization does not artificially maintain the previous 94% figure.
+
+The current profile is updated to reflect reality.
+
+This improves management confidence in the profile.
+
+---
+
+# 41. Step 29 – Monitor Progress Toward the Target
+
+Six months later:
+
+| Area              | Baseline | Current | Target |
+| ----------------- | -------: | ------: | -----: |
+| Asset visibility  |      91% |     97% |   100% |
+| Monitoring        |      92% |     98% |   100% |
+| Vulnerability SLA |      94% |     96% |    98% |
+| Recovery testing  |      60% |     82% |   100% |
+
+The organization can now demonstrate measurable progress.
+
+---
+
+# 42. Step 30 – Management Decision
+
+The CISO presents the profile to the executive committee.
+
+The biggest remaining gap is cyber recovery.
+
+Management decides to allocate additional funding to:
+
+* immutable backup;
+* recovery infrastructure;
+* recovery exercises;
+* specialist resources.
+
+The Current-to-Target Profile has therefore directly influenced investment decisions.
+
+---
+
+# 43. Common Profile-Building Mistakes
+
+## Mistake 1 – Building the Target Before Understanding the Current State
+
+The organization must know where it is before defining where it wants to go.
+
+## Mistake 2 – Making Every Target "Maximum"
+
+Not every system requires the same security level.
+
+## Mistake 3 – Using Unsupported Scores
+
+Every maturity or capability assessment should have evidence.
+
+## Mistake 4 – Ignoring Business Context
+
+The profile should reflect business-critical services and risk.
+
+---
+
+# 44. Additional Mistakes
+
+## Mistake 5 – Treating the Profile as a Static Document
+
+Cybersecurity conditions change continuously.
+
+## Mistake 6 – Failing to Link Gaps to Risk
+
+A gap without risk context is difficult to prioritize.
+
+## Mistake 7 – Ignoring Dependencies
+
+Third parties, cloud services and shared infrastructure can affect profile outcomes.
+
+## Mistake 8 – Creating a Separate NIST Program
+
+NIST CSF should complement existing GRC processes where possible.
+
+---
+
+# 45. Practical Current Profile Checklist
+
+### Business Context
+
+* [ ] Business objectives identified
+* [ ] Critical services identified
+* [ ] Regulatory requirements identified
+* [ ] Threat environment assessed
+
+### Current State
+
+* [ ] Assets assessed
+* [ ] Controls assessed
+* [ ] Risk assessed
+* [ ] Evidence collected
+* [ ] Current outcomes documented
+
+### Assurance
+
+* [ ] Assessment methodology defined
+* [ ] Evidence validated
+* [ ] Internal Audit involved where appropriate
+* [ ] Data quality verified
+
+---
+
+# 46. Practical Target Profile Checklist
+
+### Target State
+
+* [ ] Business requirements considered
+* [ ] Risk appetite considered
+* [ ] Regulatory requirements considered
+* [ ] Threat intelligence considered
+* [ ] Critical services considered
+
+### Target Outcomes
+
+* [ ] Outcomes defined
+* [ ] Metrics established
+* [ ] Target levels approved
+* [ ] Owners assigned
+
+### Gap Management
+
+* [ ] Current-to-target gaps identified
+* [ ] Risks mapped
+* [ ] Priorities established
+* [ ] Improvement initiatives created
+* [ ] Roadmap approved
+
+---
+
+# 47. Executive Current-to-Target Model
+
+```text id="ect8n5"
+                  EXECUTIVE OBJECTIVES
+                          |
+                          v
+                    BUSINESS RISK
+                          |
+             +------------+------------+
+             |                         |
+             v                         v
+       CURRENT PROFILE           TARGET PROFILE
+             |                         |
+             +------------+------------+
+                          |
+                          v
+                    GAP ANALYSIS
+                          |
+                          v
+                   RISK PRIORITY
+                          |
+                          v
+                  INVESTMENT PLAN
+                          |
+                          v
+                    IMPROVEMENT
+                          |
+                          v
+                     MEASURE
+                          |
+                          v
+                 UPDATED PROFILE
+```
+
+This is the core management model.
+
+---
+
+# 48. Case Study Results
+
+After the profile program matures, IberiaCloud achieves:
+
+* a documented enterprise Current Profile;
+* an executive-approved Target Profile;
+* risk-based gap prioritization;
+* measurable cybersecurity objectives;
+* integrated ISO 27001 and NIST CSF mapping;
+* improved cybersecurity investment decisions;
+* stronger executive reporting;
+* continuous profile monitoring.
+
+The organization can now clearly explain its cybersecurity position.
+
+---
+
+# 49. Final Case Study Model
+
+```text id="fpm4r7"
+                 BUSINESS CONTEXT
+                        |
+                        v
+                 RISK ENVIRONMENT
+                        |
+             +----------+----------+
+             |                     |
+             v                     v
+       CURRENT PROFILE        TARGET PROFILE
+             |                     |
+             |                     |
+             +----------+----------+
+                        |
+                        v
+                   GAP ANALYSIS
+                        |
+                        v
+                RISK PRIORITIZATION
+                        |
+                        v
+                 ROADMAP / ACTIONS
+                        |
+                        v
+                   IMPLEMENTATION
+                        |
+                        v
+                    MEASUREMENT
+                        |
+                        v
+                 MANAGEMENT REVIEW
+                        |
+                        v
+                 PROFILE UPDATE
+                        |
+                        +-------> NEXT CYCLE
+```
+
+---
+
+# 50. Lessons Learned
+
+## Lesson 1 – Current and Target Profiles Serve Different Purposes
+
+The Current Profile describes reality.
+
+The Target Profile describes the desired future state.
+
+## Lesson 2 – The Gap Is the Management Opportunity
+
+The difference between current and target capabilities provides the basis for cybersecurity improvement.
+
+## Lesson 3 – Profiles Must Be Risk-Based
+
+Not every capability requires the same target level.
+
+## Lesson 4 – Evidence Matters
+
+A profile should be supported by objective information.
+
+---
+
+# 51. Additional Lessons
+
+## Lesson 5 – Business Context Comes First
+
+Cybersecurity targets should support business objectives.
+
+## Lesson 6 – Integrate With Existing GRC
+
+NIST CSF profiles should connect with:
+
+* ISO 27001;
+* risk management;
+* control management;
+* audit;
+* compliance;
+* executive reporting.
+
+## Lesson 7 – Profiles Should Drive Investment
+
+The profile should help management determine where cybersecurity resources are most needed.
+
+## Lesson 8 – Profiles Are Dynamic
+
+The Current and Target Profiles should evolve as:
+
+* threats change;
+* technology changes;
+* regulations change;
+* business priorities change.
+
+---
+
+# 52. Final Case Study Conclusion
+
+The IberiaCloud case demonstrates that the real value of a NIST CSF Organizational Profile is not the profile document itself.
+
+Its value is the management cycle it creates:
+
+**Business Context → Current Profile → Target Profile → Gap Analysis → Risk Prioritization → Investment → Implementation → Measurement → Profile Update**
+
+A mature GRC professional should therefore be able to answer:
+
+> **Where are we today?**
+
+> **Where should we be?**
+
+> **Why is there a gap?**
+
+> **What risk does the gap create?**
+
+> **What should we invest in first?**
+
+> **How will we know that the investment worked?**
+
+When the Current and Target Profiles are connected to enterprise risk, ISO 27001, control management, audit and executive decision-making, NIST CSF becomes a powerful mechanism for **cybersecurity strategy and continuous improvement**, rather than merely a framework-mapping exercise.
+
 
 

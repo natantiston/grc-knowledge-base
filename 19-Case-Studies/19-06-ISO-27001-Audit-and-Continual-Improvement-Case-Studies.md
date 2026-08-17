@@ -3304,5 +3304,1196 @@ For a GRC professional, the key lesson is:
 
 A mature GRC function makes the evidence available, ensures responsibilities are clear, tracks findings to closure, and continuously connects business changes to risk, controls and assurance.
 
+# 19.6 ISO 27001 Audit and Continual Improvement Case Studies
+
+## Part 4 – Driving ISMS Continual Improvement
+
+## 1. Case Study Overview
+
+**IberiaCloud Digital Services** has maintained its ISO 27001-certified Information Security Management System for several years.
+
+Although the organization remains certified, the CISO recognizes an important problem:
+
+> **Certification does not automatically mean that the ISMS is improving.**
+
+The organization has experienced:
+
+* new cloud deployments;
+* increasing use of AI;
+* new cybersecurity threats;
+* regulatory changes;
+* organizational restructuring;
+* supplier changes;
+* recurring security incidents;
+* audit findings.
+
+Management therefore launches an **ISMS Continual Improvement Program**.
+
+The objective is to ensure that the ISMS becomes progressively more effective, efficient, risk-based and aligned with business requirements.
+
+---
+
+# 2. Organization Profile
+
+### Organization
+
+**IberiaCloud Digital Services**
+
+### Industry
+
+Cloud and telecommunications services
+
+### Employees
+
+Approximately 1,800
+
+### ISMS Scope
+
+Cloud and managed digital services across Spain and Portugal.
+
+### Current Situation
+
+The organization is ISO 27001 certified and has completed several internal and surveillance audits.
+
+However, management identifies several warning signs:
+
+* some findings are recurring;
+* evidence collection remains manual;
+* risk assessments are not always updated after business changes;
+* security metrics focus heavily on activity rather than effectiveness;
+* some controls are inefficient;
+* new AI-related risks are emerging.
+
+The organization decides that continual improvement must become a structured management activity.
+
+---
+
+# 3. What Continual Improvement Means
+
+Continual improvement means systematically improving the suitability, adequacy and effectiveness of the ISMS over time.
+
+It does **not** mean changing something every month simply to demonstrate activity.
+
+Improvement should be driven by:
+
+* risk;
+* performance;
+* audit results;
+* incidents;
+* business changes;
+* regulatory developments;
+* technology changes;
+* stakeholder expectations;
+* lessons learned.
+
+---
+
+# 4. ISMS Improvement Model
+
+```text id="ism4q7"
+             ISMS PERFORMANCE
+                    |
+                    v
+              MONITORING
+                    |
+                    v
+             MEASUREMENT
+                    |
+                    v
+          AUDIT + MANAGEMENT REVIEW
+                    |
+                    v
+             FINDINGS + RISKS
+                    |
+                    v
+             ROOT CAUSE ANALYSIS
+                    |
+                    v
+           IMPROVEMENT ACTIONS
+                    |
+                    v
+              IMPLEMENTATION
+                    |
+                    v
+          EFFECTIVENESS REVIEW
+                    |
+                    v
+             IMPROVED ISMS
+                    |
+                    +---------> Continuous Cycle
+```
+
+The cycle does not end after an action is completed.
+
+---
+
+# 5. Step 1 – Establish an Improvement Baseline
+
+The GRC team first evaluates the current ISMS.
+
+It reviews:
+
+* audit findings;
+* risk trends;
+* incidents;
+* control performance;
+* security objectives;
+* supplier performance;
+* vulnerability metrics;
+* awareness results;
+* corrective actions;
+* management feedback.
+
+The organization wants to determine:
+
+> **Where is the ISMS performing well, and where is it becoming ineffective or inefficient?**
+
+---
+
+# 6. Current-State Assessment
+
+The GRC team identifies:
+
+### Strengths
+
+* strong executive support;
+* mature risk register;
+* centralized GRC platform;
+* effective incident management;
+* regular management review.
+
+### Weaknesses
+
+* manual evidence collection;
+* recurring supplier findings;
+* inconsistent control metrics;
+* fragmented reporting;
+* limited automation.
+
+This becomes the baseline for improvement.
+
+---
+
+# 7. Step 2 – Analyze ISMS Performance
+
+The organization establishes a performance review model.
+
+It examines:
+
+### Risk Performance
+
+Are major risks decreasing?
+
+### Control Performance
+
+Are controls operating effectively?
+
+### Audit Performance
+
+Are findings recurring?
+
+### Incident Performance
+
+Are incidents decreasing or becoming more severe?
+
+### Compliance Performance
+
+Are regulatory requirements being addressed?
+
+### Business Alignment
+
+Does the ISMS support business objectives?
+
+---
+
+# 8. Step 3 – Identify Improvement Inputs
+
+The GRC team creates an improvement-input register.
+
+Sources include:
+
+* internal audits;
+* certification audits;
+* management reviews;
+* security incidents;
+* near misses;
+* risk assessments;
+* control testing;
+* vulnerability assessments;
+* supplier assessments;
+* employee feedback;
+* regulatory changes;
+* technology changes.
+
+This prevents improvement from being driven solely by audit findings.
+
+---
+
+# 9. Improvement Input Example
+
+A phishing campaign produces several successful credential compromises.
+
+The incident investigation discovers that:
+
+* MFA was enabled;
+* security awareness training was completed;
+* phishing simulations existed.
+
+However, employees still clicked sophisticated phishing links.
+
+The organization concludes that:
+
+> **Training completion is not a sufficient measure of security-awareness effectiveness.**
+
+This becomes an improvement opportunity.
+
+---
+
+# 10. Step 4 – Identify Root Causes
+
+The GRC team uses root-cause analysis rather than immediately selecting solutions.
+
+For the phishing issue:
+
+### Why?
+
+Employees clicked malicious links.
+
+### Why?
+
+The messages appeared highly credible.
+
+### Why?
+
+Attackers used business-context information.
+
+### Why?
+
+Employees lacked sufficient role-specific phishing awareness.
+
+### Why?
+
+Training was generic rather than targeted.
+
+The improvement therefore focuses on **role-based awareness**, not simply additional generic training.
+
+---
+
+# 11. Step 5 – Prioritize Improvements
+
+The organization identifies 20 potential improvements.
+
+They cannot all be implemented immediately.
+
+Each is evaluated based on:
+
+* risk reduction;
+* business impact;
+* regulatory importance;
+* cost;
+* complexity;
+* urgency;
+* dependency;
+* expected effectiveness.
+
+---
+
+# 12. Improvement Prioritization
+
+Example:
+
+| Improvement                  | Risk Reduction | Complexity | Priority |
+| ---------------------------- | -------------- | ---------- | -------- |
+| Privileged-access automation | High           | Medium     | High     |
+| Supplier workflow automation | High           | Medium     | High     |
+| Awareness redesign           | Medium         | Low        | High     |
+| Evidence repository          | Medium         | Low        | Medium   |
+| Dashboard redesign           | Low            | Medium     | Low      |
+
+This creates a risk-based improvement portfolio.
+
+---
+
+# 13. Step 6 – Establish Improvement Objectives
+
+The organization creates measurable objectives.
+
+Examples:
+
+### Objective 1
+
+Reduce overdue privileged-access reviews from:
+
+**5% → <1%**
+
+### Objective 2
+
+Reduce average audit-finding closure time:
+
+**47 days → 30 days**
+
+### Objective 3
+
+Increase critical supplier reassessment completion:
+
+**96% → 100%**
+
+### Objective 4
+
+Reduce manual evidence collection:
+
+**60% → 20%**
+
+The objectives are measurable and outcome-oriented.
+
+---
+
+# 14. Step 7 – Build an Improvement Roadmap
+
+The GRC team creates a 12-month roadmap.
+
+```text id="irm8c5"
+Q1
+|
++-- Risk methodology review
++-- Evidence standardization
+|
+v
+Q2
+|
++-- IAM automation
++-- Supplier workflow
+|
+v
+Q3
+|
++-- Awareness transformation
++-- GRC dashboard
+|
+v
+Q4
+|
++-- Effectiveness review
++-- Maturity assessment
++-- Next-year roadmap
+```
+
+This turns continual improvement into an organized program.
+
+---
+
+# 15. Step 8 – Assign Accountability
+
+Each improvement has:
+
+* executive sponsor;
+* accountable owner;
+* action owner;
+* target date;
+* budget;
+* success criteria;
+* risk owner.
+
+Example:
+
+### Improvement
+
+Automated privileged-access reviews.
+
+### Sponsor
+
+CISO.
+
+### Owner
+
+IAM Manager.
+
+### GRC Owner
+
+GRC Manager.
+
+### Target
+
+Q2.
+
+### Success Criterion
+
+> 99%+ reviews completed within the required timeframe.
+
+---
+
+# 16. Step 9 – Implement the Improvement
+
+The organization integrates IAM and the GRC platform.
+
+The new workflow automatically:
+
+1. identifies privileged accounts;
+2. assigns reviewers;
+3. sends notifications;
+4. escalates overdue reviews;
+5. records decisions;
+6. creates remediation tasks;
+7. retains evidence;
+8. generates dashboards.
+
+The improvement therefore changes the actual operating model.
+
+---
+
+# 17. Step 10 – Update ISMS Documentation
+
+The organization updates:
+
+* access-management procedure;
+* control descriptions;
+* roles and responsibilities;
+* evidence requirements;
+* monitoring procedures;
+* risk treatment documentation.
+
+Documentation should reflect the **new operating reality**.
+
+---
+
+# 18. Step 11 – Update the Risk Register
+
+The improvement itself may change risk exposure.
+
+The organization reassesses:
+
+**Privileged-access risk**
+
+Before improvement:
+
+**High**
+
+After implementation:
+
+**Medium**
+
+The residual risk is documented.
+
+This creates traceability between improvement and risk reduction.
+
+---
+
+# 19. Step 12 – Measure Effectiveness
+
+After three months:
+
+### Before Automation
+
+Overdue reviews:
+
+**5%**
+
+### After Automation
+
+Overdue reviews:
+
+**0.8%**
+
+The organization has achieved its target.
+
+However, management also asks:
+
+> "Did the automation create any new risks?"
+
+The team evaluates:
+
+* incorrect account population;
+* automation failures;
+* unauthorized workflow changes;
+* evidence integrity.
+
+This ensures that improvement itself is governed.
+
+---
+
+# 20. Step 13 – Evaluate Control Efficiency
+
+Continual improvement is not only about reducing risk.
+
+It can also improve efficiency.
+
+Before automation:
+
+**420 staff-hours/year**
+
+spent on manual access-review administration.
+
+After automation:
+
+**95 staff-hours/year**
+
+The organization saves approximately:
+
+**325 staff-hours/year**
+
+while improving control consistency.
+
+This demonstrates both:
+
+**Security improvement**
+
+and
+
+**Operational efficiency.**
+
+---
+
+# 21. Step 14 – Use Management Review
+
+The CISO presents improvement results to management.
+
+Example:
+
+| Improvement              |   Target |  Actual | Status   |
+| ------------------------ | -------: | ------: | -------- |
+| Access review timeliness |     >99% |   99.2% | Achieved |
+| Finding closure          | <30 days | 34 days | Partial  |
+| Supplier reassessment    |     100% |    100% | Achieved |
+| Evidence automation      |      80% |     73% | Partial  |
+
+Management decides which initiatives should continue.
+
+---
+
+# 22. Step 15 – Address Failed Improvements
+
+Not every improvement succeeds.
+
+The audit-finding closure target was:
+
+**30 days**
+
+Actual:
+
+**34 days**
+
+Management investigates why.
+
+Root cause:
+
+Several corrective actions depend on external suppliers.
+
+The organization therefore changes the improvement strategy.
+
+Possible actions:
+
+* improve supplier SLA requirements;
+* introduce escalation;
+* prioritize high-risk findings;
+* create interim risk treatment;
+* automate notifications.
+
+Continual improvement includes learning from unsuccessful initiatives.
+
+---
+
+# 23. Step 16 – Measure Improvement Maturity
+
+The organization creates five maturity levels.
+
+### Level 1 – Reactive
+
+Improvements occur mainly after incidents.
+
+### Level 2 – Repeatable
+
+Corrective actions are formally tracked.
+
+### Level 3 – Managed
+
+Improvement is integrated with risk and audit.
+
+### Level 4 – Measured
+
+Improvement is measured using performance indicators.
+
+### Level 5 – Optimized
+
+Continuous improvement is embedded into organizational decision-making.
+
+IberiaCloud assesses itself at:
+
+**Level 3.5 – Managed and Measured**
+
+---
+
+# 24. Improvement Maturity Model
+
+```text id="imm7p4"
+Level 1
+Reactive
+   |
+   v
+Level 2
+Repeatable
+   |
+   v
+Level 3
+Managed
+   |
+   v
+Level 4
+Measured
+   |
+   v
+Level 5
+Optimized
+```
+
+The goal is not necessarily to reach Level 5 immediately.
+
+The target should reflect business needs, risk and organizational maturity.
+
+---
+
+# 25. Step 17 – Integrate Improvement With Risk Management
+
+The organization links improvement initiatives to the risk register.
+
+Example:
+
+| Risk              | Improvement            | Expected Result       |
+| ----------------- | ---------------------- | --------------------- |
+| Privileged access | IAM automation         | Lower access risk     |
+| Supplier risk     | Automated reassessment | Better monitoring     |
+| Phishing          | Role-based awareness   | Lower credential risk |
+| Evidence risk     | Central repository     | Better assurance      |
+
+This ensures improvement investments are risk-driven.
+
+---
+
+# 26. Step 18 – Integrate Improvement With Compliance
+
+A new regulatory requirement requires stronger supplier oversight.
+
+Instead of creating a completely separate compliance process, the GRC team incorporates the requirement into the existing supplier-management workflow.
+
+This avoids creating:
+
+**One control for ISO 27001**
+
+and
+
+**another control for regulation**
+
+when a single stronger control can address both.
+
+---
+
+# 27. Step 19 – Integrate Improvement With Audit
+
+Internal Audit identifies recurring evidence weaknesses.
+
+The GRC team does not simply create another corrective action.
+
+It investigates whether the underlying evidence architecture needs improvement.
+
+The solution is:
+
+* centralized evidence repository;
+* automated evidence collection;
+* standardized evidence metadata;
+* control-to-evidence mapping.
+
+Audit therefore becomes an input into system-level improvement.
+
+---
+
+# 28. Step 20 – Establish the Improvement Portfolio
+
+The GRC platform maintains a centralized improvement portfolio.
+
+Each initiative contains:
+
+* improvement ID;
+* source;
+* risk;
+* objective;
+* owner;
+* priority;
+* cost;
+* target date;
+* status;
+* expected benefit;
+* evidence;
+* effectiveness result.
+
+This provides enterprise-level visibility.
+
+---
+
+# 29. Improvement Portfolio Example
+
+| Initiative             | Source         | Priority | Status      |
+| ---------------------- | -------------- | -------- | ----------- |
+| IAM automation         | Audit          | High     | Complete    |
+| Supplier automation    | Risk           | High     | In Progress |
+| AI governance controls | New Technology | High     | In Progress |
+| Evidence automation    | Audit          | Medium   | In Progress |
+| Awareness redesign     | Incident       | High     | Complete    |
+
+This makes continual improvement measurable and governable.
+
+---
+
+# 30. Step 21 – Establish Improvement Metrics
+
+The organization introduces:
+
+### Effectiveness Metrics
+
+* reduction in risk exposure;
+* control effectiveness;
+* recurring findings;
+* incident recurrence.
+
+### Efficiency Metrics
+
+* processing time;
+* automation rate;
+* staff hours;
+* cost per assessment.
+
+### Assurance Metrics
+
+* evidence availability;
+* audit findings;
+* overdue actions;
+* control-testing results.
+
+---
+
+# 31. Improvement Metrics Dashboard
+
+The CISO dashboard shows:
+
+| Metric                     | Baseline | Current | Target |
+| -------------------------- | -------: | ------: | -----: |
+| Overdue access reviews     |       5% |    0.8% |    <1% |
+| Finding closure time       |  47 days | 34 days |    <30 |
+| Supplier reassessment      |      96% |    100% |   100% |
+| Manual evidence collection |      60% |     27% |   <20% |
+| Recurring findings         |        6 |       2 |      0 |
+
+Management can now see whether improvement investments are producing measurable outcomes.
+
+---
+
+# 32. Step 22 – Prevent Improvement Fatigue
+
+The GRC Manager notices that the organization has launched too many initiatives.
+
+Employees complain:
+
+> "Every month there is another GRC improvement project."
+
+The organization responds by prioritizing improvements according to:
+
+**Risk + Value + Feasibility**
+
+Only high-value initiatives enter the active portfolio.
+
+Continual improvement should not become continuous organizational disruption.
+
+---
+
+# 33. Step 23 – Promote a Security Improvement Culture
+
+The organization introduces:
+
+* employee suggestions;
+* lessons-learned sessions;
+* improvement workshops;
+* control-owner feedback;
+* incident retrospectives;
+* audit feedback.
+
+Employees can submit improvement opportunities through the GRC platform.
+
+This expands improvement beyond the GRC department.
+
+---
+
+# 34. Step 24 – Integrate Lessons Learned
+
+After a major incident, the organization asks:
+
+* What happened?
+* Why did it happen?
+* What worked?
+* What failed?
+* Which controls were bypassed?
+* What should change?
+* How will effectiveness be measured?
+
+The answers become formal improvement actions.
+
+---
+
+# 35. Step 25 – Continual Improvement After an Incident
+
+Example:
+
+A phishing incident results in credential theft.
+
+The organization implements:
+
+1. phishing-resistant MFA for privileged users;
+2. targeted awareness;
+3. improved email filtering;
+4. additional monitoring;
+5. incident-response updates.
+
+The organization then measures whether similar incidents decline.
+
+This closes the:
+
+**Incident → Learning → Improvement → Measurement**
+
+loop.
+
+---
+
+# 36. Step 26 – Continual Improvement After an Audit
+
+Audit identifies:
+
+**Supplier security monitoring weakness**
+
+The organization:
+
+1. identifies root cause;
+2. updates supplier risk methodology;
+3. automates reassessment;
+4. improves contracts;
+5. introduces monitoring;
+6. tests effectiveness.
+
+The audit therefore becomes a catalyst for systemic improvement.
+
+---
+
+# 37. Step 27 – Continual Improvement After Technology Change
+
+The organization deploys a new AI service.
+
+Instead of treating implementation as a technology project only, GRC evaluates:
+
+* new risks;
+* data flows;
+* access;
+* third-party dependencies;
+* security controls;
+* privacy;
+* monitoring;
+* incident response.
+
+The ISMS is updated before the technology becomes fully operational.
+
+This represents **proactive continual improvement**.
+
+---
+
+# 38. Step 28 – Review the Entire ISMS
+
+At the end of the annual cycle, the GRC team performs a holistic review.
+
+It evaluates:
+
+```text id="eis3m6"
+Context
+   |
+   v
+Risk
+   |
+   v
+Objectives
+   |
+   v
+Controls
+   |
+   v
+Performance
+   |
+   v
+Audit
+   |
+   v
+Management Review
+   |
+   v
+Improvement
+   |
+   v
+New Risk / New Context
+```
+
+The cycle begins again.
+
+---
+
+# 39. Common Continual-Improvement Mistakes
+
+## Mistake 1 – Treating Certification as the Goal
+
+Certification is an assurance outcome.
+
+The objective is an effective ISMS.
+
+## Mistake 2 – Improving Without Measuring
+
+An initiative should have measurable outcomes.
+
+## Mistake 3 – Fixing Symptoms
+
+Corrective action should address root causes.
+
+## Mistake 4 – Creating Too Many Initiatives
+
+Improvement must remain risk-based and manageable.
+
+---
+
+# 40. Additional Mistakes
+
+## Mistake 5 – Ignoring Business Value
+
+Security improvements should support organizational objectives.
+
+## Mistake 6 – Ignoring Efficiency
+
+Controls should be effective without unnecessary administrative burden.
+
+## Mistake 7 – Failing to Reassess Risk
+
+Improvement can change the risk profile.
+
+## Mistake 8 – Not Sharing Lessons Learned
+
+Lessons should be applied beyond the original incident or finding.
+
+---
+
+# 41. Practical ISMS Continual Improvement Checklist
+
+### Baseline
+
+* [ ] ISMS performance assessed
+* [ ] Risks reviewed
+* [ ] Audit results analyzed
+* [ ] Incident trends analyzed
+* [ ] Control performance reviewed
+
+### Improvement Identification
+
+* [ ] Improvement sources identified
+* [ ] Root causes analyzed
+* [ ] Improvement opportunities documented
+* [ ] Similar weaknesses assessed
+
+### Prioritization
+
+* [ ] Risk assessed
+* [ ] Business value assessed
+* [ ] Complexity assessed
+* [ ] Resources considered
+* [ ] Priorities established
+
+### Implementation
+
+* [ ] Owner assigned
+* [ ] Target defined
+* [ ] Success criteria established
+* [ ] Resources allocated
+* [ ] Documentation updated
+* [ ] Controls updated
+
+### Measurement
+
+* [ ] Baseline established
+* [ ] Performance measured
+* [ ] Risk reduction assessed
+* [ ] Efficiency measured
+* [ ] Effectiveness tested
+
+### Governance
+
+* [ ] Results reported to management
+* [ ] Failed initiatives reassessed
+* [ ] Lessons learned documented
+* [ ] Improvement portfolio updated
+* [ ] Next improvement cycle established
+
+---
+
+# 42. Executive Continual Improvement Model
+
+```text id="ecm8r1"
+             BUSINESS STRATEGY
+                    |
+                    v
+              SECURITY RISKS
+                    |
+                    v
+                 ISMS
+                    |
+        +-----------+-----------+
+        |           |           |
+        v           v           v
+      AUDIT      INCIDENTS    METRICS
+        |           |           |
+        +-----------+-----------+
+                    |
+                    v
+             IMPROVEMENT INPUTS
+                    |
+                    v
+              PRIORITIZATION
+                    |
+                    v
+              IMPROVEMENT
+                    |
+                    v
+             RISK REDUCTION
+                    |
+                    v
+            BUSINESS VALUE
+                    |
+                    +---------> NEXT CYCLE
+```
+
+---
+
+# 43. Final Case Study Model
+
+The complete IberiaCloud continual-improvement model becomes:
+
+```text id="cim9x4"
+             BUSINESS / REGULATORY CHANGE
+                       |
+                       v
+                 RISK ASSESSMENT
+                       |
+                       v
+                  ISMS CONTROLS
+                       |
+                       v
+             MONITORING + METRICS
+                       |
+             +---------+---------+
+             |         |         |
+             v         v         v
+           AUDIT    INCIDENTS   REVIEWS
+             |         |         |
+             +---------+---------+
+                       |
+                       v
+                ROOT CAUSE
+                       |
+                       v
+             IMPROVEMENT ACTION
+                       |
+                       v
+                 IMPLEMENTATION
+                       |
+                       v
+              EFFECTIVENESS TEST
+                       |
+                 +-----+-----+
+                 |           |
+               PASS         FAIL
+                 |           |
+                 v           v
+              ACCEPT     REWORK
+                 |           |
+                 +-----+-----+
+                       |
+                       v
+                RISK REDUCTION
+                       |
+                       v
+               ISMS MATURITY
+                       |
+                       v
+               NEXT IMPROVEMENT
+```
+
+---
+
+# 44. Lessons Learned
+
+## Lesson 1 – Continual Improvement Is a Management Process
+
+It should be governed, prioritized and measured.
+
+## Lesson 2 – Improvement Must Be Risk-Based
+
+The organization should invest resources where they provide meaningful risk reduction.
+
+## Lesson 3 – Audit Is Only One Input
+
+Incidents, business changes, regulations and performance metrics are equally important sources.
+
+## Lesson 4 – Measure Outcomes
+
+Completing an improvement project is not the same as achieving improvement.
+
+---
+
+# 45. Additional Lessons
+
+## Lesson 5 – Address Root Causes
+
+Fixing symptoms creates recurring problems.
+
+## Lesson 6 – Integrate Improvement
+
+Risk, compliance, audit, security and business functions should contribute to one improvement ecosystem.
+
+## Lesson 7 – Validate Effectiveness
+
+Every significant improvement should have measurable success criteria.
+
+## Lesson 8 – Improvement Should Create Business Value
+
+A mature ISMS should become more effective **and** more efficient.
+
+---
+
+# 46. Final Case Study Conclusion
+
+The IberiaCloud case demonstrates that **continual improvement is what keeps an ISO 27001 ISMS relevant after certification**.
+
+A mature organization continuously connects:
+
+**Business Change → Risk → Controls → Performance → Audit → Incidents → Lessons Learned → Improvement → Measurement → Risk Reduction**
+
+The objective is not to create endless documentation or continuous projects.
+
+The objective is to make the ISMS:
+
+* more effective;
+* more risk-based;
+* more efficient;
+* more resilient;
+* more aligned with business strategy;
+* better prepared for emerging threats.
+
+The most mature GRC organizations therefore do not ask only:
+
+> **"Are we ISO 27001 certified?"**
+
+They ask:
+
+> **"Is our ISMS becoming demonstrably better at managing information-security risk?"**
+
+That is the real measure of continual improvement.
+
 
 

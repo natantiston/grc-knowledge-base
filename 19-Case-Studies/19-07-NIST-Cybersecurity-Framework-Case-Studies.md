@@ -2376,5 +2376,1342 @@ A mature GRC professional should therefore be able to answer:
 
 When the Current and Target Profiles are connected to enterprise risk, ISO 27001, control management, audit and executive decision-making, NIST CSF becomes a powerful mechanism for **cybersecurity strategy and continuous improvement**, rather than merely a framework-mapping exercise.
 
+# 19.7 NIST Cybersecurity Framework Case Studies
+
+## Part 3 – Performing a NIST CSF Gap Assessment
+
+## 1. Case Study Overview
+
+After establishing the **Current Organizational Profile** and **Target Organizational Profile**, IberiaCloud Digital Services must determine exactly where the organization falls short of its desired cybersecurity state.
+
+The GRC team therefore performs a formal **NIST CSF Gap Assessment**.
+
+The objective is not simply to identify missing controls. The assessment determines:
+
+* what cybersecurity outcomes currently exist;
+* what outcomes are required;
+* where capability gaps exist;
+* what risks those gaps create;
+* which gaps should receive priority;
+* what actions are required to close them.
+
+The assessment becomes the bridge between **profile development** and the **implementation roadmap**.
+
+---
+
+# 2. Organization Profile
+
+### Organization
+
+**IberiaCloud Digital Services**
+
+### Industry
+
+Cloud and telecommunications services
+
+### Employees
+
+Approximately 1,800
+
+### Existing Frameworks
+
+* NIST CSF;
+* ISO 27001;
+* ISO 27005;
+* COBIT;
+* enterprise risk management.
+
+### Previous Work
+
+The organization has already established:
+
+* a Current Profile;
+* a Target Profile;
+* a cybersecurity risk register;
+* an ISO 27001 control environment;
+* a GRC platform.
+
+The next step is to identify and prioritize the gaps.
+
+---
+
+# 3. Business Problem
+
+The organization initially identifies more than **80 potential cybersecurity gaps**.
+
+However, management does not have the resources to address all of them immediately.
+
+The CISO therefore asks the GRC team:
+
+> "Which gaps create the greatest business risk, and which should we address first?"
+
+The GRC team develops a structured gap-assessment methodology.
+
+---
+
+# 4. What Is a NIST CSF Gap Assessment?
+
+A NIST CSF gap assessment compares the organization's:
+
+**Current Profile**
+
+against its:
+
+**Target Profile**
+
+to identify differences in cybersecurity outcomes and capabilities.
+
+The basic model is:
+
+```text id="gapm8x2"
+CURRENT PROFILE
+      |
+      v
+ASSESSMENT
+      |
+      v
+TARGET PROFILE
+      |
+      v
+GAP IDENTIFICATION
+      |
+      v
+RISK ANALYSIS
+      |
+      v
+PRIORITIZATION
+      |
+      v
+REMEDIATION ROADMAP
+```
+
+---
+
+# 5. Gap vs Risk
+
+An important GRC distinction is:
+
+> **A gap is not automatically a high risk.**
+
+For example:
+
+An internal low-value application may not have advanced monitoring.
+
+That is technically a gap.
+
+But if the application:
+
+* contains no sensitive data;
+* is not internet-facing;
+* has limited business impact;
+
+the associated risk may be low.
+
+Conversely, a small gap in a customer authentication platform could create significant business risk.
+
+Therefore, gaps must be evaluated in context.
+
+---
+
+# 6. Assessment Objectives
+
+The GRC team establishes six objectives:
+
+1. identify cybersecurity gaps;
+2. validate the significance of each gap;
+3. determine associated risks;
+4. prioritize remediation;
+5. estimate required resources;
+6. create actionable improvement initiatives.
+
+---
+
+# 7. Step 1 – Confirm Assessment Scope
+
+The assessment covers:
+
+* corporate IT;
+* cloud infrastructure;
+* customer platforms;
+* identity services;
+* SOC;
+* critical suppliers;
+* cybersecurity governance.
+
+Low-risk systems are excluded from the first assessment cycle.
+
+This keeps the exercise manageable.
+
+---
+
+# 8. Step 2 – Confirm the Current Profile
+
+Before performing the gap assessment, the GRC team validates the Current Profile.
+
+The team reviews:
+
+* asset inventories;
+* risk assessments;
+* control assessments;
+* audit findings;
+* incident records;
+* vulnerability reports;
+* SOC metrics;
+* recovery tests.
+
+This prevents inaccurate baseline information from entering the gap analysis.
+
+---
+
+# 9. Step 3 – Confirm the Target Profile
+
+The GRC team also validates the Target Profile.
+
+The target state reflects:
+
+* business objectives;
+* risk appetite;
+* regulatory requirements;
+* threat intelligence;
+* customer requirements;
+* cybersecurity strategy.
+
+The Target Profile has executive approval.
+
+---
+
+# 10. Step 4 – Establish the Assessment Methodology
+
+The GRC team establishes five assessment states:
+
+### 1. Fully Achieved
+
+The desired outcome is consistently achieved.
+
+### 2. Substantially Achieved
+
+The outcome is achieved with minor limitations.
+
+### 3. Partially Achieved
+
+Some capabilities exist, but significant weaknesses remain.
+
+### 4. Minimally Achieved
+
+Only limited capability exists.
+
+### 5. Not Achieved
+
+The required capability is absent.
+
+This provides a consistent assessment language.
+
+---
+
+# 11. Step 5 – Define Assessment Evidence
+
+The assessment must be evidence-based.
+
+Potential evidence includes:
+
+* policies;
+* procedures;
+* configuration records;
+* system reports;
+* vulnerability scans;
+* SIEM records;
+* access reviews;
+* incident records;
+* audit reports;
+* penetration-testing results;
+* supplier assessments;
+* recovery-test results.
+
+Evidence should demonstrate actual implementation, not merely documented intent.
+
+---
+
+# 12. Step 6 – Assess Identify
+
+The first major assessment area concerns **Identify** capabilities.
+
+The team reviews:
+
+* asset management;
+* business environment;
+* governance;
+* risk assessment;
+* risk strategy;
+* supply-chain risk.
+
+---
+
+# 13. Identify Assessment Example
+
+### Current State
+
+91% of critical assets are reliably identified.
+
+### Target
+
+100%.
+
+### Gap
+
+9% of critical assets lack verified ownership or inventory information.
+
+### Risk
+
+Security teams may fail to protect or monitor unknown assets.
+
+### Priority
+
+High.
+
+---
+
+# 14. Step 7 – Assess Protect
+
+The GRC team reviews:
+
+* identity management;
+* access control;
+* awareness;
+* data security;
+* platform security;
+* technology infrastructure.
+
+Example:
+
+Privileged-access management covers 98% of critical administrative accounts.
+
+Target:
+
+100%.
+
+Gap:
+
+2%.
+
+The gap is relatively small but involves highly privileged accounts.
+
+Therefore, the risk may still be significant.
+
+---
+
+# 15. Step 8 – Assess Detect
+
+The SOC provides evidence for detection capabilities.
+
+The team assesses:
+
+* continuous monitoring;
+* event analysis;
+* detection processes;
+* anomaly detection;
+* threat detection.
+
+Example:
+
+### Current
+
+98% of critical infrastructure is monitored.
+
+### Target
+
+100%.
+
+### Gap
+
+2%.
+
+However, the missing 2% includes several cloud workloads.
+
+The GRC team therefore investigates whether the gap creates disproportionate risk.
+
+---
+
+# 16. Step 9 – Assess Respond
+
+The assessment examines:
+
+* incident management;
+* incident analysis;
+* communication;
+* mitigation;
+* response planning.
+
+The organization has documented procedures.
+
+However, the last enterprise-wide cyber exercise occurred 14 months ago.
+
+The target requires:
+
+**at least three major exercises annually.**
+
+This creates a significant preparedness gap.
+
+---
+
+# 17. Step 10 – Assess Recover
+
+The organization reviews:
+
+* recovery planning;
+* recovery execution;
+* communication;
+* restoration capabilities.
+
+Current cyber-recovery testing covers:
+
+**82% of critical services.**
+
+Target:
+
+**100%.**
+
+The remaining services include two customer-facing platforms.
+
+Because of their business criticality, the gap receives a **critical priority**.
+
+---
+
+# 18. Step 11 – Create the Gap Register
+
+The GRC team consolidates the results.
+
+| ID      | CSF Area | Gap                 | Current | Target | Priority |
+| ------- | -------- | ------------------- | ------: | -----: | -------- |
+| GAP-001 | Identify | Asset visibility    |     91% |   100% | High     |
+| GAP-002 | Protect  | Privileged accounts |     98% |   100% | High     |
+| GAP-003 | Detect   | Cloud monitoring    |     98% |   100% | High     |
+| GAP-004 | Respond  | Cyber exercises     |  1/year | 3/year | Medium   |
+| GAP-005 | Recover  | Cyber recovery      |     82% |   100% | Critical |
+
+The register becomes the central gap-management artifact.
+
+---
+
+# 19. Step 12 – Determine Gap Severity
+
+The team evaluates each gap using several dimensions.
+
+### Business Impact
+
+How significantly could the gap affect the organization?
+
+### Threat Exposure
+
+How likely is the capability to be exploited?
+
+### Regulatory Impact
+
+Could the gap create regulatory non-compliance?
+
+### Customer Impact
+
+Could customers be affected?
+
+### Operational Impact
+
+Could the gap disrupt critical services?
+
+### Financial Impact
+
+Could the gap cause significant financial loss?
+
+---
+
+# 20. Gap Scoring Model
+
+The organization creates a simple scoring model.
+
+```text id="gscore4m"
+Gap Priority Score
+       =
+Business Impact
++
+Threat Exposure
++
+Regulatory Impact
++
+Operational Impact
++
+Customer Impact
+```
+
+Each dimension is scored from **1 to 5**.
+
+The organization then defines priority thresholds.
+
+---
+
+# 21. Example Gap Score
+
+### Gap
+
+Insufficient cyber-recovery testing.
+
+### Business Impact
+
+5
+
+### Threat Exposure
+
+5
+
+### Regulatory Impact
+
+4
+
+### Operational Impact
+
+5
+
+### Customer Impact
+
+5
+
+Total:
+
+**24/25**
+
+The gap receives **Critical** priority.
+
+---
+
+# 22. Step 13 – Link Gaps to Enterprise Risks
+
+Each important gap is mapped to one or more risks.
+
+Example:
+
+```text id="gtr6k1"
+Cyber-Recovery Gap
+        |
+        v
+Ransomware Risk
+        |
+        v
+Service Disruption
+        |
+        v
+Customer Impact
+        |
+        v
+Financial / Regulatory Impact
+```
+
+This demonstrates why the gap matters.
+
+---
+
+# 23. Step 14 – Link Gaps to Controls
+
+The GRC team determines which controls address each gap.
+
+Example:
+
+### Gap
+
+Incomplete privileged-account protection.
+
+### Related Controls
+
+* MFA;
+* PAM;
+* privileged-account review;
+* session monitoring;
+* access recertification.
+
+This allows remediation to target actual control weaknesses.
+
+---
+
+# 24. Step 15 – Identify Root Causes
+
+The GRC team does not immediately recommend new controls.
+
+It first determines the root cause.
+
+For example:
+
+### Gap
+
+Cloud asset visibility.
+
+### Root Cause
+
+No centralized cloud inventory process.
+
+### Secondary Cause
+
+Cloud teams use different provisioning methods.
+
+### Governance Cause
+
+No mandatory asset-registration requirement.
+
+The remediation therefore needs to address the process and governance problem, not just deploy another tool.
+
+---
+
+# 25. Step 16 – Classify Gap Types
+
+The organization classifies gaps into:
+
+### Governance Gap
+
+Missing policy, ownership or accountability.
+
+### Process Gap
+
+Required processes are incomplete.
+
+### Technology Gap
+
+Technology capability is insufficient.
+
+### People Gap
+
+Insufficient skills or staffing.
+
+### Data Gap
+
+Information is incomplete or unreliable.
+
+### Third-Party Gap
+
+Supplier capabilities are insufficient.
+
+This classification helps determine remediation strategies.
+
+---
+
+# 26. Example Gap Classification
+
+| Gap                 | Primary Type |
+| ------------------- | ------------ |
+| Asset ownership     | Governance   |
+| Cloud discovery     | Technology   |
+| Cyber exercises     | Process      |
+| SOC cloud skills    | People       |
+| Supplier monitoring | Third-party  |
+| Recovery evidence   | Data/process |
+
+This provides a more complete understanding of the problem.
+
+---
+
+# 27. Step 17 – Assess Dependencies
+
+Some gaps depend on other initiatives.
+
+For example:
+
+**Continuous cloud monitoring**
+
+may depend on:
+
+* cloud asset discovery;
+* centralized logging;
+* cloud identity;
+* SIEM integration.
+
+Therefore, the GRC team establishes dependencies before prioritizing implementation.
+
+---
+
+# 28. Step 18 – Prioritize the Gaps
+
+The organization categorizes gaps.
+
+### Critical
+
+Immediate executive attention.
+
+### High
+
+Remediation within the current planning cycle.
+
+### Medium
+
+Planned improvement.
+
+### Low
+
+Monitor, accept or address opportunistically.
+
+The final prioritization is risk-based.
+
+---
+
+# 29. Prioritized Gap Portfolio
+
+| Priority | Number of Gaps |
+| -------- | -------------: |
+| Critical |              5 |
+| High     |             17 |
+| Medium   |             38 |
+| Low      |             24 |
+
+The organization now has a manageable view of its 84 identified gaps.
+
+---
+
+# 30. Step 19 – Create Remediation Initiatives
+
+Multiple related gaps are consolidated into programs.
+
+For example:
+
+### Cloud Security Improvement Program
+
+Addresses:
+
+* cloud asset visibility;
+* cloud monitoring;
+* cloud identity;
+* cloud logging.
+
+This is more efficient than managing each gap independently.
+
+---
+
+# 31. Step 20 – Develop Remediation Actions
+
+For each gap, the GRC team defines:
+
+* action;
+* owner;
+* deadline;
+* resources;
+* dependencies;
+* expected outcome;
+* success metric.
+
+Example:
+
+### Gap
+
+Incomplete cyber-recovery coverage.
+
+### Action
+
+Extend recovery testing to all critical services.
+
+### Owner
+
+Head of IT Resilience.
+
+### Target Date
+
+Q4.
+
+### Success Metric
+
+100% of critical services tested.
+
+---
+
+# 32. Step 21 – Estimate Risk Reduction
+
+The organization estimates expected risk reduction.
+
+Example:
+
+### Current Residual Risk
+
+High.
+
+### Remediation
+
+Cyber-recovery testing and immutable backup expansion.
+
+### Expected Residual Risk
+
+Medium.
+
+The risk owner approves the treatment plan.
+
+---
+
+# 33. Step 22 – Consider Risk Acceptance
+
+Not every gap must be remediated.
+
+For example:
+
+A low-risk legacy application may have a security limitation that would cost €500,000 to eliminate while the associated risk is very low.
+
+Management may decide to:
+
+**accept the risk**
+
+rather than implement an expensive remediation.
+
+The decision must be documented.
+
+---
+
+# 34. Step 23 – Consider Compensating Controls
+
+Sometimes the desired capability cannot be implemented immediately.
+
+Example:
+
+A legacy application cannot support modern MFA.
+
+Compensating controls may include:
+
+* privileged-access gateway;
+* network segmentation;
+* additional monitoring;
+* restricted administrative access.
+
+The risk is reassessed after implementation.
+
+---
+
+# 35. Step 24 – Create the Gap Treatment Model
+
+```text id="gtm5p4"
+                 GAP
+                  |
+        +---------+---------+
+        |         |         |
+        v         v         v
+    REMEDIATE  MITIGATE  ACCEPT
+        |         |         |
+        v         v         v
+     ACTION    CONTROL    RISK
+        |         |         |
+        +---------+---------+
+                  |
+                  v
+             RISK REVIEW
+```
+
+This creates a consistent treatment approach.
+
+---
+
+# 36. Step 25 – Integrate With the GRC Platform
+
+The organization configures the GRC platform to connect:
+
+**NIST CSF Outcome**
+
+↓
+
+**Current State**
+
+↓
+
+**Target State**
+
+↓
+
+**Gap**
+
+↓
+
+**Risk**
+
+↓
+
+**Control**
+
+↓
+
+**Remediation**
+
+↓
+
+**Evidence**
+
+This creates end-to-end traceability.
+
+---
+
+# 37. Step 26 – Automate Gap Tracking
+
+The GRC platform generates automated notifications.
+
+For example:
+
+* remediation approaching deadline;
+* overdue action;
+* high-risk gap without owner;
+* control failing validation;
+* target date exceeded.
+
+This improves accountability.
+
+---
+
+# 38. Step 27 – Validate Remediation
+
+Closing an action does not automatically close the gap.
+
+For example:
+
+A team reports:
+
+> "Cloud monitoring has been implemented."
+
+GRC validates:
+
+* configuration;
+* coverage;
+* alerts;
+* evidence;
+* operational effectiveness.
+
+Only after validation can the gap be considered effectively addressed.
+
+---
+
+# 39. Step 28 – Reassess the Risk
+
+After remediation:
+
+### Before
+
+Risk rating:
+
+**High**
+
+### After
+
+Risk rating:
+
+**Medium**
+
+The risk register is updated.
+
+The corresponding gap is marked:
+
+**Remediated and validated.**
+
+---
+
+# 40. Step 29 – Update the Current Profile
+
+Once significant remediation is complete, the Current Profile changes.
+
+Example:
+
+### Before
+
+Cloud monitoring:
+
+98%
+
+### After
+
+100%
+
+The profile now moves closer to the Target Profile.
+
+---
+
+# 41. Step 30 – Measure Gap Closure
+
+The GRC team tracks:
+
+* total gaps;
+* critical gaps;
+* high-risk gaps;
+* overdue gaps;
+* remediated gaps;
+* accepted risks;
+* residual gaps.
+
+Example:
+
+| Metric        | Initial | Current |
+| ------------- | ------: | ------: |
+| Total gaps    |      84 |      51 |
+| Critical gaps |       5 |       1 |
+| High gaps     |      17 |       8 |
+| Closed gaps   |       0 |      33 |
+| Overdue gaps  |      12 |       4 |
+
+This gives management a clear improvement picture.
+
+---
+
+# 42. Step 31 – Executive Reporting
+
+The CISO reports:
+
+### Current Position
+
+84 gaps identified.
+
+### Major Concern
+
+5 critical gaps.
+
+### Progress
+
+33 gaps closed.
+
+### Remaining Critical Risk
+
+One critical cyber-recovery gap.
+
+### Investment Required
+
+Additional recovery infrastructure.
+
+The report focuses on decisions rather than technical detail.
+
+---
+
+# 43. Step 32 – Internal Audit Assurance
+
+Internal Audit independently reviews the gap assessment methodology.
+
+It evaluates whether:
+
+* gaps were correctly identified;
+* evidence supports conclusions;
+* risk ratings are reasonable;
+* management actions are appropriate;
+* closed gaps were actually remediated.
+
+This provides independent assurance.
+
+---
+
+# 44. Step 33 – Management Review
+
+The Risk and Compliance Committee reviews:
+
+* critical gaps;
+* overdue remediation;
+* accepted risks;
+* resource constraints;
+* risk trends.
+
+Management may decide to:
+
+* accelerate remediation;
+* accept certain risks;
+* increase funding;
+* modify targets;
+* change priorities.
+
+---
+
+# 45. Step 34 – Update the Target Profile
+
+Business requirements change.
+
+For example, IberiaCloud launches a new AI-powered customer platform.
+
+The target profile is updated to include stronger expectations for:
+
+* AI security;
+* data protection;
+* model governance;
+* third-party AI services;
+* monitoring.
+
+The gap assessment must therefore be refreshed.
+
+---
+
+# 46. Gap Assessment Lifecycle
+
+```text id="gcycle8p"
+        CURRENT PROFILE
+               |
+               v
+        TARGET PROFILE
+               |
+               v
+         GAP ASSESSMENT
+               |
+               v
+          RISK ANALYSIS
+               |
+               v
+        GAP PRIORITIZATION
+               |
+               v
+       REMEDIATION / TREATMENT
+               |
+               v
+            VALIDATION
+               |
+               v
+         PROFILE UPDATE
+               |
+               v
+       CONTINUAL MONITORING
+               |
+               +------> NEW GAP ASSESSMENT
+```
+
+---
+
+# 47. Common Gap Assessment Mistakes
+
+## Mistake 1 – Treating Every Gap Equally
+
+Not every gap has the same business risk.
+
+## Mistake 2 – Confusing Missing Controls With High Risk
+
+A control gap must be evaluated in context.
+
+## Mistake 3 – Ignoring Root Causes
+
+Installing another security tool may not solve a governance or process problem.
+
+## Mistake 4 – Closing Gaps Without Validation
+
+Management should verify that remediation actually works.
+
+---
+
+# 48. Additional Mistakes
+
+## Mistake 5 – Ignoring Accepted Risk
+
+Some gaps may legitimately remain open if management accepts the associated risk.
+
+## Mistake 6 – Creating Too Many Independent Actions
+
+Related gaps should be consolidated into logical programs.
+
+## Mistake 7 – Ignoring Dependencies
+
+Remediation sequencing matters.
+
+## Mistake 8 – Failing to Update the Profile
+
+A completed remediation should result in an updated cybersecurity posture.
+
+---
+
+# 49. Practical NIST CSF Gap Assessment Checklist
+
+### Preparation
+
+* [ ] Scope defined
+* [ ] Current Profile validated
+* [ ] Target Profile approved
+* [ ] Assessment methodology established
+
+### Assessment
+
+* [ ] Identify assessed
+* [ ] Protect assessed
+* [ ] Detect assessed
+* [ ] Respond assessed
+* [ ] Recover assessed
+
+### Evidence
+
+* [ ] Evidence collected
+* [ ] Evidence validated
+* [ ] Control implementation verified
+* [ ] Effectiveness considered
+
+### Gap Management
+
+* [ ] Gaps documented
+* [ ] Root causes identified
+* [ ] Business impact assessed
+* [ ] Risks mapped
+* [ ] Priorities assigned
+
+### Treatment
+
+* [ ] Remediation actions defined
+* [ ] Owners assigned
+* [ ] Deadlines established
+* [ ] Compensating controls considered
+* [ ] Risk acceptance documented where applicable
+
+### Validation
+
+* [ ] Remediation validated
+* [ ] Risk reassessed
+* [ ] Current Profile updated
+* [ ] Executive reporting updated
+
+---
+
+# 50. Executive Gap Dashboard
+
+A mature GRC dashboard can show:
+
+### Critical Gaps
+
+**5 → 1**
+
+### High Gaps
+
+**17 → 8**
+
+### Overall Gap Closure
+
+**39%**
+
+### Overdue Remediation
+
+**4**
+
+### Risk Accepted
+
+**7**
+
+### Target Achievement
+
+**82%**
+
+The CISO can immediately identify where executive intervention is required.
+
+---
+
+# 51. Final Integrated Model
+
+```text id="finalgap9"
+                BUSINESS OBJECTIVES
+                       |
+                       v
+                  BUSINESS RISKS
+                       |
+                       v
+               CURRENT PROFILE
+                       |
+                       v
+                TARGET PROFILE
+                       |
+                       v
+                 GAP REGISTER
+                       |
+          +------------+------------+
+          |            |            |
+          v            v            v
+       RISK         ROOT CAUSE    IMPACT
+     ANALYSIS       ANALYSIS     ANALYSIS
+          |            |            |
+          +------------+------------+
+                       |
+                       v
+                GAP PRIORITIZATION
+                       |
+                       v
+              TREATMENT DECISION
+                       |
+        +--------------+--------------+
+        |              |              |
+        v              v              v
+    REMEDIATE       MITIGATE       ACCEPT
+        |              |              |
+        +--------------+--------------+
+                       |
+                       v
+                  VALIDATION
+                       |
+                       v
+                 RISK REASSESSMENT
+                       |
+                       v
+                PROFILE UPDATE
+                       |
+                       v
+              EXECUTIVE REPORTING
+```
+
+---
+
+# 52. Case Study Results
+
+After the gap-assessment program is implemented, IberiaCloud achieves:
+
+* systematic identification of cybersecurity gaps;
+* risk-based gap prioritization;
+* improved remediation accountability;
+* better linkage between gaps and business risks;
+* integrated control and evidence traceability;
+* measurable gap closure;
+* improved executive reporting;
+* stronger alignment between NIST CSF and ISO 27001.
+
+The organization no longer views cybersecurity gaps as a simple checklist of missing controls.
+
+Instead, every significant gap is evaluated according to:
+
+**Business Impact → Risk → Root Cause → Treatment → Validation → Risk Reduction**
+
+---
+
+# 53. Lessons Learned
+
+## Lesson 1 – A Gap Must Have Context
+
+The significance of a gap depends on the business service, threat exposure and risk.
+
+## Lesson 2 – Prioritization Is Essential
+
+A large organization will always have more gaps than available resources.
+
+## Lesson 3 – Root Cause Matters
+
+Effective remediation addresses why the gap exists, not merely its visible symptom.
+
+## Lesson 4 – Closure Requires Validation
+
+A remediation action should not be considered complete until its effectiveness is demonstrated.
+
+---
+
+# 54. Additional Lessons
+
+## Lesson 5 – Integrate Gap Management With Risk Management
+
+The most important gaps should appear in the organization's risk-management process.
+
+## Lesson 6 – Use a Common Control Environment
+
+NIST CSF, ISO 27001 and other frameworks should be connected through common controls where practical.
+
+## Lesson 7 – Accepted Risk Is a Valid Management Decision
+
+Not every gap must be eliminated if the risk is understood and formally accepted.
+
+## Lesson 8 – Gap Assessment Is Continuous
+
+New technologies, threats, regulations and business changes continuously create new gaps.
+
+---
+
+# 55. Final Case Study Conclusion
+
+The IberiaCloud case demonstrates that a NIST CSF Gap Assessment is much more than comparing two framework spreadsheets.
+
+A mature assessment creates a complete chain:
+
+**Current Profile → Target Profile → Gap → Risk → Root Cause → Treatment → Validation → Risk Reduction**
+
+The GRC professional's role is to ensure that this chain remains traceable and defensible.
+
+The ultimate objective is not:
+
+> **"Close as many gaps as possible."**
+
+It is:
+
+> **"Reduce the organization's most important cybersecurity risks to an acceptable level."**
+
+That distinction is fundamental to effective cybersecurity governance and risk management.
+
 
 

@@ -724,4 +724,861 @@ The target operating model should allow the organization to answer five fundamen
 
 > **Can we demonstrate that those controls are working?**
 
+# Part 2 – Conducting a Privacy Risk and Data Protection Impact Assessment
+
+Privacy governance becomes effective when an organization can systematically identify, evaluate, and treat risks arising from the processing of personal data. A Privacy Impact Assessment (PIA), and where required a Data Protection Impact Assessment (DPIA), provides a structured mechanism for doing this.
+
+The purpose is not simply to determine whether a processing activity is legally permissible. A mature assessment considers the relationship between:
+
+**Processing Activity → Purpose → Personal Data → Individuals → Threats → Privacy Risks → Controls → Residual Risk**
+
+This case study demonstrates how a GRC professional can conduct such an assessment.
+
+---
+
+## Case Study: GlobalConnect AI Customer Platform
+
+GlobalConnect Telecom is implementing an AI-powered customer-service platform.
+
+The platform will:
+
+* Process customer conversations.
+* Analyze customer-service history.
+* Retrieve account information.
+* Recommend responses to customer-service agents.
+* Automatically classify customer requests.
+* Generate summaries of customer interactions.
+* Use cloud-based AI services.
+* Potentially process information included by customers in free-text conversations.
+
+The project team estimates that the platform could process information relating to approximately **8 million customers**.
+
+The Chief Privacy Officer requires a DPIA before production deployment.
+
+---
+
+# 1. Define the Assessment Scope
+
+The first step is to clearly define what is being assessed.
+
+The assessment covers:
+
+* Customer web chat
+* Mobile-app support
+* Contact-center interactions
+* AI processing
+* Customer-service databases
+* Cloud infrastructure
+* Third-party AI services
+* Analytics
+* Data retention
+* Human review
+* Potential automated decisions
+
+The assessment does not initially cover unrelated corporate HR systems.
+
+This prevents the assessment from becoming too broad to manage.
+
+---
+
+# 2. Identify the Business Purpose
+
+The organization documents the purpose of processing.
+
+The primary objectives are:
+
+1. Reduce customer-service response times.
+2. Improve customer-service consistency.
+3. Provide agents with relevant customer information.
+4. Automate repetitive support activities.
+5. Identify recurring customer issues.
+6. Improve customer experience.
+
+The assessment then asks whether every proposed processing activity is actually necessary to achieve these objectives.
+
+This is important because organizations frequently collect more information than is required.
+
+---
+
+# 3. Identify the Data Subjects
+
+The assessment identifies who may be affected.
+
+Potential data subjects include:
+
+* Customers
+* Authorized representatives
+* Prospective customers
+* Individuals contacting customer support
+* Employees whose information appears in service records
+
+The organization documents the affected populations and estimates the number of individuals involved.
+
+---
+
+# 4. Identify the Personal Data
+
+The project team creates a data inventory.
+
+Potential information includes:
+
+| Data Category  | Example                                       |
+| -------------- | --------------------------------------------- |
+| Identity       | Name, customer ID                             |
+| Contact        | Email, telephone number                       |
+| Account        | Service plan, account status                  |
+| Billing        | Billing information                           |
+| Support        | Customer conversations                        |
+| Technical      | Device and application information            |
+| Location       | Location-related information where applicable |
+| Authentication | Account verification information              |
+| Behavioral     | Interaction and usage patterns                |
+
+The team also evaluates whether customers may voluntarily enter sensitive information into free-text conversations.
+
+This creates an important risk because the organization may receive information that it did not intentionally request.
+
+---
+
+# 5. Map the Data Flow
+
+The next step is creating a data-flow model.
+
+A simplified flow is:
+
+**Customer**
+
+↓
+
+**Mobile App / Website / Contact Center**
+
+↓
+
+**Customer-Service Platform**
+
+↓
+
+**AI Processing Layer**
+
+↓
+
+**AI Model / Cloud Service**
+
+↓
+
+**Agent Interface**
+
+↓
+
+**CRM / Service Database**
+
+↓
+
+**Analytics Platform**
+
+Each transition is evaluated.
+
+The assessment asks:
+
+* What data is transferred?
+* Where is it stored?
+* Who can access it?
+* Is it encrypted?
+* Is it copied?
+* Is it retained?
+* Is it transferred to another organization?
+* Is it used for another purpose?
+
+Data-flow mapping is often one of the most valuable outputs of a DPIA.
+
+---
+
+# 6. Identify the Parties Involved
+
+The organization identifies the parties participating in processing.
+
+These may include:
+
+* GlobalConnect business units
+* Customer-service employees
+* Cloud providers
+* AI technology providers
+* CRM provider
+* Analytics provider
+* Managed-service providers
+
+For each party, the organization determines the appropriate legal and contractual role.
+
+The privacy team also identifies relevant subprocessors.
+
+This is particularly important for cloud and AI services because data may pass through multiple technology providers.
+
+---
+
+# 7. Determine the Purpose and Legal Basis
+
+The privacy team documents the purpose of each processing activity and evaluates the applicable legal basis under the relevant privacy framework.
+
+The assessment distinguishes between:
+
+**Purpose**
+
+Why is the organization processing the information?
+
+and
+
+**Legal basis**
+
+What legal justification permits that processing?
+
+These are not interchangeable concepts.
+
+A processing activity may have a legitimate business purpose while still requiring additional analysis of whether the applicable legal basis and other privacy requirements are satisfied.
+
+---
+
+# 8. Evaluate Data Minimization
+
+The project team initially proposes sending the full customer record to the AI system.
+
+The privacy team challenges the design:
+
+> Does the AI system actually need the complete customer record?
+
+The team determines that many requests can be processed using:
+
+* Customer service type
+* Relevant product information
+* Limited account information
+* Recent interaction history
+
+Unnecessary fields are removed from the AI processing workflow.
+
+This reduces:
+
+* Privacy exposure
+* Attack surface
+* Data leakage consequences
+* Third-party exposure
+* Retention requirements
+
+This demonstrates the principle of **data minimization**.
+
+---
+
+# 9. Evaluate Data Accuracy
+
+AI systems can generate incorrect information.
+
+The organization therefore evaluates risks associated with inaccurate customer data.
+
+Examples include:
+
+* Incorrect customer identity
+* Incorrect account information
+* Incorrect service status
+* Incorrect customer classification
+* Incorrect AI-generated response
+
+Controls include:
+
+* Retrieval from authoritative systems
+* Validation of critical information
+* Human review
+* Correction mechanisms
+* Data-quality monitoring
+
+The assessment recognizes that privacy risk can result not only from unauthorized disclosure but also from inaccurate information.
+
+---
+
+# 10. Identify Privacy Threats
+
+The assessment team conducts a structured threat analysis.
+
+Potential threats include:
+
+### Unauthorized Access
+
+An attacker obtains access to customer information.
+
+### Excessive Internal Access
+
+Employees access customer information beyond their job requirements.
+
+### Data Leakage
+
+Personal data is accidentally or intentionally disclosed.
+
+### Third-Party Exposure
+
+A service provider experiences a security or privacy incident.
+
+### Excessive Retention
+
+AI-related data is retained longer than necessary.
+
+### Function Creep
+
+Data collected for customer support is later used for unrelated analytics.
+
+### Re-identification
+
+Anonymized or pseudonymized information is combined with other information to identify individuals.
+
+### AI Prompt Leakage
+
+Sensitive customer information is inadvertently exposed through AI prompts or outputs.
+
+### Model Memorization
+
+Personal information could potentially be retained or reproduced by an AI model if the system is improperly designed or configured.
+
+---
+
+# 11. Assess Privacy Risk
+
+GlobalConnect adopts a five-point risk model.
+
+### Likelihood
+
+1 = Rare
+2 = Unlikely
+3 = Possible
+4 = Likely
+5 = Almost Certain
+
+### Impact
+
+1 = Minimal
+2 = Minor
+3 = Moderate
+4 = Major
+5 = Severe
+
+The basic score is:
+
+**Privacy Risk Score = Likelihood × Impact**
+
+For example:
+
+| Risk                 | Likelihood | Impact | Score |
+| -------------------- | ---------: | -----: | ----: |
+| Unauthorized access  |          3 |      5 |    15 |
+| Excessive retention  |          3 |      3 |     9 |
+| Third-party exposure |          3 |      5 |    15 |
+| Function creep       |          2 |      4 |     8 |
+| AI prompt leakage    |          3 |      5 |    15 |
+
+The organization then applies controls and calculates the residual risk.
+
+---
+
+# 12. Assess Risk to Individuals
+
+A mature privacy assessment does not focus exclusively on organizational consequences.
+
+It asks:
+
+> **What could happen to the individuals whose data is being processed?**
+
+Potential harms include:
+
+* Financial loss
+* Identity theft
+* Fraud
+* Discrimination
+* Embarrassment
+* Loss of confidentiality
+* Unwanted profiling
+* Reputational damage
+* Loss of autonomy
+* Unfair treatment
+
+The assessment therefore considers **individual harm** as a primary risk dimension.
+
+---
+
+# 13. Evaluate High-Risk Processing
+
+Certain processing activities may require enhanced scrutiny.
+
+GlobalConnect evaluates whether the AI platform involves factors such as:
+
+* Large-scale processing
+* Systematic monitoring
+* Sensitive information
+* Profiling
+* Automated decision-making
+* Vulnerable individuals
+* Novel technologies
+* Cross-border processing
+
+The presence of multiple high-risk factors increases the level of governance required.
+
+The privacy team therefore classifies the project as:
+
+**High Privacy Risk – Enhanced Assessment Required**
+
+---
+
+# 14. Design Privacy Controls
+
+For each significant risk, the team identifies controls.
+
+Example:
+
+### Risk
+
+Unauthorized employee access to customer information.
+
+### Controls
+
+* Role-based access control
+* Least privilege
+* Privileged access management
+* Access reviews
+* Strong authentication
+* Logging
+* Monitoring
+* Segregation of duties
+
+Another example:
+
+### Risk
+
+Customer information sent unnecessarily to the AI provider.
+
+### Controls
+
+* Data minimization
+* Field filtering
+* Tokenization/pseudonymization where appropriate
+* Data-loss prevention
+* API filtering
+* Contractual restrictions
+* Provider configuration controls
+
+Controls must address the actual risk rather than simply adding documentation.
+
+---
+
+# 15. Evaluate AI-Specific Privacy Risks
+
+Because the project uses AI, GlobalConnect introduces additional assessment questions.
+
+The team evaluates:
+
+### Training Data
+
+Is customer information used to train the model?
+
+### Prompt Data
+
+What information is sent to the model?
+
+### Output Data
+
+Can personal information appear in generated responses?
+
+### Model Retention
+
+Does the provider retain prompts or outputs?
+
+### Model Improvement
+
+Can customer information be reused to improve the provider's services?
+
+### Human Review
+
+Can provider personnel access customer information?
+
+### Model Location
+
+Where does processing occur?
+
+### Subprocessors
+
+Which additional organizations can access the information?
+
+These questions are incorporated into the privacy assessment.
+
+---
+
+# 16. Evaluate International Data Transfers
+
+GlobalConnect operates across multiple countries.
+
+The assessment therefore maps:
+
+**Country of Collection → Processing Location → Storage Location → Support Location → Subprocessor Location**
+
+For each transfer, the organization evaluates the applicable legal and contractual requirements.
+
+The organization documents:
+
+* Destination
+* Data category
+* Recipient
+* Processing purpose
+* Transfer mechanism
+* Safeguards
+* Contractual requirements
+* Residual risk
+
+This information is maintained in the privacy governance system.
+
+---
+
+# 17. Evaluate Retention
+
+The AI platform initially proposes retaining customer conversations for five years.
+
+The privacy team challenges the proposal.
+
+The organization asks:
+
+> Why is five years necessary?
+
+The business identifies that only a limited subset of information requires extended retention.
+
+The organization therefore develops different retention periods for:
+
+* Active customer support
+* Complaint handling
+* Legal requirements
+* Quality monitoring
+* Analytics
+* Security investigations
+
+Data that no longer serves an approved purpose is deleted or appropriately de-identified.
+
+---
+
+# 18. Evaluate Data-Subject Rights
+
+The organization evaluates whether the new platform can support applicable privacy rights.
+
+For example:
+
+**Access request**
+
+Can the organization identify relevant information across the AI platform?
+
+**Deletion request**
+
+Can applicable information be deleted from operational systems and associated stores?
+
+**Correction**
+
+Can inaccurate information be corrected?
+
+**Objection**
+
+Can processing be stopped where applicable?
+
+**Portability**
+
+Can relevant information be provided in an appropriate format?
+
+The organization identifies technical limitations before deployment rather than after receiving customer requests.
+
+---
+
+# 19. Evaluate Automated Decision-Making
+
+The project initially proposes allowing the AI system to automatically classify certain customer cases.
+
+The privacy team asks:
+
+> Could this classification materially affect an individual?
+
+If yes, additional analysis may be required.
+
+Examples include automated decisions involving:
+
+* Service eligibility
+* Fraud suspicion
+* Account restrictions
+* Credit-related decisions
+* Customer prioritization
+
+The organization therefore separates:
+
+**AI assistance**
+
+from
+
+**AI decision-making**
+
+and applies stronger governance where automated decisions could materially affect individuals.
+
+---
+
+# 20. Determine Residual Risk
+
+After controls are designed, GlobalConnect reassesses the risks.
+
+Example:
+
+| Risk                 | Initial | Controls                         | Residual |
+| -------------------- | ------: | -------------------------------- | -------: |
+| Unauthorized access  |    High | RBAC, MFA, monitoring            |   Medium |
+| Third-party exposure |    High | Contract, assessment, monitoring |   Medium |
+| Prompt leakage       |    High | Filtering, DLP, testing          |   Medium |
+| Excessive retention  |  Medium | Automated deletion               |      Low |
+| Function creep       |  Medium | Purpose controls                 |      Low |
+
+The privacy team determines whether residual risk is acceptable.
+
+High residual risks may require:
+
+* Additional controls
+* Project redesign
+* Executive approval
+* DPO consultation
+* Risk acceptance
+* Regulatory consultation where applicable
+
+---
+
+# 21. Remediation Plan
+
+The DPIA identifies several actions.
+
+| Action                        | Owner            | Priority | Target  |
+| ----------------------------- | ---------------- | -------- | ------- |
+| Implement prompt filtering    | AI Engineering   | High     | 60 days |
+| Complete AI vendor assessment | Third-Party Risk | High     | 45 days |
+| Finalize retention rules      | Data Governance  | High     | 30 days |
+| Implement access monitoring   | Security         | High     | 60 days |
+| Update privacy notice         | Legal/Privacy    | Medium   | 45 days |
+| Test deletion capability      | Engineering      | High     | 75 days |
+| Conduct AI privacy testing    | AI Governance    | High     | 90 days |
+
+The DPIA therefore becomes an actionable GRC work item rather than a static document.
+
+---
+
+# 22. Validation Before Production
+
+Before production deployment, GlobalConnect performs validation.
+
+The assessment team verifies:
+
+* Controls have been implemented.
+* Data flows match the documented architecture.
+* Access controls work as designed.
+* Retention rules function correctly.
+* Third-party contracts are complete.
+* Privacy notices are updated where required.
+* Data-subject rights can be supported.
+* Logging and monitoring are operational.
+* AI configurations match approved privacy requirements.
+
+Only after successful validation can the project proceed.
+
+---
+
+# 23. Continuous Monitoring
+
+The DPIA is not treated as a one-time exercise.
+
+The assessment is reviewed when:
+
+* The AI model changes
+* A new data source is introduced
+* A new supplier is added
+* Processing locations change
+* New purposes are introduced
+* Significant incidents occur
+* Regulations change
+* Data volumes materially increase
+* Automated decision-making is introduced
+
+This creates a continuous privacy-risk lifecycle.
+
+---
+
+# 24. GRC Integration
+
+The DPIA is integrated into the enterprise GRC platform.
+
+The relationship becomes:
+
+**Project**
+
+↓
+
+**Processing Activity**
+
+↓
+
+**Privacy Risk**
+
+↓
+
+**Control**
+
+↓
+
+**Action**
+
+↓
+
+**Evidence**
+
+↓
+
+**Validation**
+
+↓
+
+**Residual Risk**
+
+This provides management with traceability from business initiative to privacy risk and control effectiveness.
+
+---
+
+# 25. Executive Reporting
+
+The Chief Risk Officer receives a summary report.
+
+Example:
+
+**Project:** AI Customer-Service Platform
+
+**Privacy Classification:** High Risk
+
+**Initial Risks:** 14
+
+**High Risks:** 6
+
+**Controls Required:** 27
+
+**Controls Implemented:** 24
+
+**Open High-Risk Actions:** 3
+
+**Residual Risk:** Medium
+
+**Production Status:** Conditional Approval
+
+The executive team can therefore make a clear decision:
+
+> Proceed, provided the three remaining high-priority controls are completed before production.
+
+---
+
+# 26. Lessons Learned
+
+The GlobalConnect case demonstrates that a strong DPIA is not merely a legal document.
+
+It is a **risk-management mechanism**.
+
+A mature assessment follows:
+
+**Understand the Processing**
+
+↓
+
+**Understand the Individuals**
+
+↓
+
+**Understand the Data**
+
+↓
+
+**Understand the Purpose**
+
+↓
+
+**Identify Privacy Risks**
+
+↓
+
+**Evaluate Individual Harm**
+
+↓
+
+**Design Controls**
+
+↓
+
+**Assess Residual Risk**
+
+↓
+
+**Validate Controls**
+
+↓
+
+**Monitor Continuously**
+
+The most important GRC lesson is that privacy should be integrated into the organization's existing risk-management architecture.
+
+Privacy risks should not remain isolated in a privacy spreadsheet.
+
+They should connect to:
+
+* Enterprise risk management
+* Cybersecurity
+* Third-party risk
+* Data governance
+* AI governance
+* Compliance
+* Internal audit
+* Business continuity
+* Regulatory change management
+
+The ultimate objective is to establish a defensible governance chain:
+
+**Processing Activity → Personal Data → Purpose → Privacy Risk → Control → Evidence → Residual Risk → Management Decision**
+
+---
+
+# 27. Practical GRC Exercise
+
+Assume your organization plans to deploy an AI-powered customer analytics platform that will process information from **10 million customers** across multiple countries.
+
+The platform will:
+
+* Combine CRM information.
+* Analyze customer behavior.
+* Predict customer churn.
+* Generate customer segments.
+* Provide recommendations to marketing teams.
+* Use a third-party cloud AI platform.
+
+As the GRC professional, perform a high-level DPIA.
+
+Address:
+
+1. Processing purpose
+2. Data subjects
+3. Personal-data categories
+4. Data-flow mapping
+5. Third-party involvement
+6. Legal and regulatory considerations
+7. Data minimization
+8. Retention
+9. International transfers
+10. AI-specific privacy risks
+11. Individual harm
+12. Privacy risk scoring
+13. Privacy controls
+14. Residual risk
+15. Remediation actions
+16. Validation
+17. Executive approval
+18. Continuous monitoring
+
+Your final assessment should answer:
+
+> **Is the proposed processing sufficiently controlled to proceed, what residual risks remain, and what conditions must be satisfied before deployment?**
+
+That is the central purpose of privacy risk management: **enabling the organization to make informed decisions about the use of personal data while protecting individuals and maintaining regulatory accountability.**
+
+
 

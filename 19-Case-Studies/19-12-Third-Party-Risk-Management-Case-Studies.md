@@ -2557,6 +2557,1238 @@ The GRC professional's ultimate question is:
 
 That is the essence of **third-party security due diligence**.
 
+# 19.12 Third-Party Risk Management Case Studies
+
+## Part 3 – Managing a High-Risk Supplier Finding
+
+A high-risk supplier finding occurs when a third-party assessment identifies a weakness that could materially affect the organization's:
+
+* Confidentiality
+* Integrity
+* Availability
+* Regulatory compliance
+* Business operations
+* Financial position
+* Reputation
+
+The objective of GRC is not simply to record the finding.
+
+The objective is to:
+
+> **Understand the risk, establish accountability, determine treatment, track remediation, and verify that the risk has actually been reduced.**
+
+A mature process is:
+
+**Finding → Validation → Risk Assessment → Ownership → Treatment → Remediation → Evidence → Verification → Closure → Monitoring**
+
+---
+
+# Case Study: GlobalConnect Telecom
+
+GlobalConnect relies on **DataCore Technologies**, a critical managed-service provider supporting its customer analytics platform.
+
+DataCore has:
+
+* Production access
+* Access to customer information
+* Administrative privileges
+* Cloud infrastructure responsibilities
+* Several subcontractors
+
+During GlobalConnect's annual third-party assessment, several significant findings are identified.
+
+---
+
+# 1. Supplier Assessment Results
+
+The assessment identifies:
+
+| Finding                        | Severity |
+| ------------------------------ | -------- |
+| Excessive privileged accounts  | Critical |
+| Unsupported operating systems  | High     |
+| Incomplete MFA coverage        | High     |
+| DR testing not completed       | High     |
+| Missing subcontractor evidence | Medium   |
+
+The most serious finding is:
+
+> **Excessive privileged access to production systems.**
+
+---
+
+# 2. The Finding
+
+GlobalConnect discovers that:
+
+* 18 supplier administrators have production access.
+* 7 no longer require that level of access.
+* 4 accounts have not been used for more than 90 days.
+* 3 accounts do not use MFA.
+* 2 shared administrator accounts exist.
+
+This represents a significant access-control weakness.
+
+---
+
+# 3. Why This Is a GRC Issue
+
+At first glance, this looks like an IT security problem.
+
+But it is actually a **third-party enterprise risk**.
+
+If a supplier account is compromised, an attacker could potentially:
+
+* Access production systems
+* Modify configurations
+* Extract data
+* Disable security controls
+* Deploy malicious software
+* Disrupt services
+
+Therefore, the issue must be escalated beyond the technical team.
+
+---
+
+# 4. Step 1 – Validate the Finding
+
+Before escalating, GRC confirms:
+
+* The assessment evidence
+* Account list
+* Access permissions
+* Last-login dates
+* MFA configuration
+* Business justification
+* Supplier explanation
+
+GRC should distinguish:
+
+> **A confirmed control failure**
+
+from:
+
+> **An assessment assumption.**
+
+---
+
+# 5. Step 2 – Determine the Business Impact
+
+The GRC team asks:
+
+### Confidentiality
+
+Could unauthorized access expose customer data?
+
+**Yes.**
+
+### Integrity
+
+Could unauthorized users modify systems?
+
+**Yes.**
+
+### Availability
+
+Could privileged accounts disrupt production?
+
+**Yes.**
+
+### Regulatory
+
+Could compromise create a reportable incident?
+
+**Potentially.**
+
+### Financial
+
+Could an incident cause significant losses?
+
+**Yes.**
+
+Overall potential impact:
+
+**Very High**
+
+---
+
+# 6. Step 3 – Determine Likelihood
+
+GRC evaluates:
+
+* Number of excessive accounts
+* Privilege level
+* MFA gaps
+* External access
+* Monitoring
+* Existing compensating controls
+* Threat environment
+
+Because several weaknesses exist simultaneously, likelihood is assessed as:
+
+**High**
+
+---
+
+# 7. Risk Calculation
+
+A simple model can be:
+
+**Risk = Likelihood × Impact**
+
+Example:
+
+Likelihood:
+
+**4 / 5**
+
+Impact:
+
+**5 / 5**
+
+Risk:
+
+**20 / 25**
+
+Classification:
+
+**Critical**
+
+This means the finding cannot be treated as a routine administrative issue.
+
+---
+
+# 8. Finding vs Risk
+
+This distinction is extremely important.
+
+### Finding
+
+> 18 supplier administrators have production access.
+
+### Risk
+
+> Excessive supplier privileged access could allow unauthorized modification or compromise of critical production systems.
+
+### Business impact
+
+> A compromise could disrupt customer services, expose information, and create regulatory and financial consequences.
+
+GRC converts:
+
+**Technical observation**
+
+into:
+
+**Business risk.**
+
+---
+
+# 9. Step 4 – Assign Risk Ownership
+
+A common mistake is assigning the risk to:
+
+> "IT Security."
+
+The actual risk owner should normally be the business executive accountable for the affected service.
+
+For example:
+
+**Risk Owner:** CIO
+
+**Security Advisor:** CISO
+
+**Business Owner:** Customer Operations Director
+
+**Supplier Owner:** Vendor Management
+
+**Remediation Owner:** DataCore Security Director
+
+This separates:
+
+* Risk ownership
+* Control ownership
+* Remediation responsibility
+
+---
+
+# 10. Risk Owner vs Remediation Owner
+
+This distinction is critical.
+
+### Risk Owner
+
+Accepts responsibility for the risk.
+
+### Control Owner
+
+Owns the relevant security control.
+
+### Remediation Owner
+
+Must fix the identified weakness.
+
+For example:
+
+**CIO**
+
+→ Risk Owner
+
+**CISO**
+
+→ Control Owner
+
+**DataCore Security Director**
+
+→ Remediation Owner
+
+The supplier should not automatically become the risk owner simply because the weakness is on the supplier side.
+
+---
+
+# 11. Step 5 – Establish a Remediation Plan
+
+The GRC team requires DataCore to submit a formal remediation plan.
+
+Example:
+
+| Action                      | Owner             | Deadline |
+| --------------------------- | ----------------- | -------- |
+| Remove unnecessary accounts | DataCore IAM      | 7 days   |
+| Disable dormant accounts    | DataCore IAM      | 3 days   |
+| Implement MFA               | DataCore IAM      | 14 days  |
+| Eliminate shared accounts   | DataCore Security | 30 days  |
+| Implement PAM               | DataCore Security | 60 days  |
+
+---
+
+# 12. Immediate Containment
+
+Because the finding is critical, GRC does not wait 60 days for the complete remediation.
+
+Immediate controls include:
+
+* Disable dormant accounts.
+* Remove unnecessary privileges.
+* Enforce MFA.
+* Restrict source IP addresses.
+* Increase monitoring.
+* Require approval for emergency access.
+
+This reduces exposure while permanent remediation is underway.
+
+---
+
+# 13. Step 6 – Determine Whether Risk Acceptance Is Appropriate
+
+Suppose DataCore says:
+
+> "PAM implementation will take three months."
+
+GRC asks:
+
+> Can the organization safely operate for three months?
+
+If yes, temporary risk treatment may be possible.
+
+If no, the organization may need to:
+
+* Suspend supplier access
+* Reduce privileges
+* Move the service
+* Introduce compensating controls
+* Require accelerated remediation
+
+---
+
+# 14. Compensating Controls
+
+If the primary control cannot be implemented immediately, compensating controls may include:
+
+* MFA
+* Jump server
+* IP restrictions
+* Session recording
+* Real-time monitoring
+* Approval workflow
+* Temporary access
+* SOC monitoring
+
+The compensating control should reduce the actual risk—not simply create additional paperwork.
+
+---
+
+# 15. Step 7 – Establish a Risk Acceptance Threshold
+
+GlobalConnect's policy states:
+
+| Risk     | Treatment                    |
+| -------- | ---------------------------- |
+| Low      | Business owner may accept    |
+| Medium   | Director approval            |
+| High     | Executive approval           |
+| Critical | Executive Committee approval |
+
+Because the finding is classified as:
+
+**Critical**
+
+the risk cannot be accepted by the supplier manager.
+
+It requires the appropriate executive authority.
+
+---
+
+# 16. Risk Acceptance Example
+
+Management temporarily accepts the risk because the supplier provides a critical service.
+
+The risk acceptance record states:
+
+**Risk:** Excessive supplier privileged access
+
+**Residual Risk:** High
+
+**Business Justification:** Supplier provides critical production support.
+
+**Compensating Controls:** MFA, PAM gateway, IP restrictions, SOC monitoring.
+
+**Risk Owner:** CIO
+
+**Acceptance Date:** August 18, 2026
+
+**Expiration:** October 31, 2026
+
+**Required Remediation:** Full PAM implementation.
+
+This is accountable risk acceptance.
+
+---
+
+# 17. Risk Acceptance Is Not Risk Closure
+
+This distinction is fundamental.
+
+### Risk Acceptance
+
+Management agrees to live with the risk temporarily or permanently.
+
+### Risk Closure
+
+The underlying risk has been sufficiently reduced or eliminated.
+
+A risk acceptance should therefore not be marked:
+
+> **Closed**
+
+simply because management signed the form.
+
+---
+
+# 18. Step 8 – Track the Finding in GRC
+
+The finding is recorded in the GRC platform.
+
+Example:
+
+| Field             | Value                 |
+| ----------------- | --------------------- |
+| Finding ID        | TPRM-2026-041         |
+| Supplier          | DataCore Technologies |
+| Severity          | Critical              |
+| Category          | Access Control        |
+| Risk Owner        | CIO                   |
+| Remediation Owner | DataCore Security     |
+| Due Date          | 60 days               |
+| Status            | In Progress           |
+| Residual Risk     | High                  |
+| Acceptance        | Temporary             |
+| Evidence Required | PAM implementation    |
+
+---
+
+# 19. Finding Lifecycle
+
+The finding moves through:
+
+**Open**
+
+↓
+
+**Validated**
+
+↓
+
+**Assigned**
+
+↓
+
+**Remediation Planned**
+
+↓
+
+**Remediation In Progress**
+
+↓
+
+**Evidence Submitted**
+
+↓
+
+**Under Verification**
+
+↓
+
+**Closed**
+
+or:
+
+**Risk Accepted**
+
+---
+
+# 20. Step 9 – Monitor Remediation
+
+GRC conducts regular reviews.
+
+Example:
+
+### Week 1
+
+18 accounts → 9 accounts
+
+### Week 2
+
+9 accounts → 4 accounts
+
+### Week 4
+
+4 accounts → 1 account
+
+### Week 6
+
+1 account → 0 unnecessary accounts
+
+Progress is measurable.
+
+---
+
+# 21. Do Not Close Based on Supplier Statements
+
+Supplier says:
+
+> "All privileged-access issues have been resolved."
+
+GRC should not immediately close the finding.
+
+Instead, request evidence.
+
+Possible evidence:
+
+* Updated access list
+* PAM screenshots
+* Configuration reports
+* MFA reports
+* Access review results
+* System logs
+* Independent validation
+
+---
+
+# 22. Evidence-Based Closure
+
+Suppose DataCore provides:
+
+* PAM deployment report
+* MFA compliance report
+* Access review
+* Privileged-session logs
+
+GRC validates:
+
+**18 → 6 → 0 unnecessary privileged accounts**
+
+and confirms:
+
+**100% privileged accounts use MFA.**
+
+The remediation is now supported by evidence.
+
+---
+
+# 23. Step 10 – Independent Verification
+
+For critical findings, the person who implemented the remediation should ideally not be the only person verifying it.
+
+For example:
+
+**DataCore**
+
+implements remediation.
+
+**GlobalConnect Security**
+
+validates technical effectiveness.
+
+**GRC**
+
+validates governance and evidence.
+
+This creates separation of duties.
+
+---
+
+# 24. Control Effectiveness Testing
+
+GRC asks:
+
+> Is the control merely implemented, or is it actually effective?
+
+Example:
+
+PAM exists.
+
+But testing discovers:
+
+* Emergency accounts bypass PAM.
+* Two service accounts remain unmanaged.
+
+Therefore:
+
+**Control exists = Yes**
+
+**Control effective = No**
+
+The finding should remain open.
+
+---
+
+# 25. Step 11 – Recalculate Residual Risk
+
+Before remediation:
+
+**Inherent Risk = Critical**
+
+After immediate controls:
+
+**Residual Risk = High**
+
+After complete remediation:
+
+**Residual Risk = Medium**
+
+The risk reduction should be documented.
+
+Example:
+
+**Critical → High → Medium**
+
+---
+
+# 26. The Importance of Risk Reduction
+
+A mature GRC function should demonstrate:
+
+> **How much risk was actually reduced?**
+
+Not merely:
+
+> "The supplier completed the action."
+
+For example:
+
+| Stage               | Risk     |
+| ------------------- | -------- |
+| Initial             | Critical |
+| Containment         | High     |
+| Partial remediation | High     |
+| Full remediation    | Medium   |
+
+This provides evidence of GRC value.
+
+---
+
+# 27. Second High-Risk Finding
+
+The assessment also identifies:
+
+> **Unsupported operating systems in the supplier environment.**
+
+DataCore has:
+
+**37 servers**
+
+of which:
+
+**6 servers**
+
+run unsupported operating systems.
+
+---
+
+# 28. Why Unsupported Systems Matter
+
+Unsupported systems may no longer receive:
+
+* Security patches
+* Vendor fixes
+* Vulnerability updates
+* Security support
+
+This increases the likelihood of exploitation.
+
+But GRC must determine:
+
+> **Are those six systems actually exposed to critical services?**
+
+---
+
+# 29. Risk Context
+
+Suppose:
+
+* 4 systems are isolated.
+* 2 systems support production.
+* 1 production system contains sensitive information.
+* Internet exposure is limited.
+
+Risk may differ significantly across the six systems.
+
+Therefore:
+
+> **Asset context matters.**
+
+---
+
+# 30. Risk Treatment
+
+Possible options:
+
+### Replace
+
+Upgrade operating system.
+
+### Isolate
+
+Network segmentation.
+
+### Compensate
+
+Additional EDR and monitoring.
+
+### Remove
+
+Decommission unnecessary servers.
+
+### Accept
+
+Only if formally justified.
+
+The preferred solution is normally:
+
+> **Remove the unsupported technology.**
+
+---
+
+# 31. Third Finding – Incomplete MFA
+
+DataCore has:
+
+**120 supplier accounts**
+
+but only:
+
+**114 accounts**
+
+have MFA.
+
+Six accounts are exceptions.
+
+GRC determines:
+
+* 2 are service accounts.
+* 2 are emergency accounts.
+* 2 are human administrator accounts.
+
+The human administrator exceptions are unacceptable.
+
+---
+
+# 32. Risk-Based Exception Management
+
+Not every exception has identical risk.
+
+### Service account
+
+May require compensating technical controls.
+
+### Emergency account
+
+May require vaulting and controlled access.
+
+### Human administrator
+
+Should normally use strong MFA.
+
+Therefore, GRC evaluates exceptions individually.
+
+---
+
+# 33. Fourth Finding – DR Testing
+
+DataCore has not tested its DR environment for:
+
+**24 months**
+
+GlobalConnect requires:
+
+**Annual testing**
+
+This is a significant resilience finding.
+
+GRC asks:
+
+* Why was the test missed?
+* Has the architecture changed?
+* Are recovery procedures current?
+* Has the supplier experienced major changes?
+* Can the service meet the required RTO/RPO?
+
+---
+
+# 34. Corrective Action
+
+DataCore commits to:
+
+**DR test within 30 days**
+
+The test must demonstrate:
+
+* Recovery time
+* Recovery point
+* Application availability
+* Data integrity
+* Communication
+* Escalation
+* Lessons learned
+
+A successful test becomes evidence for closure.
+
+---
+
+# 35. Fifth Finding – Missing Subcontractor Evidence
+
+DataCore uses three critical subcontractors.
+
+Only one has provided adequate security evidence.
+
+This creates:
+
+> **Fourth-party risk.**
+
+GRC requires:
+
+* Subcontractor inventory
+* Security assurance
+* Contractual flow-down requirements
+* Risk classification
+* Monitoring
+
+---
+
+# 36. Supplier Escalation
+
+If the supplier fails to remediate critical findings, GRC may escalate through:
+
+**Supplier Manager**
+
+↓
+
+**Procurement**
+
+↓
+
+**CISO**
+
+↓
+
+**CIO**
+
+↓
+
+**Risk Committee**
+
+↓
+
+**Executive Management**
+
+The escalation level should correspond to the risk.
+
+---
+
+# 37. Supplier Performance Review
+
+A quarterly supplier review may include:
+
+### Security
+
+* Open findings
+* Incidents
+* Vulnerabilities
+
+### Compliance
+
+* Regulatory issues
+* Audit findings
+
+### Resilience
+
+* DR tests
+* SLA performance
+
+### Governance
+
+* Risk acceptance
+* Control exceptions
+
+### Commercial
+
+* Contract performance
+
+This creates integrated supplier governance.
+
+---
+
+# 38. Supplier Risk Dashboard
+
+Example:
+
+| Metric             | Status    |
+| ------------------ | --------- |
+| Critical findings  | 0         |
+| High findings      | 2         |
+| Overdue findings   | 1         |
+| Security incidents | 1         |
+| SLA                | 99.95%    |
+| MFA                | 100%      |
+| PAM                | 100%      |
+| DR test            | Completed |
+| ISO 27001          | Valid     |
+
+The supplier is classified:
+
+**High Risk – Enhanced Monitoring**
+
+---
+
+# 39. When Should a Finding Be Escalated?
+
+Escalate when:
+
+* Critical vulnerability exists.
+* Remediation deadline is missed.
+* Supplier refuses remediation.
+* Risk exceeds appetite.
+* Security incident occurs.
+* Contractual requirements are violated.
+* Regulatory exposure exists.
+* Supplier becomes financially unstable.
+* Risk increases materially.
+
+---
+
+# 40. When Should a Supplier Be Suspended?
+
+In extreme cases, GlobalConnect may suspend supplier access.
+
+Examples:
+
+* Active compromise
+* Malicious insider
+* Uncontrolled privileged access
+* Repeated critical failures
+* Material contract breach
+* Regulatory prohibition
+* Failure to remediate unacceptable risk
+
+Suspension itself can create operational risk, so the decision must consider business continuity.
+
+---
+
+# 41. Supplier Risk vs Business Continuity
+
+Suppose DataCore's privileged access is considered too risky.
+
+Immediately terminating access could cause:
+
+* Loss of technical support
+* Service disruption
+* Customer impact
+
+Therefore, GRC must consider:
+
+> **How do we reduce supplier risk without creating an even larger operational risk?**
+
+Possible solution:
+
+* Reduce access
+* Add monitoring
+* Transition support
+* Establish alternate provider
+* Gradually remove supplier access
+
+---
+
+# 42. Exit Strategy
+
+Critical supplier relationships should have an exit strategy.
+
+It should address:
+
+* Data extraction
+* Data migration
+* Credential revocation
+* Access removal
+* Asset return
+* Data destruction
+* Knowledge transfer
+* Replacement supplier
+
+This ensures:
+
+> **Risk management does not depend on permanent supplier dependency.**
+
+---
+
+# 43. Finding Closure Criteria
+
+A high-risk finding should be closed only when:
+
+1. Root cause is understood.
+2. Corrective action is completed.
+3. Evidence is provided.
+4. Evidence is independently validated.
+5. Control operates effectively.
+6. Residual risk is recalculated.
+7. Risk owner agrees.
+8. GRC formally closes the finding.
+
+---
+
+# 44. Root Cause Matters
+
+Suppose the supplier repeatedly fails privileged-access reviews.
+
+The immediate problem:
+
+> Access review not completed.
+
+But the root cause may be:
+
+> No automated identity lifecycle integration between HR and IAM.
+
+If GRC only fixes the immediate review, the problem may return.
+
+Therefore:
+
+> **Corrective action should address the root cause, not just the symptom.**
+
+---
+
+# 45. Corrective vs Preventive Action
+
+### Corrective Action
+
+Fix the current problem.
+
+Example:
+
+Remove unauthorized accounts.
+
+### Preventive Action
+
+Prevent recurrence.
+
+Example:
+
+Automate supplier account provisioning and deprovisioning.
+
+A mature remediation plan should contain both.
+
+---
+
+# 46. Lessons Learned
+
+After the finding is closed, GRC should ask:
+
+* Why was the issue not detected earlier?
+* Was the original due diligence sufficient?
+* Did monitoring fail?
+* Was the contract weak?
+* Was ownership unclear?
+* Should the supplier tier change?
+* Should assessment frequency increase?
+
+This converts an individual finding into organizational improvement.
+
+---
+
+# 47. Supplier Risk Rating Update
+
+Before the findings:
+
+**Medium**
+
+After critical findings:
+
+**Critical**
+
+After containment:
+
+**High**
+
+After remediation:
+
+**Medium**
+
+If repeated failures occur:
+
+**High/Critical**
+
+Supplier ratings should therefore be dynamic.
+
+---
+
+# 48. Practical GRC Exercise
+
+A critical supplier has the following findings:
+
+| Finding               | Severity | Status      |
+| --------------------- | -------- | ----------- |
+| Privileged accounts   | Critical | Open        |
+| Unsupported servers   | High     | In progress |
+| MFA gaps              | High     | Remediated  |
+| DR testing            | High     | Overdue     |
+| Subprocessor evidence | Medium   | Open        |
+
+The supplier asks for another **90 days** to remediate the critical finding.
+
+You are the GRC Manager.
+
+Determine:
+
+1. Should the extension be approved?
+2. Who should approve it?
+3. What compensating controls should be required?
+4. What evidence should the supplier provide?
+5. Should the supplier's risk rating change?
+6. Should supplier access be restricted?
+7. When should escalation occur?
+8. What would constitute successful closure?
+
+---
+
+# 49. High-Risk Supplier Finding Management Model
+
+The complete process is:
+
+**Identify Finding**
+
+↓
+
+**Validate Finding**
+
+↓
+
+**Assess Business Impact**
+
+↓
+
+**Calculate Risk**
+
+↓
+
+**Assign Risk Owner**
+
+↓
+
+**Assign Remediation Owner**
+
+↓
+
+**Contain Immediate Exposure**
+
+↓
+
+**Develop Corrective Action**
+
+↓
+
+**Establish Deadline**
+
+↓
+
+**Apply Compensating Controls**
+
+↓
+
+**Monitor Progress**
+
+↓
+
+**Collect Evidence**
+
+↓
+
+**Independently Verify**
+
+↓
+
+**Recalculate Residual Risk**
+
+↓
+
+**Close or Accept Risk**
+
+↓
+
+**Monitor for Recurrence**
+
+↓
+
+**Capture Lessons Learned**
+
+---
+
+# 50. Key GRC Lesson
+
+The central lesson is:
+
+> **A supplier finding is not successfully managed when the supplier says "fixed." It is successfully managed when the organization can demonstrate that the risk has been reduced to an acceptable level through verified, effective controls.**
+
+The strongest GRC approach therefore connects:
+
+**Finding**
+
+→ **Risk**
+
+→ **Business Impact**
+
+→ **Accountability**
+
+→ **Remediation**
+
+→ **Evidence**
+
+→ **Verification**
+
+→ **Residual Risk**
+
+→ **Executive Decision**
+
+This is what transforms third-party risk management from a **vendor compliance exercise** into a genuine **enterprise risk management capability**.
+
+
 
 
 
